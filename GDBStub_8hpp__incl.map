@@ -1,0 +1,11 @@
+<map id="core/common/trapgen/debugger/GDBStub.hpp" name="core/common/trapgen/debugger/GDBStub.hpp">
+<area shape="rect" id="node3" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="342,99,508,124"/>
+<area shape="rect" id="node9" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="898,179,1049,217"/>
+<area shape="rect" id="node17" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="1011,92,1162,131"/>
+<area shape="rect" id="node19" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="1072,179,1223,217"/>
+<area shape="rect" id="node22" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="734,92,885,131"/>
+<area shape="rect" id="node23" href="$BreakpointManager_8hpp.html" title="core/common/trapgen\l/debugger/BreakpointManager.hpp" alt="" coords="1288,92,1514,131"/>
+<area shape="rect" id="node25" href="$GDBConnectionManager_8hpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.hpp" alt="" coords="1842,92,2101,131"/>
+<area shape="rect" id="node30" href="$WatchpointManager_8hpp.html" title="core/common/trapgen\l/debugger/WatchpointManager.hpp" alt="" coords="1589,92,1818,131"/>
+<area shape="rect" id="node15" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="698,265,885,304"/>
+</map>

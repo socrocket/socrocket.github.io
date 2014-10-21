@@ -1,0 +1,8 @@
+<map id="core/models/memory/memory.h" name="core/models/memory/memory.h">
+<area shape="rect" id="node2" href="$block__allocator_8cpp.html" title="core/common/block_allocator.cpp" alt="" coords="5,99,225,124"/>
+<area shape="rect" id="node3" href="$json__parser_8cpp.html" title="core/common/json_parser.cpp" alt="" coords="248,99,448,124"/>
+<area shape="rect" id="node4" href="$memory_2memory_8cpp.html" title="core/models/memory\l/memory.cpp" alt="" coords="473,92,619,131"/>
+<area shape="rect" id="node5" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="643,92,803,131"/>
+<area shape="rect" id="node6" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="828,92,1013,131"/>
+<area shape="rect" id="node7" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="828,179,1013,217"/>
+</map>

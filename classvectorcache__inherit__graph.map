@@ -1,0 +1,6 @@
+<map id="vectorcache" name="vectorcache">
+<area shape="rect" id="node5" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="5,949,222,1276"/>
+<area shape="rect" id="node6" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="246,943,458,1283"/>
+<area shape="rect" id="node3" href="$classcache__if.html" title="{cache_if\n||+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ ~cache_if()\l}" alt="" coords="231,153,381,373"/>
+<area shape="rect" id="node4" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="252,5,359,105"/>
+</map>

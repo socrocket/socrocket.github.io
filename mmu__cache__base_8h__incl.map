@@ -1,0 +1,36 @@
+<map id="core/models/mmu_cache/lib/mmu_cache_base.h" name="core/models/mmu_cache/lib/mmu_cache_base.h">
+<area shape="rect" id="node2" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1624,445,1798,471"/>
+<area shape="rect" id="node9" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2804,772,2969,797"/>
+<area shape="rect" id="node16" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1983,699,2147,724"/>
+<area shape="rect" id="node21" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="2470,272,2620,297"/>
+<area shape="rect" id="node27" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="5,612,197,651"/>
+<area shape="rect" id="node28" href="$dcio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/dcio_payload_extension.h" alt="" coords="519,92,715,131"/>
+<area shape="rect" id="node29" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="3232,445,3406,471"/>
+<area shape="rect" id="node30" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="3629,359,3794,384"/>
+<area shape="rect" id="node34" href="$ahbmaster_8h.html" title="core/models/utils/ahbmaster.h" alt="" coords="1922,99,2120,124"/>
+<area shape="rect" id="node38" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="3531,272,3722,297"/>
+<area shape="rect" id="node39" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="3181,352,3352,391"/>
+<area shape="rect" id="node41" href="$ivectorcache_8h.html" title="core/models/mmu_cache\l/lib/ivectorcache.h" alt="" coords="669,179,840,217"/>
+<area shape="rect" id="node44" href="$mmu__cache__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_if.h" alt="" coords="1227,439,1397,477"/>
+<area shape="rect" id="node47" href="$dvectorcache_8h.html" title="core/models/mmu_cache\l/lib/dvectorcache.h" alt="" coords="1579,179,1749,217"/>
+<area shape="rect" id="node48" href="$nocache_8h.html" title="core/models/mmu_cache\l/lib/nocache.h" alt="" coords="3080,265,3250,304"/>
+<area shape="rect" id="node49" href="$models_2mmu__cache_2lib_2mmu_8h.html" title="core/models/mmu_cache\l/lib/mmu.h" alt="" coords="783,265,953,304"/>
+<area shape="rect" id="node50" href="$localram_8h.html" title="core/models/mmu_cache\l/lib/localram.h" alt="" coords="1283,265,1453,304"/>
+<area shape="rect" id="node4" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1269,525,1432,564"/>
+<area shape="rect" id="node6" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1829,525,1992,564"/>
+<area shape="rect" id="node8" href="$common_8h.html" title="core/common/common.h" alt="" coords="1828,619,1996,644"/>
+<area shape="rect" id="node14" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="922,699,1086,724"/>
+<area shape="rect" id="node22" href="$base_8h.html" title="core/common/base.h" alt="" coords="2334,359,2479,384"/>
+<area shape="rect" id="node23" href="$report_8h.html" title="core/common/report.h" alt="" coords="2701,445,2853,471"/>
+<area shape="rect" id="node25" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2430,439,2626,477"/>
+<area shape="rect" id="node31" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="3811,439,3965,477"/>
+<area shape="rect" id="node32" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="3639,525,3793,564"/>
+<area shape="rect" id="node33" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="3582,439,3736,477"/>
+<area shape="rect" id="node35" href="$ahbdevice_8h.html" title="core/models/utils/ahbdevice.h" alt="" coords="2311,185,2508,211"/>
+<area shape="rect" id="node36" href="$msclogger_8h.html" title="core/common/msclogger.h" alt="" coords="1824,185,2002,211"/>
+<area shape="rect" id="node40" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="1024,525,1194,564"/>
+<area shape="rect" id="node42" href="$vectorcache_8h.html" title="core/models/mmu_cache\l/lib/vectorcache.h" alt="" coords="1477,265,1648,304"/>
+<area shape="rect" id="node43" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="576,525,746,564"/>
+<area shape="rect" id="node45" href="$tlb__adaptor_8h.html" title="core/models/mmu_cache\l/lib/tlb_adaptor.h" alt="" coords="1075,352,1245,391"/>
+<area shape="rect" id="node46" href="$mmu__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_if.h" alt="" coords="576,439,746,477"/>
+</map>

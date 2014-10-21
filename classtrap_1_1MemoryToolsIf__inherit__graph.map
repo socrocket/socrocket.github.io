@@ -1,0 +1,6 @@
+<map id="trap::MemoryToolsIf&lt; addressType &gt;" name="trap::MemoryToolsIf&lt; addressType &gt;">
+<area shape="rect" id="node2" href="$classtrap_1_1MemoryToolsIf.html" title="{trap::MemoryToolsIf\l\&lt; issueWidth \&gt;\n||+ notifyAddress()\l+ ~MemoryToolsIf()\l}" alt="" coords="36,167,174,267"/>
+<area shape="rect" id="node5" href="$classtrap_1_1MemoryToolsIf.html" title="{trap::MemoryToolsIf\l\&lt; unsigned int \&gt;\n||+ notifyAddress()\l+ ~MemoryToolsIf()\l}" alt="" coords="169,291,307,391"/>
+<area shape="rect" id="node3" href="$classtrap_1_1GDBStub.html" title="{trap::GDBStub\&lt; issueWidth \&gt;\n|+ simulationPaused\l|+ SC_HAS_PROCESS()\l+ GDBStub()\l+ pauseMethod()\l+ end_of_simulation()\l+ initialize()\l+ newIssue()\l+ emptyPipeline()\l+ notifyAddress()\l}" alt="" coords="5,415,202,581"/>
+<area shape="rect" id="node4" href="$classtrap_1_1GDBStub.html" title="{trap::GDBStub\&lt; unsigned\l int \&gt;\n|+ simulationPaused\l|+ SC_HAS_PROCESS()\l+ GDBStub()\l+ pauseMethod()\l+ end_of_simulation()\l+ initialize()\l+ newIssue()\l+ emptyPipeline()\l+ notifyAddress()\l}" alt="" coords="89,643,262,823"/>
+</map>

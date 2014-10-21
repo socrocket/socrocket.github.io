@@ -1,0 +1,30 @@
+<map id="core/models/memory/memorypower.h" name="core/models/memory/memorypower.h">
+<area shape="rect" id="node2" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1605,185,1779,211"/>
+<area shape="rect" id="node12" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1604,532,1770,557"/>
+<area shape="rect" id="node19" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="197,445,361,471"/>
+<area shape="rect" id="node31" href="$base_8h.html" title="core/common/base.h" alt="" coords="1885,99,2031,124"/>
+<area shape="rect" id="node40" href="$basememory_8h.html" title="core/models/memory\l/basememory.h" alt="" coords="1097,92,1243,131"/>
+<area shape="rect" id="node45" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="3014,272,3205,297"/>
+<area shape="rect" id="node50" href="$memdevice_8h.html" title="core/models/utils/memdevice.h" alt="" coords="2786,272,2991,297"/>
+<area shape="rect" id="node4" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1631,265,1794,304"/>
+<area shape="rect" id="node7" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1100,265,1263,304"/>
+<area shape="rect" id="node11" href="$common_8h.html" title="core/common/common.h" alt="" coords="1172,359,1340,384"/>
+<area shape="rect" id="node24" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="196,352,359,391"/>
+<area shape="rect" id="node25" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="384,352,585,391"/>
+<area shape="rect" id="node26" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="610,352,772,391"/>
+<area shape="rect" id="node27" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="796,352,959,391"/>
+<area shape="rect" id="node28" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="2160,439,2323,477"/>
+<area shape="rect" id="node29" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="983,352,1148,391"/>
+<area shape="rect" id="node17" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2537,445,2701,471"/>
+<area shape="rect" id="node32" href="$report_8h.html" title="core/common/report.h" alt="" coords="1882,185,2034,211"/>
+<area shape="rect" id="node35" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2253,179,2449,217"/>
+<area shape="rect" id="node36" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2253,265,2449,304"/>
+<area shape="rect" id="node41" href="$arraystorage_8h.html" title="core/models/memory\l/arraystorage.h" alt="" coords="930,179,1076,217"/>
+<area shape="rect" id="node42" href="$storage_8h.html" title="core/models/memory\l/storage.h" alt="" coords="930,265,1076,304"/>
+<area shape="rect" id="node43" href="$mapstorage_8h.html" title="core/models/memory\l/mapstorage.h" alt="" coords="1151,179,1297,217"/>
+<area shape="rect" id="node44" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="1287,272,1436,297"/>
+<area shape="rect" id="node46" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="3088,359,3254,384"/>
+<area shape="rect" id="node47" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="2977,439,3131,477"/>
+<area shape="rect" id="node48" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="3211,525,3365,564"/>
+<area shape="rect" id="node49" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="3154,439,3308,477"/>
+</map>

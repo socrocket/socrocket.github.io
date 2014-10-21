@@ -1,0 +1,9 @@
+<map id="core/common/trapgen/osEmulator/syscCallB.cpp" name="core/common/trapgen/osEmulator/syscCallB.cpp">
+<area shape="rect" id="node2" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="35,179,209,217"/>
+<area shape="rect" id="node8" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="969,92,1150,131"/>
+<area shape="rect" id="node9" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="910,265,1062,304"/>
+<area shape="rect" id="node16" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="486,179,638,217"/>
+<area shape="rect" id="node21" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1706,185,1872,211"/>
+<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1047,352,1234,391"/>
+<area shape="rect" id="node18" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="469,265,620,304"/>
+</map>

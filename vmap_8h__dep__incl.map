@@ -1,0 +1,22 @@
+<map id="core/common/vmap.h" name="core/common/vmap.h">
+<area shape="rect" id="node2" href="$mapstorage_8h.html" title="core/models/memory\l/mapstorage.h" alt="" coords="796,79,942,117"/>
+<area shape="rect" id="node17" href="$reliabilitymanager_8h.html" title="core/common/reliabilitymanager.h" alt="" coords="1024,85,1245,111"/>
+<area shape="rect" id="node18" href="$apbctrl_8h.html" title="core/models/apbctrl\l/apbctrl.h" alt="" coords="944,252,1082,291"/>
+<area shape="rect" id="node3" href="$basememory_8h.html" title="core/models/memory\l/basememory.h" alt="" coords="613,165,759,204"/>
+<area shape="rect" id="node16" href="$mapstorage_8cpp.html" title="core/models/memory\l/mapstorage.cpp" alt="" coords="796,165,942,204"/>
+<area shape="rect" id="node4" href="$memorypower_8h.html" title="core/models/memory\l/memorypower.h" alt="" coords="609,252,755,291"/>
+<area shape="rect" id="node13" href="$ahbmem_8h.html" title="core/models/ahbmem\l/ahbmem.h" alt="" coords="826,339,976,377"/>
+<area shape="rect" id="node15" href="$basememory_8cpp.html" title="core/models/memory\l/basememory.cpp" alt="" coords="440,252,586,291"/>
+<area shape="rect" id="node5" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="436,339,582,377"/>
+<area shape="rect" id="node12" href="$memorypower_8cpp.html" title="core/models/memory\l/memorypower.cpp" alt="" coords="605,339,751,377"/>
+<area shape="rect" id="node6" href="$block__allocator_8cpp.html" title="core/common/block_allocator.cpp" alt="" coords="175,432,395,457"/>
+<area shape="rect" id="node7" href="$json__parser_8cpp.html" title="core/common/json_parser.cpp" alt="" coords="418,432,618,457"/>
+<area shape="rect" id="node8" href="$memory_2memory_8cpp.html" title="core/models/memory\l/memory.cpp" alt="" coords="5,425,151,464"/>
+<area shape="rect" id="node9" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="642,425,803,464"/>
+<area shape="rect" id="node10" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="999,425,1184,464"/>
+<area shape="rect" id="node11" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="999,512,1184,551"/>
+<area shape="rect" id="node14" href="$ahbmem_8cpp.html" title="core/models/ahbmem\l/ahbmem.cpp" alt="" coords="826,425,976,464"/>
+<area shape="rect" id="node19" href="$apbctrl_8cpp.html" title="core/models/apbctrl\l/apbctrl.cpp" alt="" coords="1051,339,1188,377"/>
+<area shape="rect" id="node20" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="1213,339,1351,377"/>
+<area shape="rect" id="node21" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="1213,425,1351,464"/>
+</map>

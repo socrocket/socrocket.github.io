@@ -1,0 +1,5 @@
+<map id="trap::OSEmulator&lt; issueWidth &gt;" name="trap::OSEmulator&lt; issueWidth &gt;">
+<area shape="rect" id="node4" href="$classtrap_1_1OSEmulator.html" title="{trap::OSEmulator\&lt; unsigned\l int \&gt;\n||+ OSEmulator()\l+ getRegisteredFunctions()\l+ initSysCalls()\l+ initSysCalls()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~OSEmulator()\l}" alt="" coords="101,489,291,669"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="5,59,184,159"/>
+<area shape="rect" id="node3" href="$classtrap_1_1OSEmulatorBase.html" title="{trap::OSEmulatorBase\n|+ env\l+ sysconfmap\l+ programArgs\l+ heapPointer\l+ groupIDs\l+ programsCount\l|+ getRegisteredFunctions()\l+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="207,5,390,212"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="trap::OSEmulatorBase" name="trap::OSEmulatorBase">
+<area shape="rect" id="node2" href="$classtrap_1_1OSEmulator.html" title="{trap::OSEmulator\&lt; unsigned\l int \&gt;\n||+ OSEmulator()\l+ getRegisteredFunctions()\l+ initSysCalls()\l+ initSysCalls()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~OSEmulator()\l}" alt="" coords="5,489,195,669"/>
+<area shape="rect" id="node3" href="$classtrap_1_1OSEmulator.html" title="{trap::OSEmulator\&lt; issueWidth \&gt;\n||+ OSEmulator()\l+ getRegisteredFunctions()\l+ initSysCalls()\l+ initSysCalls()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~OSEmulator()\l}" alt="" coords="91,261,304,428"/>
+</map>

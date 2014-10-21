@@ -1,0 +1,4 @@
+<map id="Memory::start_of_simulation" name="Memory::start_of_simulation">
+<area shape="rect" id="node2" href="$group__memory.html#ga6d93ed558489f97fd34482db68ed2657" title="Calculate power/energy values from normalized input data. " alt="" coords="242,5,393,44"/>
+<area shape="rect" id="node3" href="$group__utils.html#ga79067301649b98a6c4572d308c5344f1" title="MEMDevice::get_bsize" alt="" coords="441,12,599,37"/>
+</map>

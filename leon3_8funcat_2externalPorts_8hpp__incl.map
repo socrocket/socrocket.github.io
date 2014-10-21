@@ -1,0 +1,13 @@
+<map id="core/models/extern/LEON3/simulatorSources/leon3.funcat/externalPorts.hpp" name="core/models/extern/LEON3/simulatorSources/leon3.funcat/externalPorts.hpp">
+<area shape="rect" id="node2" href="$leon3_8funcat_2memory_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/memory.hpp" alt="" coords="787,105,963,157"/>
+<area shape="rect" id="node3" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="403,205,554,244"/>
+<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="626,205,777,244"/>
+<area shape="rect" id="node15" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1352,299,1518,324"/>
+<area shape="rect" id="node21" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="1678,292,1870,331"/>
+<area shape="rect" id="node22" href="$dcio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/dcio_payload_extension.h" alt="" coords="1729,112,1925,151"/>
+<area shape="rect" id="node23" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1142,119,1306,144"/>
+<area shape="rect" id="node4" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="141,292,292,331"/>
+<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="468,292,655,331"/>
+<area shape="rect" id="node28" href="$common_8h.html" title="core/common/common.h" alt="" coords="922,212,1090,237"/>
+<area shape="rect" id="node29" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="924,299,1087,324"/>
+</map>

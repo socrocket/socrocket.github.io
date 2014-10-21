@@ -1,0 +1,12 @@
+<map id="satcan_test" name="satcan_test">
+<area shape="rect" id="node2" href="$satcan_8c.html#a844c1ae77fbb2abef44767ab45beeecd" title="can_init" alt="" coords="164,55,231,80"/>
+<area shape="rect" id="node6" href="$satcan_8c.html#a2b5353eac726ea8b02d08ed381f1ab15" title="catch_interrupt" alt="" coords="143,104,252,129"/>
+<area shape="rect" id="node7" href="$satcan_8c.html#a0efeab082d7bbe51fe8cb7056a4e57ed" title="enable_irq" alt="" coords="156,153,239,179"/>
+<area shape="rect" id="node8" href="$satcan_8c.html#a19fc0d3a0b331d08b386ea5aa5da6bf6" title="oc_irq_handler" alt="" coords="143,203,252,228"/>
+<area shape="rect" id="node10" href="$report__device_8c.html#a19b399e21d163c2a92510871f1a807de" title="report_device" alt="" coords="147,252,249,277"/>
+<area shape="rect" id="node11" href="$satcan_8c.html#a68e381ad6fabcb1287add03ebef406d3" title="sc_irq_handler" alt="" coords="143,301,252,327"/>
+<area shape="rect" id="node3" href="$satcan_8c.html#ae3c3aed8eaf0cc546e53d176568f3a7b" title="can_filter" alt="" coords="322,5,397,31"/>
+<area shape="rect" id="node4" href="$satcan_8c.html#a10c3eb2f9cfc2309a291378498940bfd" title="operating_mode" alt="" coords="300,55,418,80"/>
+<area shape="rect" id="node5" href="$satcan_8c.html#acbdb6a55a8e552b118827e48d8acd29c" title="reset_mode" alt="" coords="313,104,405,129"/>
+<area shape="rect" id="node9" href="$satcan_8c.html#aa1a2875e67437639cc88d400fb886e54" title="can_read_eff" alt="" coords="310,203,409,228"/>
+</map>

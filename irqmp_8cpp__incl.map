@@ -1,0 +1,27 @@
+<map id="core/models/irqmp/irqmp.cpp" name="core/models/irqmp/irqmp.cpp">
+<area shape="rect" id="node4" href="$models_2irqmp_2irqmp_8h.html" title="core/models/irqmp/irqmp.h" alt="" coords="2709,79,2888,104"/>
+<area shape="rect" id="node21" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="111,652,276,677"/>
+<area shape="rect" id="node6" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1696,732,1862,757"/>
+<area shape="rect" id="node11" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1568,392,1742,417"/>
+<area shape="rect" id="node32" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2631,385,2827,424"/>
+<area shape="rect" id="node41" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="2632,152,2829,177"/>
+<area shape="rect" id="node46" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="2916,152,3108,177"/>
+<area shape="rect" id="node47" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="3063,225,3228,251"/>
+<area shape="rect" id="node13" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1576,472,1739,511"/>
+<area shape="rect" id="node15" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="787,472,949,511"/>
+<area shape="rect" id="node19" href="$common_8h.html" title="core/common/common.h" alt="" coords="1373,565,1541,591"/>
+<area shape="rect" id="node26" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="960,559,1123,597"/>
+<area shape="rect" id="node27" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="1147,559,1349,597"/>
+<area shape="rect" id="node28" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="93,559,256,597"/>
+<area shape="rect" id="node29" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="280,559,443,597"/>
+<area shape="rect" id="node30" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="2768,645,2931,684"/>
+<area shape="rect" id="node31" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="467,559,632,597"/>
+<area shape="rect" id="node20" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2581,652,2744,677"/>
+<area shape="rect" id="node34" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2359,472,2555,511"/>
+<area shape="rect" id="node42" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="2680,225,2830,251"/>
+<area shape="rect" id="node43" href="$base_8h.html" title="core/common/base.h" alt="" coords="2520,305,2666,331"/>
+<area shape="rect" id="node44" href="$report_8h.html" title="core/common/report.h" alt="" coords="2404,392,2556,417"/>
+<area shape="rect" id="node48" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="3234,299,3388,337"/>
+<area shape="rect" id="node49" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="3222,385,3376,424"/>
+<area shape="rect" id="node50" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="3056,299,3210,337"/>
+</map>

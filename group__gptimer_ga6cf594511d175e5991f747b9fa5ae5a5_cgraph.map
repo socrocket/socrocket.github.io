@@ -1,0 +1,7 @@
+<map id="GPCounter::value_read" name="GPCounter::value_read">
+<area shape="rect" id="node2" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="264,5,380,31"/>
+<area shape="rect" id="node3" href="$group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585" title="GPTimer::numberofticksbetween" alt="" coords="215,55,430,80"/>
+<area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="254,104,390,129"/>
+<area shape="rect" id="node6" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="260,153,384,179"/>
+<area shape="rect" id="node4" href="$group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" title="GPTimer::valueof" alt="" coords="478,55,602,80"/>
+</map>

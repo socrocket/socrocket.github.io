@@ -1,0 +1,11 @@
+<map id="core/models/apbuart/io_if.h" name="core/models/apbuart/io_if.h">
+<area shape="rect" id="node2" href="$apbuart_8h.html" title="core/models/apbuart\l/apbuart.h" alt="" coords="181,92,324,131"/>
+<area shape="rect" id="node7" href="$nullio_8h.html" title="core/models/apbuart\l/nullio.h" alt="" coords="515,92,658,131"/>
+<area shape="rect" id="node9" href="$tcpio_8h.html" title="core/models/apbuart\l/tcpio.h" alt="" coords="348,92,491,131"/>
+<area shape="rect" id="node3" href="$apbuart_8cpp.html" title="core/models/apbuart\l/apbuart.cpp" alt="" coords="5,179,148,217"/>
+<area shape="rect" id="node4" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="172,179,333,217"/>
+<area shape="rect" id="node5" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="358,179,543,217"/>
+<area shape="rect" id="node6" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="358,265,543,304"/>
+<area shape="rect" id="node8" href="$nullio_8cpp.html" title="core/models/apbuart\l/nullio.cpp" alt="" coords="733,179,876,217"/>
+<area shape="rect" id="node10" href="$tcpio_8cpp.html" title="core/models/apbuart\l/tcpio.cpp" alt="" coords="567,179,710,217"/>
+</map>

@@ -1,0 +1,32 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtrap_1_1SyscallCB.html" title="trap::SyscallCB\&lt; wordSize \&gt;" alt="" coords="5,876,196,901"/>
+<area shape="rect" id="node2" href="$classtrap_1_1__exitSysCall.html" title="trap::_exitSysCall\l\&lt; wordSize \&gt;" alt="" coords="280,5,405,44"/>
+<area shape="rect" id="node3" href="$classtrap_1_1chmodSysCall.html" title="trap::chmodSysCall\l\&lt; wordSize \&gt;" alt="" coords="274,68,411,107"/>
+<area shape="rect" id="node4" href="$classtrap_1_1chownSysCall.html" title="trap::chownSysCall\l\&lt; wordSize \&gt;" alt="" coords="274,131,410,169"/>
+<area shape="rect" id="node5" href="$classtrap_1_1closeSysCall.html" title="trap::closeSysCall\l\&lt; wordSize \&gt;" alt="" coords="278,193,406,232"/>
+<area shape="rect" id="node6" href="$classtrap_1_1creatSysCall.html" title="trap::creatSysCall\l\&lt; wordSize \&gt;" alt="" coords="279,256,405,295"/>
+<area shape="rect" id="node7" href="$classtrap_1_1dup2SysCall.html" title="trap::dup2SysCall\&lt;\l wordSize \&gt;" alt="" coords="275,319,409,357"/>
+<area shape="rect" id="node8" href="$classtrap_1_1dupSysCall.html" title="trap::dupSysCall\&lt; wordSize \&gt;" alt="" coords="244,381,441,407"/>
+<area shape="rect" id="node9" href="$classtrap_1_1errorSysCall.html" title="trap::errorSysCall\l\&lt; wordSize \&gt;" alt="" coords="280,431,405,469"/>
+<area shape="rect" id="node10" href="$classtrap_1_1fstatSysCall.html" title="trap::fstatSysCall\l\&lt; wordSize \&gt;" alt="" coords="281,493,403,532"/>
+<area shape="rect" id="node11" href="$classtrap_1_1getenvSysCall.html" title="trap::getenvSysCall\l\&lt; wordSize \&gt;" alt="" coords="274,556,411,595"/>
+<area shape="rect" id="node12" href="$classtrap_1_1getpidSysCall.html" title="trap::getpidSysCall\l\&lt; wordSize \&gt;" alt="" coords="275,619,409,657"/>
+<area shape="rect" id="node13" href="$classtrap_1_1gettimeofdaySysCall.html" title="trap::gettimeofdaySysCall\l\&lt; wordSize \&gt;" alt="" coords="255,681,429,720"/>
+<area shape="rect" id="node14" href="$classtrap_1_1isattySysCall.html" title="trap::isattySysCall\l\&lt; wordSize \&gt;" alt="" coords="278,744,406,783"/>
+<area shape="rect" id="node15" href="$classtrap_1_1killSysCall.html" title="trap::killSysCall\&lt;\l wordSize \&gt;" alt="" coords="282,807,402,845"/>
+<area shape="rect" id="node16" href="$classtrap_1_1lseekSysCall.html" title="trap::lseekSysCall\l\&lt; wordSize \&gt;" alt="" coords="278,869,406,908"/>
+<area shape="rect" id="node17" href="$classtrap_1_1lstatSysCall.html" title="trap::lstatSysCall\l\&lt; wordSize \&gt;" alt="" coords="281,932,403,971"/>
+<area shape="rect" id="node18" href="$classtrap_1_1mainSysCall.html" title="trap::mainSysCall\&lt;\l wordSize \&gt;" alt="" coords="275,995,409,1033"/>
+<area shape="rect" id="node19" href="$classtrap_1_1openSysCall.html" title="trap::openSysCall\&lt;\l wordSize \&gt;" alt="" coords="275,1057,409,1096"/>
+<area shape="rect" id="node20" href="$classtrap_1_1randomSysCall.html" title="trap::randomSysCall\l\&lt; wordSize \&gt;" alt="" coords="271,1120,413,1159"/>
+<area shape="rect" id="node21" href="$classtrap_1_1readSysCall.html" title="trap::readSysCall\&lt;\l wordSize \&gt;" alt="" coords="276,1183,408,1221"/>
+<area shape="rect" id="node22" href="$classtrap_1_1sbrkSysCall.html" title="trap::sbrkSysCall\&lt;\l wordSize \&gt;" alt="" coords="277,1245,407,1284"/>
+<area shape="rect" id="node23" href="$classtrap_1_1statSysCall.html" title="trap::statSysCall\&lt;\l wordSize \&gt;" alt="" coords="279,1308,405,1347"/>
+<area shape="rect" id="node24" href="$classtrap_1_1sysconfSysCall.html" title="trap::sysconfSysCall\l\&lt; wordSize \&gt;" alt="" coords="271,1371,413,1409"/>
+<area shape="rect" id="node25" href="$classtrap_1_1timesSysCall.html" title="trap::timesSysCall\l\&lt; wordSize \&gt;" alt="" coords="278,1433,406,1472"/>
+<area shape="rect" id="node26" href="$classtrap_1_1timeSysCall.html" title="trap::timeSysCall\&lt;\l wordSize \&gt;" alt="" coords="277,1496,407,1535"/>
+<area shape="rect" id="node27" href="$classtrap_1_1unlinkSysCall.html" title="trap::unlinkSysCall\l\&lt; wordSize \&gt;" alt="" coords="276,1559,408,1597"/>
+<area shape="rect" id="node28" href="$classtrap_1_1usleepSysCall.html" title="trap::usleepSysCall\l\&lt; wordSize \&gt;" alt="" coords="274,1621,410,1660"/>
+<area shape="rect" id="node29" href="$classtrap_1_1utimesSysCall.html" title="trap::utimesSysCall\l\&lt; wordSize \&gt;" alt="" coords="274,1684,410,1723"/>
+<area shape="rect" id="node30" href="$classtrap_1_1writeSysCall.html" title="trap::writeSysCall\l\&lt; wordSize \&gt;" alt="" coords="280,1747,405,1785"/>
+</map>

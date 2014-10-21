@@ -1,0 +1,37 @@
+<map id="core/models/mmu_cache/lib/leon3_mmu_cache.h" name="core/models/mmu_cache/lib/leon3_mmu_cache.h">
+<area shape="rect" id="node2" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2384,899,2550,924"/>
+<area shape="rect" id="node7" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="678,559,852,584"/>
+<area shape="rect" id="node13" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="338,819,502,844"/>
+<area shape="rect" id="node18" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="862,372,1012,397"/>
+<area shape="rect" id="node24" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="1433,372,1607,397"/>
+<area shape="rect" id="node25" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="2960,285,3125,311"/>
+<area shape="rect" id="node30" href="$ahbmaster_8h.html" title="core/models/utils/ahbmaster.h" alt="" coords="814,199,1013,224"/>
+<area shape="rect" id="node34" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="3062,199,3253,224"/>
+<area shape="rect" id="node35" href="$mmu__cache__base_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_base.h" alt="" coords="1798,99,1968,137"/>
+<area shape="rect" id="node46" href="$localram_8h.html" title="core/models/mmu_cache\l/lib/localram.h" alt="" coords="1239,365,1409,404"/>
+<area shape="rect" id="node47" href="$leon3_8funclt_8h.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt.h" alt="" coords="186,92,361,144"/>
+<area shape="rect" id="node49" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="2910,725,3077,764"/>
+<area shape="rect" id="node50" href="$osEmulator_8hpp.html" title="core/common/trapgen\l/osEmulator/osEmulator.hpp" alt="" coords="3336,812,3525,851"/>
+<area shape="rect" id="node9" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="856,639,1019,677"/>
+<area shape="rect" id="node10" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="448,639,611,677"/>
+<area shape="rect" id="node12" href="$common_8h.html" title="core/common/common.h" alt="" coords="448,732,616,757"/>
+<area shape="rect" id="node19" href="$base_8h.html" title="core/common/base.h" alt="" coords="1530,465,1676,491"/>
+<area shape="rect" id="node20" href="$report_8h.html" title="core/common/report.h" alt="" coords="1612,559,1764,584"/>
+<area shape="rect" id="node22" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="1290,552,1486,591"/>
+<area shape="rect" id="node26" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="3138,365,3292,404"/>
+<area shape="rect" id="node27" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="3055,459,3209,497"/>
+<area shape="rect" id="node28" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="2960,365,3114,404"/>
+<area shape="rect" id="node31" href="$ahbdevice_8h.html" title="core/models/utils/ahbdevice.h" alt="" coords="951,285,1148,311"/>
+<area shape="rect" id="node32" href="$msclogger_8h.html" title="core/common/msclogger.h" alt="" coords="58,285,236,311"/>
+<area shape="rect" id="node36" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="2237,725,2429,764"/>
+<area shape="rect" id="node37" href="$dcio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/dcio_payload_extension.h" alt="" coords="1263,812,1459,851"/>
+<area shape="rect" id="node38" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="2512,279,2682,317"/>
+<area shape="rect" id="node40" href="$ivectorcache_8h.html" title="core/models/mmu_cache\l/lib/ivectorcache.h" alt="" coords="1870,365,2040,404"/>
+<area shape="rect" id="node42" href="$dvectorcache_8h.html" title="core/models/mmu_cache\l/lib/dvectorcache.h" alt="" coords="2115,365,2285,404"/>
+<area shape="rect" id="node43" href="$nocache_8h.html" title="core/models/mmu_cache\l/lib/nocache.h" alt="" coords="2512,192,2682,231"/>
+<area shape="rect" id="node44" href="$mmu__cache__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_if.h" alt="" coords="2360,365,2530,404"/>
+<area shape="rect" id="node45" href="$models_2mmu__cache_2lib_2mmu_8h.html" title="core/models/mmu_cache\l/lib/mmu.h" alt="" coords="1920,279,2090,317"/>
+<area shape="rect" id="node39" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="2392,459,2562,497"/>
+<area shape="rect" id="node41" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="1890,459,2060,497"/>
+<area shape="rect" id="node48" href="$leon3_8funclt_2processor_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/processor.hpp" alt="" coords="303,452,484,504"/>
+</map>

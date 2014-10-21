@@ -1,0 +1,4 @@
+<map id="MEMDevice" name="MEMDevice">
+<area shape="rect" id="node2" href="$classMemoryPower.html" title="{MemoryPower\n|+ m_pow_mon\l+ m_api\l+ m_performance_counters\l+ power\l+ sta_power_norm\l+ int_power_norm\l+ dyn_read_energy_norm\l+ dyn_write_energy_norm\l+ sta_power\l+ int_power\land 6 more...\l|+ GC_HAS_CALLBACKS()\l+ MemoryPower()\l+ ~MemoryPower()\l+ power_model()\l+ swi_power_cb()\l+ dyn_reads_cb()\l+ dyn_writes_cb()\l+ dyn_reads_write_cb()\l+ dyn_writes_write_cb()\l}" alt="" coords="5,247,190,560"/>
+<area shape="rect" id="node3" href="$classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM..." alt="" coords="6,608,189,815"/>
+</map>

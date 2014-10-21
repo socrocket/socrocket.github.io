@@ -1,0 +1,8 @@
+<map id="mmu_cache::icio_b_transport" name="mmu_cache::icio_b_transport">
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="250,85,412,111"/>
+<area shape="rect" id="node3" href="$group__mmu__cache__base.html#ga6c6114ab645a8f2c869cccc8ade643a1" title="Instruction interface to functional part of the model. " alt="" coords="460,23,626,61"/>
+<area shape="rect" id="node6" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="518,85,567,111"/>
+<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="489,135,596,160"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="674,5,816,31"/>
+<area shape="rect" id="node5" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="677,55,813,80"/>
+</map>

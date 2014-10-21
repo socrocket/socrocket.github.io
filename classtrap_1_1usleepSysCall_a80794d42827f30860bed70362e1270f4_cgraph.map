@@ -1,0 +1,5 @@
+<map id="trap::usleepSysCall::operator()" name="trap::usleepSysCall::operator()">
+<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="210,5,346,31"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="213,55,343,80"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="190,104,366,129"/>
+</map>

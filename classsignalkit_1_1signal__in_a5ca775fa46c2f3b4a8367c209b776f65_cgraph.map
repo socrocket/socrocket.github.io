@@ -1,0 +1,4 @@
+<map id="signalkit::signal_in::update" name="signalkit::signal_in::update">
+<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html#adf227793f1a76acd8084d454ec5c3b38" title="signalkit::signal_base\l::get_module" alt="" coords="183,5,331,44"/>
+<area shape="rect" id="node3" href="$classsignalkit_1_1signal__if.html#a5e6444af3e7a06aa9df486578a02db4a" title="Read the current signal value. " alt="" coords="194,68,320,107"/>
+</map>

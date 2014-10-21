@@ -1,0 +1,8 @@
+<map id="rtols_prepare" name="rtols_prepare">
+<area shape="rect" id="node2" href="$tolstoy_8c.html#a5173a815552422008bd0a3f22f2b47ee" title="ffw" alt="" coords="178,5,216,31"/>
+<area shape="rect" id="node3" href="$tolstoy_8c.html#aba9c56dd8762613a9eac0071323dc5c7" title="segment_ir" alt="" coords="153,55,241,80"/>
+<area shape="rect" id="node4" href="$tolstoy_8c.html#ad85d43dcbd69dc19c8f46932283a8a21" title="fft" alt="" coords="289,55,327,80"/>
+<area shape="rect" id="node5" href="$tolstoy_8c.html#a7c56a6d13c12719de425132d322f1ca5" title="fft1d" alt="" coords="378,29,425,55"/>
+<area shape="rect" id="node6" href="$tolstoy_8c.html#ad739aa3a369d534fc20b91e37b79f845" title="perm" alt="" coords="375,79,427,104"/>
+<area shape="rect" id="node7" href="$tolstoy_8c.html#a21be37b092239d7319cd2c09a152b75e" title="bitrev" alt="" coords="475,79,529,104"/>
+</map>

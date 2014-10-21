@@ -1,0 +1,5 @@
+<map id="ivectorcache" name="ivectorcache">
+<area shape="rect" id="node2" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="37,421,212,895"/>
+<area shape="rect" id="node4" href="$classcache__if.html" title="{cache_if\n||+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ ~cache_if()\l}" alt="" coords="123,153,273,373"/>
+<area shape="rect" id="node5" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="144,5,251,105"/>
+</map>

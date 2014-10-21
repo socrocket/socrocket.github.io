@@ -1,0 +1,31 @@
+<map id="core/models/ahbin/ahbin.h" name="core/models/ahbin/ahbin.h">
+<area shape="rect" id="node4" href="$ahbmaster_8h.html" title="core/models/utils/ahbmaster.h" alt="" coords="866,79,1065,104"/>
+<area shape="rect" id="node21" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1238,679,1402,704"/>
+<area shape="rect" id="node37" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="1512,79,1704,104"/>
+<area shape="rect" id="node38" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1821,152,1987,177"/>
+<area shape="rect" id="node6" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="952,412,1126,437"/>
+<area shape="rect" id="node16" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="277,765,443,791"/>
+<area shape="rect" id="node27" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="493,232,643,257"/>
+<area shape="rect" id="node32" href="$ahbdevice_8h.html" title="core/models/utils/ahbdevice.h" alt="" coords="754,152,950,177"/>
+<area shape="rect" id="node34" href="$msclogger_8h.html" title="core/common/msclogger.h" alt="" coords="551,152,729,177"/>
+<area shape="rect" id="node8" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1123,499,1285,537"/>
+<area shape="rect" id="node11" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="715,499,877,537"/>
+<area shape="rect" id="node15" href="$common_8h.html" title="core/common/common.h" alt="" coords="448,592,616,617"/>
+<area shape="rect" id="node26" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="640,585,803,624"/>
+<area shape="rect" id="node20" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="709,679,872,704"/>
+<area shape="rect" id="node28" href="$base_8h.html" title="core/common/base.h" alt="" coords="683,319,829,344"/>
+<area shape="rect" id="node29" href="$report_8h.html" title="core/common/report.h" alt="" coords="567,412,719,437"/>
+<area shape="rect" id="node31" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="347,405,543,444"/>
+<area shape="rect" id="node39" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="1824,499,1978,537"/>
+<area shape="rect" id="node46" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="1827,312,1981,351"/>
+<area shape="rect" id="node50" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="2164,225,2318,264"/>
+<area shape="rect" id="node40" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="1787,672,1941,711"/>
+<area shape="rect" id="node42" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="1964,672,2118,711"/>
+<area shape="rect" id="node43" href="$inout_8h.html" title="core/common/signalkit\l_h/inout.h" alt="" coords="1824,585,1978,624"/>
+<area shape="rect" id="node44" href="$selector_8h.html" title="core/common/signalkit\l_h/selector.h" alt="" coords="2054,585,2208,624"/>
+<area shape="rect" id="node45" href="$infield_8h.html" title="core/common/signalkit\l_h/infield.h" alt="" coords="1584,585,1738,624"/>
+<area shape="rect" id="node41" href="$ifs_8h.html" title="core/common/signalkit\l_h/ifs.h" alt="" coords="1834,759,1988,797"/>
+<area shape="rect" id="node47" href="$tlmin__scout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmin_scout\l_adapter.h" alt="" coords="1916,399,2087,451"/>
+<area shape="rect" id="node48" href="$scin__tlmout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/scin_tlmout\l_adapter.h" alt="" coords="1526,399,1698,451"/>
+<area shape="rect" id="node49" href="$tlmsc__inout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmsc_inout\l_adapter.h" alt="" coords="1721,399,1892,451"/>
+</map>

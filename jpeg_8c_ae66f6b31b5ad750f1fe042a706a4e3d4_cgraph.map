@@ -1,0 +1,8 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$jpeg_8c.html#ab89113f9aa8d6cdb476d0b7fb22e4ab8" title="dquantz_lum" alt="" coords="104,5,201,31"/>
+<area shape="rect" id="node3" href="$jpeg_8c.html#a16022970ab9b197bd3f90bda43c604c4" title="huff_ac_dec" alt="" coords="106,55,199,80"/>
+<area shape="rect" id="node5" href="$jpeg_8c.html#af6d92f2e35d59478884afb34b4ee4499" title="huff_dc_dec" alt="" coords="106,104,199,129"/>
+<area shape="rect" id="node6" href="$jpeg_8c.html#a5cede2d38d15b54f86ab1721ad0a7cd7" title="j_rev_dct" alt="" coords="115,153,190,179"/>
+<area shape="rect" id="node4" href="$jpeg_8c.html#a22a5ce9f932044856244f1127113630b" title="getbit" alt="" coords="265,80,319,105"/>
+<area shape="rect" id="node7" href="$jpeg_8c.html#a75eee1d639471f5ab8a07dc0648d5546" title="fast_idct_8" alt="" coords="249,153,335,179"/>
+</map>

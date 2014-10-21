@@ -1,0 +1,5 @@
+<map id="core/models/extern/LEON3/simulatorSources/leon3.funcat/registers.cpp" name="core/models/extern/LEON3/simulatorSources/leon3.funcat/registers.cpp">
+<area shape="rect" id="node2" href="$leon3_8funcat_2registers_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/registers.hpp" alt="" coords="114,105,292,157"/>
+<area shape="rect" id="node4" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="224,205,375,244"/>
+<area shape="rect" id="node10" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="141,292,327,331"/>
+</map>

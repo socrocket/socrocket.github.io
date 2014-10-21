@@ -1,0 +1,6 @@
+<map id="MemoryPower" name="MemoryPower">
+<area shape="rect" id="node6" href="$classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM..." alt="" coords="197,675,380,881"/>
+<area shape="rect" id="node3" href="$classCLKDevice.html" title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="123,25,283,245"/>
+<area shape="rect" id="node4" href="$classMEMDevice.html" title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}" alt="" coords="306,39,441,232"/>
+<area shape="rect" id="node5" href="$classBaseMemory.html" title="{BaseMemory\n|+ reads\l+ writes\l+ reads32\l+ writes32\l|+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\l+ erase()\l+ erase_dbg()\l}" alt="" coords="465,5,603,265"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="leon3_funcat_trap::MemoryInterface" name="leon3_funcat_trap::MemoryInterface">
+<area shape="rect" id="node2" href="$classleon3__funcat__trap_1_1LocalMemory.html" title="{leon3_funcat_trap::\lLocalMemory\n||+ LocalMemory()\l+ setDebugger()\l+ read_dword()\l+ read_word()\l+ read_half()\l+ read_byte()\l+ read_dword_dbg()\l+ read_word_dbg()\l+ read_half_dbg()\l+ read_byte_dbg()\land 11 more...\l}" alt="" coords="5,273,147,493"/>
+<area shape="rect" id="node3" href="$classleon3__funcat__trap_1_1TLMMemory.html" title="{leon3_funcat_trap::\lTLMMemory\n|+ initSocket\l|+ TLMMemory()\l+ setDebugger()\l+ nb_transport_bw()\l+ peq_cb()\l+ read_dword()\l+ read_word()\l+ read_half()\l+ read_byte()\l+ read_instr()\l+ write_dword()\land 13 more...\l}" alt="" coords="171,273,312,493"/>
+</map>

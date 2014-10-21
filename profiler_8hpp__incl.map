@@ -1,0 +1,10 @@
+<map id="core/common/trapgen/profiler/profiler.hpp" name="core/common/trapgen/profiler/profiler.hpp">
+<area shape="rect" id="node8" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1157,185,1323,211"/>
+<area shape="rect" id="node13" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="278,92,429,131"/>
+<area shape="rect" id="node15" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="473,179,624,217"/>
+<area shape="rect" id="node24" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="567,92,718,131"/>
+<area shape="rect" id="node25" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="844,92,1018,131"/>
+<area shape="rect" id="node28" href="$profInfo_8hpp.html" title="core/common/trapgen\l/profiler/profInfo.hpp" alt="" coords="1042,92,1193,131"/>
+<area shape="rect" id="node19" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="278,179,429,217"/>
+<area shape="rect" id="node22" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="130,265,316,304"/>
+</map>

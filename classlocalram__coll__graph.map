@@ -1,0 +1,7 @@
+<map id="localram" name="localram">
+<area shape="rect" id="node3" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="123,140,230,240"/>
+<area shape="rect" id="node5" href="$uniont__cache__data.html" title="{t_cache_data\n||}" alt="" coords="426,153,527,227"/>
+<area shape="rect" id="node6" href="$classchar.html" title="{char\n||}" alt="" coords="453,5,500,79"/>
+<area shape="rect" id="node7" href="$classint.html" title="{int\n||}" alt="" coords="540,5,578,79"/>
+<area shape="rect" id="node11" href="$classbool.html" title="{bool\n||}" alt="" coords="1090,153,1137,227"/>
+</map>

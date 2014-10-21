@@ -1,0 +1,26 @@
+<map id="core/models/mmu_cache/lib/vectorcache.h" name="core/models/mmu_cache/lib/vectorcache.h">
+<area shape="rect" id="node3" href="$base_8h.html" title="core/common/base.h" alt="" coords="1784,92,1930,117"/>
+<area shape="rect" id="node4" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1707,519,1873,544"/>
+<area shape="rect" id="node9" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1239,172,1413,197"/>
+<area shape="rect" id="node19" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1310,432,1473,457"/>
+<area shape="rect" id="node21" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1949,432,2114,457"/>
+<area shape="rect" id="node43" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="3068,512,3238,551"/>
+<area shape="rect" id="node44" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="2360,425,2530,464"/>
+<area shape="rect" id="node46" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="2666,512,2836,551"/>
+<area shape="rect" id="node47" href="$mmu__cache__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_if.h" alt="" coords="2165,425,2335,464"/>
+<area shape="rect" id="node48" href="$tlb__adaptor_8h.html" title="core/models/mmu_cache\l/lib/tlb_adaptor.h" alt="" coords="3068,339,3238,377"/>
+<area shape="rect" id="node32" href="$report_8h.html" title="core/common/report.h" alt="" coords="1779,172,1931,197"/>
+<area shape="rect" id="node35" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2229,165,2425,204"/>
+<area shape="rect" id="node11" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1250,252,1413,291"/>
+<area shape="rect" id="node14" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="778,252,941,291"/>
+<area shape="rect" id="node18" href="$common_8h.html" title="core/common/common.h" alt="" coords="1534,345,1702,371"/>
+<area shape="rect" id="node26" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="467,339,630,377"/>
+<area shape="rect" id="node27" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="655,339,856,377"/>
+<area shape="rect" id="node28" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="881,339,1043,377"/>
+<area shape="rect" id="node29" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="1067,339,1230,377"/>
+<area shape="rect" id="node30" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="487,425,650,464"/>
+<area shape="rect" id="node31" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="26,339,191,377"/>
+<area shape="rect" id="node36" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2229,252,2425,291"/>
+<area shape="rect" id="node45" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="2358,519,2532,544"/>
+<area shape="rect" id="node49" href="$mmu__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_if.h" alt="" coords="3017,425,3187,464"/>
+</map>

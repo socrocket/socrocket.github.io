@@ -1,0 +1,6 @@
+<map id="fftcpy" name="fftcpy">
+<area shape="rect" id="node2" href="$tolstoy_8c.html#a7c56a6d13c12719de425132d322f1ca5" title="fft1d" alt="" coords="119,5,166,31"/>
+<area shape="rect" id="node3" href="$tolstoy_8c.html#a819d15f8857f539452fa1997ba2d356d" title="permcpy" alt="" coords="106,55,179,80"/>
+<area shape="rect" id="node4" href="$tolstoy_8c.html#ad739aa3a369d534fc20b91e37b79f845" title="perm" alt="" coords="227,55,278,80"/>
+<area shape="rect" id="node5" href="$tolstoy_8c.html#a21be37b092239d7319cd2c09a152b75e" title="bitrev" alt="" coords="326,55,380,80"/>
+</map>

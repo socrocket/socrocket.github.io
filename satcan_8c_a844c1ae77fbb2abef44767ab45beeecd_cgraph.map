@@ -1,0 +1,5 @@
+<map id="can_init" name="can_init">
+<area shape="rect" id="node2" href="$satcan_8c.html#ae3c3aed8eaf0cc546e53d176568f3a7b" title="can_filter" alt="" coords="142,5,217,31"/>
+<area shape="rect" id="node3" href="$satcan_8c.html#a10c3eb2f9cfc2309a291378498940bfd" title="operating_mode" alt="" coords="121,55,238,80"/>
+<area shape="rect" id="node4" href="$satcan_8c.html#acbdb6a55a8e552b118827e48d8acd29c" title="reset_mode" alt="" coords="134,104,225,129"/>
+</map>

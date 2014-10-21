@@ -1,0 +1,11 @@
+<map id="leon3_funcat_trap::Processor_leon3_funcat::Processor_leon3_funcat" name="leon3_funcat_trap::Processor_leon3_funcat::Processor_leon3_funcat">
+<area shape="rect" id="node2" href="$classleon3__funcat__trap_1_1Processor__leon3__funcat.html#af3b530d3c8646abe68588ce9821a3190" title="leon3_funcat_trap::\lProcessor_leon3_funcat\l::mainLoop" alt="" coords="261,124,427,176"/>
+<area shape="rect" id="node8" href="$classleon3__funcat__trap_1_1RegisterBankClass.html#af98be24d106213cfdcde69a320fe3720" title="leon3_funcat_trap::\lRegisterBankClass::setNewRegister" alt="" coords="226,200,462,239"/>
+<area shape="rect" id="node9" href="$classleon3__funcat__trap_1_1RegisterBankClass.html#adf01b28993a877eae0c7723306084470" title="leon3_funcat_trap::\lRegisterBankClass::setSize" alt="" coords="251,263,437,301"/>
+<area shape="rect" id="node10" href="$classleon3__funcat__trap_1_1Alias.html#aba0a56db8aeed4adcb4782313ce3959a" title="leon3_funcat_trap::\lAlias::updateAlias" alt="" coords="276,325,412,364"/>
+<area shape="rect" id="node3" href="$classleon3__funcat__trap_1_1Instruction.html#a27ffef1cd7043743c7b988d4d02a1a5d" title="Returns the instruction name. " alt="" coords="510,5,716,44"/>
+<area shape="rect" id="node4" href="$classleon3__funcat__trap_1_1Instruction.html#a436f42e11d2fdd1d66fb9caafcecf407" title="leon3_funcat_trap::\lInstruction::getMnemonic" alt="" coords="528,68,698,107"/>
+<area shape="rect" id="node5" href="$classleon3__funcat__trap_1_1Instruction.html#a416a047866ae8edf687f34c1efc7da52" title="leon3_funcat_trap::\lInstruction::behavior" alt="" coords="542,131,684,169"/>
+<area shape="rect" id="node6" href="$classleon3__funcat__trap_1_1Instruction.html#a8dd0e3ad06a819e1e1ac303cbf148b5c" title="leon3_funcat_trap::\lInstruction::setParams" alt="" coords="536,193,690,232"/>
+<area shape="rect" id="node7" href="$classleon3__funcat__trap_1_1Instruction.html#a0779665b1a0555a8fd4e41f1f15d9290" title="leon3_funcat_trap::\lInstruction::replicate" alt="" coords="543,256,683,295"/>
+</map>

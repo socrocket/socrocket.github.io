@@ -1,0 +1,24 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtrap_1_1MemoryToolsIf.html" title="trap::MemoryToolsIf\l\&lt; issueWidth \&gt;" alt="" coords="25,229,164,268"/>
+<area shape="rect" id="node2" href="$classtrap_1_1GDBStub.html" title="trap::GDBStub\&lt; issueWidth \&gt;" alt="" coords="245,229,441,255"/>
+<area shape="rect" id="node3" href="$classtrap_1_1MemoryToolsIf.html" title="trap::MemoryToolsIf\l\&lt; unsigned int \&gt;" alt="" coords="25,5,164,44"/>
+<area shape="rect" id="node4" href="$classtrap_1_1GDBStub.html" title="trap::GDBStub\&lt; unsigned\l int \&gt;" alt="" coords="256,5,429,44"/>
+<area shape="rect" id="node5" href="$classtrap_1_1OSEmulatorBase.html" title="trap::OSEmulatorBase" alt="" coords="17,131,172,156"/>
+<area shape="rect" id="node6" href="$classtrap_1_1OSEmulator.html" title="trap::OSEmulator\&lt; unsigned\l int \&gt;" alt="" coords="248,68,438,107"/>
+<area shape="rect" id="node7" href="$classtrap_1_1OSEmulator.html" title="trap::OSEmulator\&lt; issueWidth \&gt;" alt="" coords="236,131,449,156"/>
+<area shape="rect" id="node9" href="$classIrqGenerator.html" title="IrqGenerator" alt="" coords="294,704,391,729"/>
+<area shape="rect" id="node10" href="$classleon3__funcat__trap_1_1IntrTLMPort__32.html" title="leon3_funcat_trap::\lIntrTLMPort_32" alt="" coords="275,816,410,855"/>
+<area shape="rect" id="node11" href="$classleon3__funcat__trap_1_1PinTLM__out__32.html" title="leon3_funcat_trap::\lPinTLM_out_32" alt="" coords="275,453,410,492"/>
+<area shape="rect" id="node12" href="$classleon3__funclt__trap_1_1IntrTLMPort__32.html" title="leon3_funclt_trap::\lIntrTLMPort_32" alt="" coords="277,753,408,792"/>
+<area shape="rect" id="node13" href="$classleon3__funclt__trap_1_1PinTLM__out__32.html" title="leon3_funclt_trap::\lPinTLM_out_32" alt="" coords="277,516,408,555"/>
+<area shape="rect" id="node14" href="$classtrap_1_1MemoryAT.html" title="trap::MemoryAT\&lt; N_INITIATORS,\l sockSize \&gt;" alt="" coords="232,579,454,617"/>
+<area shape="rect" id="node15" href="$classtrap_1_1MemoryLT.html" title="trap::MemoryLT\&lt; N_INITIATORS,\l sockSize \&gt;" alt="" coords="233,641,453,680"/>
+<area shape="rect" id="node16" href="$classtrap_1_1PINTarget.html" title="trap::PINTarget\&lt; sockSize \&gt;" alt="" coords="249,279,436,304"/>
+<area shape="rect" id="node17" href="$classtrap_1_1SparseMemoryAT.html" title="trap::SparseMemoryAT\l\&lt; N_INITIATORS, sockSize \&gt;" alt="" coords="245,328,441,367"/>
+<area shape="rect" id="node18" href="$classtrap_1_1SparseMemoryLT.html" title="trap::SparseMemoryLT\l\&lt; N_INITIATORS, sockSize \&gt;" alt="" coords="245,391,441,429"/>
+<area shape="rect" id="node19" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; IntrTLMPort_32 \&gt;" alt="" coords="13,788,176,827"/>
+<area shape="rect" id="node20" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; IrqGenerator \&gt;" alt="" coords="13,697,176,736"/>
+<area shape="rect" id="node21" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="5,180,184,205"/>
+<area shape="rect" id="node22" href="$classtrap_1_1Profiler.html" title="trap::Profiler\&lt; issueWidth \&gt;" alt="" coords="252,180,434,205"/>
+<area shape="rect" id="node23" href="$classtrap_1_1ToolsIf.html" title="trap::ToolsIf\&lt; unsigned\l int \&gt;" alt="" coords="17,68,172,107"/>
+</map>

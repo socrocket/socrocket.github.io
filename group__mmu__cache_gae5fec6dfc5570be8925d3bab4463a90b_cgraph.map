@@ -1,0 +1,5 @@
+<map id="mmu::mmu" name="mmu::mmu">
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga1f991048397c51e174c2a6c7d000109a" title="Dynamic/Internal power callback. " alt="" coords="144,5,282,31"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga15e7b62340b79c63c8b0abf8618ef544" title="Static power callback. " alt="" coords="142,55,283,80"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#gaffc2a0f5081f5d3638b3902d89f7806f" title="Dynamic/Switching power callback. " alt="" coords="141,104,284,129"/>
+</map>

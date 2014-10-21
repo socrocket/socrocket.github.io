@@ -1,0 +1,4 @@
+<map id="trap::WatchpointManager&lt; AddressType &gt;" name="trap::WatchpointManager&lt; AddressType &gt;">
+<area shape="rect" id="node2" href="$classtrap_1_1WatchpointManager.html" title="{trap::WatchpointManager\l\&lt; issueWidth \&gt;\n||+ WatchpointManager()\l+ clearAllWatchs()\l+ addWatchpoint()\l+ removeWatchpoint()\l+ hasWatchpoint()\l+ getWatchPoint()\l+ getWatchpoints()\l}" alt="" coords="5,233,176,400"/>
+<area shape="rect" id="node3" href="$classtrap_1_1WatchpointManager.html" title="{trap::WatchpointManager\l\&lt; unsigned int \&gt;\n||+ WatchpointManager()\l+ clearAllWatchs()\l+ addWatchpoint()\l+ removeWatchpoint()\l+ hasWatchpoint()\l+ getWatchPoint()\l+ getWatchpoints()\l}" alt="" coords="200,233,371,400"/>
+</map>

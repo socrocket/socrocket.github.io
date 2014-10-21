@@ -1,0 +1,9 @@
+<map id="mmu_cache_base::mmu_cache_base" name="mmu_cache_base::mmu_cache_base">
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga717317f634e308b22000e89a53a2933e" title="Return pointer to tlb data interface. " alt="" coords="244,5,364,31"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#gaceec7aa8e9da0891caf0936b7540a667" title="Return pointer to tlb instruction interface. " alt="" coords="247,55,362,80"/>
+<area shape="rect" id="node4" href="$group__mmu__cache__base.html#ga90ece1f7e46db3660fe534f6dc7b692e" title="Dynamic/Internal power callback. " alt="" coords="228,104,380,143"/>
+<area shape="rect" id="node5" href="$group__mmu__cache__base.html#gafdd483a589f5812e4feb6f53774dbdab" title="mmu_cache_base::mem\l_access" alt="" coords="221,167,388,205"/>
+<area shape="rect" id="node7" href="$group__mmu__cache__base.html#ga0758ff64a57207edb0aea3963537609e" title="Static power callback. " alt="" coords="227,229,382,268"/>
+<area shape="rect" id="node8" href="$group__mmu__cache__base.html#ga749d383dc04c8c2ef762e1f9ab85e06e" title="Dynamic/Switching power callback. " alt="" coords="226,292,383,331"/>
+<area shape="rect" id="node6" href="$classAHBMaster.html#aeeab73b80ddc8351609ce6d698351e96" title="Generic AHB access function (blocking and non&#45;blocking) " alt="" coords="436,173,612,199"/>
+</map>

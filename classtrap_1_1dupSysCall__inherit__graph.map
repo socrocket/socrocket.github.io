@@ -1,0 +1,3 @@
+<map id="trap::dupSysCall&lt; wordSize &gt;" name="trap::dupSysCall&lt; wordSize &gt;">
+<area shape="rect" id="node2" href="$classtrap_1_1SyscallCB.html" title="{trap::SyscallCB\&lt; wordSize \&gt;\n|# processorInstance\l# latency\l|+ SyscallCB()\l+ ~SyscallCB()\l+ operator()()\l}" alt="" coords="9,5,199,119"/>
+</map>

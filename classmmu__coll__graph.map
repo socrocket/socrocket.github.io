@@ -1,0 +1,11 @@
+<map id="mmu" name="mmu">
+<area shape="rect" id="node18" href="$classtlb__adaptor.html" title="{tlb_adaptor\n||+ tlb_adaptor()\l+ ~tlb_adaptor()\l+ mem_read()\l+ mem_write()\l}" alt="" coords="274,663,390,776"/>
+<area shape="rect" id="node3" href="$classmmu__if.html" title="{mmu_if\n||+ tlb_lookup()\l+ read_mcr()\l+ read_mctpr()\l+ read_mctxr()\l+ read_mfsr()\l+ read_mfar()\l+ write_mcr()\l+ write_mctpr()\l+ write_mctxr()\l+ diag_read_itlb()\l+ diag_write_itlb()\l+ diag_read_dctlb()\l+ diag_write_dctlb()\l+ ~mmu_if()\l}" alt="" coords="5,355,143,601"/>
+<area shape="rect" id="node10" href="$classint.html" title="{int\n||}" alt="" coords="588,5,627,79"/>
+<area shape="rect" id="node11" href="$structt__PTE__context.html" title="{t_PTE_context\n||}" alt="" coords="884,193,993,267"/>
+<area shape="rect" id="node12" href="$classuint64__t.html" title="{uint64_t\n||}" alt="" coords="939,5,1007,79"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="740,193,859,267"/>
+<area shape="rect" id="node16" href="$classbool.html" title="{bool\n||}" alt="" coords="1620,683,1667,756"/>
+<area shape="rect" id="node19" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="360,180,466,280"/>
+<area shape="rect" id="node20" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="386,421,522,535"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GPTimer::dorst" name="GPTimer::dorst">
+<area shape="rect" id="node2" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="183,5,299,31"/>
+<area shape="rect" id="node3" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="173,55,309,80"/>
+<area shape="rect" id="node4" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="165,104,317,129"/>
+<area shape="rect" id="node6" href="$group__gptimer.html#gac159200f9188081ae2d281e344cb22e5" title="Register callback executed after the presacler value is written, to recalculate the counter and ticki..." alt="" coords="165,153,317,179"/>
+<area shape="rect" id="node5" href="$group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" title="GPTimer::valueof" alt="" coords="365,104,490,129"/>
+</map>

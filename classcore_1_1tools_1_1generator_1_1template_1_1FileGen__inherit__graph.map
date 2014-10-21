@@ -1,0 +1,5 @@
+<map id="core.tools.generator.template.FileGen" name="core.tools.generator.template.FileGen">
+<area shape="rect" id="node3" href="$classcore_1_1tools_1_1generator_1_1template_1_1SystemCGen.html" title="{core.tools.generator.template.\lSystemCGen\n||+ generate()\l}" alt="" coords="5,261,203,348"/>
+<area shape="rect" id="node4" href="$classcore_1_1tools_1_1generator_1_1template_1_1TemplateGen.html" title="{core.tools.generator.template.\lTemplateGen\n||+ generate()\l}" alt="" coords="227,261,424,348"/>
+<area shape="rect" id="node2" href="$classcore_1_1tools_1_1generator_1_1template_1_1File.html" title="{core.tools.generator.template.File\n||}" alt="" coords="105,5,324,79"/>
+</map>

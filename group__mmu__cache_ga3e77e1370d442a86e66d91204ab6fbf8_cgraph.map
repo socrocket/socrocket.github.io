@@ -1,0 +1,10 @@
+<map id="vectorcache::mem_read" name="vectorcache::mem_read">
+<area shape="rect" id="node2" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="218,5,394,31"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="236,55,376,80"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#gaab73c584b93c9be13b4605bfd219e4ea" title="updates the lrr bits for every line replacement " alt="" coords="225,104,386,129"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#ga6beb516d6184a46c43f5ed937696a5fe" title="updates the lru counters for every cache hit " alt="" coords="224,153,388,179"/>
+<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="238,203,374,228"/>
+<area shape="rect" id="node7" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="222,252,390,277"/>
+<area shape="rect" id="node8" href="$classmmu__cache__if.html#a4db774d941ac7b29a676cb1e9d3ce512" title="mmu_cache_if::read_ccr" alt="" coords="222,301,389,327"/>
+<area shape="rect" id="node9" href="$group__mmu__cache.html#ga7fb4c21e513601eb6974c5dc78967961" title="returns number of the set to be refilled &#45; depending on replacement strategy " alt="" coords="219,351,393,389"/>
+</map>

@@ -1,0 +1,36 @@
+<map id="core/platforms/newleon3mp/sc_main.cpp" name="core/platforms/newleon3mp/sc_main.cpp">
+<area shape="rect" id="node4" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1650,372,1824,397"/>
+<area shape="rect" id="node14" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2570,632,2736,657"/>
+<area shape="rect" id="node25" href="$report_8h.html" title="core/common/report.h" alt="" coords="763,459,914,484"/>
+<area shape="rect" id="node27" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="2205,92,2390,131"/>
+<area shape="rect" id="node6" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="2173,452,2336,491"/>
+<area shape="rect" id="node9" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1420,452,1583,491"/>
+<area shape="rect" id="node13" href="$common_8h.html" title="core/common/common.h" alt="" coords="2296,545,2464,571"/>
+<area shape="rect" id="node19" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="784,539,947,577"/>
+<area shape="rect" id="node20" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="971,539,1173,577"/>
+<area shape="rect" id="node21" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="1197,539,1360,577"/>
+<area shape="rect" id="node22" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="1384,539,1547,577"/>
+<area shape="rect" id="node23" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="1570,539,1733,577"/>
+<area shape="rect" id="node24" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="1758,539,1922,577"/>
+<area shape="rect" id="node28" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="2063,185,2201,224"/>
+<area shape="rect" id="node30" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="2326,372,2517,397"/>
+<area shape="rect" id="node32" href="$ahbctrl_8h.html" title="core/models/ahbctrl\l/ahbctrl.h" alt="" coords="1902,279,2039,317"/>
+<area shape="rect" id="node34" href="$apbctrl_8h.html" title="core/models/apbctrl\l/apbctrl.h" alt="" coords="1740,279,1878,317"/>
+<area shape="rect" id="node35" href="$models_2irqmp_2irqmp_8h.html" title="core/models/irqmp/irqmp.h" alt="" coords="2158,285,2337,311"/>
+<area shape="rect" id="node36" href="$mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache.h" alt="" coords="1547,279,1717,317"/>
+<area shape="rect" id="node39" href="$ahbin_8h.html" title="core/models/ahbin/ahbin.h" alt="" coords="1294,285,1471,311"/>
+<area shape="rect" id="node40" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="950,279,1095,317"/>
+<area shape="rect" id="node41" href="$ahbmem_8h.html" title="core/models/ahbmem\l/ahbmem.h" alt="" coords="1120,279,1269,317"/>
+<area shape="rect" id="node42" href="$mctrl_8h.html" title="core/models/mctrl/mctrl.h" alt="" coords="2463,285,2633,311"/>
+<area shape="rect" id="node43" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="5,625,176,664"/>
+<area shape="rect" id="node44" href="$models_2gptimer_2gptimer_8h.html" title="core/models/gptimer\l/gptimer.h" alt="" coords="2823,279,2966,317"/>
+<area shape="rect" id="node45" href="$apbuart_8h.html" title="core/models/apbuart\l/apbuart.h" alt="" coords="2990,279,3133,317"/>
+<area shape="rect" id="node46" href="$tcpio_8h.html" title="core/models/apbuart\l/tcpio.h" alt="" coords="3099,365,3242,404"/>
+<area shape="rect" id="node47" href="$nullio_8h.html" title="core/models/apbuart\l/nullio.h" alt="" coords="2526,185,2669,224"/>
+<area shape="rect" id="node48" href="$ahbprof_8h.html" title="core/models/ahbprof\l/ahbprof.h" alt="" coords="2656,279,2799,317"/>
+<area shape="rect" id="node49" href="$leon3_8funclt_8h.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt.h" alt="" coords="2744,179,2920,231"/>
+<area shape="rect" id="node50" href="$leon3_8funcat_8h.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat.h" alt="" coords="2944,179,3120,231"/>
+<area shape="rect" id="node31" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="2411,459,2576,484"/>
+<area shape="rect" id="node33" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="1949,372,2099,397"/>
+<area shape="rect" id="node38" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="352,625,544,664"/>
+</map>

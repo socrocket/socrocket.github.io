@@ -1,0 +1,7 @@
+<map id="APBCtrl::exec_func" name="APBCtrl::exec_func">
+<area shape="rect" id="node2" href="$group__apbctrl.html#ga4161d40d53d042a08ca9de52d250230b" title="Get slave index for a given address. " alt="" coords="206,5,340,31"/>
+<area shape="rect" id="node3" href="$group__apbctrl.html#ga0526b9a9d4259d84d11018c5a91a9855" title="Returns a PNP register from the APB configuration area (upper 4kb of address space) ..." alt="" coords="200,55,347,80"/>
+<area shape="rect" id="node6" href="$classAHBSlave.html#a19f0d3b6df6c0447959c131af3421a88" title="Collect common transport statistics. " alt="" coords="190,104,357,143"/>
+<area shape="rect" id="node4" href="$classAHBDevice.html#ad14d81f6bf16834857581de7c61c65d6" title="AHBDevice\&lt; DefaultBase\l \&gt;::get_ahb_bar_addr" alt="" coords="405,20,578,59"/>
+<area shape="rect" id="node5" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="430,83,552,108"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="gs::reg::greenreg_socket&lt; gs::amba::amba_slave&lt; 32 &gt; &gt;" name="gs::reg::greenreg_socket&lt; gs::amba::amba_slave&lt; 32 &gt; &gt;">
+<area shape="rect" id="node2" href="$classgs_1_1amba_1_1amba__slave.html" title="{gs::amba::amba_slave\l\&lt; 32 \&gt;\n||+ amba_slave()\l+ ~amba_slave()\l+ transport_dbg()\l+ b_transport()\l+ setAddress()\l+ get_base_addr()\l+ get_size()\l+ set_delay()\l}" alt="" coords="416,649,572,829"/>
+<area shape="rect" id="node3" href="$classgs_1_1amba_1_1generic__slave__base.html" title="{gs::amba::generic_slave_base\n||+ generic_slave_base()\l+ ~generic_slave_base()\l+ get_decode_size()\l+ disable_delay()\l+ enable_delay()\l+ delay_enabled()\l# write_to_module()\l# read_from_module()\l}" alt="" coords="449,167,651,333"/>
+<area shape="rect" id="node11" href="$classgs_1_1amba_1_1amba__slave.html" title="{gs::amba::amba_slave\l\&lt; BUSWIDTH \&gt;\n||+ amba_slave()\l+ ~amba_slave()\l+ transport_dbg()\l+ b_transport()\l+ setAddress()\l+ get_base_addr()\l+ get_size()\l+ set_delay()\l}" alt="" coords="246,408,401,588"/>
+<area shape="rect" id="node6" href="$classbool.html" title="{bool\n||}" alt="" coords="662,12,708,85"/>
+</map>

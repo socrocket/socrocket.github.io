@@ -1,0 +1,9 @@
+<map id="trap::openSysCall::operator()" name="trap::openSysCall::operator()">
+<area shape="rect" id="node2" href="$classtrap_1_1OSEmulatorBase.html#a5c05482ff817fb4b891c20c36ee34973" title="trap::OSEmulatorBase\l::correct_flags" alt="" coords="198,5,353,44"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="208,68,344,93"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="211,117,341,143"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="205,167,347,192"/>
+<area shape="rect" id="node6" href="$classtrap_1_1ABIIf.html#a60fa8913c98701581368cdd84bb34ca6" title="trap::ABIIf::readCharMem" alt="" coords="189,216,362,241"/>
+<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="187,265,364,291"/>
+<area shape="rect" id="node8" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="203,315,348,340"/>
+</map>

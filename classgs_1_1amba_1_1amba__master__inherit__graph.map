@@ -1,0 +1,4 @@
+<map id="gs::amba::amba_master&lt; BUSWIDTH &gt;" name="gs::amba::amba_master&lt; BUSWIDTH &gt;">
+<area shape="rect" id="node4" href="$classgs_1_1amba_1_1amba__master.html" title="{gs::amba::amba_master\l\&lt; 32 \&gt;\n||+ amba_master()\l+ ~amba_master()\l+ random_read()\l+ random_write()\l# _read()\l# _write()\l}" alt="" coords="53,356,218,509"/>
+<area shape="rect" id="node5" href="$classgs_1_1reg_1_1greenreg__socket_3_01gs_1_1amba_1_1amba__master_3_0132_01_4_01_4.html" title="{gs::reg::greenreg_socket\l\&lt; gs::amba::amba_master\l\&lt; 32 \&gt; \&gt;\n||+ greenreg_socket()\l+ get_bus_port()\l+ operator&#45;\&gt;()\l}" alt="" coords="47,559,224,685"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="Memory::Memory" name="Memory::Memory">
+<area shape="rect" id="node2" href="$group__memory.html#ga19a51282cc8fb4953d0106f020d47693" title="TLM 2.0 blocking transport function. " alt="" coords="202,104,347,129"/>
+<area shape="rect" id="node14" href="$group__utils.html#gae4cd1ea083f4e18b17f8c5392a2e84b5" title="Return the device type name. " alt="" coords="178,229,371,255"/>
+<area shape="rect" id="node15" href="$group__memory.html#ga25bbd982ce25f88591cee448a19df215" title="read counter callback " alt="" coords="200,279,350,304"/>
+<area shape="rect" id="node16" href="$group__memory.html#gac774160f894d6a5537d9216894459c41" title="write counter callback " alt="" coords="199,328,351,353"/>
+<area shape="rect" id="node17" href="$group__memory.html#ga3725e76629e72235b5df442d5cc810b6" title="TLM 2.0 debug transport function. " alt="" coords="426,203,585,228"/>
+<area shape="rect" id="node3" href="$group__memory.html#ga12a3f33c6f6a387750ac84bc67e22be6" title="BaseMemory::erase" alt="" coords="436,55,576,80"/>
+<area shape="rect" id="node6" href="$group__memory.html#ga78eea895362a7910ef574cf2113930a9" title="BaseMemory::read_block" alt="" coords="420,104,592,129"/>
+<area shape="rect" id="node9" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="482,5,530,31"/>
+<area shape="rect" id="node11" href="$group__memory.html#gab74fd93ce3d05e891b684489ef76881c" title="BaseMemory::write_block" alt="" coords="419,153,593,179"/>
+<area shape="rect" id="node4" href="$group__memory.html#ga3d4a38e8448bfa1e3b62ba2ef84d1c84" title="BaseMemory::erase_dbg" alt="" coords="658,55,828,80"/>
+<area shape="rect" id="node5" href="$classStorage.html#ae55c16cb093438b9e40111c25f30a2e8" title="Storage::erase" alt="" coords="909,55,1018,80"/>
+<area shape="rect" id="node7" href="$group__memory.html#gad63996f7ed8fca5197a47b7710b1d55c" title="BaseMemory::read_block_dbg" alt="" coords="642,116,844,141"/>
+<area shape="rect" id="node8" href="$classStorage.html#a6c83e9cda63966dc65b1aefcb31e8f43" title="Storage::read_block" alt="" coords="893,116,1034,141"/>
+<area shape="rect" id="node10" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="705,5,781,31"/>
+<area shape="rect" id="node12" href="$group__memory.html#ga724b49aea970f1e4dee15c5ff572ce40" title="BaseMemory::write_block_dbg" alt="" coords="641,189,845,215"/>
+<area shape="rect" id="node13" href="$classStorage.html#a391102341dd513ec89290eff8407c3d5" title="Storage::write_block" alt="" coords="893,189,1035,215"/>
+</map>

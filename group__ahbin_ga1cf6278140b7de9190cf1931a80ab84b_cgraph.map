@@ -1,0 +1,5 @@
+<map id="AHBIn::AHBIn" name="AHBIn::AHBIn">
+<area shape="rect" id="node2" href="$group__ahbin.html#ga44dd8f1bce3c1e681ce258c0fd8e1ff3" title="Thread for triggering gen_frame (generates new_frame event) " alt="" coords="159,5,306,31"/>
+<area shape="rect" id="node3" href="$group__ahbin.html#ga1299df9f2abb2e5dca73171fabcbb22d" title="Thread for generating the data frame. " alt="" coords="167,55,298,80"/>
+<area shape="rect" id="node4" href="$classAHBMaster.html#a3ea461ba0161c12ee8282176275de23d" title="Write data to AHB (SC_ZERO_TIME version) " alt="" coords="354,48,527,87"/>
+</map>

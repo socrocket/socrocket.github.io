@@ -1,0 +1,4 @@
+<map id="pci_write_config_byte" name="pci_write_config_byte">
+<area shape="rect" id="node2" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="204,5,363,31"/>
+<area shape="rect" id="node3" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="203,55,364,80"/>
+</map>

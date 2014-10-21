@@ -1,0 +1,10 @@
+<map id="APBCtrl::start_of_simulation" name="APBCtrl::start_of_simulation">
+<area shape="rect" id="node2" href="$group__apbctrl.html#gaca9e6414720bfd4f8aa8dd790f18dd24" title="Check memory map for overlaps. " alt="" coords="243,5,409,31"/>
+<area shape="rect" id="node3" href="$classAPBDeviceBase.html#ac34164cc1593fa04120fb15757b3a329" title="APBDeviceBase::get\l_apb_base" alt="" coords="253,55,398,93"/>
+<area shape="rect" id="node4" href="$classAPBDeviceBase.html#ad23e47565a83d9597074bf777f37471e" title="APBDeviceBase::get\l_apb_device_info" alt="" coords="253,117,398,156"/>
+<area shape="rect" id="node5" href="$classAPBDeviceBase.html#af8e996062fc348f53173cc53b22c8463" title="APBDeviceBase::get\l_apb_mask" alt="" coords="253,180,398,219"/>
+<area shape="rect" id="node6" href="$classAPBDeviceBase.html#aad193d7d3b057c58ee0987078e852f37" title="Returns the bus id of the module (pindex) " alt="" coords="253,243,398,281"/>
+<area shape="rect" id="node7" href="$classAPBDeviceBase.html#a2f0bbc039f9abc3f532125f6edf0ce63" title="APBDeviceBase::get\l_apb_type" alt="" coords="253,305,398,344"/>
+<area shape="rect" id="node8" href="$group__apbctrl.html#gae7ab5872b86dc2cf03a40f324c5aca99" title="Calculate power/energy values from normalized input data. " alt="" coords="248,368,404,393"/>
+<area shape="rect" id="node9" href="$group__apbctrl.html#ga3b57662085ecf74e0a906079c1ca57fe" title="Helper function for creating slave map decoder entries. " alt="" coords="241,417,410,443"/>
+</map>

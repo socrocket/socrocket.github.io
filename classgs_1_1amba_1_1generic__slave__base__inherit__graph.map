@@ -1,0 +1,5 @@
+<map id="gs::amba::generic_slave_base" name="gs::amba::generic_slave_base">
+<area shape="rect" id="node2" href="$classgs_1_1amba_1_1amba__slave.html" title="{gs::amba::amba_slave\l\&lt; 32 \&gt;\n|# m_base\l# m_high\l|+ amba_slave()\l+ ~amba_slave()\l+ transport_dbg()\l+ b_transport()\l+ setAddress()\l+ get_base_addr()\l+ get_size()\l+ set_delay()\l}" alt="" coords="31,516,187,709"/>
+<area shape="rect" id="node4" href="$classgs_1_1amba_1_1amba__slave.html" title="{gs::amba::amba_slave\l\&lt; BUSWIDTH \&gt;\n|# m_base\l# m_high\l|+ amba_slave()\l+ ~amba_slave()\l+ transport_dbg()\l+ b_transport()\l+ setAddress()\l+ get_base_addr()\l+ get_size()\l+ set_delay()\l}" alt="" coords="107,261,263,455"/>
+<area shape="rect" id="node3" href="$classgs_1_1reg_1_1greenreg__socket_3_01gs_1_1amba_1_1amba__slave_3_0132_01_4_01_4.html" title="greenreg_socket: A greenreg port class " alt="" coords="25,759,194,885"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="core/models/ahbctrl/ahbctrl.h" name="core/models/ahbctrl/ahbctrl.h">
+<area shape="rect" id="node2" href="$ahbctrl_8cpp.html" title="core/models/ahbctrl\l/ahbctrl.cpp" alt="" coords="5,92,143,131"/>
+<area shape="rect" id="node3" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="168,92,306,131"/>
+<area shape="rect" id="node5" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="251,179,436,217"/>
+<area shape="rect" id="node7" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="381,92,541,131"/>
+<area shape="rect" id="node4" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="89,179,227,217"/>
+<area shape="rect" id="node6" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="251,265,436,304"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="io_if" name="io_if">
+<area shape="rect" id="node2" href="$classNullIO.html" title="{NullIO\n||+ NullIO()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="5,160,150,287"/>
+<area shape="rect" id="node3" href="$classTcpIo.html" title="{TcpIo\n||+ TcpIo()\l+ ~TcpIo()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="175,153,319,293"/>
+</map>

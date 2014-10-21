@@ -1,0 +1,6 @@
+<map id="mmu_cache_if" name="mmu_cache_if">
+<area shape="rect" id="node3" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="105,315,293,761"/>
+<area shape="rect" id="node2" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="146,5,253,105"/>
+<area shape="rect" id="node4" href="$classleon3__mmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="5,809,188,1096"/>
+<area shape="rect" id="node5" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="212,816,395,1089"/>
+</map>

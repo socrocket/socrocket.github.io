@@ -1,0 +1,5 @@
+<map id="leon3_funclt_trap::MemoryInterface" name="leon3_funclt_trap::MemoryInterface">
+<area shape="rect" id="node2" href="$classleon3__funclt__trap_1_1LocalMemory.html" title="{leon3_funclt_trap::\lLocalMemory\n||+ LocalMemory()\l+ setDebugger()\l+ read_dword()\l+ read_word()\l+ read_half()\l+ read_byte()\l+ read_dword_dbg()\l+ read_word_dbg()\l+ read_half_dbg()\l+ read_byte_dbg()\land 11 more...\l}" alt="" coords="5,307,147,527"/>
+<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1TLMMemory.html" title="{leon3_funclt_trap::\lTLMMemory\n|+ initSocket\l|+ TLMMemory()\l+ setDebugger()\l+ read_dword()\l+ read_word()\l+ read_half()\l+ read_byte()\l+ read_instr()\l+ write_dword()\l+ write_word()\l+ write_half()\land 11 more...\l}" alt="" coords="171,307,302,527"/>
+<area shape="rect" id="node4" href="$classleon3__mmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="326,273,509,560"/>
+</map>
