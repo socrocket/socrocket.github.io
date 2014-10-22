@@ -1,0 +1,16 @@
+<map id="core/common/trapgen" name="core/common/trapgen">
+<area shape="rect" id="node4" href="dir_bc23716f694f54b963466dc9a2841eff.html" title="debugger" alt="" coords="256,161,331,209"/>
+<area shape="rect" id="node9" href="dir_cb969649e5bcf49812d69db14b86548b.html" title="utils" alt="" coords="129,257,201,305"/>
+<area shape="rect" id="edge4" href="dir_000014_000019.html" title="2" alt="" coords="213,244,221,262"/>
+<area shape="rect" id="node5" href="dir_22d32d57e1a6be45655838ff41a5acdb.html" title="elfloader" alt="" coords="37,161,109,209"/>
+<area shape="rect" id="edge8" href="dir_000015_000019.html" title="2" alt="" coords="131,229,139,247"/>
+<area shape="rect" id="node6" href="dir_a990ca961811c33ce95cf65df0c0b043.html" title="misc" alt="" coords="160,161,232,209"/>
+<area shape="rect" id="edge10" href="dir_000016_000019.html" title="5" alt="" coords="183,233,191,251"/>
+<area shape="rect" id="node7" href="dir_4801635ac7c278397148159a5ddabbef.html" title="osEmulator" alt="" coords="133,65,221,113"/>
+<area shape="rect" id="edge14" href="dir_000017_000015.html" title="3" alt="" coords="115,146,123,164"/>
+<area shape="rect" id="edge12" href="dir_000017_000019.html" title="1" alt="" coords="156,229,164,246"/>
+<area shape="rect" id="node8" href="dir_bf5494191f21b9c95e983325cabec758.html" title="profiler" alt="" coords="37,65,109,113"/>
+<area shape="rect" id="edge6" href="dir_000018_000015.html" title="1" alt="" coords="78,134,86,151"/>
+<area shape="rect" id="graph3" href="dir_2e02879f76629e1905a9f87df5966f4f.html" alt="" coords="27,55,341,316"/>
+<area shape="rect" id="graph2" href="dir_3d0a500f94b8a53a06724a5d3d2ad9c9.html" title="common" alt="" coords="16,16,352,327"/>
+</map>
