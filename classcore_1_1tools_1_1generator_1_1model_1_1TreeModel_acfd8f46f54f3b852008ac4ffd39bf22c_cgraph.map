@@ -1,10 +1,10 @@
 <map id="core.tools.generator.model.TreeModel.saveToJsonFile" name="core.tools.generator.model.TreeModel.saveToJsonFile">
-<area shape="rect" id="node2" href="$classcore_1_1tools_1_1generator_1_1item_1_1null_1_1NullItem.html#a0db79860120f656b041a2831d44cd8ea" title="core.tools.generator.item.null.\lNullItem.save" alt="" coords="250,5,446,44"/>
-<area shape="rect" id="node3" href="$classcore_1_1tools_1_1generator_1_1item_1_1string_1_1StringItem.html#a0858183fea720daa89191bf7a67e6488" title="core.tools.generator.item.string.\lStringItem.save" alt="" coords="244,68,452,107"/>
-<area shape="rect" id="node4" href="$group__common.html#ga02a64c6a313b2bff904c7f3520767fed" title="json_parser::save" alt="" coords="284,131,411,156"/>
-<area shape="rect" id="node5" href="$classcore_1_1tools_1_1generator_1_1item_1_1boolean_1_1BooleanItem.html#a52263e9e42c054f94f7d0ae3a5ddf98f" title="core.tools.generator.item.boolean.\lBooleanItem.save" alt="" coords="236,180,459,219"/>
-<area shape="rect" id="node6" href="$classcore_1_1tools_1_1generator_1_1item_1_1item_1_1Item.html#a91a6e125bf416e85dae70abf5cfe5a68" title="core.tools.generator.item.item.\lItem.save" alt="" coords="247,243,448,281"/>
-<area shape="rect" id="node7" href="$classcore_1_1tools_1_1generator_1_1item_1_1enum_1_1IntegerItem.html#a4add4d189a5a45a3c6f216f4b9eeed9d" title="core.tools.generator.item.enum.\lIntegerItem.save" alt="" coords="243,305,452,344"/>
-<area shape="rect" id="node8" href="$classcore_1_1tools_1_1generator_1_1item_1_1integer_1_1IntegerItem.html#afb34b92188f017a8a6ada8b38daa9453" title="core.tools.generator.item.integer.\lIntegerItem.save" alt="" coords="240,368,455,407"/>
-<area shape="rect" id="node9" href="$classcore_1_1tools_1_1generator_1_1model_1_1TreeModel.html#af711cb4fc4983cf90b8725a1fdf1bf4f" title="core.tools.generator.model.\lTreeModel.save" alt="" coords="256,431,439,469"/>
+<area shape="rect" id="node3" href="$classcore_1_1tools_1_1generator_1_1item_1_1null_1_1NullItem.html#a0db79860120f656b041a2831d44cd8ea" title="core.tools.generator.item.null.\lNullItem.save" alt="" coords="247,5,441,51"/>
+<area shape="rect" id="node5" href="$classcore_1_1tools_1_1generator_1_1item_1_1string_1_1StringItem.html#a0858183fea720daa89191bf7a67e6488" title="core.tools.generator.item.string.\lStringItem.save" alt="" coords="241,74,447,121"/>
+<area shape="rect" id="node7" href="$group__common.html#ga02a64c6a313b2bff904c7f3520767fed" title="json_parser::save" alt="" coords="281,144,407,173"/>
+<area shape="rect" id="node9" href="$classcore_1_1tools_1_1generator_1_1item_1_1boolean_1_1BooleanItem.html#a52263e9e42c054f94f7d0ae3a5ddf98f" title="core.tools.generator.item.boolean.\lBooleanItem.save" alt="" coords="235,197,453,243"/>
+<area shape="rect" id="node11" href="$classcore_1_1tools_1_1generator_1_1item_1_1item_1_1Item.html#a91a6e125bf416e85dae70abf5cfe5a68" title="core.tools.generator.item.item.\lItem.save" alt="" coords="245,266,443,313"/>
+<area shape="rect" id="node13" href="$classcore_1_1tools_1_1generator_1_1item_1_1enum_1_1IntegerItem.html#a4add4d189a5a45a3c6f216f4b9eeed9d" title="core.tools.generator.item.enum.\lIntegerItem.save" alt="" coords="241,335,447,382"/>
+<area shape="rect" id="node15" href="$classcore_1_1tools_1_1generator_1_1item_1_1integer_1_1IntegerItem.html#afb34b92188f017a8a6ada8b38daa9453" title="core.tools.generator.item.integer.\lIntegerItem.save" alt="" coords="237,405,451,451"/>
+<area shape="rect" id="node17" href="$classcore_1_1tools_1_1generator_1_1model_1_1TreeModel.html#af711cb4fc4983cf90b8725a1fdf1bf4f" title="core.tools.generator.model.\lTreeModel.save" alt="" coords="255,474,433,521"/>
 </map>

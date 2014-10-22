@@ -1,11 +1,11 @@
 <map id="core/common/trapgen/debugger/GDBStub.hpp" name="core/common/trapgen/debugger/GDBStub.hpp">
-<area shape="rect" id="node3" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="342,99,508,124"/>
-<area shape="rect" id="node9" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="898,179,1049,217"/>
-<area shape="rect" id="node17" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="1011,92,1162,131"/>
-<area shape="rect" id="node19" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="1072,179,1223,217"/>
-<area shape="rect" id="node22" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="734,92,885,131"/>
-<area shape="rect" id="node23" href="$BreakpointManager_8hpp.html" title="core/common/trapgen\l/debugger/BreakpointManager.hpp" alt="" coords="1288,92,1514,131"/>
-<area shape="rect" id="node25" href="$GDBConnectionManager_8hpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.hpp" alt="" coords="1842,92,2101,131"/>
-<area shape="rect" id="node30" href="$WatchpointManager_8hpp.html" title="core/common/trapgen\l/debugger/WatchpointManager.hpp" alt="" coords="1589,92,1818,131"/>
-<area shape="rect" id="node15" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="698,265,885,304"/>
+<area shape="rect" id="node5" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="339,111,504,140"/>
+<area shape="rect" id="node18" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="895,198,1041,245"/>
+<area shape="rect" id="node38" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="1005,102,1152,149"/>
+<area shape="rect" id="node43" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="1065,198,1212,245"/>
+<area shape="rect" id="node52" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="733,102,880,149"/>
+<area shape="rect" id="node57" href="$BreakpointManager_8hpp.html" title="core/common/trapgen\l/debugger/BreakpointManager.hpp" alt="" coords="1277,102,1496,149"/>
+<area shape="rect" id="node64" href="$GDBConnectionManager_8hpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.hpp" alt="" coords="1819,102,2072,149"/>
+<area shape="rect" id="node77" href="$WatchpointManager_8hpp.html" title="core/common/trapgen\l/debugger/WatchpointManager.hpp" alt="" coords="1571,102,1795,149"/>
+<area shape="rect" id="node30" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="693,294,880,341"/>
 </map>

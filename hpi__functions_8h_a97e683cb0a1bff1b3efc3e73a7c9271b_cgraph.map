@@ -1,4 +1,4 @@
 <map id="lcd_hpi_read_word" name="lcd_hpi_read_word">
-<area shape="rect" id="node2" href="$hpi__functions_8c.html#ad6a8869713ba7464a682a80cc29ab973" title="inw" alt="" coords="191,5,233,31"/>
-<area shape="rect" id="node3" href="$hpi__functions_8c.html#afffec2ee4bfb249f9cd3ec3a12685959" title="outw" alt="" coords="187,55,237,80"/>
+<area shape="rect" id="node3" href="$hpi__functions_8c.html#ad6a8869713ba7464a682a80cc29ab973" title="inw" alt="" coords="188,5,231,35"/>
+<area shape="rect" id="node5" href="$hpi__functions_8c.html#afffec2ee4bfb249f9cd3ec3a12685959" title="outw" alt="" coords="184,59,235,88"/>
 </map>

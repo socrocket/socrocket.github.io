@@ -1,12 +1,12 @@
 <map id="cramtest" name="cramtest">
-<area shape="rect" id="node2" href="$cache_8h.html#af8da62d251048a6a57365ef1541338c4" title="cache_disable" alt="" coords="126,5,232,31"/>
-<area shape="rect" id="node3" href="$cache_8h.html#a8c56c4c4a9e578ad50002d8d751b94e1" title="cache_enable" alt="" coords="127,55,231,80"/>
-<area shape="rect" id="node4" href="$ramtest_8c.html#ae62105ac3b8fdf1adf32f4c900f4932a" title="ddramtest1" alt="" coords="135,104,223,129"/>
-<area shape="rect" id="node5" href="$ramtest_8c.html#a96ae36a97e0a943554743df04e4575db" title="ddramtest2" alt="" coords="135,153,223,179"/>
-<area shape="rect" id="node6" href="$ramtest_8c.html#a93e59ae7c1a150216413e2a974d04184" title="dtramtest" alt="" coords="141,203,218,228"/>
-<area shape="rect" id="node7" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="154,252,204,277"/>
-<area shape="rect" id="node8" href="$ramtest_8c.html#aa284b7edc8534174fa399630633cd048" title="idramtest" alt="" coords="141,301,217,327"/>
-<area shape="rect" id="node9" href="$ramtest_8c.html#adc4d9e7d24644503559e6072f7ebbdf9" title="itramtest" alt="" coords="143,351,215,376"/>
-<area shape="rect" id="node10" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="126,400,232,425"/>
-<area shape="rect" id="node11" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="147,449,212,475"/>
+<area shape="rect" id="node3" href="$cache_8h.html#af8da62d251048a6a57365ef1541338c4" title="cache_disable" alt="" coords="129,5,233,35"/>
+<area shape="rect" id="node5" href="$cache_8h.html#a8c56c4c4a9e578ad50002d8d751b94e1" title="cache_enable" alt="" coords="131,59,232,88"/>
+<area shape="rect" id="node7" href="$ramtest_8c.html#ae62105ac3b8fdf1adf32f4c900f4932a" title="ddramtest1" alt="" coords="139,112,224,141"/>
+<area shape="rect" id="node9" href="$ramtest_8c.html#a96ae36a97e0a943554743df04e4575db" title="ddramtest2" alt="" coords="139,165,224,195"/>
+<area shape="rect" id="node11" href="$ramtest_8c.html#a93e59ae7c1a150216413e2a974d04184" title="dtramtest" alt="" coords="143,219,220,248"/>
+<area shape="rect" id="node13" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="156,272,207,301"/>
+<area shape="rect" id="node15" href="$ramtest_8c.html#aa284b7edc8534174fa399630633cd048" title="idramtest" alt="" coords="144,325,219,355"/>
+<area shape="rect" id="node17" href="$ramtest_8c.html#adc4d9e7d24644503559e6072f7ebbdf9" title="itramtest" alt="" coords="145,379,217,408"/>
+<area shape="rect" id="node19" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="129,432,233,461"/>
+<area shape="rect" id="node21" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="149,485,213,515"/>
 </map>

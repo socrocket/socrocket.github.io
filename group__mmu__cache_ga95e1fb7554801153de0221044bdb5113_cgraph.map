@@ -1,7 +1,7 @@
 <map id="mmu_cache::exec_instr" name="mmu_cache::exec_instr">
-<area shape="rect" id="node2" href="$group__mmu__cache__base.html#ga6c6114ab645a8f2c869cccc8ade643a1" title="Instruction interface to functional part of the model. " alt="" coords="215,23,381,61"/>
-<area shape="rect" id="node5" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="274,85,323,111"/>
-<area shape="rect" id="node6" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="245,135,352,160"/>
-<area shape="rect" id="node3" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="429,5,572,31"/>
-<area shape="rect" id="node4" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="433,55,569,80"/>
+<area shape="rect" id="node3" href="$group__mmu__cache__base.html#ga6c6114ab645a8f2c869cccc8ade643a1" title="Instruction interface to functional part of the model. " alt="" coords="217,23,380,70"/>
+<area shape="rect" id="node9" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="273,93,324,123"/>
+<area shape="rect" id="node11" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="245,147,352,176"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="431,5,569,35"/>
+<area shape="rect" id="node7" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="433,59,567,88"/>
 </map>

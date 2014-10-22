@@ -1,12 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html" title="signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;" alt="" coords="191,69,339,108"/>
-<area shape="rect" id="node3" href="$classsignalkit_1_1signal__in.html" title="signalkit::signal_in\l\&lt; TYPE, MODULE \&gt;" alt="" coords="398,68,542,107"/>
-<area shape="rect" id="node5" href="$classsignalkit_1_1signal__infield.html" title="signalkit::signal_infield\l\&lt; TYPE, MODULE \&gt;" alt="" coords="393,5,547,44"/>
-<area shape="rect" id="node6" href="$classsignalkit_1_1signal__out.html" title="signalkit::signal_out\l\&lt; TYPE, MODULE \&gt;" alt="" coords="398,131,542,169"/>
-<area shape="rect" id="node7" href="$classsignalkit_1_1signal__selector.html" title="signalkit::signal_selector\l\&lt; TYPE, MODULE \&gt;" alt="" coords="387,193,553,232"/>
-<area shape="rect" id="node4" href="$classsignalkit_1_1signal__inout.html" title="signalkit::signal_inout\l\&lt; TYPE, MODULE \&gt;" alt="" coords="601,100,749,139"/>
-<area shape="rect" id="node8" href="$classsignalkit_1_1signal__if.html" title="signalkit::signal_if\l\&lt; TYPE \&gt;" alt="" coords="11,11,137,49"/>
-<area shape="rect" id="node9" href="$singletonsignalkit_1_1signal__in__if.html" title="signalkit::signal_in\l_if\&lt; TYPE \&gt;" alt="" coords="200,7,330,45"/>
-<area shape="rect" id="node10" href="$classsignalkit_1_1signal__out__if.html" title="signalkit::signal_out\l_if\&lt; TYPE \&gt;" alt="" coords="196,132,334,171"/>
-<area shape="rect" id="node11" href="$classsignalkit_1_1signal__out__bind__if.html" title="signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;" alt="" coords="5,161,143,200"/>
+<area shape="rect" id="node3" href="$classsignalkit_1_1signal__base.html" title="signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;" alt="" coords="192,77,339,123"/>
+<area shape="rect" id="node5" href="$classsignalkit_1_1signal__in.html" title="signalkit::signal_in\l\&lt; TYPE, MODULE \&gt;" alt="" coords="396,74,543,121"/>
+<area shape="rect" id="node9" href="$classsignalkit_1_1signal__infield.html" title="signalkit::signal_infield\l\&lt; TYPE, MODULE \&gt;" alt="" coords="393,5,545,51"/>
+<area shape="rect" id="node11" href="$classsignalkit_1_1signal__out.html" title="signalkit::signal_out\l\&lt; TYPE, MODULE \&gt;" alt="" coords="396,143,543,190"/>
+<area shape="rect" id="node14" href="$classsignalkit_1_1signal__selector.html" title="signalkit::signal_selector\l\&lt; TYPE, MODULE \&gt;" alt="" coords="387,213,552,259"/>
+<area shape="rect" id="node7" href="$classsignalkit_1_1signal__inout.html" title="signalkit::signal_inout\l\&lt; TYPE, MODULE \&gt;" alt="" coords="600,109,747,155"/>
+<area shape="rect" id="node15" href="$classsignalkit_1_1signal__if.html" title="signalkit::signal_if\l\&lt; TYPE \&gt;" alt="" coords="12,11,137,58"/>
+<area shape="rect" id="node17" href="$classsignalkit_1_1signal__in__if.html" title="signalkit::signal_in\l_if\&lt; TYPE \&gt;" alt="" coords="201,7,329,54"/>
+<area shape="rect" id="node21" href="$classsignalkit_1_1signal__out__if.html" title="signalkit::signal_out\l_if\&lt; TYPE \&gt;" alt="" coords="197,146,333,193"/>
+<area shape="rect" id="node23" href="$classsignalkit_1_1signal__out__bind__if.html" title="signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;" alt="" coords="7,177,143,223"/>
 </map>

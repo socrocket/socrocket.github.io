@@ -1,4 +1,4 @@
 <map id="mmu_cache_base::write_ccr" name="mmu_cache_base::write_ccr">
-<area shape="rect" id="node2" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="252,5,359,31"/>
-<area shape="rect" id="node3" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="244,55,367,80"/>
+<area shape="rect" id="node3" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="251,5,357,35"/>
+<area shape="rect" id="node5" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="244,59,364,88"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="core/models/extern/LEON3/simulatorSources/leon3.funclt/alias.hpp" name="core/models/extern/LEON3/simulatorSources/leon3.funclt/alias.hpp">
-<area shape="rect" id="node2" href="$leon3_8funclt_2registers_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/registers.hpp" alt="" coords="202,105,378,157"/>
-<area shape="rect" id="node4" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="224,205,375,244"/>
-<area shape="rect" id="node10" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="141,292,327,331"/>
+<area shape="rect" id="node3" href="$leon3_8funclt_2registers_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/registers.hpp" alt="" coords="203,117,376,181"/>
+<area shape="rect" id="node7" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="224,230,371,277"/>
+<area shape="rect" id="node19" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="139,326,325,373"/>
 </map>

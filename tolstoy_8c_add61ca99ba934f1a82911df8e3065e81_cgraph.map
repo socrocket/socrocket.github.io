@@ -1,9 +1,9 @@
 <map id="fconv" name="fconv">
-<area shape="rect" id="node2" href="$tolstoy_8c.html#a15bdfac35b6ae5b5eee453ebec2e39f9" title="cmult" alt="" coords="108,5,161,31"/>
-<area shape="rect" id="node3" href="$tolstoy_8c.html#a30e6b2186d7d6950e67a8bb2f80724c1" title="fftcpy" alt="" coords="108,104,161,129"/>
-<area shape="rect" id="node8" href="$tolstoy_8c.html#a640f48ba4a00c2d67330c86f8aeba089" title="ifftcpy" alt="" coords="107,55,162,80"/>
-<area shape="rect" id="node4" href="$tolstoy_8c.html#a819d15f8857f539452fa1997ba2d356d" title="permcpy" alt="" coords="210,55,283,80"/>
-<area shape="rect" id="node7" href="$tolstoy_8c.html#a7c56a6d13c12719de425132d322f1ca5" title="fft1d" alt="" coords="223,104,270,129"/>
-<area shape="rect" id="node5" href="$tolstoy_8c.html#ad739aa3a369d534fc20b91e37b79f845" title="perm" alt="" coords="331,55,383,80"/>
-<area shape="rect" id="node6" href="$tolstoy_8c.html#a21be37b092239d7319cd2c09a152b75e" title="bitrev" alt="" coords="431,55,485,80"/>
+<area shape="rect" id="node3" href="$tolstoy_8c.html#a15bdfac35b6ae5b5eee453ebec2e39f9" title="cmult" alt="" coords="112,5,165,35"/>
+<area shape="rect" id="node5" href="$tolstoy_8c.html#a30e6b2186d7d6950e67a8bb2f80724c1" title="fftcpy" alt="" coords="112,112,165,141"/>
+<area shape="rect" id="node15" href="$tolstoy_8c.html#a640f48ba4a00c2d67330c86f8aeba089" title="ifftcpy" alt="" coords="109,59,168,88"/>
+<area shape="rect" id="node7" href="$tolstoy_8c.html#a819d15f8857f539452fa1997ba2d356d" title="permcpy" alt="" coords="216,59,288,88"/>
+<area shape="rect" id="node13" href="$tolstoy_8c.html#a7c56a6d13c12719de425132d322f1ca5" title="fft1d" alt="" coords="228,112,276,141"/>
+<area shape="rect" id="node9" href="$tolstoy_8c.html#ad739aa3a369d534fc20b91e37b79f845" title="perm" alt="" coords="336,59,387,88"/>
+<area shape="rect" id="node11" href="$tolstoy_8c.html#a21be37b092239d7319cd2c09a152b75e" title="bitrev" alt="" coords="436,59,489,88"/>
 </map>

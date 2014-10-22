@@ -1,6 +1,6 @@
 <map id="core.tools.cpplint.RemoveMultiLineComments" name="core.tools.cpplint.RemoveMultiLineComments">
-<area shape="rect" id="node2" href="$namespacecore_1_1tools_1_1cpplint.html#af8afbeaf39eea94a28103f79f7ce498b" title="core.tools.cpplint.FindNext\lMultiLineCommentEnd" alt="" coords="244,5,422,44"/>
-<area shape="rect" id="node3" href="$namespacecore_1_1tools_1_1cpplint.html#a1d2302e9996a552aa6c83bc450d94e88" title="core.tools.cpplint.FindNext\lMultiLineCommentStart" alt="" coords="244,68,422,107"/>
-<area shape="rect" id="node5" href="$namespacecore_1_1tools_1_1cpplint.html#ad5171ced0cf27fda67ad51d3bc3dc5b0" title="core.tools.cpplint.Remove\lMultiLineCommentsFromRange" alt="" coords="228,131,438,169"/>
-<area shape="rect" id="node4" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="486,75,528,100"/>
+<area shape="rect" id="node3" href="$namespacecore_1_1tools_1_1cpplint.html#af8afbeaf39eea94a28103f79f7ce498b" title="core.tools.cpplint.FindNext\lMultiLineCommentEnd" alt="" coords="244,5,423,51"/>
+<area shape="rect" id="node5" href="$namespacecore_1_1tools_1_1cpplint.html#a1d2302e9996a552aa6c83bc450d94e88" title="core.tools.cpplint.FindNext\lMultiLineCommentStart" alt="" coords="244,74,423,121"/>
+<area shape="rect" id="node9" href="$namespacecore_1_1tools_1_1cpplint.html#ad5171ced0cf27fda67ad51d3bc3dc5b0" title="core.tools.cpplint.Remove\lMultiLineCommentsFromRange" alt="" coords="231,143,436,190"/>
+<area shape="rect" id="node7" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="485,83,528,112"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="vectorcache::mem_write" name="vectorcache::mem_write">
-<area shape="rect" id="node2" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="219,5,395,31"/>
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="237,55,377,80"/>
-<area shape="rect" id="node4" href="$group__mmu__cache.html#ga6beb516d6184a46c43f5ed937696a5fe" title="updates the lru counters for every cache hit " alt="" coords="225,104,389,129"/>
-<area shape="rect" id="node5" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="238,153,376,179"/>
-<area shape="rect" id="node6" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="223,203,391,228"/>
+<area shape="rect" id="node3" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="220,5,393,35"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="237,59,376,88"/>
+<area shape="rect" id="node7" href="$group__mmu__cache.html#ga6beb516d6184a46c43f5ed937696a5fe" title="updates the lru counters for every cache hit " alt="" coords="227,112,387,141"/>
+<area shape="rect" id="node9" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="239,165,375,195"/>
+<area shape="rect" id="node11" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="223,219,391,248"/>
 </map>

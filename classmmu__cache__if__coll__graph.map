@@ -1,3 +1,3 @@
 <map id="mmu_cache_if" name="mmu_cache_if">
-<area shape="rect" id="node2" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="20,5,127,105"/>
+<area shape="rect" id="node2" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="19,5,125,125"/>
 </map>

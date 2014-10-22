@@ -1,4 +1,4 @@
 <map id="APBUART::APBUART" name="APBUART::APBUART">
-<area shape="rect" id="node2" href="$classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7" title="gs::amba::amba_slave\l::get_base_addr" alt="" coords="206,5,362,44"/>
-<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f" title="gs::amba::amba_slave\l::get_size" alt="" coords="206,68,362,107"/>
+<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7" title="gs::amba::amba_slave\l::get_base_addr" alt="" coords="213,5,368,51"/>
+<area shape="rect" id="node5" href="$classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f" title="gs::amba::amba_slave\l::get_size" alt="" coords="213,74,368,121"/>
 </map>

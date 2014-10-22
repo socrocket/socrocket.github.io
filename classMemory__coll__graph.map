@@ -1,7 +1,7 @@
 <map id="Memory" name="Memory">
-<area shape="rect" id="node2" href="$classMemoryPower.html" title="{MemoryPower\n||+ GC_HAS_CALLBACKS()\l+ MemoryPower()\l+ ~MemoryPower()\l+ power_model()\l+ swi_power_cb()\l+ dyn_reads_cb()\l+ dyn_writes_cb()\l+ dyn_reads_write_cb()\l+ dyn_writes_write_cb()\l}" alt="" coords="712,595,895,775"/>
-<area shape="rect" id="node4" href="$classCLKDevice.html" title="{CLKDevice\n||+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="703,193,862,387"/>
-<area shape="rect" id="node7" href="$classMEMDevice.html" title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}" alt="" coords="885,193,1021,387"/>
-<area shape="rect" id="node8" href="$classBaseMemory.html" title="{BaseMemory\n||+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\l+ erase()\l+ erase_dbg()\l}" alt="" coords="5,180,143,400"/>
-<area shape="rect" id="node14" href="$classbool.html" title="{bool\n||}" alt="" coords="1216,253,1263,327"/>
+<area shape="rect" id="node2" href="$classMemoryPower.html" title="{MemoryPower\n||+ GC_HAS_CALLBACKS()\l+ MemoryPower()\l+ ~MemoryPower()\l+ power_model()\l+ swi_power_cb()\l+ dyn_reads_cb()\l+ dyn_writes_cb()\l+ dyn_reads_write_cb()\l+ dyn_writes_write_cb()\l}" alt="" coords="701,725,883,949"/>
+<area shape="rect" id="node6" href="$classCLKDevice.html" title="{CLKDevice\n||+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="695,226,855,467"/>
+<area shape="rect" id="node13" href="$classMEMDevice.html" title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}" alt="" coords="879,226,1012,467"/>
+<area shape="rect" id="node15" href="$classBaseMemory.html" title="{BaseMemory\n||+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\l+ erase()\l+ erase_dbg()\l}" alt="" coords="5,209,141,485"/>
+<area shape="rect" id="node27" href="$classbool.html" title="{bool\n||}" alt="" coords="1207,304,1252,389"/>
 </map>

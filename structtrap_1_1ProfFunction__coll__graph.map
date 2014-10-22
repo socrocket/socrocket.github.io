@@ -1,6 +1,6 @@
 <map id="trap::ProfFunction" name="trap::ProfFunction">
-<area shape="rect" id="node3" href="$classint.html" title="{int\n||}" alt="" coords="173,141,211,215"/>
-<area shape="rect" id="node4" href="$classbool.html" title="{bool\n||}" alt="" coords="258,141,305,215"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="366,141,445,215"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="343,5,468,92"/>
+<area shape="rect" id="node4" href="$classint.html" title="{int\n||}" alt="" coords="173,160,211,245"/>
+<area shape="rect" id="node6" href="$classbool.html" title="{bool\n||}" alt="" coords="259,160,304,245"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="364,160,444,245"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="341,6,467,109"/>
 </map>

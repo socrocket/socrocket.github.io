@@ -1,6 +1,6 @@
 <map id="tlb_adaptor::mem_write" name="tlb_adaptor::mem_write">
-<area shape="rect" id="node2" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="214,5,352,31"/>
-<area shape="rect" id="node3" href="$classmmu__if.html#a9ae0788b7b5d51ca1f5d6e0b9e33e782" title="mmu_if::read_mcr" alt="" coords="218,55,347,80"/>
-<area shape="rect" id="node4" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="222,104,344,129"/>
-<area shape="rect" id="node5" href="$classmmu__if.html#a2dd257b8d9cd0d0f760143f1d52de6a1" title="mmu_if::tlb_lookup" alt="" coords="216,153,349,179"/>
+<area shape="rect" id="node3" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="215,5,351,35"/>
+<area shape="rect" id="node5" href="$classmmu__if.html#a9ae0788b7b5d51ca1f5d6e0b9e33e782" title="mmu_if::read_mcr" alt="" coords="220,59,345,88"/>
+<area shape="rect" id="node7" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="223,112,343,141"/>
+<area shape="rect" id="node9" href="$classmmu__if.html#a2dd257b8d9cd0d0f760143f1d52de6a1" title="mmu_if::tlb_lookup" alt="" coords="217,165,348,195"/>
 </map>

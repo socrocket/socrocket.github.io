@@ -1,5 +1,5 @@
 <map id="GPCounter::do_reset" name="GPCounter::do_reset">
-<area shape="rect" id="node2" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="211,5,327,31"/>
-<area shape="rect" id="node3" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="201,55,337,80"/>
-<area shape="rect" id="node4" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="207,104,331,129"/>
+<area shape="rect" id="node3" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="211,5,328,35"/>
+<area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="201,59,337,88"/>
+<area shape="rect" id="node7" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="207,112,332,141"/>
 </map>

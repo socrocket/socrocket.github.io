@@ -1,5 +1,5 @@
 <map id="trap::ExecLoader::ExecLoader" name="trap::ExecLoader::ExecLoader">
-<area shape="rect" id="node2" href="$classtrap_1_1ELFFrontend.html#a200f11fbad5e2a1625ab3275f54fa5c2" title="trap::ELFFrontend::\lgetInstance" alt="" coords="287,5,424,44"/>
-<area shape="rect" id="node4" href="$classtrap_1_1ExecLoader.html#a0e3554473742226b3f3d860b52fa8b63" title="Returns the dimension of the loaded program. " alt="" coords="255,68,455,93"/>
-<area shape="rect" id="node3" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="503,12,546,37"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ELFFrontend.html#a200f11fbad5e2a1625ab3275f54fa5c2" title="trap::ELFFrontend::\lgetInstance" alt="" coords="287,5,420,51"/>
+<area shape="rect" id="node7" href="$classtrap_1_1ExecLoader.html#a0e3554473742226b3f3d860b52fa8b63" title="Returns the dimension of the loaded program. " alt="" coords="255,75,452,104"/>
+<area shape="rect" id="node5" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="501,13,544,43"/>
 </map>

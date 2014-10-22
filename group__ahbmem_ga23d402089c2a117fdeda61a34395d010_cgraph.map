@@ -1,7 +1,7 @@
 <map id="AHBMem::AHBMem" name="AHBMem::AHBMem">
-<area shape="rect" id="node2" href="$classAHBDevice.html#a5b806175b7f9a4977acfeada16ab3e8a" title="AHBDevice::get_ahb\l_base_addr" alt="" coords="212,5,357,44"/>
-<area shape="rect" id="node3" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="196,68,372,93"/>
-<area shape="rect" id="node4" href="$group__ahbmem.html#ga5ed39fa822bccb7c72bd44c8c10d6279" title="Dynamic/Internal power callback. " alt="" coords="202,117,367,143"/>
-<area shape="rect" id="node5" href="$group__ahbmem.html#ga1ff76c574b66e8a884757568e4468860" title="Static power callback. " alt="" coords="200,167,369,192"/>
-<area shape="rect" id="node6" href="$group__ahbmem.html#ga56d9d9e6b11ac1e983998f97a4858ee7" title="Dynamic/Switching power callback. " alt="" coords="199,216,369,241"/>
+<area shape="rect" id="node3" href="$classAHBDevice.html#a5b806175b7f9a4977acfeada16ab3e8a" title="AHBDevice::get_ahb\l_base_addr" alt="" coords="213,5,357,51"/>
+<area shape="rect" id="node5" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="197,75,373,104"/>
+<area shape="rect" id="node7" href="$group__ahbmem.html#ga5ed39fa822bccb7c72bd44c8c10d6279" title="Dynamic/Internal power callback. " alt="" coords="204,128,367,157"/>
+<area shape="rect" id="node9" href="$group__ahbmem.html#ga1ff76c574b66e8a884757568e4468860" title="Static power callback. " alt="" coords="201,181,369,211"/>
+<area shape="rect" id="node11" href="$group__ahbmem.html#ga56d9d9e6b11ac1e983998f97a4858ee7" title="Dynamic/Switching power callback. " alt="" coords="200,235,371,264"/>
 </map>

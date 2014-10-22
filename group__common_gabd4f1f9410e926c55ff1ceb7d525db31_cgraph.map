@@ -1,5 +1,5 @@
 <map id="block_allocator::~block_allocator" name="block_allocator::~block_allocator">
-<area shape="rect" id="node2" href="$group__common.html#ga4bd550673fb8ea76e0195ebc5a02687c" title="block_allocator::free" alt="" coords="210,12,351,37"/>
-<area shape="rect" id="node3" href="$group__common.html#ga065463b2344048cc20db48b8167b75f8" title="block_allocator::swap" alt="" coords="399,12,547,37"/>
-<area shape="rect" id="node4" href="$io__less_2quicksort_8c.html#a3485ab45caf7925333c3153a86288967" title="swap" alt="" coords="595,12,648,37"/>
+<area shape="rect" id="node3" href="$group__common.html#ga4bd550673fb8ea76e0195ebc5a02687c" title="block_allocator::free" alt="" coords="211,13,349,43"/>
+<area shape="rect" id="node5" href="$group__common.html#ga065463b2344048cc20db48b8167b75f8" title="block_allocator::swap" alt="" coords="399,13,545,43"/>
+<area shape="rect" id="node7" href="$io__less_2quicksort_8c.html#a3485ab45caf7925333c3153a86288967" title="swap" alt="" coords="595,13,648,43"/>
 </map>

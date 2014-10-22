@@ -1,4 +1,4 @@
 <map id="leon3_funcat_trap::TLMMemory::read_instr" name="leon3_funcat_trap::TLMMemory::read_instr">
-<area shape="rect" id="node2" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="303,5,352,31"/>
-<area shape="rect" id="node3" href="$classleon3__funcat__trap_1_1MemoryInterface.html#a9155a44a476d438e254ddcb8a736f9e2" title="leon3_funcat_trap::\lMemoryInterface::swapEndianess" alt="" coords="216,55,438,93"/>
+<area shape="rect" id="node3" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="299,5,349,35"/>
+<area shape="rect" id="node5" href="$classleon3__funcat__trap_1_1MemoryInterface.html#a9155a44a476d438e254ddcb8a736f9e2" title="leon3_funcat_trap::\lMemoryInterface::swapEndianess" alt="" coords="215,58,433,105"/>
 </map>

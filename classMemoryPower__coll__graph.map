@@ -1,6 +1,6 @@
 <map id="MemoryPower" name="MemoryPower">
-<area shape="rect" id="node3" href="$classCLKDevice.html" title="{CLKDevice\n||+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="123,193,283,387"/>
-<area shape="rect" id="node6" href="$classMEMDevice.html" title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}" alt="" coords="306,193,441,387"/>
-<area shape="rect" id="node7" href="$classBaseMemory.html" title="{BaseMemory\n||+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\l+ erase()\l+ erase_dbg()\l}" alt="" coords="465,180,603,400"/>
-<area shape="rect" id="node13" href="$classbool.html" title="{bool\n||}" alt="" coords="1212,253,1258,327"/>
+<area shape="rect" id="node4" href="$classCLKDevice.html" title="{CLKDevice\n||+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="123,226,283,467"/>
+<area shape="rect" id="node11" href="$classMEMDevice.html" title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}" alt="" coords="307,226,440,467"/>
+<area shape="rect" id="node13" href="$classBaseMemory.html" title="{BaseMemory\n||+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\l+ erase()\l+ erase_dbg()\l}" alt="" coords="464,209,600,485"/>
+<area shape="rect" id="node25" href="$classbool.html" title="{bool\n||}" alt="" coords="1201,304,1247,389"/>
 </map>

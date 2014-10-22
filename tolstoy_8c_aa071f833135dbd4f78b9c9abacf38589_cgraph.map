@@ -1,11 +1,11 @@
 <map id="fwconv" name="fwconv">
-<area shape="rect" id="node2" href="$tolstoy_8c.html#add61ca99ba934f1a82911df8e3065e81" title="fconv" alt="" coords="116,55,169,80"/>
-<area shape="rect" id="node10" href="$tolstoy_8c.html#a5173a815552422008bd0a3f22f2b47ee" title="ffw" alt="" coords="123,104,162,129"/>
-<area shape="rect" id="node3" href="$tolstoy_8c.html#a15bdfac35b6ae5b5eee453ebec2e39f9" title="cmult" alt="" coords="219,5,272,31"/>
-<area shape="rect" id="node4" href="$tolstoy_8c.html#a30e6b2186d7d6950e67a8bb2f80724c1" title="fftcpy" alt="" coords="219,104,272,129"/>
-<area shape="rect" id="node9" href="$tolstoy_8c.html#a640f48ba4a00c2d67330c86f8aeba089" title="ifftcpy" alt="" coords="217,55,273,80"/>
-<area shape="rect" id="node5" href="$tolstoy_8c.html#a7c56a6d13c12719de425132d322f1ca5" title="fft1d" alt="" coords="334,55,381,80"/>
-<area shape="rect" id="node6" href="$tolstoy_8c.html#a819d15f8857f539452fa1997ba2d356d" title="permcpy" alt="" coords="321,104,394,129"/>
-<area shape="rect" id="node7" href="$tolstoy_8c.html#ad739aa3a369d534fc20b91e37b79f845" title="perm" alt="" coords="442,104,493,129"/>
-<area shape="rect" id="node8" href="$tolstoy_8c.html#a21be37b092239d7319cd2c09a152b75e" title="bitrev" alt="" coords="541,104,595,129"/>
+<area shape="rect" id="node3" href="$tolstoy_8c.html#add61ca99ba934f1a82911df8e3065e81" title="fconv" alt="" coords="119,59,172,88"/>
+<area shape="rect" id="node21" href="$tolstoy_8c.html#a5173a815552422008bd0a3f22f2b47ee" title="ffw" alt="" coords="125,112,165,141"/>
+<area shape="rect" id="node5" href="$tolstoy_8c.html#a15bdfac35b6ae5b5eee453ebec2e39f9" title="cmult" alt="" coords="224,5,277,35"/>
+<area shape="rect" id="node7" href="$tolstoy_8c.html#a30e6b2186d7d6950e67a8bb2f80724c1" title="fftcpy" alt="" coords="224,112,277,141"/>
+<area shape="rect" id="node17" href="$tolstoy_8c.html#a640f48ba4a00c2d67330c86f8aeba089" title="ifftcpy" alt="" coords="221,59,280,88"/>
+<area shape="rect" id="node9" href="$tolstoy_8c.html#a7c56a6d13c12719de425132d322f1ca5" title="fft1d" alt="" coords="340,59,388,88"/>
+<area shape="rect" id="node11" href="$tolstoy_8c.html#a819d15f8857f539452fa1997ba2d356d" title="permcpy" alt="" coords="328,112,400,141"/>
+<area shape="rect" id="node13" href="$tolstoy_8c.html#ad739aa3a369d534fc20b91e37b79f845" title="perm" alt="" coords="448,112,499,141"/>
+<area shape="rect" id="node15" href="$tolstoy_8c.html#a21be37b092239d7319cd2c09a152b75e" title="bitrev" alt="" coords="548,112,601,141"/>
 </map>

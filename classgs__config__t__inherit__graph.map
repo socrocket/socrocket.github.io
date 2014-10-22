@@ -1,5 +1,5 @@
 <map id="gs_config_t" name="gs_config_t">
-<area shape="rect" id="node2" href="$classgs__config_3_01int32__t_01_4.html" title="Template specialization for gs_param&lt;int32_t&gt;. " alt="" coords="5,127,211,360"/>
-<area shape="rect" id="node3" href="$classgs__config_3_01int8__t_01_4.html" title="Template specialization for gs_param&lt;int8_t&gt;. " alt="" coords="235,127,441,360"/>
-<area shape="rect" id="node4" href="$classgs__config_3_01uint32__t_01_4.html" title="Template specialization for gs_param&lt;uint32_t&gt;. " alt="" coords="464,127,670,360"/>
+<area shape="rect" id="node3" href="$classgs__config_3_01int32__t_01_4.html" title="Template specialization for gs_param&lt;int32_t&gt;. " alt="" coords="5,139,211,432"/>
+<area shape="rect" id="node5" href="$classgs__config_3_01int8__t_01_4.html" title="Template specialization for gs_param&lt;int8_t&gt;. " alt="" coords="235,139,440,432"/>
+<area shape="rect" id="node7" href="$classgs__config_3_01uint32__t_01_4.html" title="Template specialization for gs_param&lt;uint32_t&gt;. " alt="" coords="464,139,669,432"/>
 </map>

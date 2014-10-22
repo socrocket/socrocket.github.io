@@ -1,5 +1,5 @@
 <map id="Mctrl::Mctrl" name="Mctrl::Mctrl">
-<area shape="rect" id="node2" href="$classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7" title="gs::amba::amba_slave\l::get_base_addr" alt="" coords="152,5,308,44"/>
-<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f" title="gs::amba::amba_slave\l::get_size" alt="" coords="152,68,308,107"/>
-<area shape="rect" id="node4" href="$classAPBDevice.html#a72e0a96bc8a877662440910e5084f98f" title="APBDevice\&lt; RegisterBase\l \&gt;::init_apb" alt="" coords="140,131,320,169"/>
+<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7" title="gs::amba::amba_slave\l::get_base_addr" alt="" coords="155,5,309,51"/>
+<area shape="rect" id="node5" href="$classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f" title="gs::amba::amba_slave\l::get_size" alt="" coords="155,74,309,121"/>
+<area shape="rect" id="node7" href="$classAPBDevice.html#a72e0a96bc8a877662440910e5084f98f" title="APBDevice\&lt; RegisterBase\l \&gt;::init_apb" alt="" coords="141,143,323,190"/>
 </map>

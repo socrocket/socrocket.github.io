@@ -1,6 +1,6 @@
 <map id="core/common/trapgen/profiler/profInfo.hpp" name="core/common/trapgen/profiler/profInfo.hpp">
-<area shape="rect" id="node2" href="$profiler_8hpp.html" title="core/common/trapgen\l/profiler/profiler.hpp" alt="" coords="118,92,269,131"/>
-<area shape="rect" id="node5" href="$profInfo_8cpp.html" title="core/common/trapgen\l/profiler/profInfo.cpp" alt="" coords="292,92,443,131"/>
-<area shape="rect" id="node3" href="$leon3_8funcat_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/main.cpp" alt="" coords="5,179,181,231"/>
-<area shape="rect" id="node4" href="$leon3_8funclt_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="205,179,381,231"/>
+<area shape="rect" id="node3" href="$profiler_8hpp.html" title="core/common/trapgen\l/profiler/profiler.hpp" alt="" coords="117,102,264,149"/>
+<area shape="rect" id="node9" href="$profInfo_8cpp.html" title="core/common/trapgen\l/profiler/profInfo.cpp" alt="" coords="288,102,435,149"/>
+<area shape="rect" id="node5" href="$leon3_8funcat_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/main.cpp" alt="" coords="5,197,179,261"/>
+<area shape="rect" id="node7" href="$leon3_8funclt_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="203,197,376,261"/>
 </map>

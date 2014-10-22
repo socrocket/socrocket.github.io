@@ -1,10 +1,10 @@
 <map id="core/common/trapgen/osEmulator/osEmulator.hpp" name="core/common/trapgen/osEmulator/osEmulator.hpp">
-<area shape="rect" id="node4" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1950,185,2116,211"/>
-<area shape="rect" id="node9" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="403,179,554,217"/>
-<area shape="rect" id="node12" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="578,265,729,304"/>
-<area shape="rect" id="node22" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="578,179,729,217"/>
-<area shape="rect" id="node23" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="53,179,227,217"/>
-<area shape="rect" id="node26" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="1218,92,1398,131"/>
-<area shape="rect" id="node16" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1364,265,1516,304"/>
-<area shape="rect" id="node20" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1308,352,1495,391"/>
+<area shape="rect" id="node7" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1947,207,2112,236"/>
+<area shape="rect" id="node18" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="400,198,547,245"/>
+<area shape="rect" id="node24" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="573,294,720,341"/>
+<area shape="rect" id="node51" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="571,198,717,245"/>
+<area shape="rect" id="node55" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="56,198,224,245"/>
+<area shape="rect" id="node65" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="1211,102,1392,149"/>
+<area shape="rect" id="node33" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1363,294,1509,341"/>
+<area shape="rect" id="node43" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1301,390,1488,437"/>
 </map>

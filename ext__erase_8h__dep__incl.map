@@ -1,11 +1,11 @@
 <map id="core/models/memory/ext_erase.h" name="core/models/memory/ext_erase.h">
-<area shape="rect" id="node2" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="521,92,667,131"/>
-<area shape="rect" id="node9" href="$mctrl_8h.html" title="core/models/mctrl/mctrl.h" alt="" coords="787,99,957,124"/>
-<area shape="rect" id="node3" href="$block__allocator_8cpp.html" title="core/common/block_allocator.cpp" alt="" coords="5,185,225,211"/>
-<area shape="rect" id="node4" href="$json__parser_8cpp.html" title="core/common/json_parser.cpp" alt="" coords="248,185,448,211"/>
-<area shape="rect" id="node5" href="$memory_2memory_8cpp.html" title="core/models/memory\l/memory.cpp" alt="" coords="473,179,619,217"/>
-<area shape="rect" id="node6" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="643,179,803,217"/>
-<area shape="rect" id="node7" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="828,179,1013,217"/>
-<area shape="rect" id="node8" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="828,265,1013,304"/>
-<area shape="rect" id="node10" href="$mctrl_8cpp.html" title="core/models/mctrl/mctrl.cpp" alt="" coords="1037,185,1222,211"/>
+<area shape="rect" id="node3" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="513,102,657,149"/>
+<area shape="rect" id="node17" href="$mctrl_8h.html" title="core/models/mctrl/mctrl.h" alt="" coords="775,111,945,140"/>
+<area shape="rect" id="node5" href="$block__allocator_8cpp.html" title="core/common/block_allocator.cpp" alt="" coords="5,207,221,236"/>
+<area shape="rect" id="node7" href="$json__parser_8cpp.html" title="core/common/json_parser.cpp" alt="" coords="245,207,443,236"/>
+<area shape="rect" id="node9" href="$memory_2memory_8cpp.html" title="core/models/memory\l/memory.cpp" alt="" coords="467,198,611,245"/>
+<area shape="rect" id="node11" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="635,198,792,245"/>
+<area shape="rect" id="node13" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="816,198,997,245"/>
+<area shape="rect" id="node15" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="816,294,997,341"/>
+<area shape="rect" id="node19" href="$mctrl_8cpp.html" title="core/models/mctrl/mctrl.cpp" alt="" coords="1021,207,1205,236"/>
 </map>

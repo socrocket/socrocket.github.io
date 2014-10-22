@@ -1,18 +1,18 @@
 <map id="core/common/base.h" name="core/common/base.h">
-<area shape="rect" id="node2" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="165,425,331,451"/>
-<area shape="rect" id="node7" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1053,85,1227,111"/>
-<area shape="rect" id="node30" href="$report_8h.html" title="core/common/report.h" alt="" coords="157,85,309,111"/>
-<area shape="rect" id="node33" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="1960,79,2157,117"/>
-<area shape="rect" id="node9" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1722,165,1885,204"/>
-<area shape="rect" id="node12" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1058,165,1221,204"/>
-<area shape="rect" id="node16" href="$common_8h.html" title="core/common/common.h" alt="" coords="460,259,628,284"/>
-<area shape="rect" id="node24" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="956,252,1119,291"/>
-<area shape="rect" id="node25" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="1143,252,1344,291"/>
-<area shape="rect" id="node26" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="1420,252,1583,291"/>
-<area shape="rect" id="node27" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="1606,252,1769,291"/>
-<area shape="rect" id="node28" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="1301,339,1464,377"/>
-<area shape="rect" id="node29" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="271,252,435,291"/>
-<area shape="rect" id="node17" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1487,345,1651,371"/>
-<area shape="rect" id="node19" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="462,345,626,371"/>
-<area shape="rect" id="node34" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2168,165,2365,204"/>
+<area shape="rect" id="node3" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="164,467,329,496"/>
+<area shape="rect" id="node14" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1045,92,1216,121"/>
+<area shape="rect" id="node66" href="$report_8h.html" title="core/common/report.h" alt="" coords="157,92,307,121"/>
+<area shape="rect" id="node73" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="1939,83,2133,130"/>
+<area shape="rect" id="node18" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1704,179,1864,226"/>
+<area shape="rect" id="node24" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1051,179,1211,226"/>
+<area shape="rect" id="node33" href="$common_8h.html" title="core/common/common.h" alt="" coords="456,284,621,313"/>
+<area shape="rect" id="node53" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="949,275,1109,322"/>
+<area shape="rect" id="node55" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="1133,275,1331,322"/>
+<area shape="rect" id="node57" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="1405,275,1565,322"/>
+<area shape="rect" id="node59" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="1589,275,1749,322"/>
+<area shape="rect" id="node61" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="1288,371,1448,418"/>
+<area shape="rect" id="node64" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="269,275,432,322"/>
+<area shape="rect" id="node36" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1472,380,1632,409"/>
+<area shape="rect" id="node40" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="457,380,620,409"/>
+<area shape="rect" id="node76" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2143,179,2337,226"/>
 </map>

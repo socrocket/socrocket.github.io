@@ -1,8 +1,8 @@
 <map id="statemachine.ProcessStateMachine" name="statemachine.ProcessStateMachine">
-<area shape="rect" id="node2" href="$namespacestatemachine.html#a458045d4e5a5f966ec3ae671152ad031" title="statemachine.EscapeForRegExp" alt="" coords="245,5,461,31"/>
-<area shape="rect" id="node3" href="$namespacedoxycomment.html#aa992154c13347ffaaa8f72b9e92e4aba" title="doxycomment.IsCommentBlockEnd" alt="" coords="237,55,469,80"/>
-<area shape="rect" id="node4" href="$namespacedoxycomment.html#ac425cccc22952c82e3468471d4561486" title="doxycomment.IsCommentBlock\lStart" alt="" coords="249,104,458,143"/>
-<area shape="rect" id="node5" href="$namespacestatemachine.html#acb405b53a837adb5f881b69d28931e51" title="statemachine.ProcessState\lCases" alt="" coords="261,167,445,205"/>
-<area shape="rect" id="node6" href="$namespaceerror__handler.html#ad4d4414f2a7559fb918e3c000c003bd5" title="error_handler.ReportError" alt="" coords="529,148,703,173"/>
-<area shape="rect" id="node7" href="$namespacestatemachine.html#a565ef0d80f48a2e82bf1c66488e76060" title="statemachine.SanitiseDotLink" alt="" coords="517,197,714,223"/>
+<area shape="rect" id="node3" href="$namespacestatemachine.html#a458045d4e5a5f966ec3ae671152ad031" title="statemachine.EscapeForRegExp" alt="" coords="247,5,460,35"/>
+<area shape="rect" id="node5" href="$namespacedoxycomment.html#aa992154c13347ffaaa8f72b9e92e4aba" title="doxycomment.IsCommentBlockEnd" alt="" coords="237,59,469,88"/>
+<area shape="rect" id="node7" href="$namespacedoxycomment.html#ac425cccc22952c82e3468471d4561486" title="doxycomment.IsCommentBlock\lStart" alt="" coords="249,111,457,158"/>
+<area shape="rect" id="node9" href="$namespacestatemachine.html#acb405b53a837adb5f881b69d28931e51" title="statemachine.ProcessState\lCases" alt="" coords="263,181,444,227"/>
+<area shape="rect" id="node11" href="$namespaceerror__handler.html#ad4d4414f2a7559fb918e3c000c003bd5" title="error_handler.ReportError" alt="" coords="532,163,700,192"/>
+<area shape="rect" id="node13" href="$namespacestatemachine.html#a565ef0d80f48a2e82bf1c66488e76060" title="statemachine.SanitiseDotLink" alt="" coords="519,216,713,245"/>
 </map>

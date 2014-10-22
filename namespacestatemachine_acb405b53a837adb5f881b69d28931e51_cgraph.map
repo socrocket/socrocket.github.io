@@ -1,4 +1,4 @@
 <map id="statemachine.ProcessStateCases" name="statemachine.ProcessStateCases">
-<area shape="rect" id="node2" href="$namespaceerror__handler.html#ad4d4414f2a7559fb918e3c000c003bd5" title="error_handler.ReportError" alt="" coords="248,5,422,31"/>
-<area shape="rect" id="node3" href="$namespacestatemachine.html#a565ef0d80f48a2e82bf1c66488e76060" title="statemachine.SanitiseDotLink" alt="" coords="237,55,434,80"/>
+<area shape="rect" id="node3" href="$namespaceerror__handler.html#ad4d4414f2a7559fb918e3c000c003bd5" title="error_handler.ReportError" alt="" coords="252,5,420,35"/>
+<area shape="rect" id="node5" href="$namespacestatemachine.html#a565ef0d80f48a2e82bf1c66488e76060" title="statemachine.SanitiseDotLink" alt="" coords="239,59,433,88"/>
 </map>

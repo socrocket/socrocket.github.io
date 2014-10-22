@@ -1,7 +1,7 @@
 <map id="cache_if" name="cache_if">
-<area shape="rect" id="node3" href="$classnocache.html" title="{nocache\n||+ mem_read()\l+ mem_write()\l+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ nocache()\l+ ~nocache()\l}" alt="" coords="5,528,155,788"/>
-<area shape="rect" id="node4" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="180,421,354,895"/>
-<area shape="rect" id="node2" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="120,5,227,105"/>
-<area shape="rect" id="node5" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="40,949,257,1276"/>
-<area shape="rect" id="node6" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="281,943,493,1283"/>
+<area shape="rect" id="node5" href="$classnocache.html" title="{nocache\n||+ mem_read()\l+ mem_write()\l+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ nocache()\l+ ~nocache()\l}" alt="" coords="5,637,152,965"/>
+<area shape="rect" id="node7" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="176,499,352,1104"/>
+<area shape="rect" id="node2" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="117,5,224,125"/>
+<area shape="rect" id="node9" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="43,1161,253,1575"/>
+<area shape="rect" id="node11" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="277,1152,483,1584"/>
 </map>

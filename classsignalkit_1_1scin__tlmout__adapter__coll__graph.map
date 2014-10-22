@@ -1,5 +1,5 @@
 <map id="signalkit::scin_tlmout_adapter&lt; INTYPE, OUTTYPE &gt;" name="signalkit::scin_tlmout_adapter&lt; INTYPE, OUTTYPE &gt;">
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; scin_tlmout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;\n||}" alt="" coords="5,167,172,267"/>
-<area shape="rect" id="node3" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; MODULE \&gt;\n||}" alt="" coords="122,5,285,92"/>
-<area shape="rect" id="node6" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; signalkit::scin_tlmout\l_adapter\&lt; INTYPE, OUTTYPE \&gt; \&gt;\n||}" alt="" coords="196,167,423,267"/>
+<area shape="rect" id="node2" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; scin_tlmout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;\n||}" alt="" coords="5,192,176,312"/>
+<area shape="rect" id="node4" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; MODULE \&gt;\n||}" alt="" coords="125,6,285,109"/>
+<area shape="rect" id="node10" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; signalkit::scin_tlmout\l_adapter\&lt; INTYPE, OUTTYPE \&gt; \&gt;\n||}" alt="" coords="200,192,427,312"/>
 </map>

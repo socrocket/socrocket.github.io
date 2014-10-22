@@ -1,11 +1,11 @@
 <map id="core/models/extern/LEON3/simulatorSources/leon3.funcat/interface.hpp" name="core/models/extern/LEON3/simulatorSources/leon3.funcat/interface.hpp">
-<area shape="rect" id="node2" href="$leon3_8funcat_2interface_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/interface.cpp" alt="" coords="18,105,195,157"/>
-<area shape="rect" id="node3" href="$leon3_8funcat_2processor_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/processor.hpp" alt="" coords="219,105,404,157"/>
-<area shape="rect" id="node5" href="$leon3_8funcat_2processor_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/processor.cpp" alt="" coords="405,205,589,257"/>
-<area shape="rect" id="node4" href="$leon3_8funcat_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/main.cpp" alt="" coords="5,205,181,257"/>
-<area shape="rect" id="node6" href="$leon3_8funcat_8h.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat.h" alt="" coords="205,205,381,257"/>
-<area shape="rect" id="node7" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="51,305,189,344"/>
-<area shape="rect" id="node8" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="213,305,373,344"/>
-<area shape="rect" id="node9" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="398,305,583,344"/>
-<area shape="rect" id="node10" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="398,392,583,431"/>
+<area shape="rect" id="node3" href="$leon3_8funcat_2interface_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/interface.cpp" alt="" coords="35,117,211,181"/>
+<area shape="rect" id="node5" href="$leon3_8funcat_2processor_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/processor.hpp" alt="" coords="235,117,416,181"/>
+<area shape="rect" id="node9" href="$leon3_8funcat_2processor_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/processor.cpp" alt="" coords="400,229,581,293"/>
+<area shape="rect" id="node7" href="$leon3_8funcat_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/main.cpp" alt="" coords="5,229,179,293"/>
+<area shape="rect" id="node11" href="$leon3_8funcat_8h.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat.h" alt="" coords="203,229,376,293"/>
+<area shape="rect" id="node13" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="51,342,187,389"/>
+<area shape="rect" id="node15" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="211,342,368,389"/>
+<area shape="rect" id="node17" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="392,342,573,389"/>
+<area shape="rect" id="node19" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="392,438,573,485"/>
 </map>

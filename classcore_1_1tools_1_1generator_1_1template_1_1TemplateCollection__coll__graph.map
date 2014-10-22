@@ -1,4 +1,4 @@
 <map id="core.tools.generator.template.TemplateCollection" name="core.tools.generator.template.TemplateCollection">
-<area shape="rect" id="node2" href="$structdict.html" title="{dict\n||}" alt="" coords="83,180,125,253"/>
-<area shape="rect" id="node3" href="$classint.html" title="{int\n||}" alt="" coords="85,5,124,79"/>
+<area shape="rect" id="node2" href="$structdict.html" title="{dict\n||}" alt="" coords="81,208,124,293"/>
+<area shape="rect" id="node4" href="$classint.html" title="{int\n||}" alt="" coords="84,5,121,91"/>
 </map>

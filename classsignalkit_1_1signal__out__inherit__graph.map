@@ -1,7 +1,7 @@
 <map id="signalkit::signal_out&lt; TYPE, MODULE &gt;" name="signalkit::signal_out&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node7" href="$classsignalkit_1_1signal__inout.html" title="{signalkit::signal_inout\l\&lt; TYPE, MODULE \&gt;\n||+ signal_inout()\l+ signal_inout()\l+ ~signal_inout()\l}" alt="" coords="88,569,236,683"/>
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html" title="{signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,187,153,300"/>
-<area shape="rect" id="node4" href="$classsignalkit_1_1signal__out__if.html" title="{signalkit::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="177,180,315,307"/>
-<area shape="rect" id="node5" href="$classsignalkit_1_1signal__if.html" title="{signalkit::signal_if\l\&lt; TYPE \&gt;\n|# m_value\l|+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="175,5,304,132"/>
-<area shape="rect" id="node6" href="$classsignalkit_1_1signal__out__bind__if.html" title="{signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="328,19,485,119"/>
+<area shape="rect" id="node13" href="$classsignalkit_1_1signal__inout.html" title="{signalkit::signal_inout\l\&lt; TYPE, MODULE \&gt;\n||+ signal_inout()\l+ signal_inout()\l+ ~signal_inout()\l}" alt="" coords="88,667,235,805"/>
+<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html" title="{signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,217,152,354"/>
+<area shape="rect" id="node6" href="$classsignalkit_1_1signal__out__if.html" title="{signalkit::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="176,208,312,363"/>
+<area shape="rect" id="node8" href="$classsignalkit_1_1signal__if.html" title="{signalkit::signal_if\l\&lt; TYPE \&gt;\n|# m_value\l|+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="173,5,301,160"/>
+<area shape="rect" id="node10" href="$classsignalkit_1_1signal__out__bind__if.html" title="{signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="325,23,480,143"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="BaseMemory::read_block" name="BaseMemory::read_block">
-<area shape="rect" id="node2" href="$group__memory.html#gad63996f7ed8fca5197a47b7710b1d55c" title="BaseMemory::read_block_dbg" alt="" coords="226,5,428,31"/>
-<area shape="rect" id="node3" href="$classStorage.html#a6c83e9cda63966dc65b1aefcb31e8f43" title="Storage::read_block" alt="" coords="476,5,617,31"/>
+<area shape="rect" id="node3" href="$group__memory.html#gad63996f7ed8fca5197a47b7710b1d55c" title="BaseMemory::read_block_dbg" alt="" coords="225,5,423,35"/>
+<area shape="rect" id="node5" href="$classStorage.html#a6c83e9cda63966dc65b1aefcb31e8f43" title="Storage::read_block" alt="" coords="472,5,611,35"/>
 </map>

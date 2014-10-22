@@ -1,5 +1,5 @@
 <map id="vectorcache::snoop_invalidate" name="vectorcache::snoop_invalidate">
-<area shape="rect" id="node2" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="190,5,367,31"/>
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="208,55,348,80"/>
-<area shape="rect" id="node4" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="194,104,362,129"/>
+<area shape="rect" id="node3" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="191,5,364,35"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="208,59,347,88"/>
+<area shape="rect" id="node7" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="193,112,361,141"/>
 </map>

@@ -1,3 +1,3 @@
 <map id="mmu" name="mmu">
-<area shape="rect" id="node3" href="$classmmu__if.html" title="{mmu_if\n||+ tlb_lookup()\l+ read_mcr()\l+ read_mctpr()\l+ read_mctxr()\l+ read_mfsr()\l+ read_mfar()\l+ write_mcr()\l+ write_mctpr()\l+ write_mctxr()\l+ diag_read_itlb()\l+ diag_write_itlb()\l+ diag_read_dctlb()\l+ diag_write_dctlb()\l+ ~mmu_if()\l}" alt="" coords="151,5,289,252"/>
+<area shape="rect" id="node4" href="$classmmu__if.html" title="{mmu_if\n||+ tlb_lookup()\l+ read_mcr()\l+ read_mctpr()\l+ read_mctxr()\l+ read_mfsr()\l+ read_mfar()\l+ write_mcr()\l+ write_mctpr()\l+ write_mctxr()\l+ diag_read_itlb()\l+ diag_write_itlb()\l+ diag_read_dctlb()\l+ diag_write_dctlb()\l+ ~mmu_if()\l}" alt="" coords="151,6,287,317"/>
 </map>

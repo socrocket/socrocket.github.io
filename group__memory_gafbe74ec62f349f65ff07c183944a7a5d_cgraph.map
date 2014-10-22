@@ -1,7 +1,7 @@
 <map id="MemoryPower::MemoryPower" name="MemoryPower::MemoryPower">
-<area shape="rect" id="node2" href="$group__memory.html#ga90cd026e1b71e3367bae1eebd2c049fa" title="32&#45;bit&#45;reads counter callback " alt="" coords="255,5,453,31"/>
-<area shape="rect" id="node3" href="$group__memory.html#gadabe2569c10edf35642767dafa2d846b" title="32&#45;bit&#45;reads counter callback, write " alt="" coords="265,55,442,93"/>
-<area shape="rect" id="node4" href="$group__memory.html#gabcc2f6a740f4929179b1c9653c19afbe" title="32&#45;bit&#45;writes counter callback " alt="" coords="254,117,454,143"/>
-<area shape="rect" id="node5" href="$group__memory.html#ga1661e52cd1b72f55cc77eaa25599fbd8" title="32&#45;bit&#45;writes counter callback, write " alt="" coords="265,167,443,205"/>
-<area shape="rect" id="node6" href="$group__memory.html#gac051e0133c471f2348b9017e68271ba7" title="Dynamic/Switching power callback. " alt="" coords="254,229,454,255"/>
+<area shape="rect" id="node3" href="$group__memory.html#ga90cd026e1b71e3367bae1eebd2c049fa" title="32&#45;bit&#45;reads counter callback " alt="" coords="256,5,451,35"/>
+<area shape="rect" id="node5" href="$group__memory.html#gadabe2569c10edf35642767dafa2d846b" title="32&#45;bit&#45;reads counter callback, write " alt="" coords="267,58,440,105"/>
+<area shape="rect" id="node7" href="$group__memory.html#gabcc2f6a740f4929179b1c9653c19afbe" title="32&#45;bit&#45;writes counter callback " alt="" coords="255,128,452,157"/>
+<area shape="rect" id="node9" href="$group__memory.html#ga1661e52cd1b72f55cc77eaa25599fbd8" title="32&#45;bit&#45;writes counter callback, write " alt="" coords="265,181,441,227"/>
+<area shape="rect" id="node11" href="$group__memory.html#gac051e0133c471f2348b9017e68271ba7" title="Dynamic/Switching power callback. " alt="" coords="255,251,452,280"/>
 </map>

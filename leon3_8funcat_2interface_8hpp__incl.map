@@ -1,11 +1,11 @@
 <map id="core/models/extern/LEON3/simulatorSources/leon3.funcat/interface.hpp" name="core/models/extern/LEON3/simulatorSources/leon3.funcat/interface.hpp">
-<area shape="rect" id="node2" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="207,112,358,151"/>
-<area shape="rect" id="node5" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="351,305,502,344"/>
-<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="793,305,944,344"/>
-<area shape="rect" id="node16" href="$leon3_8funcat_2memory_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/memory.hpp" alt="" coords="872,105,1047,157"/>
-<area shape="rect" id="node18" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1266,219,1432,244"/>
-<area shape="rect" id="node23" href="$leon3_8funcat_2registers_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/registers.hpp" alt="" coords="430,205,609,257"/>
-<area shape="rect" id="node24" href="$leon3_8funcat_2alias_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/alias.hpp" alt="" coords="546,105,722,157"/>
-<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="865,392,1051,431"/>
-<area shape="rect" id="node17" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="907,212,1058,251"/>
+<area shape="rect" id="node3" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="208,126,355,173"/>
+<area shape="rect" id="node9" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="351,342,497,389"/>
+<area shape="rect" id="node19" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="789,342,936,389"/>
+<area shape="rect" id="node37" href="$leon3_8funcat_2memory_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/memory.hpp" alt="" coords="865,117,1039,181"/>
+<area shape="rect" id="node44" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1261,247,1427,276"/>
+<area shape="rect" id="node55" href="$leon3_8funcat_2registers_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/registers.hpp" alt="" coords="429,229,605,293"/>
+<area shape="rect" id="node59" href="$leon3_8funcat_2alias_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/alias.hpp" alt="" coords="544,117,717,181"/>
+<area shape="rect" id="node29" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="863,438,1049,485"/>
+<area shape="rect" id="node39" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="900,238,1047,285"/>
 </map>

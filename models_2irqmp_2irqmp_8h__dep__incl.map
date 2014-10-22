@@ -1,8 +1,8 @@
 <map id="core/models/irqmp/irqmp.h" name="core/models/irqmp/irqmp.h">
-<area shape="rect" id="node2" href="$irqmp_8cpp.html" title="core/models/irqmp/irqmp.cpp" alt="" coords="5,85,199,111"/>
-<area shape="rect" id="node3" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="222,79,361,117"/>
-<area shape="rect" id="node5" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="305,165,491,204"/>
-<area shape="rect" id="node7" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="435,79,596,117"/>
-<area shape="rect" id="node4" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="143,165,282,204"/>
-<area shape="rect" id="node6" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="305,252,491,291"/>
+<area shape="rect" id="node3" href="$irqmp_8cpp.html" title="core/models/irqmp/irqmp.cpp" alt="" coords="5,92,195,121"/>
+<area shape="rect" id="node5" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="219,83,355,130"/>
+<area shape="rect" id="node9" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="301,179,483,226"/>
+<area shape="rect" id="node13" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="429,83,587,130"/>
+<area shape="rect" id="node7" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="141,179,277,226"/>
+<area shape="rect" id="node11" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="301,275,483,322"/>
 </map>

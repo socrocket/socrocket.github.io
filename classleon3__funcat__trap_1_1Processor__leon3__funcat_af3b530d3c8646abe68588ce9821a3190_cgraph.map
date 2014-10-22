@@ -1,7 +1,7 @@
 <map id="leon3_funcat_trap::Processor_leon3_funcat::mainLoop" name="leon3_funcat_trap::Processor_leon3_funcat::mainLoop">
-<area shape="rect" id="node2" href="$classleon3__funcat__trap_1_1Instruction.html#a416a047866ae8edf687f34c1efc7da52" title="leon3_funcat_trap::\lInstruction::behavior" alt="" coords="251,5,392,44"/>
-<area shape="rect" id="node3" href="$classleon3__funcat__trap_1_1Instruction.html#a27ffef1cd7043743c7b988d4d02a1a5d" title="Returns the instruction name. " alt="" coords="218,68,424,107"/>
-<area shape="rect" id="node4" href="$classleon3__funcat__trap_1_1Instruction.html#a436f42e11d2fdd1d66fb9caafcecf407" title="leon3_funcat_trap::\lInstruction::getMnemonic" alt="" coords="236,131,407,169"/>
-<area shape="rect" id="node5" href="$classleon3__funcat__trap_1_1Instruction.html#a0779665b1a0555a8fd4e41f1f15d9290" title="leon3_funcat_trap::\lInstruction::replicate" alt="" coords="251,193,392,232"/>
-<area shape="rect" id="node6" href="$classleon3__funcat__trap_1_1Instruction.html#a8dd0e3ad06a819e1e1ac303cbf148b5c" title="leon3_funcat_trap::\lInstruction::setParams" alt="" coords="244,256,398,295"/>
+<area shape="rect" id="node3" href="$classleon3__funcat__trap_1_1Instruction.html#a416a047866ae8edf687f34c1efc7da52" title="leon3_funcat_trap::\lInstruction::behavior" alt="" coords="249,5,388,51"/>
+<area shape="rect" id="node5" href="$classleon3__funcat__trap_1_1Instruction.html#a27ffef1cd7043743c7b988d4d02a1a5d" title="Returns the instruction name. " alt="" coords="216,74,421,121"/>
+<area shape="rect" id="node7" href="$classleon3__funcat__trap_1_1Instruction.html#a436f42e11d2fdd1d66fb9caafcecf407" title="leon3_funcat_trap::\lInstruction::getMnemonic" alt="" coords="235,143,403,190"/>
+<area shape="rect" id="node9" href="$classleon3__funcat__trap_1_1Instruction.html#a0779665b1a0555a8fd4e41f1f15d9290" title="leon3_funcat_trap::\lInstruction::replicate" alt="" coords="249,213,388,259"/>
+<area shape="rect" id="node11" href="$classleon3__funcat__trap_1_1Instruction.html#a8dd0e3ad06a819e1e1ac303cbf148b5c" title="leon3_funcat_trap::\lInstruction::setParams" alt="" coords="241,282,396,329"/>
 </map>

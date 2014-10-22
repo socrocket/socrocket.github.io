@@ -1,9 +1,9 @@
 <map id="leon3_mmu_cache::leon3_mmu_cache" name="leon3_mmu_cache::leon3_mmu_cache">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#ga5e8cc1397095f44f07e0866e6d2a5b6b" title="leon3_mmu_cache::g\l_args_callback" alt="" coords="227,12,376,51"/>
-<area shape="rect" id="node4" href="$group__mmu__cache.html#ga2592c042d87816870b96feb07571ae5b" title="leon3_mmu_cache::g\l_gdb_callback" alt="" coords="227,75,376,113"/>
-<area shape="rect" id="node6" href="$group__mmu__cache.html#ga1cf8048fa9802b64a9dd84bfbb998c32" title="leon3_mmu_cache::g\l_history_callback" alt="" coords="227,200,376,239"/>
-<area shape="rect" id="node8" href="$group__mmu__cache.html#ga3231a3ecc4851bebc666d29e1eeebf9a" title="leon3_mmu_cache::g\l_osemu_callback" alt="" coords="227,137,376,176"/>
-<area shape="rect" id="node3" href="$classgs_1_1cnf_1_1gs__config_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html#a8abd33e8eeacdd68d64c8d0f6fd6ef9c" title="gs::cnf::gs_config\l\&lt; std::vector\&lt; std::\lstring \&gt; \&gt;::size" alt="" coords="439,5,570,57"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ToolsManager.html#ae5454c48f202c7641c8996df8055ccac" title="trap::ToolsManager\l::addTool" alt="" coords="437,105,572,144"/>
-<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#af711664ec75d2e36065a4a9edd4b5b8e" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::enableHistory" alt="" coords="424,193,585,245"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga5e8cc1397095f44f07e0866e6d2a5b6b" title="leon3_mmu_cache::g\l_args_callback" alt="" coords="224,14,371,61"/>
+<area shape="rect" id="node7" href="$group__mmu__cache.html#ga2592c042d87816870b96feb07571ae5b" title="leon3_mmu_cache::g\l_gdb_callback" alt="" coords="224,83,371,130"/>
+<area shape="rect" id="node11" href="$group__mmu__cache.html#ga1cf8048fa9802b64a9dd84bfbb998c32" title="leon3_mmu_cache::g\l_history_callback" alt="" coords="224,222,371,269"/>
+<area shape="rect" id="node15" href="$group__mmu__cache.html#ga3231a3ecc4851bebc666d29e1eeebf9a" title="leon3_mmu_cache::g\l_osemu_callback" alt="" coords="224,153,371,199"/>
+<area shape="rect" id="node5" href="$classgs_1_1cnf_1_1gs__config_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html#a8abd33e8eeacdd68d64c8d0f6fd6ef9c" title="gs::cnf::gs_config\l\&lt; std::vector\&lt; std::\lstring \&gt; \&gt;::size" alt="" coords="432,5,565,69"/>
+<area shape="rect" id="node9" href="$classtrap_1_1ToolsManager.html#ae5454c48f202c7641c8996df8055ccac" title="trap::ToolsManager\l::addTool" alt="" coords="432,118,565,165"/>
+<area shape="rect" id="node13" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#af711664ec75d2e36065a4a9edd4b5b8e" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::enableHistory" alt="" coords="420,213,577,277"/>
 </map>

@@ -1,6 +1,4 @@
 <map id="getWafConfig" name="getWafConfig">
-<area shape="rect" id="node2" href="$group__common.html#ga0f1d5bdd0d00c9c71bf1c03172512b4b" title="readLockFile" alt="" coords="155,31,253,56"/>
-<area shape="rect" id="node3" href="$group__common.html#ga3af558bfca11144188c45f03d256b991" title="findPath" alt="" coords="301,5,371,31"/>
-<area shape="rect" id="node4" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="312,55,359,80"/>
-<area shape="rect" id="node5" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="419,55,495,80"/>
+<area shape="rect" id="node3" href="$group__common.html#ga0f1d5bdd0d00c9c71bf1c03172512b4b" title="readLockFile" alt="" coords="157,5,253,35"/>
+<area shape="rect" id="node5" href="$group__common.html#ga3af558bfca11144188c45f03d256b991" title="findPath" alt="" coords="303,5,372,35"/>
 </map>

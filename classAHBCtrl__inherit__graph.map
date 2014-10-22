@@ -1,8 +1,8 @@
 <map id="AHBCtrl" name="AHBCtrl">
-<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n|# m_api\l# m_generics\l# m_counters\l# m_power\l|+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="76,551,267,731"/>
-<area shape="rect" id="node3" href="$classSCBaseModule.html" title="{SCBaseModule\&lt; DefaultBase \&gt;\n||+ SCBaseModule()\l+ ~SCBaseModule()\l}" alt="" coords="5,336,215,423"/>
-<area shape="rect" id="node5" href="$classSCBaseModule.html" title="{SCBaseModule\&lt; BASE \&gt;\n||+ SCBaseModule()\l+ ~SCBaseModule()\l+ SCBaseModule()\l}" alt="" coords="200,128,372,228"/>
-<area shape="rect" id="node7" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n|# m_api\l# m_generics\l# m_counters\l# m_power\l|+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="238,289,392,469"/>
-<area shape="rect" id="node6" href="$classBASE.html" title="{BASE\n||}" alt="" coords="258,5,315,79"/>
-<area shape="rect" id="node8" href="$classCLKDevice.html" title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="290,531,450,751"/>
+<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n|# m_api\l# m_generics\l# m_counters\l# m_power\l|+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="76,645,265,869"/>
+<area shape="rect" id="node4" href="$classSCBaseModule.html" title="{SCBaseModule\&lt; DefaultBase \&gt;\n||+ SCBaseModule()\l+ ~SCBaseModule()\l}" alt="" coords="5,389,213,491"/>
+<area shape="rect" id="node8" href="$classSCBaseModule.html" title="{SCBaseModule\&lt; BASE \&gt;\n||+ SCBaseModule()\l+ ~SCBaseModule()\l+ SCBaseModule()\l}" alt="" coords="199,141,372,261"/>
+<area shape="rect" id="node12" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n|# m_api\l# m_generics\l# m_counters\l# m_power\l|+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="237,328,392,552"/>
+<area shape="rect" id="node10" href="$classBASE.html" title="{BASE\n||}" alt="" coords="256,5,315,91"/>
+<area shape="rect" id="node15" href="$classCLKDevice.html" title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="289,619,449,895"/>
 </map>

@@ -1,19 +1,19 @@
 <map id="core/models/extern/LEON3/simulatorSources/leon3.funcat/externalPins.hpp" name="core/models/extern/LEON3/simulatorSources/leon3.funcat/externalPins.hpp">
-<area shape="rect" id="node2" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="278,105,429,144"/>
-<area shape="rect" id="node10" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="692,112,858,137"/>
-<area shape="rect" id="node15" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1179,112,1344,137"/>
-<area shape="rect" id="node8" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="130,192,317,231"/>
-<area shape="rect" id="node16" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="1365,465,1519,504"/>
-<area shape="rect" id="node27" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="1365,279,1519,317"/>
-<area shape="rect" id="node31" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="1128,192,1282,231"/>
-<area shape="rect" id="node17" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="1358,639,1512,677"/>
-<area shape="rect" id="node22" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="1078,639,1232,677"/>
-<area shape="rect" id="node23" href="$inout_8h.html" title="core/common/signalkit\l_h/inout.h" alt="" coords="1078,552,1232,591"/>
-<area shape="rect" id="node24" href="$selector_8h.html" title="core/common/signalkit\l_h/selector.h" alt="" coords="1308,552,1462,591"/>
-<area shape="rect" id="node26" href="$infield_8h.html" title="core/common/signalkit\l_h/infield.h" alt="" coords="1588,639,1742,677"/>
-<area shape="rect" id="node19" href="$signalkit__h_2base_8h.html" title="core/common/signalkit\l_h/base.h" alt="" coords="1473,725,1627,764"/>
-<area shape="rect" id="node21" href="$ifs_8h.html" title="core/common/signalkit\l_h/ifs.h" alt="" coords="1129,725,1283,764"/>
-<area shape="rect" id="node28" href="$tlmin__scout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmin_scout\l_adapter.h" alt="" coords="1746,365,1917,417"/>
-<area shape="rect" id="node29" href="$scin__tlmout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/scin_tlmout\l_adapter.h" alt="" coords="1551,365,1722,417"/>
-<area shape="rect" id="node30" href="$tlmsc__inout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmsc_inout\l_adapter.h" alt="" coords="1356,365,1527,417"/>
+<area shape="rect" id="node3" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="280,118,427,165"/>
+<area shape="rect" id="node23" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="689,127,855,156"/>
+<area shape="rect" id="node34" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1172,127,1335,156"/>
+<area shape="rect" id="node15" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="129,214,316,261"/>
+<area shape="rect" id="node36" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="1356,518,1508,565"/>
+<area shape="rect" id="node73" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="1356,310,1508,357"/>
+<area shape="rect" id="node87" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="1121,214,1273,261"/>
+<area shape="rect" id="node38" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="1349,710,1501,757"/>
+<area shape="rect" id="node49" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="1072,710,1224,757"/>
+<area shape="rect" id="node54" href="$inout_8h.html" title="core/common/signalkit\l_h/inout.h" alt="" coords="1072,614,1224,661"/>
+<area shape="rect" id="node59" href="$selector_8h.html" title="core/common/signalkit\l_h/selector.h" alt="" coords="1299,614,1451,661"/>
+<area shape="rect" id="node67" href="$infield_8h.html" title="core/common/signalkit\l_h/infield.h" alt="" coords="1576,710,1728,757"/>
+<area shape="rect" id="node42" href="$signalkit__h_2base_8h.html" title="core/common/signalkit\l_h/base.h" alt="" coords="1463,806,1615,853"/>
+<area shape="rect" id="node46" href="$ifs_8h.html" title="core/common/signalkit\l_h/ifs.h" alt="" coords="1123,806,1275,853"/>
+<area shape="rect" id="node75" href="$tlmin__scout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmin_scout\l_adapter.h" alt="" coords="1732,405,1900,469"/>
+<area shape="rect" id="node79" href="$scin__tlmout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/scin_tlmout\l_adapter.h" alt="" coords="1540,405,1708,469"/>
+<area shape="rect" id="node83" href="$tlmsc__inout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmsc_inout\l_adapter.h" alt="" coords="1348,405,1516,469"/>
 </map>

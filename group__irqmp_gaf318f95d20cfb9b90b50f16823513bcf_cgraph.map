@@ -1,7 +1,7 @@
 <map id="Irqmp::Irqmp" name="Irqmp::Irqmp">
-<area shape="rect" id="node2" href="$group__irqmp.html#ga8573b0c1fe36dfa5976b4ac20155de71" title="Dynamic/Internal power callback. " alt="" coords="152,5,294,31"/>
-<area shape="rect" id="node3" href="$group__irqmp.html#ga322584119497ffe5e5e5cf86cadbffb7" title="Irqmp::launch_irq" alt="" coords="161,55,285,80"/>
-<area shape="rect" id="node6" href="$group__irqmp.html#ga822c05778268aeb657e8097c04638870" title="Static power callback. " alt="" coords="150,104,296,129"/>
-<area shape="rect" id="node4" href="$classIrqmp.html#a59a8bb294d893b691abe9db0c0a37cfd" title="Irqmp::PROC_IR_MASK" alt="" coords="349,31,516,56"/>
-<area shape="rect" id="node5" href="$classIrqmp.html#ad006143a3ddef1eb7f1ff51f04b357e2" title="Irqmp::PROC_IR_FORCE" alt="" coords="344,80,520,105"/>
+<area shape="rect" id="node3" href="$group__irqmp.html#ga8573b0c1fe36dfa5976b4ac20155de71" title="Dynamic/Internal power callback. " alt="" coords="152,5,291,35"/>
+<area shape="rect" id="node5" href="$group__irqmp.html#ga322584119497ffe5e5e5cf86cadbffb7" title="Irqmp::launch_irq" alt="" coords="160,59,283,88"/>
+<area shape="rect" id="node11" href="$group__irqmp.html#ga822c05778268aeb657e8097c04638870" title="Static power callback. " alt="" coords="149,112,293,141"/>
+<area shape="rect" id="node7" href="$classIrqmp.html#a59a8bb294d893b691abe9db0c0a37cfd" title="Irqmp::PROC_IR_MASK" alt="" coords="347,32,515,61"/>
+<area shape="rect" id="node9" href="$classIrqmp.html#ad006143a3ddef1eb7f1ff51f04b357e2" title="Irqmp::PROC_IR_FORCE" alt="" coords="343,85,519,115"/>
 </map>

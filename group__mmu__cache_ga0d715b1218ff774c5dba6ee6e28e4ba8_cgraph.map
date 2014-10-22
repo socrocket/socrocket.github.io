@@ -1,4 +1,4 @@
 <map id="vectorcache::flush" name="vectorcache::flush">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="182,5,322,31"/>
-<area shape="rect" id="node3" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="183,55,321,80"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="184,5,323,35"/>
+<area shape="rect" id="node5" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="185,59,321,88"/>
 </map>

@@ -1,12 +1,12 @@
 <map id="GPTimer::GPTimer" name="GPTimer::GPTimer">
-<area shape="rect" id="node2" href="$classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7" title="gs::amba::amba_slave\l::get_base_addr" alt="" coords="192,5,348,44"/>
-<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f" title="gs::amba::amba_slave\l::get_size" alt="" coords="192,68,348,107"/>
-<area shape="rect" id="node4" href="$group__gptimer.html#ga2055e54bbc194c9ba8fc5b20a56441ec" title="GPTimer::init_generics" alt="" coords="192,131,348,156"/>
-<area shape="rect" id="node6" href="$group__gptimer.html#gac72a9ef795bb4c0244db860197f4f908" title="GPTimer::init_registers" alt="" coords="191,180,349,205"/>
-<area shape="rect" id="node10" href="$group__gptimer.html#gaee11c49a8fc90ca3431a748b5465c71b" title="Dynamic/Internal power callback. " alt="" coords="190,229,351,255"/>
-<area shape="rect" id="node11" href="$group__gptimer.html#ga070232802207ac4c92722c719e602763" title="Static power callback. " alt="" coords="188,279,352,304"/>
-<area shape="rect" id="node5" href="$classgs_1_1cnf_1_1gs__config__base.html#a5536fbb534651c3bbff1d9c0d2b47f5b" title="gs::cnf::gs_config\l_base::add_properties" alt="" coords="400,93,554,132"/>
-<area shape="rect" id="node7" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="415,156,540,181"/>
-<area shape="rect" id="node8" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="409,205,546,231"/>
-<area shape="rect" id="node9" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="419,255,536,280"/>
+<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7" title="gs::amba::amba_slave\l::get_base_addr" alt="" coords="193,5,348,51"/>
+<area shape="rect" id="node5" href="$classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f" title="gs::amba::amba_slave\l::get_size" alt="" coords="193,74,348,121"/>
+<area shape="rect" id="node7" href="$group__gptimer.html#ga2055e54bbc194c9ba8fc5b20a56441ec" title="GPTimer::init_generics" alt="" coords="193,144,348,173"/>
+<area shape="rect" id="node11" href="$group__gptimer.html#gac72a9ef795bb4c0244db860197f4f908" title="GPTimer::init_registers" alt="" coords="193,197,348,227"/>
+<area shape="rect" id="node19" href="$group__gptimer.html#gaee11c49a8fc90ca3431a748b5465c71b" title="Dynamic/Internal power callback. " alt="" coords="192,251,349,280"/>
+<area shape="rect" id="node21" href="$group__gptimer.html#ga070232802207ac4c92722c719e602763" title="Static power callback. " alt="" coords="189,304,352,333"/>
+<area shape="rect" id="node9" href="$classgs_1_1cnf_1_1gs__config__base.html#a5536fbb534651c3bbff1d9c0d2b47f5b" title="gs::cnf::gs_config\l_base::add_properties" alt="" coords="401,101,551,147"/>
+<area shape="rect" id="node13" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="413,171,539,200"/>
+<area shape="rect" id="node15" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="408,224,544,253"/>
+<area shape="rect" id="node17" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="417,277,535,307"/>
 </map>

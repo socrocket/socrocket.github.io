@@ -1,6 +1,6 @@
 <map id="gs::cnf::gs_config&lt; char &gt;" name="gs::cnf::gs_config&lt; char &gt;">
-<area shape="rect" id="node2" href="$classgs_1_1cnf_1_1gs__config__t.html" title="{gs::cnf::gs_config\l_t\&lt; char \&gt;\n|# my_value\l# return_string\l# m_mirror_param\l# m_mirror_val\l|+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="28,679,195,965"/>
-<area shape="rect" id="node3" href="$classgs_1_1cnf_1_1gs__config__base.html" title="{gs::cnf::gs_config_base\n||+ gs_config_base()\l+ setProperty()\l+ getProperty()\l+ getProperties()\l+ deleteProperty()\l+ exists()\l+ add_properties()\l}" alt="" coords="5,128,167,281"/>
-<area shape="rect" id="node5" href="$classgs_1_1cnf_1_1gs__config__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="108,331,275,617"/>
-<area shape="rect" id="node4" href="$classgs__param__base.html" title="{gs_param_base\n||}" alt="" coords="28,5,145,79"/>
+<area shape="rect" id="node2" href="$classgs_1_1cnf_1_1gs__config__t.html" title="{gs::cnf::gs_config\l_t\&lt; char \&gt;\n|# my_value\l# return_string\l# m_mirror_param\l# m_mirror_val\l|+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="27,811,192,1173"/>
+<area shape="rect" id="node4" href="$classgs_1_1cnf_1_1gs__config__base.html" title="{gs::cnf::gs_config_base\n||+ gs_config_base()\l+ setProperty()\l+ getProperty()\l+ getProperties()\l+ deleteProperty()\l+ exists()\l+ add_properties()\l}" alt="" coords="5,141,165,331"/>
+<area shape="rect" id="node8" href="$classgs_1_1cnf_1_1gs__config__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="107,381,272,744"/>
+<area shape="rect" id="node6" href="$classgs__param__base.html" title="{gs_param_base\n||}" alt="" coords="28,5,143,91"/>
 </map>

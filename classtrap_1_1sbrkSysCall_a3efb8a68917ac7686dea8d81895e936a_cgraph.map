@@ -1,9 +1,9 @@
 <map id="trap::sbrkSysCall::operator()" name="trap::sbrkSysCall::operator()">
-<area shape="rect" id="node2" href="$namespacecore_1_1waf_1_1common.html#a7d407cdab7ffcfe5e0b2f72f6abc4269" title="core.waf.common.base" alt="" coords="192,5,351,31"/>
-<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="203,55,339,80"/>
-<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="206,104,336,129"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="200,153,342,179"/>
-<area shape="rect" id="node6" href="$classtrap_1_1ABIIf.html#ab6ea1b255627eb2ba28484129ce5eea4" title="trap::ABIIf::readMem" alt="" coords="199,203,343,228"/>
-<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="183,252,360,277"/>
-<area shape="rect" id="node8" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="199,301,344,327"/>
+<area shape="rect" id="node3" href="$namespacecore_1_1waf_1_1common.html#a7d407cdab7ffcfe5e0b2f72f6abc4269" title="core.waf.common.base" alt="" coords="193,5,351,35"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="203,59,341,88"/>
+<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="207,112,337,141"/>
+<area shape="rect" id="node9" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="201,165,343,195"/>
+<area shape="rect" id="node11" href="$classtrap_1_1ABIIf.html#ab6ea1b255627eb2ba28484129ce5eea4" title="trap::ABIIf::readMem" alt="" coords="200,219,344,248"/>
+<area shape="rect" id="node13" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="184,272,360,301"/>
+<area shape="rect" id="node15" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="199,325,345,355"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="APBUART::end_of_elaboration" name="APBUART::end_of_elaboration">
-<area shape="rect" id="node2" href="$group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7" title="APBUART::data_read" alt="" coords="262,5,412,31"/>
-<area shape="rect" id="node5" href="$group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9" title="APBUART::data_write" alt="" coords="262,104,413,129"/>
-<area shape="rect" id="node7" href="$group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625" title="APBUART::status_read" alt="" coords="258,55,417,80"/>
-<area shape="rect" id="node3" href="$classio__if.html#ab770abbc278117d4ff246166d3a0f38a" title="io_if::getReceivedChar" alt="" coords="465,5,621,31"/>
-<area shape="rect" id="node4" href="$classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e" title="io_if::receivedChars" alt="" coords="474,55,613,80"/>
-<area shape="rect" id="node6" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="488,104,599,129"/>
+<area shape="rect" id="node3" href="$group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7" title="APBUART::data_read" alt="" coords="263,5,412,35"/>
+<area shape="rect" id="node9" href="$group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9" title="APBUART::data_write" alt="" coords="260,112,415,141"/>
+<area shape="rect" id="node13" href="$group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625" title="APBUART::status_read" alt="" coords="256,59,419,88"/>
+<area shape="rect" id="node5" href="$classio__if.html#ab770abbc278117d4ff246166d3a0f38a" title="io_if::getReceivedChar" alt="" coords="467,5,621,35"/>
+<area shape="rect" id="node7" href="$classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e" title="io_if::receivedChars" alt="" coords="475,59,613,88"/>
+<area shape="rect" id="node11" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="489,112,599,141"/>
 </map>

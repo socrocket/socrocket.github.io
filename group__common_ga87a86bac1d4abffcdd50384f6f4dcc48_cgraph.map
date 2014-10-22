@@ -1,4 +1,4 @@
 <map id="powermonitor::gen_report" name="powermonitor::gen_report">
-<area shape="rect" id="node2" href="$group__common.html#gafc1025d722f6f9f5c1d902cef3876355" title="powermonitor::get_IP\l_params" alt="" coords="227,5,375,44"/>
-<area shape="rect" id="node3" href="$group__common.html#ga1168f792f1d4f38b51e49067e56b467d" title="powermonitor::get_model_name" alt="" coords="423,41,636,67"/>
+<area shape="rect" id="node3" href="$group__common.html#gafc1025d722f6f9f5c1d902cef3876355" title="powermonitor::get_IP\l_params" alt="" coords="224,5,371,51"/>
+<area shape="rect" id="node5" href="$group__common.html#ga1168f792f1d4f38b51e49067e56b467d" title="powermonitor::get_model_name" alt="" coords="420,44,625,73"/>
 </map>
