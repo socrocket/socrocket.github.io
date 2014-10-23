@@ -98,6 +98,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a83dec5bb902301a95b143dd0d1bc919b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b7a89358170b44b6b9725350fe59d75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a0b7a89358170b44b6b9725350fe59d75">power_model</a> ()</td></tr>
 <tr class="separator:a0b7a89358170b44b6b9725350fe59d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd927f9192028340b528b4473154900"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a7bd927f9192028340b528b4473154900">triggerException</a> (unsigned <a class="el" href="classint.html">int</a> exception)</td></tr>
+<tr class="separator:a7bd927f9192028340b528b4473154900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d464ae38e3c788b7f1c5b8dd1751129"><td class="memItemLeft" align="right" valign="top">gs::cnf::callback_return_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a5d464ae38e3c788b7f1c5b8dd1751129">sta_power_cb</a> (gs::gs_param_base &amp;changed_param, gs::cnf::callback_type reason)</td></tr>
 <tr class="separator:a5d464ae38e3c788b7f1c5b8dd1751129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae188e80bf6392a32fab0258029cb60e"><td class="memItemLeft" align="right" valign="top">gs::cnf::callback_return_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#aae188e80bf6392a32fab0258029cb60e">int_power_cb</a> (gs::gs_param_base &amp;changed_param, gs::cnf::callback_type reason)</td></tr>
@@ -178,6 +180,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad04f4133f510caf60fadd68b4c3ed8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a719ffed33418255519dde456766e6a61"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a719ffed33418255519dde456766e6a61">PROGRAM_START</a></td></tr>
 <tr class="separator:a719ffed33418255519dde456766e6a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0783b1b167d88aef36dfeab1654865"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a3f0783b1b167d88aef36dfeab1654865">curPC</a></td></tr>
+<tr class="separator:a3f0783b1b167d88aef36dfeab1654865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afed48b00c310e80cb3132ca312473170"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classleon3__funclt__trap_1_1IntrTLMPort__32.html">IntrTLMPort_32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#afed48b00c310e80cb3132ca312473170">IRQ_port</a></td></tr>
 <tr class="separator:afed48b00c310e80cb3132ca312473170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca7d29330cbf658f1628d48b85686e97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classleon3__funclt__trap_1_1PinTLM__out__32.html">PinTLM_out_32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#aca7d29330cbf658f1628d48b85686e97">irqAck</a></td></tr>
@@ -262,7 +266,7 @@ Public Attributes</h2></td></tr>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classleon3__funclt__trap_1_1Processor__leon3__funclt_a63f2aee4d33f0b7b874c05af834552df_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classleon3__funclt__trap_1_1Processor__leon3__funclt_a63f2aee4d33f0b7b874c05af834552df_cgraph.svg" width="464" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -434,16 +438,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structtrap_1_1HistoryInstrType.html#a97d92a3cc72312b8142d77becac68f36">trap::HistoryInstrType::address</a>, <a class="el" href="classleon3__funclt__trap_1_1Instruction.html#ae0b978f3e6424cf60c8baf54a35c9269">leon3_funclt_trap::Instruction::behavior()</a>, <a class="el" href="structtrap_1_1HistoryInstrType.html#aab36bdf66c9f2b26654ee24b597fd1a8">trap::HistoryInstrType::cycle</a>, <a class="el" href="classleon3__funclt__trap_1_1Instruction.html#a5ee0c32a3a7e5aced35a5c8aa3cb784e">leon3_funclt_trap::Instruction::getInstructionName()</a>, <a class="el" href="classleon3__funclt__trap_1_1Instruction.html#a91f3cb16378baf674ffc4c8e9adca731">leon3_funclt_trap::Instruction::getMnemonic()</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="leon3_8funcat_2registers_8hpp.html#a8587741f48c020acb15c5c9a5b5a9de1">key_ET</a>, <a class="el" href="leon3_8funcat_2registers_8hpp.html#a17f2cb3d38e5fb711c4ec3ddcc74c033">key_PIL</a>, <a class="el" href="structtrap_1_1HistoryInstrType.html#a363ed0e8b16517b7378ac97036e93a36">trap::HistoryInstrType::mnemonic</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="structtrap_1_1HistoryInstrType.html#ac78e77856a09d2151fd3459b98ff77d1">trap::HistoryInstrType::name</a>, <a class="el" href="classleon3__funclt__trap_1_1Instruction.html#a622033db3d9beec65e8ad46999325abb">leon3_funclt_trap::Instruction::replicate()</a>, and <a class="el" href="classleon3__funclt__trap_1_1Instruction.html#abdeaab006561d74c7fb624bb70d09a98">leon3_funclt_trap::Instruction::setParams()</a>.</p>
+<p>References <a class="el" href="structtrap_1_1HistoryInstrType.html#a97d92a3cc72312b8142d77becac68f36">trap::HistoryInstrType::address</a>, <a class="el" href="structtrap_1_1HistoryInstrType.html#aab36bdf66c9f2b26654ee24b597fd1a8">trap::HistoryInstrType::cycle</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="leon3_8funcat_2registers_8hpp.html#a8587741f48c020acb15c5c9a5b5a9de1">key_ET</a>, <a class="el" href="leon3_8funcat_2registers_8hpp.html#a17f2cb3d38e5fb711c4ec3ddcc74c033">key_PIL</a>, <a class="el" href="structtrap_1_1HistoryInstrType.html#a363ed0e8b16517b7378ac97036e93a36">trap::HistoryInstrType::mnemonic</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, and <a class="el" href="structtrap_1_1HistoryInstrType.html#ac78e77856a09d2151fd3459b98ff77d1">trap::HistoryInstrType::name</a>.</p>
 
 <p>Referenced by <a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a63f2aee4d33f0b7b874c05af834552df">Processor_leon3_funclt()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classleon3__funclt__trap_1_1Processor__leon3__funclt_aa236872038d2d898e9a685e61800b644_cgraph.svg" width="424" height="334"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</p>
 
 </div>
 </div>
@@ -598,6 +595,22 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="a7bd927f9192028340b528b4473154900"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void leon3_funclt_trap::Processor_leon3_funclt::triggerException </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>exception</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a89599bcdaac6aed9b29991e953b1b1d4"></a>
 <div class="memitem">
@@ -624,6 +637,18 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a63f2aee4d33f0b7b874c05af834552df">Processor_leon3_funclt()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3f0783b1b167d88aef36dfeab1654865"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned <a class="el" href="classint.html">int</a> leon3_funclt_trap::Processor_leon3_funclt::curPC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1237,7 +1262,7 @@ Here is the call graph for this function:</div>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Wed Oct 22 2014 14:14:49 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Thu Oct 23 2014 15:41:45 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

@@ -78,22 +78,8 @@
 <p>On a Debian/Ubuntu (64bit) System you can install most of the dependencies with <code>apt-get</code>: </p><pre class="fragment">$ sudo apt-get install build-essential python2.7-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-program-options-dev libboost-filesystem-dev libreadline-dev libc6-i386 lib32z1 lib32ncurses5 lib32bz2-1.0 (swig-dev)
 </pre><p>Please make sure that all the software packages mentioned above are properly installed, before proceeding with building the library.</p>
 <p>Compiling software for the LEON ISS requires a SPARC compiler. We recommend using the GCC/BCC provided by Aeroflex Gaisler. It will be downloaded automatically when you run <code>./waf configure</code>.</p>
-<p>The Mentor Modelsim simulator and the Aeroflex Gaisler GRLIB are required for SystemC/VHDL co-simulation. This feature can be optionally disabled (see <a class="el" href="requirements.html#requirements4">Aeroflex Gaisler GRLIB and Mentor Modelsim Simulator</a>). Gcov/Lcov and Doxygen are also optional components. The build system will not check for them. If the packages are not present, test coverage calculation and the generation of additional documentation are not possible.</p>
-<h1><a class="anchor" id="requirements4"></a>
-Aeroflex Gaisler GRLIB and Mentor Modelsim Simulator</h1>
-<p>TODO: does this still work this way?!</p>
-<p>Some of the unit tests of the library feature SystemC/VHDL co-simulation. These tests require Mentor Modelsim to be installed and the GRLIB hardware library to be pre-compiled. For installing Modelsim please follow the instruction provided by the tool vendor. Make sure to add the vsim, vlib, sccom and vcom executables to your search path. To obtain a pre-compiled version of the GRLIB library we recommend compiling the build-in <code>leon3-gr-xc3s-1500</code> example design: </p><pre class="fragment">$ cd ($GRLIB_HOME/designs/leon3-gr-xc3s-1500)
-$ make vsim
-</pre><p>A description of this design and all its components can be found in the Quick-Start section of the GRLIB IP Library User’s Manual (<code>$GRLIB_HOME/doc/grlib.pdf</code>).</p>
-<p>Please additionally compile the following files from within the leon3-gr-xc3s-1500 library: </p><pre class="fragment">$ vcom -93 -work gaisler ${GRLIB_HOME}/lib/gaisler/ambatest/ahbtbp.vhd
-$ vcom -93 -work gaisler ${GRLIB_HOME}/lib/gaisler/ambatest/ahbmst_em.vhd
-$ vcom -93 -work gaisler ${GRLIB_HOME}/lib/gaisler/ambatest/ahbslv_em.vhd
-$ vcom -93 -work gaisler ${GRLIB_HOME}/lib/gaisler/ambatest/ahb_tbfunct.vhd
-$ vcom -93 -work gaisler ${GRLIB_HOME}/lib/gaisler/ambatest/ahbtbs.vhd
-$ vcom -93 -work gaisler ${GRLIB_HOME}/lib/gaisler/ambatest/ahbtbm.vhd
-</pre><p>Set the following environment variables to enable co-simulation: </p><pre class="fragment">$ export GRLIB_HOME=&lt;ROOT DIRECTORY OF THE GRLIB INSTALLATION&gt;
-$ export GRLIB_TECH=&lt;FOLDER CONTAINING COMPILED DESIGN&gt;
-</pre><p>Co-simulation can be explicitly disabled in the library configuration. To exclude all co-simulation targets from compilation configure as follows: </p><pre class="fragment">$ ./waf configure --nomodelsim</pre> </div></div><!-- contents -->
+<p>The Mentor Modelsim simulator and the Aeroflex Gaisler GRLIB are required for SystemC/VHDL co-simulation. This feature can be optionally disabled (see requirements4). Gcov/Lcov and Doxygen are also optional components. The build system will not check for them. If the packages are not present, test coverage calculation and the generation of additional documentation are not possible. </p>
+</div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
 <footer>
@@ -103,7 +89,7 @@ $ export GRLIB_TECH=&lt;FOLDER CONTAINING COMPILED DESIGN&gt;
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Wed Oct 22 2014 14:14:42 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

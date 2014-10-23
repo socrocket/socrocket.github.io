@@ -58,64 +58,64 @@
 <div class="textblock"><p>The SoCRocket Coding Style Guide is derived from the Google C++ Style Guide (Revision 3.274, <a href="http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml">http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml</a>)</p>
 <p>Many thanks to Google and Benjy Weinberger, Craig Silverstein, Gregory Eitzmann, Mark Mentovai andTashana Landray for their excellent style guide.</p>
 <p>To ensure the usage of that Style Guide several helper tools are in place to support the development cycle.</p>
-<p>To check the coding style use the script <code>tools/cpplint</code>. It is simply called: </p><pre class="fragment">$ ./tool/cpplint &lt;filename&gt; ...
+<p>To check the coding style use the script <code>core/tools/cpplint</code>. It is simply called: </p><pre class="fragment">$ ./core/tool/cpplint &lt;filename&gt; ...
 </pre><p>All files can be checked with: </p><pre class="fragment">$ ./waf cpplint
 </pre><p>Furthermore to simplify the migration process of old code to the codingstyle you may use the tool <code>uncrustify</code> which is available here: <a href="http://uncrustify.sourceforge.net/">http://uncrustify.sourceforge.net/</a></p>
-<p>A configuration is availabe in <code>tools/uncrustify.cfg</code>. Make sure you use at least version 0.60 of <code>uncrustify</code>. It can be used like this: </p><pre class="fragment">$ uncrustify -c tools/uncrustify.cfg --replace &lt;filename&gt;
+<p>A configuration is availabe in <code>core/tools/uncrustify.cfg</code>. Make sure you use at least version 0.60 of <code>uncrustify</code>. It can be used like this: </p><pre class="fragment">$ uncrustify -c core/tools/uncrustify.cfg --replace &lt;filename&gt;
 </pre><p>To update/add header guards in a coding style compliant way the script <code><a class="el" href="fixheaderguards_8py.html">tools/fixheaderguards.py</a></code> can be used. The script was originally created by Martin Preisler and slightly adapted to our coding style. The original is available here: <a href="https://bitbucket.org/mpreisler/include-guard-fixer/">https://bitbucket.org/mpreisler/include-guard-fixer/</a></p>
-<p>Just run it from the project root like this: </p><pre class="fragment">$ tools/fixheaderguards.py &lt;filename&gt;
+<p>Just run it from the project root like this: </p><pre class="fragment">$ core/tools/fixheaderguards.py &lt;filename&gt;
 </pre><h2>Coding Style adjustments done in the SoCRocket Week 2014-6 </h2>
 <table class="doxtable">
 <tr>
-<th>Model </th><th>Lint </th><th>GUARDS </th><th>DOCS </th><th>DOCSUP </th><th>DOXY </th><th>CONF </th><th>REGS  </th></tr>
+<th>Model </th><th>Lint </th><th>GUARDS </th><th>DOCS </th><th>DOCSUP </th><th>DOXY </th><th>CONF </th><th>REGS </th><th></th></tr>
 <tr>
-<td>ahbcamera </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td>AHBCamera </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbctrl </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td><a class="el" href="classAHBCtrl.html">AHBCtrl</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbdisplay </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td>AHBDisplay </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbin </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td></tr>
+<td><a class="el" href="classAHBIn.html" title="Definition of class AHBIn. ">AHBIn</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbmem </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td><a class="el" href="classAHBMem.html">AHBMem</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbout </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td></tr>
+<td><a class="el" href="classAHBOut.html">AHBOut</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbprof </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td><a class="el" href="classAHBProf.html">AHBProf</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbshuffler </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td>AHBShuffler </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbspacewire </td><td></td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
+<td>AHBSpacewire </td><td></td><td>OK </td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>ahbudp </td><td>OK </td><td>OK </td><td></td><td></td><td>OK </td><td></td><td></td></tr>
+<td>AHBUdp </td><td>OK </td><td>OK </td><td></td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>apbctrl </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td></tr>
+<td><a class="el" href="classAPBCtrl.html">APBCtrl</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>apbuart </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td></tr>
+<td>APBUart </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>gptimer </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td></tr>
+<td><a class="el" href="classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig...">GPTimer</a> </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>greth </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<td>GREth </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>irqmp </td><td>OK </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td></tr>
+<td><a class="el" href="classIrqmp.html">Irqmp</a> </td><td>OK </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>mctrl </td><td>RM </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td></tr>
+<td><a class="el" href="classMctrl.html" title="This class is an TLM 2.0 Model of the Aeroflex Gaisler GRLIB mctrl. Further informations to the origi...">Mctrl</a> </td><td>RM </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>memory </td><td>OK </td><td>OK </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td></tr>
+<td><a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> </td><td>OK </td><td>OK </td><td>OK </td><td>OK </td><td>OK </td><td></td><td></td><td></td></tr>
 <tr>
-<td>mips </td><td>OK </td><td></td><td></td><td>OK </td><td></td><td></td><td></td></tr>
+<td>Mips </td><td>OK </td><td></td><td></td><td>OK </td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a> </td><td>TS </td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<td><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a> </td><td>TS </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>socwire </td><td></td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
+<td>SoCWire </td><td></td><td>OK </td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>stimgen </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td></tr>
+<td>Stimgen </td><td>OK </td><td>OK </td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr>
-<td>utils </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td>&ndash; </td><td></td></tr>
+<td>utils </td><td>OK </td><td>OK </td><td>OK </td><td></td><td>OK </td><td>&ndash; </td><td></td><td></td></tr>
 <tr>
-<td>common </td><td>RM </td><td></td><td></td><td></td><td></td><td>&ndash; </td><td></td></tr>
+<td>common </td><td>RM </td><td></td><td></td><td></td><td></td><td>&ndash; </td><td></td><td></td></tr>
 <tr>
-<td>leon3mp </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<td>leon3mp </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
@@ -127,7 +127,7 @@
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Wed Oct 22 2014 14:14:42 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

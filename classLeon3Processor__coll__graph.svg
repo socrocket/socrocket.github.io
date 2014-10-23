@@ -175,7 +175,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node34 -->
 <g id="node91" class="node"><title>Node34</title>
-<a xlink:href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html" target="_top" xlink:title="{leon3_funclt_trap::\lProcessor_leon3_funclt\n||+ GC_HAS_CALLBACKS()\l+ SC_HAS_PROCESS()\l+ Processor_leon3_funclt()\l+ mainLoop()\l+ resetOp()\l+ start_of_simulation()\l+ end_of_simulation()\l+ power_model()\l+ sta_power_cb()\l+ int_power_cb()\land 7 more...\l}">
+<a xlink:href="classleon3__funclt__trap_1_1Processor__leon3__funclt.html" target="_top" xlink:title="{leon3_funclt_trap::\lProcessor_leon3_funclt\n||+ GC_HAS_CALLBACKS()\l+ SC_HAS_PROCESS()\l+ Processor_leon3_funclt()\l+ mainLoop()\l+ resetOp()\l+ start_of_simulation()\l+ end_of_simulation()\l+ power_model()\l+ triggerException()\l+ sta_power_cb()\land 8 more...\l}">
 <polygon fill="white" stroke="black" points="2867.5,-753 2867.5,-959 3004.5,-959 3004.5,-753 2867.5,-753"/>
 <text text-anchor="start" x="2875.5" y="-946" font-family="Helvetica,sans-Serif" font-size="10.00">leon3_funclt_trap::</text>
 <text text-anchor="middle" x="2936" y="-933" font-family="Helvetica,sans-Serif" font-size="10.00">Processor_leon3_funclt</text>
@@ -190,9 +190,9 @@ var sectionId = 'dynsection-1';
 <text text-anchor="start" x="2875.5" y="-826" font-family="Helvetica,sans-Serif" font-size="10.00">+ start_of_simulation()</text>
 <text text-anchor="start" x="2875.5" y="-813" font-family="Helvetica,sans-Serif" font-size="10.00">+ end_of_simulation()</text>
 <text text-anchor="start" x="2875.5" y="-800" font-family="Helvetica,sans-Serif" font-size="10.00">+ power_model()</text>
-<text text-anchor="start" x="2875.5" y="-787" font-family="Helvetica,sans-Serif" font-size="10.00">+ sta_power_cb()</text>
-<text text-anchor="start" x="2875.5" y="-774" font-family="Helvetica,sans-Serif" font-size="10.00">+ int_power_cb()</text>
-<text text-anchor="start" x="2875.5" y="-761" font-family="Helvetica,sans-Serif" font-size="10.00">and 7 more...</text>
+<text text-anchor="start" x="2875.5" y="-787" font-family="Helvetica,sans-Serif" font-size="10.00">+ triggerException()</text>
+<text text-anchor="start" x="2875.5" y="-774" font-family="Helvetica,sans-Serif" font-size="10.00">+ sta_power_cb()</text>
+<text text-anchor="start" x="2875.5" y="-761" font-family="Helvetica,sans-Serif" font-size="10.00">and 8 more...</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node34 -->
@@ -750,11 +750,12 @@ var sectionId = 'dynsection-1';
 <g id="edge160" class="edge"><title>Node17&#45;&gt;Node34</title>
 <path fill="none" stroke="#404040" d="M2024.68,-1597.4C2168.43,-1591.35 3320.97,-1539.15 3403,-1418 3428.91,-1379.72 3430.59,-1247.08 3403,-1210 3386.38,-1187.66 3361.08,-1213.18 3343,-1192 3282.44,-1121.05 3374.34,-1055.97 3315,-984 3276.63,-937.462 3115.86,-895.152 3016.45,-872.755"/>
 <polygon fill="none" stroke="#404040" points="3016.35,-872.734 3009.63,-875.333 3004.64,-870.124 3011.37,-867.525 3016.35,-872.734"/>
-<text text-anchor="middle" x="3474" y="-1337.5" font-family="Helvetica,sans-Serif" font-size="10.00"> +PROGRAM_START</text>
-<text text-anchor="middle" x="3474" y="-1324.5" font-family="Helvetica,sans-Serif" font-size="10.00">+PROGRAM_LIMIT</text>
-<text text-anchor="middle" x="3474" y="-1311.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ENTRY_POINT</text>
-<text text-anchor="middle" x="3474" y="-1298.5" font-family="Helvetica,sans-Serif" font-size="10.00">+undumpedHistElems</text>
-<text text-anchor="middle" x="3474" y="-1285.5" font-family="Helvetica,sans-Serif" font-size="10.00">+MPROC_ID</text>
+<text text-anchor="middle" x="3474" y="-1344" font-family="Helvetica,sans-Serif" font-size="10.00"> +PROGRAM_START</text>
+<text text-anchor="middle" x="3474" y="-1331" font-family="Helvetica,sans-Serif" font-size="10.00">+PROGRAM_LIMIT</text>
+<text text-anchor="middle" x="3474" y="-1318" font-family="Helvetica,sans-Serif" font-size="10.00">+ENTRY_POINT</text>
+<text text-anchor="middle" x="3474" y="-1305" font-family="Helvetica,sans-Serif" font-size="10.00">+curPC</text>
+<text text-anchor="middle" x="3474" y="-1292" font-family="Helvetica,sans-Serif" font-size="10.00">+undumpedHistElems</text>
+<text text-anchor="middle" x="3474" y="-1279" font-family="Helvetica,sans-Serif" font-size="10.00">+MPROC_ID</text>
 </g>
 <!-- Node17&#45;&gt;Node36 -->
 <g id="edge148" class="edge"><title>Node17&#45;&gt;Node36</title>

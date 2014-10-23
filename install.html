@@ -81,8 +81,7 @@ WAF Command Overview</h1>
 <div class="line">update   : updates the plugins from the *waflib/extras* directory</div>
 <div class="line"></div>
 <div class="line"><a class="code" href="namespacecore_1_1waf_1_1wizard.html#af4f62153ebeb06e37b4a69e4241e3d45">generate</a> : opens the configuration</div>
-</div><!-- fragment --><p><em>Doxygen support is currently under development. The generated documents may be incomplete.</em></p>
-<h1><a class="anchor" id="install2"></a>
+</div><!-- fragment --><h1><a class="anchor" id="install2"></a>
 Building the library</h1>
 <p>Building the project requires following steps:</p>
 <ol type="1">
@@ -90,21 +89,8 @@ Building the library</h1>
 <li><em>Compile library and run unit tests</em> Execute <code>./waf</code> to compile all targets. Optionally, the <code>–jN</code> flag can be used to define to maximum number of parallel threads. If co-simulation is configured make sure you have enough licenses to execute N instances of Modelsim. As an alternative, you may select a specific target (test or library) for compilation. A list of targets can be generated with <code>./waf list</code>. Selective compile is done using <code>./waf –targets=”comma,separated,list,of,targets”</code>. After successful compilation the system automatically starts the respective unit test(s) and displays the result on the screen.</li>
 <li><em>Optional Doxygen and Gcov</em> In the final step you may generate additional documentation using Doxygen (<code>./waf docs</code>) or perform a test coverage calculation using Gcov/Lcov (<code>./waf coverage</code>). The configuration step does not check the presence of these tools. In case they are not present, the commands have no effect.</li>
 </ol>
-<p>Moreover, to enable coverage calculation the system must be configure with the <code>–G</code> option. Compile the library and execute all unit tests in order to achieve meaningful results.</p>
-<h1><a class="anchor" id="install3"></a>
-Models separate compilation</h1>
-<p>The models of the library can be compiled separately and independently of each other. The following minimum set of source files is required for successful compilation:</p>
-<div class="fragment"><div class="line">./common</div>
-<div class="line">./contrib</div>
-<div class="line">./Doxyfile</div>
-<div class="line">./models/&lt;selected_model&gt;</div>
-<div class="line">./models/utils</div>
-<div class="line">./models/wscript</div>
-<div class="line">./<a class="code" href="namespacesignalkit.html">signalkit</a></div>
-<div class="line">./tools</div>
-<div class="line">wscript</div>
-<div class="line">waf</div>
-</div><!-- fragment --> </div></div><!-- contents -->
+<p>Moreover, to enable coverage calculation the system must be configure with the <code>–G</code> option. Compile the library and execute all unit tests in order to achieve meaningful results. </p>
+</div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
 <footer>
@@ -114,7 +100,7 @@ Models separate compilation</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Wed Oct 22 2014 14:14:42 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>
