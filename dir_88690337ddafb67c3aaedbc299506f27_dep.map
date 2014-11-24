@@ -1,9 +1,9 @@
 <map id="core/models/extern/LEON3/simulatorSources/leon3.funclt" name="core/models/extern/LEON3/simulatorSources/leon3.funclt">
 <area shape="rect" id="node2" href="dir_88690337ddafb67c3aaedbc299506f27.html" title="leon3.funclt" alt="" coords="49,55,137,103"/>
 <area shape="rect" id="node3" href="dir_b0b7c73ff9a94603d1d02ecd3369b833.html" title="mmu_cache" alt="" coords="5,151,99,199"/>
-<area shape="rect" id="edge5" href="dir_000032_000039.html" title="2" alt="" coords="74,128,82,145"/>
+<area shape="rect" id="edge5" href="dir_000031_000038.html" title="2" alt="" coords="74,128,82,145"/>
 <area shape="rect" id="node4" href="dir_3d0a500f94b8a53a06724a5d3d2ad9c9.html" title="common" alt="" coords="57,247,129,295"/>
-<area shape="rect" id="edge7" href="dir_000032_000006.html" title="61" alt="" coords="106,222,121,240"/>
-<area shape="rect" id="edge3" href="dir_000039_000006.html" title="49" alt="" coords="76,217,91,235"/>
+<area shape="rect" id="edge7" href="dir_000031_000006.html" title="61" alt="" coords="106,222,121,240"/>
+<area shape="rect" id="edge3" href="dir_000038_000006.html" title="49" alt="" coords="76,217,91,235"/>
 <area shape="rect" id="graph2" href="dir_8e106c1ef516ca451b22e75f9b7ed77e.html" title="simulatorSources" alt="" coords="32,16,155,113"/>
 </map>

@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" target="_top" xlink:title="GPTimer::valueof">
+<a xlink:href="group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" target="_top" xlink:title="GPTimer::valueof">
 <polygon fill="white" stroke="black" points="148.5,-0.5 148.5,-21.5 241.5,-21.5 241.5,-0.5 148.5,-0.5"/>
 <text text-anchor="middle" x="195" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">GPTimer::valueof</text>
 </a>

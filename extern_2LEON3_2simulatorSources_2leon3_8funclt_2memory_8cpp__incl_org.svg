@@ -18,7 +18,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="leon3_8funclt_2memory_8hpp.html" target="_top" xlink:title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/memory.hpp">
+<a xlink:href="memory_8hpp.html" target="_top" xlink:title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/memory.hpp">
 <polygon fill="white" stroke="black" points="382.5,-202.5 382.5,-249.5 513.5,-249.5 513.5,-202.5 382.5,-202.5"/>
 <text text-anchor="start" x="390.5" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/extern</text>
 <text text-anchor="start" x="390.5" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">/LEON3/simulatorSources</text>

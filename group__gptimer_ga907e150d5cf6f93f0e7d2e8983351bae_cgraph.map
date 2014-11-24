@@ -1,12 +1,12 @@
 <map id="GPCounter::value_write" name="GPCounter::value_write">
-<area shape="rect" id="node3" href="$group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a" title="Function calculating the waiting time for the next timer event. " alt="" coords="216,137,363,167"/>
-<area shape="rect" id="node19" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="663,219,788,248"/>
-<area shape="rect" id="node5" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="667,59,784,88"/>
-<area shape="rect" id="node7" href="$group__gptimer.html#ga3c052b2513dd78de914f36ae05825031" title="GPCounter::cycletime" alt="" coords="416,7,565,36"/>
-<area shape="rect" id="node12" href="$group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65" title="GPCounter::nextzero" alt="" coords="419,164,563,193"/>
-<area shape="rect" id="node22" href="$group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5" title="GPCounter::value_read" alt="" coords="412,111,569,140"/>
-<area shape="rect" id="node10" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="657,5,793,35"/>
-<area shape="rect" id="node15" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="651,165,800,195"/>
-<area shape="rect" id="node17" href="$group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" title="GPTimer::valueof" alt="" coords="881,139,1004,168"/>
-<area shape="rect" id="node25" href="$group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585" title="GPTimer::numberofticksbetween" alt="" coords="619,112,832,141"/>
+<area shape="rect" id="node3" href="$group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a" title="Function calculating the waiting time for the next timer event. " alt="" coords="216,142,363,171"/>
+<area shape="rect" id="node19" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="663,249,788,278"/>
+<area shape="rect" id="node5" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="667,89,784,118"/>
+<area shape="rect" id="node7" href="$group__gptimer.html#ga3c052b2513dd78de914f36ae05825031" title="GPCounter::cycletime" alt="" coords="416,38,565,67"/>
+<area shape="rect" id="node10" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="657,35,793,65"/>
+<area shape="rect" id="node12" href="$group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65" title="GPCounter::nextzero" alt="" coords="419,195,563,225"/>
+<area shape="rect" id="node23" href="$group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5" title="GPCounter::value_read" alt="" coords="412,142,569,171"/>
+<area shape="rect" id="node15" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="651,195,800,225"/>
+<area shape="rect" id="node17" href="$group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" title="GPTimer::valueof" alt="" coords="881,169,1004,198"/>
+<area shape="rect" id="node26" href="$group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b" title="GPTimer::numberofticksbetween" alt="" coords="619,142,832,171"/>
 </map>

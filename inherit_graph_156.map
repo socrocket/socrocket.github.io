@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classsr__report__handler.html" title="sr_report_handler" alt="" coords="182,5,309,31"/>
+<area shape="rect" id="node1" href="$classStorage.html" title="Storage" alt="" coords="5,32,72,61"/>
+<area shape="rect" id="node3" href="$classArrayStorage.html" title="ArrayStorage" alt="" coords="120,5,219,35"/>
+<area shape="rect" id="node5" href="$classMapStorage.html" title="MapStorage" alt="" coords="124,59,215,88"/>
 </map>

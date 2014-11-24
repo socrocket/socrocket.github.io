@@ -9,8 +9,8 @@
 <area shape="rect" id="node17" href="$group__memory.html#gab74fd93ce3d05e891b684489ef76881c" title="BaseMemory::write_block" alt="" coords="419,59,592,88"/>
 <area shape="rect" id="node7" href="$group__memory.html#ga3d4a38e8448bfa1e3b62ba2ef84d1c84" title="BaseMemory::erase_dbg" alt="" coords="659,5,824,35"/>
 <area shape="rect" id="node9" href="$classStorage.html#ae55c16cb093438b9e40111c25f30a2e8" title="Storage::erase" alt="" coords="908,5,1015,35"/>
-<area shape="rect" id="node13" href="$group__memory.html#gad63996f7ed8fca5197a47b7710b1d55c" title="BaseMemory::read_block_dbg" alt="" coords="643,152,840,181"/>
-<area shape="rect" id="node15" href="$classStorage.html#a6c83e9cda63966dc65b1aefcb31e8f43" title="Storage::read_block" alt="" coords="892,152,1031,181"/>
-<area shape="rect" id="node19" href="$group__memory.html#ga724b49aea970f1e4dee15c5ff572ce40" title="BaseMemory::write_block_dbg" alt="" coords="641,85,841,115"/>
-<area shape="rect" id="node21" href="$classStorage.html#a391102341dd513ec89290eff8407c3d5" title="Storage::write_block" alt="" coords="891,85,1032,115"/>
+<area shape="rect" id="node13" href="$group__memory.html#gaec8a7bc833a9f12928070debebcd0fa2" title="BaseMemory::read_block_dbg" alt="" coords="643,152,840,181"/>
+<area shape="rect" id="node15" href="$classStorage.html#a01af1f194e1844bfcf5a4a4a26d3e5f8" title="Storage::read_block" alt="" coords="892,152,1031,181"/>
+<area shape="rect" id="node19" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="641,85,841,115"/>
+<area shape="rect" id="node21" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="891,85,1032,115"/>
 </map>

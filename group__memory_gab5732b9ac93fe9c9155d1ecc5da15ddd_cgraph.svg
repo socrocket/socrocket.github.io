@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="classStorage.html#ac6033ffc976726b469e3c46a4ca3746c" target="_top" xlink:title="Storage::read">
+<a xlink:href="classStorage.html#ab5e3c93cf2001f853f481b58b3e9e819" target="_top" xlink:title="Storage::read">
 <polygon fill="white" stroke="black" points="292.5,-0.5 292.5,-21.5 367.5,-21.5 367.5,-0.5 292.5,-0.5"/>
 <text text-anchor="middle" x="330" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">Storage::read</text>
 </a>

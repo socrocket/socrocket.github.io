@@ -1,15 +1,11 @@
 <map id="core/models/extern/LEON3/simulatorSources" name="core/models/extern/LEON3/simulatorSources">
-<area shape="rect" id="node4" href="dir_0545a94d86ef381f5fab465d22361eed.html" title="leon3.funcat" alt="" coords="37,161,131,209"/>
-<area shape="rect" id="edge14" href="dir_000030_000031.html" title="1" alt="" coords="111,141,119,158"/>
-<area shape="rect" id="node5" href="dir_88690337ddafb67c3aaedbc299506f27.html" title="leon3.funclt" alt="" coords="155,161,243,209"/>
-<area shape="rect" id="edge16" href="dir_000030_000032.html" title="1" alt="" coords="177,132,185,150"/>
-<area shape="rect" id="node6" href="dir_b0b7c73ff9a94603d1d02ecd3369b833.html" title="mmu_cache" alt="" coords="95,257,188,305"/>
-<area shape="rect" id="edge6" href="dir_000031_000039.html" title="2" alt="" coords="121,228,129,246"/>
-<area shape="rect" id="node7" href="dir_3d0a500f94b8a53a06724a5d3d2ad9c9.html" title="common" alt="" coords="105,353,177,401"/>
-<area shape="rect" id="edge8" href="dir_000031_000006.html" title="58" alt="" coords="101,325,116,342"/>
-<area shape="rect" id="edge10" href="dir_000032_000039.html" title="2" alt="" coords="169,237,177,254"/>
-<area shape="rect" id="edge12" href="dir_000032_000006.html" title="61" alt="" coords="180,336,194,353"/>
-<area shape="rect" id="edge4" href="dir_000039_000006.html" title="49" alt="" coords="142,326,157,343"/>
-<area shape="rect" id="graph3" href="dir_8e106c1ef516ca451b22e75f9b7ed77e.html" alt="" coords="27,55,253,220"/>
-<area shape="rect" id="graph2" href="dir_4abf86a0444a1d764d240de84da0eff2.html" title="LEON3" alt="" coords="16,16,264,231"/>
+<area shape="rect" id="node4" href="dir_88690337ddafb67c3aaedbc299506f27.html" title="leon3.funclt" alt="" coords="55,161,143,209"/>
+<area shape="rect" id="edge10" href="dir_000030_000031.html" title="1" alt="" coords="103,134,111,151"/>
+<area shape="rect" id="node5" href="dir_b0b7c73ff9a94603d1d02ecd3369b833.html" title="mmu_cache" alt="" coords="11,257,104,305"/>
+<area shape="rect" id="edge6" href="dir_000031_000038.html" title="2" alt="" coords="79,235,87,252"/>
+<area shape="rect" id="node6" href="dir_3d0a500f94b8a53a06724a5d3d2ad9c9.html" title="common" alt="" coords="63,353,135,401"/>
+<area shape="rect" id="edge8" href="dir_000031_000006.html" title="61" alt="" coords="111,329,126,346"/>
+<area shape="rect" id="edge4" href="dir_000038_000006.html" title="49" alt="" coords="81,324,96,341"/>
+<area shape="rect" id="graph3" href="dir_8e106c1ef516ca451b22e75f9b7ed77e.html" alt="" coords="27,55,171,220"/>
+<area shape="rect" id="graph2" href="dir_4abf86a0444a1d764d240de84da0eff2.html" title="LEON3" alt="" coords="16,16,181,231"/>
 </map>

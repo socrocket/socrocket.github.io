@@ -1,15 +1,15 @@
 <map id="GPCounter::ctrl_write" name="GPCounter::ctrl_write">
-<area shape="rect" id="node3" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="864,151,981,180"/>
-<area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="855,24,991,54"/>
-<area shape="rect" id="node7" href="$group__gptimer.html#gafd2c1a9aba39ae2d006146286318962d" title="Start a Counter from dhalt or to enable it etc. " alt="" coords="224,203,344,232"/>
-<area shape="rect" id="node20" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="860,362,985,391"/>
-<area shape="rect" id="node35" href="$group__gptimer.html#ga5c44c0dd79efaf804f96f24b0f754742" title="Stop a Counter from dhalt or to enable it etc. " alt="" coords="427,435,547,464"/>
-<area shape="rect" id="node40" href="$group__gptimer.html#ga907e150d5cf6f93f0e7d2e8983351bae" title="GPCounter::value_write" alt="" coords="204,256,364,286"/>
-<area shape="rect" id="node10" href="$group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a" title="Function calculating the waiting time for the next timer event. " alt="" coords="413,230,560,259"/>
-<area shape="rect" id="node13" href="$group__gptimer.html#ga3c052b2513dd78de914f36ae05825031" title="GPCounter::cycletime" alt="" coords="613,24,763,54"/>
-<area shape="rect" id="node17" href="$group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65" title="GPCounter::nextzero" alt="" coords="616,283,760,312"/>
-<area shape="rect" id="node27" href="$group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5" title="GPCounter::value_read" alt="" coords="609,230,767,259"/>
-<area shape="rect" id="node22" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="848,283,997,312"/>
-<area shape="rect" id="node24" href="$group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" title="GPTimer::valueof" alt="" coords="1079,256,1201,286"/>
-<area shape="rect" id="node31" href="$group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585" title="GPTimer::numberofticksbetween" alt="" coords="816,230,1029,259"/>
+<area shape="rect" id="node3" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="864,22,981,51"/>
+<area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="855,112,991,142"/>
+<area shape="rect" id="node7" href="$group__gptimer.html#gafd2c1a9aba39ae2d006146286318962d" title="Start a Counter from dhalt or to enable it etc. " alt="" coords="224,119,344,148"/>
+<area shape="rect" id="node20" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="860,323,985,352"/>
+<area shape="rect" id="node36" href="$group__gptimer.html#ga5c44c0dd79efaf804f96f24b0f754742" title="Stop a Counter from dhalt or to enable it etc. " alt="" coords="427,244,547,274"/>
+<area shape="rect" id="node41" href="$group__gptimer.html#ga907e150d5cf6f93f0e7d2e8983351bae" title="GPCounter::value_write" alt="" coords="204,172,364,202"/>
+<area shape="rect" id="node10" href="$group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a" title="Function calculating the waiting time for the next timer event. " alt="" coords="413,166,560,195"/>
+<area shape="rect" id="node13" href="$group__gptimer.html#ga3c052b2513dd78de914f36ae05825031" title="GPCounter::cycletime" alt="" coords="613,87,763,116"/>
+<area shape="rect" id="node17" href="$group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65" title="GPCounter::nextzero" alt="" coords="616,191,760,220"/>
+<area shape="rect" id="node28" href="$group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5" title="GPCounter::value_read" alt="" coords="609,244,767,274"/>
+<area shape="rect" id="node22" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="848,191,997,220"/>
+<area shape="rect" id="node24" href="$group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" title="GPTimer::valueof" alt="" coords="1079,218,1201,247"/>
+<area shape="rect" id="node32" href="$group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b" title="GPTimer::numberofticksbetween" alt="" coords="816,244,1029,274"/>
 </map>

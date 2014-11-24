@@ -3,5 +3,5 @@
 <area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="173,59,309,88"/>
 <area shape="rect" id="node7" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="167,112,316,141"/>
 <area shape="rect" id="node11" href="$group__gptimer.html#gac159200f9188081ae2d281e344cb22e5" title="Register callback executed after the presacler value is written, to recalculate the counter and ticki..." alt="" coords="165,165,317,195"/>
-<area shape="rect" id="node9" href="$group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" title="GPTimer::valueof" alt="" coords="367,112,489,141"/>
+<area shape="rect" id="node9" href="$group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" title="GPTimer::valueof" alt="" coords="367,112,489,141"/>
 </map>

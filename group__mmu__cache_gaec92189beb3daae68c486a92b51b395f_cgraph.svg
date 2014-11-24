@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 856;
 var viewHeight = 1150;
-var sectionId = 'dynsection-7';
+var sectionId = 'dynsection-8';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -87,7 +87,7 @@ var sectionId = 'dynsection-7';
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="group__mmu__cache__base.html#gabad31e2ea98c32b528bbbad11ecc38e2" target="_top" xlink:title="Data interface to functional part of the model. ">
+<a xlink:href="group__mmu__cache.html#gabad31e2ea98c32b528bbbad11ecc38e2" target="_top" xlink:title="Data interface to functional part of the model. ">
 <polygon fill="white" stroke="black" points="326.5,-564.5 326.5,-585.5 473.5,-585.5 473.5,-564.5 326.5,-564.5"/>
 <text text-anchor="middle" x="400" y="-572.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::exec_data</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-7';
 </g>
 <!-- Node6 -->
 <g id="node11" class="node"><title>Node6</title>
-<a xlink:href="group__mmu__cache__base.html#gae13fd6b248d3f36f8856ef641e05fa6f" target="_top" xlink:title="Read the cache control register. ">
+<a xlink:href="group__mmu__cache.html#gae13fd6b248d3f36f8856ef641e05fa6f" target="_top" xlink:title="Read the cache control register. ">
 <polygon fill="white" stroke="black" points="514,-704.5 514,-725.5 654,-725.5 654,-704.5 514,-704.5"/>
 <text text-anchor="middle" x="584" y="-712.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::read_ccr</text>
 </a>
@@ -268,78 +268,78 @@ var sectionId = 'dynsection-7';
 </g>
 <!-- Node20 -->
 <g id="node46" class="node"><title>Node20</title>
-<a xlink:href="group__mmu__cache__base.html#gaeb388f4679b45fd4d56ed45dad9dd21e" target="_top" xlink:title="MemIF implementation &#45; reads data from AHB master. ">
-<polygon fill="white" stroke="black" points="510,-0.5 510,-21.5 658,-21.5 658,-0.5 510,-0.5"/>
-<text text-anchor="middle" x="584" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::mem_read</text>
+<a xlink:href="group__mmu__cache.html#gaeb388f4679b45fd4d56ed45dad9dd21e" target="_top" xlink:title="MemIF implementation &#45; reads data from AHB master. ">
+<polygon fill="white" stroke="black" points="510,-132.5 510,-153.5 658,-153.5 658,-132.5 510,-132.5"/>
+<text text-anchor="middle" x="584" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::mem_read</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node20 -->
 <g id="edge52" class="edge"><title>Node4&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M400.674,-564.155C405.203,-494.712 433.387,-112.716 510,-31 511.22,-29.6984 512.516,-28.4784 513.875,-27.3348"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="516.002,-30.1207 522.281,-21.5872 512.051,-24.3423 516.002,-30.1207"/>
+<path fill="none" stroke="midnightblue" d="M401.416,-564.221C409.355,-505.34 450.152,-223.032 510,-163 511.292,-161.704 512.659,-160.49 514.088,-159.352"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="516.405,-162.02 522.882,-153.636 512.59,-156.151 516.405,-162.02"/>
 </g>
 <!-- Node22 -->
-<g id="node50" class="node"><title>Node22</title>
-<a xlink:href="group__mmu__cache__base.html#gae5572d125b9fe148dbd117ffc98ede8f" target="_top" xlink:title="Writes the cache control register. ">
+<g id="node51" class="node"><title>Node22</title>
+<a xlink:href="group__mmu__cache.html#gae5572d125b9fe148dbd117ffc98ede8f" target="_top" xlink:title="Writes the cache control register. ">
 <polygon fill="white" stroke="black" points="513,-1076.5 513,-1097.5 655,-1097.5 655,-1076.5 513,-1076.5"/>
 <text text-anchor="middle" x="584" y="-1084.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::write_ccr</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node22 -->
-<g id="edge56" class="edge"><title>Node4&#45;&gt;Node22</title>
+<g id="edge58" class="edge"><title>Node4&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M462.916,-585.54C467.082,-588.093 470.86,-591.207 474,-595 541.079,-676.031 442.921,-985.969 510,-1067 510.981,-1068.19 512.025,-1069.3 513.123,-1070.36"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="511.018,-1073.16 521.084,-1076.46 515.275,-1067.6 511.018,-1073.16"/>
 </g>
 <!-- Node23 -->
-<g id="node54" class="node"><title>Node23</title>
+<g id="node55" class="node"><title>Node23</title>
 <a xlink:href="classcache__if.html#a6df0437d63d7c5a938841faadceda9ab" target="_top" xlink:title="display of cache lines for debug ">
 <polygon fill="white" stroke="black" points="537,-464.5 537,-485.5 631,-485.5 631,-464.5 537,-464.5"/>
 <text text-anchor="middle" x="584" y="-472.5" font-family="Helvetica,sans-Serif" font-size="10.00">cache_if::dbg_out</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node23 -->
-<g id="edge62" class="edge"><title>Node4&#45;&gt;Node23</title>
+<g id="edge64" class="edge"><title>Node4&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M411.597,-564.305C430.697,-547.239 470.595,-513.859 510,-495 515.383,-492.424 521.151,-490.136 527.004,-488.116"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="528.418,-491.338 536.88,-484.963 526.29,-484.67 528.418,-491.338"/>
 </g>
 <!-- Node24 -->
-<g id="node56" class="node"><title>Node24</title>
+<g id="node57" class="node"><title>Node24</title>
 <a xlink:href="group__mmu__cache.html#ga42e5093cd28dbe96abaeb81a8c54c89e" target="_top" xlink:title="Diagnostic write of instruction PDC (ASI 0x5) ">
 <polygon fill="white" stroke="black" points="530.5,-424.5 530.5,-445.5 637.5,-445.5 637.5,-424.5 530.5,-424.5"/>
 <text text-anchor="middle" x="584" y="-432.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu::diag_write_itlb</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node24 -->
-<g id="edge64" class="edge"><title>Node4&#45;&gt;Node24</title>
+<g id="edge66" class="edge"><title>Node4&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M406.785,-564.148C422.133,-540.525 461.948,-484.224 510,-455 513.42,-452.92 517.058,-451.053 520.815,-449.377"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="522.342,-452.536 530.345,-445.593 519.759,-446.03 522.342,-452.536"/>
 </g>
 <!-- Node25 -->
-<g id="node58" class="node"><title>Node25</title>
+<g id="node59" class="node"><title>Node25</title>
 <a xlink:href="group__mmu__cache.html#gacc044d80e3722c74d89ee7ae3ad07485" target="_top" xlink:title="Diagnostic write of data PDC or shared instruction and data PDC (ASI 0x6) ">
 <polygon fill="white" stroke="black" points="526.5,-384.5 526.5,-405.5 641.5,-405.5 641.5,-384.5 526.5,-384.5"/>
 <text text-anchor="middle" x="584" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu::diag_write_dctlb</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node25 -->
-<g id="edge66" class="edge"><title>Node4&#45;&gt;Node25</title>
+<g id="edge68" class="edge"><title>Node4&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M404.289,-564.091C416.281,-535.05 453.057,-455.329 510,-415 512.715,-413.077 515.606,-411.339 518.611,-409.768"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="520.26,-412.863 527.914,-405.538 517.362,-406.491 520.26,-412.863"/>
 </g>
 <!-- Node26 -->
-<g id="node60" class="node"><title>Node26</title>
+<g id="node61" class="node"><title>Node26</title>
 <a xlink:href="classcache__if.html#a1e7ce247b9df117d6c13368bae870bb9" target="_top" xlink:title="write data cache tags (ASI 0xe) ">
 <polygon fill="white" stroke="black" points="518.5,-344.5 518.5,-365.5 649.5,-365.5 649.5,-344.5 518.5,-344.5"/>
 <text text-anchor="middle" x="584" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">cache_if::write_cache_tag</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node26 -->
-<g id="edge68" class="edge"><title>Node4&#45;&gt;Node26</title>
+<g id="edge70" class="edge"><title>Node4&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M402.65,-564.381C411.553,-530.973 443.629,-427.147 510,-375 512.106,-373.345 514.338,-371.827 516.664,-370.434"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="518.708,-373.321 526.027,-365.66 515.528,-367.085 518.708,-373.321"/>
 </g>
 <!-- Node27 -->
-<g id="node62" class="node"><title>Node27</title>
+<g id="node63" class="node"><title>Node27</title>
 <a xlink:href="classcache__if.html#a0b1de9ad69bad01deba0ee7c21bd8d50" target="_top" xlink:title="write data cache entries/data (ASI 0xf) ">
 <polygon fill="white" stroke="black" points="528,-292 528,-326 640,-326 640,-292 528,-292"/>
 <text text-anchor="start" x="536" y="-313" font-family="Helvetica,sans-Serif" font-size="10.00">cache_if::write_cache</text>
@@ -347,183 +347,188 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 <!-- Node4&#45;&gt;Node27 -->
-<g id="edge70" class="edge"><title>Node4&#45;&gt;Node27</title>
+<g id="edge72" class="edge"><title>Node4&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M401.812,-564.398C408.702,-527.287 436.684,-401.871 510,-335 512.779,-332.465 515.82,-330.174 519.035,-328.105"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="520.885,-331.08 527.886,-323.127 517.454,-324.978 520.885,-331.08"/>
 </g>
 <!-- Node28 -->
-<g id="node64" class="node"><title>Node28</title>
+<g id="node65" class="node"><title>Node28</title>
 <a xlink:href="group__mmu__cache.html#ga0f1e78dd250c1b7791a8e5bca5051fcf" target="_top" xlink:title="TLB flush complete. ">
 <polygon fill="white" stroke="black" points="543.5,-252.5 543.5,-273.5 624.5,-273.5 624.5,-252.5 543.5,-252.5"/>
 <text text-anchor="middle" x="584" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu::tlb_flush</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node28 -->
-<g id="edge72" class="edge"><title>Node4&#45;&gt;Node28</title>
+<g id="edge74" class="edge"><title>Node4&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M400.658,-564.344C403.867,-521.902 421.568,-363.3 510,-283 516.657,-276.955 524.956,-272.708 533.565,-269.73"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="534.725,-273.038 543.346,-266.88 532.767,-266.317 534.725,-273.038"/>
 </g>
 <!-- Node29 -->
-<g id="node66" class="node"><title>Node29</title>
+<g id="node67" class="node"><title>Node29</title>
 <a xlink:href="group__mmu__cache.html#ga6dfa5b1862b7cc9e557bc001882b4a1d" target="_top" xlink:title="Write mmu control register (ASI 0x19) ">
 <polygon fill="white" stroke="black" points="540.5,-784.5 540.5,-805.5 627.5,-805.5 627.5,-784.5 540.5,-784.5"/>
 <text text-anchor="middle" x="584" y="-792.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu::write_mcr</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node29 -->
-<g id="edge74" class="edge"><title>Node4&#45;&gt;Node29</title>
+<g id="edge76" class="edge"><title>Node4&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M461.728,-585.579C466.271,-588.11 470.454,-591.21 474,-595 529.737,-654.577 454.263,-715.423 510,-775 515.624,-781.011 522.849,-785.285 530.575,-788.31"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="529.58,-791.667 540.172,-791.414 531.734,-785.006 529.58,-791.667"/>
 </g>
 <!-- Node30 -->
-<g id="node69" class="node"><title>Node30</title>
+<g id="node70" class="node"><title>Node30</title>
 <a xlink:href="group__mmu__cache.html#ga5295604a4cae87e2f90332e25858e188" target="_top" xlink:title="Write mmu context pointer register (ASI 0x19) ">
 <polygon fill="white" stroke="black" points="536.5,-744.5 536.5,-765.5 631.5,-765.5 631.5,-744.5 536.5,-744.5"/>
 <text text-anchor="middle" x="584" y="-752.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu::write_mctpr</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node30 -->
-<g id="edge78" class="edge"><title>Node4&#45;&gt;Node30</title>
+<g id="edge80" class="edge"><title>Node4&#45;&gt;Node30</title>
 <path fill="none" stroke="midnightblue" d="M461.155,-585.599C465.881,-588.121 470.259,-591.213 474,-595 519.149,-640.707 464.851,-689.293 510,-735 514.776,-739.835 520.59,-743.536 526.839,-746.364"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="525.644,-749.654 536.235,-749.914 528.117,-743.106 525.644,-749.654"/>
 </g>
 <!-- Node31 -->
-<g id="node72" class="node"><title>Node31</title>
+<g id="node73" class="node"><title>Node31</title>
 <a xlink:href="group__mmu__cache.html#gae396da592bf30563c3c391d8169e9d7c" target="_top" xlink:title="Write mmu context register (ASI 0x19) ">
 <polygon fill="white" stroke="black" points="536.5,-824.5 536.5,-845.5 631.5,-845.5 631.5,-824.5 536.5,-824.5"/>
 <text text-anchor="middle" x="584" y="-832.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu::write_mctxr</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node31 -->
-<g id="edge82" class="edge"><title>Node4&#45;&gt;Node31</title>
+<g id="edge84" class="edge"><title>Node4&#45;&gt;Node31</title>
 <path fill="none" stroke="midnightblue" d="M462.219,-585.644C466.597,-588.167 470.611,-591.247 474,-595 540.405,-668.531 443.595,-741.469 510,-815 514.614,-820.11 520.386,-823.971 526.658,-826.88"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="525.54,-830.199 536.13,-830.494 528.035,-823.659 525.54,-830.199"/>
 </g>
 <!-- Node32 -->
-<g id="node75" class="node"><title>Node32</title>
+<g id="node76" class="node"><title>Node32</title>
 <a xlink:href="group__mmu__cache.html#gab78bf99c0844981f0f237097c265e93d" target="_top" xlink:title="Write to scratchpad. ">
-<polygon fill="white" stroke="black" points="530.5,-80.5 530.5,-101.5 637.5,-101.5 637.5,-80.5 530.5,-80.5"/>
-<text text-anchor="middle" x="584" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">localram::mem_write</text>
+<polygon fill="white" stroke="black" points="530.5,-92.5 530.5,-113.5 637.5,-113.5 637.5,-92.5 530.5,-92.5"/>
+<text text-anchor="middle" x="584" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">localram::mem_write</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node32 -->
-<g id="edge86" class="edge"><title>Node4&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M401.08,-564.145C407.593,-500.815 443.593,-179.512 510,-111 513.266,-107.63 517.037,-104.809 521.111,-102.45"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="522.927,-105.461 530.437,-97.9881 519.906,-99.1465 522.927,-105.461"/>
+<g id="edge88" class="edge"><title>Node4&#45;&gt;Node32</title>
+<path fill="none" stroke="midnightblue" d="M401.123,-564.423C407.877,-502.714 445.019,-189.642 510,-123 513.276,-119.64 517.054,-116.826 521.134,-114.471"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="522.95,-117.483 530.467,-110.017 519.935,-111.165 522.95,-117.483"/>
 </g>
 <!-- Node33 -->
-<g id="node77" class="node"><title>Node33</title>
+<g id="node78" class="node"><title>Node33</title>
 <a xlink:href="classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" target="_top" xlink:title="mem_if::mem_write">
-<polygon fill="white" stroke="black" points="532.5,-40.5 532.5,-61.5 635.5,-61.5 635.5,-40.5 532.5,-40.5"/>
-<text text-anchor="middle" x="584" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00">mem_if::mem_write</text>
+<polygon fill="white" stroke="black" points="532.5,-52.5 532.5,-73.5 635.5,-73.5 635.5,-52.5 532.5,-52.5"/>
+<text text-anchor="middle" x="584" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">mem_if::mem_write</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node33 -->
-<g id="edge88" class="edge"><title>Node4&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M400.866,-564.098C406.365,-497.518 438.518,-146.079 510,-71 513.691,-67.1236 518.048,-63.9715 522.772,-61.4119"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="524.527,-64.4612 532.228,-57.1851 521.67,-58.0706 524.527,-64.4612"/>
+<g id="edge90" class="edge"><title>Node4&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M400.905,-564.355C406.64,-499.345 439.956,-156.196 510,-83 513.701,-79.1329 518.065,-75.9873 522.793,-73.4319"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="524.548,-76.4812 532.255,-69.2106 521.696,-70.0886 524.548,-76.4812"/>
 </g>
 <!-- Node34 -->
-<g id="node79" class="node"><title>Node34</title>
-<a xlink:href="group__mmu__cache__base.html#gad5a97e4279ca84676521be3b6828ccc6" target="_top" xlink:title="MemIF implementation &#45; writes data to AHB master. ">
-<polygon fill="white" stroke="black" points="522,-120 522,-154 646,-154 646,-120 522,-120"/>
-<text text-anchor="start" x="530" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::mem</text>
-<text text-anchor="middle" x="584" y="-128" font-family="Helvetica,sans-Serif" font-size="10.00">_write</text>
+<g id="node80" class="node"><title>Node34</title>
+<a xlink:href="group__mmu__cache.html#gad5a97e4279ca84676521be3b6828ccc6" target="_top" xlink:title="MemIF implementation &#45; writes data to AHB master. ">
+<polygon fill="white" stroke="black" points="522,-0 522,-34 646,-34 646,-0 522,-0"/>
+<text text-anchor="start" x="530" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::mem</text>
+<text text-anchor="middle" x="584" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00">_write</text>
 </a>
 </g>
 <!-- Node4&#45;&gt;Node34 -->
-<g id="edge90" class="edge"><title>Node4&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M401.491,-564.294C409.832,-505.797 452.411,-225.202 510,-163 511.07,-161.845 512.194,-160.741 513.365,-159.686"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="515.819,-162.22 521.706,-153.411 511.61,-156.626 515.819,-162.22"/>
+<g id="edge92" class="edge"><title>Node4&#45;&gt;Node34</title>
+<path fill="none" stroke="midnightblue" d="M400.786,-564.461C406.02,-496.966 437.836,-125.544 510,-43 511.171,-41.6609 512.415,-40.3907 513.721,-39.1859"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="516.012,-41.8399 521.817,-32.9765 511.752,-36.2856 516.012,-41.8399"/>
 </g>
 <!-- Node7 -->
 <g id="node13" class="node"><title>Node7</title>
 <a xlink:href="group__common.html#ga2e70f90e04ee467d36debee5245ead91" target="_top" xlink:title="swap_Endianess">
-<polygon fill="white" stroke="black" points="725.5,-724.5 725.5,-745.5 816.5,-745.5 816.5,-724.5 725.5,-724.5"/>
-<text text-anchor="middle" x="771" y="-732.5" font-family="Helvetica,sans-Serif" font-size="10.00">swap_Endianess</text>
+<polygon fill="white" stroke="black" points="725.5,-704.5 725.5,-725.5 816.5,-725.5 816.5,-704.5 725.5,-704.5"/>
+<text text-anchor="middle" x="771" y="-712.5" font-family="Helvetica,sans-Serif" font-size="10.00">swap_Endianess</text>
 </a>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge12" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M654.164,-722.504C674.369,-724.665 696.127,-726.992 715.326,-729.046"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="715.09,-732.54 725.406,-730.124 715.835,-725.58 715.09,-732.54"/>
+<path fill="none" stroke="midnightblue" d="M654.164,-715C674.369,-715 696.127,-715 715.326,-715"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="715.406,-718.5 725.406,-715 715.406,-711.5 715.406,-718.5"/>
 </g>
 <!-- Node9&#45;&gt;Node7 -->
 <g id="edge18" class="edge"><title>Node9&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M625.26,-685.554C635.968,-688.456 647.454,-691.714 658,-695 683.328,-702.893 711.451,-712.843 733.305,-720.845"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="732.279,-724.197 742.872,-724.371 734.699,-717.629 732.279,-724.197"/>
+<path fill="none" stroke="midnightblue" d="M633.132,-685.51C658.352,-690.904 689.179,-697.498 715.283,-703.082"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="714.893,-706.578 725.404,-705.247 716.357,-699.733 714.893,-706.578"/>
 </g>
 <!-- Node10&#45;&gt;Node7 -->
 <g id="edge22" class="edge"><title>Node10&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M640.039,-565.605C646.399,-568.103 652.546,-571.188 658,-575 710.292,-611.542 746.625,-680.446 762.308,-714.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="759.242,-716.379 766.507,-724.09 765.637,-713.531 759.242,-716.379"/>
+<path fill="none" stroke="midnightblue" d="M638.653,-565.516C645.458,-568.033 652.092,-571.147 658,-575 706.162,-606.406 743.487,-665.032 760.659,-695.495"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="757.629,-697.249 765.514,-704.326 763.763,-693.876 757.629,-697.249"/>
 </g>
 <!-- Node13&#45;&gt;Node7 -->
 <g id="edge30" class="edge"><title>Node13&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M626.598,-520.459C637.643,-523.42 648.96,-527.981 658,-535 719.46,-582.723 752.875,-673.877 765.294,-714.539"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="762.008,-715.77 768.186,-724.377 768.724,-713.796 762.008,-715.77"/>
+<path fill="none" stroke="midnightblue" d="M626.772,-520.842C637.694,-523.806 648.907,-528.271 658,-535 714.689,-576.951 749.718,-656.597 763.83,-694.266"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="760.702,-695.908 767.399,-704.118 767.284,-693.524 760.702,-695.908"/>
 </g>
 <!-- Node14&#45;&gt;Node7 -->
 <g id="edge34" class="edge"><title>Node14&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M630.752,-227.598C640.871,-230.621 650.709,-235.425 658,-243 725.257,-312.877 760.682,-629.679 769.044,-714.214"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="765.578,-714.736 770.026,-724.352 772.546,-714.061 765.578,-714.736"/>
+<path fill="none" stroke="midnightblue" d="M630.702,-227.647C640.823,-230.668 650.674,-235.459 658,-243 722.765,-309.67 759.827,-611.988 768.833,-694.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="765.37,-694.803 769.918,-704.372 772.33,-694.056 765.37,-694.803"/>
 </g>
 <!-- Node15&#45;&gt;Node7 -->
 <g id="edge38" class="edge"><title>Node15&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M630.842,-187.513C640.958,-190.538 650.772,-195.365 658,-203 730.296,-279.361 762.33,-625.575 769.434,-714.257"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="765.957,-714.692 770.226,-724.389 772.936,-714.147 765.957,-714.692"/>
+<path fill="none" stroke="midnightblue" d="M630.799,-187.554C640.916,-190.578 650.742,-195.394 658,-203 727.768,-276.107 761.516,-607.541 769.244,-694.21"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="765.774,-694.7 770.129,-704.358 772.747,-694.092 765.774,-694.7"/>
 </g>
 <!-- Node16&#45;&gt;Node7 -->
 <g id="edge42" class="edge"><title>Node16&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M628.198,-1001.77C638.867,-998.795 649.599,-994.172 658,-987 731.598,-924.173 759.383,-803.785 767.848,-755.642"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="771.343,-755.961 769.525,-745.523 764.437,-754.816 771.343,-755.961"/>
+<path fill="none" stroke="midnightblue" d="M628.336,-1001.93C639.003,-998.952 649.699,-994.288 658,-987 736.237,-918.31 761.503,-786.832 768.569,-735.888"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="772.065,-736.139 769.875,-725.773 765.123,-735.243 772.065,-736.139"/>
 </g>
 <!-- Node17&#45;&gt;Node7 -->
 <g id="edge46" class="edge"><title>Node17&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M628.256,-961.263C638.803,-958.293 649.464,-953.798 658,-947 722.228,-895.851 754.497,-798.001 765.978,-755.523"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="769.389,-756.315 768.511,-745.757 762.613,-754.558 769.389,-756.315"/>
+<path fill="none" stroke="midnightblue" d="M628.044,-961.585C638.714,-958.614 649.486,-954.037 658,-947 726.906,-890.042 757.048,-780.918 766.991,-735.561"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="770.43,-736.211 769.049,-725.706 763.578,-734.78 770.43,-736.211"/>
+</g>
+<!-- Node20&#45;&gt;Node7 -->
+<g id="edge56" class="edge"><title>Node20&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M645.709,-153.596C650.257,-156.124 654.446,-159.218 658,-163 732.843,-242.637 763.123,-603.783 769.613,-694.352"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="766.13,-694.712 770.317,-704.445 773.113,-694.225 766.13,-694.712"/>
 </g>
 <!-- Node21 -->
 <g id="node48" class="node"><title>Node21</title>
 <a xlink:href="classAHBMaster.html#ac1a28c85f3f099e6c356f621a574ac27" target="_top" xlink:title="Generic AHB debug access function. ">
-<polygon fill="white" stroke="black" points="694,-63.5 694,-84.5 848,-84.5 848,-63.5 694,-63.5"/>
-<text text-anchor="middle" x="771" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBMaster&lt;&gt;::ahbaccess_dbg</text>
+<polygon fill="white" stroke="black" points="694,-69.5 694,-90.5 848,-90.5 848,-69.5 694,-69.5"/>
+<text text-anchor="middle" x="771" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBMaster&lt;&gt;::ahbaccess_dbg</text>
 </a>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
 <g id="edge54" class="edge"><title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M626.089,-21.5958C636.574,-24.4487 647.747,-27.6727 658,-31 684.436,-39.5786 713.754,-50.7861 735.901,-59.6083"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="734.646,-62.8757 745.23,-63.3519 737.253,-56.3793 734.646,-62.8757"/>
+<path fill="none" stroke="midnightblue" d="M626.089,-132.404C636.574,-129.551 647.747,-126.327 658,-123 684.436,-114.421 713.754,-103.214 735.901,-94.3917"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="737.253,-97.6207 745.23,-90.6481 734.646,-91.1243 737.253,-97.6207"/>
 </g>
 <!-- Node22&#45;&gt;Node5 -->
-<g id="edge60" class="edge"><title>Node22&#45;&gt;Node5</title>
+<g id="edge62" class="edge"><title>Node22&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M655.23,-1094.24C677.028,-1096.45 700.54,-1098.84 720.644,-1100.88"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="720.517,-1104.39 730.819,-1101.92 721.224,-1097.42 720.517,-1104.39"/>
 </g>
 <!-- Node22&#45;&gt;Node7 -->
-<g id="edge58" class="edge"><title>Node22&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M644.131,-1076.45C649.192,-1073.93 653.923,-1070.82 658,-1067 705.439,-1022.51 752.398,-821.056 766.639,-755.607"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="770.095,-756.183 768.776,-745.67 763.251,-754.711 770.095,-756.183"/>
+<g id="edge60" class="edge"><title>Node22&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M644.561,-1076.35C649.472,-1073.84 654.053,-1070.77 658,-1067 707.92,-1019.36 753.703,-803.404 767.079,-735.501"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="770.533,-736.076 769.007,-725.592 763.662,-734.739 770.533,-736.076"/>
 </g>
 <!-- Node29&#45;&gt;Node7 -->
-<g id="edge76" class="edge"><title>Node29&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M625.26,-784.446C635.968,-781.544 647.454,-778.286 658,-775 683.328,-767.107 711.451,-757.157 733.305,-749.155"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="734.699,-752.371 742.872,-745.629 732.279,-745.803 734.699,-752.371"/>
+<g id="edge78" class="edge"><title>Node29&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M627.574,-784.968C637.704,-782.158 648.345,-778.812 658,-775 689.093,-762.723 722.682,-744.145 745.086,-730.916"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="747.176,-733.745 753.963,-725.609 743.584,-727.737 747.176,-733.745"/>
 </g>
 <!-- Node30&#45;&gt;Node7 -->
-<g id="edge80" class="edge"><title>Node30&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M631.672,-749.901C657.195,-747.172 688.771,-743.795 715.407,-740.946"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="715.779,-744.426 725.35,-739.882 715.034,-737.466 715.779,-744.426"/>
+<g id="edge82" class="edge"><title>Node30&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M631.672,-744.803C657.195,-739.343 688.771,-732.589 715.407,-726.892"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="716.303,-730.279 725.35,-724.765 714.839,-723.434 716.303,-730.279"/>
 </g>
 <!-- Node31&#45;&gt;Node7 -->
-<g id="edge84" class="edge"><title>Node31&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M631.863,-824.72C640.753,-822.073 649.812,-818.855 658,-815 693.518,-798.279 729.709,-770.332 751.258,-752.289"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="753.681,-754.822 759.03,-745.677 749.145,-749.491 753.681,-754.822"/>
+<g id="edge86" class="edge"><title>Node31&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M631.83,-825.548C640.814,-822.816 649.916,-819.356 658,-815 697.847,-793.53 735.381,-755.489 755.573,-733.025"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="758.209,-735.328 762.199,-725.513 752.959,-730.697 758.209,-735.328"/>
 </g>
 <!-- Node34&#45;&gt;Node21 -->
-<g id="edge92" class="edge"><title>Node34&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M634.605,-119.951C664.6,-109.846 702.114,-97.2076 730.204,-87.7442"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="731.359,-91.0482 739.719,-84.5387 729.124,-84.4146 731.359,-91.0482"/>
+<g id="edge94" class="edge"><title>Node34&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M634.605,-34.0487C664.6,-44.1539 702.114,-56.7924 730.204,-66.2558"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="729.124,-69.5854 739.719,-69.4613 731.359,-62.9518 729.124,-69.5854"/>
 </g>
 </g>
 </svg>

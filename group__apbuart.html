@@ -103,8 +103,18 @@ Functions</h2></td></tr>
 <tr class="separator:ga44527e92cadfc14a3883cf2b4e949bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa1b072eeb4c00569c5cf7087ba358625"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625">APBUART::status_read</a> ()</td></tr>
 <tr class="separator:gaa1b072eeb4c00569c5cf7087ba358625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cbf76c31dae47db776cbfb0c4a5e704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#ga7cbf76c31dae47db776cbfb0c4a5e704">APBUART::control_write</a> ()</td></tr>
+<tr class="separator:ga7cbf76c31dae47db776cbfb0c4a5e704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5537a792321c49c7f0632423fa4b704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#gab5537a792321c49c7f0632423fa4b704">APBUART::control_read</a> ()</td></tr>
+<tr class="separator:gab5537a792321c49c7f0632423fa4b704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac7167626ccc36ac8a80ec41915b2037c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#gac7167626ccc36ac8a80ec41915b2037c">APBUART::send_irq</a> ()</td></tr>
 <tr class="separator:gac7167626ccc36ac8a80ec41915b2037c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0d00d718255795390474631ba9987de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#gab0d00d718255795390474631ba9987de">APBUART::uart_ticks</a> ()</td></tr>
+<tr class="separator:gab0d00d718255795390474631ba9987de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga18a29f378f7399981bfd202bf1df8653"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653">APBUART::update_level_int</a> ()</td></tr>
+<tr class="separator:ga18a29f378f7399981bfd202bf1df8653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga18301b0a93cd13031daf7197977ace0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f">APBUART::inc_fifo_level</a> (<a class="el" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *<a class="el" href="forever_8c.html#abf036d0bdfab41784a4f0bfef5b3147b">counter</a>)</td></tr>
+<tr class="separator:ga18301b0a93cd13031daf7197977ace0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga073b2aa43761a8fdde8f7540ccbaa129"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#ga073b2aa43761a8fdde8f7540ccbaa129">APBUART::dorst</a> ()</td></tr>
 <tr class="separator:ga073b2aa43761a8fdde8f7540ccbaa129"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafed23235a4eb95915ca6e671d3d0fcf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__apbuart.html#gafed23235a4eb95915ca6e671d3d0fcf8">NullIO::makeConnection</a> ()</td></tr>
@@ -198,14 +208,52 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classAPBUART.html#a987b56902a71108413f2dffdea3cd36a">APBUART::bus</a>, <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="classAPBUART.html#acb32914a7c2df6ecba2523c7b0366061">APBUART::CONTROL_DEFAULT</a>, <a class="el" href="classAPBUART.html#a29c336394e6890c821aa5f2abd13726c">APBUART::CONTROL_MASK</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="classAPBUART.html#a02544a37582fe6a4cd0f34b22256970d">APBUART::DATA_DEFAULT</a>, <a class="el" href="classAPBUART.html#a494916f12e5a3c2f817f40c32d7b3c09">APBUART::DATA_MASK</a>, <a class="el" href="classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7">gs::amba::amba_slave&lt; BUSWIDTH &gt;::get_base_addr()</a>, <a class="el" href="classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f">gs::amba::amba_slave&lt; BUSWIDTH &gt;::get_size()</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#a3d46eff4fa56eb9cc48ad2ab00ab73c2">APBUART::SCALER</a>, <a class="el" href="classAPBUART.html#a951172dcd43c5149dcf5ae52ddb730f3">APBUART::SCALER_DEFAULT</a>, <a class="el" href="classAPBUART.html#a1cd10a2dd84cef35e7e4f92ff88e4769">APBUART::SCALER_MASK</a>, <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>, <a class="el" href="classAPBUART.html#a0fa8a66e48aa5d6be604c87d2643d080">APBUART::STATUS_DEFAULT</a>, and <a class="el" href="classAPBUART.html#a10293d359220ea26ebf17320abd9fd4d">APBUART::STATUS_MASK</a>.</p>
+<p>References <a class="el" href="classAPBUART.html#a987b56902a71108413f2dffdea3cd36a">APBUART::bus</a>, <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="classAPBUART.html#acb32914a7c2df6ecba2523c7b0366061">APBUART::CONTROL_DEFAULT</a>, <a class="el" href="classAPBUART.html#a29c336394e6890c821aa5f2abd13726c">APBUART::CONTROL_MASK</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="classAPBUART.html#a02544a37582fe6a4cd0f34b22256970d">APBUART::DATA_DEFAULT</a>, <a class="el" href="classAPBUART.html#a494916f12e5a3c2f817f40c32d7b3c09">APBUART::DATA_MASK</a>, <a class="el" href="classgs_1_1amba_1_1amba__slave.html#a05ad48b3b108147e268445ab867c4ba7">gs::amba::amba_slave&lt; BUSWIDTH &gt;::get_base_addr()</a>, <a class="el" href="classgs_1_1amba_1_1amba__slave.html#a6d4957b0d2fc7ad43360c34b0217917f">gs::amba::amba_slave&lt; BUSWIDTH &gt;::get_size()</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classAPBUART.html#a9cbea754d677ff7d48ace0ac25bb13cf">APBUART::level_int</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classAPBUART.html#a9c5c5ab3d59c3561a39a8e8c37669c82">APBUART::overrun</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#a5fa037eaf9b76c01f8c5be34757bc79f">APBUART::recv_buffer_end</a>, <a class="el" href="classAPBUART.html#ae7ca5c3b2088519db011735c07d80470">APBUART::recv_buffer_level</a>, <a class="el" href="classAPBUART.html#aed03f1a427c3657d09608a177962c286">APBUART::recv_buffer_start</a>, <a class="el" href="classAPBUART.html#a3d46eff4fa56eb9cc48ad2ab00ab73c2">APBUART::SCALER</a>, <a class="el" href="classAPBUART.html#a951172dcd43c5149dcf5ae52ddb730f3">APBUART::SCALER_DEFAULT</a>, <a class="el" href="classAPBUART.html#a1cd10a2dd84cef35e7e4f92ff88e4769">APBUART::SCALER_MASK</a>, <a class="el" href="classAPBUART.html#acadd1495ef199c54eda14b4b62a8d4fc">APBUART::send_buffer</a>, <a class="el" href="group__apbuart.html#gac7167626ccc36ac8a80ec41915b2037c">APBUART::send_irq()</a>, <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>, <a class="el" href="classAPBUART.html#a0fa8a66e48aa5d6be604c87d2643d080">APBUART::STATUS_DEFAULT</a>, <a class="el" href="classAPBUART.html#a10293d359220ea26ebf17320abd9fd4d">APBUART::STATUS_MASK</a>, and <a class="el" href="group__apbuart.html#gab0d00d718255795390474631ba9987de">APBUART::uart_ticks()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_gaee398c492a218d828ce298ad0babdf53_cgraph.svg" width="374" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_gaee398c492a218d828ce298ad0babdf53_cgraph.svg" width="611" height="312"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="gab5537a792321c49c7f0632423fa4b704"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void APBUART::control_read </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, and <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>.</p>
+
+<p>Referenced by <a class="el" href="group__apbuart.html#gaeb44f63bd8ce3f0275d779a28b38c031">APBUART::end_of_elaboration()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga7cbf76c31dae47db776cbfb0c4a5e704"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void APBUART::control_write </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, and <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>.</p>
+
+<p>Referenced by <a class="el" href="group__apbuart.html#gaeb44f63bd8ce3f0275d779a28b38c031">APBUART::end_of_elaboration()</a>.</p>
 
 </div>
 </div>
@@ -222,14 +270,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classAPBUART.html#a202a03987a2eb9cbdfd7d356c2f772f9">APBUART::e_irq</a>, <a class="el" href="classio__if.html#ab770abbc278117d4ff246166d3a0f38a">io_if::getReceivedChar()</a>, <a class="el" href="classAPBUART.html#a5bfbc226a55debdb01b475e8dfff6082">APBUART::m_backend</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e">io_if::receivedChars()</a>, and <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>.</p>
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="classAPBUART.html#a202a03987a2eb9cbdfd7d356c2f772f9">APBUART::e_irq</a>, <a class="el" href="group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f">APBUART::inc_fifo_level()</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#a019c200895110df39ca80d9f37c1fc1c">APBUART::recv_buffer</a>, <a class="el" href="classAPBUART.html#a5fa037eaf9b76c01f8c5be34757bc79f">APBUART::recv_buffer_end</a>, and <a class="el" href="classAPBUART.html#ae7ca5c3b2088519db011735c07d80470">APBUART::recv_buffer_level</a>.</p>
 
 <p>Referenced by <a class="el" href="group__apbuart.html#gaeb44f63bd8ce3f0275d779a28b38c031">APBUART::end_of_elaboration()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_ga20e8a621a3575973375dc87cd75199e7_cgraph.svg" width="366" height="94"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_ga20e8a621a3575973375dc87cd75199e7_cgraph.svg" width="382" height="40"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -248,14 +296,14 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="classAPBUART.html#a202a03987a2eb9cbdfd7d356c2f772f9">APBUART::e_irq</a>, <a class="el" href="classAPBUART.html#a5bfbc226a55debdb01b475e8dfff6082">APBUART::m_backend</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classio__if.html#a60c18cc48202db53e135fa3be9ad50cc">io_if::sendChar()</a>, and <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>.</p>
+<p>References <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="classAPBUART.html#a89d2d835ab29766a60a25308ec15e2f0">APBUART::fifosize</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classAPBUART.html#a5bfbc226a55debdb01b475e8dfff6082">APBUART::m_backend</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classAPBUART.html#a9c5c5ab3d59c3561a39a8e8c37669c82">APBUART::overrun</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#acadd1495ef199c54eda14b4b62a8d4fc">APBUART::send_buffer</a>, <a class="el" href="classio__if.html#a60c18cc48202db53e135fa3be9ad50cc">io_if::sendChar()</a>, and <a class="el" href="group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653">APBUART::update_level_int()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__apbuart.html#gaeb44f63bd8ce3f0275d779a28b38c031">APBUART::end_of_elaboration()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_ga44527e92cadfc14a3883cf2b4e949bc9_cgraph.svg" width="326" height="40"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_ga44527e92cadfc14a3883cf2b4e949bc9_cgraph.svg" width="403" height="94"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -301,12 +349,12 @@ Here is the call graph for this function:</div>
 
 <p>Execute the callback registering when systemc reaches the end of elaboration. </p>
 
-<p>References <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7">APBUART::data_read()</a>, <a class="el" href="group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9">APBUART::data_write()</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>, and <a class="el" href="group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625">APBUART::status_read()</a>.</p>
+<p>References <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="group__apbuart.html#gab5537a792321c49c7f0632423fa4b704">APBUART::control_read()</a>, <a class="el" href="group__apbuart.html#ga7cbf76c31dae47db776cbfb0c4a5e704">APBUART::control_write()</a>, <a class="el" href="classAPBUART.html#a60fbd7fe56ff3378d4ba237099bb3de7">APBUART::DATA</a>, <a class="el" href="group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7">APBUART::data_read()</a>, <a class="el" href="group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9">APBUART::data_write()</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>, and <a class="el" href="group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625">APBUART::status_read()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_gaeb44f63bd8ce3f0275d779a28b38c031_cgraph.svg" width="627" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_gaeb44f63bd8ce3f0275d779a28b38c031_cgraph.svg" width="667" height="254"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -365,6 +413,26 @@ Here is the call graph for this function:</div>
 <p>Implements <a class="el" href="classio__if.html#ab770abbc278117d4ff246166d3a0f38a">io_if</a>.</p>
 
 <p>References <a class="el" href="namespacev.html#a8175de451203b69dd990b52c97994ef1">v::error</a>, and <a class="el" href="io__less_2pocsag_8c.html#aab41927c71902fd4c81f8a72a5f65d87">error_code</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga18301b0a93cd13031daf7197977ace0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void APBUART::inc_fifo_level </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *&#160;</td>
+          <td class="paramname"><em>counter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classAPBUART.html#a89d2d835ab29766a60a25308ec15e2f0">APBUART::fifosize</a>.</p>
+
+<p>Referenced by <a class="el" href="group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7">APBUART::data_read()</a>, and <a class="el" href="group__apbuart.html#gab0d00d718255795390474631ba9987de">APBUART::uart_ticks()</a>.</p>
 
 </div>
 </div>
@@ -488,7 +556,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classAPBUART.html#a202a03987a2eb9cbdfd7d356c2f772f9">APBUART::e_irq</a>, <a class="el" href="classAPBUART.html#aae3543d3490360e9b886f3574ebbe76c">APBUART::g_pirq</a>, and <a class="el" href="classAPBUART.html#af48dbdfeb83a3420a247ff444377f7c2">APBUART::irq</a>.</p>
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classAPBUART.html#a202a03987a2eb9cbdfd7d356c2f772f9">APBUART::e_irq</a>, <a class="el" href="classAPBUART.html#aae3543d3490360e9b886f3574ebbe76c">APBUART::g_pirq</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classAPBUART.html#af48dbdfeb83a3420a247ff444377f7c2">APBUART::irq</a>, <a class="el" href="classAPBUART.html#a9cbea754d677ff7d48ace0ac25bb13cf">APBUART::level_int</a>, and <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>.</p>
+
+<p>Referenced by <a class="el" href="group__apbuart.html#gaee398c492a218d828ce298ad0babdf53">APBUART::APBUART()</a>.</p>
 
 </div>
 </div>
@@ -563,16 +633,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classAPBUART.html#a5bfbc226a55debdb01b475e8dfff6082">APBUART::m_backend</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e">io_if::receivedChars()</a>, and <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>.</p>
+<p>References <a class="el" href="classAPBUART.html#a89d2d835ab29766a60a25308ec15e2f0">APBUART::fifosize</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classAPBUART.html#a9c5c5ab3d59c3561a39a8e8c37669c82">APBUART::overrun</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classAPBUART.html#ae7ca5c3b2088519db011735c07d80470">APBUART::recv_buffer_level</a>, <a class="el" href="classAPBUART.html#acadd1495ef199c54eda14b4b62a8d4fc">APBUART::send_buffer</a>, <a class="el" href="classAPBUART.html#a71387cdda546f4fd237030a6b2b2ea0b">APBUART::STATUS</a>, and <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>.</p>
 
 <p>Referenced by <a class="el" href="group__apbuart.html#gaeb44f63bd8ce3f0275d779a28b38c031">APBUART::end_of_elaboration()</a>.</p>
-
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_gaa1b072eeb4c00569c5cf7087ba358625_cgraph.svg" width="360" height="40"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</p>
 
 </div>
 </div>
@@ -610,6 +673,51 @@ Here is the call graph for this function:</div>
 <div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_ga51ac26c2ab99a0dcdfc2a020555f890b_cgraph.svg" width="318" height="40"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="gab0d00d718255795390474631ba9987de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void APBUART::uart_ticks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="classAPBUART.html#a202a03987a2eb9cbdfd7d356c2f772f9">APBUART::e_irq</a>, <a class="el" href="classAPBUART.html#a89d2d835ab29766a60a25308ec15e2f0">APBUART::fifosize</a>, <a class="el" href="classio__if.html#ab770abbc278117d4ff246166d3a0f38a">io_if::getReceivedChar()</a>, <a class="el" href="group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f">APBUART::inc_fifo_level()</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classAPBUART.html#a5bfbc226a55debdb01b475e8dfff6082">APBUART::m_backend</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e">io_if::receivedChars()</a>, <a class="el" href="classAPBUART.html#a019c200895110df39ca80d9f37c1fc1c">APBUART::recv_buffer</a>, <a class="el" href="classAPBUART.html#a5fa037eaf9b76c01f8c5be34757bc79f">APBUART::recv_buffer_end</a>, <a class="el" href="classAPBUART.html#ae7ca5c3b2088519db011735c07d80470">APBUART::recv_buffer_level</a>, <a class="el" href="classAPBUART.html#a3d46eff4fa56eb9cc48ad2ab00ab73c2">APBUART::SCALER</a>, <a class="el" href="classAPBUART.html#acadd1495ef199c54eda14b4b62a8d4fc">APBUART::send_buffer</a>, and <a class="el" href="group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653">APBUART::update_level_int()</a>.</p>
+
+<p>Referenced by <a class="el" href="group__apbuart.html#gaee398c492a218d828ce298ad0babdf53">APBUART::APBUART()</a>.</p>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__apbuart_gab0d00d718255795390474631ba9987de_cgraph.svg" width="400" height="200"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ga18a29f378f7399981bfd202bf1df8653"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void APBUART::update_level_int </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classAPBUART.html#acb50eae9b3abbdc843c990311d9a5019">APBUART::CONTROL</a>, <a class="el" href="classAPBUART.html#a89d2d835ab29766a60a25308ec15e2f0">APBUART::fifosize</a>, <a class="el" href="classAPBUART.html#aae3543d3490360e9b886f3574ebbe76c">APBUART::g_pirq</a>, <a class="el" href="classAPBUART.html#af48dbdfeb83a3420a247ff444377f7c2">APBUART::irq</a>, <a class="el" href="classAPBUART.html#a9cbea754d677ff7d48ace0ac25bb13cf">APBUART::level_int</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, and <a class="el" href="classAPBUART.html#acadd1495ef199c54eda14b4b62a8d4fc">APBUART::send_buffer</a>.</p>
+
+<p>Referenced by <a class="el" href="group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9">APBUART::data_write()</a>, and <a class="el" href="group__apbuart.html#gab0d00d718255795390474631ba9987de">APBUART::uart_ticks()</a>.</p>
 
 </div>
 </div>
@@ -655,7 +763,7 @@ Here is the call graph for this function:</div>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

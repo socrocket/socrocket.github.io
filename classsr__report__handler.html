@@ -56,6 +56,7 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classsr__report__handler-members.html">List of all members</a>  </div>
@@ -68,26 +69,117 @@
 <div class="dynheader">
 Inheritance diagram for sr_report_handler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsr__report__handler__inherit__graph.svg" width="142" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classsr__report__handler__inherit__graph.svg" width="187" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for sr_report_handler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classsr__report__handler__coll__graph.svg" width="142" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classsr__report__handler__coll__graph.svg" width="187" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a14b6ff38471e9d2758344d3865a4ba98"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__common.html#gaabb731f4573b83d9708e0ff6fe4d6d1d">vmap</a>&lt; <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <br class="typebreak" />
+sc_core::sc_object <br class="typebreak" />
+*, std::pair<br class="typebreak" />
+&lt; sc_core::sc_severity, <a class="el" href="classint.html">int</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#a14b6ff38471e9d2758344d3865a4ba98">filter_t</a></td></tr>
+<tr class="separator:a14b6ff38471e9d2758344d3865a4ba98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afab4cf171399a319e3fca7883b070427"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsr__report.html">sr_report</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#afab4cf171399a319e3fca7883b070427">report</a> (sc_severity severity_, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="classchar.html">char</a> *msg_type_, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="classchar.html">char</a> *msg_, <a class="el" href="classint.html">int</a> verbosity_, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="classchar.html">char</a> *file_, <a class="el" href="classint.html">int</a> line_)</td></tr>
-<tr class="separator:afab4cf171399a319e3fca7883b070427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e503710ecd5ee1e71d3285eba954b6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsr__report.html">sr_report</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#ab5e503710ecd5ee1e71d3285eba954b6">report</a> (sc_severity severity_, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> sc_core::sc_object *obj, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="classchar.html">char</a> *msg_type_, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="classchar.html">char</a> *msg_, <a class="el" href="classint.html">int</a> verbosity_, <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="classchar.html">char</a> *file_, <a class="el" href="classint.html">int</a> line_)</td></tr>
+<tr class="separator:ab5e503710ecd5ee1e71d3285eba954b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6694140a051d1e15b38b3e40955098f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#aa6694140a051d1e15b38b3e40955098f">set_filter_to_whitelist</a> (<a class="el" href="classbool.html">bool</a> value)</td></tr>
+<tr class="separator:aa6694140a051d1e15b38b3e40955098f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fb465f546c47e98f5aaa963f8cd6cf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#a55fb465f546c47e98f5aaa963f8cd6cf">add_sc_object_to_filter</a> (sc_core::sc_object *obj, sc_severity severity, <a class="el" href="classint.html">int</a> verbosity)</td></tr>
+<tr class="separator:a55fb465f546c47e98f5aaa963f8cd6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c63207fad4be133cc6eeceb500214f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#a27c63207fad4be133cc6eeceb500214f">remove_sc_object_from_filter</a> (sc_core::sc_object *obj)</td></tr>
+<tr class="separator:a27c63207fad4be133cc6eeceb500214f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:a18203f3e0c9d1c108a433afd74a2886d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsr__report__handler.html#a18203f3e0c9d1c108a433afd74a2886d">sr_report::operator()</a> (<a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> std::string &amp;name)</td></tr>
 <tr class="separator:a18203f3e0c9d1c108a433afd74a2886d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="a14b6ff38471e9d2758344d3865a4ba98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group__common.html#gaabb731f4573b83d9708e0ff6fe4d6d1d">vmap</a>&lt;<a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> sc_core::sc_object *, std::pair&lt;sc_core::sc_severity, <a class="el" href="classint.html">int</a>&gt; &gt; <a class="el" href="classsr__report__handler.html#a14b6ff38471e9d2758344d3865a4ba98">sr_report_handler::filter_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="afab4cf171399a319e3fca7883b070427"></a>
+<a class="anchor" id="a55fb465f546c47e98f5aaa963f8cd6cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sr_report_handler::add_sc_object_to_filter </td>
+          <td>(</td>
+          <td class="paramtype">sc_core::sc_object *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sc_severity&#160;</td>
+          <td class="paramname"><em>severity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>verbosity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a27c63207fad4be133cc6eeceb500214f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sr_report_handler::remove_sc_object_from_filter </td>
+          <td>(</td>
+          <td class="paramtype">sc_core::sc_object *&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab5e503710ecd5ee1e71d3285eba954b6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -99,6 +191,12 @@ Friends</h2></td></tr>
           <td>(</td>
           <td class="paramtype">sc_severity&#160;</td>
           <td class="paramname"><em>severity_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> sc_core::sc_object *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -143,7 +241,31 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classsr__report.html#a8f644e753214f0ef3d427d29089aa4eb">sr_report::pairs</a>.</p>
+<p>References <a class="el" href="classsr__report.html#ad15e1e62b934084147200a7aa95b8922">sr_report::enabled</a>, and <a class="el" href="classsr__report.html#a8f644e753214f0ef3d427d29089aa4eb">sr_report::pairs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6694140a051d1e15b38b3e40955098f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sr_report_handler::set_filter_to_whitelist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classbool.html">bool</a>&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -186,7 +308,7 @@ Friends</h2></td></tr>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Thu Oct 23 2014 15:41:40 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Tue Nov 18 2014 18:54:35 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

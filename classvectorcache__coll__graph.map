@@ -1,12 +1,12 @@
 <map id="vectorcache" name="vectorcache">
 <area shape="rect" id="node4" href="$classcache__if.html" title="{cache_if\n||+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ ~cache_if()\l}" alt="" coords="264,654,411,930"/>
 <area shape="rect" id="node6" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="284,415,391,535"/>
-<area shape="rect" id="node44" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="435,723,568,861"/>
-<area shape="rect" id="node18" href="$structt__cache__line.html" title="{t_cache_line\n||}" alt="" coords="1351,432,1444,517"/>
-<area shape="rect" id="node20" href="$uniont__cache__data.html" title="{t_cache_data\n||}" alt="" coords="1216,227,1315,312"/>
-<area shape="rect" id="node22" href="$classchar.html" title="{char\n||}" alt="" coords="1113,5,1159,91"/>
-<area shape="rect" id="node24" href="$classint.html" title="{int\n||}" alt="" coords="1247,5,1284,91"/>
-<area shape="rect" id="node26" href="$structt__cache__tag.html" title="{t_cache_tag\n||}" alt="" coords="1340,227,1433,312"/>
-<area shape="rect" id="node29" title="STL class. " alt="" coords="1521,432,1636,517"/>
-<area shape="rect" id="node40" href="$classbool.html" title="{bool\n||}" alt="" coords="1735,749,1780,835"/>
+<area shape="rect" id="node44" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="435,715,576,869"/>
+<area shape="rect" id="node18" href="$structt__cache__line.html" title="{t_cache_line\n||}" alt="" coords="1359,432,1452,517"/>
+<area shape="rect" id="node20" href="$uniont__cache__data.html" title="{t_cache_data\n||}" alt="" coords="1224,227,1323,312"/>
+<area shape="rect" id="node22" href="$classchar.html" title="{char\n||}" alt="" coords="1121,5,1167,91"/>
+<area shape="rect" id="node24" href="$classint.html" title="{int\n||}" alt="" coords="1255,5,1292,91"/>
+<area shape="rect" id="node26" href="$structt__cache__tag.html" title="{t_cache_tag\n||}" alt="" coords="1348,227,1441,312"/>
+<area shape="rect" id="node29" title="STL class. " alt="" coords="1529,432,1644,517"/>
+<area shape="rect" id="node40" href="$classbool.html" title="{bool\n||}" alt="" coords="1743,749,1788,835"/>
 </map>

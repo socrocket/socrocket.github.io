@@ -1,7 +1,22 @@
-<map id="leon3_funclt_trap::Processor_leon3_funclt::mainLoop" name="leon3_funclt_trap::Processor_leon3_funclt::mainLoop">
-<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Instruction.html#ae0b978f3e6424cf60c8baf54a35c9269" title="leon3_funclt_trap::\lInstruction::behavior" alt="" coords="247,5,385,51"/>
-<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1Instruction.html#a5ee0c32a3a7e5aced35a5c8aa3cb784e" title="Returns the instruction name. " alt="" coords="213,74,419,121"/>
-<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Instruction.html#a91f3cb16378baf674ffc4c8e9adca731" title="leon3_funclt_trap::\lInstruction::getMnemonic" alt="" coords="232,143,400,190"/>
-<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Instruction.html#a622033db3d9beec65e8ad46999325abb" title="leon3_funclt_trap::\lInstruction::replicate" alt="" coords="247,213,385,259"/>
-<area shape="rect" id="node11" href="$classleon3__funclt__trap_1_1Instruction.html#abdeaab006561d74c7fb624bb70d09a98" title="leon3_funclt_trap::\lInstruction::setParams" alt="" coords="239,282,393,329"/>
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Instruction.html#ae0b978f3e6424cf60c8baf54a35c9269" title="leon3_funclt_trap::Instruction::behavior" alt="" coords="441,60,687,89"/>
+<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1IRQ__IRQ__Instruction.html#ac3020284ba65a0f846fde1ef5575cfaa" title="leon3_funclt_trap::IRQ_IRQ_Instruction::behavior" alt="" coords="409,113,719,143"/>
+<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Instruction.html#a19f263db8eee412f30e897fc056464b3" title="leon3_funclt_trap::Instruction::RaiseException" alt="" coords="792,113,1083,143"/>
+<area shape="rect" id="node13" href="$classleon3__funclt__trap_1_1Instruction.html#a91f3cb16378baf674ffc4c8e9adca731" title="leon3_funclt_trap::Instruction::getMnemonic" alt="" coords="1147,219,1421,248"/>
+<area shape="rect" id="node19" href="$classleon3__funclt__trap_1_1Decoder.html#aa9318980829f03adeb49af36a338f4b5" title="leon3_funclt_trap::Decoder::decode" alt="" coords="451,268,677,297"/>
+<area shape="rect" id="node21" href="$classleon3__funclt__trap_1_1Instruction.html#a5ee0c32a3a7e5aced35a5c8aa3cb784e" title="Returns the instruction name." alt="" coords="408,321,720,351"/>
+<area shape="rect" id="node24" href="$classtrap_1_1ToolsManager.html#a5ea90a8b89cccd5bc917feb86d191ad6" title="trap::ToolsManager::newIssue" alt="" coords="465,375,663,404"/>
+<area shape="rect" id="node27" href="$classleon3__funclt__trap_1_1MemoryInterface.html#abe017afd2263dbc0c0a5904070e87f22" title="leon3_funclt_trap::MemoryInterface::read_instr" alt="" coords="419,428,709,457"/>
+<area shape="rect" id="node29" href="$classleon3__funclt__trap_1_1Instruction.html#a622033db3d9beec65e8ad46999325abb" title="leon3_funclt_trap::Instruction::replicate" alt="" coords="441,481,687,511"/>
+<area shape="rect" id="node31" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a47aae665d1b8d49e7054637b24a846ae" title="leon3_funclt_trap::Processor_leon3_funclt::resetOp" alt="" coords="405,535,723,564"/>
+<area shape="rect" id="node41" href="$classleon3__funclt__trap_1_1IRQ__IRQ__Instruction.html#ae64d090011294028f3634aaaebcd94ce" title="leon3_funclt_trap::IRQ_IRQ_Instruction::setInterruptValue" alt="" coords="385,588,743,617"/>
+<area shape="rect" id="node43" href="$classleon3__funclt__trap_1_1Instruction.html#abdeaab006561d74c7fb624bb70d09a98" title="leon3_funclt_trap::Instruction::setParams" alt="" coords="433,641,695,671"/>
+<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Instruction.html#ab55ea98ccf6e44847d25a3ed84c72cd9" title="leon3_funclt_trap::Instruction::annull" alt="" coords="1168,5,1400,35"/>
+<area shape="rect" id="node11" href="$classleon3__funclt__trap_1_1Instruction.html#a74c6fb574a1dab4f2105c426f0047067" title="leon3_funclt_trap::Instruction::flush" alt="" coords="1171,59,1397,88"/>
+<area shape="rect" id="node15" href="$classleon3__funclt__trap_1_1PinTLM__out__32.html#ac64b937a36196e1c2da03f3ebe70bdb4" title="leon3_funclt_trap::PinTLM_out_32::send_pin_req" alt="" coords="1132,112,1436,141"/>
+<area shape="rect" id="node17" href="$classleon3__funclt__trap_1_1Alias.html#ae2d59e78e59aa01755d057a02e78fe3c" title="leon3_funclt_trap::Alias::updateAlias" alt="" coords="1167,165,1401,195"/>
+<area shape="rect" id="node33" href="$classleon3__funclt__trap_1_1Reg32__2.html#ab71d38dc28fb645173deff4ec9a7dc10" title="leon3_funclt_trap::Reg32_2::immediateWrite" alt="" coords="797,455,1077,484"/>
+<area shape="rect" id="node35" href="$classleon3__funclt__trap_1_1Reg32__1.html#a65b8ab21fe56aad95446d38c9420098e" title="leon3_funclt_trap::Reg32_1::immediateWrite" alt="" coords="797,508,1077,537"/>
+<area shape="rect" id="node37" href="$classleon3__funclt__trap_1_1Reg32__0.html#adaf390cc6809bb007d5e304165517105" title="leon3_funclt_trap::Reg32_0::immediateWrite" alt="" coords="797,561,1077,591"/>
+<area shape="rect" id="node39" href="$classleon3__funclt__trap_1_1Reg32__3.html#a28d79def067dde87a3ea9617ee6aec69" title="leon3_funclt_trap::Reg32_3::immediateWrite" alt="" coords="797,615,1077,644"/>
 </map>

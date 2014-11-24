@@ -1,13 +1,13 @@
 <map id="ivectorcache" name="ivectorcache">
-<area shape="rect" id="node2" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="855,1101,1020,1672"/>
+<area shape="rect" id="node2" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="863,1101,1028,1672"/>
 <area shape="rect" id="node6" href="$classcache__if.html" title="{cache_if\n||+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ ~cache_if()\l}" alt="" coords="144,654,291,930"/>
 <area shape="rect" id="node8" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="285,415,392,535"/>
-<area shape="rect" id="node46" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="888,723,1021,861"/>
-<area shape="rect" id="node20" href="$structt__cache__line.html" title="{t_cache_line\n||}" alt="" coords="1233,432,1327,517"/>
-<area shape="rect" id="node22" href="$uniont__cache__data.html" title="{t_cache_data\n||}" alt="" coords="923,227,1021,312"/>
-<area shape="rect" id="node24" href="$classchar.html" title="{char\n||}" alt="" coords="949,5,995,91"/>
-<area shape="rect" id="node26" href="$classint.html" title="{int\n||}" alt="" coords="1040,5,1077,91"/>
-<area shape="rect" id="node28" href="$structt__cache__tag.html" title="{t_cache_tag\n||}" alt="" coords="1131,227,1224,312"/>
-<area shape="rect" id="node31" title="STL class. " alt="" coords="1405,432,1520,517"/>
-<area shape="rect" id="node42" href="$classbool.html" title="{bool\n||}" alt="" coords="1436,749,1481,835"/>
+<area shape="rect" id="node46" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="888,715,1029,869"/>
+<area shape="rect" id="node20" href="$structt__cache__line.html" title="{t_cache_line\n||}" alt="" coords="1241,432,1335,517"/>
+<area shape="rect" id="node22" href="$uniont__cache__data.html" title="{t_cache_data\n||}" alt="" coords="931,227,1029,312"/>
+<area shape="rect" id="node24" href="$classchar.html" title="{char\n||}" alt="" coords="957,5,1003,91"/>
+<area shape="rect" id="node26" href="$classint.html" title="{int\n||}" alt="" coords="1048,5,1085,91"/>
+<area shape="rect" id="node28" href="$structt__cache__tag.html" title="{t_cache_tag\n||}" alt="" coords="1139,227,1232,312"/>
+<area shape="rect" id="node31" title="STL class. " alt="" coords="1413,432,1528,517"/>
+<area shape="rect" id="node42" href="$classbool.html" title="{bool\n||}" alt="" coords="1444,749,1489,835"/>
 </map>

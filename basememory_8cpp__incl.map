@@ -1,8 +1,9 @@
 <map id="core/models/memory/basememory.cpp" name="core/models/memory/basememory.cpp">
-<area shape="rect" id="node3" href="$basememory_8h.html" title="core/models/memory\l/basememory.h" alt="" coords="205,102,349,149"/>
-<area shape="rect" id="node5" href="$arraystorage_8h.html" title="core/models/memory\l/arraystorage.h" alt="" coords="96,198,240,245"/>
+<area shape="rect" id="node3" href="$basememory_8h.html" title="core/models/memory\l/basememory.h" alt="" coords="289,102,433,149"/>
+<area shape="rect" id="node5" href="$arraystorage_8h.html" title="core/models/memory\l/arraystorage.h" alt="" coords="125,198,269,245"/>
 <area shape="rect" id="node7" href="$storage_8h.html" title="core/models/memory\l/storage.h" alt="" coords="175,294,319,341"/>
-<area shape="rect" id="node20" href="$mapstorage_8h.html" title="core/models/memory\l/mapstorage.h" alt="" coords="315,198,459,245"/>
+<area shape="rect" id="node20" href="$mapstorage_8h.html" title="core/models/memory\l/mapstorage.h" alt="" coords="344,198,488,245"/>
+<area shape="rect" id="node28" href="$scireg_8h.html" title="core/common/scireg.h" alt="" coords="539,207,688,236"/>
 <area shape="rect" id="node9" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="164,389,329,419"/>
 <area shape="rect" id="node22" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="343,303,489,332"/>
 </map>

@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="group__mmu__cache__base.html#ga6c6114ab645a8f2c869cccc8ade643a1" target="_top" xlink:title="Instruction interface to functional part of the model. ">
+<a xlink:href="group__mmu__cache.html#ga6c6114ab645a8f2c869cccc8ade643a1" target="_top" xlink:title="Instruction interface to functional part of the model. ">
 <polygon fill="white" stroke="black" points="340.5,-80 340.5,-114 463.5,-114 463.5,-80 340.5,-80"/>
 <text text-anchor="start" x="348.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::exec</text>
 <text text-anchor="middle" x="402" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">_instr</text>
@@ -65,27 +65,27 @@
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" target="_top" xlink:title="Read from scratchpad. ">
-<polygon fill="white" stroke="black" points="500.5,-106.5 500.5,-127.5 605.5,-127.5 605.5,-106.5 500.5,-106.5"/>
-<text text-anchor="middle" x="553" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">localram::mem_read</text>
+<a xlink:href="classmem__if.html#aa4c431846b1d11708be4128f84295c6c" target="_top" xlink:title="mem_if::mem_read">
+<polygon fill="white" stroke="black" points="502.5,-106.5 502.5,-127.5 603.5,-127.5 603.5,-106.5 502.5,-106.5"/>
+<text text-anchor="middle" x="553" y="-114.5" font-family="Helvetica,sans-Serif" font-size="10.00">mem_if::mem_read</text>
 </a>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge6" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M463.853,-105.192C472.517,-106.34 481.429,-107.52 490.112,-108.67"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="489.798,-112.159 500.171,-110.003 490.717,-105.22 489.798,-112.159"/>
+<path fill="none" stroke="midnightblue" d="M463.853,-105.192C473.184,-106.428 482.802,-107.702 492.112,-108.935"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="491.693,-112.41 502.066,-110.254 492.612,-105.471 491.693,-112.41"/>
 </g>
 <!-- Node5 -->
 <g id="node9" class="node"><title>Node5</title>
-<a xlink:href="classmem__if.html#aa4c431846b1d11708be4128f84295c6c" target="_top" xlink:title="mem_if::mem_read">
-<polygon fill="white" stroke="black" points="502.5,-66.5 502.5,-87.5 603.5,-87.5 603.5,-66.5 502.5,-66.5"/>
-<text text-anchor="middle" x="553" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">mem_if::mem_read</text>
+<a xlink:href="group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" target="_top" xlink:title="Read from scratchpad. ">
+<polygon fill="white" stroke="black" points="500.5,-66.5 500.5,-87.5 605.5,-87.5 605.5,-66.5 500.5,-66.5"/>
+<text text-anchor="middle" x="553" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">localram::mem_read</text>
 </a>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge8" class="edge"><title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M463.853,-88.8075C473.184,-87.5717 482.802,-86.2977 492.112,-85.0646"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="492.612,-88.5291 502.066,-83.7463 491.693,-81.5897 492.612,-88.5291"/>
+<path fill="none" stroke="midnightblue" d="M463.853,-88.8075C472.517,-87.66 481.429,-86.4796 490.112,-85.3296"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="490.717,-88.78 500.171,-83.9972 489.798,-81.8406 490.717,-88.78"/>
 </g>
 </g>
 </svg>

@@ -59,7 +59,7 @@
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classmmu__cache__if-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">mmu_cache_if Class Reference<div class="ingroups"><a class="el" href="group__mmu__cache.html">MMU_Cache</a></div></div>  </div>
+<div class="title">mmu_cache_if Class Reference<div class="ingroups"><a class="el" href="group__mmu__cache.html">Mmu_cache</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -72,13 +72,15 @@ Inheritance diagram for mmu_cache_if:</div>
 <div class="dynheader">
 Collaboration diagram for mmu_cache_if:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmmu__cache__if__coll__graph.svg" width="144" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmmu__cache__if__coll__graph.svg" width="152" height="334"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a34347b0388bf1d2327f434f735edaca6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmmu__cache__if.html#a34347b0388bf1d2327f434f735edaca6">set_irq</a> (<a class="el" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> tt)</td></tr>
 <tr class="separator:a34347b0388bf1d2327f434f735edaca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0501f4246cc46e29a47005463678f587"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmmu__cache__if.html#a0501f4246cc46e29a47005463678f587">trigger_exception</a> (unsigned <a class="el" href="classint.html">int</a> exception)</td></tr>
+<tr class="separator:a0501f4246cc46e29a47005463678f587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db774d941ac7b29a676cb1e9d3ce512"><td class="memItemLeft" align="right" valign="top">virtual unsigned <a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmmu__cache__if.html#a4db774d941ac7b29a676cb1e9d3ce512">read_ccr</a> (<a class="el" href="classbool.html">bool</a> internal)</td></tr>
 <tr class="separator:a4db774d941ac7b29a676cb1e9d3ce512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a205a0834353ece9d7fb576a982c6dbbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmmu__cache__if.html#a205a0834353ece9d7fb576a982c6dbbd">write_ccr</a> (unsigned <a class="el" href="classchar.html">char</a> *data, unsigned <a class="el" href="classint.html">int</a> len, sc_core::sc_time *delay, unsigned <a class="el" href="classint.html">int</a> *debug, <a class="el" href="classbool.html">bool</a> is_dbg)</td></tr>
@@ -140,7 +142,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="group__mmu__cache__base.html#gae13fd6b248d3f36f8856ef641e05fa6f">mmu_cache_base</a>.</p>
+<p>Reimplemented in <a class="el" href="group__mmu__cache.html#gae13fd6b248d3f36f8856ef641e05fa6f">mmu_cache_base</a>.</p>
 
 <p>Referenced by <a class="el" href="group__mmu__cache.html#ga5ad398ee9e3c2719a07862d3c731b730">dvectorcache::check_mode()</a>, <a class="el" href="group__mmu__cache.html#ga2063e8c742d397b5483206c71114ac90">ivectorcache::check_mode()</a>, and <a class="el" href="group__mmu__cache.html#ga3e77e1370d442a86e66d91204ab6fbf8">vectorcache::mem_read()</a>.</p>
 
@@ -168,7 +170,33 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="group__mmu__cache__base.html#gaac1fe1b687793750821df0803ef64514">mmu_cache_base</a>.</p>
+<p>Reimplemented in <a class="el" href="group__mmu__cache.html#gaac1fe1b687793750821df0803ef64514">mmu_cache_base</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0501f4246cc46e29a47005463678f587"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void mmu_cache_if::trigger_exception </td>
+          <td>(</td>
+          <td class="paramtype">unsigned <a class="el" href="classint.html">int</a>&#160;</td>
+          <td class="paramname"><em>exception</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classmmu__cache__base.html#acb37aaa2174fd52cfd42beac5ff49e30">mmu_cache_base</a>, and <a class="el" href="group__mmu__cache.html#ga29ecffbe49e3f2c3b9196d78f3f91b06">leon3_mmu_cache</a>.</p>
 
 <p>Referenced by <a class="el" href="group__mmu__cache.html#ga62d425c9066e3b30598968fd08cd7d34">mmu::tlb_lookup()</a>.</p>
 
@@ -224,7 +252,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="group__mmu__cache__base.html#gae5572d125b9fe148dbd117ffc98ede8f">mmu_cache_base</a>.</p>
+<p>Reimplemented in <a class="el" href="group__mmu__cache.html#gae5572d125b9fe148dbd117ffc98ede8f">mmu_cache_base</a>.</p>
 
 </div>
 </div>
@@ -241,7 +269,7 @@ Public Member Functions</h2></td></tr>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Thu Oct 23 2014 15:41:40 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Tue Nov 18 2014 18:54:35 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

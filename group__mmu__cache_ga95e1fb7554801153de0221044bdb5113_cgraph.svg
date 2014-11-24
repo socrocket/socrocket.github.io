@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="group__mmu__cache__base.html#ga6c6114ab645a8f2c869cccc8ade643a1" target="_top" xlink:title="Instruction interface to functional part of the model. ">
+<a xlink:href="group__mmu__cache.html#ga6c6114ab645a8f2c869cccc8ade643a1" target="_top" xlink:title="Instruction interface to functional part of the model. ">
 <polygon fill="white" stroke="black" points="158.5,-80 158.5,-114 281.5,-114 281.5,-80 158.5,-80"/>
 <text text-anchor="start" x="166.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base::exec</text>
 <text text-anchor="middle" x="220" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">_instr</text>

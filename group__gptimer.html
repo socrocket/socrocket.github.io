@@ -155,10 +155,10 @@ Functions</h2></td></tr>
 <tr class="separator:ga00aa2f6a063f7accf76900d571f0bd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga71c826f56734cef6f1b793e19cc7a10e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gptimer.html#ga71c826f56734cef6f1b793e19cc7a10e">GPTimer::dorst</a> ()</td></tr>
 <tr class="separator:ga71c826f56734cef6f1b793e19cc7a10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3e7aef748003ead932534c5ad2d3af9b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b">GPTimer::valueof</a> (sc_core::sc_time t, int32_t <a class="el" href="io__less_2engine_8c.html#ac289c24a4e248d19df57ec46beafa14e">offset</a>, sc_core::sc_time cycletime) <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> </td></tr>
-<tr class="separator:ga3e7aef748003ead932534c5ad2d3af9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ec14c909ae5ae8f18eda0b1205cc585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585">GPTimer::numberofticksbetween</a> (sc_core::sc_time <a class="el" href="radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d">start</a>, sc_core::sc_time end, <a class="el" href="classint.html">int</a> counter, sc_core::sc_time cycletime)</td></tr>
-<tr class="separator:ga2ec14c909ae5ae8f18eda0b1205cc585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbf232826b8b6c54207ec9b9c1534b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint64__t.html">int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a">GPTimer::valueof</a> (sc_core::sc_time t, <a class="el" href="classint64__t.html">int64_t</a> <a class="el" href="io__less_2engine_8c.html#ac289c24a4e248d19df57ec46beafa14e">offset</a>, sc_core::sc_time cycletime) <a class="el" href="pocsag_8c.html#a2c212835823e3c54a8ab6d95c652660e">const</a> </td></tr>
+<tr class="separator:gafbf232826b8b6c54207ec9b9c1534b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83ad64bbb55a67affae7f13a38c6556b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint64__t.html">int64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b">GPTimer::numberofticksbetween</a> (sc_core::sc_time <a class="el" href="radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d">start</a>, sc_core::sc_time end, <a class="el" href="classint.html">int</a> <a class="el" href="forever_8c.html#abf036d0bdfab41784a4f0bfef5b3147b">counter</a>, sc_core::sc_time cycletime)</td></tr>
+<tr class="separator:ga83ad64bbb55a67affae7f13a38c6556b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -177,14 +177,14 @@ Functions</h2></td></tr>
 
 <p>Function calculating the waiting time for the next timer event. </p>
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#a0cccc997af70e961a90f470f05cb56bb">GPTimer::CTRL_EN</a>, <a class="el" href="group__gptimer.html#ga3c052b2513dd78de914f36ae05825031">GPCounter::cycletime()</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPCounter.html#a9939329f24629f883f38031da2f99b11">GPCounter::e_wait</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65">GPCounter::nextzero()</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>, <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>, and <a class="el" href="group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5">GPCounter::value_read()</a>.</p>
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a9718939b0d96f3092a4b267f2ce8a4e3">GPTimer::CONF</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#a0cccc997af70e961a90f470f05cb56bb">GPTimer::CTRL_EN</a>, <a class="el" href="group__gptimer.html#ga3c052b2513dd78de914f36ae05825031">GPCounter::cycletime()</a>, <a class="el" href="classGPCounter.html#a9939329f24629f883f38031da2f99b11">GPCounter::e_wait</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65">GPCounter::nextzero()</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>, <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>, and <a class="el" href="group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5">GPCounter::value_read()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#gafd2c1a9aba39ae2d006146286318962d">GPCounter::start()</a>, <a class="el" href="group__gptimer.html#gadd399aae5a660b34ff11c9b141950cf2">GPCounter::ticking()</a>, and <a class="el" href="group__gptimer.html#ga907e150d5cf6f93f0e7d2e8983351bae">GPCounter::value_write()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gac6df0d6e7eee7cd499207589be4be59a_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gac6df0d6e7eee7cd499207589be4be59a_cgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
@@ -210,7 +210,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga30965c2c68574afe2c99a61638c65d9c_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga30965c2c68574afe2c99a61638c65d9c_cgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
@@ -285,7 +285,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gac33f65b69e9dd82d4531c034df96a892_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gac33f65b69e9dd82d4531c034df96a892_cgraph.svg" width="100%" height="590"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
@@ -304,7 +304,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#ae67c86320421d2738b30410823ddf87f">GPTimer::CTRL_CH</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, and <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>.</p>
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#ae67c86320421d2738b30410823ddf87f">GPTimer::CTRL_CH</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, and <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>.</p>
 
@@ -374,7 +374,7 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="group__utils.html#gad48243b9ea5d9436cd6dc64fff00e9e1">CLKDevice</a>.</p>
 
-<p>References <a class="el" href="classGPTimer.html#a9718939b0d96f3092a4b267f2ce8a4e3">GPTimer::CONF</a>, <a class="el" href="classGPTimer.html#a841e1148ab308a07bc7d8bf5df07de96">GPTimer::conf_defaults</a>, <a class="el" href="hanoi_8c.html#a66e3fedede6aa372e5196e55e5e8d5c1">count</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPTimer.html#a8884804a7f991e08d31fdd12cb4de85d">GPTimer::g_sbits</a>, <a class="el" href="classGPTimer.html#ab9a076b1075bb1661a901b8cc47fd2ff">GPTimer::g_wdog_length</a>, <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464">GPTimer::lasttime</a>, <a class="el" href="classGPTimer.html#ad230f850fe76eeff7846a98a27662d89">GPTimer::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2">GPTimer::scaler_read()</a>, <a class="el" href="group__gptimer.html#gac159200f9188081ae2d281e344cb22e5">GPTimer::scaler_write()</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, and <a class="el" href="classGPTimer.html#aa959e5d8e14ab7339e419b6d0f2454cd">GPTimer::wdog</a>.</p>
+<p>References <a class="el" href="classGPTimer.html#a9718939b0d96f3092a4b267f2ce8a4e3">GPTimer::CONF</a>, <a class="el" href="classGPTimer.html#a841e1148ab308a07bc7d8bf5df07de96">GPTimer::conf_defaults</a>, <a class="el" href="hanoi_8c.html#a66e3fedede6aa372e5196e55e5e8d5c1">count</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPTimer.html#a8884804a7f991e08d31fdd12cb4de85d">GPTimer::g_sbits</a>, <a class="el" href="classGPTimer.html#ab9a076b1075bb1661a901b8cc47fd2ff">GPTimer::g_wdog_length</a>, <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464">GPTimer::lasttime</a>, <a class="el" href="classGPTimer.html#ab3a43211b9818ee65f7b3808d2cb8d46">GPTimer::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2">GPTimer::scaler_read()</a>, <a class="el" href="group__gptimer.html#gac159200f9188081ae2d281e344cb22e5">GPTimer::scaler_write()</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, and <a class="el" href="classGPTimer.html#aa959e5d8e14ab7339e419b6d0f2454cd">GPTimer::wdog</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -493,7 +493,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga6f96afb550e7bac6a450f8479878bb89_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga6f96afb550e7bac6a450f8479878bb89_cgraph.svg" width="100%" height="586"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
@@ -738,12 +738,12 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ga2ec14c909ae5ae8f18eda0b1205cc585"></a>
+<a class="anchor" id="ga83ad64bbb55a67affae7f13a38c6556b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classint.html">int</a> GPTimer::numberofticksbetween </td>
+          <td class="memname"><a class="el" href="classint64__t.html">int64_t</a> GPTimer::numberofticksbetween </td>
           <td>(</td>
           <td class="paramtype">sc_core::sc_time&#160;</td>
           <td class="paramname"><em>start</em>, </td>
@@ -784,14 +784,14 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p>References <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, and <a class="el" href="group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b">GPTimer::valueof()</a>.</p>
+<p>References <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, and <a class="el" href="group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a">GPTimer::valueof()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5">GPCounter::value_read()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga2ec14c909ae5ae8f18eda0b1205cc585_cgraph.svg" width="398" height="40"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga83ad64bbb55a67affae7f13a38c6556b_cgraph.svg" width="398" height="40"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -833,7 +833,7 @@ Here is the call graph for this function:</div>
 
 <p>Register callback executed before the prescaler value register gets read, to calculate the current value. </p>
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>, and <a class="el" href="group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b">GPTimer::valueof()</a>.</p>
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>, and <a class="el" href="group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a">GPTimer::valueof()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#ga71c826f56734cef6f1b793e19cc7a10e">GPTimer::dorst()</a>, <a class="el" href="group__gptimer.html#gae8594efeab7b372163889c7e4ee5ba55">GPTimer::end_of_elaboration()</a>, and <a class="el" href="group__gptimer.html#ga5af27b6c60395ec7a243cbc6d19b0c65">GPCounter::nextzero()</a>.</p>
 
@@ -861,7 +861,7 @@ Here is the call graph for this function:</div>
 
 <p>Register callback executed after the presacler value is written, to recalculate the counter and ticking functions. </p>
 
-<p>References <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464">GPTimer::lasttime</a>, <a class="el" href="classGPTimer.html#ad230f850fe76eeff7846a98a27662d89">GPTimer::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, and <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>.</p>
+<p>References <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464">GPTimer::lasttime</a>, <a class="el" href="classGPTimer.html#ab3a43211b9818ee65f7b3808d2cb8d46">GPTimer::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, and <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#ga71c826f56734cef6f1b793e19cc7a10e">GPTimer::dorst()</a>, <a class="el" href="group__gptimer.html#gae8594efeab7b372163889c7e4ee5ba55">GPTimer::end_of_elaboration()</a>, and <a class="el" href="group__gptimer.html#ga431dafd950d305476b86f38db3b3f527">GPTimer::screload_write()</a>.</p>
 
@@ -882,7 +882,7 @@ Here is the call graph for this function:</div>
 
 <p>Register callback executed after the presacler reset is written, to recalculate the counter and ticking functions. </p>
 
-<p>References <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="group__gptimer.html#gac159200f9188081ae2d281e344cb22e5">GPTimer::scaler_write()</a>, and <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>.</p>
+<p>References <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="group__gptimer.html#gac159200f9188081ae2d281e344cb22e5">GPTimer::scaler_write()</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, and <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#gae8594efeab7b372163889c7e4ee5ba55">GPTimer::end_of_elaboration()</a>.</p>
 
@@ -949,7 +949,7 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gafd2c1a9aba39ae2d006146286318962d_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gafd2c1a9aba39ae2d006146286318962d_cgraph.svg" width="100%" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
@@ -998,7 +998,7 @@ Here is the call graph for this function:</div>
 
 <p>References <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPCounter.html#a9939329f24629f883f38031da2f99b11">GPCounter::e_wait</a>, <a class="el" href="classGPCounter.html#a3e81aaf1155d3f781d77f621112d38f2">GPCounter::lasttime</a>, <a class="el" href="classGPCounter.html#a2ab47966bf56a512cda2c81ee33d3b27">GPCounter::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPCounter.html#a75df5a23ea764351c2543f8129ffb376">GPCounter::stopped</a>, <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>, and <a class="el" href="group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5">GPCounter::value_read()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__gptimer.html#gac33f65b69e9dd82d4531c034df96a892">GPCounter::ctrl_write()</a>.</p>
+<p>Referenced by <a class="el" href="group__gptimer.html#gac33f65b69e9dd82d4531c034df96a892">GPCounter::ctrl_write()</a>, and <a class="el" href="group__gptimer.html#gadd399aae5a660b34ff11c9b141950cf2">GPCounter::ticking()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1023,14 +1023,14 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>This function contains the core functionality of the Counter. It is a SC_THREAD which triggers the interupt and waits for the e_tick event. </p>
 
-<p>References <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>, <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a9718939b0d96f3092a4b267f2ce8a4e3">GPTimer::CONF</a>, <a class="el" href="classGPTimer.html#aecbc762bc6220b96d284a59eefdaa6dc">GPTimer::CONF_SI</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#ae67c86320421d2738b30410823ddf87f">GPTimer::CTRL_CH</a>, <a class="el" href="classGPTimer.html#a0cccc997af70e961a90f470f05cb56bb">GPTimer::CTRL_EN</a>, <a class="el" href="classGPTimer.html#ae72c5cf38d73df1ed18676579623d911">GPTimer::CTRL_IE</a>, <a class="el" href="classGPTimer.html#a99a3aeec94b7247dd9ebf6c9a6c31a5f">GPTimer::CTRL_RS</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPCounter.html#a9939329f24629f883f38031da2f99b11">GPCounter::e_wait</a>, <a class="el" href="classGPTimer.html#ab9a076b1075bb1661a901b8cc47fd2ff">GPTimer::g_wdog_length</a>, <a class="el" href="classGPTimer.html#ae47888f80a7dce948225e701c949fae8">GPTimer::irq</a>, <a class="el" href="classGPCounter.html#a7dee8bddb8d9c34bd158b5661713360e">GPCounter::m_pirq</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, and <a class="el" href="classGPTimer.html#aa959e5d8e14ab7339e419b6d0f2454cd">GPTimer::wdog</a>.</p>
+<p>References <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>, <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a9718939b0d96f3092a4b267f2ce8a4e3">GPTimer::CONF</a>, <a class="el" href="classGPTimer.html#aecbc762bc6220b96d284a59eefdaa6dc">GPTimer::CONF_SI</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#ae67c86320421d2738b30410823ddf87f">GPTimer::CTRL_CH</a>, <a class="el" href="classGPTimer.html#a0cccc997af70e961a90f470f05cb56bb">GPTimer::CTRL_EN</a>, <a class="el" href="classGPTimer.html#ae72c5cf38d73df1ed18676579623d911">GPTimer::CTRL_IE</a>, <a class="el" href="classGPTimer.html#a99a3aeec94b7247dd9ebf6c9a6c31a5f">GPTimer::CTRL_RS</a>, <a class="el" href="classGPCounter.html#a9939329f24629f883f38031da2f99b11">GPCounter::e_wait</a>, <a class="el" href="classGPTimer.html#ab9a076b1075bb1661a901b8cc47fd2ff">GPTimer::g_wdog_length</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classGPTimer.html#ae47888f80a7dce948225e701c949fae8">GPTimer::irq</a>, <a class="el" href="classGPCounter.html#a7dee8bddb8d9c34bd158b5661713360e">GPCounter::m_pirq</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, <a class="el" href="classGPTimer.html#ab14519d8be96a56191c2e465b0a89fa8">GPTimer::SCALER</a>, <a class="el" href="classGPTimer.html#aad64d9fc107f5aa7ad91131afa81a4e3">GPTimer::SCRELOAD</a>, <a class="el" href="group__common.html#ga23b01af475962c237d3cb15757a35cb9">srInfo</a>, <a class="el" href="group__gptimer.html#ga5c44c0dd79efaf804f96f24b0f754742">GPCounter::stop()</a>, <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>, <a class="el" href="group__gptimer.html#ga6cf594511d175e5991f747b9fa5ae5a5">GPCounter::value_read()</a>, and <a class="el" href="classGPTimer.html#aa959e5d8e14ab7339e419b6d0f2454cd">GPTimer::wdog</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#ga6f96afb550e7bac6a450f8479878bb89">GPCounter::GPCounter()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gadd399aae5a660b34ff11c9b141950cf2_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_gadd399aae5a660b34ff11c9b141950cf2_cgraph.svg" width="100%" height="586"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
@@ -1053,9 +1053,9 @@ Here is the call graph for this function:</div>
 <dd>
 <a class="el" href="classGPCounter.html#a3e81aaf1155d3f781d77f621112d38f2">lasttime</a> </dd></dl>
 
-<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#ae67c86320421d2738b30410823ddf87f">GPTimer::CTRL_CH</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPCounter.html#a3e81aaf1155d3f781d77f621112d38f2">GPCounter::lasttime</a>, <a class="el" href="classGPCounter.html#a2ab47966bf56a512cda2c81ee33d3b27">GPCounter::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585">GPTimer::numberofticksbetween()</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, <a class="el" href="classGPCounter.html#a75df5a23ea764351c2543f8129ffb376">GPCounter::stopped</a>, <a class="el" href="namespacev.html#ad1302455117aa85e584c0adaef7cc09d">v::uint64</a>, and <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>.</p>
+<p>References <a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">CLKDevice::clock_cycle</a>, <a class="el" href="classGPTimer.html#a7cdd4fe967f0daf5fcbd8472598d535a">GPTimer::counter</a>, <a class="el" href="classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea">GPTimer::CTRL()</a>, <a class="el" href="classGPTimer.html#ae67c86320421d2738b30410823ddf87f">GPTimer::CTRL_CH</a>, <a class="el" href="classGPTimer.html#a99a3aeec94b7247dd9ebf6c9a6c31a5f">GPTimer::CTRL_RS</a>, <a class="el" href="classGPTimer.html#a8884804a7f991e08d31fdd12cb4de85d">GPTimer::g_sbits</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classGPCounter.html#a3e81aaf1155d3f781d77f621112d38f2">GPCounter::lasttime</a>, <a class="el" href="classGPCounter.html#a2ab47966bf56a512cda2c81ee33d3b27">GPCounter::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b">GPTimer::numberofticksbetween()</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3">GPTimer::RELOAD()</a>, <a class="el" href="classGPCounter.html#a75df5a23ea764351c2543f8129ffb376">GPCounter::stopped</a>, <a class="el" href="namespacev.html#ad1302455117aa85e584c0adaef7cc09d">v::uint64</a>, and <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>.</p>
 
-<p>Referenced by <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>, <a class="el" href="group__gptimer.html#ga88efb40d89afbdd2a464edd84b825394">GPCounter::end_of_elaboration()</a>, and <a class="el" href="group__gptimer.html#ga5c44c0dd79efaf804f96f24b0f754742">GPCounter::stop()</a>.</p>
+<p>Referenced by <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>, <a class="el" href="group__gptimer.html#ga88efb40d89afbdd2a464edd84b825394">GPCounter::end_of_elaboration()</a>, <a class="el" href="group__gptimer.html#ga5c44c0dd79efaf804f96f24b0f754742">GPCounter::stop()</a>, and <a class="el" href="group__gptimer.html#gadd399aae5a660b34ff11c9b141950cf2">GPCounter::ticking()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -1085,25 +1085,25 @@ Here is the call graph for this function:</div>
 <dd>
 <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a" title="Function calculating the waiting time for the next timer event. ">calculate()</a> </dd></dl>
 
-<p>References <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>, <a class="el" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>, <a class="el" href="classGPCounter.html#a3e81aaf1155d3f781d77f621112d38f2">GPCounter::lasttime</a>, <a class="el" href="classGPCounter.html#a2ab47966bf56a512cda2c81ee33d3b27">GPCounter::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPCounter.html#a75df5a23ea764351c2543f8129ffb376">GPCounter::stopped</a>, <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>, and <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>.</p>
+<p>References <a class="el" href="group__gptimer.html#gac6df0d6e7eee7cd499207589be4be59a">GPCounter::calculate()</a>, <a class="el" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>, <a class="el" href="classGPCounter.html#a3e81aaf1155d3f781d77f621112d38f2">GPCounter::lasttime</a>, <a class="el" href="classGPCounter.html#a2ab47966bf56a512cda2c81ee33d3b27">GPCounter::lastvalue</a>, <a class="el" href="namespacesetup.html#a61de3710bf6c9d78c0afa352263f8b09">setup::name</a>, <a class="el" href="classGPCounter.html#adf69ab3a6bec7ba6b9f9d6728255555f">GPCounter::nr</a>, <a class="el" href="classGPCounter.html#ade1b2b4a9191bf7b861572434be221db">GPCounter::p</a>, <a class="el" href="classGPCounter.html#a75df5a23ea764351c2543f8129ffb376">GPCounter::stopped</a>, <a class="el" href="namespacev.html#a0ee2ba9db8399ddc819df66efb0a0d7f">v::uint32</a>, and <a class="el" href="classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd">GPTimer::VALUE()</a>.</p>
 
 <p>Referenced by <a class="el" href="group__gptimer.html#gac33f65b69e9dd82d4531c034df96a892">GPCounter::ctrl_write()</a>, and <a class="el" href="group__gptimer.html#ga88efb40d89afbdd2a464edd84b825394">GPCounter::end_of_elaboration()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga907e150d5cf6f93f0e7d2e8983351bae_cgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="group__gptimer_ga907e150d5cf6f93f0e7d2e8983351bae_cgraph.svg" width="100%" height="512"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="ga3e7aef748003ead932534c5ad2d3af9b"></a>
+<a class="anchor" id="gafbf232826b8b6c54207ec9b9c1534b4a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classint.html">int</a> GPTimer::valueof </td>
+          <td class="memname"><a class="el" href="classint64__t.html">int64_t</a> GPTimer::valueof </td>
           <td>(</td>
           <td class="paramtype">sc_core::sc_time&#160;</td>
           <td class="paramname"><em>t</em>, </td>
@@ -1111,7 +1111,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramtype"><a class="el" href="classint64__t.html">int64_t</a>&#160;</td>
           <td class="paramname"><em>offset</em>, </td>
         </tr>
         <tr>
@@ -1138,15 +1138,15 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value to time t.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classGPTimer.html#ad230f850fe76eeff7846a98a27662d89">lastvalue</a> </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classGPTimer.html#ab3a43211b9818ee65f7b3808d2cb8d46">lastvalue</a> </dd>
 <dd>
 <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464" title="Stores the time when the value of the prescaler was known. ">lasttime</a> </dd>
 <dd>
-<a class="el" href="group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585">numberofticksbetween()</a> </dd></dl>
+<a class="el" href="group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b">numberofticksbetween()</a> </dd></dl>
 
-<p>References <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464">GPTimer::lasttime</a>, <a class="el" href="classGPTimer.html#ad230f850fe76eeff7846a98a27662d89">GPTimer::lastvalue</a>, and <a class="el" href="engine_8c.html#ac289c24a4e248d19df57ec46beafa14e">offset</a>.</p>
+<p>References <a class="el" href="classGPTimer.html#a83cd9b0af6652a98db52f94f28dea464">GPTimer::lasttime</a>, and <a class="el" href="classGPTimer.html#ab3a43211b9818ee65f7b3808d2cb8d46">GPTimer::lastvalue</a>.</p>
 
-<p>Referenced by <a class="el" href="group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585">GPTimer::numberofticksbetween()</a>, and <a class="el" href="group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2">GPTimer::scaler_read()</a>.</p>
+<p>Referenced by <a class="el" href="group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b">GPTimer::numberofticksbetween()</a>, and <a class="el" href="group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2">GPTimer::scaler_read()</a>.</p>
 
 </div>
 </div>
@@ -1196,7 +1196,7 @@ Here is the call graph for this function:</div>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

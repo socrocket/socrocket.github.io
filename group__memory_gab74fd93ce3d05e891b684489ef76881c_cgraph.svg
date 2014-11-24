@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="group__memory.html#ga724b49aea970f1e4dee15c5ff572ce40" target="_top" xlink:title="BaseMemory::write_block_dbg">
+<a xlink:href="group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" target="_top" xlink:title="BaseMemory::write_block_dbg">
 <polygon fill="white" stroke="black" points="166.5,-0.5 166.5,-21.5 317.5,-21.5 317.5,-0.5 166.5,-0.5"/>
 <text text-anchor="middle" x="242" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseMemory::write_block_dbg</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="classStorage.html#a391102341dd513ec89290eff8407c3d5" target="_top" xlink:title="Storage::write_block">
+<a xlink:href="classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" target="_top" xlink:title="Storage::write_block">
 <polygon fill="white" stroke="black" points="354,-0.5 354,-21.5 460,-21.5 460,-0.5 354,-0.5"/>
 <text text-anchor="middle" x="407" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">Storage::write_block</text>
 </a>

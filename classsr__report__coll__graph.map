@@ -1,6 +1,7 @@
 <map id="sr_report" name="sr_report">
-<area shape="rect" id="node8" href="$classv_1_1pair.html" title="{v::pair\n||+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ ~pair()\l}" alt="" coords="236,313,305,623"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="220,160,300,245"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="197,6,323,109"/>
-<area shape="rect" id="node18" title="STL class. " alt="" coords="345,425,460,511"/>
+<area shape="rect" id="node6" href="$classbool.html" title="{bool\n||}" alt="" coords="269,691,315,776"/>
+<area shape="rect" id="node10" href="$classv_1_1pair.html" title="{v::pair\n||+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ pair()\l+ ~pair()\l}" alt="" coords="305,313,375,623"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="289,160,369,245"/>
+<area shape="rect" id="node16" title="STL class. " alt="" coords="267,6,392,109"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="415,425,529,511"/>
 </map>

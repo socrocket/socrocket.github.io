@@ -1,7 +1,8 @@
 <map id="core/models/memory/basememory.h" name="core/models/memory/basememory.h">
-<area shape="rect" id="node3" href="$arraystorage_8h.html" title="core/models/memory\l/arraystorage.h" alt="" coords="96,102,240,149"/>
+<area shape="rect" id="node3" href="$arraystorage_8h.html" title="core/models/memory\l/arraystorage.h" alt="" coords="125,102,269,149"/>
 <area shape="rect" id="node5" href="$storage_8h.html" title="core/models/memory\l/storage.h" alt="" coords="175,198,319,245"/>
-<area shape="rect" id="node18" href="$mapstorage_8h.html" title="core/models/memory\l/mapstorage.h" alt="" coords="315,102,459,149"/>
+<area shape="rect" id="node18" href="$mapstorage_8h.html" title="core/models/memory\l/mapstorage.h" alt="" coords="344,102,488,149"/>
+<area shape="rect" id="node26" href="$scireg_8h.html" title="core/common/scireg.h" alt="" coords="539,111,688,140"/>
 <area shape="rect" id="node7" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="164,293,329,323"/>
 <area shape="rect" id="node20" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="343,207,489,236"/>
 </map>

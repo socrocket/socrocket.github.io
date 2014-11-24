@@ -58,38 +58,42 @@
 <div class="textblock"><p>The build system shipped with the SoCRocket library is written in <code>waf</code>. It requires at least Python 2.3 to run. The <code>waf</code> executable is located in the root directory of the library.</p>
 <h1><a class="anchor" id="install1"></a>
 WAF Command Overview</h1>
-<p>Execute <code>./waf –h</code> to get an overview of and help on all available commands and options:</p>
-<div class="fragment"><div class="line">waf [command] [<a class="code" href="namespacesetup.html#abb722673b1eab1c7c3323d622670eca4">options</a>]</div>
-<div class="line"></div>
-<div class="line">The following <a class="code" href="irqTester_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> commands are supported:</div>
-<div class="line"></div>
-<div class="line">build    : executes the build</div>
-<div class="line">clean    : cleans the project</div>
-<div class="line"><a class="code" href="namespacecore_1_1waf_1_1ambakit.html#aa8f8fe4f8c992b68ea880448ac765813">configure</a>: configures the project</div>
-<div class="line"><a class="code" href="namespacecore_1_1waf_1_1flags.html#a11abb3be0bd6e950f93a1e91fbb6156f">coverage</a> : If configured with -G, and lcov/gcof installed, generates</div>
-<div class="line">           a code <a class="code" href="namespacecore_1_1waf_1_1flags.html#a11abb3be0bd6e950f93a1e91fbb6156f">coverage</a> <a class="code" href="mmu_8c.html#afd988f548acdf1069af87b1c4825f6b5">report</a></div>
-<div class="line">dist     : makes a tarball <span class="keywordflow">for</span> redistributing the sources</div>
-<div class="line">distcheck: checks <span class="keywordflow">if</span> the project compiles (tarball from <span class="stringliteral">&#39;dist&#39;</span>)</div>
-<div class="line">distclean: removes the build directory</div>
-<div class="line"><a class="code" href="namespacecore_1_1waf_1_1docs.html#aa3b92ccb1a904b11b213a702ce7a2a2e">docs</a>      : build source code documentation* (<span class="keywordflow">if</span> doxygen installed)</div>
-<div class="line">install  : installs the targets on the system</div>
-<div class="line">list     : lists the targets to execute</div>
-<div class="line"><a class="code" href="namespacecore_1_1waf_1_1common.html#a8bf52d911a6c821a54b76c43a0d59d09">macclean</a> : Clean garbage <a class="code" href="io__less_2queens_8c.html#a5a1991e7e8736fe136994bc1cc3737a4">files</a> from source <a class="code" href="namespacecore_1_1tools_1_1xml__extract__generics.html#a72a0df3524edcb439b5a70e324331de6">tree</a></div>
-<div class="line">setprops : Set SVN properties on all source <a class="code" href="io__less_2queens_8c.html#a5a1991e7e8736fe136994bc1cc3737a4">files</a></div>
-<div class="line">step     : executes tasks in a step-by-step fashion, <span class="keywordflow">for</span> debugging</div>
-<div class="line">uninstall: removes the targets installed</div>
-<div class="line">update   : updates the plugins from the *waflib/extras* directory</div>
-<div class="line"></div>
-<div class="line"><a class="code" href="namespacecore_1_1waf_1_1wizard.html#af4f62153ebeb06e37b4a69e4241e3d45">generate</a> : opens the configuration</div>
-</div><!-- fragment --><h1><a class="anchor" id="install2"></a>
+<p>Execute <code>./waf –h</code> to get an overview of and help on all available commands and options: </p><pre class="fragment">waf [commands] [options]
+
+Main commands (example: ./waf build -j4)
+  build    : executes the build
+  clean    : cleans the project
+  configure: configures the project
+  cpplint  : Use cpplint to check all files
+  dist     : makes a tarball for redistributing the sources
+  distcheck: checks if the project compiles (tarball from 'dist')
+  distclean: removes the build directory
+  docs     : build source code documentation in 'build/docs' if doxygen is installed
+  generate : If PyQt4 is installed opens a Wizard to configure a platform
+  install  : installs the targets on the system
+  list     : lists the targets to execute
+  macclean : Clean garbage files from the source tree
+  oclint   : Use oclint to check all files
+  repo     :
+  step     : executes tasks in a step-by-step fashion, for debugging
+  uninstall: removes the targets installed
+  update   : updates the plugins from the *waflib/extras* directory
+</pre><h1><a class="anchor" id="install2"></a>
 Building the library</h1>
 <p>Building the project requires following steps:</p>
 <ol type="1">
-<li><em>Execute <code>./waf configure</code> to configure the build environment</em> The configuration step succeeds in case all the required software packages are available. Otherwise, it fails and shows the broken dependency. If so, the install path variable must be corrected. It is also possible to specify the location of a missing package. Use <code>./waf –h</code> to see all the different options (e.g. <code>--systemc</code>, <code>--tlm</code>). As mentioned in requirements4}, SystemC/VHDL co-simulation can be optionally disabled, in order to be independent of commercial tools or, eventually, save compilation time (<code>./waf configure –nomodelsim</code>). Another important switch controls the verbosity of the output that is directed to stdout during simulation (<code>--verbosity=1..5</code>). Verbosity level one only display error messages. Level two includes warnings that are issued during simulation. Level three prints execution statistics and analysis reports. The recommended setting (default) is Level four. It additionally shows configuration reports and information about the progress of tests. The highest verbosity is bound to level 5. It displays a message for each state-change of a transaction, which tremendously slows down simulation and is therefore only recommended for debugging. (Add the <code>–G</code> switch to the configure command in case you plan on running coverage calculation. This will have a penalty on the system performance.)</li>
-<li><em>Compile library and run unit tests</em> Execute <code>./waf</code> to compile all targets. Optionally, the <code>–jN</code> flag can be used to define to maximum number of parallel threads. If co-simulation is configured make sure you have enough licenses to execute N instances of Modelsim. As an alternative, you may select a specific target (test or library) for compilation. A list of targets can be generated with <code>./waf list</code>. Selective compile is done using <code>./waf –targets=”comma,separated,list,of,targets”</code>. After successful compilation the system automatically starts the respective unit test(s) and displays the result on the screen.</li>
-<li><em>Optional Doxygen and Gcov</em> In the final step you may generate additional documentation using Doxygen (<code>./waf docs</code>) or perform a test coverage calculation using Gcov/Lcov (<code>./waf coverage</code>). The configuration step does not check the presence of these tools. In case they are not present, the commands have no effect.</li>
+<li><p class="startli"><em>Execute <code>./waf configure</code> to configure the build environment</em></p>
+<p class="startli">The configuration step succeeds in case all the required software packages are available. Otherwise, it fails and shows the broken dependency. If so, the install path variable must be corrected. It is also possible to specify the location of a missing package. Use <code>./waf –h</code> to see all the different options (e.g. <code>--systemc</code>, <code>--tlm</code>). As mentioned in requirements4}, SystemC/VHDL co-simulation can be optionally disabled, in order to be independent of commercial tools or, eventually, save compilation time (<code>./waf configure –nomodelsim</code>). Another important switch controls the verbosity of the output that is directed to stdout during simulation (<code>--verbosity=1..5</code>).</p>
+<p class="startli">Verbosity level one only display error messages. Level two includes warnings that are issued during simulation. Level three prints execution statistics and analysis reports. The recommended setting (default) is Level four. It additionally shows configuration reports and information about the progress of tests. The highest verbosity is bound to level 5. It displays a message for each state-change of a transaction, which tremendously slows down simulation and is therefore only recommended for debugging. (Add the <code>–G</code> switch to the configure command in case you plan on running coverage calculation. This will have a penalty on the system performance.)</p>
+</li>
+<li><p class="startli"><em>Compile library and run unit tests</em></p>
+<p class="startli">Execute <code>./waf</code> to compile all targets. Optionally, the <code>–jN</code> flag can be used to define to maximum number of parallel threads. If co-simulation is configured make sure you have enough licenses to execute N instances of Modelsim. As an alternative, you may select a specific target (test or library) for compilation. A list of targets can be generated with <code>./waf list</code>. Selective compile is done using <code>./waf –targets=”comma,separated,list,of,targets”</code>. After successful compilation the system automatically starts the respective unit test(s) and displays the result on the screen.</p>
+</li>
+<li><p class="startli"><em>Optional Doxygen and Gcov</em></p>
+<p class="startli">In the final step you may generate additional documentation using Doxygen (<code>./waf docs</code>) or perform a test coverage calculation using Gcov/Lcov (<code>./waf coverage</code>). The configuration step does not check the presence of these tools. In case they are not present, the commands have no effect.</p>
+<p class="startli">Moreover, to enable coverage calculation the system must be configure with the <code>–G</code> option. Compile the library and execute all unit tests in order to achieve meaningful results. </p>
+</li>
 </ol>
-<p>Moreover, to enable coverage calculation the system must be configure with the <code>–G</code> option. Compile the library and execute all unit tests in order to achieve meaningful results. </p>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -100,7 +104,7 @@ Building the library</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

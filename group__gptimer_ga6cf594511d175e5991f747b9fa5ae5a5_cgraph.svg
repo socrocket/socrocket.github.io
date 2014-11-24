@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="group__gptimer.html#ga2ec14c909ae5ae8f18eda0b1205cc585" target="_top" xlink:title="GPTimer::numberofticksbetween">
+<a xlink:href="group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b" target="_top" xlink:title="GPTimer::numberofticksbetween">
 <polygon fill="white" stroke="black" points="156,-80.5 156,-101.5 316,-101.5 316,-80.5 156,-80.5"/>
 <text text-anchor="middle" x="236" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">GPTimer::numberofticksbetween</text>
 </a>
@@ -64,7 +64,7 @@
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="group__gptimer.html#ga3e7aef748003ead932534c5ad2d3af9b" target="_top" xlink:title="GPTimer::valueof">
+<a xlink:href="group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" target="_top" xlink:title="GPTimer::valueof">
 <polygon fill="white" stroke="black" points="352.5,-80.5 352.5,-101.5 445.5,-101.5 445.5,-80.5 352.5,-80.5"/>
 <text text-anchor="middle" x="399" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">GPTimer::valueof</text>
 </a>

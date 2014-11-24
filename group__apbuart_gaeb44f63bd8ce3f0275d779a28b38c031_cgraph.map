@@ -1,8 +1,10 @@
 <map id="APBUART::end_of_elaboration" name="APBUART::end_of_elaboration">
-<area shape="rect" id="node3" href="$group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7" title="APBUART::data_read" alt="" coords="263,5,412,35"/>
-<area shape="rect" id="node9" href="$group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9" title="APBUART::data_write" alt="" coords="260,112,415,141"/>
-<area shape="rect" id="node13" href="$group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625" title="APBUART::status_read" alt="" coords="256,59,419,88"/>
-<area shape="rect" id="node5" href="$classio__if.html#ab770abbc278117d4ff246166d3a0f38a" title="io_if::getReceivedChar" alt="" coords="467,5,621,35"/>
-<area shape="rect" id="node7" href="$classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e" title="io_if::receivedChars" alt="" coords="475,59,613,88"/>
-<area shape="rect" id="node11" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="489,112,599,141"/>
+<area shape="rect" id="node3" href="$group__apbuart.html#gab5537a792321c49c7f0632423fa4b704" title="APBUART::control_read" alt="" coords="257,5,423,35"/>
+<area shape="rect" id="node5" href="$group__apbuart.html#ga7cbf76c31dae47db776cbfb0c4a5e704" title="APBUART::control_write" alt="" coords="256,59,424,88"/>
+<area shape="rect" id="node7" href="$group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7" title="APBUART::data_read" alt="" coords="265,112,415,141"/>
+<area shape="rect" id="node11" href="$group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9" title="APBUART::data_write" alt="" coords="263,165,417,195"/>
+<area shape="rect" id="node17" href="$group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625" title="APBUART::status_read" alt="" coords="259,219,421,248"/>
+<area shape="rect" id="node9" href="$group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f" title="APBUART::inc_fifo_level" alt="" coords="481,112,652,141"/>
+<area shape="rect" id="node13" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="512,165,621,195"/>
+<area shape="rect" id="node15" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="473,219,660,248"/>
 </map>

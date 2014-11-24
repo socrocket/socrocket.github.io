@@ -1,11 +1,11 @@
 <map id="mmu" name="mmu">
 <area shape="rect" id="node36" href="$classtlb__adaptor.html" title="{tlb_adaptor\n||+ tlb_adaptor()\l+ ~tlb_adaptor()\l+ mem_read()\l+ mem_write()\l}" alt="" coords="272,790,387,927"/>
 <area shape="rect" id="node4" href="$classmmu__if.html" title="{mmu_if\n||+ tlb_lookup()\l+ read_mcr()\l+ read_mctpr()\l+ read_mctxr()\l+ read_mfsr()\l+ read_mfar()\l+ write_mcr()\l+ write_mctpr()\l+ write_mctxr()\l+ diag_read_itlb()\l+ diag_write_itlb()\l+ diag_read_dctlb()\l+ diag_write_dctlb()\l+ ~mmu_if()\l}" alt="" coords="5,411,141,722"/>
-<area shape="rect" id="node18" href="$classint.html" title="{int\n||}" alt="" coords="583,5,620,91"/>
-<area shape="rect" id="node20" href="$structt__PTE__context.html" title="{t_PTE_context\n||}" alt="" coords="880,225,989,311"/>
-<area shape="rect" id="node22" href="$classuint64__t.html" title="{uint64_t\n||}" alt="" coords="935,5,1001,91"/>
-<area shape="rect" id="node25" title="STL class. " alt="" coords="733,225,856,311"/>
-<area shape="rect" id="node32" href="$classbool.html" title="{bool\n||}" alt="" coords="1605,816,1651,901"/>
-<area shape="rect" id="node39" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="349,208,456,328"/>
-<area shape="rect" id="node44" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="384,498,517,635"/>
+<area shape="rect" id="node18" href="$classint.html" title="{int\n||}" alt="" coords="591,5,628,91"/>
+<area shape="rect" id="node20" href="$structt__PTE__context.html" title="{t_PTE_context\n||}" alt="" coords="888,225,997,311"/>
+<area shape="rect" id="node22" href="$classuint64__t.html" title="{uint64_t\n||}" alt="" coords="943,5,1009,91"/>
+<area shape="rect" id="node25" title="STL class. " alt="" coords="741,225,864,311"/>
+<area shape="rect" id="node32" href="$classbool.html" title="{bool\n||}" alt="" coords="1609,816,1655,901"/>
+<area shape="rect" id="node39" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="351,208,457,328"/>
+<area shape="rect" id="node44" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="384,489,525,644"/>
 </map>

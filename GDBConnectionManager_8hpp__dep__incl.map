@@ -1,9 +1,10 @@
 <map id="core/common/trapgen/debugger/GDBConnectionManager.hpp" name="core/common/trapgen/debugger/GDBConnectionManager.hpp">
-<area shape="rect" id="node3" href="$GDBConnectionManager_8cpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.cpp" alt="" coords="28,102,281,149"/>
-<area shape="rect" id="node5" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="305,102,468,149"/>
-<area shape="rect" id="node7" href="$leon3_8funcat_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funcat/main.cpp" alt="" coords="5,197,179,261"/>
-<area shape="rect" id="node9" href="$leon3_8funclt_2main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="203,197,376,261"/>
-<area shape="rect" id="node11" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="400,206,568,253"/>
-<area shape="rect" id="node15" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="527,310,684,357"/>
-<area shape="rect" id="node13" href="$leon3__mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.cpp" alt="" coords="327,310,503,357"/>
+<area shape="rect" id="node3" href="$GDBConnectionManager_8cpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.cpp" alt="" coords="5,102,259,149"/>
+<area shape="rect" id="node5" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="283,102,445,149"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="83,197,256,261"/>
+<area shape="rect" id="node9" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="280,206,448,253"/>
+<area shape="rect" id="node13" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="443,310,600,357"/>
+<area shape="rect" id="node11" href="$leon3__mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.cpp" alt="" coords="37,310,213,357"/>
+<area shape="rect" id="node15" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="237,310,419,357"/>
+<area shape="rect" id="node17" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="237,406,419,453"/>
 </map>

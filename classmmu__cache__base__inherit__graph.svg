@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 548;
+var viewWidth = 552;
 var viewHeight = 2202;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,138 +54,138 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>mmu_cache_base</title>
-<polygon fill="white" stroke="white" points="-4,5 -4,-2198 545,-2198 545,5 -4,5"/>
+<polygon fill="white" stroke="white" points="-4,5 -4,-2198 549,-2198 549,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="281,-310.5 281,-737.5 423,-737.5 423,-310.5 281,-310.5"/>
-<text text-anchor="middle" x="352" y="-724.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base</text>
-<polyline fill="none" stroke="black" points="281,-716.5 423,-716.5 "/>
-<text text-anchor="start" x="289" y="-703.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ snoop</text>
-<text text-anchor="start" x="289" y="-690.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ irq</text>
-<text text-anchor="start" x="289" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ icache</text>
-<text text-anchor="start" x="289" y="-664.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcache</text>
-<text text-anchor="start" x="289" y="-651.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ m_mmu</text>
-<text text-anchor="start" x="289" y="-638.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ilocalram</text>
-<text text-anchor="start" x="289" y="-625.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dlocalram</text>
-<text text-anchor="start" x="289" y="-612.5" font-family="Helvetica,sans-Serif" font-size="10.00"># CACHE_CONTROL_REG</text>
-<text text-anchor="start" x="289" y="-599.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_icen</text>
-<text text-anchor="start" x="289" y="-586.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dcen</text>
-<text text-anchor="start" x="289" y="-573.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dsnoop</text>
-<text text-anchor="start" x="289" y="-560.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ilram</text>
-<text text-anchor="start" x="289" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ilramstart</text>
-<text text-anchor="start" x="289" y="-534.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dlram</text>
-<text text-anchor="start" x="289" y="-521.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dlramstart</text>
-<text text-anchor="start" x="289" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_cached</text>
-<text text-anchor="start" x="289" y="-495.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_mmu_en</text>
-<text text-anchor="start" x="289" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 23 more...</text>
-<polyline fill="none" stroke="black" points="281,-474.5 423,-474.5 "/>
-<text text-anchor="start" x="289" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
-<text text-anchor="start" x="289" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
-<text text-anchor="start" x="289" y="-435.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
-<text text-anchor="start" x="289" y="-422.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mmu_cache_base()</text>
-<text text-anchor="start" x="289" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mmu_cache_base()</text>
-<text text-anchor="start" x="289" y="-396.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_instr()</text>
-<text text-anchor="start" x="289" y="-383.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_data()</text>
-<text text-anchor="start" x="289" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ response_callback()</text>
-<text text-anchor="start" x="289" y="-357.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_write()</text>
-<text text-anchor="start" x="289" y="-344.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_read()</text>
-<text text-anchor="start" x="289" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 13 more...</text>
-<text text-anchor="start" x="289" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00"># mem_access()</text>
+<polygon fill="#bfbfbf" stroke="black" points="282,-310.5 282,-737.5 424,-737.5 424,-310.5 282,-310.5"/>
+<text text-anchor="middle" x="353" y="-724.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_base</text>
+<polyline fill="none" stroke="black" points="282,-716.5 424,-716.5 "/>
+<text text-anchor="start" x="290" y="-703.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ snoop</text>
+<text text-anchor="start" x="290" y="-690.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ irq</text>
+<text text-anchor="start" x="290" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ icache</text>
+<text text-anchor="start" x="290" y="-664.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcache</text>
+<text text-anchor="start" x="290" y="-651.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ m_mmu</text>
+<text text-anchor="start" x="290" y="-638.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ilocalram</text>
+<text text-anchor="start" x="290" y="-625.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dlocalram</text>
+<text text-anchor="start" x="290" y="-612.5" font-family="Helvetica,sans-Serif" font-size="10.00"># CACHE_CONTROL_REG</text>
+<text text-anchor="start" x="290" y="-599.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_icen</text>
+<text text-anchor="start" x="290" y="-586.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dcen</text>
+<text text-anchor="start" x="290" y="-573.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dsnoop</text>
+<text text-anchor="start" x="290" y="-560.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ilram</text>
+<text text-anchor="start" x="290" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ilramstart</text>
+<text text-anchor="start" x="290" y="-534.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dlram</text>
+<text text-anchor="start" x="290" y="-521.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_dlramstart</text>
+<text text-anchor="start" x="290" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_cached</text>
+<text text-anchor="start" x="290" y="-495.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_mmu_en</text>
+<text text-anchor="start" x="290" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 23 more...</text>
+<polyline fill="none" stroke="black" points="282,-474.5 424,-474.5 "/>
+<text text-anchor="start" x="290" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
+<text text-anchor="start" x="290" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
+<text text-anchor="start" x="290" y="-435.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
+<text text-anchor="start" x="290" y="-422.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mmu_cache_base()</text>
+<text text-anchor="start" x="290" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mmu_cache_base()</text>
+<text text-anchor="start" x="290" y="-396.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_instr()</text>
+<text text-anchor="start" x="290" y="-383.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_data()</text>
+<text text-anchor="start" x="290" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ response_callback()</text>
+<text text-anchor="start" x="290" y="-357.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_write()</text>
+<text text-anchor="start" x="290" y="-344.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_read()</text>
+<text text-anchor="start" x="290" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 14 more...</text>
+<text text-anchor="start" x="290" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00"># mem_access()</text>
 </g>
 <!-- Node12 -->
 <g id="node24" class="node"><title>Node12</title>
 <a xlink:href="classleon3__mmu__cache.html" target="_top" xlink:title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. ">
-<polygon fill="white" stroke="black" points="206.5,-0.5 206.5,-271.5 343.5,-271.5 343.5,-0.5 206.5,-0.5"/>
-<text text-anchor="middle" x="275" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">leon3_mmu_cache</text>
-<polyline fill="none" stroke="black" points="206.5,-250.5 343.5,-250.5 "/>
-<text text-anchor="start" x="214.5" y="-237.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ cpu</text>
-<text text-anchor="start" x="214.5" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ debugger</text>
-<text text-anchor="start" x="214.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ osEmu</text>
-<text text-anchor="start" x="214.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_gdb</text>
-<text text-anchor="start" x="214.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_history</text>
-<text text-anchor="start" x="214.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_osemu</text>
-<text text-anchor="start" x="214.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_args</text>
-<polyline fill="none" stroke="black" points="206.5,-151.5 343.5,-151.5 "/>
-<text text-anchor="start" x="214.5" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
-<text text-anchor="start" x="214.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
-<text text-anchor="start" x="214.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
-<text text-anchor="start" x="214.5" y="-99.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ leon3_mmu_cache()</text>
-<text text-anchor="start" x="214.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~leon3_mmu_cache()</text>
-<text text-anchor="start" x="214.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ clkcng()</text>
-<text text-anchor="start" x="214.5" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_gdb_callback()</text>
-<text text-anchor="start" x="214.5" y="-47.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_history_callback()</text>
-<text text-anchor="start" x="214.5" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_osemu_callback()</text>
-<text text-anchor="start" x="214.5" y="-21.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_args_callback()</text>
-<text text-anchor="start" x="214.5" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 19 more...</text>
+<polygon fill="white" stroke="black" points="207.5,-0.5 207.5,-271.5 344.5,-271.5 344.5,-0.5 207.5,-0.5"/>
+<text text-anchor="middle" x="276" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">leon3_mmu_cache</text>
+<polyline fill="none" stroke="black" points="207.5,-250.5 344.5,-250.5 "/>
+<text text-anchor="start" x="215.5" y="-237.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ cpu</text>
+<text text-anchor="start" x="215.5" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ debugger</text>
+<text text-anchor="start" x="215.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ osEmu</text>
+<text text-anchor="start" x="215.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_gdb</text>
+<text text-anchor="start" x="215.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_history</text>
+<text text-anchor="start" x="215.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_osemu</text>
+<text text-anchor="start" x="215.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_args</text>
+<polyline fill="none" stroke="black" points="207.5,-151.5 344.5,-151.5 "/>
+<text text-anchor="start" x="215.5" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
+<text text-anchor="start" x="215.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
+<text text-anchor="start" x="215.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
+<text text-anchor="start" x="215.5" y="-99.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ leon3_mmu_cache()</text>
+<text text-anchor="start" x="215.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~leon3_mmu_cache()</text>
+<text text-anchor="start" x="215.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ clkcng()</text>
+<text text-anchor="start" x="215.5" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_gdb_callback()</text>
+<text text-anchor="start" x="215.5" y="-47.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_history_callback()</text>
+<text text-anchor="start" x="215.5" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_osemu_callback()</text>
+<text text-anchor="start" x="215.5" y="-21.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ g_args_callback()</text>
+<text text-anchor="start" x="215.5" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 20 more...</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node12 -->
 <g id="edge24" class="edge"><title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M307.609,-300.315C305.69,-290.648 303.792,-281.081 301.933,-271.714"/>
-<polygon fill="none" stroke="midnightblue" points="304.235,-301.294 309.615,-310.421 311.101,-299.931 304.235,-301.294"/>
+<path fill="none" stroke="midnightblue" d="M308.609,-300.315C306.69,-290.648 304.792,-281.081 302.933,-271.714"/>
+<polygon fill="none" stroke="midnightblue" points="305.235,-301.294 310.615,-310.421 312.101,-299.931 305.235,-301.294"/>
 </g>
 <!-- Node13 -->
 <g id="node26" class="node"><title>Node13</title>
 <a xlink:href="classmmu__cache.html" target="_top" xlink:title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. ">
-<polygon fill="white" stroke="black" points="360.5,-7 360.5,-265 497.5,-265 497.5,-7 360.5,-7"/>
-<text text-anchor="middle" x="429" y="-252" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache</text>
-<polyline fill="none" stroke="black" points="360.5,-244 497.5,-244 "/>
-<text text-anchor="start" x="368.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio</text>
-<text text-anchor="start" x="368.5" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcio</text>
-<text text-anchor="start" x="368.5" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">+ snoop</text>
-<text text-anchor="start" x="368.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">+ irq</text>
-<text text-anchor="start" x="368.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio_PEQ</text>
-<text text-anchor="start" x="368.5" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcio_PEQ</text>
-<polyline fill="none" stroke="black" points="360.5,-158 497.5,-158 "/>
-<text text-anchor="start" x="368.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
-<text text-anchor="start" x="368.5" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
-<text text-anchor="start" x="368.5" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
-<text text-anchor="start" x="368.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">+ mmu_cache()</text>
-<text text-anchor="start" x="368.5" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mmu_cache()</text>
-<text text-anchor="start" x="368.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_instr()</text>
-<text text-anchor="start" x="368.5" y="-67" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_data()</text>
-<text text-anchor="start" x="368.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio_b_transport()</text>
-<text text-anchor="start" x="368.5" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcio_b_transport()</text>
-<text text-anchor="start" x="368.5" y="-28" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio_nb_transport_fw()</text>
-<text text-anchor="start" x="368.5" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">and 7 more...</text>
+<polygon fill="white" stroke="black" points="361.5,-7 361.5,-265 498.5,-265 498.5,-7 361.5,-7"/>
+<text text-anchor="middle" x="430" y="-252" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache</text>
+<polyline fill="none" stroke="black" points="361.5,-244 498.5,-244 "/>
+<text text-anchor="start" x="369.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio</text>
+<text text-anchor="start" x="369.5" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcio</text>
+<text text-anchor="start" x="369.5" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">+ snoop</text>
+<text text-anchor="start" x="369.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">+ irq</text>
+<text text-anchor="start" x="369.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio_PEQ</text>
+<text text-anchor="start" x="369.5" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcio_PEQ</text>
+<polyline fill="none" stroke="black" points="361.5,-158 498.5,-158 "/>
+<text text-anchor="start" x="369.5" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
+<text text-anchor="start" x="369.5" y="-132" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
+<text text-anchor="start" x="369.5" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
+<text text-anchor="start" x="369.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">+ mmu_cache()</text>
+<text text-anchor="start" x="369.5" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mmu_cache()</text>
+<text text-anchor="start" x="369.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_instr()</text>
+<text text-anchor="start" x="369.5" y="-67" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_data()</text>
+<text text-anchor="start" x="369.5" y="-54" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio_b_transport()</text>
+<text text-anchor="start" x="369.5" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">+ dcio_b_transport()</text>
+<text text-anchor="start" x="369.5" y="-28" font-family="Helvetica,sans-Serif" font-size="10.00">+ icio_nb_transport_fw()</text>
+<text text-anchor="start" x="369.5" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">and 7 more...</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge26" class="edge"><title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M396.384,-300.35C398.756,-288.398 401.098,-276.599 403.371,-265.142"/>
-<polygon fill="none" stroke="midnightblue" points="392.899,-299.931 394.385,-310.421 399.765,-301.294 392.899,-299.931"/>
+<path fill="none" stroke="midnightblue" d="M397.384,-300.35C399.756,-288.398 402.098,-276.599 404.371,-265.142"/>
+<polygon fill="none" stroke="midnightblue" points="393.899,-299.931 395.385,-310.421 400.765,-301.294 393.899,-299.931"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <a xlink:href="classAHBMaster.html" target="_top" xlink:title="{AHBMaster\&lt;\&gt;\n|+ ahb\l# m_ResponsePEQ\l# m_EndRequestEvent\l# m_ambaLayer\l# m_reads\l# m_writes\l# response_error\l|+ SC_HAS_PROCESS()\l+ AHBMaster()\l+ ~AHBMaster()\l+ ahbread()\l+ ahbread()\l+ ahbread()\l+ ahbwrite()\l+ ahbwrite()\l+ ahbwrite()\l+ ahbaccess()\land 10 more...\l}">
-<polygon fill="white" stroke="black" points="157.5,-776.5 157.5,-1047.5 284.5,-1047.5 284.5,-776.5 157.5,-776.5"/>
-<text text-anchor="middle" x="221" y="-1034.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBMaster&lt;&gt;</text>
-<polyline fill="none" stroke="black" points="157.5,-1026.5 284.5,-1026.5 "/>
-<text text-anchor="start" x="165.5" y="-1013.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahb</text>
-<text text-anchor="start" x="165.5" y="-1000.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ResponsePEQ</text>
-<text text-anchor="start" x="165.5" y="-987.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_EndRequestEvent</text>
-<text text-anchor="start" x="165.5" y="-974.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ambaLayer</text>
-<text text-anchor="start" x="165.5" y="-961.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_reads</text>
-<text text-anchor="start" x="165.5" y="-948.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_writes</text>
-<text text-anchor="start" x="165.5" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00"># response_error</text>
-<polyline fill="none" stroke="black" points="157.5,-927.5 284.5,-927.5 "/>
-<text text-anchor="start" x="165.5" y="-914.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
-<text text-anchor="start" x="165.5" y="-901.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ AHBMaster()</text>
-<text text-anchor="start" x="165.5" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~AHBMaster()</text>
-<text text-anchor="start" x="165.5" y="-875.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbread()</text>
-<text text-anchor="start" x="165.5" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbread()</text>
-<text text-anchor="start" x="165.5" y="-849.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbread()</text>
-<text text-anchor="start" x="165.5" y="-836.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbwrite()</text>
-<text text-anchor="start" x="165.5" y="-823.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbwrite()</text>
-<text text-anchor="start" x="165.5" y="-810.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbwrite()</text>
-<text text-anchor="start" x="165.5" y="-797.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbaccess()</text>
-<text text-anchor="start" x="165.5" y="-784.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 10 more...</text>
+<polygon fill="white" stroke="black" points="155.5,-776.5 155.5,-1047.5 282.5,-1047.5 282.5,-776.5 155.5,-776.5"/>
+<text text-anchor="middle" x="219" y="-1034.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBMaster&lt;&gt;</text>
+<polyline fill="none" stroke="black" points="155.5,-1026.5 282.5,-1026.5 "/>
+<text text-anchor="start" x="163.5" y="-1013.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahb</text>
+<text text-anchor="start" x="163.5" y="-1000.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ResponsePEQ</text>
+<text text-anchor="start" x="163.5" y="-987.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_EndRequestEvent</text>
+<text text-anchor="start" x="163.5" y="-974.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_ambaLayer</text>
+<text text-anchor="start" x="163.5" y="-961.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_reads</text>
+<text text-anchor="start" x="163.5" y="-948.5" font-family="Helvetica,sans-Serif" font-size="10.00"># m_writes</text>
+<text text-anchor="start" x="163.5" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00"># response_error</text>
+<polyline fill="none" stroke="black" points="155.5,-927.5 282.5,-927.5 "/>
+<text text-anchor="start" x="163.5" y="-914.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
+<text text-anchor="start" x="163.5" y="-901.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ AHBMaster()</text>
+<text text-anchor="start" x="163.5" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~AHBMaster()</text>
+<text text-anchor="start" x="163.5" y="-875.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbread()</text>
+<text text-anchor="start" x="163.5" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbread()</text>
+<text text-anchor="start" x="163.5" y="-849.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbread()</text>
+<text text-anchor="start" x="163.5" y="-836.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbwrite()</text>
+<text text-anchor="start" x="163.5" y="-823.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbwrite()</text>
+<text text-anchor="start" x="163.5" y="-810.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbwrite()</text>
+<text text-anchor="start" x="163.5" y="-797.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahbaccess()</text>
+<text text-anchor="start" x="163.5" y="-784.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 10 more...</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M270.082,-766.627C273.66,-756.03 277.307,-745.227 280.978,-734.354"/>
-<polygon fill="none" stroke="midnightblue" points="266.7,-765.702 266.817,-776.296 273.332,-767.942 266.7,-765.702"/>
+<path fill="none" stroke="midnightblue" d="M269.185,-766.689C273.348,-754.633 277.605,-742.309 281.883,-729.92"/>
+<polygon fill="none" stroke="midnightblue" points="265.823,-765.702 265.867,-776.296 272.439,-767.987 265.823,-765.702"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
@@ -220,8 +220,8 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge4" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M148.081,-1398.33C142.003,-1308.32 140.516,-1196.57 157,-1098 159.774,-1081.41 163.85,-1064.32 168.623,-1047.54"/>
-<polygon fill="none" stroke="midnightblue" points="144.594,-1398.63 148.784,-1408.36 151.576,-1398.14 144.594,-1398.63"/>
+<path fill="none" stroke="midnightblue" d="M148.473,-1398.39C142.501,-1308.4 140.992,-1196.65 157,-1098 159.685,-1081.45 163.632,-1064.39 168.256,-1047.62"/>
+<polygon fill="none" stroke="midnightblue" points="144.984,-1398.68 149.162,-1408.42 151.968,-1398.2 144.984,-1398.68"/>
 </g>
 <!-- Node8 -->
 <g id="node14" class="node"><title>Node8</title>
@@ -341,73 +341,74 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge14" class="edge"><title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="orange" d="M225.376,-1088.12C225.042,-1074.67 224.704,-1061.08 224.372,-1047.72"/>
-<polygon fill="orange" stroke="orange" points="221.883,-1088.47 225.63,-1098.38 228.881,-1088.29 221.883,-1088.47"/>
-<text text-anchor="middle" x="233" y="-1070.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;&gt;</text>
+<path fill="none" stroke="orange" d="M224.47,-1088.12C224.052,-1074.67 223.63,-1061.08 223.215,-1047.72"/>
+<polygon fill="orange" stroke="orange" points="220.979,-1088.49 224.788,-1098.38 227.976,-1088.27 220.979,-1088.49"/>
+<text text-anchor="middle" x="232" y="-1070.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;&gt;</text>
 </g>
 <!-- Node9 -->
 <g id="node17" class="node"><title>Node9</title>
-<a xlink:href="classmmu__cache__if.html" target="_top" xlink:title="{mmu_cache_if\n||+ set_irq()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}">
-<polygon fill="white" stroke="black" points="301.5,-861 301.5,-963 402.5,-963 402.5,-861 301.5,-861"/>
-<text text-anchor="middle" x="352" y="-950" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_if</text>
-<polyline fill="none" stroke="black" points="301.5,-942 402.5,-942 "/>
-<text text-anchor="middle" x="352" y="-929" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="301.5,-921 402.5,-921 "/>
-<text text-anchor="start" x="309.5" y="-908" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_irq()</text>
-<text text-anchor="start" x="309.5" y="-895" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_ccr()</text>
-<text text-anchor="start" x="309.5" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_ccr()</text>
-<text text-anchor="start" x="309.5" y="-869" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mmu_cache_if()</text>
+<a xlink:href="classmmu__cache__if.html" target="_top" xlink:title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}">
+<polygon fill="white" stroke="black" points="300,-854.5 300,-969.5 406,-969.5 406,-854.5 300,-854.5"/>
+<text text-anchor="middle" x="353" y="-956.5" font-family="Helvetica,sans-Serif" font-size="10.00">mmu_cache_if</text>
+<polyline fill="none" stroke="black" points="300,-948.5 406,-948.5 "/>
+<text text-anchor="middle" x="353" y="-935.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="300,-927.5 406,-927.5 "/>
+<text text-anchor="start" x="308" y="-914.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_irq()</text>
+<text text-anchor="start" x="308" y="-901.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ trigger_exception()</text>
+<text text-anchor="start" x="308" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_ccr()</text>
+<text text-anchor="start" x="308" y="-875.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_ccr()</text>
+<text text-anchor="start" x="308" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mmu_cache_if()</text>
 </a>
 </g>
 <!-- Node9&#45;&gt;Node1 -->
 <g id="edge18" class="edge"><title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M352,-850.61C352,-819.304 352,-779.162 352,-737.806"/>
-<polygon fill="none" stroke="midnightblue" points="348.5,-850.877 352,-860.877 355.5,-850.877 348.5,-850.877"/>
+<path fill="none" stroke="midnightblue" d="M353,-844.321C353,-813.95 353,-776.271 353,-737.542"/>
+<polygon fill="none" stroke="midnightblue" points="349.5,-844.331 353,-854.331 356.5,-844.331 349.5,-844.331"/>
 </g>
 <!-- Node10 -->
 <g id="node19" class="node"><title>Node10</title>
 <a xlink:href="classmem__if.html" target="_top" xlink:title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}">
-<polygon fill="white" stroke="black" points="312,-1189.5 312,-1278.5 392,-1278.5 392,-1189.5 312,-1189.5"/>
-<text text-anchor="middle" x="352" y="-1265.5" font-family="Helvetica,sans-Serif" font-size="10.00">mem_if</text>
-<polyline fill="none" stroke="black" points="312,-1257.5 392,-1257.5 "/>
-<text text-anchor="middle" x="352" y="-1244.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="312,-1236.5 392,-1236.5 "/>
-<text text-anchor="start" x="320" y="-1223.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_write()</text>
-<text text-anchor="start" x="320" y="-1210.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_read()</text>
-<text text-anchor="start" x="320" y="-1197.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mem_if()</text>
+<polygon fill="white" stroke="black" points="313,-1189.5 313,-1278.5 393,-1278.5 393,-1189.5 313,-1189.5"/>
+<text text-anchor="middle" x="353" y="-1265.5" font-family="Helvetica,sans-Serif" font-size="10.00">mem_if</text>
+<polyline fill="none" stroke="black" points="313,-1257.5 393,-1257.5 "/>
+<text text-anchor="middle" x="353" y="-1244.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="313,-1236.5 393,-1236.5 "/>
+<text text-anchor="start" x="321" y="-1223.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_write()</text>
+<text text-anchor="start" x="321" y="-1210.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ mem_read()</text>
+<text text-anchor="start" x="321" y="-1197.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~mem_if()</text>
 </a>
 </g>
 <!-- Node10&#45;&gt;Node9 -->
 <g id="edge20" class="edge"><title>Node10&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M352,-1179.1C352,-1118.57 352,-1021.97 352,-963.027"/>
-<polygon fill="none" stroke="midnightblue" points="348.5,-1179.23 352,-1189.23 355.5,-1179.23 348.5,-1179.23"/>
+<path fill="none" stroke="midnightblue" d="M353,-1179.1C353,-1120.81 353,-1029.06 353,-969.712"/>
+<polygon fill="none" stroke="midnightblue" points="349.5,-1179.23 353,-1189.23 356.5,-1179.23 349.5,-1179.23"/>
 </g>
 <!-- Node11 -->
 <g id="node21" class="node"><title>Node11</title>
 <a xlink:href="classCLKDevice.html" target="_top" xlink:title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}">
-<polygon fill="white" stroke="black" points="420,-809 420,-1015 540,-1015 540,-809 420,-809"/>
-<text text-anchor="middle" x="480" y="-1002" font-family="Helvetica,sans-Serif" font-size="10.00">CLKDevice</text>
-<polyline fill="none" stroke="black" points="420,-994 540,-994 "/>
-<text text-anchor="start" x="428" y="-981" font-family="Helvetica,sans-Serif" font-size="10.00">+ rst</text>
-<text text-anchor="start" x="428" y="-968" font-family="Helvetica,sans-Serif" font-size="10.00">+ clk</text>
-<text text-anchor="start" x="428" y="-955" font-family="Helvetica,sans-Serif" font-size="10.00"># clock_cycle</text>
-<polyline fill="none" stroke="black" points="420,-947 540,-947 "/>
-<text text-anchor="start" x="428" y="-934" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
-<text text-anchor="start" x="428" y="-921" font-family="Helvetica,sans-Serif" font-size="10.00">+ CLKDevice()</text>
-<text text-anchor="start" x="428" y="-908" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CLKDevice()</text>
-<text text-anchor="start" x="428" y="-895" font-family="Helvetica,sans-Serif" font-size="10.00">+ onrst()</text>
-<text text-anchor="start" x="428" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">+ onclk()</text>
-<text text-anchor="start" x="428" y="-869" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
-<text text-anchor="start" x="428" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
-<text text-anchor="start" x="428" y="-843" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
-<text text-anchor="start" x="428" y="-830" font-family="Helvetica,sans-Serif" font-size="10.00">+ dorst()</text>
-<text text-anchor="start" x="428" y="-817" font-family="Helvetica,sans-Serif" font-size="10.00">+ clkcng()</text>
+<polygon fill="white" stroke="black" points="424,-809 424,-1015 544,-1015 544,-809 424,-809"/>
+<text text-anchor="middle" x="484" y="-1002" font-family="Helvetica,sans-Serif" font-size="10.00">CLKDevice</text>
+<polyline fill="none" stroke="black" points="424,-994 544,-994 "/>
+<text text-anchor="start" x="432" y="-981" font-family="Helvetica,sans-Serif" font-size="10.00">+ rst</text>
+<text text-anchor="start" x="432" y="-968" font-family="Helvetica,sans-Serif" font-size="10.00">+ clk</text>
+<text text-anchor="start" x="432" y="-955" font-family="Helvetica,sans-Serif" font-size="10.00"># clock_cycle</text>
+<polyline fill="none" stroke="black" points="424,-947 544,-947 "/>
+<text text-anchor="start" x="432" y="-934" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
+<text text-anchor="start" x="432" y="-921" font-family="Helvetica,sans-Serif" font-size="10.00">+ CLKDevice()</text>
+<text text-anchor="start" x="432" y="-908" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CLKDevice()</text>
+<text text-anchor="start" x="432" y="-895" font-family="Helvetica,sans-Serif" font-size="10.00">+ onrst()</text>
+<text text-anchor="start" x="432" y="-882" font-family="Helvetica,sans-Serif" font-size="10.00">+ onclk()</text>
+<text text-anchor="start" x="432" y="-869" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
+<text text-anchor="start" x="432" y="-856" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
+<text text-anchor="start" x="432" y="-843" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
+<text text-anchor="start" x="432" y="-830" font-family="Helvetica,sans-Serif" font-size="10.00">+ dorst()</text>
+<text text-anchor="start" x="432" y="-817" font-family="Helvetica,sans-Serif" font-size="10.00">+ clkcng()</text>
 </a>
 </g>
 <!-- Node11&#45;&gt;Node1 -->
 <g id="edge22" class="edge"><title>Node11&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M442.731,-799.027C436.3,-779.535 429.431,-758.713 422.459,-737.578"/>
-<polygon fill="none" stroke="midnightblue" points="439.494,-800.387 445.95,-808.787 446.141,-798.194 439.494,-800.387"/>
+<path fill="none" stroke="midnightblue" d="M445.91,-799.183C439.003,-778.726 431.6,-756.8 424.098,-734.582"/>
+<polygon fill="none" stroke="midnightblue" points="442.637,-800.432 449.152,-808.787 449.27,-798.193 442.637,-800.432"/>
 </g>
 </g>
 </svg>

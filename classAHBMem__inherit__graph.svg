@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 488;
+var viewWidth = 526;
 var viewHeight = 1790;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,68 +54,68 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>AHBMem</title>
-<polygon fill="white" stroke="white" points="-4,5 -4,-1786 485,-1786 485,5 -4,5"/>
+<polygon fill="white" stroke="white" points="-4,5 -4,-1786 523,-1786 523,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="228.5,-0.5 228.5,-349.5 371.5,-349.5 371.5,-0.5 228.5,-0.5"/>
-<text text-anchor="middle" x="300" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBMem</text>
-<polyline fill="none" stroke="black" points="228.5,-328.5 371.5,-328.5 "/>
-<text text-anchor="start" x="236.5" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sta_power_norm</text>
-<text text-anchor="start" x="236.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ int_power_norm</text>
-<text text-anchor="start" x="236.5" y="-289.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_read_energy_norm</text>
-<text text-anchor="start" x="236.5" y="-276.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_write_energy_norm</text>
-<text text-anchor="start" x="236.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ power</text>
-<text text-anchor="start" x="236.5" y="-250.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sta_power</text>
-<text text-anchor="start" x="236.5" y="-237.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ int_power</text>
-<text text-anchor="start" x="236.5" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ swi_power</text>
-<text text-anchor="start" x="236.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ power_frame_starting_time</text>
-<text text-anchor="start" x="236.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_read_energy</text>
-<text text-anchor="start" x="236.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_write_energy</text>
-<text text-anchor="start" x="236.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_reads</text>
-<text text-anchor="start" x="236.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_writes</text>
-<polyline fill="none" stroke="black" points="228.5,-151.5 371.5,-151.5 "/>
-<text text-anchor="start" x="236.5" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
-<text text-anchor="start" x="236.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
-<text text-anchor="start" x="236.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ AHBMem()</text>
-<text text-anchor="start" x="236.5" y="-99.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~AHBMem()</text>
-<text text-anchor="start" x="236.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ init_generics()</text>
-<text text-anchor="start" x="236.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dorst()</text>
-<text text-anchor="start" x="236.5" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ clear_mem()</text>
-<text text-anchor="start" x="236.5" y="-47.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ writeByteDBG()</text>
-<text text-anchor="start" x="236.5" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_func()</text>
-<text text-anchor="start" x="236.5" y="-21.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ get_clock()</text>
-<text text-anchor="start" x="236.5" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 6 more...</text>
+<polygon fill="#bfbfbf" stroke="black" points="244.5,-0.5 244.5,-349.5 387.5,-349.5 387.5,-0.5 244.5,-0.5"/>
+<text text-anchor="middle" x="316" y="-336.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBMem</text>
+<polyline fill="none" stroke="black" points="244.5,-328.5 387.5,-328.5 "/>
+<text text-anchor="start" x="252.5" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sta_power_norm</text>
+<text text-anchor="start" x="252.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ int_power_norm</text>
+<text text-anchor="start" x="252.5" y="-289.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_read_energy_norm</text>
+<text text-anchor="start" x="252.5" y="-276.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_write_energy_norm</text>
+<text text-anchor="start" x="252.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ power</text>
+<text text-anchor="start" x="252.5" y="-250.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ sta_power</text>
+<text text-anchor="start" x="252.5" y="-237.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ int_power</text>
+<text text-anchor="start" x="252.5" y="-224.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ swi_power</text>
+<text text-anchor="start" x="252.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ power_frame_starting_time</text>
+<text text-anchor="start" x="252.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_read_energy</text>
+<text text-anchor="start" x="252.5" y="-185.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_write_energy</text>
+<text text-anchor="start" x="252.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_reads</text>
+<text text-anchor="start" x="252.5" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dyn_writes</text>
+<polyline fill="none" stroke="black" points="244.5,-151.5 387.5,-151.5 "/>
+<text text-anchor="start" x="252.5" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ GC_HAS_CALLBACKS()</text>
+<text text-anchor="start" x="252.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
+<text text-anchor="start" x="252.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ AHBMem()</text>
+<text text-anchor="start" x="252.5" y="-99.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~AHBMem()</text>
+<text text-anchor="start" x="252.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ init_generics()</text>
+<text text-anchor="start" x="252.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ dorst()</text>
+<text text-anchor="start" x="252.5" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ clear_mem()</text>
+<text text-anchor="start" x="252.5" y="-47.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ writeByteDBG()</text>
+<text text-anchor="start" x="252.5" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_func()</text>
+<text text-anchor="start" x="252.5" y="-21.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ get_clock()</text>
+<text text-anchor="start" x="252.5" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 6 more...</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <a xlink:href="classAHBSlave.html" target="_top" xlink:title="{AHBSlave\&lt;\&gt;\n|+ ahb\l+ m_RequestPEQ\l+ m_ResponsePEQ\l# m_reads\l# m_writes\l|+ SC_HAS_PROCESS()\l+ AHBSlave()\l+ ~AHBSlave()\l+ exec_func()\l+ get_clock()\l+ b_transport()\l+ transport_dbg()\l+ nb_transport_fw()\l+ requestThread()\l+ responseThread()\l+ transport_statistics()\l+ print_transport_statistics()\l}">
-<polygon fill="white" stroke="black" points="83.5,-389 83.5,-647 222.5,-647 222.5,-389 83.5,-389"/>
-<text text-anchor="middle" x="153" y="-634" font-family="Helvetica,sans-Serif" font-size="10.00">AHBSlave&lt;&gt;</text>
-<polyline fill="none" stroke="black" points="83.5,-626 222.5,-626 "/>
-<text text-anchor="start" x="91.5" y="-613" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahb</text>
-<text text-anchor="start" x="91.5" y="-600" font-family="Helvetica,sans-Serif" font-size="10.00">+ m_RequestPEQ</text>
-<text text-anchor="start" x="91.5" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">+ m_ResponsePEQ</text>
-<text text-anchor="start" x="91.5" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00"># m_reads</text>
-<text text-anchor="start" x="91.5" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00"># m_writes</text>
-<polyline fill="none" stroke="black" points="83.5,-553 222.5,-553 "/>
-<text text-anchor="start" x="91.5" y="-540" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
-<text text-anchor="start" x="91.5" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">+ AHBSlave()</text>
-<text text-anchor="start" x="91.5" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~AHBSlave()</text>
-<text text-anchor="start" x="91.5" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_func()</text>
-<text text-anchor="start" x="91.5" y="-488" font-family="Helvetica,sans-Serif" font-size="10.00">+ get_clock()</text>
-<text text-anchor="start" x="91.5" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ b_transport()</text>
-<text text-anchor="start" x="91.5" y="-462" font-family="Helvetica,sans-Serif" font-size="10.00">+ transport_dbg()</text>
-<text text-anchor="start" x="91.5" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00">+ nb_transport_fw()</text>
-<text text-anchor="start" x="91.5" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">+ requestThread()</text>
-<text text-anchor="start" x="91.5" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">+ responseThread()</text>
-<text text-anchor="start" x="91.5" y="-410" font-family="Helvetica,sans-Serif" font-size="10.00">+ transport_statistics()</text>
-<text text-anchor="start" x="91.5" y="-397" font-family="Helvetica,sans-Serif" font-size="10.00">+ print_transport_statistics()</text>
+<polygon fill="white" stroke="black" points="99.5,-389 99.5,-647 238.5,-647 238.5,-389 99.5,-389"/>
+<text text-anchor="middle" x="169" y="-634" font-family="Helvetica,sans-Serif" font-size="10.00">AHBSlave&lt;&gt;</text>
+<polyline fill="none" stroke="black" points="99.5,-626 238.5,-626 "/>
+<text text-anchor="start" x="107.5" y="-613" font-family="Helvetica,sans-Serif" font-size="10.00">+ ahb</text>
+<text text-anchor="start" x="107.5" y="-600" font-family="Helvetica,sans-Serif" font-size="10.00">+ m_RequestPEQ</text>
+<text text-anchor="start" x="107.5" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">+ m_ResponsePEQ</text>
+<text text-anchor="start" x="107.5" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00"># m_reads</text>
+<text text-anchor="start" x="107.5" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00"># m_writes</text>
+<polyline fill="none" stroke="black" points="99.5,-553 238.5,-553 "/>
+<text text-anchor="start" x="107.5" y="-540" font-family="Helvetica,sans-Serif" font-size="10.00">+ SC_HAS_PROCESS()</text>
+<text text-anchor="start" x="107.5" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">+ AHBSlave()</text>
+<text text-anchor="start" x="107.5" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~AHBSlave()</text>
+<text text-anchor="start" x="107.5" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">+ exec_func()</text>
+<text text-anchor="start" x="107.5" y="-488" font-family="Helvetica,sans-Serif" font-size="10.00">+ get_clock()</text>
+<text text-anchor="start" x="107.5" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ b_transport()</text>
+<text text-anchor="start" x="107.5" y="-462" font-family="Helvetica,sans-Serif" font-size="10.00">+ transport_dbg()</text>
+<text text-anchor="start" x="107.5" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00">+ nb_transport_fw()</text>
+<text text-anchor="start" x="107.5" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">+ requestThread()</text>
+<text text-anchor="start" x="107.5" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">+ responseThread()</text>
+<text text-anchor="start" x="107.5" y="-410" font-family="Helvetica,sans-Serif" font-size="10.00">+ transport_statistics()</text>
+<text text-anchor="start" x="107.5" y="-397" font-family="Helvetica,sans-Serif" font-size="10.00">+ print_transport_statistics()</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M212.381,-379.445C217.661,-367.125 223.041,-354.57 228.409,-342.047"/>
-<polygon fill="none" stroke="midnightblue" points="209.087,-378.245 208.365,-388.815 215.521,-381.002 209.087,-378.245"/>
+<path fill="none" stroke="midnightblue" d="M228.381,-379.445C233.661,-367.125 239.041,-354.57 244.409,-342.047"/>
+<polygon fill="none" stroke="midnightblue" points="225.087,-378.245 224.365,-388.815 231.521,-381.002 225.087,-378.245"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
@@ -150,8 +150,8 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge4" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M157.025,-986.43C156.634,-976.814 156.287,-967.287 156,-958 152.769,-853.395 152.137,-734.737 152.247,-647.026"/>
-<polygon fill="none" stroke="midnightblue" points="153.53,-986.632 157.448,-996.476 160.524,-986.338 153.53,-986.632"/>
+<path fill="none" stroke="midnightblue" d="M156.949,-986.432C156.577,-976.816 156.255,-967.288 156,-958 152.826,-842.488 151.835,-813.48 156,-698 156.593,-681.562 157.489,-664.295 158.54,-647.232"/>
+<polygon fill="none" stroke="midnightblue" points="153.454,-986.628 157.353,-996.479 160.448,-986.346 153.454,-986.628"/>
 </g>
 <!-- Node8 -->
 <g id="node14" class="node"><title>Node8</title>
@@ -270,66 +270,91 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node8&#45;&gt;Node2 -->
 <g id="edge14" class="edge"><title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="orange" d="M197.604,-688.708C193.978,-674.829 190.307,-660.781 186.71,-647.014"/>
-<polygon fill="orange" stroke="orange" points="194.321,-689.987 200.235,-698.777 201.093,-688.217 194.321,-689.987"/>
-<text text-anchor="middle" x="202" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;&gt;</text>
+<path fill="none" stroke="orange" d="M204.794,-688.708C201.883,-674.829 198.938,-660.781 196.051,-647.014"/>
+<polygon fill="orange" stroke="orange" points="201.427,-689.708 206.905,-698.777 208.278,-688.271 201.427,-689.708"/>
+<text text-anchor="middle" x="210" y="-670.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &lt;&gt;</text>
 </g>
 <!-- Node9 -->
 <g id="node17" class="node"><title>Node9</title>
 <a xlink:href="classCLKDevice.html" target="_top" xlink:title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}">
-<polygon fill="white" stroke="black" points="240,-415 240,-621 360,-621 360,-415 240,-415"/>
-<text text-anchor="middle" x="300" y="-608" font-family="Helvetica,sans-Serif" font-size="10.00">CLKDevice</text>
-<polyline fill="none" stroke="black" points="240,-600 360,-600 "/>
-<text text-anchor="start" x="248" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">+ rst</text>
-<text text-anchor="start" x="248" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">+ clk</text>
-<text text-anchor="start" x="248" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00"># clock_cycle</text>
-<polyline fill="none" stroke="black" points="240,-553 360,-553 "/>
-<text text-anchor="start" x="248" y="-540" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
-<text text-anchor="start" x="248" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">+ CLKDevice()</text>
-<text text-anchor="start" x="248" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CLKDevice()</text>
-<text text-anchor="start" x="248" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">+ onrst()</text>
-<text text-anchor="start" x="248" y="-488" font-family="Helvetica,sans-Serif" font-size="10.00">+ onclk()</text>
-<text text-anchor="start" x="248" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
-<text text-anchor="start" x="248" y="-462" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
-<text text-anchor="start" x="248" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
-<text text-anchor="start" x="248" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">+ dorst()</text>
-<text text-anchor="start" x="248" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">+ clkcng()</text>
+<polygon fill="white" stroke="black" points="256,-415 256,-621 376,-621 376,-415 256,-415"/>
+<text text-anchor="middle" x="316" y="-608" font-family="Helvetica,sans-Serif" font-size="10.00">CLKDevice</text>
+<polyline fill="none" stroke="black" points="256,-600 376,-600 "/>
+<text text-anchor="start" x="264" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">+ rst</text>
+<text text-anchor="start" x="264" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">+ clk</text>
+<text text-anchor="start" x="264" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00"># clock_cycle</text>
+<polyline fill="none" stroke="black" points="256,-553 376,-553 "/>
+<text text-anchor="start" x="264" y="-540" font-family="Helvetica,sans-Serif" font-size="10.00">+ SK_HAS_SIGNALS()</text>
+<text text-anchor="start" x="264" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">+ CLKDevice()</text>
+<text text-anchor="start" x="264" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~CLKDevice()</text>
+<text text-anchor="start" x="264" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">+ onrst()</text>
+<text text-anchor="start" x="264" y="-488" font-family="Helvetica,sans-Serif" font-size="10.00">+ onclk()</text>
+<text text-anchor="start" x="264" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
+<text text-anchor="start" x="264" y="-462" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
+<text text-anchor="start" x="264" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_clk()</text>
+<text text-anchor="start" x="264" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">+ dorst()</text>
+<text text-anchor="start" x="264" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">+ clkcng()</text>
 </a>
 </g>
 <!-- Node9&#45;&gt;Node1 -->
 <g id="edge18" class="edge"><title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M300,-404.358C300,-386.731 300,-368.179 300,-349.58"/>
-<polygon fill="none" stroke="midnightblue" points="296.5,-404.624 300,-414.624 303.5,-404.624 296.5,-404.624"/>
+<path fill="none" stroke="midnightblue" d="M316,-404.358C316,-386.731 316,-368.179 316,-349.58"/>
+<polygon fill="none" stroke="midnightblue" points="312.5,-404.624 316,-414.624 319.5,-404.624 312.5,-404.624"/>
 </g>
 <!-- Node10 -->
 <g id="node19" class="node"><title>Node10</title>
-<a xlink:href="classBaseMemory.html" target="_top" xlink:title="{BaseMemory\n|+ reads\l+ writes\l+ reads32\l+ writes32\l|+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\l+ erase()\l+ erase_dbg()\l}">
-<polygon fill="white" stroke="black" points="378,-395.5 378,-640.5 480,-640.5 480,-395.5 378,-395.5"/>
-<text text-anchor="middle" x="429" y="-627.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseMemory</text>
-<polyline fill="none" stroke="black" points="378,-619.5 480,-619.5 "/>
-<text text-anchor="start" x="386" y="-606.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ reads</text>
-<text text-anchor="start" x="386" y="-593.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ writes</text>
-<text text-anchor="start" x="386" y="-580.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ reads32</text>
-<text text-anchor="start" x="386" y="-567.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ writes32</text>
-<polyline fill="none" stroke="black" points="378,-559.5 480,-559.5 "/>
-<text text-anchor="start" x="386" y="-546.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ BaseMemory()</text>
-<text text-anchor="start" x="386" y="-533.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~BaseMemory()</text>
-<text text-anchor="start" x="386" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ read()</text>
-<text text-anchor="start" x="386" y="-507.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_dbg()</text>
-<text text-anchor="start" x="386" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ write()</text>
-<text text-anchor="start" x="386" y="-481.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_dbg()</text>
-<text text-anchor="start" x="386" y="-468.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_block()</text>
-<text text-anchor="start" x="386" y="-455.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_block_dbg()</text>
-<text text-anchor="start" x="386" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_block()</text>
-<text text-anchor="start" x="386" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_block_dbg()</text>
-<text text-anchor="start" x="386" y="-416.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ erase()</text>
-<text text-anchor="start" x="386" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ erase_dbg()</text>
+<a xlink:href="classBaseMemory.html" target="_top" xlink:title="{BaseMemory\n|+ reads\l+ writes\l+ reads32\l+ writes32\l|+ BaseMemory()\l+ ~BaseMemory()\l+ read()\l+ read_dbg()\l+ write()\l+ write_dbg()\l+ write_block()\l+ write_block_dbg()\l+ read_block()\l+ read_block_dbg()\land 9 more...\l}">
+<polygon fill="white" stroke="black" points="394,-402 394,-634 496,-634 496,-402 394,-402"/>
+<text text-anchor="middle" x="445" y="-621" font-family="Helvetica,sans-Serif" font-size="10.00">BaseMemory</text>
+<polyline fill="none" stroke="black" points="394,-613 496,-613 "/>
+<text text-anchor="start" x="402" y="-600" font-family="Helvetica,sans-Serif" font-size="10.00">+ reads</text>
+<text text-anchor="start" x="402" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">+ writes</text>
+<text text-anchor="start" x="402" y="-574" font-family="Helvetica,sans-Serif" font-size="10.00">+ reads32</text>
+<text text-anchor="start" x="402" y="-561" font-family="Helvetica,sans-Serif" font-size="10.00">+ writes32</text>
+<polyline fill="none" stroke="black" points="394,-553 496,-553 "/>
+<text text-anchor="start" x="402" y="-540" font-family="Helvetica,sans-Serif" font-size="10.00">+ BaseMemory()</text>
+<text text-anchor="start" x="402" y="-527" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~BaseMemory()</text>
+<text text-anchor="start" x="402" y="-514" font-family="Helvetica,sans-Serif" font-size="10.00">+ read()</text>
+<text text-anchor="start" x="402" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_dbg()</text>
+<text text-anchor="start" x="402" y="-488" font-family="Helvetica,sans-Serif" font-size="10.00">+ write()</text>
+<text text-anchor="start" x="402" y="-475" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_dbg()</text>
+<text text-anchor="start" x="402" y="-462" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_block()</text>
+<text text-anchor="start" x="402" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00">+ write_block_dbg()</text>
+<text text-anchor="start" x="402" y="-436" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_block()</text>
+<text text-anchor="start" x="402" y="-423" font-family="Helvetica,sans-Serif" font-size="10.00">+ read_block_dbg()</text>
+<text text-anchor="start" x="402" y="-410" font-family="Helvetica,sans-Serif" font-size="10.00">and 9 more...</text>
 </a>
 </g>
 <!-- Node10&#45;&gt;Node1 -->
 <g id="edge20" class="edge"><title>Node10&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M379.245,-385.706C374.793,-373.868 370.242,-361.768 365.683,-349.646"/>
-<polygon fill="none" stroke="midnightblue" points="375.996,-387.01 382.792,-395.138 382.548,-384.546 375.996,-387.01"/>
+<path fill="none" stroke="midnightblue" d="M397.74,-392.341C392.52,-378.461 387.137,-364.148 381.743,-349.805"/>
+<polygon fill="none" stroke="midnightblue" points="394.53,-393.748 401.326,-401.876 401.082,-391.284 394.53,-393.748"/>
+</g>
+<!-- Node11 -->
+<g id="node21" class="node"><title>Node11</title>
+<a xlink:href="classscireg__ns_1_1scireg__region__if.html" target="_top" xlink:title="{scireg_ns::scireg_region_if\n||+ scireg_region_if()\l+ ~scireg_region_if()\l+ scireg_get_region_type()\l+ scireg_read()\l+ scireg_write()\l+ scireg_get_bit_attributes()\l+ scireg_get_string_attribute()\l+ scireg_get_bit_width()\l+ scireg_get_byte_width()\l+ scireg_get_low_pos()\land 9 more...\l}">
+<polygon fill="white" stroke="black" points="372,-731.5 372,-924.5 518,-924.5 518,-731.5 372,-731.5"/>
+<text text-anchor="middle" x="445" y="-911.5" font-family="Helvetica,sans-Serif" font-size="10.00">scireg_ns::scireg_region_if</text>
+<polyline fill="none" stroke="black" points="372,-903.5 518,-903.5 "/>
+<text text-anchor="middle" x="445" y="-890.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="372,-882.5 518,-882.5 "/>
+<text text-anchor="start" x="380" y="-869.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_region_if()</text>
+<text text-anchor="start" x="380" y="-856.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ ~scireg_region_if()</text>
+<text text-anchor="start" x="380" y="-843.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_get_region_type()</text>
+<text text-anchor="start" x="380" y="-830.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_read()</text>
+<text text-anchor="start" x="380" y="-817.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_write()</text>
+<text text-anchor="start" x="380" y="-804.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_get_bit_attributes()</text>
+<text text-anchor="start" x="380" y="-791.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_get_string_attribute()</text>
+<text text-anchor="start" x="380" y="-778.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_get_bit_width()</text>
+<text text-anchor="start" x="380" y="-765.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_get_byte_width()</text>
+<text text-anchor="start" x="380" y="-752.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ scireg_get_low_pos()</text>
+<text text-anchor="start" x="380" y="-739.5" font-family="Helvetica,sans-Serif" font-size="10.00">and 9 more...</text>
+</a>
+</g>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge22" class="edge"><title>Node11&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M445,-720.984C445,-692.98 445,-662.656 445,-634.198"/>
+<polygon fill="none" stroke="midnightblue" points="441.5,-721.189 445,-731.189 448.5,-721.189 441.5,-721.189"/>
 </g>
 </g>
 </svg>

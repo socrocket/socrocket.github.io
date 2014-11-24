@@ -55,21 +55,21 @@
 <div class="title">Running Software </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>After having compiled the library and having generated a configuration the system is ready for simulation. Example software can be found in the <code>./software</code> sub-directory. Most of the code located here has already been pre-compiled for unit testing. For manual compilation follow the flow described in the Gaisler BCC – Bare-C Cross-Compiler User’s Manual [12].</p>
-<p>A simple “Hello World” program in C language is given in: </p><div class="fragment"><div class="line">./software/grlib_tests/hello.c</div>
-</div><!-- fragment --><p>To compile this program using the BCC compiler enter (at top-level): </p><div class="fragment"><div class="line">./waf --target=hello.sparc</div>
-</div><!-- fragment --><p> <em>Hint: Add the <code>-v</code> switch to this call to see the full compiler command.</em></p>
-<p>The generated SPARC binary will be written to: </p><div class="fragment"><div class="line">./build/<a class="code" href="namespacecore.html">core</a>/software/grlib_tests/hello.sparc</div>
-</div><!-- fragment --><p>This binary is independent of the system configuration. To execute the program the generated image must be loaded into ROM at the beginning of the simulation. Therefore, the name and the location of the application must be entered in the system configuration file. Furthermore some bootcode is needed to start up the system and execute the program in RAM. This can be achieved via setting of commandline options. The simulation can then be started as follows: </p><div class="fragment"><div class="line">./build/<a class="code" href="namespacecore.html">core</a>/platforms/leon3mp/leon3mp.platform \</div>
-<div class="line">--option <a class="code" href="sdram_2config_8h.html#acbed18f03eee8301fd7cec75cd6f9a11">conf</a>.mctrl.prom.elf=build/<a class="code" href="namespacecore.html">core</a>/software/prom/sdram/sdram.prom \</div>
-<div class="line">--option <a class="code" href="sdram_2config_8h.html#acbed18f03eee8301fd7cec75cd6f9a11">conf</a>.mctrl.ram.sdram.elf=build/<a class="code" href="namespacecore.html">core</a>/software/grlib_tests/hello.sparc \</div>
-<div class="line">--option <a class="code" href="sdram_2config_8h.html#acbed18f03eee8301fd7cec75cd6f9a11">conf</a>.apbuart.en=1</div>
-</div><!-- fragment --><p>You are eventually asked to connect a terminal a startup. In this case open another terminal and enter (Linux): </p><div class="fragment"><div class="line">telnet localhost &lt;PORT NUMBER&gt;.</div>
-</div><!-- fragment --><p>If you want to see the output of hello.sparc in the same terminal as the output of the simulation you can use the following command: </p><div class="fragment"><div class="line">./build/<a class="code" href="namespacecore.html">core</a>/platforms/leon3mp/leon3mp.platform \</div>
-<div class="line">--option <a class="code" href="sdram_2config_8h.html#acbed18f03eee8301fd7cec75cd6f9a11">conf</a>.mctrl.prom.elf=build/<a class="code" href="namespacecore.html">core</a>/software/prom/sdram/sdram.prom \</div>
-<div class="line">--option <a class="code" href="sdram_2config_8h.html#acbed18f03eee8301fd7cec75cd6f9a11">conf</a>.mctrl.ram.sdram.elf=build/<a class="code" href="namespacecore.html">core</a>/software/grlib_tests/hello.sparc \</div>
-<div class="line">--option <a class="code" href="sdram_2config_8h.html#acbed18f03eee8301fd7cec75cd6f9a11">conf</a>.system.osemu=build/<a class="code" href="namespacecore.html">core</a>/software/grlib_tests/hello.sparc</div>
-</div><!-- fragment --><p><em>Hint: Call <code>leon3mp --help</code> to see all available command line options.</em> </p>
+<div class="textblock"><p>After having compiled the library and having generated a configuration the system is ready for simulation. Example software can be found in the <code>core/software</code> sub-directory. Most of the code located here has already been pre-compiled for unit testing. For manual compilation follow the flow described in the <a href="http://www.gaisler.com/doc/bcc.pdf">Gaisler BCC – Bare-C Cross-Compiler User’s Manual</a>.</p>
+<p>A simple “Hello World” program in C language is given in: <a class="el" href="hello_8c.html">core/software/grlib_tests/hello.c</a></p>
+<p>To compile this program using the BCC compiler enter (at top-level): </p><pre class="fragment">$ ./waf --target=hello.sparc
+</pre><p><em>Hint: Add the <code>-v</code> switch to this call to see the full compiler command.</em></p>
+<p>The generated SPARC binary will be written to: </p><pre class="fragment">build/core/software/grlib_tests/hello.sparc
+</pre><p>This binary is independent of the system configuration. To execute the program the generated image must be loaded into ROM at the beginning of the simulation. Therefore, the name and the location of the application must be entered in the system configuration file. Furthermore some bootcode is needed to start up the system and execute the program in RAM. This can be achieved via setting of commandline options. The simulation can then be started as follows: </p><pre class="fragment">$ ./build/core/platforms/leon3mp/leon3mp.platform \
+--option conf.mctrl.prom.elf=build/core/software/prom/sdram/sdram.prom \
+--option conf.mctrl.ram.sdram.elf=build/core/software/grlib_tests/hello.sparc \
+--option conf.apbuart.en=1
+</pre><p>You are eventually asked to connect a terminal a startup. In this case open another terminal and enter (Linux): </p><pre class="fragment">$ telnet localhost &lt;PORT NUMBER&gt;.
+</pre><p>If you want to see the output of hello.sparc in the same terminal as the output of the simulation you can use the following command: </p><pre class="fragment">$ ./build/core/platforms/leon3mp/leon3mp.platform \
+--option conf.mctrl.prom.elf=build/core/software/prom/sdram/sdram.prom \
+--option conf.mctrl.ram.sdram.elf=build/core/software/grlib_tests/hello.sparc \
+--option conf.system.osemu=build/core/software/grlib_tests/hello.sparc
+</pre><p><em>Hint: Call <code>leon3mp.platform --help</code> to see all available command line options.</em> </p>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -80,7 +80,7 @@
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Thu Oct 23 2014 15:41:38 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

@@ -1,72 +1,95 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classBASE.html" title="BASE" alt="" coords="5,518,62,543"/>
-<area shape="rect" id="node2" href="$classSCBaseModule.html" title="SCBaseModule\&lt; BASE \&gt;" alt="" coords="110,518,283,543"/>
-<area shape="rect" id="node3" href="$classBaseModule.html" title="BaseModule\&lt; BASE \&gt;" alt="" coords="362,518,516,543"/>
-<area shape="rect" id="node4" href="$classAHBDevice.html" title="AHBDevice\&lt; BASE \&gt;" alt="" coords="627,355,775,381"/>
-<area shape="rect" id="node15" href="$classAPBDevice.html" title="APBDevice\&lt; BASE \&gt;" alt="" coords="876,641,1023,666"/>
-<area shape="rect" id="node5" href="$classAHBMaster.html" title="AHBMaster\&lt; BASE \&gt;" alt="" coords="875,257,1023,282"/>
-<area shape="rect" id="node6" href="$classAHBMaster.html" title="AHBMaster\&lt;\&gt;" alt="" coords="897,405,1002,430"/>
-<area shape="rect" id="node10" href="$classAHBSlave.html" title="AHBSlave\&lt; BASE \&gt;" alt="" coords="879,355,1020,381"/>
-<area shape="rect" id="node11" href="$classAHBSlave.html" title="AHBSlave\&lt;\&gt;" alt="" coords="900,306,998,331"/>
-<area shape="rect" id="node7" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="1136,355,1266,381"/>
-<area shape="rect" id="node8" href="$classleon3__mmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="1382,257,1516,282"/>
-<area shape="rect" id="node9" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="1402,355,1496,381"/>
-<area shape="rect" id="node12" href="$classAHBMem.html" title="AHBMem" alt="" coords="1162,207,1240,233"/>
-<area shape="rect" id="node13" href="$classAHBOut.html" title="AHBOut" alt="" coords="1166,257,1236,282"/>
-<area shape="rect" id="node14" href="$classAHBProf.html" title="AHBProf" alt="" coords="1164,306,1237,331"/>
-<area shape="rect" id="node16" href="$classAHBDeviceBase.html" title="AHBDeviceBase" alt="" coords="379,355,499,381"/>
-<area shape="rect" id="node17" href="$classAHBDevice.html" title="AHBDevice\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1590,342,1757,381"/>
-<area shape="rect" id="node20" href="$classAHBDevice.html" title="AHBDevice\&lt; DefaultBase \&gt;" alt="" coords="1108,931,1293,957"/>
-<area shape="rect" id="node18" href="$classAHBSlave.html" title="AHBSlave\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1805,342,1966,381"/>
-<area shape="rect" id="node19" href="$classMctrl.html" title="This class is an TLM 2.0 Model of the Aeroflex Gaisler GRLIB mctrl. Further informations to the origi..." alt="" coords="2014,378,2064,403"/>
-<area shape="rect" id="node21" href="$classAHBMaster.html" title="AHBMaster\&lt; DefaultBase \&gt;" alt="" coords="1357,570,1542,595"/>
-<area shape="rect" id="node23" href="$classAHBSlave.html" title="AHBSlave\&lt; DefaultBase \&gt;" alt="" coords="1360,854,1538,879"/>
-<area shape="rect" id="node22" href="$classAHBIn.html" title="Definition of class AHBIn. " alt="" coords="1644,514,1704,539"/>
-<area shape="rect" id="node24" href="$classAPBCtrl.html" title="APBCtrl" alt="" coords="1639,699,1708,725"/>
-<area shape="rect" id="node25" href="$classAPBDeviceBase.html" title="APBDeviceBase" alt="" coords="641,681,760,706"/>
-<area shape="rect" id="node26" href="$classAPBDevice.html" title="APBDevice\&lt; RegisterBase \&gt;" alt="" coords="853,701,1045,726"/>
-<area shape="rect" id="node27" href="$classAPBUART.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB APBUART. Further informations to the orig..." alt="" coords="1159,671,1243,697"/>
-<area shape="rect" id="node28" href="$classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig..." alt="" coords="1164,721,1238,746"/>
-<area shape="rect" id="node29" href="$classIrqmp.html" title="Irqmp" alt="" coords="1173,622,1229,647"/>
-<area shape="rect" id="node30" href="$classSCBaseModule.html" title="SCBaseModule\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1105,819,1297,858"/>
-<area shape="rect" id="node31" href="$classBaseModule.html" title="BaseModule\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1362,507,1536,546"/>
-<area shape="rect" id="node32" href="$classBaseMemory.html" title="BaseMemory" alt="" coords="899,207,999,233"/>
-<area shape="rect" id="node33" href="$classMemoryPower.html" title="MemoryPower" alt="" coords="1147,158,1255,183"/>
-<area shape="rect" id="node34" href="$classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM..." alt="" coords="1414,158,1484,183"/>
-<area shape="rect" id="node35" href="$classCLKDevice.html" title="CLKDevice" alt="" coords="905,506,993,531"/>
-<area shape="rect" id="node36" href="$classAHBCtrl.html" title="AHBCtrl" alt="" coords="1166,770,1236,795"/>
-<area shape="rect" id="node37" href="$classAMBABasePlatform.html" title="AMBABasePlatform" alt="" coords="1131,1030,1270,1055"/>
-<area shape="rect" id="node39" href="$classLeon3Processor.html" title="Leon3Processor" alt="" coords="1142,882,1260,907"/>
-<area shape="rect" id="node38" href="$classLeon3mpPlatform.html" title="Leon3mpPlatform" alt="" coords="1386,1030,1512,1055"/>
-<area shape="rect" id="node41" href="$classlocalram.html" title="Local Scratchpad RAM. " alt="" coords="665,829,736,854"/>
-<area shape="rect" id="node42" href="$classmmu.html" title="Memory Management Unit (MMU) for TrapGen LEON3 simulator. " alt="" coords="675,1031,726,1057"/>
-<area shape="rect" id="node43" href="$classnocache.html" title="nocache" alt="" coords="913,750,985,775"/>
-<area shape="rect" id="node44" href="$classSCBaseModule.html" title="SCBaseModule\&lt; DefaultBase \&gt;" alt="" coords="596,930,805,955"/>
-<area shape="rect" id="node46" href="$classtlb__adaptor.html" title="tlb_adaptor" alt="" coords="657,779,745,805"/>
-<area shape="rect" id="node47" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="903,981,996,1006"/>
-<area shape="rect" id="node45" href="$classBaseModule.html" title="BaseModule\&lt; DefaultBase \&gt;" alt="" coords="854,930,1045,955"/>
-<area shape="rect" id="node48" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="1151,981,1251,1006"/>
-<area shape="rect" id="node49" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="1153,1079,1249,1105"/>
-<area shape="rect" id="node50" href="$classmem__if.html" title="mem_if" alt="" coords="407,755,472,781"/>
-<area shape="rect" id="node51" href="$classcache__if.html" title="cache_if" alt="" coords="665,730,736,755"/>
-<area shape="rect" id="node52" href="$classmmu__cache__if.html" title="mmu_cache_if" alt="" coords="647,579,755,605"/>
-<area shape="rect" id="node53" href="$classMEMDevice.html" title="MEMDevice" alt="" coords="903,106,996,131"/>
-<area shape="rect" id="node54" href="$classleon3__funcat__trap_1_1MemoryInterface.html" title="leon3_funcat_trap::\lMemoryInterface" alt="" coords="882,1533,1017,1571"/>
-<area shape="rect" id="node55" href="$classleon3__funcat__trap_1_1LocalMemory.html" title="leon3_funcat_trap::\lLocalMemory" alt="" coords="1133,1554,1269,1593"/>
-<area shape="rect" id="node56" href="$classleon3__funcat__trap_1_1TLMMemory.html" title="leon3_funcat_trap::\lTLMMemory" alt="" coords="1133,1491,1269,1530"/>
-<area shape="rect" id="node57" href="$classleon3__funclt__trap_1_1MemoryInterface.html" title="leon3_funclt_trap::\lMemoryInterface" alt="" coords="884,43,1015,82"/>
-<area shape="rect" id="node58" href="$classleon3__funclt__trap_1_1LocalMemory.html" title="leon3_funclt_trap::\lLocalMemory" alt="" coords="1135,43,1266,82"/>
-<area shape="rect" id="node59" href="$classleon3__funclt__trap_1_1TLMMemory.html" title="leon3_funclt_trap::\lTLMMemory" alt="" coords="1135,507,1266,546"/>
-<area shape="rect" id="node60" href="$classmmu__if.html" title="mmu_if" alt="" coords="407,1031,472,1057"/>
-<area shape="rect" id="node62" href="$classSCBaseModule.html" title="SCBaseModule\&lt; RegisterBase \&gt;" alt="" coords="331,1081,548,1106"/>
-<area shape="rect" id="node63" href="$classBaseModule.html" title="BaseModule\&lt; RegisterBase \&gt;" alt="" coords="601,1081,800,1106"/>
-<area shape="rect" id="node65" href="$classleon3__funcat__trap_1_1Processor__leon3__funcat.html" title="leon3_funcat_trap::\lProcessor_leon3_funcat" alt="" coords="1118,1178,1283,1217"/>
-<area shape="rect" id="node66" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html" title="leon3_funclt_trap::\lProcessor_leon3_funclt" alt="" coords="1121,1241,1281,1279"/>
-<area shape="rect" id="node67" href="$classpowermonitor.html" title="powermonitor" alt="" coords="1150,1129,1252,1154"/>
-<area shape="rect" id="node68" href="$classsignalkit_1_1scin__tlmout__adapter.html" title="signalkit::scin_tlmout\l_adapter\&lt; INTYPE, OUTTYPE \&gt;" alt="" coords="1093,1303,1309,1342"/>
-<area shape="rect" id="node69" href="$classsignalkit_1_1tlmin__scout__adapter.html" title="signalkit::tlmin_scout\l_adapter\&lt; INTYPE, OUTTYPE \&gt;" alt="" coords="1093,1366,1309,1405"/>
-<area shape="rect" id="node70" href="$classsignalkit_1_1tlmsc__inout__adapter.html" title="signalkit::tlmsc_inout\l_adapter\&lt; INTYPE, OUTTYPE \&gt;" alt="" coords="1093,1429,1309,1467"/>
-<area shape="rect" id="node71" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; scin_tlmout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;" alt="" coords="866,1283,1033,1335"/>
-<area shape="rect" id="node72" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; tlmin_scout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;" alt="" coords="866,1359,1033,1411"/>
-<area shape="rect" id="node73" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; tlmsc_inout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;" alt="" coords="866,1435,1033,1487"/>
+<area shape="rect" id="node1" href="$classBASE.html" title="BASE" alt="" coords="5,1529,64,1559"/>
+<area shape="rect" id="node3" href="$classSCBaseModule.html" title="SCBaseModule\&lt; BASE \&gt;" alt="" coords="112,1529,285,1559"/>
+<area shape="rect" id="node5" href="$classBaseModule.html" title="BaseModule\&lt; BASE \&gt;" alt="" coords="364,1529,519,1559"/>
+<area shape="rect" id="node7" href="$classAHBDevice.html" title="AHBDevice\&lt; BASE \&gt;" alt="" coords="628,1157,777,1187"/>
+<area shape="rect" id="node29" href="$classAPBDevice.html" title="APBDevice\&lt; BASE \&gt;" alt="" coords="628,1531,777,1560"/>
+<area shape="rect" id="node9" href="$classAHBMaster.html" title="AHBMaster\&lt; BASE \&gt;" alt="" coords="879,1157,1028,1187"/>
+<area shape="rect" id="node11" href="$classAHBMaster.html" title="AHBMaster\&lt;\&gt;" alt="" coords="900,804,1007,833"/>
+<area shape="rect" id="node19" href="$classAHBSlave.html" title="AHBSlave\&lt; BASE \&gt;" alt="" coords="883,1211,1024,1240"/>
+<area shape="rect" id="node21" href="$classAHBSlave.html" title="AHBSlave\&lt;\&gt;" alt="" coords="904,1104,1003,1133"/>
+<area shape="rect" id="node13" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="1143,739,1271,768"/>
+<area shape="rect" id="node15" href="$classleon3__mmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="1391,659,1521,688"/>
+<area shape="rect" id="node17" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="1409,739,1503,768"/>
+<area shape="rect" id="node23" href="$classAHBMem.html" title="AHBMem" alt="" coords="1168,1317,1245,1347"/>
+<area shape="rect" id="node25" href="$classAHBOut.html" title="AHBOut" alt="" coords="1172,1104,1241,1133"/>
+<area shape="rect" id="node27" href="$classAHBProf.html" title="AHBProf" alt="" coords="1169,1051,1244,1080"/>
+<area shape="rect" id="node30" href="$classAHBDeviceBase.html" title="AHBDeviceBase" alt="" coords="381,1157,501,1187"/>
+<area shape="rect" id="node33" href="$classAHBDevice.html" title="AHBDevice\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1597,1370,1768,1417"/>
+<area shape="rect" id="node39" href="$classAHBDevice.html" title="AHBDevice\&lt; DefaultBase \&gt;" alt="" coords="1113,792,1300,821"/>
+<area shape="rect" id="node35" href="$classAHBSlave.html" title="AHBSlave\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1816,1210,1979,1257"/>
+<area shape="rect" id="node37" href="$classMctrl.html" title="This class is an TLM 2.0 Model of the Aeroflex Gaisler GRLIB mctrl. Further informations to the origi..." alt="" coords="2027,1109,2077,1139"/>
+<area shape="rect" id="node41" href="$classAHBMaster.html" title="AHBMaster\&lt; DefaultBase \&gt;" alt="" coords="1363,896,1549,925"/>
+<area shape="rect" id="node45" href="$classAHBSlave.html" title="AHBSlave\&lt; DefaultBase \&gt;" alt="" coords="1367,792,1545,821"/>
+<area shape="rect" id="node43" href="$classAHBIn.html" title="Definition of class AHBIn. " alt="" coords="1652,909,1713,939"/>
+<area shape="rect" id="node47" href="$classAPBCtrl.html" title="APBCtrl" alt="" coords="1648,832,1717,861"/>
+<area shape="rect" id="node48" href="$classAPBDeviceBase.html" title="APBDeviceBase" alt="" coords="381,1583,501,1612"/>
+<area shape="rect" id="node51" href="$classAPBDevice.html" title="APBDevice\&lt; RegisterBase \&gt;" alt="" coords="857,1300,1049,1329"/>
+<area shape="rect" id="node53" href="$classAPBUART.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB APBUART. Further informations to the orig..." alt="" coords="1164,1264,1249,1293"/>
+<area shape="rect" id="node55" href="$classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig..." alt="" coords="1169,1157,1244,1187"/>
+<area shape="rect" id="node57" href="$classIrqmp.html" title="Irqmp" alt="" coords="1180,1211,1233,1240"/>
+<area shape="rect" id="node59" href="$classSCBaseModule.html" title="SCBaseModule\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1111,1370,1303,1417"/>
+<area shape="rect" id="node61" href="$classBaseModule.html" title="BaseModule\&lt; APBDevice\l\&lt; RegisterBase \&gt; \&gt;" alt="" coords="1369,1370,1543,1417"/>
+<area shape="rect" id="node63" href="$classCLKDevice.html" title="CLKDevice" alt="" coords="909,1037,997,1067"/>
+<area shape="rect" id="node65" href="$classAHBCtrl.html" title="AHBCtrl" alt="" coords="1172,845,1241,875"/>
+<area shape="rect" id="node71" href="$classAMBABasePlatform.html" title="AMBABasePlatform" alt="" coords="1137,579,1276,608"/>
+<area shape="rect" id="node79" href="$classLeon3Processor.html" title="Leon3Processor" alt="" coords="1149,632,1264,661"/>
+<area shape="rect" id="node82" href="$classMemoryPower.html" title="MemoryPower" alt="" coords="1153,1491,1260,1520"/>
+<area shape="rect" id="node73" href="$classLeon3mpPlatform.html" title="Leon3mpPlatform" alt="" coords="1395,579,1517,608"/>
+<area shape="rect" id="node84" href="$classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM..." alt="" coords="1421,1491,1491,1520"/>
+<area shape="rect" id="node88" href="$classlocalram.html" title="Local Scratchpad RAM. " alt="" coords="668,653,737,683"/>
+<area shape="rect" id="node91" href="$classmmu.html" title="Memory Management Unit (MMU) for TrapGen LEON3 simulator. " alt="" coords="677,915,728,944"/>
+<area shape="rect" id="node93" href="$classnocache.html" title="nocache" alt="" coords="919,667,988,696"/>
+<area shape="rect" id="node95" href="$classSCBaseModule.html" title="SCBaseModule\&lt; DefaultBase \&gt;" alt="" coords="599,861,807,891"/>
+<area shape="rect" id="node101" href="$classtlb__adaptor.html" title="tlb_adaptor" alt="" coords="660,707,745,736"/>
+<area shape="rect" id="node103" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="907,593,1000,623"/>
+<area shape="rect" id="node97" href="$classBaseModule.html" title="BaseModule\&lt; DefaultBase \&gt;" alt="" coords="859,959,1048,988"/>
+<area shape="rect" id="node105" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="1157,525,1256,555"/>
+<area shape="rect" id="node107" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="1159,685,1255,715"/>
+<area shape="rect" id="node108" href="$classmem__if.html" title="mem_if" alt="" coords="409,627,473,656"/>
+<area shape="rect" id="node110" href="$classcache__if.html" title="cache_if" alt="" coords="668,547,737,576"/>
+<area shape="rect" id="node115" href="$classmmu__cache__if.html" title="mmu_cache_if" alt="" coords="649,600,756,629"/>
+<area shape="rect" id="node118" href="$classMEMDevice.html" title="MEMDevice" alt="" coords="907,1544,1000,1573"/>
+<area shape="rect" id="node120" href="$classleon3__funclt__trap_1_1MemoryInterface.html" title="leon3_funclt_trap::\lMemoryInterface" alt="" coords="889,65,1017,111"/>
+<area shape="rect" id="node122" href="$classleon3__funclt__trap_1_1LocalMemory.html" title="leon3_funclt_trap::\lLocalMemory" alt="" coords="1143,5,1271,51"/>
+<area shape="rect" id="node124" href="$classleon3__funclt__trap_1_1TLMMemory.html" title="leon3_funclt_trap::\lTLMMemory" alt="" coords="1143,125,1271,171"/>
+<area shape="rect" id="node126" href="$classmmu__if.html" title="mmu_if" alt="" coords="409,915,473,944"/>
+<area shape="rect" id="node130" href="$classSCBaseModule.html" title="SCBaseModule\&lt; RegisterBase \&gt;" alt="" coords="333,1476,549,1505"/>
+<area shape="rect" id="node132" href="$classBaseModule.html" title="BaseModule\&lt; RegisterBase \&gt;" alt="" coords="604,1477,801,1507"/>
+<area shape="rect" id="node137" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html" title="leon3_funclt_trap::\lProcessor_leon3_funclt" alt="" coords="1128,317,1285,363"/>
+<area shape="rect" id="node141" href="$classpowermonitor.html" title="powermonitor" alt="" coords="1157,264,1256,293"/>
+<area shape="rect" id="node143" href="$classsignalkit_1_1scin__tlmout__adapter.html" title="signalkit::scin_tlmout\l_adapter\&lt; INTYPE, OUTTYPE \&gt;" alt="" coords="1099,194,1315,241"/>
+<area shape="rect" id="node145" href="$classsignalkit_1_1tlmin__scout__adapter.html" title="signalkit::tlmin_scout\l_adapter\&lt; INTYPE, OUTTYPE \&gt;" alt="" coords="1099,386,1315,433"/>
+<area shape="rect" id="node147" href="$classsignalkit_1_1tlmsc__inout__adapter.html" title="signalkit::tlmsc_inout\l_adapter\&lt; INTYPE, OUTTYPE \&gt;" alt="" coords="1099,455,1315,502"/>
+<area shape="rect" id="node150" href="$classsc__register__example_1_1sc__register__bank__base.html" title="sc_register_example\l::sc_register_bank_base" alt="" coords="872,2043,1035,2090"/>
+<area shape="rect" id="node154" href="$classsignalkit_1_1signal__base.html" title="signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;" alt="" coords="880,2191,1027,2238"/>
+<area shape="rect" id="node152" href="$classsc__register__example_1_1sc__register__bank.html" title="sc_register_example\l::sc_register_bank\&lt;\l ADDR_TYPE, DATA_TYPE \&gt;" alt="" coords="1104,2035,1309,2099"/>
+<area shape="rect" id="node156" href="$classsignalkit_1_1signal__in.html" title="signalkit::signal_in\l\&lt; TYPE, MODULE \&gt;" alt="" coords="1133,2191,1280,2238"/>
+<area shape="rect" id="node160" href="$classsignalkit_1_1signal__infield.html" title="signalkit::signal_infield\l\&lt; TYPE, MODULE \&gt;" alt="" coords="1131,2122,1283,2169"/>
+<area shape="rect" id="node162" href="$classsignalkit_1_1signal__out.html" title="signalkit::signal_out\l\&lt; TYPE, MODULE \&gt;" alt="" coords="1133,2261,1280,2307"/>
+<area shape="rect" id="node165" href="$classsignalkit_1_1signal__selector.html" title="signalkit::signal_selector\l\&lt; TYPE, MODULE \&gt;" alt="" coords="1124,2330,1289,2377"/>
+<area shape="rect" id="node158" href="$classsignalkit_1_1signal__inout.html" title="signalkit::signal_inout\l\&lt; TYPE, MODULE \&gt;" alt="" coords="1383,2226,1529,2273"/>
+<area shape="rect" id="node168" href="$classsc__register__example_1_1sc__register__base.html" title="sc_register_example\l::sc_register_base" alt="" coords="883,1773,1024,1819"/>
+<area shape="rect" id="node170" href="$classsc__register__example_1_1sc__register__b.html" title="sc_register_example\l::sc_register_b\&lt; unsigned\l char \&gt;" alt="" coords="1121,1877,1292,1941"/>
+<area shape="rect" id="node174" href="$classsc__register__example_1_1sc__register__b.html" title="sc_register_example\l::sc_register_b\&lt; unsigned int \&gt;" alt="" coords="1105,1965,1308,2011"/>
+<area shape="rect" id="node178" href="$classsc__register__example_1_1sc__register__b.html" title="sc_register_example\l::sc_register_b\&lt; unsigned\l long long \&gt;" alt="" coords="1121,1632,1292,1696"/>
+<area shape="rect" id="node182" href="$classsc__register__example_1_1sc__register__b.html" title="sc_register_example\l::sc_register_b\&lt; unsigned\l short \&gt;" alt="" coords="1121,1720,1292,1784"/>
+<area shape="rect" id="node186" href="$classsc__register__example_1_1sc__register__b.html" title="sc_register_example\l::sc_register_b\&lt; T \&gt;" alt="" coords="1136,1807,1277,1854"/>
+<area shape="rect" id="node172" href="$classsc__register__example_1_1sc__register_3_01unsigned_01char_00_01M_01_4.html" title="sc_register_example\l::sc_register\&lt; unsigned\l char, M \&gt;" alt="" coords="1377,1877,1535,1941"/>
+<area shape="rect" id="node176" href="$classsc__register__example_1_1sc__register_3_01unsigned_01int_00_01M_01_4.html" title="sc_register_example\l::sc_register\&lt; unsigned\l int, M \&gt;" alt="" coords="1377,1965,1535,2029"/>
+<area shape="rect" id="node180" href="$classsc__register__example_1_1sc__register_3_01unsigned_01long_01long_00_01M_01_4.html" title="sc_register_example\l::sc_register\&lt; unsigned\l long long, M \&gt;" alt="" coords="1377,1632,1535,1696"/>
+<area shape="rect" id="node184" href="$classsc__register__example_1_1sc__register_3_01unsigned_01short_00_01M_01_4.html" title="sc_register_example\l::sc_register\&lt; unsigned\l short, M \&gt;" alt="" coords="1377,1720,1535,1784"/>
+<area shape="rect" id="node188" href="$classsc__register__example_1_1sc__register.html" title="sc_register_example\l::sc_register\&lt; T, M \&gt;" alt="" coords="1384,1807,1528,1854"/>
+<area shape="rect" id="node189" href="$classscireg__ns_1_1scireg__region__if.html" title="scireg_ns::scireg_region_if" alt="" coords="615,1692,791,1721"/>
+<area shape="rect" id="node191" href="$classBaseMemory.html" title="BaseMemory" alt="" coords="904,1491,1003,1520"/>
+<area shape="rect" id="node197" href="$classsc__register__example_1_1sc__register__field__base.html" title="sc_register_example\l::sc_register_field_base" alt="" coords="873,1662,1033,1709"/>
+<area shape="rect" id="node199" href="$classsc__register__example_1_1sc__register__field__b.html" title="sc_register_example\l::sc_register_field\l_b\&lt; T \&gt;" alt="" coords="1136,1544,1277,1608"/>
+<area shape="rect" id="node201" href="$classsc__register__example_1_1sc__register__field.html" title="sc_register_example\l::sc_register_field\l\&lt; T, lowpos, highpos \&gt;" alt="" coords="1379,1544,1533,1608"/>
+<area shape="rect" id="node202" href="$classsignalkit_1_1signal__if.html" title="signalkit::signal_if\l\&lt; TYPE \&gt;" alt="" coords="640,2157,765,2203"/>
+<area shape="rect" id="node204" href="$classsignalkit_1_1signal__in__if.html" title="signalkit::signal_in\l_if\&lt; TYPE \&gt;" alt="" coords="889,2122,1017,2169"/>
+<area shape="rect" id="node208" href="$classsignalkit_1_1signal__out__if.html" title="signalkit::signal_out\l_if\&lt; TYPE \&gt;" alt="" coords="885,2261,1021,2307"/>
+<area shape="rect" id="node210" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; scin_tlmout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;" alt="" coords="868,185,1039,249"/>
+<area shape="rect" id="node212" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; tlmin_scout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;" alt="" coords="868,377,1039,441"/>
+<area shape="rect" id="node214" href="$classsignalkit_1_1signal__module.html" title="signalkit::signal_module\l\&lt; tlmsc_inout_adapter\&lt;\l INTYPE, OUTTYPE \&gt; \&gt;" alt="" coords="868,465,1039,529"/>
+<area shape="rect" id="node216" href="$classsignalkit_1_1signal__out__bind__if.html" title="signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;" alt="" coords="635,2293,771,2339"/>
 </map>

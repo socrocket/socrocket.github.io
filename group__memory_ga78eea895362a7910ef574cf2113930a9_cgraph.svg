@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="group__memory.html#gad63996f7ed8fca5197a47b7710b1d55c" target="_top" xlink:title="BaseMemory::read_block_dbg">
+<a xlink:href="group__memory.html#gaec8a7bc833a9f12928070debebcd0fa2" target="_top" xlink:title="BaseMemory::read_block_dbg">
 <polygon fill="white" stroke="black" points="164.5,-0.5 164.5,-21.5 313.5,-21.5 313.5,-0.5 164.5,-0.5"/>
 <text text-anchor="middle" x="239" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">BaseMemory::read_block_dbg</text>
 </a>
@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
-<a xlink:href="classStorage.html#a6c83e9cda63966dc65b1aefcb31e8f43" target="_top" xlink:title="Storage::read_block">
+<a xlink:href="classStorage.html#a01af1f194e1844bfcf5a4a4a26d3e5f8" target="_top" xlink:title="Storage::read_block">
 <polygon fill="white" stroke="black" points="350,-0.5 350,-21.5 454,-21.5 454,-0.5 350,-0.5"/>
 <text text-anchor="middle" x="402" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">Storage::read_block</text>
 </a>

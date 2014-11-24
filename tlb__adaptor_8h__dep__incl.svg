@@ -57,139 +57,139 @@ var sectionId = 'dynsection-1';
 <polygon fill="white" stroke="white" points="-4,5 -4,-472 691,-472 691,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="325,-433 325,-467 451,-467 451,-433 325,-433"/>
-<text text-anchor="start" x="333" y="-454" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="388" y="-441" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/tlb_adaptor.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="332,-433 332,-467 458,-467 458,-433 332,-433"/>
+<text text-anchor="start" x="340" y="-454" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="395" y="-441" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/tlb_adaptor.h</text>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
 <a xlink:href="vectorcache_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/vectorcache.h">
-<polygon fill="white" stroke="black" points="208,-361 208,-395 334,-395 334,-361 208,-361"/>
-<text text-anchor="start" x="216" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="271" y="-369" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/vectorcache.h</text>
+<polygon fill="white" stroke="black" points="215,-361 215,-395 341,-395 341,-361 215,-361"/>
+<text text-anchor="start" x="223" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="278" y="-369" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/vectorcache.h</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M351.685,-427.652C334.679,-417.187 314.737,-404.915 298.934,-395.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="349.922,-430.677 360.273,-432.937 353.59,-424.715 349.922,-430.677"/>
+<path fill="none" stroke="midnightblue" d="M358.685,-427.652C341.679,-417.187 321.737,-404.915 305.934,-395.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="356.922,-430.677 367.273,-432.937 360.59,-424.715 356.922,-430.677"/>
 </g>
 <!-- Node18 -->
-<g id="node36" class="node"><title>Node18</title>
+<g id="node37" class="node"><title>Node18</title>
 <a xlink:href="models_2mmu__cache_2lib_2mmu_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu.h">
-<polygon fill="white" stroke="black" points="398,-361 398,-395 524,-395 524,-361 398,-361"/>
-<text text-anchor="start" x="406" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="461" y="-369" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu.h</text>
+<polygon fill="white" stroke="black" points="405,-361 405,-395 531,-395 531,-361 405,-361"/>
+<text text-anchor="start" x="413" y="-382" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="468" y="-369" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu.h</text>
 </a>
 </g>
 <!-- Node1&#45;&gt;Node18 -->
-<g id="edge36" class="edge"><title>Node1&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M412.426,-425.908C422.631,-415.844 434.254,-404.38 443.571,-395.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="409.962,-423.423 405.3,-432.937 414.877,-428.407 409.962,-423.423"/>
+<g id="edge38" class="edge"><title>Node1&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M419.426,-425.908C429.631,-415.844 441.254,-404.38 450.571,-395.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="416.962,-423.423 412.3,-432.937 421.877,-428.407 416.962,-423.423"/>
 </g>
 <!-- Node3 -->
 <g id="node5" class="node"><title>Node3</title>
 <a xlink:href="dvectorcache_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/dvectorcache.h">
-<polygon fill="white" stroke="black" points="19,-289 19,-323 145,-323 145,-289 19,-289"/>
-<text text-anchor="start" x="27" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="82" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/dvectorcache.h</text>
+<polygon fill="white" stroke="black" points="26,-289 26,-323 152,-323 152,-289 26,-289"/>
+<text text-anchor="start" x="34" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="89" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/dvectorcache.h</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge4" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M216.793,-357.35C188.289,-346.491 153.767,-333.34 126.796,-323.065"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="215.619,-360.648 226.21,-360.937 218.111,-354.106 215.619,-360.648"/>
+<path fill="none" stroke="midnightblue" d="M223.793,-357.35C195.289,-346.491 160.767,-333.34 133.796,-323.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="222.619,-360.648 233.21,-360.937 225.111,-354.106 222.619,-360.648"/>
 </g>
 <!-- Node15 -->
-<g id="node29" class="node"><title>Node15</title>
+<g id="node30" class="node"><title>Node15</title>
 <a xlink:href="ivectorcache_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/ivectorcache.h">
-<polygon fill="white" stroke="black" points="307,-289 307,-323 433,-323 433,-289 307,-289"/>
-<text text-anchor="start" x="315" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="370" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/ivectorcache.h</text>
+<polygon fill="white" stroke="black" points="314,-289 314,-323 440,-323 440,-289 314,-289"/>
+<text text-anchor="start" x="322" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="377" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/ivectorcache.h</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node15 -->
-<g id="edge28" class="edge"><title>Node2&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M302.922,-354.784C317.044,-344.514 333.36,-332.648 346.364,-323.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="300.49,-352.225 294.462,-360.937 304.608,-357.886 300.49,-352.225"/>
+<g id="edge30" class="edge"><title>Node2&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M309.922,-354.784C324.044,-344.514 340.36,-332.648 353.364,-323.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="307.49,-352.225 301.462,-360.937 311.608,-357.886 307.49,-352.225"/>
 </g>
 <!-- Node17 -->
-<g id="node34" class="node"><title>Node17</title>
+<g id="node35" class="node"><title>Node17</title>
 <a xlink:href="vectorcache_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/vectorcache.cpp">
-<polygon fill="white" stroke="black" points="163,-289 163,-323 289,-323 289,-289 163,-289"/>
-<text text-anchor="start" x="171" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="226" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/vectorcache.cpp</text>
+<polygon fill="white" stroke="black" points="170,-289 170,-323 296,-323 296,-289 170,-289"/>
+<text text-anchor="start" x="178" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="233" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/vectorcache.cpp</text>
 </a>
 </g>
 <!-- Node2&#45;&gt;Node17 -->
-<g id="edge34" class="edge"><title>Node2&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M254.877,-352.203C248.911,-342.658 242.294,-332.07 236.9,-323.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="252.068,-354.312 260.336,-360.937 258.004,-350.602 252.068,-354.312"/>
+<g id="edge36" class="edge"><title>Node2&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M261.877,-352.203C255.911,-342.658 249.294,-332.07 243.9,-323.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="259.068,-354.312 267.336,-360.937 265.004,-350.602 259.068,-354.312"/>
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
 <a xlink:href="dvectorcache_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/dvectorcache.cpp">
-<polygon fill="white" stroke="black" points="19,-217 19,-251 145,-251 145,-217 19,-217"/>
-<text text-anchor="start" x="27" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="82" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/dvectorcache.cpp</text>
+<polygon fill="white" stroke="black" points="26,-217 26,-251 152,-251 152,-217 26,-217"/>
+<text text-anchor="start" x="34" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="89" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/dvectorcache.cpp</text>
 </a>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge6" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M82,-278.719C82,-269.572 82,-259.625 82,-251.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="78.5001,-278.937 82,-288.937 85.5001,-278.937 78.5001,-278.937"/>
+<path fill="none" stroke="midnightblue" d="M89,-278.719C89,-269.572 89,-259.625 89,-251.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="85.5001,-278.937 89,-288.937 92.5001,-278.937 85.5001,-278.937"/>
 </g>
 <!-- Node5 -->
 <g id="node9" class="node"><title>Node5</title>
 <a xlink:href="mmu__cache__base_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu_cache_base.h">
-<polygon fill="white" stroke="black" points="352,-217 352,-251 478,-251 478,-217 352,-217"/>
-<text text-anchor="start" x="360" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="415" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache_base.h</text>
+<polygon fill="white" stroke="black" points="359,-217 359,-251 485,-251 485,-217 359,-217"/>
+<text text-anchor="start" x="367" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="422" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache_base.h</text>
 </a>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge8" class="edge"><title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M155.165,-287.81C239.228,-269.653 262.587,-269.695 343,-252 345.894,-251.363 348.85,-250.695 351.832,-250.007"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="154.192,-284.44 145.168,-289.993 155.685,-291.279 154.192,-284.44"/>
+<path fill="none" stroke="midnightblue" d="M162.165,-287.81C246.228,-269.653 269.587,-269.695 350,-252 352.894,-251.363 355.85,-250.695 358.832,-250.007"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="161.192,-284.44 152.168,-289.993 162.685,-291.279 161.192,-284.44"/>
 </g>
 <!-- Node6 -->
 <g id="node11" class="node"><title>Node6</title>
 <a xlink:href="leon3__mmu__cache_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h">
-<polygon fill="white" stroke="black" points="139,-145 139,-179 265,-179 265,-145 139,-145"/>
-<text text-anchor="start" x="147" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="202" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/leon3_mmu_cache.h</text>
+<polygon fill="white" stroke="black" points="143,-145 143,-179 269,-179 269,-145 143,-145"/>
+<text text-anchor="start" x="151" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="206" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/leon3_mmu_cache.h</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge10" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M354.746,-213.633C322.464,-202.72 283.145,-189.429 252.484,-179.065"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="353.928,-217.05 364.522,-216.937 356.169,-210.419 353.928,-217.05"/>
+<path fill="none" stroke="midnightblue" d="M361.321,-213.774C328.504,-202.835 288.422,-189.474 257.195,-179.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="360.217,-217.095 370.811,-216.937 362.431,-210.454 360.217,-217.095"/>
 </g>
-<!-- Node9 -->
-<g id="node17" class="node"><title>Node9</title>
+<!-- Node11 -->
+<g id="node21" class="node"><title>Node11</title>
 <a xlink:href="mmu__cache_8h.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu_cache.h">
-<polygon fill="white" stroke="black" points="352,-145 352,-179 478,-179 478,-145 352,-145"/>
-<text text-anchor="start" x="360" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="415" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache.h</text>
+<polygon fill="white" stroke="black" points="359,-145 359,-179 485,-179 485,-145 359,-145"/>
+<text text-anchor="start" x="367" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="422" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache.h</text>
 </a>
 </g>
-<!-- Node5&#45;&gt;Node9 -->
-<g id="edge16" class="edge"><title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M415,-206.719C415,-197.572 415,-187.625 415,-179.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="411.5,-206.937 415,-216.937 418.5,-206.937 411.5,-206.937"/>
+<!-- Node5&#45;&gt;Node11 -->
+<g id="edge20" class="edge"><title>Node5&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M422,-206.719C422,-197.572 422,-187.625 422,-179.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="418.5,-206.937 422,-216.937 425.5,-206.937 418.5,-206.937"/>
 </g>
 <!-- Node14 -->
-<g id="node27" class="node"><title>Node14</title>
+<g id="node28" class="node"><title>Node14</title>
 <a xlink:href="mmu__cache__base_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu_cache_base.cpp">
-<polygon fill="white" stroke="black" points="495.5,-145 495.5,-179 626.5,-179 626.5,-145 495.5,-145"/>
-<text text-anchor="start" x="503.5" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="561" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache_base.cpp</text>
+<polygon fill="white" stroke="black" points="502.5,-145 502.5,-179 633.5,-179 633.5,-145 502.5,-145"/>
+<text text-anchor="start" x="510.5" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="568" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache_base.cpp</text>
 </a>
 </g>
 <!-- Node5&#45;&gt;Node14 -->
-<g id="edge26" class="edge"><title>Node5&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M458.606,-212.495C480.28,-201.807 506.104,-189.072 526.396,-179.065"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="457.021,-209.375 449.6,-216.937 460.117,-215.653 457.021,-209.375"/>
+<g id="edge28" class="edge"><title>Node5&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M465.606,-212.495C487.28,-201.807 513.104,-189.072 533.396,-179.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="464.021,-209.375 456.6,-216.937 467.117,-215.653 464.021,-209.375"/>
 </g>
 <!-- Node7 -->
 <g id="node13" class="node"><title>Node7</title>
@@ -201,8 +201,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge12" class="edge"><title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M202,-134.719C202,-125.572 202,-115.625 202,-107.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="198.5,-134.937 202,-144.937 205.5,-134.937 198.5,-134.937"/>
+<path fill="none" stroke="midnightblue" d="M204.484,-134.719C203.976,-125.572 203.424,-115.625 202.969,-107.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="201.003,-135.147 205.052,-144.937 207.992,-134.758 201.003,-135.147"/>
 </g>
 <!-- Node8 -->
 <g id="node15" class="node"><title>Node8</title>
@@ -214,96 +214,101 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node6&#45;&gt;Node8 -->
 <g id="edge14" class="edge"><title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M159.039,-140.369C137.951,-129.751 112.9,-117.138 93.1413,-107.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="157.605,-143.566 168.111,-144.937 160.753,-137.314 157.605,-143.566"/>
+<path fill="none" stroke="midnightblue" d="M162.095,-140.495C140.272,-129.807 114.272,-117.072 93.8413,-107.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="160.643,-143.681 171.163,-144.937 163.722,-137.395 160.643,-143.681"/>
+</g>
+<!-- Node9 -->
+<g id="node17" class="node"><title>Node9</title>
+<a xlink:href="leon3mp_8h.html" target="_top" xlink:title="core/platforms/newleon3mp\l/leon3mp.h">
+<polygon fill="white" stroke="black" points="285.5,-73 285.5,-107 422.5,-107 422.5,-73 285.5,-73"/>
+<text text-anchor="start" x="293.5" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00">core/platforms/newleon3mp</text>
+<text text-anchor="middle" x="354" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">/leon3mp.h</text>
+</a>
+</g>
+<!-- Node6&#45;&gt;Node9 -->
+<g id="edge16" class="edge"><title>Node6&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M250.204,-140.495C272.175,-129.807 298.352,-117.072 318.922,-107.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="248.535,-137.415 241.074,-144.937 251.597,-143.71 248.535,-137.415"/>
 </g>
 <!-- Node10 -->
 <g id="node19" class="node"><title>Node10</title>
-<a xlink:href="mmu__cache_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu_cache.cpp">
-<polygon fill="white" stroke="black" points="286,-73 286,-107 412,-107 412,-73 286,-73"/>
-<text text-anchor="start" x="294" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="349" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache.cpp</text>
+<a xlink:href="newleon3mp_2sc__main_8cpp.html" target="_top" xlink:title="core/platforms/newleon3mp\l/sc_main.cpp">
+<polygon fill="white" stroke="black" points="285.5,-1 285.5,-35 422.5,-35 422.5,-1 285.5,-1"/>
+<text text-anchor="start" x="293.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">core/platforms/newleon3mp</text>
+<text text-anchor="middle" x="354" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">/sc_main.cpp</text>
 </a>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge18" class="edge"><title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M392.43,-137.379C383.407,-127.535 373.224,-116.426 364.987,-107.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="390.022,-139.93 399.359,-144.937 395.182,-135.2 390.022,-139.93"/>
+<path fill="none" stroke="midnightblue" d="M354,-62.7193C354,-53.572 354,-43.6255 354,-35.4407"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="350.5,-62.937 354,-72.937 357.5,-62.937 350.5,-62.937"/>
 </g>
-<!-- Node11 -->
-<g id="node21" class="node"><title>Node11</title>
-<a xlink:href="leon3processor_8h.html" target="_top" xlink:title="core/platforms/base\l/leon3processor.h">
-<polygon fill="white" stroke="black" points="429.5,-73 429.5,-107 532.5,-107 532.5,-73 429.5,-73"/>
-<text text-anchor="start" x="437.5" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00">core/platforms/base</text>
-<text text-anchor="middle" x="481" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">/leon3processor.h</text>
-</a>
-</g>
-<!-- Node9&#45;&gt;Node11 -->
-<g id="edge20" class="edge"><title>Node9&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M437.57,-137.379C446.593,-127.535 456.776,-116.426 465.013,-107.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="434.818,-135.2 430.641,-144.937 439.978,-139.93 434.818,-135.2"/>
+<!-- Node11&#45;&gt;Node9 -->
+<g id="edge26" class="edge"><title>Node11&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M398.746,-137.379C389.45,-127.535 378.958,-116.426 370.472,-107.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="396.474,-140.07 405.885,-144.937 401.563,-135.264 396.474,-140.07"/>
 </g>
 <!-- Node12 -->
 <g id="node23" class="node"><title>Node12</title>
-<a xlink:href="leon3mp_8h.html" target="_top" xlink:title="core/platforms/newleon3mp\l/leon3mp.h">
-<polygon fill="white" stroke="black" points="549.5,-73 549.5,-107 686.5,-107 686.5,-73 549.5,-73"/>
-<text text-anchor="start" x="557.5" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00">core/platforms/newleon3mp</text>
-<text text-anchor="middle" x="618" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">/leon3mp.h</text>
+<a xlink:href="mmu__cache_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu_cache.cpp">
+<polygon fill="white" stroke="black" points="560,-73 560,-107 686,-107 686,-73 560,-73"/>
+<text text-anchor="start" x="568" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="623" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu_cache.cpp</text>
 </a>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
-<g id="edge22" class="edge"><title>Node9&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M472.823,-141.491C503.515,-130.606 540.791,-117.385 569.886,-107.065"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="471.363,-138.296 463.108,-144.937 473.703,-144.893 471.363,-138.296"/>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge22" class="edge"><title>Node11&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M479.253,-141.491C509.643,-130.606 546.551,-117.385 575.36,-107.065"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="477.868,-138.27 469.634,-144.937 480.229,-144.86 477.868,-138.27"/>
 </g>
 <!-- Node13 -->
 <g id="node25" class="node"><title>Node13</title>
-<a xlink:href="newleon3mp_2sc__main_8cpp.html" target="_top" xlink:title="core/platforms/newleon3mp\l/sc_main.cpp">
-<polygon fill="white" stroke="black" points="549.5,-1 549.5,-35 686.5,-35 686.5,-1 549.5,-1"/>
-<text text-anchor="start" x="557.5" y="-22" font-family="Helvetica,sans-Serif" font-size="10.00">core/platforms/newleon3mp</text>
-<text text-anchor="middle" x="618" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">/sc_main.cpp</text>
+<a xlink:href="leon3processor_8h.html" target="_top" xlink:title="core/platforms/base\l/leon3processor.h">
+<polygon fill="white" stroke="black" points="439.5,-73 439.5,-107 542.5,-107 542.5,-73 439.5,-73"/>
+<text text-anchor="start" x="447.5" y="-94" font-family="Helvetica,sans-Serif" font-size="10.00">core/platforms/base</text>
+<text text-anchor="middle" x="491" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">/leon3processor.h</text>
 </a>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge24" class="edge"><title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M618,-62.7193C618,-53.572 618,-43.6255 618,-35.4407"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="614.5,-62.937 618,-72.937 621.5,-62.937 614.5,-62.937"/>
+<!-- Node11&#45;&gt;Node13 -->
+<g id="edge24" class="edge"><title>Node11&#45;&gt;Node13</title>
+<path fill="none" stroke="midnightblue" d="M445.316,-137.671C454.818,-127.755 465.59,-116.515 474.286,-107.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="442.744,-135.295 438.352,-144.937 447.798,-140.139 442.744,-135.295"/>
 </g>
 <!-- Node15&#45;&gt;Node5 -->
-<g id="edge32" class="edge"><title>Node15&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M386.123,-280.203C392.089,-270.658 398.706,-260.07 404.1,-251.441"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="382.996,-278.602 380.664,-288.937 388.932,-282.312 382.996,-278.602"/>
+<g id="edge34" class="edge"><title>Node15&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M393.123,-280.203C399.089,-270.658 405.706,-260.07 411.1,-251.441"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="389.996,-278.602 387.664,-288.937 395.932,-282.312 389.996,-278.602"/>
 </g>
 <!-- Node16 -->
-<g id="node31" class="node"><title>Node16</title>
+<g id="node32" class="node"><title>Node16</title>
 <a xlink:href="ivectorcache_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/ivectorcache.cpp">
-<polygon fill="white" stroke="black" points="208,-217 208,-251 334,-251 334,-217 208,-217"/>
-<text text-anchor="start" x="216" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="271" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/ivectorcache.cpp</text>
+<polygon fill="white" stroke="black" points="215,-217 215,-251 341,-251 341,-217 215,-217"/>
+<text text-anchor="start" x="223" y="-238" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="278" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/ivectorcache.cpp</text>
 </a>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
-<g id="edge30" class="edge"><title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M338.078,-282.784C323.956,-272.514 307.64,-260.648 294.636,-251.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="336.392,-285.886 346.538,-288.937 340.51,-280.225 336.392,-285.886"/>
+<g id="edge32" class="edge"><title>Node15&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M345.078,-282.784C330.956,-272.514 314.64,-260.648 301.636,-251.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="343.392,-285.886 353.538,-288.937 347.51,-280.225 343.392,-285.886"/>
 </g>
 <!-- Node18&#45;&gt;Node5 -->
-<g id="edge38" class="edge"><title>Node18&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M457.125,-350.833C454.091,-332.715 449.171,-308.544 442,-288 437.509,-275.135 430.617,-261.411 424.92,-251.018"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="453.671,-351.4 458.696,-360.727 460.584,-350.302 453.671,-351.4"/>
+<g id="edge40" class="edge"><title>Node18&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M464.125,-350.833C461.091,-332.715 456.171,-308.544 449,-288 444.509,-275.135 437.617,-261.411 431.92,-251.018"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="460.671,-351.4 465.696,-360.727 467.584,-350.302 460.671,-351.4"/>
 </g>
 <!-- Node19 -->
-<g id="node39" class="node"><title>Node19</title>
+<g id="node40" class="node"><title>Node19</title>
 <a xlink:href="mmu_8cpp.html" target="_top" xlink:title="core/models/mmu_cache\l/lib/mmu.cpp">
-<polygon fill="white" stroke="black" points="489,-289 489,-323 615,-323 615,-289 489,-289"/>
-<text text-anchor="start" x="497" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
-<text text-anchor="middle" x="552" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu.cpp</text>
+<polygon fill="white" stroke="black" points="496,-289 496,-323 622,-323 622,-289 496,-289"/>
+<text text-anchor="start" x="504" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">core/models/mmu_cache</text>
+<text text-anchor="middle" x="559" y="-297" font-family="Helvetica,sans-Serif" font-size="10.00">/lib/mmu.cpp</text>
 </a>
 </g>
 <!-- Node18&#45;&gt;Node19 -->
-<g id="edge40" class="edge"><title>Node18&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M490.71,-354.493C503.606,-344.29 518.433,-332.558 530.274,-323.19"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="488.236,-351.987 482.566,-360.937 492.58,-357.477 488.236,-351.987"/>
+<g id="edge42" class="edge"><title>Node18&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M497.71,-354.493C510.606,-344.29 525.433,-332.558 537.274,-323.19"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="495.236,-351.987 489.566,-360.937 499.58,-357.477 495.236,-351.987"/>
 </g>
 </g>
 </svg>
