@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="941,83,1107,112"/>
+<area shape="rect" id="node16" href="$trap__utils_8hpp.html" title="core/common/trapgen/utils/trap_utils.hpp" alt="" coords="371,83,629,112"/>
+<area shape="rect" id="node37" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1331,83,1493,112"/>
+<area shape="rect" id="node27" href="$customExceptions_8hpp.html" title="core/common/trapgen/utils/customExceptions.hpp" alt="" coords="129,160,441,189"/>
+<area shape="rect" id="node39" href="$module_8h.html" title="core/common/signalkit_h/module.h" alt="" coords="1133,392,1357,421"/>
+<area shape="rect" id="node76" href="$adapter_8h.html" title="core/common/signalkit_h/adapter.h" alt="" coords="1133,237,1357,267"/>
+<area shape="rect" id="node90" href="$connect_8h.html" title="core/common/signalkit_h/connect.h" alt="" coords="1500,160,1727,189"/>
+<area shape="rect" id="node41" href="$in_8h.html" title="core/common/signalkit_h/in.h" alt="" coords="1380,547,1572,576"/>
+<area shape="rect" id="node52" href="$out_8h.html" title="core/common/signalkit_h/out.h" alt="" coords="1156,547,1356,576"/>
+<area shape="rect" id="node57" href="$inout_8h.html" title="core/common/signalkit_h/inout.h" alt="" coords="1357,469,1568,499"/>
+<area shape="rect" id="node62" href="$selector_8h.html" title="core/common/signalkit_h/selector.h" alt="" coords="967,469,1193,499"/>
+<area shape="rect" id="node70" href="$infield_8h.html" title="core/common/signalkit_h/infield.h" alt="" coords="764,547,980,576"/>
+<area shape="rect" id="node45" href="$signalkit__h_2base_8h.html" title="core/common/signalkit_h/base.h" alt="" coords="864,624,1075,653"/>
+<area shape="rect" id="node49" href="$ifs_8h.html" title="core/common/signalkit_h/ifs.h" alt="" coords="1159,624,1353,653"/>
+<area shape="rect" id="node78" href="$tlmin__scout__adapter_8h.html" title="core/common/signalkit_h/adapter_h/tlmin_scout_adapter.h" alt="" coords="681,315,1041,344"/>
+<area shape="rect" id="node82" href="$scin__tlmout__adapter_8h.html" title="core/common/signalkit_h/adapter_h/scin_tlmout_adapter.h" alt="" coords="1065,315,1425,344"/>
+<area shape="rect" id="node86" href="$tlmsc__inout__adapter_8h.html" title="core/common/signalkit_h/adapter_h/tlmsc_inout_adapter.h" alt="" coords="297,315,657,344"/>
+</map>

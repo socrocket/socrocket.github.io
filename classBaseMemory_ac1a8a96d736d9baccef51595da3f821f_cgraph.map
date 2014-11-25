@@ -1,0 +1,4 @@
+<map id="BaseMemory::scireg_write" name="BaseMemory::scireg_write">
+<area shape="rect" id="node3" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="199,13,399,43"/>
+<area shape="rect" id="node5" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="448,13,589,43"/>
+</map>

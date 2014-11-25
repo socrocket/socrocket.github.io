@@ -1,0 +1,6 @@
+<map id="APBUART::uart_ticks" name="APBUART::uart_ticks">
+<area shape="rect" id="node3" href="$classio__if.html#ab770abbc278117d4ff246166d3a0f38a" title="io_if::getReceivedChar" alt="" coords="223,5,377,35"/>
+<area shape="rect" id="node5" href="$group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f" title="APBUART::inc_fifo_level" alt="" coords="215,59,385,88"/>
+<area shape="rect" id="node7" href="$classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e" title="io_if::receivedChars" alt="" coords="231,112,369,141"/>
+<area shape="rect" id="node9" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="207,165,393,195"/>
+</map>

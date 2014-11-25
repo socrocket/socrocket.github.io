@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classgs_1_1amba_1_1amba__slave.html" title="{gs::amba::amba_slave\&lt; BUSWIDTH \&gt;\n|# m_base\l# m_high\l&#45; m_bus_read_data\l|+ amba_slave()\l+ ~amba_slave()\l+ transport_dbg()\l+ b_transport()\l+ setAddress()\l+ get_base_addr()\l+ get_size()\l+ set_delay()\l}" alt="" coords="60,139,311,381"/>
+<area shape="rect" id="node5" href="$classgs_1_1reg_1_1greenreg__socket_3_01gs_1_1amba_1_1amba__slave_3_0132_01_4_01_4.html" title="greenreg_socket: A greenreg port class" alt="" coords="5,429,365,549"/>
+</map>

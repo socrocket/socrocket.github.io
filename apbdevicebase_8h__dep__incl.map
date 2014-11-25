@@ -1,0 +1,20 @@
+<map id="core/models/utils/apbdevicebase.h" name="core/models/utils/apbdevicebase.h">
+<area shape="rect" id="node3" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="558,83,753,112"/>
+<area shape="rect" id="node5" href="$base_8cpp.html" title="core/common/base.cpp" alt="" coords="74,169,232,199"/>
+<area shape="rect" id="node7" href="$apbctrl_8h.html" title="core/models/apbctrl\l/apbctrl.h" alt="" coords="256,161,392,207"/>
+<area shape="rect" id="node22" href="$apbuart_8h.html" title="core/models/apbuart\l/apbuart.h" alt="" coords="677,161,816,207"/>
+<area shape="rect" id="node28" href="$models_2gptimer_2gptimer_8h.html" title="core/models/gptimer\l/gptimer.h" alt="" coords="1270,161,1409,207"/>
+<area shape="rect" id="node36" href="$models_2irqmp_2irqmp_8h.html" title="core/models/irqmp/irqmp.h" alt="" coords="477,169,653,199"/>
+<area shape="rect" id="node43" href="$mctrl_8h.html" title="core/models/mctrl/mctrl.h" alt="" coords="929,169,1100,199"/>
+<area shape="rect" id="node9" href="$apbctrl_8cpp.html" title="core/models/apbctrl\l/apbctrl.cpp" alt="" coords="33,257,169,303"/>
+<area shape="rect" id="node11" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="193,257,329,303"/>
+<area shape="rect" id="node15" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="514,353,696,399"/>
+<area shape="rect" id="node19" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="668,257,825,303"/>
+<area shape="rect" id="node13" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="193,353,329,399"/>
+<area shape="rect" id="node17" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="514,449,696,495"/>
+<area shape="rect" id="node24" href="$apbuart_8cpp.html" title="core/models/apbuart\l/apbuart.cpp" alt="" coords="849,257,988,303"/>
+<area shape="rect" id="node30" href="$gpcounter_8cpp.html" title="core/models/gptimer\l/gpcounter.cpp" alt="" coords="1484,257,1622,303"/>
+<area shape="rect" id="node32" href="$gptimer_8cpp.html" title="core/models/gptimer\l/gptimer.cpp" alt="" coords="1270,257,1409,303"/>
+<area shape="rect" id="node38" href="$irqmp_8cpp.html" title="core/models/irqmp/irqmp.cpp" alt="" coords="353,265,542,295"/>
+<area shape="rect" id="node45" href="$mctrl_8cpp.html" title="core/models/mctrl/mctrl.cpp" alt="" coords="1012,265,1196,295"/>
+</map>

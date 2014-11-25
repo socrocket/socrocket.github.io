@@ -1,0 +1,17 @@
+<map id="core/common/scireg.h" name="core/common/scireg.h">
+<area shape="rect" id="node3" href="$basememory_8h.html" title="core/models/memory\l/basememory.h" alt="" coords="659,83,803,130"/>
+<area shape="rect" id="node31" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="827,92,1005,121"/>
+<area shape="rect" id="node33" href="$scireg_8cpp.html" title="core/common/scireg.cpp" alt="" coords="1029,92,1195,121"/>
+<area shape="rect" id="node5" href="$memorypower_8h.html" title="core/models/memory\l/memorypower.h" alt="" coords="517,179,661,226"/>
+<area shape="rect" id="node23" href="$ahbmem_8h.html" title="core/models/ahbmem\l/ahbmem.h" alt="" coords="736,275,883,322"/>
+<area shape="rect" id="node29" href="$basememory_8cpp.html" title="core/models/memory\l/basememory.cpp" alt="" coords="768,179,912,226"/>
+<area shape="rect" id="node7" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="517,275,661,322"/>
+<area shape="rect" id="node21" href="$memorypower_8cpp.html" title="core/models/memory\l/memorypower.cpp" alt="" coords="349,275,493,322"/>
+<area shape="rect" id="node9" href="$block__allocator_8cpp.html" title="core/common/block_allocator.cpp" alt="" coords="5,380,221,409"/>
+<area shape="rect" id="node11" href="$json__parser_8cpp.html" title="core/common/json_parser.cpp" alt="" coords="245,380,443,409"/>
+<area shape="rect" id="node13" href="$memory_2memory_8cpp.html" title="core/models/memory\l/memory.cpp" alt="" coords="467,371,611,418"/>
+<area shape="rect" id="node15" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="635,371,792,418"/>
+<area shape="rect" id="node17" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="816,371,997,418"/>
+<area shape="rect" id="node19" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="816,467,997,514"/>
+<area shape="rect" id="node25" href="$ahbmem_8cpp.html" title="core/models/ahbmem\l/ahbmem.cpp" alt="" coords="1021,371,1168,418"/>
+</map>

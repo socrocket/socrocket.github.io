@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classwaflib_1_1Errors_1_1BuildError.html" title="{waflib::Errors::BuildError\n|+ tasks\l|+ __init__()\l+ format_error()\l}" alt="" coords="5,334,168,437"/>
+<area shape="rect" id="node7" href="$classwaflib_1_1Errors_1_1ConfigurationError.html" title="{waflib::Errors::ConfigurationError\n||}" alt="" coords="192,343,403,428"/>
+<area shape="rect" id="node9" href="$classwaflib_1_1Errors_1_1TaskNotReady.html" title="{waflib::Errors::TaskNotReady\n||}" alt="" coords="427,343,621,428"/>
+<area shape="rect" id="node11" href="$classwaflib_1_1Errors_1_1TaskRescan.html" title="{waflib::Errors::TaskRescan\n||}" alt="" coords="645,343,827,428"/>
+<area shape="rect" id="node13" href="$classwaflib_1_1Tools_1_1c__preproc_1_1PreprocError.html" title="{waflib::Tools::c_preproc::PreprocError\n|+ POPFILE\l+ recursion_limit\l+ go_absolute\l|}" alt="" coords="851,325,1093,445"/>
+<area shape="rect" id="node2" href="$classException.html" title="{Exception\n||}" alt="" coords="484,5,564,91"/>
+</map>

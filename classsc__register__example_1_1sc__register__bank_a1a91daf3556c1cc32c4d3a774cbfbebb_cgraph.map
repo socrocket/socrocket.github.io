@@ -1,0 +1,8 @@
+<map id="sc_register_example::sc_register_bank::scireg_get_child_regions" name="sc_register_example::sc_register_bank::scireg_get_child_regions">
+<area shape="rect" id="node3" href="$classsc__register__example_1_1sc__register__bank.html#a1ec52f44cbbb9c01e20cadcacc7857ee" title="sc_register_example\l::sc_register_bank::\lget_offset" alt="" coords="231,5,372,69"/>
+<area shape="rect" id="node5" href="$classsc__register__example_1_1sc__register__bank__base.html#aa6036c6759be35ef147a8d4bda11f44b" title="sc_register_example\l::sc_register_bank_base\l::get_registers" alt="" coords="220,93,383,157"/>
+<area shape="rect" id="node7" href="$classscireg__ns_1_1scireg__region__if.html#ac16a8921e02fcba18c67d5155ac4852f" title="scireg_ns::scireg_region\l_if::scireg_region_if" alt="" coords="220,181,383,227"/>
+<area shape="rect" id="node9" href="$group__common.html#ga68aa9e0f80d212a0e2a95087868790d4" title="scireg_ns::scireg_tool\l_registry::add_region" alt="" coords="432,181,581,227"/>
+<area shape="rect" id="node11" href="$group__common.html#gaab21758d99c1a0ee378b2406277f67a8" title="scireg_ns::scireg_tool\l_registry::check_allocation" alt="" coords="631,181,807,227"/>
+<area shape="rect" id="node13" href="$group__common.html#ga2e5651fa4057ce8a4e82b7e49ba9dcae" title="scireg_ns::scireg_tool\l_registry::destroy" alt="" coords="856,181,1005,227"/>
+</map>

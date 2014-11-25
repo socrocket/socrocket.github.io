@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{gs\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="firebrick4",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{reg::gr_device\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classreg_1_1gr__device.html"];
+  Node3 -> Node1 [dir=back,color="firebrick4",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{APBDevice andCLKDevice\nThis model can be used as a serial console for exchanging data or printing debug information\nThe model has several registers which are listed in table Further information can be found in RD04chapter\n\nAPB address offset Registerx0 UART Data registerx4 UART Status registerx8 UART Control registerxC UART Scaler registerTable APBUART Registerssection apbuart_p2 Interface\n\nThe GRLIB VHDL model of the APBUART is configured using Generics\nFor the implementation of the TLM model most of these Generics were refactored to constructor parameters of classAHBUART\nAn overview about the available parameters is given in table\n\nParameter Description\nname SystemC name of the module\nbackend Selects the IO backend to be used\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classAPBDevice_01andCLKDevice
+This_01model_01can_01be_01used_01as_01a_01serial_01console_01for_08268c36cc5d49c07d2417ad292e0abcf.html"];
+  Node4 -> Node1 [dir=back,color="firebrick4",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{currently only TCP available\npindex APB slave index\npaddr ADDR field of the APB BAR\npmask MASK field of the APB BAR\npirq Index of the interrupt line\nconsole Prints output from the UART on console during VHDL simulation and speeds up simulation by always returning ‘1’ for Data Ready bit of UART Status register Does not effect synthesis\npowmon Enable power monitoringTable APBUART Constructor Parameterssection apbuart_p3 Example Instantiation\n\nThis example shows how to instantiate the moduleAPBUART\nIn line the constructor is called to create the new object\nIn line the module is connected to the bus and in line the clock is set\nIn line the interrupts are connected via Signalkit\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcurrently_01only_01TCP_01available
+pindex_01APB_01slave_01index
+paddr_01ADDR_01field_01of_0cb4f9da303f68241037b02101041fbf4.html"];
+}

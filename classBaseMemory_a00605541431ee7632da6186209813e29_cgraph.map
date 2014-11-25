@@ -1,0 +1,4 @@
+<map id="BaseMemory::scireg_read" name="BaseMemory::scireg_read">
+<area shape="rect" id="node3" href="$group__memory.html#gaec8a7bc833a9f12928070debebcd0fa2" title="BaseMemory::read_block_dbg" alt="" coords="231,5,428,35"/>
+<area shape="rect" id="node5" href="$classStorage.html#a01af1f194e1844bfcf5a4a4a26d3e5f8" title="Storage::read_block" alt="" coords="477,5,616,35"/>
+</map>
