@@ -27,7 +27,7 @@
 <area shape="rect" id="node56" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="912,319,1085,348"/>
 <area shape="rect" id="node32" href="$report_8h.html" title="core/common/report.h" alt="" coords="3461,703,3611,732"/>
 <area shape="rect" id="node35" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="3165,789,3312,819"/>
-<area shape="rect" id="node53" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="3668,511,3831,540"/>
+<area shape="rect" id="node53" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="3668,511,3831,540"/>
 <area shape="rect" id="node64" href="$ahbslave_8h.html" title="core/models/utils/ahbslave.h" alt="" coords="4243,319,4429,348"/>
 <area shape="rect" id="node74" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="3101,319,3296,348"/>
 <area shape="rect" id="node96" href="$ahbmaster_8h.html" title="core/models/utils/ahbmaster.h" alt="" coords="2424,319,2621,348"/>

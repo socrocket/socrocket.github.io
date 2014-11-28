@@ -6,7 +6,7 @@
 <area shape="rect" id="node50" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="1016,197,1211,227"/>
 <area shape="rect" id="node74" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="1893,197,2083,227"/>
 <area shape="rect" id="node77" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="2285,275,2448,304"/>
-<area shape="rect" id="node125" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1480,457,1643,487"/>
+<area shape="rect" id="node125" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1480,457,1643,487"/>
 <area shape="rect" id="node11" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="496,657,691,703"/>
 <area shape="rect" id="node22" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="979,761,1139,791"/>
 <area shape="rect" id="node52" href="$apbdevicebase_8h.html" title="core/models/utils/apbdevicebase.h" alt="" coords="741,275,963,304"/>

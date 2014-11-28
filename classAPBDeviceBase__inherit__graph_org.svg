@@ -33,7 +33,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<a xlink:href="classAPBDevice.html" target="_top" xlink:title="{APBDevice\&lt; BASE \&gt;\n|# m_register\l# g_pindex\l# g_pvendorid\l# g_pdeviceid\l# g_pversion\l# g_pirq\l# g_paddr\l# g_pmask\l# g_ptype\l# g_pcacheable\l# g_pprefetchable\l|+ APBDevice()\l+ APBDevice()\l+ init_apb()\l+ init_apb_generics()\l+ ~APBDevice()\l+ get_apb_device_id()\l+ get_apb_vendor_id()\l+ get_apb_device_info()\l+ get_apb_type()\l+ get_apb_base()\land 8 more...\l}">
+<a xlink:href="classAPBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="194.5,-2238.5 194.5,-2561.5 315.5,-2561.5 315.5,-2238.5 194.5,-2238.5"/>
 <text text-anchor="middle" x="255" y="-2548.5" font-family="Helvetica,sans-Serif" font-size="10.00">APBDevice&lt; BASE &gt;</text>
 <polyline fill="none" stroke="black" points="194.5,-2540.5 315.5,-2540.5 "/>

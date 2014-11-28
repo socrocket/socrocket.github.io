@@ -18,7 +18,7 @@
 <area shape="rect" id="node60" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="2115,699,2275,746"/>
 <area shape="rect" id="node62" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="901,699,1061,746"/>
 <area shape="rect" id="node66" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="1085,699,1248,746"/>
-<area shape="rect" id="node41" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="3028,795,3191,824"/>
+<area shape="rect" id="node41" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="3028,795,3191,824"/>
 <area shape="rect" id="node73" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="865,612,1012,641"/>
 <area shape="rect" id="node81" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2784,603,2979,650"/>
 <area shape="rect" id="node99" href="$ahbdevice_8h.html" title="core/models/utils/ahbdevice.h" alt="" coords="2165,179,2360,208"/>

@@ -1,6 +1,6 @@
 <map id="core/common/msclogger.h" name="core/common/msclogger.h">
 <area shape="rect" id="node5" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="2336,83,2483,112"/>
-<area shape="rect" id="node46" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2552,535,2715,564"/>
+<area shape="rect" id="node46" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2552,535,2715,564"/>
 <area shape="rect" id="node7" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2745,621,2911,651"/>
 <area shape="rect" id="node17" href="$base_8h.html" title="core/common/base.h" alt="" coords="2240,160,2384,189"/>
 <area shape="rect" id="node72" href="$report_8h.html" title="core/common/report.h" alt="" coords="2653,247,2803,276"/>

@@ -5,7 +5,7 @@
 <area shape="rect" id="node36" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1347,335,1512,364"/>
 <area shape="rect" id="node54" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="1671,326,1860,373"/>
 <area shape="rect" id="node57" href="$dcio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/dcio_payload_extension.h" alt="" coords="1721,126,1913,173"/>
-<area shape="rect" id="node60" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1137,135,1300,164"/>
+<area shape="rect" id="node60" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1137,135,1300,164"/>
 <area shape="rect" id="node7" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="143,326,289,373"/>
 <area shape="rect" id="node29" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="465,326,652,373"/>
 <area shape="rect" id="node71" href="$common_8h.html" title="core/common/common.h" alt="" coords="919,239,1084,268"/>

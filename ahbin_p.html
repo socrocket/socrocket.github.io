@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: AHBIn - AHB Demonstration Input Device</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -67,27 +67,27 @@ Overview</h1>
 <h1><a class="anchor" id="ahbin_p2"></a>
 Interface</h1>
 <p>This component provides the typical AHB master generics refactored as constructor parameters of the class <code><a class="el" href="classAHBOut.html">AHBOut</a></code>. An overview about the available parameters is given in table 41.</p>
-<table class="doxtable">
-<tr>
-<th>Parameter </th><th>Description  </th></tr>
-<tr>
-<td>name </td><td>SystemC name of the module </td></tr>
-<tr>
-<td>hindex </td><td>The master index for registering with the AHB </td></tr>
-<tr>
-<td>hirq </td><td>The number of the IRQ raised for available data </td></tr>
-<tr>
-<td>framesize </td><td>The size of the data frame to be generated </td></tr>
-<tr>
-<td>frameaddr </td><td>The address the data is supposed to be copied </td></tr>
-<tr>
-<td>interval </td><td>The interval between data frames </td></tr>
-<tr>
-<td>pow_mon </td><td>Enable power monitoring </td></tr>
-<tr>
-<td>ambaLayer </td><td>TLM abstraction layer </td></tr>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 41 - AHBIN Constructor Parameters</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Parameter</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">name</td><td id="LastColumn">SystemC name of the module </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">hindex</td><td id="LastColumn">The master index for registering with the AHB </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">hirq</td><td id="LastColumn">The number of the IRQ raised for available data </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">framesize</td><td id="LastColumn">The size of the data frame to be generated </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">frameaddr</td><td id="LastColumn">The address the data is supposed to be copied </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">interval</td><td id="LastColumn">The interval between data frames </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">pow_mon</td><td id="LastColumn">Enable power monitoring </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">ambaLayer</td><td id="LastColumn">TLM abstraction layer </td></tr>
 </table>
-<p><em>Table 41 - AHBIN Constructor Parameters</em></p>
 <h1><a class="anchor" id="ahbin_p3"></a>
 Example Instantiation</h1>
 <p>This example shows how to instantiate the module AHBIN. In line 590 the constructor is called to create the new object. In line 601 the module is connected to the bus and in the next line the clock is set. In line 605 the interrupt output is connected via Signalkit.</p>
@@ -117,7 +117,7 @@ Example Instantiation</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

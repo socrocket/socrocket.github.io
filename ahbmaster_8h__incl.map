@@ -1,7 +1,7 @@
 <map id="core/models/utils/ahbmaster.h" name="core/models/utils/ahbmaster.h">
 <area shape="rect" id="node5" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1643,401,1813,431"/>
 <area shape="rect" id="node26" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1312,776,1477,805"/>
-<area shape="rect" id="node40" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="3216,689,3379,719"/>
+<area shape="rect" id="node40" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="3216,689,3379,719"/>
 <area shape="rect" id="node66" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="1144,237,1291,267"/>
 <area shape="rect" id="node106" href="$ahbdevice_8h.html" title="core/models/utils/ahbdevice.h" alt="" coords="1519,83,1713,112"/>
 <area shape="rect" id="node117" href="$msclogger_8h.html" title="core/common/msclogger.h" alt="" coords="3115,160,3291,189"/>

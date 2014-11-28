@@ -76,7 +76,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<a xlink:href="classAHBDevice.html" target="_top" xlink:title="{AHBDevice\&lt; BASE \&gt;\n|# g_bar1htype\l# g_bar2hmask\l# g_bar3hmask\l|+ AHBDevice()\l+ AHBDevice()\l+ init()\l+ init_ahb_generics()\l+ ~AHBDevice()\l+ get_ahb_device_id()\l+ get_ahb_vendor_id()\l+ get_ahb_device_info()\l+ get_ahb_base_addr_()\l+ get_ahb_base_addr()\land 13 more...\l}">
+<a xlink:href="classAHBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="730,-256.5 730,-475.5 852,-475.5 852,-256.5 730,-256.5"/>
 <text text-anchor="middle" x="791" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBDevice&lt; BASE &gt;</text>
 <polyline fill="none" stroke="black" points="730,-454.5 852,-454.5 "/>

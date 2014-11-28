@@ -11,5 +11,5 @@
 <area shape="rect" id="node65" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="939,257,1101,303"/>
 <area shape="rect" id="node26" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1404,448,1569,477"/>
 <area shape="rect" id="node37" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1413,361,1573,391"/>
-<area shape="rect" id="node41" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1176,361,1339,391"/>
+<area shape="rect" id="node41" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1176,361,1339,391"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="core/models/mmu_cache/lib/mmu_cache.h" name="core/models/mmu_cache/lib/mmu_cache.h">
 <area shape="rect" id="node3" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="2123,591,2293,620"/>
 <area shape="rect" id="node24" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1373,965,1539,995"/>
-<area shape="rect" id="node35" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="569,879,732,908"/>
+<area shape="rect" id="node35" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="569,879,732,908"/>
 <area shape="rect" id="node53" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="1195,399,1341,428"/>
 <area shape="rect" id="node73" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="221,198,411,245"/>
 <area shape="rect" id="node76" href="$dcio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/dcio_payload_extension.h" alt="" coords="5,198,197,245"/>

@@ -22,7 +22,7 @@
 <area shape="rect" id="node43" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="386,787,546,834"/>
 <area shape="rect" id="node47" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="819,787,979,834"/>
 <area shape="rect" id="node54" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="570,796,717,825"/>
-<area shape="rect" id="node79" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2431,492,2594,521"/>
+<area shape="rect" id="node79" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2431,492,2594,521"/>
 <area shape="rect" id="node97" href="$ahbslave_8h.html" title="core/models/utils/ahbslave.h" alt="" coords="1502,319,1689,348"/>
 <area shape="rect" id="node108" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="515,319,710,348"/>
 <area shape="rect" id="node134" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="2982,310,3171,357"/>

@@ -18,7 +18,7 @@
 <area shape="rect" id="node64" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="103,371,263,418"/>
 <area shape="rect" id="node66" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="2195,467,2355,514"/>
 <area shape="rect" id="node69" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="287,371,449,418"/>
-<area shape="rect" id="node45" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1547,476,1709,505"/>
+<area shape="rect" id="node45" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1547,476,1709,505"/>
 <area shape="rect" id="node76" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="2525,284,2672,313"/>
 <area shape="rect" id="node84" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2128,275,2323,322"/>
 <area shape="rect" id="node113" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="3073,371,3241,418"/>

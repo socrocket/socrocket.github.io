@@ -3,7 +3,7 @@
 <area shape="rect" id="node14" href="$irqPorts_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/irqPorts.hpp" alt="" coords="703,117,876,181"/>
 <area shape="rect" id="node17" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="439,230,586,277"/>
 <area shape="rect" id="node37" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="708,239,871,268"/>
-<area shape="rect" id="node97" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1084,135,1247,164"/>
+<area shape="rect" id="node97" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1084,135,1247,164"/>
 <area shape="rect" id="node29" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="252,326,439,373"/>
 <area shape="rect" id="node39" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="422,630,574,677"/>
 <area shape="rect" id="node76" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="596,422,748,469"/>

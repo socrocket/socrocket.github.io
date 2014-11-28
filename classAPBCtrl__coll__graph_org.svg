@@ -228,7 +228,7 @@
 </g>
 <!-- Node35 -->
 <g id="node92" class="node"><title>Node35</title>
-<a xlink:href="classAHBDevice.html" target="_top" xlink:title="{AHBDevice\&lt; BASE \&gt;\n|# g_bar1htype\l# g_bar2hmask\l# g_bar3hmask\l|+ AHBDevice()\l+ AHBDevice()\l+ init()\l+ init_ahb_generics()\l+ ~AHBDevice()\l+ get_ahb_device_id()\l+ get_ahb_vendor_id()\l+ get_ahb_device_info()\l+ get_ahb_base_addr_()\l+ get_ahb_base_addr()\land 13 more...\l}">
+<a xlink:href="classAHBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="1061,-784.5 1061,-1003.5 1183,-1003.5 1183,-784.5 1061,-784.5"/>
 <text text-anchor="middle" x="1122" y="-990.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBDevice&lt; BASE &gt;</text>
 <polyline fill="none" stroke="black" points="1061,-982.5 1183,-982.5 "/>

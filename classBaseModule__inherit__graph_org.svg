@@ -28,7 +28,7 @@
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="classAHBDevice.html" target="_top" xlink:title="{AHBDevice\&lt; BASE \&gt;\n|# m_register\l# g_bars\l# g_bar0\l# g_bar1\l# g_bar2\l# g_bar3\l# g_hindex\l# g_hvendorid\l# g_hdeviceid\l# g_hversion\land 21 more...\l|+ AHBDevice()\l+ AHBDevice()\l+ init()\l+ init_ahb_generics()\l+ ~AHBDevice()\l+ get_ahb_device_id()\l+ get_ahb_vendor_id()\l+ get_ahb_device_info()\l+ get_ahb_base_addr_()\l+ get_ahb_base_addr()\land 13 more...\l}">
+<a xlink:href="classAHBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="754,-2496.5 754,-2819.5 876,-2819.5 876,-2496.5 754,-2496.5"/>
 <text text-anchor="middle" x="815" y="-2806.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBDevice&lt; BASE &gt;</text>
 <polyline fill="none" stroke="black" points="754,-2798.5 876,-2798.5 "/>
@@ -64,7 +64,7 @@
 </g>
 <!-- Node23 -->
 <g id="node50" class="node"><title>Node23</title>
-<a xlink:href="classAPBDevice.html" target="_top" xlink:title="{APBDevice\&lt; BASE \&gt;\n|# m_register\l# g_pindex\l# g_pvendorid\l# g_pdeviceid\l# g_pversion\l# g_pirq\l# g_paddr\l# g_pmask\l# g_ptype\l# g_pcacheable\l# g_pprefetchable\l|+ APBDevice()\l+ APBDevice()\l+ init_apb()\l+ init_apb_generics()\l+ ~APBDevice()\l+ get_apb_device_id()\l+ get_apb_vendor_id()\l+ get_apb_device_info()\l+ get_apb_type()\l+ get_apb_base()\land 8 more...\l}">
+<a xlink:href="classAPBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="1317.5,-2496.5 1317.5,-2819.5 1438.5,-2819.5 1438.5,-2496.5 1317.5,-2496.5"/>
 <text text-anchor="middle" x="1378" y="-2806.5" font-family="Helvetica,sans-Serif" font-size="10.00">APBDevice&lt; BASE &gt;</text>
 <polyline fill="none" stroke="black" points="1317.5,-2798.5 1438.5,-2798.5 "/>

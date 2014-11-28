@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: AHBDevice&lt; BASE &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -63,6 +63,9 @@
 <div class="title">AHBDevice&lt; BASE &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__utils.html">Utils</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class is a base class for grlib models. It implements the device plug and play informations. Together with the <a class="el" href="classAHBCtrl.html">AHBCtrl</a> class it implements the plug and play feature of the grlib.  
+ <a href="classAHBDevice.html#details">More...</a></p>
 
 <p><code>#include &lt;ahbdevice.h&gt;</code></p>
 <div class="dynheader">
@@ -239,7 +242,9 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;class BASE = DefaultBase&gt;<br />
 class AHBDevice&lt; BASE &gt;</h3>
 
-<p>This class is a base class for grlib models. It implements the device plug and play informations. Together with the <a class="el" href="classAHBCtrl.html">AHBCtrl</a> class it implements the plug and play feature of the grlib. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="classAHBCtrl.html">AHBCtrl</a> </dd></dl>
+<p>This class is a base class for grlib models. It implements the device plug and play informations. Together with the <a class="el" href="classAHBCtrl.html">AHBCtrl</a> class it implements the plug and play feature of the grlib. </p>
+<p>All simulation models that are supposed to be connected to the TLM AHBCTRL must be derived from the class <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a>. Usually, this is indirectly done by inheriting from the <a class="el" href="classAHBMaster.html">AHBMaster</a> or <a class="el" href="classAHBSlave.html">AHBSlave</a> classes. The Aeroflex Gaisler AHBCTRL implements a Plug &amp; Play mechanism, which relies on configuration information that is collected from the attached masters and slaves. <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> models the respective configuration data records. The structure of these records is described in <a href="http://gaisler.com/products/grlib/grip.pdf">GRLIB IP Core User’s Manual</a>. At start_of_simulation the TLM AHBCTRL iterates through all connected modules to retrieve AHB bar &amp; mask and build up its internal routing table.</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classAHBCtrl.html">AHBCtrl</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a07b3ae59bf93307817bfb14aa1e3c25a"></a>
 <div class="memitem">
@@ -1833,7 +1838,7 @@ template&lt;class BASE = DefaultBase&gt; </div>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

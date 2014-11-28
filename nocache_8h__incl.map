@@ -1,7 +1,7 @@
 <map id="core/models/mmu_cache/lib/nocache.h" name="core/models/mmu_cache/lib/nocache.h">
 <area shape="rect" id="node3" href="$base_8h.html" title="core/common/base.h" alt="" coords="188,111,332,140"/>
 <area shape="rect" id="node5" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="233,607,398,636"/>
-<area shape="rect" id="node42" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1560,511,1722,540"/>
+<area shape="rect" id="node42" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1560,511,1722,540"/>
 <area shape="rect" id="node82" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1936,111,2098,140"/>
 <area shape="rect" id="node129" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="2168,102,2336,149"/>
 <area shape="rect" id="node134" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="2420,198,2588,245"/>

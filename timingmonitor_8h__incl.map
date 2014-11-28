@@ -1,5 +1,5 @@
 <map id="core/common/timingmonitor.h" name="core/common/timingmonitor.h">
-<area shape="rect" id="node9" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="231,83,393,112"/>
+<area shape="rect" id="node9" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="231,83,393,112"/>
 <area shape="rect" id="node21" href="$common_8h.html" title="core/common/common.h" alt="" coords="527,160,692,189"/>
 <area shape="rect" id="node23" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="351,237,516,267"/>
 <area shape="rect" id="node33" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="584,237,744,267"/>

@@ -3,7 +3,7 @@
 <area shape="rect" id="node28" href="$base_8h.html" title="core/common/base.h" alt="" coords="1017,352,1161,381"/>
 <area shape="rect" id="node30" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1184,813,1349,843"/>
 <area shape="rect" id="node41" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1396,439,1567,468"/>
-<area shape="rect" id="node57" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1596,727,1759,756"/>
+<area shape="rect" id="node57" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1596,727,1759,756"/>
 <area shape="rect" id="node85" href="$gpcounter_8h.html" title="core/models/gptimer\l/gpcounter.h" alt="" coords="1257,257,1396,303"/>
 <area shape="rect" id="node91" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="2015,439,2177,468"/>
 <area shape="rect" id="node119" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="1273,101,1468,131"/>

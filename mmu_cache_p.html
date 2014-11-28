@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: mmu_cache - Memory Management Unit and Cache</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -55,7 +55,659 @@
 <div class="title"><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a> - <a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> Management Unit and Cache </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"></div></div><!-- contents -->
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#mmu_cache_p_1">Functionality and Features</a><ul><li class="level2"><a href="#mmu_cache_p_1_1">Overview</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_2">Address Space Identifiers (ASI)</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_3">System and Control Registers</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_4">Data Cache Snooping</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_5">Instruction burst fetch</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_6">Cache Flushing</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_7">Freezing and Locking</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_8">Diagnostic Access</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_9">Payload Extensions</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_10">Debug Mechanism</a></li>
+<li class="level2"><a href="#mmu_cache_p_1_11">Power Monitoring</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#mmu_cache_p_2">Interface</a></li>
+<li class="level1"><a href="#mmu_cache_p_3">Internal Structure</a><ul><li class="level2"><a href="#mmu_cache_p_3_1">Files of the mmu_cache library</a><ul><li class="level3"><a href="#mmu_cache_p_3_1_1">The defines.h file</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_2">The payload_extension files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_3">The mem_if.h file</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_4">The mmu_cache_if.h file</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_5">The cache_if.h file</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_6">The mmu_cache.h/cpp files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_7">The vectorcache.h/cpp files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_8">The ivectorcache.h/cpp files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_9">The dvectorcache.h/cpp files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_10">The localram.h/cpp files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_11">The mmu.h/cpp files</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_1_12">The tlb_adaptor.h file</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#mmu_cache_p_3_2">LT Behaviour</a><ul><li class="level3"><a href="#mmu_cache_p_3_2_1">Instruction transactions</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_2_2">Data transactions</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#mmu_cache_p_3_3">AT Behaviour</a><ul><li class="level3"><a href="#mmu_cache_p_3_3_1">Instruction transactions</a></li>
+<li class="level3"><a href="#mmu_cache_p_3_3_2">Data transactions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><a href="#mmu_cache_p_4">The AHB master</a></li>
+<li class="level1"><a href="#mmu_cache_p_5">Compilation</a></li>
+<li class="level1"><a href="#mmu_cache_p_6">Example Instantiation</a></li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="mmu_cache_p_1"></a>
+Functionality and Features</h1>
+<h2><a class="anchor" id="mmu_cache_p_1_1"></a>
+Overview</h2>
+<p>The <code>MMU_CACHE</code> SystemC IP models behaviour and timing of the Gaisler GRLIB Harvard L1 Cache, Localrams and GRLIB <a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> Management Unit (MMU). The respective VHDL reference is the <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> entity of the GRLIB hardware library.</p>
+<p>The structure of the Cache Sub-System is depicted in Figure 4. The top-level class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> provides two TLM 2.0 <code>simple_target_sockets</code> ( <code>icio</code> , <code>dcio</code> ) for communication with the LEON ISS and one Carbon/GreenSocs <code>amba_master_socket</code> for the connection to the AHBCTRL. All the sub-components, such as the mmu, the caches and the localrams are implemented in plain C++.</p>
+<p>Equivalent to the hardware model the caches can be directly mapped, 2-way, 3-way or 4-way set associative. For multi-set configurations LRU, LRR and pseudo-random replacement are supported. The size of the cache sets can be between 1 and 64 kBytes, with 16 or 32 bytes per line. The caches can be flushed, frozen or locked on a line-by-line basis. The write policy of the data cache is write-through with no-allocate on write miss. The caches can be separately disabled. In that case requests from the ISS are directly forwarded to the AHB master or the MMU (if enabled).</p>
+<p>The model also provides instruction and data scratchpads (localrams), with zero-waitstate access to up to 512 kByte of memory.</p>
+<p>The MMU can also be optionally enabled. The MMU page size is 4, 8, 16 or 32 kByte. The TLBs can hold between 2 and 32 page descriptors. In case of a page miss a 3-level table walk is carried out on main memory. Similar to the localrams, instantiation of the mmu is done by late binding depending on configuration parameters. The caches connect to the mmu through <code><a class="el" href="classtlb__adaptor.html">tlb_adaptor</a></code> objects. The <code>tlb_adaptors</code> present a unified memory interface towards the caches ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ). The same memory interface is used to provide access to the AHB master socket on top-level. This way it can be dynamically decided whether a request from one of the caches shall be forwarded to a shared or common TLB (virtual addressing), or directly go to the AHB interface (physical addressing).</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>insert missing picture</dd></dl>
+<p><b>Figure 4 - Structure of Cache Sub-System</b></p>
+<h2><a class="anchor" id="mmu_cache_p_1_2"></a>
+Address Space Identifiers (ASI)</h2>
+<p>SPARC processors generate an 8-bit address space identifier (ASI), to provide access to up to 256 separate 32-bit address spaces. A big share of the ASIs is used for control of the cache sub-system. A list of the ASIs supported by the TLM model is given in Table 19.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 19 - Supported ASIs</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">ASI</th><th id="MiddleColumn">Address</th><th id="LastColumn">Usage </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x01</td><td id="MiddleColumn">any</td><td id="LastColumn">Forced cache miss </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x02</td><td id="MiddleColumn">0x00</td><td id="LastColumn">Cache control register </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x04</td><td id="LastColumn">Reserved </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x08</td><td id="LastColumn">Instruction cache configuration register </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x0c</td><td id="LastColumn">Data cache configuration register </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0xff</td><td id="LastColumn">Trigger debug output </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x08,0x09,0x0A,0x0B</td><td id="MiddleColumn">any</td><td id="LastColumn">Normal cache access </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x0c</td><td id="MiddleColumn">see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a></td><td id="LastColumn">Access instruction cache tags </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x0d</td><td id="MiddleColumn">see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a></td><td id="LastColumn">Access instruction cache data </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x0e</td><td id="MiddleColumn">see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a></td><td id="LastColumn">Access data cache tags </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x0f</td><td id="MiddleColumn">see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a></td><td id="LastColumn">Access data cache data </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x15</td><td id="MiddleColumn">see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a></td><td id="LastColumn">Flush instruction cache </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x16</td><td id="MiddleColumn">see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a></td><td id="LastColumn">Flush data cache </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">0x19</td><td id="MiddleColumn">0x000</td><td id="LastColumn">MMU control register </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x100</td><td id="LastColumn">MMU Context pointer register </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x200</td><td id="LastColumn">MMU Context register </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x300</td><td id="LastColumn">MMU Fault status register </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn"></td><td id="MiddleColumn">0x400</td><td id="LastColumn">MMU Fault address register </td></tr>
+</table>
+<p>ASIs are emitted by the data interface of the processor. For this purpose an extension has been linked to the data cache payload object ( <code>dcio_payload_extensions</code> ). For more information about payload extensions see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_9">Payload Extensions</a>.</p>
+<p>The ASIs are decoded in the <code>exec_data</code> function of class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code>. The decoder maps the ASIs to API functions of the corresponding sub-components (caches, mmu). The API functions are described in section <a class="el" href="mmu_cache_p.html#mmu_cache_p_2">Interface</a>.</p>
+<h2><a class="anchor" id="mmu_cache_p_1_3"></a>
+System and Control Registers</h2>
+<p>The cache sub-system is controlled by a set of system registers, which can be accessed using ASIs.</p>
+<p>Three of the mentioned registers are dedicated to the caches (ASI 0x02). The Cache Control Register (CCR, see below) effects both, data and instruction cache. Therefore, it is implemented on top-level ( <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> ). Moreover, each of the caches has its own private Configuration Register (CR, see below). The CRs describe structure and size of the caches and are read-only.</p>
+<p><a class="anchor" id="mmu_cache_CCR"></a></p><table  class="register_view">
+<caption align="bottom">CACHE CONTROL REGISTER</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">24 </th><th class="bit">23 </th><th class="bit">22 </th><th class="bit">21 </th><th class="begin">20 </th><th></th><th></th><th class="end">17 </th><th class="bit">16 </th><th class="bit">15 </th><th class="bit">14 </th><th class="begin">13 </th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">6 </th><th class="bit">5 </th><th class="bit">4 </th><th class="begin">3 </th><th class="end">2 </th><th class="begin">1 </th><th class="end">0 </th></tr>
+<tr>
+<td colspan="8">empty </td><td colspan="1">DS </td><td colspan="1">FD </td><td colspan="1">FI </td><td colspan="4">empty </td><td colspan="1">IB </td><td colspan="1">IP </td><td colspan="1">DP </td><td colspan="8">empty </td><td colspan="1">DF </td><td colspan="1">IF </td><td colspan="2">DCS </td><td colspan="2">ICS </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">CACHE CONTROL REGISTER Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 24</td><td>empty</td><td>empty  </td></tr>
+<tr>
+<td>23</td><td>DS</td><td>Data cache snoop enable: If set, will enable data cache snooping (todo).  </td></tr>
+<tr>
+<td>22</td><td>FD</td><td>Flush data cache: If set, will flush the instruction cache. Always reads zero.  </td></tr>
+<tr>
+<td>21</td><td>FI</td><td>Flush instruction cache: If set, will flush the instruction cache. Always reads zero.  </td></tr>
+<tr>
+<td>20 - 17</td><td>empty</td><td>empty  </td></tr>
+<tr>
+<td>16</td><td>IB</td><td>Instruction burst fetch: This bit enables burst fill during instruction fetch.  </td></tr>
+<tr>
+<td>15</td><td>IP</td><td>Instruction cache flush pending (not supported)  </td></tr>
+<tr>
+<td>14</td><td>DP</td><td>Data cache freeze on interrupt (not supported)  </td></tr>
+<tr>
+<td>13 - 6</td><td>empty</td><td>empty  </td></tr>
+<tr>
+<td>5</td><td>DF</td><td></td></tr>
+<tr>
+<td>4</td><td>IF</td><td>Instruction cache freeze on interrupt (not supported)  </td></tr>
+<tr>
+<td>3 - 2</td><td>DCS</td><td>Data cache state: Indicates the current data cache state according to the following: X0 = disable, 01 = frozen, 11 = enabled.  </td></tr>
+<tr>
+<td>1 - 0</td><td>ICS</td><td>Instruction cache state: Indicates the current instruction cache state according to the following: X0 = disabled, 01 = frozen, 11 = enabled.  </td></tr>
+</table>
+<p><a class="anchor" id="mmu_cache_CR"></a></p><table  class="register_view">
+<caption align="bottom">ICACHE &amp; DCACHE Configuration Register</caption>
+<tr>
+<th class="bit">31 </th><th></th><th class="begin">29 </th><th class="end">28 </th><th class="bit">27 </th><th class="begin">26 </th><th></th><th class="end">24 </th><th class="begin">23 </th><th></th><th></th><th class="end">20 </th><th class="bit">19 </th><th class="begin">18 </th><th></th><th class="end">16 </th><th class="begin">15 </th><th></th><th></th><th class="end">12 </th><th class="begin">11 </th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">4 </th><th class="bit">3 </th><th></th><th></th><th class="end">0 </th></tr>
+<tr>
+<td colspan="1">CL </td><td colspan="1" class="empty">&#160; </td><td colspan="2">REPL </td><td colspan="1">SN </td><td colspan="3">SETS </td><td colspan="4">SSIZE </td><td colspan="1">LR </td><td colspan="3">LSIZE </td><td colspan="4">LRSIZE </td><td colspan="8">LRSTART </td><td colspan="1">M </td><td colspan="3" class="empty">&#160; </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">ICACHE &amp; DCACHE Configuration Register Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31</td><td>CL</td><td>Cache looking: If set, cache locking is implemented 30]()  </td></tr>
+<tr>
+<td>29 - 28</td><td>REPL</td><td>Cache replacement policy: 00 = non (direct mapped), 01 = least recently used (LRU), 10 = least recently used (LRR), 11 = random  </td></tr>
+<tr>
+<td>27</td><td>SN</td><td>Data cache snooping: Set if snooping is implemented  </td></tr>
+<tr>
+<td>26 - 24</td><td>SETS</td><td>Number of sets in the cache: 000 = direct mapped, 001 = 2-way associative, 010 = 3-way associative, 011 = 4-way associative  </td></tr>
+<tr>
+<td>23 - 20</td><td>SSIZE</td><td>Set size: Indicates the size (Kbytes) of each cache set (Size = 2^SSIZE).  </td></tr>
+<tr>
+<td>19</td><td>LR</td><td>Local RAM: Set if local scratchpad is present.  </td></tr>
+<tr>
+<td>18 - 16</td><td>LSIZE</td><td>Line size: Indicates the size (words) of each cache line (Line size = 2^LSIZE).  </td></tr>
+<tr>
+<td>15 - 12</td><td>LRSIZE</td><td>Local RAM size: Indicates the size (Kbytes) of the implemented scratchpad RAM (Size = 2^LRSIZE).  </td></tr>
+<tr>
+<td>11 - 4</td><td>LRSTART</td><td>Local RAM start address: Indicates the 8 most significant bits of the local RAM start address.  </td></tr>
+<tr>
+<td>3</td><td>M</td><td>MMU present: Set if MMU is present 2:0]()  </td></tr>
+</table>
+<p>The MMU is controlled by five 32-bit registers, which can be accessed with ASI 0x19 (see below). All of them are implemented in class <code>mmu</code>.</p>
+<p><a class="anchor" id="mmu_cache_r1"></a></p><table  class="register_view">
+<caption align="bottom">MMU Control Register</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">1 </th><th class="bit">0 </th></tr>
+<tr>
+<td colspan="31">not used </td><td colspan="1">E </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">MMU Control Register Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 1</td><td>not used</td><td></td></tr>
+<tr>
+<td>0</td><td>E</td><td>From the MMU Control Register only one bit is implemented in the TLM model. It is used to enable and disable the MMU.  </td></tr>
+</table>
+<p><a class="anchor" id="mmu_cache_r2"></a></p><table  class="register_view">
+<caption align="bottom">Context Pointer Register</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">2 </th><th></th><th class="end">0 </th></tr>
+<tr>
+<td colspan="30">Context Table Pointer </td><td colspan="2" class="empty">&#160; </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">Context Pointer Register Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 2</td><td>Context Table Pointer</td><td>The Context Pointer Register points to the Context Table in main memory. It forms bit 35 – 6 of the physical address. The table is indexed by the contents of the Context Register.  </td></tr>
+</table>
+<p><a class="anchor" id="mmu_cache_r3"></a></p><table  class="register_view">
+<caption align="bottom">Context Register</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">0 </th></tr>
+<tr>
+<td colspan="32">Context Number </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">Context Register Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 0</td><td>Context Number</td><td>The Context Register contains the number of the current context and defines which of the possible address spaces is used for address translation.  </td></tr>
+</table>
+<p><a class="anchor" id="mmu_cache_r4"></a></p><table  class="register_view">
+<caption align="bottom">Fault Status Register</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">0 </th></tr>
+<tr>
+<td colspan="32">Not implemented yet </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">Fault Status Register Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 0</td><td>Not implemented yet</td><td>The Fault Status Register provides information on exceptions (faults) issued by the MMU. It is currently not implemented and reads as 0.  </td></tr>
+</table>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>is this implemented now?</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>fix issue fix bracket handling in register table</dd></dl>
+<p><a class="anchor" id="mmu_cache_r5"></a></p><table  class="register_view">
+<caption align="bottom">Fault Address Register</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">0 </th></tr>
+<tr>
+<td colspan="32">Fault address (not implemented yet </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">Fault Address Register Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 0</td><td>Fault address (not implemented yet</td><td>) The Fault Address Register contains the virtual memory address of the fault recorded in the Fault Status Register. It is currently not implemented and reads as 0.  </td></tr>
+</table>
+<h2><a class="anchor" id="mmu_cache_p_1_4"></a>
+Data Cache Snooping</h2>
+<p>The <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> IP supports data cache snooping. Snooping can be enabled by setting bit 23 of the Cache Control Register. The model provides a SignalKit input <code>snoop</code>. The constructor of <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> registers a callback function ( <code>snoopingCallBack</code> ). The AHBCTRL triggers this function on every write operation. Via the <code>snoop</code> input the callback receives the bus id of the responsible master, the target address and the length of the write operation. If the master id does not equal the own id and dcache as well as dcache snooping are enabled, <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> calls the <code>snoop_invalidate</code> function of dcache. The latter checks, whether the access is directed to a locally cached address. If the address is cached, the affected entries are invalidated.</p>
+<h2><a class="anchor" id="mmu_cache_p_1_5"></a>
+Instruction burst fetch</h2>
+<p>Instruction burst fetch can be enabled by setting the <b>IB</b> bit of the Cache Control Register (<a class="el" href="mmu_cache_p.html#mmu_cache_CCR">CCR</a>). In burst fetch mode the respective cache line is filled from main memory starting at the missed address until the end of the line. For this purpose the AHB master executes a burst transfer. The RTL reference model forwards the incoming instructions directly to the processor (streaming). In case of internal dependencies or multi-cycle instructions, the processor stalls until the whole line is cached. The TLM model has a slightly simplified behavour. It will always complete the burst, before sending instructions to the ISS. Burst fetch with disabled instruction cache is not supported. If the instruction cache is disabled, instructions are always being fetch using single transfers (NONSEQ).</p>
+<h2><a class="anchor" id="mmu_cache_p_1_6"></a>
+Cache Flushing</h2>
+<p>The instruction cache and the data cache can be flushed in multiple ways. If the processor sends a <code>flush</code> instruction, both caches are flushed simultaneously. The <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> recognizes a flush via the <code>flush</code> payload extension. The hardware model of the <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> additionally provides two more input fields <code>flushl</code> and <code>fline</code>. They seems to be intended to flush certain cache lines, but are currently not used. The TLM model provides respective payload extension, to be future-proof.</p>
+<p>A flush of only the instruction cache can be triggered by setting bit 21 (FI) of the Cache Control Register or by any write operation with ASI 0x15. Equally, the data cache may be flushed by setting bit 22 (FD) of the Cache Control Register or by any write operation with ASI 0x16.</p>
+<h2><a class="anchor" id="mmu_cache_p_1_7"></a>
+Freezing and Locking</h2>
+<p>The instruction cache and/or the data cache can be frozen by setting the <code>ICS</code> and/or the <code>DCS</code> field of the Cache Control Register to "01" (<a class="el" href="mmu_cache_p.html#mmu_cache_CCR">CCR</a>). A cache in frozen state is accessed and kept in sync with the main memory as if it was enabled, but no new lines are allocated on read misses.</p>
+<p>Bit 31 of the two Cache Configuration Registers configures cache line locking. A cache line can be locked by setting the lock bit of a line. This can be done by a diagnostic write to the cache tag (<a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a>). Locked cache lines will be updated on read-miss and will remain in the cache until the line is unlocked.</p>
+<h2><a class="anchor" id="mmu_cache_p_1_8"></a>
+Diagnostic Access</h2>
+<p>Most of the internal data structures of cache and mmu can be accessed for diagnostic purpose via dedicated ASIs.</p>
+<p>The tag and data RAMs of instruction and data cache can be read and written using ASI 0x0C – 0x0F (see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_2">Address Space Identifiers (ASI)</a>). Addressing and alignment of data are equivalent to the mechanism described in section 55.5.2. of <a href="http://gaisler.com/products/grlib/grlib.pdf">GRLIB IP Library User’s Manual</a>.</p>
+<div class="fragment"><div class="line">ADDRESS = WAY &amp; LINE &amp; <a class="code" href="hpi__new_8c.html#aad9ae913bdfab20dd94ad04ee2d5b045">DATA</a> &amp; <span class="stringliteral">&quot;00&quot;</span></div>
+</div><!-- fragment --><h2><a class="anchor" id="mmu_cache_p_1_9"></a>
+Payload Extensions</h2>
+<p>The communication between the processor and the Cache Sub-System requires additional information to be attached to the TLM 2.0 generic payload. The extensions are modeled in two classes:</p>
+<ul>
+<li><a class="el" href="classicio__payload__extension.html" title="Payload extensions for TLM instruction cache target socket. ">icio_payload_extension</a>.{h,cpp} - extensions for instruction cache socket</li>
+<li><a class="el" href="classdcio__payload__extension.html" title="Payload extensions for TLM data cache target socket. ">dcio_payload_extension</a>.{h,cpp} - extensions for data cache socket</li>
+</ul>
+<p>Both classes declare a debug extension, which is modeled as a 32bit unsigned integer. The usage of the debug extension is explained in <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_10">Debug Mechanism</a>.</p>
+<p>The <code>dcio</code> extension additionally contains fields for cache flushing, bus locking and the address space identifier ( <code>asi</code> ). All are represented by 32 bit unsigned integers.</p>
+<p>The <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> checks all incoming transactions for the presence of the payload extensions. For data transactions this is done in function <code>exec_data</code> , for instruction transactions in function <code>exec_instr</code>. An error message is generated, if the extensions are not available.</p>
+<h2><a class="anchor" id="mmu_cache_p_1_10"></a>
+Debug Mechanism</h2>
+<p>The cache sub-system is a rather complex model. Hence, for assertion-based verification, it is not sufficient to simply check whether the data response on a request is correct. It is also important to know in which way the result was produced (e.g. cache hit/miss).</p>
+<p>For this purpose a 32bit unsigned integer extension has been attached to the generic payload of the <code>icio</code> / <code>dcio</code> sockets. A set of macros is provided for handling the debug extension. The encoding the <code>debug</code> field is shown below. The macro definitions can be found in the file <code>defines.h</code> of the <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> library.</p>
+<p><a class="anchor" id="mmu_cache_debug"></a></p><table  class="register_view">
+<caption align="bottom">Debug Extension</caption>
+<tr>
+<th class="begin">31 </th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">22 </th><th class="bit">21 </th><th class="begin">20 </th><th></th><th></th><th></th><th class="end">16 </th><th class="bit">15 </th><th class="bit">14 </th><th class="bit">13 </th><th class="bit">12 </th><th class="begin">11 </th><th></th><th></th><th></th><th></th><th></th><th></th><th class="end">4 </th><th class="begin">3 </th><th class="end">2 </th><th class="begin">1 </th><th class="end">0 </th></tr>
+<tr>
+<td colspan="10">reserved </td><td colspan="1">MMUS </td><td colspan="5">TLBN </td><td colspan="1">reserved </td><td colspan="1">FM </td><td colspan="1">CB </td><td colspan="1">SP </td><td colspan="8">reserved </td><td colspan="2">CST </td><td colspan="2">CS </td></tr>
+</table>
+<table  class="register_list">
+<caption align="bottom">Debug Extension Description</caption>
+<tr class="register_list_header">
+<th class="register_table_bits">Bits</th><th>Id</th><th>Description </th></tr>
+<tr>
+<td>31 - 22</td><td>reserved</td><td></td></tr>
+<tr>
+<td>21</td><td>MMUS</td><td>MMU state: 0 – TLB hit; 1- TLB miss  </td></tr>
+<tr>
+<td>20 - 16</td><td>TLBN</td><td>TLB number: for TLB hit – number of the TLB that delivered the hit for TLB miss – number of the TLB that was refilled by the miss  </td></tr>
+<tr>
+<td>15</td><td>reserved</td><td></td></tr>
+<tr>
+<td>14</td><td>FM</td><td>Frozen miss: If the cache is frozen, no new lines are allocated on a read miss. However, unvalid data will be replaced as long the tag of the line does not change. In case the results of a read miss is not cached, the FM bit is switched on.  </td></tr>
+<tr>
+<td>13</td><td>CB</td><td>Cache bypass: Is set to 1, if cache bypass was used (cache disabled in CCR)  </td></tr>
+<tr>
+<td>12</td><td>SP</td><td>Scratchpad: Is set to 1, if the request was answered by the local scratchpad RAM  </td></tr>
+<tr>
+<td>11 - 4</td><td>reserved</td><td></td></tr>
+<tr>
+<td>3 - 2</td><td>CST</td><td>Cache State: 00 – read hit, 01 – read miss, 10 – write hit, 11 – write miss  </td></tr>
+<tr>
+<td>1 - 0</td><td>CS</td><td>Cache Set: for read/write hit – number of set which produced the hit for read miss – number of set refilled by miss processing for write miss – 0b00 (no allocate on write miss)  </td></tr>
+</table>
+<h2><a class="anchor" id="mmu_cache_p_1_11"></a>
+Power Monitoring</h2>
+<p>Power monitoring can be enabled by setting the constructor parameter <code>pow_mon</code> to true. Enabling power monitoring for the top-level <a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a> instance also enables power monitoring for all sub-components. The model is annotated with default power information that has been gathered using a generic 90nm Standard-Cell Library and statistical power estimation at Gate-Level.</p>
+<p>The accuracy of the build-in power models and the default switching energy settings cannot be guaranteed. In order to achieve the best possible results the user is recommended to annotate the design with custom target-technology dependent power information.</p>
+<p>The power models of the <a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a>, the i/d caches, the localrams and the mmu; all required parameters, and default settings are explained in the SoCRocket Power Modeling Report [RD11].</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Todo:</a></b></dt><dd>power modeling report?</dd></dl>
+<h1><a class="anchor" id="mmu_cache_p_2"></a>
+Interface</h1>
+<p>The GRLIB VHDL model of the MMU_CACHE is configured using Generics. For the implementation of the TLM model most of these Generics were refactored to constructor parameters of class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> (Table 24). The parameters of the top-level class are used for the configuration of all sub-components (caches, localrams, mmu).</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 24 - Constructor Configuration Parameters</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Parameter</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">icen</td><td id="LastColumn">Enable instruction cache </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">irepl</td><td id="LastColumn">Icache replacement strategy 00 = non, 01 = LRU, 10 = LRR, 11 = random </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">isets</td><td id="LastColumn">Number of instruction cache sets (1-4) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ilinesize</td><td id="LastColumn">Indicates size of instruction cache line in words (line size = 2^ilinesize, ilinesize &lt;= 3) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">isetsize</td><td id="LastColumn">Indicates size (kbytes) of instruction cache set(set size = 2^isetsize, isetsize &lt;= 6 (max 64 kbytes)) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">isetlock</td><td id="LastColumn">Enable instruction cache locking </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dcen</td><td id="LastColumn">Enable data cache </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">drepl</td><td id="LastColumn">Dcache replacement strategy00 = non, 01 = LRU, 10 = LRR, 11 = random </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dsets</td><td id="LastColumn">Number of data cache sets (1-4) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dlinesize</td><td id="LastColumn">Indicates size of data cache line in words(line size = 2^dlinesize, dlinesize &lt;= 3 ) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dsetsize</td><td id="LastColumn">Indicates size (kbytes) of data cache set(set size = 2^dsetsize, dsetsize &lt;= 6 (max. 64 kbytes)) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dsetlock</td><td id="LastColumn">Enable data cache locking </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dsnoop</td><td id="LastColumn">Enable data cache snooping </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ilram</td><td id="LastColumn">Enable instruction scratchpad </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ilramsize</td><td id="LastColumn">Indicates size of instruction scratchpad in kbytes(size = 2^ilramsize, ilramsize &lt;= 9 (max. 512 kbytes)) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ilramstart</td><td id="LastColumn">8 MSB bits used to decode local instruction RAM area (16 MB segm.) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dlram</td><td id="LastColumn">Enable data scratchpad </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dlramsize</td><td id="LastColumn">Indicates size of data scratchpad in kbytes(size = 2^dlramsize, dlramsize &lt;= 9 (max. 512 kbytes)) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dlramstart</td><td id="LastColumn">8 MSB bits used to decode local data RAM area (16 MB segment) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">cached</td><td id="LastColumn">Fixed cacheability mask (overrides AMBA Plug &amp; Play settings) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">mmu_en</td><td id="LastColumn">Enable MMU </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">itlb_num</td><td id="LastColumn">Indicates number of instruction TLBs(tlb number = 2^itlb_num, itlb_num &lt;= 5 (max. 32)) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dtlb_num</td><td id="LastColumn">Indicates number of data TLBs(tlb number = 2^dtlb_num, dtlb_num &lt;= 5 (max. 32)) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">tlb_type</td><td id="LastColumn">TLB implementation type0 = separate, 1 = shared instruction and data TLB </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">tlb_rep</td><td id="LastColumn">TLB replacement policy0 = LRU, 1 = random </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">mmupgsz</td><td id="LastColumn">MMU page size0, 2 = 4kbytes, 3 = 8kbytes, 4 = 16kbytes, 5 = 32kbytes </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">name</td><td id="LastColumn">SystemC name of module </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">id</td><td id="LastColumn">ID of the AHB bus master </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">pow_mon</td><td id="LastColumn">Enable power monitoring </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">abstractionLayer</td><td id="LastColumn">Abstraction/Coding style of the model (LT or AT) </td></tr>
+</table>
+<p>The system-level interface of the model comprises two TLM 2.0 <code>simple_target_sockets</code> ( <code>icio</code> , <code>dcio</code> ) and one GreenSocs/Carbon AHB master socket ( <code>ahb_master</code> ).</p>
+<div class="fragment"><div class="line">tlm_utils::simple_target_socket&lt;mmu_cache&gt; icio / bind to CPU instruction socket</div>
+<div class="line">tlm_utils::simple_target_socket&lt;mmu_cache&gt; dcio / bind to CPU data socket</div>
+<div class="line">amba::amba_master_socket&lt;32&gt; ahb_master         / bind to AMBA system bus</div>
+</div><!-- fragment --><p>Depending on the constructor parameter <code>abstractionLayer</code> the sockets are configured for blocking (LT) or non-blocking (AT) communication. In the LT case the module registers one TLM blocking transport function for the <code>dcio</code> and one for the <code>icio</code> socket. In the AT case the model registers one TLM non-blocking forward transport function for the <code>dcio</code> and one for the <code>icio</code> socket, and one TLM non-blocking backward transport function for the <code>ahb_master</code> socket. Additionally, the model comes with debug transport functions, for non-intrusive code execution (TRAP) and checking. The signatures of all transport functions are compliant with the TLM2.0 standard. Next to the TLM sockets the model contains SignalKit inputs for data bus snooping ( <code>snoop</code> ), clock cycle time ( <code>clk</code> ) and reset ( <code>rst</code> ). The clk and <code>rst</code> inputs are inherited from class <code><a class="el" href="classCLKDevice.html">CLKDevice</a></code> , while <code>snoop</code> is directly defined in <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code>.</p>
+<h1><a class="anchor" id="mmu_cache_p_3"></a>
+Internal Structure</h1>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>move this section to the respective files?</dd></dl>
+<p>This section describes the internal structure and the behavior of the MMU_CACHE SystemC IP. The model consists of multiple classes, which are spread over a number of source files, all of which can be found in the <code>models/mmu_cache/lib</code> directory.</p>
+<h2><a class="anchor" id="mmu_cache_p_3_1"></a>
+Files of the mmu_cache library</h2>
+<h3><a class="anchor" id="mmu_cache_p_3_1_1"></a>
+The defines.h file</h3>
+<p>This file contains data type definitions and macros, and is included by almost all the other files of the library.</p>
+<p>It defines the structure of the cachelines ( <code><a class="el" href="structt__cache__line.html">t_cache_line</a></code> ), the data cache entries ( <code><a class="el" href="uniont__cache__data.html">t_cache_data</a></code> ), the cache tags ( <code><a class="el" href="structt__cache__tag.html">t_cache_tag</a></code> ), the mmu page table entries ( <code><a class="el" href="structt__PTE__context.html">t_PTE_context</a></code> ) and the virtual address tags ( <code>t_VAT</code> ). Moreover, the file contains macros for handling the debug payload extension (<a class="el" href="mmu_cache_p.html#mmu_cache_p_1_10">Debug Mechanism</a>).</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_2"></a>
+The payload_extension files</h3>
+<p>The TLM MMU_CACHE owns two <code>tlm::simple_target_sockets</code> for connection to the instruction and data sockets of the processor simulator. These connections implement a simple point-to-point communication, which can be widely realized relying on TLM 2.0 generic payload. Only a few optional payload extensions are required.</p>
+<p>The payload extensions for the instruction cache input/output socket ( <code>icio</code> ) are implemented in the files <code>icio_payload_extensions.h/cpp</code> :</p>
+<div class="fragment"><div class="line"><span class="comment">// extensions</span></div>
+<div class="line"><span class="comment">// ----------</span></div>
+<div class="line"><span class="comment"></span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="cache_8c.html#a0a9e9396972b76c5947592479860020d">flush</a>;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> flushl;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fline;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * <a class="code" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">debug</a>;</div>
+</div><!-- fragment --><p>The payload extensions for the data cache input/output socket ( <code>dcio</code> ) are implemented in the files <code>dcio_payload_extensions.h/cpp</code> :</p>
+<div class="fragment"><div class="line"><span class="comment">// extensions</span></div>
+<div class="line"><span class="comment">// ----------</span></div>
+<div class="line"><span class="comment"></span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> asi;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="cache_8c.html#a0a9e9396972b76c5947592479860020d">flush</a>;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> flushl;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> lock;</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * <a class="code" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">debug</a>;</div>
+</div><!-- fragment --><h3><a class="anchor" id="mmu_cache_p_3_1_3"></a>
+The mem_if.h file</h3>
+<p>The <code>mem_if.h</code> file defines a generic memory interface that is directly or indirectly implemented by almost all the classes of the MMU_CACHE (Figure 5).</p>
+<p>The class <code><a class="el" href="classmem__if.html">mem_if</a></code> is an abstract class with two virtual member functions:</p>
+<div class="fragment"><div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> mem_write(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> length, sc_core::sc_time * t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * debug, <span class="keywordtype">bool</span> is_dbg) {};</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> mem_read(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> length, sc_core::sc_time * t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * debug, <span class="keywordtype">bool</span> is_dbg) {};</div>
+</div><!-- fragment --><p>The interface is implemented by the top-level class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> , the caches, the localrams and the mmu ( <code>tlb_adapters</code> ). As a consequence the modules of the <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> library can be bound to each other like building blocks. For example, depending on the <code>dcen</code> and <code>mmu_en</code> constructor parameters, transactions from the data socket ( <code>dcio</code> ) can be directed to the cache, to the mmu or to the ahb master. Transactions from the dcache or icache are directly forwarded to the ahb master or to the mmu.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>inlucde image from word doc</dd></dl>
+<p><b>Figure 5 - Generic <a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> Interface / Dependencies</b></p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_4"></a>
+The mmu_cache_if.h file</h3>
+<p>The <code><a class="el" href="classmmu__cache__if.html">mmu_cache_if</a></code> class extends the <code><a class="el" href="classmem__if.html">mem_if</a></code> class by two functions for reading and writing the Cache Control Register (CCR).</p>
+<div class="fragment"><div class="line"><span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_ccr();</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> write_ccr(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> len,</div>
+<div class="line"> sc_time *delay, <span class="keywordtype">bool</span> is_dbg);</div>
+</div><!-- fragment --><p>The CCR is implemented at the top-level of class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> _._ The caches and the mmu require access to the CCR at runtime. Therefore, they receive a pointer of type <code><a class="el" href="classmmu__cache__if.html">mmu_cache_if</a></code> as a constructor argument.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_5"></a>
+The cache_if.h file</h3>
+<p>The <code><a class="el" href="classcache__if.html">cache_if</a></code> class is another extension of class <code><a class="el" href="classmem__if.html">mem_if</a></code>. It describes the interface of all cache models in the system. Next to reading or writing data ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ), caches must allow to flush data, to read/write cache tags/entries, to access configuration registers and to handle snooping:</p>
+<div class="fragment"><div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="cache_8c.html#a0a9e9396972b76c5947592479860020d">flush</a>(sc_core::sc_time * t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * debug, <span class="keywordtype">bool</span> is_dbg) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> read_cache_tag(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data,</div>
+<div class="line">sc_core::sc_time *t) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> write_cache_tag(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data,</div>
+<div class="line">sc_core::sc_time *t) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> read_cache_entry(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data,</div>
+<div class="line">sc_core::sc_time *t) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> write_cache_entry(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data,</div>
+<div class="line">sc_core::sc_time *t) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_config_reg(sc_core::sc_time *t) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> check_mode() = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> snoop_invalidate(<span class="keyword">const</span> <a class="code" href="structt__snoop.html">t_snoop</a> &amp;snoop,</div>
+<div class="line"><span class="keyword">const</span> sc_core::sc_time&amp; delay) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> clkcng(sc_core::sc_time &amp;clk) = 0;</div>
+<div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> dbg_out(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> line) = 0;</div>
+</div><!-- fragment --><p>Next to the data cache ( <code>dvectorcache</code> ) and the instruction cache ( <code>ivectorcache</code> ), the interface is implemented by the plain structural module <code>nocache</code>. In case one of the caches is not present in the system (disabled via <code>i/dcen</code> constructor parameters), the <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> binds one or two instances of <code>nocache</code>. The nocache class implements stubs for all <code><a class="el" href="classcache__if.html">cache_if</a></code> functions. Forbidden operations generate an error message.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_6"></a>
+The mmu_cache.h/cpp files</h3>
+<p>The files declare and implement the top-level class of the MMU_CACHE. The class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> implements the <code><a class="el" href="classmmu__cache__if.html">mmu_cache_if</a></code> interface and instantiates all sub-modules depending on the selected configuration. All sub-components are dynamically created in the constructor of the class. The instantiation depends on parametrization options (see Fehler! Verweisquelle konnte nicht gefunden werden.). In case a certain module is not required, a NULL pointer will be assigned. If the mmu is enabled, the caches use the memory interfaces ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ) of the instruction <code>tlb_adapters</code> and data <code>tlb_adapters</code> for miss processing, otherwise they are directly connect to the ahb master.</p>
+<p>The following pointers provide access to the APIs of all subordinate components:</p>
+<ul>
+<li>ivectorcache* icache - instruction cache pointer</li>
+<li>dvectorcache* dcache - data cache pointer</li>
+<li>mmu* m_mmu - memory management unit</li>
+<li>localram* ilocalram - instruction scratchpad</li>
+<li>localram* dlocalram - data scratchpad</li>
+</ul>
+<p>All sub-components are implemented in plain C++, for highest possible simulation speed.</p>
+<p>MMU_CACHE also inherits from class <code><a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a></code> and class <code><a class="el" href="classCLKDevice.html">CLKDevice</a></code>. From <code><a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> <a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> receives a PNP configuration record for identification as an AHB master. Class <code><a class="el" href="classCLKDevice.html">CLKDevice</a></code> provides an unified interface for clock and reset distribution, that is shared with most of the components in the SoCRocket library. The timing information received via the <code>clk</code> SignalKit input is distributed to all sub-components by function <code>clkcng</code>.</p>
+<p>As the top-level class, <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> implements the interface to the outside TLM world. Next to a GreenSocs/Carbon AHB master socket ( <code>ahb_master</code> ), the class contains two TLM 2.0 <code>simple_target_sockets</code> for connection to the instruction and data ports of the processor simulator (Table 25).</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 25 - TLM Sockets Cache Sub-System</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">icio</td><td id="MiddleColumn">TLM2 / simple_target_socket (LT)</td><td id="LastColumn">Instruction cache in/out </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dcio</td><td id="MiddleColumn">TLM2 / simple_target_socket (LT)</td><td id="LastColumn">Data cache in/out </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">ahb_master</td><td id="MiddleColumn">GreenSocs / amba_master_socket (LT)</td><td id="LastColumn">AHB bus master </td></tr>
+</table>
+<p>With respect to the TLM 2.0 standard the TLM interface of the <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> supports two levels of accuracy: loosely timed (LT) and approximately timed (AT). The abstraction level can be selected via the <code>abstractionLayer</code> constructor parameter. The LT interface is described in <a class="el" href="mmu_cache_p.html#mmu_cache_p_3_2">LT Behaviour</a> and the AT interface in <a class="el" href="mmu_cache_p.html#mmu_cache_p_3_3">AT Behaviour</a>. Both interfaces map the incoming transactions to functions that encapsulate the behaviour of the model. Instruction transactions invoke <code>exec_instr</code> and data transactions <code>exec_data</code>.</p>
+<p>The <code>exec_instr</code> function is very compact. After extracting the payload object and verifying the extension, the <code>tlm_command</code> attribute is checked. TLM read commands are translated into calls to the <code>read</code> ( <code><a class="el" href="classmem__if.html">mem_if</a>)</code> function of the <code>icache</code> or <code>ilocalram</code>. Because the instruction cache is read only, TLM write requests cause a TLM_COMMAND_ERROR_RESPONSE and an error message to be printed on the screen.</p>
+<p>The <code>exec_data</code> function is more deeply structured. The main reason is the decoder for the address space identifiers (ASIs – see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_2">Address Space Identifiers (ASI)</a>). The ASI is implemented as a mandatory extension to the TLM 2.0 generic payload. Depending on the ASI the <code>exec_data</code> function maps the incoming transactions to the APIs of the different sub-components. Default cache access is performed for ASIs 0x8, 0x9, 0xa and 0xb. Other modes are used to access system registers (0x2), tag rams (0xc, 0xe), cache data blocks (0xd, 0xf), mmu internal registers (ASI 0x19) and more. For every transaction the payload extensions are checked. TLM read commands are translated into calls to the <code>read</code> ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ) function of the <code>dcache</code> or the <code>dlocalram</code>. If the <code>dcache</code> is disabled the transactions are forwarded to the <code>mmu</code> or to the <code>ahb_master</code> socket.</p>
+<p>The class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> also contains the Cache Control Register (CCR) and its access functions <code>read_ccr</code> and <code>write_ccr</code> (see Table 20).</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_7"></a>
+The vectorcache.h/cpp files</h3>
+<p>The files <code>vectorcache.h</code> and <code><a class="el" href="vectorcache_8cpp.html">vectorcache.cpp</a></code> form the base class for the implementation of the instruction cache (ivectorcache) and the data cache (dvectorcache). Class vectorcache implements the <code><a class="el" href="classcache__if.html">cache_if</a></code> API and provides almost all the functionality required by both caches. In the following these functions are briefly described:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> read(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> len, sc_core::sc_time * t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * debug, <span class="keywordtype">bool</span> is_dbg);</div>
+</div><!-- fragment --><p>The <code>read</code> ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ) function is called for any type of load operation (byte, short, word, dword). The length of the access in bytes is given by the <code>len</code> parameter. The <code>address</code> is split into a cache tag and a cache index portion. The respective line is loaded from all sets and compared against the index. If one of the tags equals the index and the valid bit is set, the cache entry is copied to the <code>*data</code> pointer (read hit). In case the tags do not match or the valid bit is not set, the request is forwarded to the ahb interface or to the mmu (read miss). After miss processing, the fresh data is filled into the cache and copied to the <code>*data</code> pointer.</p>
+<p>The <code>is_dbg</code> flag signals that the read function was called in a TLM debug transport.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> write(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> \* data, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> len, sc_core::sc_time \* t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> \* debug, <span class="keywordtype">bool</span> is_dbg);</div>
+</div><!-- fragment --><p>The <code>write</code> ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ) function is called for any type of store operation (byte, short, word, dword). The length of the access in bytes is given by the <code>len</code> parameter. The address is split into a cache tag and a cache index portion. The respective line is loaded from all sets and compared against the index. If one of the tags equals the index and the valid bit is set, the respective data entry is updated and the request is forwarded to the mmu or the ahb interface (write hit). If the tag does not match or the valid bit is not set the request directly goes to mmu or ahb interface (write miss). The cache will not be updated on a write miss. The write policy is write-through with no-allocate on write miss.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="cache_8c.html#a0a9e9396972b76c5947592479860020d">flush</a>(sc_core::sc_time * t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * debug);</div>
+<div class="line">Flushes the cache_. _During a cache flush all valid data in the cache is transferred to <a class="code" href="irqTester_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> memory <span class="keywordflow">for</span> synchronization.</div>
+<div class="line">void read_cache_tag(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data, sc_time *t);</div>
+<div class="line"><span class="keywordtype">void</span> write_cache_tag(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data, sc_time *t);</div>
+<div class="line"><span class="keywordtype">void</span> read_cache_entry(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data, sc_core::sc_time *t);</div>
+<div class="line"><span class="keywordtype">void</span> write_cache_entry(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data, sc_time *t);</div>
+</div><!-- fragment --><p>These functions are used for diagnostic access to cache tags and cache entries (see <a class="el" href="mmu_cache_p.html#mmu_cache_p_1_8">Diagnostic Access</a>).</p>
+<div class="fragment"><div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_config_reg(sc_core::sc_time \*t);</div>
+</div><!-- fragment --><p>Returns the configuration register of the cache. The Cache Configuration Register is initialized in the constructor of class <b><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></b>. The register is read only.</p>
+<div class="fragment"><div class="line"><span class="keyword">virtual</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> check_mode() = 0;</div>
+</div><!-- fragment --><p>A cache can be in one of three different modes of operation: enabled, disabled or frozen. The current mode can be deterimend by checking the Cache Control Register, which is implemented in the top-level class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code>. Depending on the type of cache (instruction or data) the DCS or ICS bits of the CCR must be checked. Therefore, the <code>check_mode</code> function is plain virtual. The function must be overwritten by the actual <code>icache</code> or <code>dcache</code> implementation.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_8"></a>
+The ivectorcache.h/cpp files</h3>
+<p>The class <code>ivectorcache</code> contains the actual implementation of the instruction cache. The class inherits from class <code>vectorcache</code>. The write function is overwritten, because the instruction cache is not writable. A call to the write function produces an error message and stops the simulation.</p>
+<p>The class implements the virtual function <code>check_mode</code>. For checking the mode of operation the ICS bits of the Cache Control Register are used.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_9"></a>
+The dvectorcache.h/cpp files</h3>
+<p>The class <code>dvectorcache</code> contains the actual implementation of the data cache. The class inherits from class <code>vectorcache</code>.</p>
+<p>The virtual <code>check_mode</code> function is implemented. For checking the mode of operation the DCS bits of the Cache Control Register are used.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_10"></a>
+The localram.h/cpp files</h3>
+<p>The class <code>localram</code> models a fast scratchpad memory that can be attached to both instruction and data cache controllers. It implements the generic memory interface <code><a class="el" href="classmem__if.html">mem_if</a></code>. The actual memory is implemented as a character array ( <code>scratchpad</code> ).</p>
+<h3><a class="anchor" id="mmu_cache_p_3_1_11"></a>
+The mmu.h/cpp files</h3>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>what is RD08?</dd></dl>
+<p>The files implement the memory management unit of the MMU_CACHE. The component was modeled following the recommendations for the SparcV8 reference MMU given in [RD08]. The class <code>mmu</code> receives the number of instruction TLBs, the number of data TLBs, the TLB type, the TLB replacement policy and the mmu page size as constructor arguments. Depending on the TLB type two split TLBs or one shared TLB is generated for instructions and data. The TLBs are implemented as a <code>std::map</code>. The key for a TLB lookup is a virtual address tag ( <code>t_VAT</code> ). The caches connect to the mmu through <code>tlb_adapter</code> objects (<a class="el" href="mmu_cache_p.html#mmu_cache_p_3_1_12">The tlb_adaptor.h file</a>). In shared TLB mode only one adapter is generated. Next to the adapter objects the class <code>mmu</code> offers a set of API functions. The most important of these functions is:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> tlb_lookup(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, std::map&lt;t_VAT, t_PTE_context&gt; * tlb, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> tlb_size, sc_core::sc_time * t, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * debug);</div>
+</div><!-- fragment --><p>The <code>tlb_lookup</code> function is responsible for translating virtual addresses into physical addresses. It receives the virtual address and a TLB pointer as input arguments. In the body of the function the virtual address is split into three indices. The bit width of these indices depends on the virtual page size. The following page sizes and index combinations are supported (Table 26):</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 26 - Page size / index combinations</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">virt. page size</th><th id="MiddleColumn">idx 1</th><th id="MiddleColumn">idx 2</th><th id="LastColumn">idx 3 </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">4kb</td><td id="MiddleColumn">8 bit</td><td id="MiddleColumn">6 bit</td><td id="LastColumn">6 bit </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">8kb</td><td id="MiddleColumn">7 bit</td><td id="MiddleColumn">6 bit</td><td id="LastColumn">6 bit </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">16kb</td><td id="MiddleColumn">6 bit</td><td id="MiddleColumn">6 bit</td><td id="LastColumn">6 bit </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">32kb</td><td id="MiddleColumn">4 bit</td><td id="MiddleColumn">7 bit</td><td id="LastColumn">6 bit </td></tr>
+</table>
+<p>In case of a TLB miss the indices are used for addressing the page tables in main memory. A successful read of a page table returns either a page table descriptor (PTD) or a page table entry (PTE). A PDC is a pointer to the next-level page table, while a PTE corresponds to an actual TLB entry. Up to three page table levels are supported.</p>
+<p>The <code>mmu</code> contains a set of internal control registers. These registers can be accessed through ASI 0x19 (Table 22). Respectivly read and write requests are translated into calls to following functions:</p>
+<div class="fragment"><div class="line"><span class="comment">// read mmu internal registers (ASI 0x19)</span></div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_mcr();</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_mctpr();</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_mctxr();</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_mfsr();</div>
+<div class="line"><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> read_mfar();</div>
+<div class="line"><span class="comment">// write mmu internal registers (ASI 0x19)</span></div>
+<div class="line"><span class="keywordtype">void</span> write_mcr(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+<div class="line"><span class="keywordtype">void</span> write_mctpr(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+<div class="line"><span class="keywordtype">void</span> write_mctxr(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+</div><!-- fragment --><p>Another group of member functions is dedicated to diagnostic TLB access. The addressing of the different bit fields can be taken from [RD08].</p>
+<div class="fragment"><div class="line"><span class="comment">// diagnostic read/write of instruction PDC (ASI 0x5)</span></div>
+<div class="line"><span class="keywordtype">void</span> diag_read_itlb(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+<div class="line"><span class="keywordtype">void</span> diag_write_itlb(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+<div class="line"><span class="comment">// diagno. read/write of data PDC or shared instruction and data PDC (ASI 0x6)</span></div>
+<div class="line"><span class="keywordtype">void</span> diag_read_dctlb(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+<div class="line"><span class="keywordtype">void</span> diag_write_dctlb(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> * data);</div>
+</div><!-- fragment --><h3><a class="anchor" id="mmu_cache_p_3_1_12"></a>
+The tlb_adaptor.h file</h3>
+<p>The class <code>tlb_adapter</code> implements the generic memory interface <code><a class="el" href="classmem__if.html">mem_if</a></code>. Depending on the configuration the <code>mmu</code> creates one or two objects of type <code>tlb_adapter</code> , which provide access to the instruction and/or data tlb. Pointers to these objects can be obtained by calling the mmu API functions <code>get_itlb_if</code> and <code>get_dtlb_if</code>.</p>
+<h2><a class="anchor" id="mmu_cache_p_3_2"></a>
+LT Behaviour</h2>
+<p>The LT mode of the MMU_CACHE is intended for fast register accurate simulation (programmers view).</p>
+<h3><a class="anchor" id="mmu_cache_p_3_2_1"></a>
+Instruction transactions</h3>
+<p>For instruction fetch the model provides the <code>icio</code><code>simple_target_socket</code>. In LT mode this socket is bound to the<code>icio_b_transport</code>blocking transport function. Incoming transactions are directly forwarded to the<code>exec_instr</code>function (<a class="el" href="mmu_cache_p.html#mmu_cache_p_3_1_6">The mmu_cache.h/cpp files</a>), which models the functional interface of the<code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code>IP. Depending on the configuration<code>exec_instr</code>performs a lookup of the instruction cache or loads data from the instruction scratchpad. Cache misses or bypass operations create a transaction on the<code>ahb_master</code>socket. If<code>mmu_en</code>is set all addresses are considered virtual and will be translated to physical addresses by the mmu. In the meantime the processor is blocked. The<code>exec_instr</code>function returns the accumulated delay of all involved sub-components. Before unblocking the master the<code>icio_b_transport</code> function calls wait to consume the component delay.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_2_2"></a>
+Data transactions</h3>
+<p>For data load/store the model provides the <code>dcio simple_target_socket</code>. In LT mode this socket is bound to the <code>dcio_b_transport</code> blocking transport function. Similar to instruction fetch, incoming transactions are directly forwarded to a function encapsulating the behaviour of the data cache. Depending on the configuration and the settings contained in the payload extensions the <code>exec_data</code> function performs a lookup of the data cache, loads/store of the instruction or data scratchpad or read/writes of internal registers. Cache misses or bypass operations create a transaction on the <code>ahb_master</code> socket. If <code>mmu_en</code> is set all addresses are considered virtual and will be translated to physical addresses by the mmu. In the meantime the processor is blocked. The <code>exec_data</code> function returns the accumulated delay of all involved sub-components. Before unblocking the master the <code>dcio_b_transport</code> function calls wait to consume the component delay.</p>
+<h2><a class="anchor" id="mmu_cache_p_3_3"></a>
+AT Behaviour</h2>
+<p>The AT mode of the MMU_CACHE is intended for architecture exploration and RTL co-simulation. It contains multiple parallel threads, which are not present in LT mode.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_3_1"></a>
+Instruction transactions</h3>
+<p>Instruction transactions arrive in the <code>icio_nb_transport_fw</code> function with phase <code>BEGIN_REQ</code>. The function enters the transaction in the <code>icio_PEQ</code> payload event queue and returns to the master with <code>END_REQ</code> and <code>TLM_UPDATED</code>. The SC_THREAD <code>icio_service_thread</code> is sensitive to the default event of <code>icio_PEQ</code>. It invokes the <code>exec_instr</code> function for every transaction from the queue. As already mentioned, <code>exec_instr</code> encapsulates the functional part of the model. Within <code>exec_instr</code> the payload is processed in the same way as described for LT mode. After return from <code>exec_instr</code> the <code>icio_service_thread</code> consumes the accumulated delay of all involved <a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a> sub-components. Afterwards, the master is notified by sending <code>BEGIN_RESP</code> on the backward path. The master may reply with <code>TLM_COMPLETED</code> or <code>TLM_ACCEPTED</code>. A final <code>END_RESP</code> from the master will be accepted, but is not required.</p>
+<h3><a class="anchor" id="mmu_cache_p_3_3_2"></a>
+Data transactions</h3>
+<p>In AT mode the constructor of <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> registers a non-blocking transport function at the <code>dcio simple_target_socket (dcio_nb_transport_fw)</code>. The <code>dcio_nb_transport_fw</code> function is called at every phase change of a data transaction. New transactions arrive with phase<code>BEGIN_REQ</code>. The transport function enters the transaction in the<code>dcio_PEQ</code>payload event queue and returns to the master with<code>END_REQ</code>and<code>TLM_UPDATED</code>. The<code>dcio_PEQ</code>is used to forward the transaction to the SC_THREAD<code>dcio_service_thread</code>. It invokes the<code>exec_data</code>function for every transaction from the queue. Within<code>exec_data</code>the payload is processed in the same way as described for LT mode. After return from<code>exec_data</code>the<code>dcio_service_thread</code>consumes the accumulated delay of all involved<code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code>sub-components. Afterwards, the master is notified by sending<code>BEGIN_RESP</code>on the backward path. The master may reply with<code>TLM_COMPLETED</code>or<code>TLM_ACCEPTED</code>. Similar to instruction transactions, a final<code>END_RESP</code> from the master will be accepted, but is not required.</p>
+<h1><a class="anchor" id="mmu_cache_p_4"></a>
+The AHB master</h1>
+<p>Class <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> implements the <code><a class="el" href="classmem__if.html">mem_if</a></code> memory interface, to provide access to the <code>ahb_master</code> socket, for all modules of the library.</p>
+<p>For read transaction this invokes function <code>mem_read</code>. Every call to mem_read creates a new payload object. The payload is taken from the transaction pool provided by the GreenSocs/Carbon ahb socket. Target address and payload pointer of the original transaction are copied. Next to the default payload attributes, the function initializes a set of ahb specific extensions:</p>
+<ul>
+<li><code>amba::amba_burst_size</code> - Relates to the streaming width of the AHB bus. The actual size of a burst (in bytes) is given by the length parameter.</li>
+<li><code>amba::amba_id</code> - The AHB master id of the module.</li>
+<li><code>amba::amba_trans_type</code> - AHB transfer type extension. Since all transfers are modeled in a single transaction trans_type is always NON_SEQUENTIAL.</li>
+</ul>
+<p>After setting up the payload the <code>mem_read</code> function checks the <code>is_dbg</code> flag and the <code>abstractionLayer</code> parameter. In debug mode the transaction is send using the untimed TLM debug transport interface:</p>
+<div class="fragment"><div class="line">ahb-&gt;transport_dbg(*<a class="code" href="fft_8c.html#a261dc6445544ab3a09e5f50b961887b5">trans</a>)</div>
+</div><!-- fragment --><p>In LT mode mem_read invokes a blocking transport:</p>
+<div class="fragment"><div class="line">ahb-&gt;b_transport(*<a class="code" href="fft_8c.html#a261dc6445544ab3a09e5f50b961887b5">trans</a>, delay)</div>
+</div><!-- fragment --><p>After returning from <code>b_transport</code> the model synchronizes with the SystemC scheduler by calling <code>wait</code>. This consumes the accumulated delay of the AHB transfer.</p>
+<p>In AT mode the bus transfer is modeled using multiple phases. This requires a non-blocking backward transport function ( <code>ahb_nb_transport_bw</code> ) to be bound to the <code>ahb_master</code> socket and a number of SC_THREADs. If <code>mem_read</code> is called in AT mode the AHB transfer is initialized by sending <code>BEGIN_REQ</code> on the forward path:</p>
+<div class="fragment"><div class="line">ahb-&gt;nb_transport_fw(*<a class="code" href="fft_8c.html#a261dc6445544ab3a09e5f50b961887b5">trans</a>, phase, delay);</div>
+</div><!-- fragment --><p>In the AHBCTRL this causes the transaction to be scheduled for arbitration. The bus model will reply with TLM_ACCEPTED. The signal for successful arbitration is END_REQ being received on the backward path. At the time of END_REQ the ahb_nb_transport_bw function notifies the mEndRequestEvent, which unblocks the mem_read function. For read operations END_REQ is directly followed by BEGIN_RESP. A BEGIN_RESP from the AHBCTRL triggers the ResponseThread (via mResponsePEQ). The ResponseThread is responsible for sending END_RESP to the AHBCTRL. Moreover, it forwards the transaction to the cleanUP thread. The latter returns the transaction to the memory pool with a delay of 100 <code>clock_cycles</code>. The additional lifetime of the transaction guarantees that the data pointer can be savely copied by the master.</p>
+<p>Write transactions are processed in a very similar way. Modules writing to the <code>ahb_master</code> socket use the <code>mem_write</code> ( <code><a class="el" href="classmem__if.html">mem_if</a></code> ) interface function. The <code>mem_write</code> function obtains a payload object from the memory pool and initializes all data members including the mentioned ahb specific extensions. The <code>mem_write</code> function also distinguishes between debug, blocking (LT) and non-blocking (AT) communication. While debug and blocking communication are trivial, the non-blocking communication differs from the standard TLM protocol. This is due to the pipelined nature of AHB.</p>
+<p>AHB communication is split into two phases: address and data. RTL slaves sample the address at the first clock edge and the data at the second. The data phase of the first transaction equals the address phase of the second (succeeding) one. Especially for write transactions from RTL masters to TLM slaves, the TLM standard protocol is insufficient. The slave can never know, when the data pointer of a transaction becomes valid. Therefore, the <code>BEGIN_RESP</code> phase of the standard protocol has been replaced by phase <code>BEGIN_DATA</code> , which is directed from the master to the slave. The <code>END_RESP</code> phase is replaced by phase <code>END_DATA</code>. <code>END_DATA</code> is send by the slave and indicates the end of a write operation.</p>
+<p>The <code>mem_write</code> function initiates a bus transfer by sending BEGIN_REQ on the forward path. Equal to read operations the AHBCTRL will reply with END_REQ (backward path), as soon the master has won arbitration. After receiving END_REQ the <code>ahb_nb_transport_bw</code> function notifies the <code>mEndRequestEven</code> t. Moreover, the transaction is forwarded to SC_THREAD <code>DataThread</code> (via <code>mDataPEQ</code> ). The <code>DataThread</code> sends <code>BEGIN_DATA</code> to the AHBCTRL. As soon as the bus has sent <code>END_DATA</code> (via backward or return path), the transaction is considered complete. To make sure all pointers can be properly saved, the payload is returned to the memory pool with a delay of 100 <code>clock_cycles</code> ( <code>mEndTransactionPEQ</code> ).</p>
+<h1><a class="anchor" id="mmu_cache_p_5"></a>
+Compilation</h1>
+<p>For the compilation of the MMU_CACHE IP, a WAF wscript is provided and integrated in the superordinate build mechanism of the library.</p>
+<p>All required objects for simulating the MMU_CACHE on platform level are compiled in a sub-library named <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> using following command: </p><pre class="fragment">$ ./waf –target=mmu_cache
+</pre><p>To utilize <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> in simulations with other components, add <code><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></code> to the use list of your wscript.</p>
+<h1><a class="anchor" id="mmu_cache_p_6"></a>
+Example Instantiation</h1>
+<p>The example below demonstrates the instantiation of the MMU_CACHE inside an <code>sc_main</code> or an arbitrary top-level class. The instantiating module needs to include at least <code>mmu_cache.h</code> and <code>amba.h</code>. The MMU_CACHE is created in line 3 – 32. In lines 39 – 40 the <code>icio</code> and <code>dcio</code> slave sockets are bound to the master sockets of the testbench (or processor). The ahb master port is bound to the AHBCTRL in line 43. Line 46 shows how to connect the snooping. Since MMU_CACHE has internal storage, it needs a notion of time. In this example the clock cycle time is set in line 49.</p>
+<div class="fragment"><div class="line"><span class="comment">// CREATE MMU Cache</span></div>
+<div class="line"><span class="comment">// ----------------</span></div>
+<div class="line"><a class="code" href="classmmu__cache.html">mmu_cache</a> <a class="code" href="classmmu__cache.html">mmu_cache</a>(1, <span class="comment">// int icen = 1 (icache enabled)</span></div>
+<div class="line">        2, <span class="comment">// int irepl = 2 (icache random replacement)</span></div>
+<div class="line">        4, <span class="comment">//  int isets = 4 (4 instruction cache sets)</span></div>
+<div class="line">        4, <span class="comment">//  int ilinesize = 4 (4 words per icache line)</span></div>
+<div class="line">        1, <span class="comment">//  int isetsize = 1 (1kB per icache set)</span></div>
+<div class="line">        0, <span class="comment">//  int isetlock = 0 (no icache locking)</span></div>
+<div class="line">        1, <span class="comment">//  int dcen = 1 (dcache enabled)</span></div>
+<div class="line">        2, <span class="comment">//  int drepl = 2 (dcache random replacement)</span></div>
+<div class="line">        4, <span class="comment">//  int dsets = 4 (4 data cache sets)</span></div>
+<div class="line">        4, <span class="comment">//  int dlinesize = 4 (4 words per dcache line)</span></div>
+<div class="line">        1, <span class="comment">//  int dsetsize = 1 (1kB per dcache set)</span></div>
+<div class="line">        0, <span class="comment">//  int dsetlock = 0 (no dcache locking)</span></div>
+<div class="line">        0, <span class="comment">//  int dsnoop = 0 (no cache snooping)</span></div>
+<div class="line">        0, <span class="comment">//  int ilram = 0 (instr. localram disable)</span></div>
+<div class="line">        1, <span class="comment">//  int ilramsize = 1 (1kB ilram size - disabled)</span></div>
+<div class="line">        0x0000008e, <span class="comment">//  int ilramstart = 8e (0x8e000000 default ilram start address)</span></div>
+<div class="line">        0, <span class="comment">//  int dlram = 0 (data localram disable)</span></div>
+<div class="line">        1, <span class="comment">//  int dlramsize = 1 (1kB dlram size - disabled)</span></div>
+<div class="line">        0x0000008f, <span class="comment">//  int dlramstart = 8f (0x8f000000 default dlram start address)</span></div>
+<div class="line">        0xffff, <span class="comment">//  int cached = 0 (fixed cacheability mask)</span></div>
+<div class="line">        0, <span class="comment">//  int mmu_en = 0 (mmu not present)</span></div>
+<div class="line">        8, <span class="comment">//  int itlb_num = 8 (8 itlbs - not present)</span></div>
+<div class="line">        8, <span class="comment">//  int dtlb_num = 8 (8 dtlbs - not present)</span></div>
+<div class="line">        0, <span class="comment">//  int tlb_type = 0 (split tlb mode - not present)</span></div>
+<div class="line">        1, <span class="comment">//  int tlb_rep = 1 (random replacement)</span></div>
+<div class="line">        0, <span class="comment">//  int mmupgsz = 0 (4kB mmu page size)&gt;</span></div>
+<div class="line">        <span class="stringliteral">&quot;mmu_cache&quot;</span>, <span class="comment">// name of sysc module</span></div>
+<div class="line">        0, <span class="comment">//  id of the AHB master</span></div>
+<div class="line">        0, <span class="comment">//  bool pow_mon = 1 (disable power monitoring)</span></div>
+<div class="line">        amba::amba_LT);   <span class="comment">// select LT or AT abstraction</span></div>
+<div class="line"></div>
+<div class="line">...</div>
+<div class="line"></div>
+<div class="line"><span class="comment">// *** BIND SOCKETS</span></div>
+<div class="line"></div>
+<div class="line"><span class="comment">// Connect testbench (cpu) to mmu-cache</span></div>
+<div class="line">tbm.icio(<a class="code" href="classmmu__cache.html">mmu_cache</a>.<a class="code" href="classmmu__cache.html#ad61c0ab5f9fb0b577c238ba66cae6599">icio</a>);</div>
+<div class="line">tbm.dcio(<a class="code" href="classmmu__cache.html">mmu_cache</a>.<a class="code" href="classmmu__cache.html#ae3762f4a27d714b2688485c58505b4b6">dcio</a>);</div>
+<div class="line"></div>
+<div class="line"><span class="comment">// Connect mmu_cache to TLM bus</span></div>
+<div class="line"><a class="code" href="classmmu__cache.html">mmu_cache</a>.<a class="code" href="classAHBMaster.html#aeed3ef27c024d0d6feb67fe9b9bd3fb8">ahb</a>(ahbctrl.<a class="code" href="classAHBCtrl.html#ab5e9fbf1d4e20ad7b9c1305d7e1fc915">ahbIN</a>);</div>
+<div class="line"></div>
+<div class="line"><span class="comment">// Connect snooping</span></div>
+<div class="line">ahbctrl.<a class="code" href="classAHBCtrl.html#a6ca95414d9137fcea01c48877c73bea0">snoop</a>(<a class="code" href="classmmu__cache.html">mmu_cache</a>.<a class="code" href="classmmu__cache.html#a76cbd83d6025fa652fa9e59dbeab2fb0">snoop</a>);</div>
+<div class="line"></div>
+<div class="line"><span class="comment">// Set timing (clock cycle)</span></div>
+<div class="line"><a class="code" href="classmmu__cache.html">mmu_cache</a>.<a class="code" href="group__utils.html#ga1e502b9a84a32054d08a28935f19283b">set_clk</a>(10, SC_NS);</div>
+</div><!-- fragment --> </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
 <footer>
@@ -65,7 +717,7 @@
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

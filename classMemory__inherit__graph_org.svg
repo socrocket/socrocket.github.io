@@ -105,7 +105,7 @@
 </g>
 <!-- Node5 -->
 <g id="node8" class="node"><title>Node5</title>
-<a xlink:href="classMEMDevice.html" target="_top" xlink:title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}">
+<a xlink:href="classMEMDevice.html" target="_top" xlink:title="This class is a base class for memory models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="226,-591 226,-771 326,-771 326,-591 226,-591"/>
 <text text-anchor="middle" x="276" y="-758" font-family="Helvetica,sans-Serif" font-size="10.00">MEMDevice</text>
 <polyline fill="none" stroke="black" points="226,-750 326,-750 "/>

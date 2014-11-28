@@ -5,7 +5,7 @@
 <area shape="rect" id="node103" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="3592,467,3760,514"/>
 <area shape="rect" id="node20" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="2444,284,2614,313"/>
 <area shape="rect" id="node42" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2658,572,2818,601"/>
-<area shape="rect" id="node46" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="3668,572,3830,601"/>
+<area shape="rect" id="node46" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="3668,572,3830,601"/>
 <area shape="rect" id="node106" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="2868,371,3036,418"/>
 <area shape="rect" id="node111" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="3182,467,3350,514"/>
 <area shape="rect" id="node113" href="$mmu__cache__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_if.h" alt="" coords="3060,371,3228,418"/>

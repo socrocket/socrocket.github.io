@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: AHBProf - AHB SystemC Profiler</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -65,26 +65,30 @@
 Overview</h1>
 <p>The AHBPROF model provides profiling functionality for the simulator. This class inherits from the classes <code><a class="el" href="classAHBSlave.html">AHBSlave</a></code> and <code><a class="el" href="classCLKDevice.html">CLKDevice</a></code>. Like <code><a class="el" href="classAHBIn.html" title="Definition of class AHBIn. ">AHBIn</a></code> and <code><a class="el" href="classAHBOut.html">AHBOut</a></code> it has no VHDL reference in the GRLIB hardware library.</p>
 <p>The model creates several registers which are accessible from the simulator by software. The registers are used to control an internal mechanism for measuring SystemC time and real execution time. The registers can be written with following control values:</p>
-<p>1 – start measureing time (simulation time and real time) 2 – stop measureing time 3 – print timing report</p>
+<ul>
+<li>1: start measureing time (simulation time and real time)</li>
+<li>2: stop measureing time</li>
+<li>3: print timing report</li>
+</ul>
 <p>All control registers are considered to be 32bit wide. Register 255 has a special purpose and is reserved for shutting down the simulation.</p>
 <h1><a class="anchor" id="ahbprof_p2"></a>
 Interface</h1>
 <p>This component provides the typical AHB Slave generics refactored as constructor parameters of the class <a class="el" href="classAHBProf.html">AHBProf</a>. An overview about the available parameters is given in table 44.</p>
-<table class="doxtable">
-<tr>
-<th>Parameter </th><th>Description  </th></tr>
-<tr>
-<td>nm </td><td>SystemC name of the module </td></tr>
-<tr>
-<td>index </td><td>The AHB slave bus index </td></tr>
-<tr>
-<td>addr </td><td>The 12bit MSB address at the AHB bus </td></tr>
-<tr>
-<td>mask </td><td>The 12bit address mask for the AHB bus </td></tr>
-<tr>
-<td>ambaLayer </td><td>Coding style/abstraction of the model (LT or AT) </td></tr>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 44 - AHBOUT Constructor Parameters</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Parameter</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">nm</td><td id="LastColumn">SystemC name of the module </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">index</td><td id="LastColumn">The AHB slave bus index </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">addr</td><td id="LastColumn">The 12bit MSB address at the AHB bus </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">mask</td><td id="LastColumn">The 12bit address mask for the AHB bus </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">ambaLayer</td><td id="LastColumn">Coding style/abstraction of the model (LT or AT) </td></tr>
 </table>
-<p><em>Table 44 - AHBOUT Constructor Parameters</em></p>
 <h1><a class="anchor" id="ahbprof_p3"></a>
 Example Instantiation</h1>
 <p>This example shows how to instantiate the module AHBPROF. In line 900 the constructor is called to create the new object. In line 908 the module is connected to the bus and in the next line the clock is set.</p>
@@ -108,7 +112,7 @@ Example Instantiation</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

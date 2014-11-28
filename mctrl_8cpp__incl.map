@@ -5,7 +5,7 @@
 <area shape="rect" id="node22" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="977,343,1124,372"/>
 <area shape="rect" id="node28" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1709,535,1880,564"/>
 <area shape="rect" id="node50" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="560,804,720,833"/>
-<area shape="rect" id="node54" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2395,804,2557,833"/>
+<area shape="rect" id="node54" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2395,804,2557,833"/>
 <area shape="rect" id="node77" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="611,526,805,573"/>
 <area shape="rect" id="node95" href="$ahbslave_8h.html" title="core/models/utils/ahbslave.h" alt="" coords="1656,169,1843,199"/>
 <area shape="rect" id="node114" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="953,169,1148,199"/>

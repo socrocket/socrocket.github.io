@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: core/common/vmap.h File Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -81,7 +81,9 @@ Macros</h2></td></tr>
 <tr class="separator:gaabb731f4573b83d9708e0ff6fe4d6d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section date"><dt>Date</dt><dd>2010-2014 </dd></dl>
+<div class="textblock"><p>To save system memory and optimize simulation performance large, sparse memories should be implemented as maps. In this case the memory address represents the key and the actual data the entry. Because the performance of the various existing map implementation strongly depends on the system environment, the SoCRocket library provides the flexible type vmap. The vmap.h header contains a macro defining vmap as either std::map, hash_map or std::tr1::unordered_map.</p>
+<p>An example for the usage of vmap is given by the MapMemory implementation of the Generic <a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> (<a class="el" href="memory_p.html">Generic Memory SystemC Model</a>).</p>
+<dl class="section date"><dt>Date</dt><dd>2010-2014 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>All rights reserved. Any reproduction, use, distribution or disclosure of this program, without the express, prior written consent of the authors is strictly prohibited. </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Thomas Schuster </dd></dl>
 </div></div><!-- contents -->
@@ -94,7 +96,7 @@ Macros</h2></td></tr>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:28 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:28 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

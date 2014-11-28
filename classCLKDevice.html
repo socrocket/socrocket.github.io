@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: CLKDevice Class Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -114,7 +114,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6c6db5118638f4668829158b806f26ad"><td class="memItemLeft" align="right" valign="top">sc_core::sc_time&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCLKDevice.html#a6c6db5118638f4668829158b806f26ad">clock_cycle</a></td></tr>
 <tr class="separator:a6c6db5118638f4668829158b806f26ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The class <a class="el" href="classCLKDevice.html">CLKDevice</a> is used to consistently distribute clock/timing and reset amongst all IPs of the library. Devices that inherit from <a class="el" href="classCLKDevice.html">CLKDevice</a> receive two SignalKit inputs: clk and rst. If the child requires reset behavior, it may implement the virtual function <a class="el" href="group__utils.html#gad48243b9ea5d9436cd6dc64fff00e9e1">dorst()</a>, which is triggered by the rst input. Moreover, <a class="el" href="classCLKDevice.html">CLKDevice</a> provides a data member „clock_cycle“, which can be used by the child to determine the clock period for delay calculations. The value of clock_cycle is set by connecting a sc_time SignalKit signal to the clk input or by calling one of the various set_clk functions of the class. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a2ab7f95e762c85bc1e77b8145ffae92a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -225,7 +227,7 @@ Protected Attributes</h2></td></tr>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:32 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: Irqmp - Interrupt Controler for multiple Processors</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -84,7 +84,7 @@ Overview</h2>
 </ul>
 <p>Interrupts can be masked for each core separately. The data path or the IRQMP unit is not pipelined, i.e. all operations can be performed within one clock cycle.</p>
 <p>The GRLIB interrupt scheme comprises a 32-bit interrupt (IR) bus, which is routed in parallel to the AMBA bus signals. The 16 LSBs of the IR bus are associated to regular IRs and the 16 MSBs to extended IRs (EIR). In the SoCRocket library IRs are modeled using the TLM SignalKit. Interrupts from any simulation model can be bound to the IRQMP using the connect method.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>is this still correct?</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>is this still correct?</dd></dl>
 <p>The following command connects the <a class="el" href="classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig...">GPTimer</a> interrupt output number 3 (<code>SignalKit::selector</code>) with the IRQMP interrupt input number 5.: </p><div class="fragment"><div class="line"><a class="code" href="namespacesignalkit.html#a490da5f4853929ced113fca1504716e7">connect</a>(<a class="code" href="structgptimer.html">gptimer</a>.irq, irqmp.<a class="code" href="classIrqmp.html#a9bfe1b1e93a84b174411ea6f11a53fe0">irq_in</a>, 3, 5);</div>
 </div><!-- fragment --><p>In case the sending device has only one interrupt output (<code>SignalKit::out</code>) only one channel number (for the IRQMP) must be defined: </p><div class="fragment"><div class="line"><a class="code" href="namespacesignalkit.html#a490da5f4853929ced113fca1504716e7">connect</a>(socwire.irq, irqmp.<a class="code" href="classIrqmp.html#a9bfe1b1e93a84b174411ea6f11a53fe0">irq_in</a>, 6);</div>
 </div><!-- fragment --><p>The connection of the IRQMP towards the processors is implemented in very similar way.</p>
@@ -125,7 +125,7 @@ Interrupt Prioritization and Forwarding</h2>
 <p>The Interrupt Level Register determines the first dimension of prioritization. For each IR line, the according bit in the IR Level Register can be set to level 0 or level 1. Each level 1 IR has got a higher priority than any level 0 IR. The first dimension of prioritization will be referred to as “interrupt level” throughout this document.</p>
 <p>The 16 regular IR lines are modeled with a 16-bit vector. The most significant bit (IR15) has got the highest priority and IR1 has got the lowest priority. IR0 is reserved. This second dimension of prioritization will be referred to as “interrupt line” throughout this document.</p>
 <p>When several IRs are pending, the highest priority IR will be calculated according to the scheme described above. Which core receives the interrupt request (IRQ) depends on the settings in the Broadcast Register and the Interrupt Mask Registers of the individual cores. As shown in Figure 6, the use of the IR Pending or IR Force Registers is determined by the Broadcast Register.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>add figure here from word file</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>add figure here from word file</dd></dl>
 <p>Figure 6 – Interrupt Distribution Scheme</p>
 <p>The Interrupt Broadcast Register can be set for each IR line individually. If the broadcast bit of an interrupt line is set, the IRQ is sent to all cores and also has to be acknowledged (i.e. the ISR has to be processed) all of them. This is accomplished by setting the Interrupt Force Registers of all the cores. Each core has to individually clear its Interrupt Force Register!</p>
 <p>If the broadcast bit is not set, the IRQ is sent to all cores and has to be acknowledged only once, i.e. only the first core that acknowledges the IR has to process the ISR. This is done by setting the Interrupt Pending Register, which can be cleared by any of the cores. In uni-processor systems the Broadcast Register is disabled.</p>
@@ -145,7 +145,7 @@ Processor Status Monitoring</h2>
 Power Modeling</h2>
 <p>Power monitoring can be enabled by setting the constructor parameter <code>pow_mon</code> to <code>true</code>. The model is annotated with default power information that has been gathered using a generic 90nm Standard-Cell Library and statistical power estimation at Gate-Level.</p>
 <p>The accuracy of the build-in power models and the default switching energy settings cannot be guaranteed. In order to achieve the best possible results the user is recommended to annotate the design with custom target-technology dependent power information.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>verify this section and find out about the power modeling report</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>verify this section and find out about the power modeling report</dd></dl>
 <p>The power model of the <code><a class="el" href="classIrqmp.html">Irqmp</a></code>, all required parameters, and default settings are explained in the SoCRocket Power Modeling Report [RD11].</p>
 <h1><a class="anchor" id="irqmp_p2"></a>
 Interface</h1>
@@ -195,10 +195,10 @@ Internal Structure</h1>
 <h2><a class="anchor" id="irqmp_p3_1"></a>
 The irqmp.h file</h2>
 <p>The IRQMP unit consists of only one class. The irqmp.h file contains the module class definition. The parameterization options, implemented as generics in the VHDL model, are realized as constructor parameters of the class.</p>
-<p>Class <code><a class="el" href="classIrqmp.html">Irqmp</a></code> is a child of gr_device. A GreenReg device is a top-level encapsulation for a complete functional unit and provides containment structures for other GreenReg elements, e.g. registers. Moreover, <code><a class="el" href="classIrqmp.html">Irqmp</a></code> inherits the PNP configuration record of class <a class="el" href="classAPBDevice.html">APBDevice</a>, and the clock and reset interface defined in <code><a class="el" href="classCLKDevice.html">CLKDevice</a></code>. The <a class="el" href="classIrqmp.html">Irqmp</a> class definition contains the module interface and the function prototypes of constructor, destructor, and callback functions. Next, to the well-known <code>SC_HAS_PROCESS</code> macro, the model call <code>GC_HAS_CALLBACK</code>s for registration with GreenReg and <code>SK_HAS_SIGNALS</code> for registration with the SignalKit.</p>
+<p>Class <code><a class="el" href="classIrqmp.html">Irqmp</a></code> is a child of gr_device. A GreenReg device is a top-level encapsulation for a complete functional unit and provides containment structures for other GreenReg elements, e.g. registers. Moreover, <code><a class="el" href="classIrqmp.html">Irqmp</a></code> inherits the PNP configuration record of class <a class="el" href="classAPBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">APBDevice</a>, and the clock and reset interface defined in <code><a class="el" href="classCLKDevice.html">CLKDevice</a></code>. The <a class="el" href="classIrqmp.html">Irqmp</a> class definition contains the module interface and the function prototypes of constructor, destructor, and callback functions. Next, to the well-known <code>SC_HAS_PROCESS</code> macro, the model call <code>GC_HAS_CALLBACK</code>s for registration with GreenReg and <code>SK_HAS_SIGNALS</code> for registration with the SignalKit.</p>
 <h2><a class="anchor" id="irqmp_p3_2"></a>
 The irqmp.cpp file</h2>
-<p>The constructor of <code><a class="el" href="classIrqmp.html">Irqmp</a></code> configures the <code><a class="el" href="classAPBDevice.html">APBDevice</a></code>, the <code>gr_device</code> and the bus interface. It constructs a GreenReg register container <code>r</code>, in which it implements all the registers listed in Table 32. The register container is a C++ class implemented in the GreenReg libraries that provides memory management and interface functions. Within this register container, a GreenReg register may be instantiated like in the following code snippet:</p>
+<p>The constructor of <code><a class="el" href="classIrqmp.html">Irqmp</a></code> configures the <code><a class="el" href="classAPBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">APBDevice</a></code>, the <code>gr_device</code> and the bus interface. It constructs a GreenReg register container <code>r</code>, in which it implements all the registers listed in Table 32. The register container is a C++ class implemented in the GreenReg libraries that provides memory management and interface functions. Within this register container, a GreenReg register may be instantiated like in the following code snippet:</p>
 <div class="fragment"><div class="line"><a class="code" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>.create_register(<span class="stringliteral">&quot;pending&quot;</span>, <span class="stringliteral">&quot;Interrupt Pending Register&quot;</span>,</div>
 <div class="line">                  0x04,</div>
 <div class="line">                  STANDARD_REG | SINGLE_IO | SINGLE_BUFFER | FULL_WIDTH,</div>
@@ -265,7 +265,7 @@ Example Instantiation</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

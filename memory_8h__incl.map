@@ -1,7 +1,7 @@
 <map id="core/models/memory/memory.h" name="core/models/memory/memory.h">
 <area shape="rect" id="node3" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1021,303,1192,332"/>
 <area shape="rect" id="node24" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1672,677,1837,707"/>
-<area shape="rect" id="node39" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2337,591,2500,620"/>
+<area shape="rect" id="node39" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2337,591,2500,620"/>
 <area shape="rect" id="node67" href="$base_8h.html" title="core/common/base.h" alt="" coords="947,207,1091,236"/>
 <area shape="rect" id="node71" href="$report_8h.html" title="core/common/report.h" alt="" coords="416,303,565,332"/>
 <area shape="rect" id="node91" href="$memorypower_8h.html" title="core/models/memory\l/memorypower.h" alt="" coords="1387,102,1531,149"/>

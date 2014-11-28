@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: core/common/verbose.h File Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -67,6 +67,9 @@
 <div class="title">verbose.h File Reference<div class="ingroups"><a class="el" href="group__common.html">Common</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Implements a unified output system for messages and debunging.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;cstdio&gt;</code><br />
 <code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
@@ -139,7 +142,18 @@ Variables</h2></td></tr>
 <tr class="separator:a28a859db5a6809dd3aec17c579aaaa5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Implements a unified output system for messages and debunging.</p>
+<div class="textblock"><p>Implements a unified output system for messages and debunging. </p>
+<p>The operators defined in verbose.h can be used to filter output messages respecting their severity. As explained in <a class="el" href="install.html#install2">Bulding the Library</a> the verbosity level of the simulations must be defined during configuration of the library: </p><pre class="fragment">$ ./waf configure –verbosity=1..5
+</pre><p>Five levels may be chosen: error, warning, report, info and debug.</p>
+<p>The operators are used in a similar way to C++ stdout:</p>
+<div class="fragment"><div class="line">std::cout   &lt;&lt; value &lt;&lt; std::endl;  <span class="comment">// Regular C++ stdout</span></div>
+<div class="line"></div>
+<div class="line"><a class="code" href="namespacev.html#a8175de451203b69dd990b52c97994ef1">v::error</a>    &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity error stream</span></div>
+<div class="line"><a class="code" href="namespacev.html#a6f67163d47f17185ed247d4ba03f341b">v::warn</a>     &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity warn stream</span></div>
+<div class="line"><a class="code" href="namespacev.html#aeab8e77e452286bbc0eb67027430efe7">v::report</a>   &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity report stream</span></div>
+<div class="line"><a class="code" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>     &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity info stream</span></div>
+<div class="line"><a class="code" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>    &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity debug stream</span></div>
+</div><!-- fragment --><p> Defining the verbosity at configuration time has the advantage that undesired output is optimized way (compared to runtime switching).</p>
 <dl class="section date"><dt>Date</dt><dd>2010-2014 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>All rights reserved. Any reproduction, use, distribution or disclosure of this program, without the express, prior written consent of the authors is strictly prohibited. </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Rolf Meyer </dd></dl>
@@ -169,7 +183,7 @@ Variables</h2></td></tr>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:28 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:28 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

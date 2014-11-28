@@ -108,7 +108,7 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node23 -->
 <g id="node50" class="node"><title>Node23</title>
-<a xlink:href="verbose_8h.html" target="_top" xlink:title="core/common/verbose.h">
+<a xlink:href="verbose_8h.html" target="_top" xlink:title="Implements a unified output system for messages and debunging. ">
 <polygon fill="white" stroke="black" points="130,-137.5 130,-158.5 252,-158.5 252,-137.5 130,-137.5"/>
 <text text-anchor="middle" x="191" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/common/verbose.h</text>
 </a>

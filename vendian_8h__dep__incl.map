@@ -11,7 +11,7 @@
 <area shape="rect" id="node127" href="$tlb__adaptor_8h.html" title="core/models/mmu_cache\l/lib/tlb_adaptor.h" alt="" coords="3837,283,4005,330"/>
 <area shape="rect" id="node142" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="1284,83,1479,130"/>
 <area shape="rect" id="node5" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="2595,179,2755,226"/>
-<area shape="rect" id="node78" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2408,188,2571,217"/>
+<area shape="rect" id="node78" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2408,188,2571,217"/>
 <area shape="rect" id="node7" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="2589,292,2760,321"/>
 <area shape="rect" id="node9" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="2441,483,2585,530"/>
 <area shape="rect" id="node11" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="1981,771,2139,818"/>

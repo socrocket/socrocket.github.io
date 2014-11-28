@@ -42,7 +42,7 @@
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="classAHBDevice.html" target="_top" xlink:title="AHBDevice\&lt; BASE \&gt;">
+<a xlink:href="classAHBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="466.5,-892.5 466.5,-913.5 579.5,-913.5 579.5,-892.5 466.5,-892.5"/>
 <text text-anchor="middle" x="523" y="-900.5" font-family="Helvetica,sans-Serif" font-size="10.00">AHBDevice&lt; BASE &gt;</text>
 </a>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node15 -->
 <g id="node29" class="node"><title>Node15</title>
-<a xlink:href="classAPBDevice.html" target="_top" xlink:title="APBDevice\&lt; BASE \&gt;">
+<a xlink:href="classAPBDevice.html" target="_top" xlink:title="This class is a base class for grlib models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="466.5,-612.5 466.5,-633.5 579.5,-633.5 579.5,-612.5 466.5,-612.5"/>
 <text text-anchor="middle" x="523" y="-620.5" font-family="Helvetica,sans-Serif" font-size="10.00">APBDevice&lt; BASE &gt;</text>
 </a>
@@ -700,7 +700,7 @@
 </g>
 <!-- Node52 -->
 <g id="node118" class="node"><title>Node52</title>
-<a xlink:href="classMEMDevice.html" target="_top" xlink:title="MEMDevice">
+<a xlink:href="classMEMDevice.html" target="_top" xlink:title="This class is a base class for memory models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="675.5,-602.5 675.5,-623.5 746.5,-623.5 746.5,-602.5 675.5,-602.5"/>
 <text text-anchor="middle" x="711" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">MEMDevice</text>
 </a>

@@ -28,7 +28,7 @@
 <area shape="rect" id="node80" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="2007,761,2153,791"/>
 <area shape="rect" id="node88" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="1737,753,1932,799"/>
 <area shape="rect" id="node102" href="$ahbdevicebase_8h.html" title="core/models/utils/ahbdevicebase.h" alt="" coords="949,371,1171,400"/>
-<area shape="rect" id="node120" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="144,553,307,583"/>
+<area shape="rect" id="node120" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="144,553,307,583"/>
 <area shape="rect" id="node132" href="$ahbslave_8h.html" title="core/models/utils/ahbslave.h" alt="" coords="311,207,497,236"/>
 <area shape="rect" id="node145" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="1696,293,1891,323"/>
 <area shape="rect" id="node147" href="$apbdevicebase_8h.html" title="core/models/utils/apbdevicebase.h" alt="" coords="1677,371,1899,400"/>

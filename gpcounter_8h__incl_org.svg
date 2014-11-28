@@ -273,7 +273,7 @@
 </g>
 <!-- Node19 -->
 <g id="node39" class="node"><title>Node19</title>
-<a xlink:href="verbose_8h.html" target="_top" xlink:title="core/common/verbose.h">
+<a xlink:href="verbose_8h.html" target="_top" xlink:title="Implements a unified output system for messages and debunging. ">
 <polygon fill="white" stroke="red" points="983.133,-209.5 983.133,-230.5 1105.13,-230.5 1105.13,-209.5 983.133,-209.5"/>
 <text text-anchor="middle" x="1044.13" y="-217.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/common/verbose.h</text>
 </a>

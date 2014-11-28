@@ -1,7 +1,7 @@
 <map id="core/models/mmu_cache/lib/leon3_mmu_cache.h" name="core/models/mmu_cache/lib/leon3_mmu_cache.h">
 <area shape="rect" id="node3" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2101,997,2266,1027"/>
 <area shape="rect" id="node14" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="843,623,1014,652"/>
-<area shape="rect" id="node27" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="661,911,823,940"/>
+<area shape="rect" id="node27" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="661,911,823,940"/>
 <area shape="rect" id="node40" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="1253,415,1399,444"/>
 <area shape="rect" id="node60" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="3045,415,3218,444"/>
 <area shape="rect" id="node62" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1765,319,1927,348"/>

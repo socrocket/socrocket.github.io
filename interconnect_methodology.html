@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: Interconnect Methodology</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -161,7 +161,7 @@ Figure 2 - AHB read/write burst</div></div>
 </DIV>
 </DIV>
 </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>maybe split up the graphic in read and write?</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>maybe split up the graphic in read and write?</dd></dl>
 <p><b>AHB write burst</b></p>
 <p>The synchronization points of AHB write bursts are similar to AHB read bursts. So writing can also bee seen in Figure 2:</p>
 <ul>
@@ -177,7 +177,7 @@ Not supported or partially supported features</h2>
 <h2><a class="anchor" id="im_ahb_creating"></a>
 Creating/Binding AHB sockets</h2>
 <p>The easiest way to create custom components with AHB sockets is to inherit from one of the AHB modeling base classes: <a class="el" href="classAHBMaster.html">AHBMaster</a>, <a class="el" href="classAHBSlave.html">AHBSlave</a>. The procedure is explained in detail in the SoCRocket <a class="el" href="modeling.html">User Manual</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>verify section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>verify section</dd></dl>
 <p>For manual instantiation include header amba.h from Carbon TLM AMBA modeling kit.</p>
 <p><b>Master socket declaration (single):</b> </p><pre class="fragment">amba::amba_master_socket&lt;32&gt; ahb;
 </pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">ahb("ahb", amba::amba_AHB, ambaLayer, false);
@@ -253,7 +253,7 @@ Figure 4 - APB blocking transport delay</div></div>
 Creating/Binding APB sockets</h2>
 <p>The easiest way to create custom APB components is to instantiate a GreenReg socket. GreenReg sockets are extended AMBA sockets, which allow the specification of register interfaces.</p>
 <p>Please include the amba.h header of the Carbon AMBA TLM Modeling Kit and the greenreg_ambasockets.h header in your design.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>verify section</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>verify section</dd></dl>
 <p>A detailed description on how to set up APB components and register interfaces is given in the SoCRocket <a class="el" href="modeling.html">User Manual</a>.</p>
 <p><b>Master socket declaration (single):</b> </p><pre class="fragment">gs::reg::greenreg_socket&lt;gs::amba::amba_slave&lt;32&gt; &gt; apb;
 </pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">apb("apb",
@@ -265,7 +265,7 @@ amba::amba_LT,                // APB is always LT (blocking)
 false),                       // Only used for CT modeling
 </pre><h1><a class="anchor" id="interconnect_methodology_axi"></a>
 AXI Modeling</h1>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>is this needed? </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>is this needed? </dd></dl>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -276,7 +276,7 @@ AXI Modeling</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:29 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

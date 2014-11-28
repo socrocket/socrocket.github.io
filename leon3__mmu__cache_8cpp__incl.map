@@ -4,7 +4,7 @@
 <area shape="rect" id="node55" href="$report_8h.html" title="core/common/report.h" alt="" coords="651,703,800,732"/>
 <area shape="rect" id="node7" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2080,1077,2245,1107"/>
 <area shape="rect" id="node18" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1368,703,1539,732"/>
-<area shape="rect" id="node35" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1201,991,1364,1020"/>
+<area shape="rect" id="node35" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1201,991,1364,1020"/>
 <area shape="rect" id="node48" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="769,511,916,540"/>
 <area shape="rect" id="node72" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="2517,511,2691,540"/>
 <area shape="rect" id="node74" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1835,415,1997,444"/>

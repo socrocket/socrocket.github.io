@@ -2,8 +2,8 @@
 <area shape="rect" id="node1" href="$classBASE.html" title="BASE" alt="" coords="5,1529,64,1559"/>
 <area shape="rect" id="node3" href="$classSCBaseModule.html" title="SCBaseModule\&lt; BASE \&gt;" alt="" coords="112,1529,285,1559"/>
 <area shape="rect" id="node5" href="$classBaseModule.html" title="BaseModule\&lt; BASE \&gt;" alt="" coords="364,1529,519,1559"/>
-<area shape="rect" id="node7" href="$classAHBDevice.html" title="AHBDevice\&lt; BASE \&gt;" alt="" coords="628,1157,777,1187"/>
-<area shape="rect" id="node29" href="$classAPBDevice.html" title="APBDevice\&lt; BASE \&gt;" alt="" coords="628,1531,777,1560"/>
+<area shape="rect" id="node7" href="$classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations..." alt="" coords="628,1157,777,1187"/>
+<area shape="rect" id="node29" href="$classAPBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations..." alt="" coords="628,1531,777,1560"/>
 <area shape="rect" id="node9" href="$classAHBMaster.html" title="AHBMaster\&lt; BASE \&gt;" alt="" coords="879,1157,1028,1187"/>
 <area shape="rect" id="node11" href="$classAHBMaster.html" title="AHBMaster\&lt;\&gt;" alt="" coords="900,804,1007,833"/>
 <area shape="rect" id="node19" href="$classAHBSlave.html" title="AHBSlave\&lt; BASE \&gt;" alt="" coords="883,1211,1024,1240"/>
@@ -49,7 +49,7 @@
 <area shape="rect" id="node108" href="$classmem__if.html" title="mem_if" alt="" coords="409,627,473,656"/>
 <area shape="rect" id="node110" href="$classcache__if.html" title="cache_if" alt="" coords="668,547,737,576"/>
 <area shape="rect" id="node115" href="$classmmu__cache__if.html" title="mmu_cache_if" alt="" coords="649,600,756,629"/>
-<area shape="rect" id="node118" href="$classMEMDevice.html" title="MEMDevice" alt="" coords="907,1544,1000,1573"/>
+<area shape="rect" id="node118" href="$classMEMDevice.html" title="This class is a base class for memory models. It implements the device plug and play informations..." alt="" coords="907,1544,1000,1573"/>
 <area shape="rect" id="node120" href="$classleon3__funclt__trap_1_1MemoryInterface.html" title="leon3_funclt_trap::\lMemoryInterface" alt="" coords="889,65,1017,111"/>
 <area shape="rect" id="node122" href="$classleon3__funclt__trap_1_1LocalMemory.html" title="leon3_funclt_trap::\lLocalMemory" alt="" coords="1143,5,1271,51"/>
 <area shape="rect" id="node124" href="$classleon3__funclt__trap_1_1TLMMemory.html" title="leon3_funclt_trap::\lTLMMemory" alt="" coords="1143,125,1271,171"/>

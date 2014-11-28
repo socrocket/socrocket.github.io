@@ -1,7 +1,7 @@
 <map id="core/common/powermonitor.h" name="core/common/powermonitor.h">
 <area shape="rect" id="node13" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="317,83,487,112"/>
 <area shape="rect" id="node33" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="698,448,863,477"/>
-<area shape="rect" id="node47" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="917,361,1079,391"/>
+<area shape="rect" id="node47" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="917,361,1079,391"/>
 <area shape="rect" id="node17" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="402,161,562,207"/>
 <area shape="rect" id="node22" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="830,161,990,207"/>
 <area shape="rect" id="node31" href="$common_8h.html" title="core/common/common.h" alt="" coords="915,265,1081,295"/>

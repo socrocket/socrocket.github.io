@@ -149,7 +149,7 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node6 -->
 <g id="node11" class="node"><title>Node6</title>
-<a xlink:href="classMEMDevice.html" target="_top" xlink:title="{MEMDevice\n||+ MEMDevice()\l+ MEMDevice()\l+ ~MEMDevice()\l+ get_device_info()\l+ get_type()\l+ get_type_name()\l+ get_banks()\l+ get_bsize()\l+ get_bits()\l+ get_cols()\l}">
+<a xlink:href="classMEMDevice.html" target="_top" xlink:title="This class is a base class for memory models. It implements the device plug and play informations...">
 <polygon fill="white" stroke="black" points="226,-355 226,-535 326,-535 326,-355 226,-355"/>
 <text text-anchor="middle" x="276" y="-522" font-family="Helvetica,sans-Serif" font-size="10.00">MEMDevice</text>
 <polyline fill="none" stroke="black" points="226,-514 326,-514 "/>

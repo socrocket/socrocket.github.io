@@ -1,5 +1,5 @@
 <map id="core/common/common.h" name="core/common/common.h">
 <area shape="rect" id="node3" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="164,160,329,189"/>
 <area shape="rect" id="node14" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="84,83,244,112"/>
-<area shape="rect" id="node18" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="376,83,539,112"/>
+<area shape="rect" id="node18" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="376,83,539,112"/>
 </map>

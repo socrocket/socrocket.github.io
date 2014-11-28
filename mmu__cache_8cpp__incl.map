@@ -2,7 +2,7 @@
 <area shape="rect" id="node3" href="$mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache.h" alt="" coords="1536,102,1704,149"/>
 <area shape="rect" id="node5" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1648,687,1819,716"/>
 <area shape="rect" id="node26" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1723,1061,1888,1091"/>
-<area shape="rect" id="node37" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="591,975,753,1004"/>
+<area shape="rect" id="node37" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="591,975,753,1004"/>
 <area shape="rect" id="node53" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="869,495,1016,524"/>
 <area shape="rect" id="node73" href="$icio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/icio_payload_extension.h" alt="" coords="221,294,411,341"/>
 <area shape="rect" id="node76" href="$dcio__payload__extension_8h.html" title="core/models/mmu_cache\l/lib/dcio_payload_extension.h" alt="" coords="5,294,197,341"/>

@@ -7,7 +7,7 @@
 <area shape="rect" id="node65" href="$osEmulator_8hpp.html" title="core/common/trapgen\l/osEmulator/osEmulator.hpp" alt="" coords="2841,198,3028,245"/>
 <area shape="rect" id="node81" href="$json__parser_8h.html" title="core/common/json_parser.h" alt="" coords="1855,207,2036,236"/>
 <area shape="rect" id="node85" href="$paramprinter_8h.html" title="core/common/paramprinter.h" alt="" coords="501,303,688,332"/>
-<area shape="rect" id="node89" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2273,303,2436,332"/>
+<area shape="rect" id="node89" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2273,303,2436,332"/>
 <area shape="rect" id="node94" href="$powermonitor_8h.html" title="core/common/powermonitor.h" alt="" coords="2257,207,2452,236"/>
 <area shape="rect" id="node100" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="2720,102,2888,149"/>
 <area shape="rect" id="node108" href="$ahbin_8h.html" title="core/models/ahbin/ahbin.h" alt="" coords="2060,207,2233,236"/>

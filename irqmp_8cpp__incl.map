@@ -1,6 +1,6 @@
 <map id="core/models/irqmp/irqmp.cpp" name="core/models/irqmp/irqmp.cpp">
 <area shape="rect" id="node7" href="$models_2irqmp_2irqmp_8h.html" title="core/models/irqmp/irqmp.h" alt="" coords="2715,83,2891,112"/>
-<area shape="rect" id="node46" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="783,804,945,833"/>
+<area shape="rect" id="node46" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="783,804,945,833"/>
 <area shape="rect" id="node11" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2156,891,2321,920"/>
 <area shape="rect" id="node22" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="957,516,1128,545"/>
 <area shape="rect" id="node72" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2005,507,2200,554"/>

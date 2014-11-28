@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: SoCRocket Repository Manager</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -45,6 +45,10 @@
       <li><a href="files.html"><span>Files</span></a></li>
     </ul>
   </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="usermanual.html">User Manual</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
@@ -53,13 +57,13 @@
 <div class="contents">
 <div class="textblock"><p>SoCRocket is providing a repository manager as small layer on top of git. Hence the dependency structures projects in the scientific domain have the number of requirements in form of legal, copyright or simply API stability is rising. To counter these complexity SoCRocket will provide the ability to split project specific code from public code.</p>
 <p>Moreover it provides the ability that different code can optionaly depend on each other.</p>
-<p>Let's look at an example: First we fetch the SoCRocket Core Repository which provides us with the basic feature set and functinality: </p><div class="fragment"><div class="line">git clone git@brauhaus.c3e.cs.tu-bs.de:socrocket-<a class="code" href="namespacecore.html">core</a>.git socrocket  # Get SoCRocket</div>
-<div class="line">cd socrocket                                                         # Change Directory</div>
-</div><!-- fragment --><p> But we want to play with some video IO and build some nice filters for it. So we add the socrocket-media repository to socrocket: </p><div class="fragment"><div class="line">./waf repo add git@brauhaus.c3e.cs.tu-bs.de:socrocket-media.git</div>
-</div><!-- fragment --><p> A new folder will appear in the main folder: media. It will contain all the sources from the media repository.</p>
-<p>Building the Project is still the same. Just execute the following: </p><div class="fragment"><div class="line">./waf <a class="code" href="namespacecore_1_1waf_1_1ambakit.html#aa8f8fe4f8c992b68ea880448ac765813">configure</a></div>
-<div class="line">./waf build --target=leon3mp.platform</div>
-</div><!-- fragment --><p> Newly added components can be build as well by using <code>--target</code>. Morover <code>./waf list</code> will list all targets from all repositories.</p>
+<p>Let's look at an example: First we fetch the SoCRocket Core Repository which provides us with the basic feature set and functinality: </p><pre class="fragment">$ git clone git@brauhaus.c3e.cs.tu-bs.de:socrocket-core.git socrocket
+$ cd socrocket
+</pre><p>But we want to play with some video IO and build some nice filters for it. So we add the socrocket-media repository to socrocket: </p><pre class="fragment">$ ./waf repo add git@brauhaus.c3e.cs.tu-bs.de:socrocket-media.git
+</pre><p>A new folder will appear in the main folder: media. It will contain all the sources from the media repository.</p>
+<p>Building the Project is still the same. Just execute the following: </p><pre class="fragment">$ ./waf configure
+$ ./waf build --target=leon3mp.platform
+</pre><p>Newly added components can be build as well by using <code>--target</code>. Morover <code>./waf list</code> will list all targets from all repositories.</p>
 <p>Repositories are simply git repositories and can be handled as such. See <a href="http://git-scm.com">http://git-scm.com</a> for information. The usual commit, push, pull cycles are allowd as well as all other diry voodoo.</p>
 <p>The additions are that it you specify a git folder as a SoCRocket Repository waf will be aware of it. That means that in your code you can check for the availability of repositories:</p>
 <p>Either in the <code>wscript</code>: </p><div class="fragment"><div class="line">def build(<span class="keyword">self</span>):</div>
@@ -85,8 +89,8 @@
 <div class="line"></div>
 <div class="line">def build(self):</div>
 <div class="line">    pass  # Repository specific target building</div>
-</div><!-- fragment --><p>To manage installed repositories we export some more commands to use: </p><div class="fragment"><div class="line">./waf repo &lt;command&gt;</div>
-</div><!-- fragment --><p>command:</p><ul>
+</div><!-- fragment --><p>To manage installed repositories we export some more commands to use: </p><pre class="fragment">$ ./waf repo &lt;command&gt;
+</pre><p>Here command can be:</p><ul>
 <li>show: List all installed repositories</li>
 <li>rm: Remove specific repository </li>
 </ul>
@@ -100,7 +104,7 @@
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

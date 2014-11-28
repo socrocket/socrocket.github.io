@@ -1,6 +1,6 @@
 <map id="core/common/common.h" name="core/common/common.h">
 <area shape="rect" id="node3" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="2471,83,2631,130"/>
-<area shape="rect" id="node99" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="3651,179,3813,208"/>
+<area shape="rect" id="node99" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="3651,179,3813,208"/>
 <area shape="rect" id="node5" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1439,179,1609,208"/>
 <area shape="rect" id="node7" href="$base_8h.html" title="core/common/base.h" alt="" coords="1099,273,1243,303"/>
 <area shape="rect" id="node9" href="$memory_8h.html" title="core/models/memory\l/memory.h" alt="" coords="1563,481,1707,527"/>

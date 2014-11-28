@@ -3,7 +3,7 @@
 <area shape="rect" id="node134" href="$block__allocator_8h.html" title="core/common/block_allocator.h" alt="" coords="2972,188,3175,217"/>
 <area shape="rect" id="node5" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1461,380,1632,409"/>
 <area shape="rect" id="node26" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2079,755,2244,784"/>
-<area shape="rect" id="node41" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="2352,668,2515,697"/>
+<area shape="rect" id="node41" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2352,668,2515,697"/>
 <area shape="rect" id="node69" href="$base_8h.html" title="core/common/base.h" alt="" coords="1451,284,1595,313"/>
 <area shape="rect" id="node73" href="$report_8h.html" title="core/common/report.h" alt="" coords="737,380,887,409"/>
 <area shape="rect" id="node93" href="$memorypower_8h.html" title="core/models/memory\l/memorypower.h" alt="" coords="1976,179,2120,226"/>

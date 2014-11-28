@@ -1,6 +1,6 @@
 <map id="core/models/ahbin/ahbin.h" name="core/models/ahbin/ahbin.h">
 <area shape="rect" id="node7" href="$ahbmaster_8h.html" title="core/models/utils/ahbmaster.h" alt="" coords="576,83,773,112"/>
-<area shape="rect" id="node45" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="481,839,644,868"/>
+<area shape="rect" id="node45" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="481,839,644,868"/>
 <area shape="rect" id="node100" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="1447,83,1636,112"/>
 <area shape="rect" id="node103" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1997,160,2160,189"/>
 <area shape="rect" id="node11" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="420,551,591,580"/>

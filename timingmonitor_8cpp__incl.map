@@ -1,6 +1,6 @@
 <map id="core/common/timingmonitor.cpp" name="core/common/timingmonitor.cpp">
 <area shape="rect" id="node3" href="$timingmonitor_8h.html" title="core/common/timingmonitor.h" alt="" coords="17,83,212,112"/>
-<area shape="rect" id="node11" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="231,160,393,189"/>
+<area shape="rect" id="node11" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="231,160,393,189"/>
 <area shape="rect" id="node23" href="$common_8h.html" title="core/common/common.h" alt="" coords="527,237,692,267"/>
 <area shape="rect" id="node25" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="351,315,516,344"/>
 <area shape="rect" id="node35" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="584,315,744,344"/>

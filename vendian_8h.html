@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: core/common/vendian.h File Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -72,7 +72,8 @@ Include dependency graph for vendian.h:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="vendian_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="vendian_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -87,7 +88,9 @@ Functions</h2></td></tr>
 <tr class="separator:gaaff78983559ba5cd0304d94d202ebe42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="section date"><dt>Date</dt><dd>2010-2014 </dd></dl>
+<div class="textblock"><p>The header vendian.h provides endianess conversion functions for data types of different lengths. If the host system is little endian, CPU and unit tests must swap byte order. The latter is defined by the macro LITTLE_ENDIAN_BO.</p>
+<p>It has to be kept in mind that the LEON processor is a big endian CPU. Hence, memory images generated with the SPARC compiler (e.g. BCC) are also big endian. If the host system simulates the CPU, or testbench, in little endian byte order, all data items going to/from memory must be reordered!</p>
+<dl class="section date"><dt>Date</dt><dd>2010-2014 </dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>All rights reserved. Any reproduction, use, distribution or disclosure of this program, without the express, prior written consent of the authors is strictly prohibited. </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Thomas Schuster </dd></dl>
 </div></div><!-- contents -->
@@ -100,7 +103,7 @@ Functions</h2></td></tr>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:28 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:28 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

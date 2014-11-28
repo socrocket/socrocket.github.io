@@ -10,7 +10,7 @@
     <meta name="author" content="meyer@c3e.cs.tu-bs.de">
     <title>SoCRocket: Modeling Concepts</title>
     <link href="tabs.css" rel="stylesheet" type="text/css">
-    <link href="doxygen.css" rel="stylesheet" type="text/css" />
+    <link href="style-doxygen.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
@@ -45,13 +45,37 @@
       <li><a href="files.html"><span>Files</span></a></li>
     </ul>
   </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="usermanual.html">User Manual</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">Modeling Concepts </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>check, verify and beautify this document</dd></dl>
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#modeling1">Coding Style</a><ul><li class="level2"><a href="#modeling1_1">Loosely Timed (LT)</a></li>
+<li class="level2"><a href="#modeling1_2">Approximately Timed (AT)</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#modeling2">Library base classes</a></li>
+<li class="level1"><a href="#modeling3">TLM Signal Communication Kit</a></li>
+<li class="level1"><a href="#modeling4">Memory mapped registers</a></li>
+<li class="level1"><a href="#modeling5">Power Modeling</a></li>
+<li class="level1"><a href="#modeling6">RTL Co-Simulation Transactors</a><ul><li class="level2"><a href="#modeling6_1">AHB RTL Bus → TLM Slave</a></li>
+<li class="level2"><a href="#modeling6_2">AHB RTL Master → TLM Bus</a></li>
+<li class="level2"><a href="#modeling6_3">AHB TLM Bus → RTL Slave</a></li>
+<li class="level2"><a href="#modeling6_4">AHB TLM Master → RTL Bus</a></li>
+<li class="level2"><a href="#modeling6_5">APB TLM Bus → RTL Slave</a></li>
+<li class="level2"><a href="#modeling6_6">TLM CPU → RTL Cache</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#modeling7">Extending the library</a></li>
+</ul>
+</div>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>check and verify this document</dd></dl>
 <p>In this chapter we describe the underlying modeling concepts of the library. This comprises coding style/abstraction, as well as common base classes and modeling techniques. The goal is to enable the user to extend the library by developing and integrating own modules.</p>
 <h1><a class="anchor" id="modeling1"></a>
 Coding Style</h1>
@@ -62,124 +86,27 @@ Loosely Timed (LT)</h2>
 <p>The LT configuration of the simulation models is intendend for fast address-accurate simulation (SW development). Communication is modeled using blocking function calls and as little synchronization with the SystemC kernel as possible. Respectively, independent of the protocol, each data transmission completes in a single call to the TLM transport interface. The master stalls/blocks during the call. All involved transfer or target components increment the delay counter, which is carried along the payload. After return of control from the slave, the master may or may not consume the annotated delay. To reduce context switching the master is allowed to run ahead of time and to accumulate the delay of multiple transactions. LT models are supposed to provide ‘just enough’ timing accuracy to allow an operating system to boot.</p>
 <h2><a class="anchor" id="modeling1_2"></a>
 Approximately Timed (AT)</h2>
-<p>The AT configuration of the simulation models is intendend for architecture exploration. To provide the required accuracy it models selected features of the involved communication protocols. This mainly relates to the pipelined nature of AHB. In the AHB protocol the data phase of a request and the address phase of a succeeding request may overlap. Ignoring this fact in simulations leads to large timing deviations. Nevertheless, the AT abstraction of the IPs in this library do not model the AHB protocol in a cycle-accurate way. The AT mode is supposed to provide a reasonable speedup over RTL simulation, while still being accurate enough to facilitate architectural decisions. This is achieved by describing all kinds of AHB transfers using four TLM phases (Table 4): </p><pre class="fragment">                                         | Read Operation                      | Write Operation
-</pre><p> -----------------------------------------&mdash; | --------------------------------&mdash; | ---------------------------------&mdash; Begin of AHB address phase | <code>tlm::BEGIN_REQ</code> (Master -&gt; Slave) | <code>tlm::BEGIN_REQ</code> (Master -&gt; Slave) End of AHB address phase (incl. arbitration) | <code>tlm::END_REQ</code> (Slave -&gt; Master) | <code>tlm::END_REQ</code> (Slave -&gt; Master) Begin of AHB data phase | <code>tlm::BEGIN_RESP</code> (Slave -&gt; Master) | <code>amba::BEGIN_DATA</code> (Master -&gt; Slave) End of AHB data phase | <code>tlm::END_REQ</code> (Master-&gt;Slave) | <code>amba::END_DATA</code> (Slave -&gt; Master) <em>Table 4 - AT Phase AHB Protocol</em></p>
-<p>More information about the AT abstraction can be found in the respective section of the model descriptions (e.g. 4.3.3, 6.3.3, 8.3.3) and in RD09.</p>
+<p>The AT configuration of the simulation models is intendend for architecture exploration. To provide the required accuracy it models selected features of the involved communication protocols. This mainly relates to the pipelined nature of AHB. In the AHB protocol the data phase of a request and the address phase of a succeeding request may overlap. Ignoring this fact in simulations leads to large timing deviations. Nevertheless, the AT abstraction of the IPs in this library do not model the AHB protocol in a cycle-accurate way. The AT mode is supposed to provide a reasonable speedup over RTL simulation, while still being accurate enough to facilitate architectural decisions. This is achieved by describing all kinds of AHB transfers using four TLM phases (Table 4):</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 4 - AT Phase AHB Protocol</caption>
+<tr id="HeadRow">
+<th id="FirstColumn"></th><th id="MiddleColumn">Read Operation</th><th id="LastColumn">Write Operation </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">Begin of AHB address phase</td><td id="MiddleColumn"><code>tlm::BEGIN_REQ</code> (Master → Slave)</td><td id="LastColumn"><code>tlm::BEGIN_REQ</code> (Master → Slave) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">End of AHB address phase (incl. arbitration)</td><td id="MiddleColumn"><code>tlm::END_REQ</code> (Slave → Master)</td><td id="LastColumn"><code>tlm::END_REQ</code> (Slave → Master) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">Begin of AHB data phase</td><td id="MiddleColumn"><code>tlm::BEGIN_RESP</code> (Slave → Master)</td><td id="LastColumn"><code>amba::BEGIN_DATA</code> (Master → Slave) </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">End of AHB data phase</td><td id="MiddleColumn"><code>tlm::END_REQ</code> (Master → Slave)</td><td id="LastColumn"><code>amba::END_DATA</code> (Slave → Master) </td></tr>
+</table>
+<p>More information about the AT abstraction can be found in the respective section of the model descriptions (e.g. <a class="el" href="ahbctrl_p.html">AHBCtrl</a>, <a class="el" href="mctrl_p.html">MCTRL</a>, <a class="el" href="mmu_cache_p.html">mmu_cache</a>) and in <a class="el" href="interconnect_methodology.html">Interconnect Methodology</a>.</p>
 <h1><a class="anchor" id="modeling2"></a>
 Library base classes</h1>
-<p>Clock Device:</p>
-<p>class <a class="el" href="classCLKDevice.html">CLKDevice</a> models/utils/clkdevice.* lib utils</p>
-<p>The class <a class="el" href="classCLKDevice.html">CLKDevice</a> is used to consistently distribute clock/timing and reset amongst all IPs of the library. Devices that inherit from <a class="el" href="classCLKDevice.html">CLKDevice</a> receive two SignalKit inputs: clk and rst. If the child requires reset behavior, it may implement the virtual function dorst(), which is triggered by the rst input. Moreover, <a class="el" href="classCLKDevice.html">CLKDevice</a> provides a data member „clock_cycle“, which can be used by the child to determine the clock period for delay calculations. The value of clock_cycle is set by connecting a sc_time SignalKit signal to the clk input or by calling one of the various set_clk functions of the class.</p>
-<p>AHB Device:</p>
-<p>class <a class="el" href="classAHBDevice.html">AHBDevice</a> models/utils/ahbdevice.* lib utils</p>
-<p>All simulation models that are supposed to be connected to the TLM AHBCTRL must be derived from the class <a class="el" href="classAHBDevice.html">AHBDevice</a>. Usually, this is indirectly done by inheriting from the AHB Master or AHB Slave classes (see below). The Aeroflex Gaisler AHBCTRL implements a Plug &amp; Play mechanism, which relies on configuration information that is collected from the attached masters and slaves. <a class="el" href="classAHBDevice.html">AHBDevice</a> models the respective configuration data records. The structure of these records is described in RD04. At start_of_simulation the TLM AHBCTRL iterates through all connected modules to retrieve AHB bar &amp; mask and build up its internal routing table.</p>
-<p>AHB Master:</p>
-<p>class <a class="el" href="classAHBMaster.html">AHBMaster</a> models/utils/ahbmaster.* lib utils</p>
-<p>Almost all models implementing an AHB master interface (except busses) are derived from class <a class="el" href="classAHBMaster.html">AHBMaster</a>. <a class="el" href="classAHBMaster.html">AHBMaster</a> is a convenience class providing an AHB master socket and implementations of various access functions for reading/writing data over the bus. <a class="el" href="classAHBMaster.html">AHBMaster</a> inherits <a class="el" href="classAHBDevice.html">AHBDevice</a> and can be configured for loosely timed (LT) or approximately timed (AT) level of abstraction.</p>
-<p>An overview about how to build own components based on <a class="el" href="classAHBMaster.html">AHBMaster</a> is given in 3.7.</p>
-<p>AHB Slave:</p>
-<p>class <a class="el" href="classAHBSlave.html">AHBSlave</a> models/utils/ahbslave.*</p>
-<p>Almost all models implementing an AHB slave interface (except busses) are derived from class <a class="el" href="classAHBSlave.html">AHBSlave</a>. <a class="el" href="classAHBSlave.html">AHBSlave</a> is a convenience class providing an AHB slave socket and callback functions for hooking up with the behaviour of user models. <a class="el" href="classAHBSlave.html">AHBSlave</a> inherits <a class="el" href="classAHBDevice.html">AHBDevice</a> and can be configured for loosely timed (LT) or approximately timed (AT) level of abstraction.</p>
-<p>An overview about how to build own components based on <a class="el" href="classAHBSlave.html">AHBSlave</a> is given in 3.7.</p>
-<p>APB Device:</p>
-<p>class <a class="el" href="classAPBDevice.html">APBDevice</a> models/utils/apbdevice.* lib utils</p>
-<p>All simulation models that are supposed to be connected to the TLM APBCTRL must be derived from class <a class="el" href="classAPBDevice.html">APBDevice</a>. Similar to the concept of <a class="el" href="classAHBDevice.html">AHBDevice</a>, the child inherits Plug &amp; Play configuration records representing its device type and address. At start_of_simulation the APBCTRL iterates through the connected slaves collecting all APB bar and mask settings for building up its routing table.</p>
-<p>Modules, like the MCTRL, which posses an AHB as well as an APB interface must be derived from <a class="el" href="classAHBDevice.html">AHBDevice</a> and <a class="el" href="classAPBDevice.html">APBDevice</a>.</p>
-<p><a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> Device:</p>
-<p>class <a class="el" href="classMEMDevice.html">MEMDevice</a> models/utils/memdevice.* lib utils</p>
-<p>The class <a class="el" href="classMEMDevice.html">MEMDevice</a> is the base class of all memories to be connected to the MCTRL. The library provides a Generic <a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a>, which implements the given interface. The included functions are required to determine the features of the attached component for correct access and delay calculation.</p>
-<p>Timing Monitor:</p>
-<p>class timingmonitor common/timingmonitor.* lib common</p>
-<p>Timingmonitor is a support class for timing verification. Within the library it is used in almost all testbench classes. During simulation it records the SystemC simulation time and the real execution time of test phases. For this purpose it provides a set of static control functions. A test phase starts with a call to phase_start_timing. The function expects a phase ID and a phase description as inputs. This will create a new entry in the internal timing map. After completion of the test phase, the testbench calls phase_end_timing to close the record. At the end of the test, the testbench may now call report_timing to generate a report showing the timing of all test phases. This is especially useful for comparing simulations at different levels of abstraction.</p>
-<p>Verbosity:</p>
-<p>class color, number, msgstream common/verbose.*</p>
-<p>The operators defined in verbose.h can be used to filter output messages respecting their severity. As explained in 2.2.2 the verbosity level of the simulations must be defined during configuration of the library (./waf configure –verbosity=1..5). Five levels may be chosen: error, warning, report, info and debug. The operators are used in a similar way to C++ stdout:</p>
-<div class="fragment"><div class="line">std::cout &lt;&lt; value &lt;&lt; std::endl;  <span class="comment">// Regular C++ stdout</span></div>
-<div class="line"></div>
-<div class="line"><a class="code" href="namespacev.html#a8175de451203b69dd990b52c97994ef1">v::error</a>    &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity error stream</span></div>
-<div class="line"><a class="code" href="namespacev.html#a6f67163d47f17185ed247d4ba03f341b">v::warn</a>     &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity warn stream</span></div>
-<div class="line"><a class="code" href="namespacev.html#aeab8e77e452286bbc0eb67027430efe7">v::report</a>   &lt;&lt; value &lt;&lt; v::endl;   <span class="comment">// Verbosity report stream</span></div>
-<div class="line"><a class="code" href="namespacev.html#a893c60ee5398ed06026abe24e4786a19">v::info</a>     &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity info stream</span></div>
-<div class="line"><a class="code" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">v::debug</a>    &lt;&lt; value &lt;&lt; v::endl;    <span class="comment">// Verbosity debug stream</span></div>
-</div><!-- fragment --><p>Defining the verbosity at configuration time has the advantage that undesired output is optimized way (compared to runtime switching).</p>
-<p>Endianess:</p>
-<p>class none common/vendian.h lib common</p>
-<p>The header vendian.h provides endianess conversion functions for data types of different lengths. If the host system is little endian, CPU and unit tests must swap byte order. The latter is defined by the macro LITTLE_ENDIAN_BO.</p>
-<p>It has to be kept in mind that the LEON processor is a big endian CPU. Hence, memory images generated with the SPARC compiler (e.g. BCC) are also big endian. If the host system simulates the CPU, or testbench, in little endian byte order, all data items going to/from memory must be reordered!</p>
-<p>VMAP: class none common/vmap.h lib common</p>
-<p>To save system memory and optimize simulation performance large, sparse memories should be implemented as maps. In this case the memory address represents the key and the actual data the entry. Because the performance of the various existing map implementation strongly depends on the system environment, the SoCRocket library provides the flexible type vmap. The vmap.h header contains a macro defining vmap as either std::map, hash_map or std::tr1::unordered_map.</p>
-<p>An example for the usage of vmap is given by the MapMemory implementation of the Generic <a class="el" href="classMemory.html" title="This class models a generic memory. Depending on the configuration it can be used as ROM...">Memory</a> (7).</p>
+<p>This section can be found here: <a class="el" href="common_doc.html">Library base classes</a></p>
 <h1><a class="anchor" id="modeling3"></a>
 TLM Signal Communication Kit</h1>
-<p>Signal communication in TLM platforms is usually modeled using SystemC signals (sc_signals). SystemC signals are applied very similar to RTL signals and, more-or-less, represent hardware wires. To achieve the required level of accuracy, all reads and writes of sc_signals need to be scheduled by the SystemC kernel. For modeling at a higher level of abstraction this involves an unwanted overhead. One would prefer a fast function-call based (TLM-style) communication with a preference of retaining the natural, close to hardware, modeling style of sc_signals.</p>
-<p>For this purpose this library provides an extra set of functions. The SoCRocket SignalKit can be found in the root directory of the project (./signalkit). Within the library it is mainly used to model the interrupt and reset distribution, but also for special purposes like dbus snooping. Syntax and application of SignalKit ports are very close to sc_signals. Although, signal transmission is performed by directed function calls, similar to TLM blocking transport. In contrast to TLM no payload handling is required. The general handling is very simple.</p>
-<p>A module that is supposed to utilize SignalKit signals must include the signalkit.h header file and must call the SK_HAS_SIGNALS macro in its class definition. The following code example shows a SignalKit module with an outgoing port of type int:</p>
-<div class="fragment"><div class="line"> 1  #include <span class="stringliteral">&quot;signalkit.h&quot;</span></div>
-<div class="line"> 2</div>
-<div class="line"> 3  <span class="keyword">class </span>source : <span class="keyword">public</span> sc_module {</div>
-<div class="line"> 4</div>
-<div class="line"> 5          <a class="code" href="module_8h.html#ab8a07d08b477c3f6fdbe7d5129146292">SK_HAS_SIGNALS</a>(source);</div>
-<div class="line"> 6          SC_HAS_PROCESS(source);</div>
-<div class="line"> 7</div>
-<div class="line"> 8          signal&lt;int&gt;::out out;</div>
-<div class="line"> 9</div>
-<div class="line">10          <span class="comment">// Constructor</span></div>
-<div class="line">11          source(sc_module_name nm) : sc_module(nm), out(<span class="stringliteral">&quot;out&quot;</span>) {</div>
-<div class="line">12</div>
-<div class="line">13                  SC_THREAD(run);</div>
-<div class="line">14</div>
-<div class="line">15          }</div>
-<div class="line">16</div>
-<div class="line">17          <span class="keywordtype">void</span> run() {</div>
-<div class="line">18</div>
-<div class="line">19                  <span class="comment">// ...</span></div>
-<div class="line">20                  out = i;</div>
-<div class="line">21                  <span class="comment">// ...</span></div>
-<div class="line">22          }</div>
-<div class="line">23  }</div>
-<div class="line">24</div>
-</div><!-- fragment --><p>The actual signal output is defined in line 8. The output is written in line 20. Alternatively to to the shown direct data assignment, the write method of the port may be used (out.write(i)).</p>
-<p>The next code block shows a signal receiver:</p>
-<div class="fragment"><div class="line"> 1  #include <span class="stringliteral">&quot;signalkit.h&quot;</span></div>
-<div class="line"> 2</div>
-<div class="line"> 3  <span class="keyword">class </span>dest : <span class="keyword">public</span> sc_module {</div>
-<div class="line"> 4</div>
-<div class="line"> 5          <a class="code" href="module_8h.html#ab8a07d08b477c3f6fdbe7d5129146292">SK_HAS_SIGNALS</a>(dest);</div>
-<div class="line"> 6</div>
-<div class="line"> 7          signal&lt;int&gt;::in in;</div>
-<div class="line"> 8</div>
-<div class="line"> 9          <span class="comment">// Constructor</span></div>
-<div class="line">10          dest(sc_module_name nm) : sc_module(nm), in(&amp;dest::onsignal, <span class="stringliteral">&quot;in&quot;</span>) {</div>
-<div class="line">11</div>
-<div class="line">12          }</div>
-<div class="line">13</div>
-<div class="line">14          <span class="comment">// Signal handler for input in</span></div>
-<div class="line">15          <span class="keywordtype">void</span> onsignal(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp;value, <span class="keyword">const</span> sc_time &amp;time) {</div>
-<div class="line">16</div>
-<div class="line">17                  <span class="comment">// do something</span></div>
-<div class="line">18</div>
-<div class="line">19          }</div>
-<div class="line">20</div>
-<div class="line">21  }</div>
-<div class="line">22</div>
-</div><!-- fragment --><p>In line 10 the handler function onsignal is registered at SignalKit input in. If any call is received, this function will be triggered. Int value represents the data transmitted.</p>
-<p>Sender and receiver can be connected using the SignalKit connect method. An example is given below:</p>
-<div class="fragment"><div class="line"> 1  #include <span class="stringliteral">&quot;source.h&quot;</span></div>
-<div class="line"> 2  #include <span class="stringliteral">&quot;dest.h&quot;</span></div>
-<div class="line"> 3</div>
-<div class="line"> 4  <span class="keywordtype">int</span> <a class="code" href="main_8cpp.html#gad82ffd9ab2be145419e6ead48ea59fee">sc_main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[]) {</div>
-<div class="line"> 5</div>
-<div class="line"> 6          source <a class="code" href="bcnt_8c.html#a6e91215a259eb7de11d08ce104218c15">src</a>;</div>
-<div class="line"> 7          dest <a class="code" href="bcnt_8c.html#ab39696699a256683ed0a3ca55ff2bc17">dst</a>;</div>
-<div class="line"> 8</div>
-<div class="line"> 9          <a class="code" href="namespacesignalkit.html#a490da5f4853929ced113fca1504716e7">connect</a>(src.out, dst.in);</div>
-<div class="line">10</div>
-<div class="line">11          ...</div>
-<div class="line">12</div>
-<div class="line">13          <span class="keywordflow">return</span> 0;</div>
-<div class="line">14</div>
-<div class="line">15  }</div>
-</div><!-- fragment --><p>Next to that trivial direct connection, the connect method is capable of handling broadcasting and muxing, and for converting between Signalkit and SystemC signals. For a broadcast the out signal may be directly connected to multiple ins. In the mux case, multiple transmitters are combined into one receiver. If required the transmitter may be identified by a channel number.</p>
+<p>This section can be found here: <a class="el" href="signalkit_doc.html">SoCRocket SignalKit</a></p>
 <h1><a class="anchor" id="modeling4"></a>
 Memory mapped registers</h1>
 <p>GreenReg is used to model memory mapped registers throughout the library. Since almost every model requires a set of control registers, this unified scheme yields a high productivity gain. The following steps are required to define a register:</p>
@@ -213,185 +140,191 @@ Memory mapped registers</h1>
 <h1><a class="anchor" id="modeling5"></a>
 Power Modeling</h1>
 <p>The SoCRocket library provides methods and tools for transaction level power estimation. All information on this topic has been summoned in the SoCRocket Power Modeling Report [RD11].</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>where is the power modeling report?</dd></dl>
 <h1><a class="anchor" id="modeling6"></a>
 RTL Co-Simulation Transactors</h1>
 <p>The library provides a set of RTL co-simulation transactors, which have been developed to facilitate the verification of the simulation IP. These transactors may also be used as a starting point for integrating other, third party, RTL IP in the system.</p>
 <p>Regarding the AMBA interconnect the library provides 6 different TLM interfaces. It can be distinguished between master and slave components, AHB and APB components as well as bus and non-bus components.</p>
-<p>AHB TLM Master – The primary AHB master inferface; To be used for all AHB master components except busses; Can be found in MMU_CACHE and SoCWire IP.</p>
-<p>AHB TLM Slave – The primary AHB slave interface; To be used for all AHB slave components except busses; Can be found in MCTRL, APBCTRL and AHBMEM.</p>
-<p>AHB TLM Bus Master – The AHB master interface of the AHBCTRL (multi-socket); Stears the communication between bus and slave.</p>
-<p>AHB TLM Bus Slave – The AHB slave interface of the AHBCTRL (multi-socket); All bus masters are to be bound to this interface.</p>
-<p>APB TLM Master – The APB master interface of the APBCTRL (multi-socket)</p>
-<p>APB TLM Slave – The APB slave interface; To be used for all APB slave components; Can be found in the MCTRL, IRQMP, <a class="el" href="classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig...">GPTimer</a> and SoCWire IPs.</p>
+<ul>
+<li>AHB TLM Master – The primary AHB master inferface; To be used for all AHB master components except busses; Can be found in MMU_CACHE and SoCWire IP.</li>
+<li>AHB TLM Slave – The primary AHB slave interface; To be used for all AHB slave components except busses; Can be found in MCTRL, APBCTRL and AHBMEM.</li>
+<li>AHB TLM Bus Master – The AHB master interface of the AHBCTRL (multi-socket); Stears the communication between bus and slave.</li>
+<li>AHB TLM Bus Slave – The AHB slave interface of the AHBCTRL (multi-socket); All bus masters are to be bound to this interface.</li>
+<li>APB TLM Master – The APB master interface of the APBCTRL (multi-socket)</li>
+<li>APB TLM Slave – The APB slave interface; To be used for all APB slave components; Can be found in the MCTRL, IRQMP, <a class="el" href="classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig...">GPTimer</a> and SoCWire IPs.</li>
+</ul>
 <p>In general it has to be kept in mind that in AHB systems the communication protocols between master/bus, and bus/slave are different. This is reflected by the collection of transactors.</p>
-<p>All type definitions for conversion between RTL and SystemC are summarized in the header file ahb_adapter_types.h.</p>
+<p>All type definitions for conversion between RTL and SystemC are summarized in the header <code>file ahb_adapter_types.h</code>.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>does ahb_adapter_types.h still exist?</dd></dl>
 <h2><a class="anchor" id="modeling6_1"></a>
-AHB RTL Bus -&gt; TLM Slave</h2>
+AHB RTL Bus → TLM Slave</h2>
 <p>Files: <code>ahb_rtlbus_tlmslave_transactor.{h,cpp}</code></p>
-<p>The RTL Bus -&gt; TLM Slave transactor allows the GRLIB RTL AHBCTRL to be connected to SoCRocket AHB TLM Slaves. Within the library it is used in all co-simulation testbenches of the AHBCTRL IP.</p>
-<table class="doxtable">
-<tr>
-<th>Socket name </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>ahbOUT </td><td>amba_master_socket </td><td>Bind to AHB TLM Slave </td></tr>
-<tr>
-<td>ahb_slv_in </td><td>sc_in&lt;ahb_slv_in_type&gt; </td><td>RTL input signals from slave to bus </td></tr>
-<tr>
-<td>ahb_slv_out </td><td>sc_out&lt;ahb_slv_out_type&gt; </td><td>RTL output signals from bus to slave </td></tr>
-<tr>
-<td>hirqi </td><td>signal&lt;bool&gt;::infield </td><td>IRQ signals from slave to bus </td></tr>
-<tr>
-<td>hirqo </td><td>signal&lt;bool&gt;::selector </td><td>IRQ signals from bus to slave </td></tr>
+<p>The RTL Bus → TLM Slave transactor allows the GRLIB RTL AHBCTRL to be connected to SoCRocket AHB TLM Slaves. Within the library it is used in all co-simulation testbenches of the AHBCTRL IP.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 5 - RTL Bus to TLM Slave transactor</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Socket name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbOUT</td><td id="MiddleColumn">amba_master_socket</td><td id="LastColumn">Bind to AHB TLM Slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_slv_in</td><td id="MiddleColumn">sc_in&lt;ahb_slv_in_type&gt;</td><td id="LastColumn">RTL input signals from slave to bus </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_slv_out</td><td id="MiddleColumn">sc_out&lt;ahb_slv_out_type&gt;</td><td id="LastColumn">RTL output signals from bus to slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">hirqi</td><td id="MiddleColumn">signal&lt;bool&gt;::infield</td><td id="LastColumn">IRQ signals from slave to bus </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">hirqo</td><td id="MiddleColumn">signal&lt;bool&gt;::selector</td><td id="LastColumn">IRQ signals from bus to slave </td></tr>
 </table>
-<p><em>Table 5 - RTL Bus to TLM Slave transactor</em></p>
 <h2><a class="anchor" id="modeling6_2"></a>
-AHB RTL Master -&gt; TLM Bus</h2>
-<p>Files: ahb_rtlmaster_tlmbus_transactor.{h,cpp}</p>
-<p>The RTL Master -&gt; TLM Bus transactor allows an AHB RTL master to be connected to the SoCRocket AHBCTRL IP. Within the library it is used in all co-simulation testbenches of the MMU_CACHE model.</p>
-<table class="doxtable">
-<tr>
-<th>Socket name </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>ahbOUT </td><td>amba_master_socket </td><td>Bind to TLM AHBCTRL </td></tr>
-<tr>
-<td>ahb_mst_in </td><td>sc_out&lt;ahb_master_in_type&gt; </td><td>RTL output signals from bus to master </td></tr>
-<tr>
-<td>ahb_mst_out </td><td>sc_in&lt;ahb_master_out_type&gt; </td><td>RTL input signals from master to bus </td></tr>
-<tr>
-<td>hirqi </td><td>signal&lt;bool&gt;::infield </td><td>IRQ signals from master to bus </td></tr>
-<tr>
-<td>hirqo </td><td>signal&lt;bool&gt;::selector </td><td>IRQ signals from bus to master </td></tr>
+AHB RTL Master → TLM Bus</h2>
+<p>Files: <code>ahb_rtlmaster_tlmbus_transactor.{h,cpp}</code></p>
+<p>The RTL Master → TLM Bus transactor allows an AHB RTL master to be connected to the SoCRocket AHBCTRL IP. Within the library it is used in all co-simulation testbenches of the MMU_CACHE model.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 6 - AHB RTL Master to TLM Bus transactor</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Socket name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbOUT</td><td id="MiddleColumn">amba_master_socket</td><td id="LastColumn">Bind to TLM AHBCTRL </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_mst_in</td><td id="MiddleColumn">sc_out&lt;ahb_master_in_type&gt;</td><td id="LastColumn">RTL output signals from bus to master </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_mst_out</td><td id="MiddleColumn">sc_in&lt;ahb_master_out_type&gt;</td><td id="LastColumn">RTL input signals from master to bus </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">hirqi</td><td id="MiddleColumn">signal&lt;bool&gt;::infield</td><td id="LastColumn">IRQ signals from master to bus </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">hirqo</td><td id="MiddleColumn">signal&lt;bool&gt;::selector</td><td id="LastColumn">IRQ signals from bus to master </td></tr>
 </table>
-<p><em>Table 6 - AHB RTL Master to TLM Bus transactor</em></p>
 <h2><a class="anchor" id="modeling6_3"></a>
-AHB TLM Bus -&gt; RTL Slave</h2>
-<p>Files: ahb_tlmbus_rtlslave_transactor.{h,cpp}</p>
-<p>The TLM Bus -&gt; RTL Slave transactor allows AHB RTL slaves to be connected to the SoCRocket AHBCTRL IP. Within the library it is used in several co-simulations of the MCTRL model.</p>
-<table class="doxtable">
-<tr>
-<th>Socket name </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>ahbIN </td><td>amba_slave_socket </td><td>Bind to TLM AHBCTRL </td></tr>
-<tr>
-<td>ahbsi </td><td>sc_out&lt;ahb_slv_in_type&gt; </td><td>RTL output signals from bus to slave </td></tr>
-<tr>
-<td>ahbso </td><td>sc_in&lt;ahb_slv_out_type_adapter&gt; </td><td>RTL input signals from slave to bus </td></tr>
-<tr>
-<td>hirqi </td><td>signal&lt;bool&gt;::infield </td><td>IRQ signals from slave to bus </td></tr>
-<tr>
-<td>hirqo </td><td>signals&lt;bool&gt;::selector </td><td>IRQ signals from bus to slave </td></tr>
+AHB TLM Bus → RTL Slave</h2>
+<p>Files: <code>ahb_tlmbus_rtlslave_transactor.{h,cpp}</code></p>
+<p>The TLM Bus → RTL Slave transactor allows AHB RTL slaves to be connected to the SoCRocket AHBCTRL IP. Within the library it is used in several co-simulations of the MCTRL model.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 7 - AHB TLM Bus to RTL Slave transactor</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Socket name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbIN</td><td id="MiddleColumn">amba_slave_socket</td><td id="LastColumn">Bind to TLM AHBCTRL </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbsi</td><td id="MiddleColumn">sc_out&lt;ahb_slv_in_type&gt;</td><td id="LastColumn">RTL output signals from bus to slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbso</td><td id="MiddleColumn">sc_in&lt;ahb_slv_out_type_adapter&gt;</td><td id="LastColumn">RTL input signals from slave to bus </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">hirqi</td><td id="MiddleColumn">signal&lt;bool&gt;::infield</td><td id="LastColumn">IRQ signals from slave to bus </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">hirqo</td><td id="MiddleColumn">signals&lt;bool&gt;::selector</td><td id="LastColumn">IRQ signals from bus to slave </td></tr>
 </table>
-<p><em>Table 7 - AHB TLM Bus to RTL Slave transactor</em></p>
 <h2><a class="anchor" id="modeling6_4"></a>
-AHB TLM Master -&gt; RTL Bus</h2>
-<p>Files: ahb_tlmmaster_rtlbus_transactor.{h,cpp}</p>
-<p>The TLM Master -&gt; RTL Bus transactor allows SoCRocket AHB TLM masters to be connected to the GRLIB RTL AHBCTRL. Within the library it is used in all co-simulation testbenches of the AHBCTRL IP.</p>
-<table class="doxtable">
-<tr>
-<th>Socket name </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>ahbIN </td><td>amba_slave_socket </td><td>Bind to TLM master (e.g. <a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a>) </td></tr>
-<tr>
-<td>snoop </td><td>signal&lt;t_snoop&gt; </td><td>snoop Snooping broadcast bus -&gt; masters </td></tr>
-<tr>
-<td>ahb_mst_in </td><td>sc_in&lt;ahb_mst_in_type&gt; </td><td>RTL input signals from bus to master (collected master outputs) </td></tr>
-<tr>
-<td>ahb_mst_out </td><td>sc_out&lt;ahb_mst_out_type_adapter&gt; </td><td>RTL output signals from master to bus </td></tr>
-<tr>
-<td>ahb_slv_in </td><td>sc_in&lt;ahb_slv_in_type&gt; </td><td>RTL input signals from bus to master (collected slave outputs) </td></tr>
-<tr>
-<td>hirqi </td><td>signal&lt;bool&gt;::infield </td><td>IRQ signals from bus to master </td></tr>
-<tr>
-<td>hirqo </td><td>signal&lt;bool&gt;::selector </td><td>IRQ signals from master to bus </td></tr>
+AHB TLM Master → RTL Bus</h2>
+<p>Files: <code>ahb_tlmmaster_rtlbus_transactor.{h,cpp}</code></p>
+<p>The TLM Master → RTL Bus transactor allows SoCRocket AHB TLM masters to be connected to the GRLIB RTL AHBCTRL. Within the library it is used in all co-simulation testbenches of the AHBCTRL IP.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 8 - AHB TLM Master to RTL Bus transactor</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Socket name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbIN</td><td id="MiddleColumn">amba_slave_socket</td><td id="LastColumn">Bind to TLM master (e.g. <a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a>) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">snoop</td><td id="MiddleColumn">signal&lt;t_snoop&gt;</td><td id="LastColumn">snoop Snooping broadcast bus → masters </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_mst_in</td><td id="MiddleColumn">sc_in&lt;ahb_mst_in_type&gt;</td><td id="LastColumn">RTL input signals from bus to master (collected master outputs) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_mst_out</td><td id="MiddleColumn">sc_out&lt;ahb_mst_out_type_adapter&gt;</td><td id="LastColumn">RTL output signals from master to bus </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahb_slv_in</td><td id="MiddleColumn">sc_in&lt;ahb_slv_in_type&gt;</td><td id="LastColumn">RTL input signals from bus to master (collected slave outputs) </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">hirqi</td><td id="MiddleColumn">signal&lt;bool&gt;::infield</td><td id="LastColumn">IRQ signals from bus to master </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">hirqo</td><td id="MiddleColumn">signal&lt;bool&gt;::selector</td><td id="LastColumn">IRQ signals from master to bus </td></tr>
 </table>
-<p><em>Table 8 - AHB TLM Master to RTL Bus transactor</em></p>
 <h2><a class="anchor" id="modeling6_5"></a>
-APB TLM Bus -&gt; RTL Slave</h2>
-<p>Files: apb_tlmbus_rtlslave_transactor.{h,cpp}</p>
-<p>The APB TLM Bus -&gt; RTL Slave transactors allows GRLIB RTL APB slaves to be connected to the SoCRocket APBCTRL (AHB to APB bridge). Within the library it is used in various co-simulations of the MCTRL, the IRQMP and the <a class="el" href="classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig...">GPTimer</a>.</p>
-<table class="doxtable">
-<tr>
-<th>Socket name </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>apbIN </td><td>amba_slave_socket </td><td>Bind to TLM APBCTRL </td></tr>
-<tr>
-<td>apbi </td><td>sc_out&lt;apb_slv_in_type&gt; </td><td>RTL output signals from bridge to slave </td></tr>
-<tr>
-<td>apbo </td><td>sc_in&lt;apb_slv_out_type_adapter&gt; </td><td>RTL input signals from slave to bridge </td></tr>
-<tr>
-<td>pirqi </td><td>signal&lt;bool&gt;::infield </td><td>IRQ signals from slave to bridge </td></tr>
-<tr>
-<td>pirqo </td><td>signal&lt;bool&gt;::selector </td><td>IRQ signals from bridge to slave </td></tr>
+APB TLM Bus → RTL Slave</h2>
+<p>Files: <code>apb_tlmbus_rtlslave_transactor.{h,cpp}</code></p>
+<p>The APB TLM Bus → RTL Slave transactors allows GRLIB RTL APB slaves to be connected to the SoCRocket APBCTRL (AHB to APB bridge). Within the library it is used in various co-simulations of the MCTRL, the IRQMP and the <a class="el" href="classGPTimer.html" title="This class is a TLM 2.0 Model of the Aeroflex Gaisler GRLIB GPTimer. Further informations to the orig...">GPTimer</a>.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 9 - APB TLM Bus to RTL Slave transactor</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Socket name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">apbIN</td><td id="MiddleColumn">amba_slave_socket</td><td id="LastColumn">Bind to TLM APBCTRL </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">apbi</td><td id="MiddleColumn">sc_out&lt;apb_slv_in_type&gt;</td><td id="LastColumn">RTL output signals from bridge to slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">apbo</td><td id="MiddleColumn">sc_in&lt;apb_slv_out_type_adapter&gt;</td><td id="LastColumn">RTL input signals from slave to bridge </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">pirqi</td><td id="MiddleColumn">signal&lt;bool&gt;::infield</td><td id="LastColumn">IRQ signals from slave to bridge </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">pirqo</td><td id="MiddleColumn">signal&lt;bool&gt;::selector</td><td id="LastColumn">IRQ signals from bridge to slave </td></tr>
 </table>
-<p>Table 9 - APB TLM Bus to RTL Slave transactor</p>
 <h2><a class="anchor" id="modeling6_6"></a>
-TLM CPU -&gt; RTL Cache</h2>
-<p>Files: tlmcpu_rtlcache_transactor.{h,cpp}</p>
-<p>The TLM CPU -&gt; RTL Cache transactor differs from the remaining transactors of the library. It does not aim for connecting models to the AMBA backbone interconnect, but is dedicated to the verification of the MMU_CACHE IP.</p>
-<table class="doxtable">
-<tr>
-<th>Socket name </th><th>Type </th><th>Description  </th></tr>
-<tr>
-<td>icio </td><td>simple_target_socket </td><td>Bind to cpu instruction socket </td></tr>
-<tr>
-<td>dcio </td><td>simple_target_socket </td><td>Bind to cpu data socket </td></tr>
-<tr>
-<td>ici </td><td>sc_out&lt;icache_in_type&gt; </td><td>RTL output signals from cpu to icache </td></tr>
-<tr>
-<td>ico </td><td>sc_in&lt;icache_out_type&gt; </td><td>RTL input signals from icache to cpu </td></tr>
-<tr>
-<td>dci </td><td>sc_out&lt;dcache_in_type&gt; </td><td>RTL output signals from cpu to dcache </td></tr>
-<tr>
-<td>dco </td><td>sc_in&lt;dcache_out_type&gt; </td><td>RTL input signals from dcache to cpu </td></tr>
+TLM CPU → RTL Cache</h2>
+<p>Files: <code>tlmcpu_rtlcache_transactor.{h,cpp}</code></p>
+<p>The TLM CPU → RTL Cache transactor differs from the remaining transactors of the library. It does not aim for connecting models to the AMBA backbone interconnect, but is dedicated to the verification of the MMU_CACHE IP.</p>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 10 - TLM CPU to RTL Cache transactor</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Socket name</th><th id="MiddleColumn">Type</th><th id="LastColumn">Description </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">icio</td><td id="MiddleColumn">simple_target_socket</td><td id="LastColumn">Bind to cpu instruction socket </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dcio</td><td id="MiddleColumn">simple_target_socket</td><td id="LastColumn">Bind to cpu data socket </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ici</td><td id="MiddleColumn">sc_out&lt;icache_in_type&gt;</td><td id="LastColumn">RTL output signals from cpu to icache </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ico</td><td id="MiddleColumn">sc_in&lt;icache_out_type&gt;</td><td id="LastColumn">RTL input signals from icache to cpu </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">dci</td><td id="MiddleColumn">sc_out&lt;dcache_in_type&gt;</td><td id="LastColumn">RTL output signals from cpu to dcache </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">dco</td><td id="MiddleColumn">sc_in&lt;dcache_out_type&gt;</td><td id="LastColumn">RTL input signals from dcache to cpu </td></tr>
 </table>
-<p><em>Table 10 - TLM CPU to RTL Cache transactor</em></p>
-<p>The source code of all transactors is located in the ./adapters directory. The compilation of transactors is integrated in the SoCRocket build system:</p>
-<div class="fragment"><div class="line">./waf –target=rtladapters</div>
-</div><!-- fragment --><p>In order to utilize a RTL transactor in a platform simulation add the rtladapters target to the use line of your build script (wscript).</p>
+<p>The source code of all transactors is located in the ./adapters directory.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>isit?</dd></dl>
+<p>The compilation of transactors is integrated in the SoCRocket build system: </p><pre class="fragment">$ ./waf –target=rtladapters
+</pre><p>In order to utilize a RTL transactor in a platform simulation add the rtladapters target to the use line of your build script (wscript).</p>
 <h1><a class="anchor" id="modeling7"></a>
 Extending the library</h1>
 <p>The SoCRocket library can be easily extended, by creating own components. The existing simulation models provide examples for almost all possible combinations of bus interfaces:</p>
-<table class="doxtable">
-<tr>
-<th>Model </th><th>Bus interfaces  </th></tr>
-<tr>
-<td>leon iss </td><td>CPU instruction master, CPU data master, Interrupt slave </td></tr>
-<tr>
-<td><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a> </td><td>AHB master, CPU instruction slave, CPU data slave, Interrupt master, Snooping input </td></tr>
-<tr>
-<td>ahbctrl </td><td>AHB master (multi-socket), AHB slave (multi-socket), Snooping output </td></tr>
-<tr>
-<td>apbctrl </td><td>AHB slave, APB master </td></tr>
-<tr>
-<td>ahbmem </td><td>AHB slave </td></tr>
-<tr>
-<td>mctrl </td><td>AHB slave, APB slave </td></tr>
-<tr>
-<td>socwire </td><td>AHB master, Interrupt master </td></tr>
-<tr>
-<td>gptimer </td><td>APB slave, Interrupt master </td></tr>
-<tr>
-<td>irqmp </td><td>APB slave, Interrupt master (multi-socket), Interrupt slave (multi-socket) </td></tr>
+<table  class="table table-striped table-hover">
+<caption align="bottom">Table 11 - Overview models/interfaces</caption>
+<tr id="HeadRow">
+<th id="FirstColumn">Model</th><th id="LastColumn">Bus interfaces </th></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">leon iss</td><td id="LastColumn">CPU instruction master, CPU data master, Interrupt slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn"><a class="el" href="classmmu__cache.html" title="Top-level class of the memory sub-system for the TrapGen LEON3 simulator. ">mmu_cache</a></td><td id="LastColumn">AHB master, CPU instruction slave, CPU data slave, Interrupt master, Snooping input </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbctrl</td><td id="LastColumn">AHB master (multi-socket), AHB slave (multi-socket), Snooping output </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">apbctrl</td><td id="LastColumn">AHB slave, APB master </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">ahbmem</td><td id="LastColumn">AHB slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">mctrl</td><td id="LastColumn">AHB slave, APB slave </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">socwire</td><td id="LastColumn">AHB master, Interrupt master </td></tr>
+<tr id="BodyRow">
+<td id="FirstColumn">gptimer</td><td id="LastColumn">APB slave, Interrupt master </td></tr>
+<tr id="LastRow">
+<td id="FirstColumn">irqmp</td><td id="LastColumn">APB slave, Interrupt master (multi-socket), Interrupt slave (multi-socket) </td></tr>
 </table>
-<p><em>Table 11 - Overview models/interfaces</em></p>
-<p>To be integrated in the SoCRocket platform infrastructure, new models have to fulfill certain requirements. Most of them are encapsulated in a set of base classes. A detailed description of these base classes can be found in section 3.2.</p>
-<p>AHB Masters: All AHB master components must inherit from class <a class="el" href="classAHBMaster.html">AHBMaster</a>. <a class="el" href="classAHBMaster.html">AHBMaster</a> is derived from class <a class="el" href="classAHBDevice.html">AHBDevice</a> and template class &lt;BASE&gt;. &lt;BASE&gt; can be sc_module, which is the default case, or any other child of sc_module. <a class="el" href="classAHBDevice.html">AHBDevice</a> provides the interface for identification of the device in the system. At start_of_simulation the AHBCTRL reads the configuration records of all connected AHBDevices (Masters and Slaves) for building up its internal routing table (PNP records). The actual master socket, all related functionality, and state machines are encapsulated in class <a class="el" href="classAHBMaster.html">AHBMaster</a> iself.</p>
+<p>To be integrated in the SoCRocket platform infrastructure, new models have to fulfill certain requirements. Most of them are encapsulated in a set of base classes. A detailed description of these base classes can be found in <a class="el" href="common_doc.html">Library Base Classes</a>.</p>
+<p>AHB Masters: All AHB master components must inherit from class <a class="el" href="classAHBMaster.html">AHBMaster</a>. <a class="el" href="classAHBMaster.html">AHBMaster</a> is derived from class <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> and template class <code>&lt;BASE&gt;</code>. <code>&lt;BASE&gt;</code> can be sc_module, which is the default case, or any other child of sc_module. <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> provides the interface for identification of the device in the system. At start_of_simulation the AHBCTRL reads the configuration records of all connected AHBDevices (Masters and Slaves) for building up its internal routing table (PNP records). The actual master socket, all related functionality, and state machines are encapsulated in class <a class="el" href="classAHBMaster.html">AHBMaster</a> iself.</p>
 <p>The socket is defined as follows: </p><div class="fragment"><div class="line">amba_master_socket&lt;32&gt; ahb</div>
 </div><!-- fragment --><p> The socket can be accessed via a set of interface functions (see <code>./models/utils/ahbmaster.h</code>). Use the following function for reading from the master socket: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> ahbread(<a class="code" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * data, <a class="code" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> len);</div>
 </div><!-- fragment --><p> For writing data to the socket use: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> ahbwrite(<a class="code" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> addr, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> * data, <a class="code" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> len);</div>
 </div><!-- fragment --><p> Other functions are available for using debug transport, activating bus locking, obtaining cacheability information, handing over additional delay, or retrieving a response pointer. The master can be configured for LT and AT abstraction via constructor parameter <code>ambaLayer</code>. At LT abstraction read-data can be obtained by evaluating the data pointer right after the interface returns control (blocking). At AT abstraction communication is non-blocking. This means, in a read operation the data pointer will usually not be valid right after return from the interface call. That’s why a callback function is provided for notifying the user about a valid response: </p><div class="fragment"><div class="line"><span class="keyword">virtual</span> <span class="keywordtype">void</span> response_callback(tlm::tlm_generic_payload * <a class="code" href="fft_8c.html#a261dc6445544ab3a09e5f50b961887b5">trans</a>) {};</div>
 </div><!-- fragment --><p> The response_callback function is plain virtual and must be implemented by the user.</p>
-<p>AHB Slaves: AHB slave components must inherit from class <a class="el" href="classAHBSlave.html">AHBSlave</a>. <a class="el" href="classAHBSlave.html">AHBSlave</a> is derived from class <a class="el" href="classAHBDevice.html">AHBDevice</a> and template class <code>&lt;BASE&gt;</code>. <code>&lt;BASE&gt;</code> can be <code>sc_module</code>, which is the default case, or any other child of <code>sc_module</code>. Modules implementing memory mapped registers should set <code>&lt;BASE&gt;</code> to <code>gs::reg::gr_device</code> (Greenreg Device). <a class="el" href="classAHBDevice.html">AHBDevice</a> provides the interface for identification of the device in the system. At start_of_simulation the AHBCTRL reads the configuration records of all connected AHBDevices (Masters and Slaves) for building up its internal routing table (PNP records). The actual slave socket, all related functionality, and state machines are encapsulated in class <a class="el" href="classAHBSlave.html">AHBSlave</a> itself.</p>
+<p>AHB Slaves: AHB slave components must inherit from class <a class="el" href="classAHBSlave.html">AHBSlave</a>. <a class="el" href="classAHBSlave.html">AHBSlave</a> is derived from class <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> and template class <code>&lt;BASE&gt;</code>. <code>&lt;BASE&gt;</code> can be <code>sc_module</code>, which is the default case, or any other child of <code>sc_module</code>. Modules implementing memory mapped registers should set <code>&lt;BASE&gt;</code> to <code>gs::reg::gr_device</code> (Greenreg Device). <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> provides the interface for identification of the device in the system. At start_of_simulation the AHBCTRL reads the configuration records of all connected AHBDevices (Masters and Slaves) for building up its internal routing table (PNP records). The actual slave socket, all related functionality, and state machines are encapsulated in class <a class="el" href="classAHBSlave.html">AHBSlave</a> itself.</p>
 <p>The socket is defined as follows: </p><div class="fragment"><div class="line">amba_slave_socket&lt;32&gt; ahb</div>
 </div><!-- fragment --><p> Communication with the user class is implemented using a callback function: </p><div class="fragment"><div class="line"><span class="keyword">virtual</span> <a class="code" href="readpnp_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> exec_func(tlm::tlm_generic_payload &amp;gp, sc_time &amp;delay, <span class="keywordtype">bool</span> <a class="code" href="namespacev.html#af32429aace6d7865e49ec226dfb811f9">debug</a> = <span class="keyword">false</span>) = 0;</div>
 </div><!-- fragment --><p> The slave can be configured for LT and AT abstraction via constructor parameter ambaLayer. At LT abstraction exec_func is directly called from b_transport, and at AT abstraction directly after receiving BEGIN_REQ. The user model is expected to load the delay pointer with a response delay value! The response delay is the number of wait-states required for delivering the data multiplied with clock cycle time.</p>
-<p>APB Slaves: All APB slaves must inherit from class <a class="el" href="classAPBDevice.html">APBDevice</a>. Similar to <a class="el" href="classAHBDevice.html">AHBDevice</a> the conveyed information is used to set up the routing table of the <a class="el" href="classAPBCtrl.html">APBCtrl</a> (PNP records). If the new device is supposed to have memory mapped registers, it must inherit from class gs::reg::gr_device. A small guide for modeling registers with GreenReg can be found in section 3.4. To enable the connection of the clock, the module should also inherit from class <a class="el" href="classCLKDevice.html">CLKDevice</a>. ~~~ class my_apbcomponent : public gs::reg::gr_device, public <a class="el" href="classAPBDevice.html">APBDevice</a>, public <a class="el" href="classCLKDevice.html">CLKDevice</a> ~~ <em>Note: Classes that inherit from gr_device must not inherit from sc_module!!</em></p>
+<p>APB Slaves: All APB slaves must inherit from class <a class="el" href="classAPBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">APBDevice</a>. Similar to <a class="el" href="classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations...">AHBDevice</a> the conveyed information is used to set up the routing table of the <a class="el" href="classAPBCtrl.html">APBCtrl</a> (PNP records). If the new device is supposed to have memory mapped registers, it must inherit from class <code>gs::reg::gr_device</code>. A small guide for modeling registers with GreenReg can be found in section <a class="el" href="modeling.html#modeling4">Memory mapped registers</a>. To enable the connection of the clock, the module should also inherit from class <a class="el" href="classCLKDevice.html">CLKDevice</a>. </p><div class="fragment"><div class="line"><span class="keyword">class </span>my_apbcomponent : <span class="keyword">public</span> gs::reg::gr_device, <span class="keyword">public</span> <a class="code" href="classAPBDevice.html">APBDevice</a>, <span class="keyword">public</span> <a class="code" href="classCLKDevice.html">CLKDevice</a></div>
+</div><!-- fragment --><p> <em>Note: Classes that inherit from gr_device must not inherit from sc_module!</em></p>
 <p>CPU Master/Slave: Building a component that acts as a CPU or is directly connected to the CPU does not require any base class. However, the transactions generated by the CPU are supposed to carry certain payload extensions.</p>
-<p>Instruction payload extensions: icio_payload_extension.h</p>
-<p>Data payload extensions: dcio_payload_extension.h</p>
+<p>Instruction payload extensions: <code>icio_payload_extension.h</code></p>
+<p>Data payload extensions: <code>dcio_payload_extension.h</code></p>
 <p>Make sure to include the appropriate header/s in your design.</p>
 <p>Interrupt Master/Slave: All models that send or receive interrupts must use the following macro: </p><div class="fragment"><div class="line"><a class="code" href="module_8h.html#ab8a07d08b477c3f6fdbe7d5129146292">SK_HAS_SIGNALS</a>(class_name)</div>
-</div><!-- fragment --><p> For more information have a look at the SignalKit documentation in section 3.3.   </p>
+</div><!-- fragment --><p> For more information have a look at the <a class="el" href="signalkit_doc.html">SignalKit documentation</a>.   </p>
 </div></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
@@ -402,7 +335,7 @@ Extending the library</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Tue Nov 18 2014 18:54:31 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Nov 28 2014 15:12:30 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>

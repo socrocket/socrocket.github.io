@@ -176,7 +176,7 @@
 </g>
 <!-- Node24 -->
 <g id="node62" class="node"><title>Node24</title>
-<a xlink:href="verbose_8h.html" target="_top" xlink:title="core/common/verbose.h">
+<a xlink:href="verbose_8h.html" target="_top" xlink:title="Implements a unified output system for messages and debunging. ">
 <polygon fill="white" stroke="black" points="891,-229.5 891,-250.5 1013,-250.5 1013,-229.5 891,-229.5"/>
 <text text-anchor="middle" x="952" y="-237.5" font-family="Helvetica,sans-Serif" font-size="10.00">core/common/verbose.h</text>
 </a>

@@ -1,7 +1,7 @@
 <map id="core/models/ahbctrl/ahbctrl.cpp" name="core/models/ahbctrl/ahbctrl.cpp">
 <area shape="rect" id="node9" href="$ahbctrl_8h.html" title="core/models/ahbctrl\l/ahbctrl.h" alt="" coords="1175,102,1311,149"/>
 <area shape="rect" id="node47" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="759,832,919,861"/>
-<area shape="rect" id="node51" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1989,832,2152,861"/>
+<area shape="rect" id="node51" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1989,832,2152,861"/>
 <area shape="rect" id="node11" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="1224,361,1371,391"/>
 <area shape="rect" id="node24" href="$base_8h.html" title="core/common/base.h" alt="" coords="1453,457,1597,487"/>
 <area shape="rect" id="node27" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1776,553,1947,583"/>

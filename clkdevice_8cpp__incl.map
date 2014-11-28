@@ -1,6 +1,6 @@
 <map id="core/models/utils/clkdevice.cpp" name="core/models/utils/clkdevice.cpp">
 <area shape="rect" id="node3" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="859,83,1048,112"/>
-<area shape="rect" id="node74" href="$verbose_8h.html" title="core/common/verbose.h" alt="" coords="1217,83,1380,112"/>
+<area shape="rect" id="node74" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1217,83,1380,112"/>
 <area shape="rect" id="node5" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1285,247,1451,276"/>
 <area shape="rect" id="node16" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="691,160,853,189"/>
 <area shape="rect" id="node18" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="472,542,624,589"/>

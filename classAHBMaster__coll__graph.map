@@ -1,5 +1,5 @@
 <map id="AHBMaster&lt; BASE &gt;" name="AHBMaster&lt; BASE &gt;">
-<area shape="rect" id="node2" href="$classAHBDevice.html" title="{AHBDevice\&lt; BASE \&gt;\n|# g_bar1htype\l# g_bar2hmask\l# g_bar3hmask\l|+ AHBDevice()\l+ AHBDevice()\l+ init()\l+ init_ahb_generics()\l+ ~AHBDevice()\l+ get_ahb_device_id()\l+ get_ahb_vendor_id()\l+ get_ahb_device_info()\l+ get_ahb_base_addr_()\l+ get_ahb_base_addr()\land 13 more...\l}" alt="" coords="979,1843,1141,2136"/>
+<area shape="rect" id="node2" href="$classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations..." alt="" coords="979,1843,1141,2136"/>
 <area shape="rect" id="node4" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="252,1335,407,1507"/>
 <area shape="rect" id="node6" href="$classSCBaseModule.html" title="{SCBaseModule\&lt; BASE \&gt;\n||+ SCBaseModule()\l+ ~SCBaseModule()\l+ SCBaseModule()\l}" alt="" coords="141,923,315,1043"/>
 <area shape="rect" id="node8" href="$classBASE.html" title="{BASE\n||}" alt="" coords="199,545,257,631"/>
