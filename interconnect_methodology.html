@@ -179,27 +179,36 @@ Creating/Binding AHB sockets</h2>
 <p>The easiest way to create custom components with AHB sockets is to inherit from one of the AHB modeling base classes: <a class="el" href="classAHBMaster.html">AHBMaster</a>, <a class="el" href="classAHBSlave.html">AHBSlave</a>. The procedure is explained in detail in the SoCRocket <a class="el" href="modeling.html">User Manual</a>.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>verify section</dd></dl>
 <p>For manual instantiation include header amba.h from Carbon TLM AMBA modeling kit.</p>
-<p><b>Master socket declaration (single):</b> </p><pre class="fragment">amba::amba_master_socket&lt;32&gt; ahb;
-</pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">ahb("ahb", amba::amba_AHB, ambaLayer, false);
-# ambaLayer = amba::amba_AT or amba::amba_LT
-# false is only used for CT modeling
-</pre><p><b>Slave socket declaration (single):</b> </p><pre class="fragment">amba::amba_slave_socket&lt;32&gt; ahb;
-</pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">ahb("ahb", amba::amba_AHB, ambaLayer, false);
-# ambaLayer = amba::amba_AT or amba::amba_LT
-# false is only used for CT modeling
-</pre><p><b>Multi-master socket declaration:</b> </p><pre class="fragment">amba::amba_master_socket&lt;32, N&gt; ahbIN;
-# N: Number of channels for this socket - 0 meaning no limit
-</pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">ahbIN("ahbIN", amba::amba_AHB, ambaLayer, false)
-# ambaLayer = amba::amba_AT or amba::amba_LT
-# false is only used for CT modeling
-</pre><p><b>Multi-slave socket declaration:</b> </p><pre class="fragment">amba::amba_slave_socket&lt;32, N&gt; ahbOUT;
-# N: Number of channels for this socket - 0 meaning no limit
-</pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">ahbOUT("ahbOUT", amba::amba_AHB, ambaLayer*, false**)
-# ambaLayer = amba::amba_AT or amba::amba_LT
-# false is only used for CT modeling
-</pre><p><b>Binding sockets:</b></p>
-<p>Binding AHB sockets follows the rules for TLM2.0 socket binding. </p><pre class="fragment">initiator.ahb(target.ahb)
-</pre><p>See <a class="el" href="leon3mp_2sc__main_8cpp.html">core/platforms/leon3mp/sc_main.cpp</a> for more examples.</p>
+<p><b>Master socket declaration (single):</b></p>
+<div class="fragment"><div class="line">amba::amba_master_socket&lt;32&gt; ahb;</div>
+</div><!-- fragment --><p><b>Instantiation (module constructor):</b></p>
+<div class="fragment"><div class="line">ahb(<span class="stringliteral">&quot;ahb&quot;</span>, amba::amba_AHB, ambaLayer, <span class="keyword">false</span>);</div>
+<div class="line"><span class="preprocessor"># ambaLayer = amba::amba_AT or amba::amba_LT</span></div>
+<div class="line"><span class="preprocessor"># false is only used for CT modeling</span></div>
+</div><!-- fragment --><p><b>Slave socket declaration (single):</b></p>
+<div class="fragment"><div class="line">amba::amba_slave_socket&lt;32&gt; ahb;</div>
+</div><!-- fragment --><p><b>Instantiation (module constructor):</b></p>
+<div class="fragment"><div class="line">ahb(<span class="stringliteral">&quot;ahb&quot;</span>, amba::amba_AHB, ambaLayer, <span class="keyword">false</span>);</div>
+<div class="line"><span class="preprocessor"># ambaLayer = amba::amba_AT or amba::amba_LT</span></div>
+<div class="line"><span class="preprocessor"># false is only used for CT modeling</span></div>
+</div><!-- fragment --><p><b>Multi-master socket declaration:</b></p>
+<div class="fragment"><div class="line">amba::amba_master_socket&lt;32, N&gt; ahbIN;</div>
+<div class="line"><span class="preprocessor"># N: Number of channels for this socket - 0 meaning no limit</span></div>
+</div><!-- fragment --><p><b>Instantiation (module constructor):</b></p>
+<div class="fragment"><div class="line">ahbIN(<span class="stringliteral">&quot;ahbIN&quot;</span>, amba::amba_AHB, ambaLayer, <span class="keyword">false</span>)</div>
+<div class="line"><span class="preprocessor"># ambaLayer = amba::amba_AT or amba::amba_LT</span></div>
+<div class="line"><span class="preprocessor"># false is only used for CT modeling</span></div>
+</div><!-- fragment --><p><b>Multi-slave socket declaration:</b></p>
+<div class="fragment"><div class="line">amba::amba_slave_socket&lt;32, N&gt; ahbOUT;</div>
+<div class="line"><span class="preprocessor"># N: Number of channels for this socket - 0 meaning no limit</span></div>
+</div><!-- fragment --><p><b>Instantiation (module constructor):</b></p>
+<div class="fragment"><div class="line">ahbOUT(<span class="stringliteral">&quot;ahbOUT&quot;</span>, amba::amba_AHB, ambaLayer*, <span class="keyword">false</span>**)</div>
+<div class="line"><span class="preprocessor"># ambaLayer = amba::amba_AT or amba::amba_LT</span></div>
+<div class="line"><span class="preprocessor"># false is only used for CT modeling</span></div>
+</div><!-- fragment --><p><b>Binding sockets:</b></p>
+<p>Binding AHB sockets follows the rules for TLM2.0 socket binding.</p>
+<div class="fragment"><div class="line">initiator.ahb(target.ahb)</div>
+</div><!-- fragment --><p>See <a class="el" href="leon3mp_2sc__main_8cpp.html">core/platforms/leon3mp/sc_main.cpp</a> for more examples.</p>
 <h1><a class="anchor" id="interconnect_methodology_apb"></a>
 APB Modeling</h1>
 <p>The APB protocol is modeled at loosely timed level of abstraction. Focus is on high-level, functionally accurate transaction modeling. Low-level signals such as, for example, channel handshakes are not important at this level. Modeling the APB protocol at transaction level requires a customized payload (<a class="el" href="interconnect_methodology.html#im_apb_payload">APB Payload</a>) and adequate target delay estimation (<a class="el" href="interconnect_methodology.html#im_apb_mapping">APB Protocol mapping</a>).</p>
@@ -255,15 +264,17 @@ Creating/Binding APB sockets</h2>
 <p>Please include the amba.h header of the Carbon AMBA TLM Modeling Kit and the greenreg_ambasockets.h header in your design.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>verify section</dd></dl>
 <p>A detailed description on how to set up APB components and register interfaces is given in the SoCRocket <a class="el" href="modeling.html">User Manual</a>.</p>
-<p><b>Master socket declaration (single):</b> </p><pre class="fragment">gs::reg::greenreg_socket&lt;gs::amba::amba_slave&lt;32&gt; &gt; apb;
-</pre><p><b>Instantiation (module constructor):</b> </p><pre class="fragment">apb("apb",
-r,                            // Name of GreenReg register container
-APBDevice::get_base_addr_(),  // APB base address
-APBDevice::get_size_(),       // APB size of address space
-amba::amba_APB,               // Bus protocol specifier
-amba::amba_LT,                // APB is always LT (blocking)
-false),                       // Only used for CT modeling
-</pre><h1><a class="anchor" id="interconnect_methodology_axi"></a>
+<p><b>Master socket declaration (single):</b></p>
+<div class="fragment"><div class="line"><a class="code" href="classgs_1_1reg_1_1greenreg__socket.html">gs::reg::greenreg_socket&lt;gs::amba::amba_slave&lt;32&gt;</a> &gt; apb;</div>
+</div><!-- fragment --><p><b>Instantiation (module constructor):</b></p>
+<div class="fragment"><div class="line">apb(<span class="stringliteral">&quot;apb&quot;</span>,</div>
+<div class="line"><a class="code" href="satcan_8c.html#ae9180927c9b0d45c75dff89eb717b257">r</a>,                            <span class="comment">// Name of GreenReg register container</span></div>
+<div class="line">APBDevice::get_base_addr_(),  <span class="comment">// APB base address</span></div>
+<div class="line">APBDevice::get_size_(),       <span class="comment">// APB size of address space</span></div>
+<div class="line">amba::amba_APB,               <span class="comment">// Bus protocol specifier</span></div>
+<div class="line">amba::amba_LT,                <span class="comment">// APB is always LT (blocking)</span></div>
+<div class="line"><span class="keyword">false</span>),                       <span class="comment">// Only used for CT modeling</span></div>
+</div><!-- fragment --><h1><a class="anchor" id="interconnect_methodology_axi"></a>
 AXI Modeling</h1>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>is this needed? </dd></dl>
 </div></div><!-- contents -->
@@ -276,7 +287,7 @@ AXI Modeling</h1>
         &nbsp; &copy; 
          <a href="http://www.tu-braunschweig.de/c3e">c3e - TU-Braunschweig</a>. 2012.
         All rights reserved. | <a href="impress.html">Impress</a> |
-        Generated on Mon Dec 1 2014 14:09:17 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
+        Generated on Fri Dec 12 2014 14:22:22 for SoCRocket by &#160;<a href="http://www.doxygen.org/index.html">Doxygen 1.8.7</a>
       </p>
     </div>
   </div>
