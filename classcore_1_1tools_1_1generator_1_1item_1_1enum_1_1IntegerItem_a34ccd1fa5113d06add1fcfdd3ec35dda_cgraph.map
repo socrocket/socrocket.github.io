@@ -1,3 +1,4 @@
 <map id="core.tools.generator.item.enum.IntegerItem.load" name="core.tools.generator.item.enum.IntegerItem.load">
-<area shape="rect" id="node3" href="$classsc__register__example_1_1sc__register__field__base.html#a00ecac6a0a46713b5d9eaac513c85556" title="sc_register_example\l::sc_register_field\l_base::name" alt="" coords="263,5,404,69"/>
+<area shape="rect" id="node2" href="$classUSIBaseDelegate.html#a2d97646341e747312d4e7febd50a422e" title="Returns the full name of the corresponding sc_object or gs_param. " alt="" coords="260,5,427,32"/>
+<area shape="rect" id="node3" href="$group__sr__register.html#ga30d13ecbe7237b2d92bc1f1c248ba8a1" title="sc_register_field_base\l::name" alt="" coords="267,57,419,98"/>
 </map>

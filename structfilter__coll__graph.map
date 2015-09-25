@@ -1,5 +1,5 @@
 <map id="filter" name="filter">
-<area shape="rect" id="node4" href="$structcomplex.html" title="{complex\n||}" alt="" coords="131,173,200,259"/>
-<area shape="rect" id="node6" href="$classdouble.html" title="{double\n||}" alt="" coords="136,5,195,91"/>
-<area shape="rect" id="node8" href="$classint.html" title="{int\n||}" alt="" coords="229,173,267,259"/>
+<area shape="rect" id="node3" href="$structcomplex.html" title="{complex\n||}" alt="" coords="132,160,203,237"/>
+<area shape="rect" id="node4" href="$classdouble.html" title="{double\n||}" alt="" coords="137,5,197,83"/>
+<area shape="rect" id="node5" href="$classint.html" title="{int\n||}" alt="" coords="231,160,269,237"/>
 </map>

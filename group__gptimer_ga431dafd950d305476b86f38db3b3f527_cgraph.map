@@ -1,3 +1,3 @@
 <map id="GPTimer::screload_write" name="GPTimer::screload_write">
-<area shape="rect" id="node3" href="$group__gptimer.html#gac159200f9188081ae2d281e344cb22e5" title="Register callback executed after the presacler value is written, to recalculate the counter and ticki..." alt="" coords="221,5,373,35"/>
+<area shape="rect" id="node2" href="$group__gptimer.html#gac159200f9188081ae2d281e344cb22e5" title="Register callback executed after the presacler value is written, to recalculate the counter and ticki..." alt="" coords="220,5,372,32"/>
 </map>

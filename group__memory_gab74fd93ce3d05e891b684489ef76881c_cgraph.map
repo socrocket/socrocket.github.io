@@ -1,4 +1,4 @@
 <map id="BaseMemory::write_block" name="BaseMemory::write_block">
-<area shape="rect" id="node3" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="228,5,428,35"/>
-<area shape="rect" id="node5" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="477,5,619,35"/>
+<area shape="rect" id="node2" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="227,5,428,32"/>
+<area shape="rect" id="node3" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="476,5,617,32"/>
 </map>

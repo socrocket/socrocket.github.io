@@ -1,4 +1,7 @@
 <map id="ConnectionThread" name="ConnectionThread">
-<area shape="rect" id="node2" href="$classTcpIo.html" title="{TcpIo\n||+ TcpIo()\l+ ~TcpIo()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="8,177,149,349"/>
-<area shape="rect" id="node4" href="$classio__if.html" title="{io_if\n||+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l}" alt="" coords="8,5,149,125"/>
+<area shape="rect" id="node2" href="$classTcpIO.html" title="{TcpIO\n||+ TcpIO()\l+ ~TcpIO()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="276,588,419,739"/>
+<area shape="rect" id="node3" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="109,388,300,539"/>
+<area shape="rect" id="node7" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="251,175,406,325"/>
+<area shape="rect" id="node8" href="$classBASE.html" title="{BASE\n||}" alt="" coords="299,5,358,83"/>
+<area shape="rect" id="node9" href="$classio__if.html" title="{io_if\n||+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l}" alt="" coords="324,410,467,517"/>
 </map>

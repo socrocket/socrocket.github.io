@@ -1,0 +1,5 @@
+<map id="sr_signal::signal_infield&lt; TYPE, MODULE &gt;" name="sr_signal::signal_infield&lt; TYPE, MODULE &gt;">
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,331,156,452"/>
+<area shape="rect" id="node4" href="$singletonsr__signal_1_1signal__in__if.html" title="{sr_signal::signal_in\l_if\&lt; TYPE \&gt;\n||+ ~signal_in_if()\l+ bind()\l+ update()\l}" alt="" coords="181,331,314,452"/>
+<area shape="rect" id="node5" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="182,145,313,281"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="leon3_funclt_trap::TLMMemory::write_byte" name="leon3_funclt_trap::TLMMemory::write_byte">
-<area shape="rect" id="node3" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="216,13,267,43"/>
+<area shape="rect" id="node2" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="257,5,308,32"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="216,57,349,98"/>
 </map>

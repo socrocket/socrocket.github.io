@@ -1,3 +1,65 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classsc__dt_1_1sc__uint_3_01W_01_4_01_5.html" title="sc_uint\&lt; W \&gt; *" alt="" coords="7,5,116,35"/>
+<area shape="rect" id="node2" href="$classsr__param__base.html" title="sr_param_base" alt="" coords="168,861,279,888"/>
+<area shape="rect" id="node3" href="$classsr__param__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="352,5,471,32"/>
+<area shape="rect" id="node5" href="$classsr__param__t.html" title="sr_param_t\&lt; bool \&gt;" alt="" coords="344,56,479,83"/>
+<area shape="rect" id="node7" href="$classsr__param__t.html" title="sr_param_t\&lt; char \&gt;" alt="" coords="343,107,479,133"/>
+<area shape="rect" id="node9" href="$classsr__param__t.html" title="sr_param_t\&lt; double \&gt;" alt="" coords="337,157,486,184"/>
+<area shape="rect" id="node11" href="$classsr__param__t.html" title="sr_param_t\&lt; float \&gt;" alt="" coords="343,208,479,235"/>
+<area shape="rect" id="node13" href="$classsr__param__t.html" title="sr_param_t\&lt; int \&gt;" alt="" coords="349,259,474,285"/>
+<area shape="rect" id="node15" href="$classsr__param__t.html" title="sr_param_t\&lt; int16_t \&gt;" alt="" coords="336,309,487,336"/>
+<area shape="rect" id="node17" href="$classsr__param__t.html" title="sr_param_t\&lt; int64_t \&gt;" alt="" coords="336,360,487,387"/>
+<area shape="rect" id="node19" href="$classsr__param__t.html" title="sr_param_t\&lt; long long \&gt;" alt="" coords="330,411,493,437"/>
+<area shape="rect" id="node21" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_core\l::sc_event \&gt;" alt="" coords="339,462,484,503"/>
+<area shape="rect" id="node23" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_core\l::sc_time \&gt;" alt="" coords="339,527,484,569"/>
+<area shape="rect" id="node25" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_bigint\&lt; W \&gt; \&gt;" alt="" coords="342,593,481,634"/>
+<area shape="rect" id="node27" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_biguint\&lt; W \&gt; \&gt;" alt="" coords="342,658,481,699"/>
+<area shape="rect" id="node29" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_bit \&gt;" alt="" coords="342,723,481,765"/>
+<area shape="rect" id="node31" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_int\&lt; W \&gt; \&gt;" alt="" coords="342,789,481,830"/>
+<area shape="rect" id="node33" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_int_base \&gt;" alt="" coords="342,854,481,895"/>
+<area shape="rect" id="node35" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_logic \&gt;" alt="" coords="342,919,481,961"/>
+<area shape="rect" id="node37" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_signed \&gt;" alt="" coords="342,985,481,1026"/>
+<area shape="rect" id="node39" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_uint\&lt; W \&gt; \&gt;" alt="" coords="342,1050,481,1091"/>
+<area shape="rect" id="node41" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_uint_base \&gt;" alt="" coords="342,1115,481,1157"/>
+<area shape="rect" id="node43" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_dt::\lsc_unsigned \&gt;" alt="" coords="342,1181,481,1222"/>
+<area shape="rect" id="node45" href="$classsr__param__t.html" title="sr_param_t\&lt; sc_time \&gt;" alt="" coords="333,1247,490,1273"/>
+<area shape="rect" id="node47" href="$classsr__param__t.html" title="sr_param_t\&lt; signed\l char \&gt;" alt="" coords="343,1298,480,1339"/>
+<area shape="rect" id="node49" href="$classsr__param__t.html" title="sr_param_t\&lt; std::string \&gt;" alt="" coords="327,1364,496,1391"/>
+<area shape="rect" id="node51" href="$classsr__param__t.html" title="sr_param_t\&lt; std::vector\l\&lt; std::string \&gt; \&gt;" alt="" coords="331,1415,492,1457"/>
+<area shape="rect" id="node53" href="$classsr__param__t.html" title="sr_param_t\&lt; uint16_t \&gt;" alt="" coords="333,1481,490,1508"/>
+<area shape="rect" id="node55" href="$classsr__param__t.html" title="sr_param_t\&lt; uint64_t \&gt;" alt="" coords="333,1532,490,1559"/>
+<area shape="rect" id="node57" href="$classsr__param__t.html" title="sr_param_t\&lt; unsigned\l char \&gt;" alt="" coords="336,1583,487,1625"/>
+<area shape="rect" id="node59" href="$classsr__param__t.html" title="sr_param_t\&lt; unsigned\l int \&gt;" alt="" coords="336,1649,487,1690"/>
+<area shape="rect" id="node61" href="$classsr__param__t.html" title="sr_param_t\&lt; unsigned\l long long \&gt;" alt="" coords="336,1714,487,1755"/>
+<area shape="rect" id="node63" href="$classsr__param__t.html" title="sr_param_t\&lt; unsigned\l short \&gt;" alt="" coords="336,1779,487,1821"/>
+<area shape="rect" id="node4" href="$classsr__param.html" title="The parameters, sr_param class, templated. " alt="" coords="573,5,681,32"/>
+<area shape="rect" id="node6" href="$classsr__param_3_01bool_01_4.html" title="Template specialization for sr_param&lt;bool&gt;. " alt="" coords="565,56,689,83"/>
+<area shape="rect" id="node8" href="$classsr__param_3_01char_01_4.html" title="Template specialization for sr_param&lt;char&gt;. " alt="" coords="565,107,690,133"/>
+<area shape="rect" id="node10" href="$classsr__param_3_01double_01_4.html" title="Template specialization for sr_param&lt;double&gt;. " alt="" coords="558,157,697,184"/>
+<area shape="rect" id="node12" href="$classsr__param_3_01float_01_4.html" title="Template specialization for sr_param&lt;float&gt;. " alt="" coords="565,208,690,235"/>
+<area shape="rect" id="node14" href="$classsr__param_3_01int_01_4.html" title="Template specialization for sr_param&lt;int&gt;. " alt="" coords="570,259,685,285"/>
+<area shape="rect" id="node16" href="$classsr__param_3_01int16__t_01_4.html" title="sr_param\&lt; int16_t \&gt;" alt="" coords="558,309,697,336"/>
+<area shape="rect" id="node18" href="$classsr__param_3_01int64__t_01_4.html" title="sr_param\&lt; int64_t \&gt;" alt="" coords="558,360,697,387"/>
+<area shape="rect" id="node20" href="$classsr__param_3_01long_01long_01_4.html" title="Template specialization for sr_param&lt;long long int&gt;. " alt="" coords="551,411,703,437"/>
+<area shape="rect" id="node22" href="$classsr__param_3_01sc__core_1_1sc__event_01_4.html" title="Template specialization for sr_param&lt; sc_event &gt;. " alt="" coords="556,462,699,503"/>
+<area shape="rect" id="node24" href="$classsr__param_3_01sc__core_1_1sc__time_01_4.html" title="Template specialization for sr_param&lt; sc_time &gt;. " alt="" coords="556,527,699,569"/>
+<area shape="rect" id="node26" href="$classsr__param_3_01sc__dt_1_1sc__bigint_3_01W_01_4_01_4.html" title="Template specialization for sr_param&lt; sc_bigint&lt;W&gt; &gt;. " alt="" coords="556,593,699,634"/>
+<area shape="rect" id="node28" href="$classsr__param_3_01sc__dt_1_1sc__biguint_3_01W_01_4_01_4.html" title="Template specialization for sr_param&lt; sc_biguint&lt;W&gt; &gt;. " alt="" coords="556,658,699,699"/>
+<area shape="rect" id="node30" href="$classsr__param_3_01sc__dt_1_1sc__bit_01_4.html" title="Template specialization for sr_param&lt; sc_bit &gt;. " alt="" coords="556,723,699,765"/>
+<area shape="rect" id="node32" href="$classsr__param_3_01sc__dt_1_1sc__int_3_01W_01_4_01_4.html" title="Template specialization for sr_param&lt; sc_int&lt;W&gt; &gt;. " alt="" coords="556,789,699,830"/>
+<area shape="rect" id="node34" href="$classsr__param_3_01sc__dt_1_1sc__int__base_01_4.html" title="Template specialization for sr_param&lt; sc_int_base &gt;. " alt="" coords="556,854,699,895"/>
+<area shape="rect" id="node36" href="$classsr__param_3_01sc__dt_1_1sc__logic_01_4.html" title="Template specialization for sr_param&lt; sc_logic &gt;. " alt="" coords="556,919,699,961"/>
+<area shape="rect" id="node38" href="$classsr__param_3_01sc__dt_1_1sc__signed_01_4.html" title="Template specialization for sr_param&lt; sc_signed &gt;. " alt="" coords="556,985,699,1026"/>
+<area shape="rect" id="node40" href="$classsr__param_3_01sc__dt_1_1sc__uint_3_01W_01_4_01_4.html" title="Template specialization for sr_param&lt; sc_uint&lt;W&gt; &gt;. " alt="" coords="556,1050,699,1091"/>
+<area shape="rect" id="node42" href="$classsr__param_3_01sc__dt_1_1sc__uint__base_01_4.html" title="Template specialization for sr_param&lt; sc_uint_base &gt;. " alt="" coords="556,1115,699,1157"/>
+<area shape="rect" id="node44" href="$classsr__param_3_01sc__dt_1_1sc__unsigned_01_4.html" title="Template specialization for sr_param&lt; sc_unsigned &gt;. " alt="" coords="556,1181,699,1222"/>
+<area shape="rect" id="node46" href="$classsr__param.html" title="sr_param\&lt; sc_time \&gt;" alt="" coords="554,1247,701,1273"/>
+<area shape="rect" id="node48" href="$classsr__param_3_01signed_01char_01_4.html" title="Template specialization for sr_param&lt;signed char&gt;. " alt="" coords="544,1305,711,1332"/>
+<area shape="rect" id="node50" href="$classsr__param_3_01std_1_1string_01_4.html" title="Template specialization for sr_param&lt;std::string&gt;. " alt="" coords="548,1364,707,1391"/>
+<area shape="rect" id="node52" href="$classsr__param_3_01std_1_1vector_3_01std_1_1string_01_4_01_4.html" title="sr_param\&lt; std::vector\l\&lt; std::string \&gt; \&gt;" alt="" coords="552,1415,703,1457"/>
+<area shape="rect" id="node54" href="$classsr__param.html" title="sr_param\&lt; uint16_t \&gt;" alt="" coords="554,1481,701,1508"/>
+<area shape="rect" id="node56" href="$classsr__param_3_01uint64__t_01_4.html" title="sr_param\&lt; uint64_t \&gt;" alt="" coords="554,1532,701,1559"/>
+<area shape="rect" id="node58" href="$classsr__param_3_01unsigned_01char_01_4.html" title="Template specialization for sr_param&lt;unsigned char&gt;. " alt="" coords="557,1583,697,1625"/>
+<area shape="rect" id="node60" href="$classsr__param_3_01unsigned_01int_01_4.html" title="Template specialization for sr_param&lt;unsigned int&gt;. " alt="" coords="557,1649,697,1690"/>
+<area shape="rect" id="node62" href="$classsr__param_3_01unsigned_01long_01long_01_4.html" title="Template specialization for sr_param&lt;unsigned long long int&gt;. " alt="" coords="557,1714,697,1755"/>
+<area shape="rect" id="node64" href="$classsr__param_3_01unsigned_01short_01_4.html" title="Template specialization for sr_param&lt;unsigned short&gt;. " alt="" coords="557,1779,697,1821"/>
 </map>

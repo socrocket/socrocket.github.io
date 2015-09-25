@@ -1,23 +1,24 @@
-<map id="core/models/extern/LEON3/simulatorSources/leon3.funclt/irqPorts.cpp" name="core/models/extern/LEON3/simulatorSources/leon3.funclt/irqPorts.cpp">
-<area shape="rect" id="node3" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1290,335,1455,364"/>
-<area shape="rect" id="node14" href="$irqPorts_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/irqPorts.hpp" alt="" coords="703,117,876,181"/>
-<area shape="rect" id="node17" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="439,230,586,277"/>
-<area shape="rect" id="node37" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="708,239,871,268"/>
-<area shape="rect" id="node97" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1084,135,1247,164"/>
-<area shape="rect" id="node29" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="252,326,439,373"/>
-<area shape="rect" id="node39" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="422,630,574,677"/>
-<area shape="rect" id="node76" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="596,422,748,469"/>
-<area shape="rect" id="node90" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="836,326,988,373"/>
-<area shape="rect" id="node41" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="648,822,800,869"/>
-<area shape="rect" id="node52" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="422,822,574,869"/>
-<area shape="rect" id="node57" href="$inout_8h.html" title="core/common/signalkit\l_h/inout.h" alt="" coords="535,726,687,773"/>
-<area shape="rect" id="node62" href="$selector_8h.html" title="core/common/signalkit\l_h/selector.h" alt="" coords="308,726,460,773"/>
-<area shape="rect" id="node70" href="$infield_8h.html" title="core/common/signalkit\l_h/infield.h" alt="" coords="195,822,347,869"/>
-<area shape="rect" id="node45" href="$signalkit__h_2base_8h.html" title="core/common/signalkit\l_h/base.h" alt="" coords="308,918,460,965"/>
-<area shape="rect" id="node49" href="$ifs_8h.html" title="core/common/signalkit\l_h/ifs.h" alt="" coords="574,918,726,965"/>
-<area shape="rect" id="node78" href="$tlmin__scout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmin_scout\l_adapter.h" alt="" coords="584,517,752,581"/>
-<area shape="rect" id="node82" href="$scin__tlmout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/scin_tlmout\l_adapter.h" alt="" coords="392,517,560,581"/>
-<area shape="rect" id="node86" href="$tlmsc__inout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmsc_inout\l_adapter.h" alt="" coords="200,517,368,581"/>
-<area shape="rect" id="node108" href="$common_8h.html" title="core/common/common.h" alt="" coords="946,239,1111,268"/>
-<area shape="rect" id="node111" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1027,639,1187,668"/>
+<map id="gaisler/leon3/intunit/irqPorts.cpp" name="gaisler/leon3/intunit/irqPorts.cpp">
+<area shape="rect" id="node2" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1061,281,1227,307"/>
+<area shape="rect" id="node7" href="$irqPorts_8hpp.html" title="gaisler/leon3/intunit\l/irqPorts.hpp" alt="" coords="434,95,569,136"/>
+<area shape="rect" id="node8" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="245,184,393,225"/>
+<area shape="rect" id="node16" href="$sr__signal_8h.html" title="core/common/sr_signal.h" alt="" coords="417,191,585,218"/>
+<area shape="rect" id="node34" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="855,102,1017,129"/>
+<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="208,273,395,315"/>
+<area shape="rect" id="node17" href="$sr__signal_2sr__signal_8h.html" title="core/common/sr_signal\l/sr_signal.h" alt="" coords="669,273,827,315"/>
+<area shape="rect" id="node18" href="$sr__signal__module_8h.html" title="sr_signal_module.h" alt="" coords="450,601,585,628"/>
+<area shape="rect" id="node29" href="$sr__signal__adapter_8h.html" title="sr_signal_adapter.h" alt="" coords="461,452,595,479"/>
+<area shape="rect" id="node33" href="$sr__signal__connect_8h.html" title="sr_signal_connect.h" alt="" coords="688,370,827,397"/>
+<area shape="rect" id="node19" href="$sr__signal__in_8h.html" title="sr_signal_in.h" alt="" coords="635,751,738,777"/>
+<area shape="rect" id="node24" href="$sr__signal__out_8h.html" title="sr_signal_out.h" alt="" coords="449,751,559,777"/>
+<area shape="rect" id="node25" href="$sr__signal__inout_8h.html" title="sr_signal_inout.h" alt="" coords="555,676,675,703"/>
+<area shape="rect" id="node26" href="$sr__signal__selector_8h.html" title="sr_signal_selector.h" alt="" coords="341,676,480,703"/>
+<area shape="rect" id="node28" href="$sr__signal__infield_8h.html" title="sr_signal_infield.h" alt="" coords="246,751,373,777"/>
+<area shape="rect" id="node21" href="$sr__signal__base_8h.html" title="sr_signal_base.h" alt="" coords="349,825,469,852"/>
+<area shape="rect" id="node23" href="$sr__signal__ifs_8h.html" title="sr_signal_ifs.h" alt="" coords="544,825,651,852"/>
+<area shape="rect" id="node30" href="$tlmin__scout__adapter_8h.html" title="tlmin_scout_adapter.h" alt="" coords="103,527,254,553"/>
+<area shape="rect" id="node31" href="$scin__tlmout__adapter_8h.html" title="scin_tlmout_adapter.h" alt="" coords="278,527,429,553"/>
+<area shape="rect" id="node32" href="$tlmsc__inout__adapter_8h.html" title="tlmsc_inout_adapter.h" alt="" coords="453,527,603,553"/>
+<area shape="rect" id="node39" href="$common_8h.html" title="core/common/common.h" alt="" coords="711,191,878,218"/>
+<area shape="rect" id="node40" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="915,452,1077,479"/>
 </map>

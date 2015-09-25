@@ -1,9 +1,10 @@
 <map id="trap::lstatSysCall::operator()" name="trap::lstatSysCall::operator()">
-<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="195,5,333,35"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="199,59,329,88"/>
-<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="193,112,335,141"/>
-<area shape="rect" id="node9" href="$classtrap_1_1ABIIf.html#a60fa8913c98701581368cdd84bb34ca6" title="trap::ABIIf::readCharMem" alt="" coords="179,165,349,195"/>
-<area shape="rect" id="node11" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="176,219,352,248"/>
-<area shape="rect" id="node13" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="191,272,337,301"/>
-<area shape="rect" id="node15" href="$classtrap_1_1ABIIf.html#a70c68f65b9728763bd98cb007c79f8fc" title="trap::ABIIf::writeMem" alt="" coords="191,325,337,355"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="195,5,333,32"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="199,56,329,83"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="193,107,335,133"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#a60fa8913c98701581368cdd84bb34ca6" title="trap::ABIIf::readCharMem" alt="" coords="178,157,350,184"/>
+<area shape="rect" id="node6" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="176,208,352,235"/>
+<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="190,259,338,285"/>
+<area shape="rect" id="node8" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="197,310,331,351"/>
+<area shape="rect" id="node9" href="$classtrap_1_1ABIIf.html#a70c68f65b9728763bd98cb007c79f8fc" title="trap::ABIIf::writeMem" alt="" coords="191,376,337,403"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="mmu_cache_base::mem_read" name="mmu_cache_base::mem_read">
-<area shape="rect" id="node3" href="$classAHBMaster.html#ac1a28c85f3f099e6c356f621a574ac27" title="Generic AHB debug access function. " alt="" coords="251,5,456,35"/>
+<area shape="rect" id="node2" href="$classAHBMaster.html#ac1a28c85f3f099e6c356f621a574ac27" title="Generic AHB debug access function. " alt="" coords="251,5,456,32"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="287,57,420,98"/>
 </map>

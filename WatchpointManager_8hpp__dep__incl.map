@@ -1,9 +1,7 @@
 <map id="core/common/trapgen/debugger/WatchpointManager.hpp" name="core/common/trapgen/debugger/WatchpointManager.hpp">
-<area shape="rect" id="node3" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="251,102,413,149"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="51,197,224,261"/>
-<area shape="rect" id="node7" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="248,206,416,253"/>
-<area shape="rect" id="node11" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="411,310,568,357"/>
-<area shape="rect" id="node9" href="$leon3__mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.cpp" alt="" coords="5,310,181,357"/>
-<area shape="rect" id="node13" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="205,310,387,357"/>
-<area shape="rect" id="node15" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="205,406,387,453"/>
+<area shape="rect" id="node2" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="111,95,275,136"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,273,164,315"/>
+<area shape="rect" id="node4" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="122,191,263,218"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="288,184,423,225"/>
+<area shape="rect" id="node5" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="189,281,343,307"/>
 </map>

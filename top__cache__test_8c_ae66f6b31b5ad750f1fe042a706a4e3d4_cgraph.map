@@ -1,7 +1,7 @@
 <map id="main" name="main">
-<area shape="rect" id="node3" href="$cache_8c.html#a028e498947f8fa62ef9a7ec1f0eaacca" title="cachetest" alt="" coords="109,5,187,35"/>
-<area shape="rect" id="node7" href="$cache_8h.html#a238fc1dd269da564ebb2eb544fc865fd" title="ramfill" alt="" coords="120,59,176,88"/>
-<area shape="rect" id="node9" href="$report__device_8c.html#a122d6552956d9e5eb0ffebe09a357ea6" title="report_end" alt="" coords="107,112,189,141"/>
-<area shape="rect" id="node11" href="$report__device_8c.html#a218f63ab98f4b41547a5fde2d4d512e7" title="report_start" alt="" coords="104,165,192,195"/>
-<area shape="rect" id="node5" href="$cache_8c.html#aece1f031857cfa17c9bf3c0f96dd5f14" title="wsysreg" alt="" coords="241,5,311,35"/>
+<area shape="rect" id="node2" href="$cache_8c.html#a028e498947f8fa62ef9a7ec1f0eaacca" title="cachetest" alt="" coords="109,5,187,32"/>
+<area shape="rect" id="node4" href="$cache_8h.html#a238fc1dd269da564ebb2eb544fc865fd" title="ramfill" alt="" coords="119,56,177,83"/>
+<area shape="rect" id="node5" href="$report__device_8c.html#a122d6552956d9e5eb0ffebe09a357ea6" title="report_end" alt="" coords="107,107,189,133"/>
+<area shape="rect" id="node6" href="$report__device_8c.html#a218f63ab98f4b41547a5fde2d4d512e7" title="report_start" alt="" coords="104,157,192,184"/>
+<area shape="rect" id="node3" href="$cache_8c.html#aece1f031857cfa17c9bf3c0f96dd5f14" title="wsysreg" alt="" coords="240,5,311,32"/>
 </map>

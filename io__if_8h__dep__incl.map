@@ -1,11 +1,9 @@
-<map id="core/models/apbuart/io_if.h" name="core/models/apbuart/io_if.h">
-<area shape="rect" id="node3" href="$apbuart_8h.html" title="core/models/apbuart\l/apbuart.h" alt="" coords="177,102,316,149"/>
-<area shape="rect" id="node13" href="$nullio_8h.html" title="core/models/apbuart\l/nullio.h" alt="" coords="503,102,641,149"/>
-<area shape="rect" id="node19" href="$tcpio_8h.html" title="core/models/apbuart\l/tcpio.h" alt="" coords="340,102,479,149"/>
-<area shape="rect" id="node5" href="$apbuart_8cpp.html" title="core/models/apbuart\l/apbuart.cpp" alt="" coords="5,198,144,245"/>
-<area shape="rect" id="node7" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="168,198,325,245"/>
-<area shape="rect" id="node9" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="349,198,531,245"/>
-<area shape="rect" id="node11" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="349,294,531,341"/>
-<area shape="rect" id="node15" href="$nullio_8cpp.html" title="core/models/apbuart\l/nullio.cpp" alt="" coords="717,198,856,245"/>
-<area shape="rect" id="node21" href="$tcpio_8cpp.html" title="core/models/apbuart\l/tcpio.cpp" alt="" coords="555,198,693,245"/>
+<map id="gaisler/apbuart/io_if.h" name="gaisler/apbuart/io_if.h">
+<area shape="rect" id="node2" href="$apbuart_8h.html" title="gaisler/apbuart/apbuart.h" alt="" coords="470,80,635,107"/>
+<area shape="rect" id="node5" href="$tcpio_8h.html" title="gaisler/apbuart/tcpio.h" alt="" coords="105,80,256,107"/>
+<area shape="rect" id="node7" href="$reportio_8h.html" title="gaisler/apbuart/reportio.h" alt="" coords="281,80,446,107"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="193,155,352,196"/>
+<area shape="rect" id="node4" href="$apbuart_8cpp.html" title="gaisler/apbuart/apbuart.cpp" alt="" coords="579,162,758,189"/>
+<area shape="rect" id="node6" href="$tcpio_8cpp.html" title="gaisler/apbuart/tcpio.cpp" alt="" coords="5,162,169,189"/>
+<area shape="rect" id="node8" href="$reportio_8cpp.html" title="gaisler/apbuart/reportio.cpp" alt="" coords="377,162,555,189"/>
 </map>

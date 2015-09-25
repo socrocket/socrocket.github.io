@@ -1,9 +1,2 @@
-<map id="core/common/signalkit_h/module.h" name="core/common/signalkit_h/module.h">
-<area shape="rect" id="node3" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="26,198,178,245"/>
-<area shape="rect" id="node14" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="202,198,354,245"/>
-<area shape="rect" id="node19" href="$inout_8h.html" title="core/common/signalkit\l_h/inout.h" alt="" coords="139,102,291,149"/>
-<area shape="rect" id="node24" href="$selector_8h.html" title="core/common/signalkit\l_h/selector.h" alt="" coords="366,102,518,149"/>
-<area shape="rect" id="node32" href="$infield_8h.html" title="core/common/signalkit\l_h/infield.h" alt="" coords="530,198,682,245"/>
-<area shape="rect" id="node7" href="$signalkit__h_2base_8h.html" title="core/common/signalkit\l_h/base.h" alt="" coords="439,294,591,341"/>
-<area shape="rect" id="node11" href="$ifs_8h.html" title="core/common/signalkit\l_h/ifs.h" alt="" coords="212,294,364,341"/>
+<map id="pysc/usi/core/module.h" name="pysc/usi/core/module.h">
 </map>

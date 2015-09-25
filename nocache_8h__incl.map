@@ -1,34 +1,33 @@
-<map id="core/models/mmu_cache/lib/nocache.h" name="core/models/mmu_cache/lib/nocache.h">
-<area shape="rect" id="node3" href="$base_8h.html" title="core/common/base.h" alt="" coords="188,111,332,140"/>
-<area shape="rect" id="node5" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="233,607,398,636"/>
-<area shape="rect" id="node42" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1560,511,1722,540"/>
-<area shape="rect" id="node82" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="1936,111,2098,140"/>
-<area shape="rect" id="node129" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="2168,102,2336,149"/>
-<area shape="rect" id="node134" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="2420,198,2588,245"/>
-<area shape="rect" id="node16" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1176,207,1346,236"/>
-<area shape="rect" id="node63" href="$report_8h.html" title="core/common/report.h" alt="" coords="46,511,196,540"/>
-<area shape="rect" id="node73" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="229,198,424,245"/>
-<area shape="rect" id="node20" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1701,294,1861,341"/>
-<area shape="rect" id="node26" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1269,294,1429,341"/>
-<area shape="rect" id="node35" href="$common_8h.html" title="core/common/common.h" alt="" coords="490,407,656,436"/>
-<area shape="rect" id="node55" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="680,398,840,445"/>
-<area shape="rect" id="node57" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="864,398,1061,445"/>
-<area shape="rect" id="node59" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="1085,398,1245,445"/>
-<area shape="rect" id="node61" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="1269,398,1429,445"/>
-<area shape="rect" id="node38" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="440,511,600,540"/>
-<area shape="rect" id="node68" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="642,607,789,636"/>
-<area shape="rect" id="node76" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="389,294,584,341"/>
-<area shape="rect" id="node84" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="2174,502,2326,549"/>
-<area shape="rect" id="node112" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="2046,294,2198,341"/>
-<area shape="rect" id="node123" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="2046,198,2198,245"/>
-<area shape="rect" id="node86" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="2109,694,2261,741"/>
-<area shape="rect" id="node92" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="2386,694,2538,741"/>
-<area shape="rect" id="node96" href="$inout_8h.html" title="core/common/signalkit\l_h/inout.h" alt="" coords="2061,598,2213,645"/>
-<area shape="rect" id="node101" href="$selector_8h.html" title="core/common/signalkit\l_h/selector.h" alt="" coords="2288,598,2440,645"/>
-<area shape="rect" id="node107" href="$infield_8h.html" title="core/common/signalkit\l_h/infield.h" alt="" coords="1885,598,2037,645"/>
-<area shape="rect" id="node89" href="$ifs_8h.html" title="core/common/signalkit\l_h/ifs.h" alt="" coords="2273,790,2425,837"/>
-<area shape="rect" id="node114" href="$tlmin__scout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmin_scout\l_adapter.h" alt="" coords="2370,389,2538,453"/>
-<area shape="rect" id="node117" href="$scin__tlmout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/scin_tlmout\l_adapter.h" alt="" coords="1986,389,2154,453"/>
-<area shape="rect" id="node120" href="$tlmsc__inout__adapter_8h.html" title="core/common/signalkit\l_h/adapter_h/tlmsc_inout\l_adapter.h" alt="" coords="2178,389,2346,453"/>
-<area shape="rect" id="node132" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="2222,207,2396,236"/>
+<map id="gaisler/leon3/mmucache/nocache.h" name="gaisler/leon3/mmucache/nocache.h">
+<area shape="rect" id="node2" href="$base_8h.html" title="core/common/base.h" alt="" coords="577,102,721,129"/>
+<area shape="rect" id="node3" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1162,601,1329,628"/>
+<area shape="rect" id="node30" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="732,527,895,553"/>
+<area shape="rect" id="node34" href="$sr__signal_8h.html" title="core/common/sr_signal.h" alt="" coords="1748,102,1916,129"/>
+<area shape="rect" id="node48" href="$cache__if_8h.html" title="gaisler/leon3/mmucache\l/cache_if.h" alt="" coords="1359,95,1521,136"/>
+<area shape="rect" id="node50" href="$mem__if_8h.html" title="gaisler/leon3/mmucache\l/mem_if.h" alt="" coords="1576,184,1739,225"/>
+<area shape="rect" id="node8" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="95,281,262,307"/>
+<area shape="rect" id="node17" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="461,191,638,218"/>
+<area shape="rect" id="node20" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="663,191,833,218"/>
+<area shape="rect" id="node9" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="77,363,233,404"/>
+<area shape="rect" id="node18" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="479,363,646,404"/>
+<area shape="rect" id="node21" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="663,273,822,315"/>
+<area shape="rect" id="node23" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="281,370,404,397"/>
+<area shape="rect" id="node24" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="680,370,805,397"/>
+<area shape="rect" id="node27" href="$common_8h.html" title="core/common/common.h" alt="" coords="659,452,826,479"/>
+<area shape="rect" id="node33" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="851,452,949,479"/>
+<area shape="rect" id="node28" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="981,765,1142,792"/>
+<area shape="rect" id="node35" href="$sr__signal_2sr__signal_8h.html" title="core/common/sr_signal\l/sr_signal.h" alt="" coords="1779,184,1936,225"/>
+<area shape="rect" id="node36" href="$sr__signal__module_8h.html" title="sr_signal_module.h" alt="" coords="1970,527,2105,553"/>
+<area shape="rect" id="node43" href="$sr__signal__adapter_8h.html" title="sr_signal_adapter.h" alt="" coords="1795,370,1930,397"/>
+<area shape="rect" id="node47" href="$sr__signal__connect_8h.html" title="sr_signal_connect.h" alt="" coords="1683,281,1821,307"/>
+<area shape="rect" id="node37" href="$sr__signal__in_8h.html" title="sr_signal_in.h" alt="" coords="2075,683,2178,710"/>
+<area shape="rect" id="node39" href="$sr__signal__out_8h.html" title="sr_signal_out.h" alt="" coords="1889,683,1999,710"/>
+<area shape="rect" id="node40" href="$sr__signal__inout_8h.html" title="sr_signal_inout.h" alt="" coords="2000,601,2120,628"/>
+<area shape="rect" id="node41" href="$sr__signal__selector_8h.html" title="sr_signal_selector.h" alt="" coords="1787,601,1925,628"/>
+<area shape="rect" id="node42" href="$sr__signal__infield_8h.html" title="sr_signal_infield.h" alt="" coords="1585,601,1711,628"/>
+<area shape="rect" id="node38" href="$sr__signal__ifs_8h.html" title="sr_signal_ifs.h" alt="" coords="1707,765,1813,792"/>
+<area shape="rect" id="node44" href="$tlmin__scout__adapter_8h.html" title="tlmin_scout_adapter.h" alt="" coords="2137,452,2287,479"/>
+<area shape="rect" id="node45" href="$scin__tlmout__adapter_8h.html" title="scin_tlmout_adapter.h" alt="" coords="1787,452,1938,479"/>
+<area shape="rect" id="node46" href="$tlmsc__inout__adapter_8h.html" title="tlmsc_inout_adapter.h" alt="" coords="1962,452,2113,479"/>
+<area shape="rect" id="node49" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="1328,191,1501,218"/>
 </map>

@@ -1,8 +1,10 @@
 <map id="AHBMem::exec_func" name="AHBMem::exec_func">
-<area shape="rect" id="node3" href="$group__memory.html#ga78eea895362a7910ef574cf2113930a9" title="BaseMemory::read_block" alt="" coords="201,5,372,35"/>
-<area shape="rect" id="node9" href="$group__memory.html#gab74fd93ce3d05e891b684489ef76881c" title="BaseMemory::write_block" alt="" coords="200,59,373,88"/>
-<area shape="rect" id="node5" href="$group__memory.html#gaec8a7bc833a9f12928070debebcd0fa2" title="BaseMemory::read_block_dbg" alt="" coords="424,5,621,35"/>
-<area shape="rect" id="node7" href="$classStorage.html#a01af1f194e1844bfcf5a4a4a26d3e5f8" title="Storage::read_block" alt="" coords="673,5,812,35"/>
-<area shape="rect" id="node11" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="423,59,623,88"/>
-<area shape="rect" id="node13" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="672,59,813,88"/>
+<area shape="rect" id="node2" href="$classStorage.html#a40c97ccf49c1404c7063917e1ababb1e" title="Storage::allow_dmi_rw" alt="" coords="209,5,364,32"/>
+<area shape="rect" id="node3" href="$classAHBDevice.html#a6bb6984331a9e2aadc6aba1dd28724a4" title="AHBDevice::get_ahb\l_bar_relative_addr" alt="" coords="214,57,359,98"/>
+<area shape="rect" id="node4" href="$group__memory.html#ga78eea895362a7910ef574cf2113930a9" title="BaseMemory::read_block" alt="" coords="201,123,372,149"/>
+<area shape="rect" id="node7" href="$group__memory.html#gab74fd93ce3d05e891b684489ef76881c" title="BaseMemory::write_block" alt="" coords="200,173,373,200"/>
+<area shape="rect" id="node5" href="$group__memory.html#gaec8a7bc833a9f12928070debebcd0fa2" title="BaseMemory::read_block_dbg" alt="" coords="423,123,621,149"/>
+<area shape="rect" id="node6" href="$classStorage.html#a01af1f194e1844bfcf5a4a4a26d3e5f8" title="Storage::read_block" alt="" coords="672,123,811,149"/>
+<area shape="rect" id="node8" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="421,173,623,200"/>
+<area shape="rect" id="node9" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="671,173,812,200"/>
 </map>

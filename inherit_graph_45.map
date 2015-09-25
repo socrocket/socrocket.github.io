@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classFaultDectect__if.html" title="FaultDectect_if" alt="" coords="5,5,116,31"/>
+<area shape="rect" id="node1" href="$classException.html" title="Exception" alt="" coords="5,97,85,123"/>
+<area shape="rect" id="node2" href="$classusi_1_1cci_1_1parameter_1_1GSParamNonExistent.html" title="usi.cci.parameter.GSParam\lNonExistent" alt="" coords="133,5,316,47"/>
+<area shape="rect" id="node3" href="$classusi_1_1DuplicateThreadHandle.html" title="usi.DuplicateThreadHandle" alt="" coords="135,71,314,98"/>
+<area shape="rect" id="node4" href="$classusi_1_1ThreadKill.html" title="usi.ThreadKill" alt="" coords="174,122,275,149"/>
+<area shape="rect" id="node5" href="$classusi_1_1ThreadReset.html" title="usi.ThreadReset" alt="" coords="165,173,284,199"/>
 </map>

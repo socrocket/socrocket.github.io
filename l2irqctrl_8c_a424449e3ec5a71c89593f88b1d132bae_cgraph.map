@@ -1,6 +1,6 @@
 <map id="l2irqtest" name="l2irqtest">
-<area shape="rect" id="node3" href="$rt__1553_8c.html#a2b5353eac726ea8b02d08ed381f1ab15" title="catch_interrupt" alt="" coords="124,5,231,35"/>
-<area shape="rect" id="node5" href="$report__device_8c.html#a19b399e21d163c2a92510871f1a807de" title="report_device" alt="" coords="128,59,227,88"/>
-<area shape="rect" id="node7" href="$cache_8c.html#a425be2f9ff2f2528ce3d4612e70e757b" title="setpsr" alt="" coords="148,112,207,141"/>
-<area shape="rect" id="node9" href="$cache_8c.html#aef888735a132dc8c150e1ad332632d02" title="xgetpsr" alt="" coords="145,165,209,195"/>
+<area shape="rect" id="node2" href="$rt__1553_8c.html#a2b5353eac726ea8b02d08ed381f1ab15" title="catch_interrupt" alt="" coords="121,5,229,32"/>
+<area shape="rect" id="node3" href="$report__device_8c.html#a19b399e21d163c2a92510871f1a807de" title="report_device" alt="" coords="125,56,225,83"/>
+<area shape="rect" id="node4" href="$cache_8c.html#a425be2f9ff2f2528ce3d4612e70e757b" title="setpsr" alt="" coords="146,107,205,133"/>
+<area shape="rect" id="node5" href="$cache_8c.html#aef888735a132dc8c150e1ad332632d02" title="xgetpsr" alt="" coords="143,157,208,184"/>
 </map>

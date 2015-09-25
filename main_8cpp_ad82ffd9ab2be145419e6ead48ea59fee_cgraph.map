@@ -1,0 +1,33 @@
+<map id="sc_main" name="sc_main">
+<area shape="rect" id="node2" href="$classtrap_1_1ToolsManager.html#ae5454c48f202c7641c8996df8055ccac" title="trap::ToolsManager\l::addTool" alt="" coords="163,5,297,47"/>
+<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a76aebb78723f5227554c48026b14cd6b" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::decode" alt="" coords="151,70,309,126"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ad28e0944929b756c5327f2730599cce9" title="getCycleRange" alt="" coords="174,150,286,177"/>
+<area shape="rect" id="node12" href="$classtrap_1_1ExecLoader.html#a22eed742aaa2698c3e507abba48605db" title="trap::ExecLoader::getData\lStart" alt="" coords="143,201,317,243"/>
+<area shape="rect" id="node13" href="$classleon3__funclt__trap_1_1Instruction.html#a91f3cb16378baf674ffc4c8e9adca731" title="leon3_funclt_trap::\lInstruction::getMnemonic" alt="" coords="145,267,315,308"/>
+<area shape="rect" id="node14" href="$classtrap_1_1ExecLoader.html#aa95dcc30431636a583b415eeb7ddf9b6" title="Returns a pointer to the array contianing the program data. " alt="" coords="129,333,331,359"/>
+<area shape="rect" id="node15" href="$classtrap_1_1ExecLoader.html#a0e3554473742226b3f3d860b52fa8b63" title="Returns the dimension of the loaded program. " alt="" coords="131,383,329,410"/>
+<area shape="rect" id="node16" href="$classtrap_1_1ExecLoader.html#ae8a083a5e10bce8da98b12e45818a499" title="trap::ExecLoader::getProg\lStart" alt="" coords="143,435,317,476"/>
+<area shape="rect" id="node17" href="$classtrap_1_1OSEmulator.html#a84217c506d413cb1771baf212bdc3aa4" title="trap::OSEmulator::getRegistered\lFunctions" alt="" coords="124,500,336,541"/>
+<area shape="rect" id="node19" href="$classtrap_1_1GDBStub.html#a200e7ba62a8f89dbf8ff8b4494a040e6" title="Starts the connection with the GDB client. " alt="" coords="149,566,311,593"/>
+<area shape="rect" id="node20" href="$classtrap_1_1OSEmulator.html#a87ddae8b86f37136c2924aca09ace74d" title="trap::OSEmulator::initSys\lCalls" alt="" coords="145,617,315,659"/>
+<area shape="rect" id="node21" href="$classleon3__funclt__trap_1_1MemoryInterface.html#a2f4953d1d645c6e7efff5e36f04ae2ac" title="leon3_funclt_trap::\lMemoryInterface::read\l_word_dbg" alt="" coords="153,682,307,738"/>
+<area shape="rect" id="node22" href="$classtrap_1_1OSEmulatorBase.html#aa0cb0166c32e90b541009744358b8721" title="trap::OSEmulatorBase\l::set_environ" alt="" coords="153,761,307,803"/>
+<area shape="rect" id="node23" href="$classtrap_1_1OSEmulatorBase.html#a52529d9afebd51952c8f7d2a522ddfb7" title="trap::OSEmulatorBase\l::set_program_args" alt="" coords="153,827,307,868"/>
+<area shape="rect" id="node28" href="$classtrap_1_1OSEmulatorBase.html#a21c3cdd6a7aa7f177d48a211b148194a" title="trap::OSEmulatorBase\l::set_sysconf" alt="" coords="153,892,307,933"/>
+<area shape="rect" id="node29" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a35e1e15027dbe60dfb2f21330000e909" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::setProfilingRange" alt="" coords="151,957,309,1013"/>
+<area shape="rect" id="node30" href="$main_8cpp.html#afecf8898523472cb5a02914ba07a2be2" title="stopSimFunction" alt="" coords="170,1037,290,1063"/>
+<area shape="rect" id="node32" href="$classtrap_1_1SparseMemoryLT.html#a5673e270afee242f4c7edfcde2d558d8" title="trap::SparseMemoryLT\l::write_byte_dbg" alt="" coords="153,1088,307,1129"/>
+<area shape="rect" id="node4" href="$classleon3__funclt__trap_1_1Instruction.html#abdeaab006561d74c7fb624bb70d09a98" title="leon3_funclt_trap::\lInstruction::setParams" alt="" coords="384,12,539,53"/>
+<area shape="rect" id="node6" href="$classtrap_1_1ELFFrontend.html#a200f11fbad5e2a1625ab3275f54fa5c2" title="trap::ELFFrontend::\lgetInstance" alt="" coords="394,77,529,119"/>
+<area shape="rect" id="node8" href="$classtrap_1_1ELFFrontend.html#a6e55e382636addf4d347b0ddd676d04e" title="trap::ELFFrontend::\lgetSymAddr" alt="" coords="394,143,529,184"/>
+<area shape="rect" id="node9" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="437,209,485,235"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a59fd8f0c9ce3d8948fe5961c66d8c07d" title="toIntNum" alt="" coords="423,259,499,286"/>
+<area shape="rect" id="node7" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="643,85,685,111"/>
+<area shape="rect" id="node10" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="626,209,702,235"/>
+<area shape="rect" id="node18" href="$classtrap_1_1ELFFrontend.html#a6cf308e84398b260fd69eafe3a4ed739" title="trap::ELFFrontend::\lsymbolAt" alt="" coords="394,500,529,541"/>
+<area shape="rect" id="node24" href="$namespaceusi_1_1shell.html#a09444d6e6abd027ac8537ccb3afccfe4" title="usi.shell.args" alt="" coords="412,834,511,861"/>
+<area shape="rect" id="node25" href="$namespaceusi_1_1tools_1_1args.html#acd7d2cd9e866375a689882329a800b97" title="usi.tools.args.get_args" alt="" coords="587,809,741,835"/>
+<area shape="rect" id="node27" href="$namespaceusi_1_1shell.html#a99381cf4105d5d843121ef85f02ca637" title="usi.shell.start" alt="" coords="614,859,714,886"/>
+<area shape="rect" id="node26" href="$namespaceusi.html#ab17dcbaca4eb938e35fdfa1a02cc3a4a" title="usi.on" alt="" coords="789,809,847,835"/>
+<area shape="rect" id="node31" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="395,1029,528,1071"/>
+</map>

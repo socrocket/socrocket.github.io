@@ -1,6 +1,6 @@
 <map id="doxycomment.BlockHandler" name="doxycomment.BlockHandler">
-<area shape="rect" id="node3" href="$namespacedoxygen__preprocessor.html#a7deaf38424a3580d894297d6acd5de4c" title="doxygen_preprocessor.Command\lLineHandler" alt="" coords="241,5,457,51"/>
-<area shape="rect" id="node5" href="$namespacedoxycomment.html#a577aeea0319393b27b7e196133a5669b" title="doxycomment.ExtractComment\lBlocks" alt="" coords="247,74,452,121"/>
-<area shape="rect" id="node9" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="328,144,371,173"/>
-<area shape="rect" id="node7" href="$namespacedoxycomment.html#abbf439c4e45c5daa6dee4b9594db3d9c" title="doxycomment.FindDoxygenComments" alt="" coords="508,83,756,112"/>
+<area shape="rect" id="node2" href="$namespacedoxygen__preprocessor.html#a7deaf38424a3580d894297d6acd5de4c" title="doxygen_preprocessor.Command\lLineHandler" alt="" coords="240,5,457,47"/>
+<area shape="rect" id="node3" href="$namespacedoxycomment.html#a577aeea0319393b27b7e196133a5669b" title="doxycomment.ExtractComment\lBlocks" alt="" coords="245,71,452,112"/>
+<area shape="rect" id="node5" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="327,137,370,163"/>
+<area shape="rect" id="node4" href="$namespacedoxycomment.html#abbf439c4e45c5daa6dee4b9594db3d9c" title="doxycomment.FindDoxygenComments" alt="" coords="505,78,755,105"/>
 </map>

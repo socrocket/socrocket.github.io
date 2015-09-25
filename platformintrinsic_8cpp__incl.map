@@ -1,0 +1,11 @@
+<map id="core/common/sr_iss/intrinsics/platformintrinsic.cpp" name="core/common/sr_iss/intrinsics/platformintrinsic.cpp">
+<area shape="rect" id="node2" href="$platformintrinsic_8h.html" title="core/common/sr_iss\l/intrinsics/platformintrinsic.h" alt="" coords="756,95,941,136"/>
+<area shape="rect" id="node3" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="316,191,483,218"/>
+<area shape="rect" id="node8" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="729,184,877,225"/>
+<area shape="rect" id="node16" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1195,273,1343,315"/>
+<area shape="rect" id="node25" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="1479,102,1656,129"/>
+<area shape="rect" id="node22" href="$intrinsicbase_8h.html" title="core/common/sr_iss\l/intrinsics/intrinsicbase.h" alt="" coords="901,184,1068,225"/>
+<area shape="rect" id="node11" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="920,273,1068,315"/>
+<area shape="rect" id="node20" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1389,363,1575,404"/>
+<area shape="rect" id="node26" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="1479,184,1645,225"/>
+</map>

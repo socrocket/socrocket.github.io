@@ -1,0 +1,4 @@
+<map id="IntrinsicBase" name="IntrinsicBase">
+<area shape="rect" id="node2" href="$classIntrinsicManager.html" title="{IntrinsicManager\&lt; issueWidth \&gt;\n|+ processorInstance\l|+ IntrinsicManager()\l+ register_intrinsic()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~IntrinsicManager()\l}" alt="" coords="5,279,212,429"/>
+<area shape="rect" id="node3" href="$classIntrinsicManager.html" title="{IntrinsicManager\&lt; unsigned\l int \&gt;\n|+ processorInstance\l|+ IntrinsicManager()\l+ register_intrinsic()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~IntrinsicManager()\l}" alt="" coords="93,492,276,657"/>
+</map>

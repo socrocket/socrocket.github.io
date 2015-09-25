@@ -1,8 +1,9 @@
 <map id="trap::gettimeofdaySysCall::operator()" name="trap::gettimeofdaySysCall::operator()">
-<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="245,5,384,35"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="249,59,380,88"/>
-<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="244,112,385,141"/>
-<area shape="rect" id="node9" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="227,165,403,195"/>
-<area shape="rect" id="node11" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="241,219,388,248"/>
-<area shape="rect" id="node13" href="$classtrap_1_1ABIIf.html#a70c68f65b9728763bd98cb007c79f8fc" title="trap::ABIIf::writeMem" alt="" coords="241,272,388,301"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="245,5,384,32"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="249,56,380,83"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="243,107,386,133"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="227,157,403,184"/>
+<area shape="rect" id="node6" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="241,208,389,235"/>
+<area shape="rect" id="node7" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="248,259,381,301"/>
+<area shape="rect" id="node8" href="$classtrap_1_1ABIIf.html#a70c68f65b9728763bd98cb007c79f8fc" title="trap::ABIIf::writeMem" alt="" coords="241,325,388,352"/>
 </map>

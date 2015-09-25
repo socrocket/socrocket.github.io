@@ -1,6 +1,6 @@
 <map id="core/software/grlib_tests/gptimer.c" name="core/software/grlib_tests/gptimer.c">
-<area shape="rect" id="node3" href="$testmod_8h.html" title="testmod.h" alt="" coords="5,101,85,131"/>
-<area shape="rect" id="node5" href="$software_2grlib__tests_2irqmp_8h.html" title="irqmp.h" alt="" coords="109,101,173,131"/>
-<area shape="rect" id="node9" href="$cache_8h.html" title="cache.h" alt="" coords="197,101,264,131"/>
-<area shape="rect" id="node11" href="$standalone_8h.html" title="standalone.h" alt="" coords="288,101,384,131"/>
+<area shape="rect" id="node2" href="$testmod_8h.html" title="testmod.h" alt="" coords="5,95,85,121"/>
+<area shape="rect" id="node3" href="$core_2software_2grlib__tests_2irqmp_8h.html" title="irqmp.h" alt="" coords="110,95,175,121"/>
+<area shape="rect" id="node5" href="$cache_8h.html" title="cache.h" alt="" coords="199,95,267,121"/>
+<area shape="rect" id="node6" href="$standalone_8h.html" title="standalone.h" alt="" coords="292,95,388,121"/>
 </map>

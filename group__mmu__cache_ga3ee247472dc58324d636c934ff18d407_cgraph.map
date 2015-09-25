@@ -1,5 +1,5 @@
 <map id="localram::localram" name="localram::localram">
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga9dd22726eeafd825fa422646313a2a8c" title="Dynamic/Internal power callback. " alt="" coords="185,5,340,35"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#ga639fcd7d215694a687b1f4a14f77dcd3" title="Static power callback. " alt="" coords="183,59,343,88"/>
-<area shape="rect" id="node7" href="$group__mmu__cache.html#ga4e3bb8a36f9590f99a6534ba23429817" title="Dynamic/Switching power callback. " alt="" coords="181,112,344,141"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga9dd22726eeafd825fa422646313a2a8c" title="Dynamic/Internal power callback. " alt="" coords="185,5,341,32"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga639fcd7d215694a687b1f4a14f77dcd3" title="Static power callback. " alt="" coords="183,56,343,83"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#ga4e3bb8a36f9590f99a6534ba23429817" title="Dynamic/Switching power callback. " alt="" coords="181,107,344,133"/>
 </map>

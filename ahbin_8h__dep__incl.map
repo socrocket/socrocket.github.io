@@ -1,6 +1,4 @@
-<map id="core/models/ahbin/ahbin.h" name="core/models/ahbin/ahbin.h">
-<area shape="rect" id="node3" href="$ahbin_8cpp.html" title="core/models/ahbin/ahbin.cpp" alt="" coords="5,92,192,121"/>
-<area shape="rect" id="node5" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="216,83,373,130"/>
-<area shape="rect" id="node7" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="397,83,579,130"/>
-<area shape="rect" id="node9" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="397,179,579,226"/>
+<map id="gaisler/ahbin/ahbin.h" name="gaisler/ahbin/ahbin.h">
+<area shape="rect" id="node2" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,80,164,121"/>
+<area shape="rect" id="node3" href="$ahbin_8cpp.html" title="gaisler/ahbin/ahbin.cpp" alt="" coords="189,87,343,114"/>
 </map>

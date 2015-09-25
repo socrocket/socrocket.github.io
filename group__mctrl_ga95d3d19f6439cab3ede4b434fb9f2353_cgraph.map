@@ -1,4 +1,5 @@
 <map id="Mctrl::switch_power_mode" name="Mctrl::switch_power_mode">
-<area shape="rect" id="node2" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="232,5,280,31"/>
-<area shape="rect" id="node3" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="328,5,404,31"/>
+<area shape="rect" id="node2" href="$classsr__param__t.html#a8e719d658675c441551981a331a8bd61" title="Returns the value of this parameter. " alt="" coords="232,5,379,32"/>
+<area shape="rect" id="node3" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="281,56,329,83"/>
+<area shape="rect" id="node4" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="427,56,503,83"/>
 </map>

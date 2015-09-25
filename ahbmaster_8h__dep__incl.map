@@ -1,14 +1,12 @@
-<map id="core/models/utils/ahbmaster.h" name="core/models/utils/ahbmaster.h">
-<area shape="rect" id="node3" href="$ahbin_8h.html" title="core/models/ahbin/ahbin.h" alt="" coords="208,188,381,217"/>
-<area shape="rect" id="node13" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="405,179,573,226"/>
-<area shape="rect" id="node19" href="$mmu__cache__base_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_base.h" alt="" coords="581,83,749,130"/>
-<area shape="rect" id="node22" href="$mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache.h" alt="" coords="795,179,963,226"/>
-<area shape="rect" id="node5" href="$ahbin_8cpp.html" title="core/models/ahbin/ahbin.cpp" alt="" coords="5,284,192,313"/>
-<area shape="rect" id="node7" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="216,275,373,322"/>
-<area shape="rect" id="node9" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="397,275,579,322"/>
-<area shape="rect" id="node11" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="397,371,579,418"/>
-<area shape="rect" id="node15" href="$leon3__mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.cpp" alt="" coords="603,275,779,322"/>
-<area shape="rect" id="node29" href="$mmu__cache__base_8cpp.html" title="core/models/mmu_cache\l/lib/mmu_cache_base.cpp" alt="" coords="597,179,771,226"/>
-<area shape="rect" id="node24" href="$mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/mmu_cache.cpp" alt="" coords="803,275,971,322"/>
-<area shape="rect" id="node26" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="995,275,1131,322"/>
+<map id="core/common/ahbmaster.h" name="core/common/ahbmaster.h">
+<area shape="rect" id="node2" href="$mmu__cache_8h.html" title="gaisler/leon3/mmucache\l/mmu_cache.h" alt="" coords="114,169,277,211"/>
+<area shape="rect" id="node5" href="$mmu__cache__base_8h.html" title="gaisler/leon3/mmucache\l/mmu_cache_base.h" alt="" coords="315,80,478,121"/>
+<area shape="rect" id="node6" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="487,177,629,203"/>
+<area shape="rect" id="node10" href="$ahbin_8h.html" title="gaisler/ahbin/ahbin.h" alt="" coords="595,87,737,114"/>
+<area shape="rect" id="node3" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,259,143,300"/>
+<area shape="rect" id="node4" href="$mmu__cache_8cpp.html" title="gaisler/leon3/mmucache\l/mmu_cache.cpp" alt="" coords="167,259,330,300"/>
+<area shape="rect" id="node9" href="$mmu__cache__base_8cpp.html" title="gaisler/leon3/mmucache\l/mmu_cache_base.cpp" alt="" coords="301,169,463,211"/>
+<area shape="rect" id="node7" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="587,259,745,300"/>
+<area shape="rect" id="node8" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="407,266,562,293"/>
+<area shape="rect" id="node11" href="$ahbin_8cpp.html" title="gaisler/ahbin/ahbin.cpp" alt="" coords="703,177,858,203"/>
 </map>

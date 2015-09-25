@@ -1,5 +1,6 @@
 <map id="trap::usleepSysCall::operator()" name="trap::usleepSysCall::operator()">
-<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="208,5,347,35"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="212,59,343,88"/>
-<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="189,112,365,141"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="208,5,347,32"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="212,56,343,83"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="189,107,365,133"/>
+<area shape="rect" id="node5" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="211,158,344,199"/>
 </map>

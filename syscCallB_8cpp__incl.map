@@ -1,9 +1,10 @@
 <map id="core/common/trapgen/osEmulator/syscCallB.cpp" name="core/common/trapgen/osEmulator/syscCallB.cpp">
-<area shape="rect" id="node3" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="37,198,205,245"/>
-<area shape="rect" id="node15" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="965,102,1147,149"/>
-<area shape="rect" id="node17" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="904,294,1051,341"/>
-<area shape="rect" id="node36" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="483,198,629,245"/>
-<area shape="rect" id="node50" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="1707,207,1872,236"/>
-<area shape="rect" id="node28" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1040,390,1227,437"/>
-<area shape="rect" id="node41" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="465,294,612,341"/>
+<area shape="rect" id="node2" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="168,184,337,225"/>
+<area shape="rect" id="node9" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="1299,95,1481,136"/>
+<area shape="rect" id="node4" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="140,281,288,307"/>
+<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1749,273,1897,315"/>
+<area shape="rect" id="node17" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="757,184,905,225"/>
+<area shape="rect" id="node22" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1995,191,2161,218"/>
+<area shape="rect" id="node15" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1795,363,1982,404"/>
+<area shape="rect" id="node19" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="576,273,724,315"/>
 </map>

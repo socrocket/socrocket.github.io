@@ -1,4 +1,7 @@
 <map id="Mctrl::end_of_simulation" name="Mctrl::end_of_simulation">
-<area shape="rect" id="node3" href="$classAHBSlave.html#ae1c20064c85aa40bd2fd1c72a06fc2d6" title="Print common transport statistics. " alt="" coords="225,5,391,69"/>
-<area shape="rect" id="node5" href="$group__mctrl.html#ga95d3d19f6439cab3ede4b434fb9f2353" title="Mctrl::switch_power_mode" alt="" coords="219,93,397,123"/>
+<area shape="rect" id="node2" href="$classsr__param__t.html#a8e719d658675c441551981a331a8bd61" title="Returns the value of this parameter. " alt="" coords="444,13,591,40"/>
+<area shape="rect" id="node3" href="$classAHBSlave.html#ae1c20064c85aa40bd2fd1c72a06fc2d6" title="Print common transport statistics. " alt="" coords="229,24,384,80"/>
+<area shape="rect" id="node4" href="$group__mctrl.html#ga95d3d19f6439cab3ede4b434fb9f2353" title="Mctrl::switch_power_mode" alt="" coords="217,104,396,130"/>
+<area shape="rect" id="node5" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="493,104,541,130"/>
+<area shape="rect" id="node6" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="639,104,715,130"/>
 </map>

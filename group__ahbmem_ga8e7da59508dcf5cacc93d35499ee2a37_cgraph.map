@@ -1,0 +1,13 @@
+<map id="AHBMem::AHBMem" name="AHBMem::AHBMem">
+<area shape="rect" id="node2" href="$classAHBDevice.html#a5b806175b7f9a4977acfeada16ab3e8a" title="AHBDevice::get_ahb\l_base_addr" alt="" coords="213,5,358,47"/>
+<area shape="rect" id="node3" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="197,71,373,98"/>
+<area shape="rect" id="node4" href="$group__ahbmem.html#ga95e070b12f60e8d116ad969ab13c1dd3" title="AHBMem::get_direct\l_mem_ptr" alt="" coords="213,123,357,164"/>
+<area shape="rect" id="node8" href="$group__ahbmem.html#ga5f24eafcaea77f973097071446c9c994" title="Initialize generics. " alt="" coords="205,189,365,215"/>
+<area shape="rect" id="node10" href="$group__ahbmem.html#ga5ed39fa822bccb7c72bd44c8c10d6279" title="Dynamic/Internal power callback. " alt="" coords="203,239,367,266"/>
+<area shape="rect" id="node11" href="$group__ahbmem.html#ga1ff76c574b66e8a884757568e4468860" title="Static power callback. " alt="" coords="201,290,369,317"/>
+<area shape="rect" id="node12" href="$group__ahbmem.html#ga56d9d9e6b11ac1e983998f97a4858ee7" title="Dynamic/Switching power callback. " alt="" coords="200,341,371,367"/>
+<area shape="rect" id="node5" href="$classStorage.html#a9884d7e287bba91bc6bfe1171626e626" title="Storage::get_dmi_ptr" alt="" coords="427,42,570,69"/>
+<area shape="rect" id="node6" href="$classAHBDevice.html#a8a0b10f997394f7d2cfd7fdf754a6b4b" title="AHBDevice::get_ahb\l_bar_size" alt="" coords="426,93,571,135"/>
+<area shape="rect" id="node7" href="$classStorage.html#a40c97ccf49c1404c7063917e1ababb1e" title="Storage::allow_dmi_rw" alt="" coords="421,159,576,186"/>
+<area shape="rect" id="node9" href="$classsr__param__base.html#ad7c5b28a15c30bb579ff36c8ae356829" title="sr_param_base::add\l_properties" alt="" coords="429,211,569,252"/>
+</map>

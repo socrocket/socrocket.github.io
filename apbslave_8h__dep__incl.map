@@ -1,0 +1,14 @@
+<map id="core/common/apbslave.h" name="core/common/apbslave.h">
+<area shape="rect" id="node2" href="$gaisler_2irqmp_2irqmp_8h.html" title="gaisler/irqmp/irqmp.h" alt="" coords="277,80,419,107"/>
+<area shape="rect" id="node7" href="$mctrl_8h.html" title="gaisler/mctrl/mctrl.h" alt="" coords="446,80,583,107"/>
+<area shape="rect" id="node9" href="$gaisler_2gptimer_2gptimer_8h.html" title="gaisler/gptimer/gptimer.h" alt="" coords="608,80,773,107"/>
+<area shape="rect" id="node12" href="$apbuart_8h.html" title="gaisler/apbuart/apbuart.h" alt="" coords="797,80,963,107"/>
+<area shape="rect" id="node3" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="187,155,325,196"/>
+<area shape="rect" id="node5" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="523,155,682,196"/>
+<area shape="rect" id="node6" href="$irqmp_8cpp.html" title="gaisler/irqmp/irqmp.cpp" alt="" coords="5,162,163,189"/>
+<area shape="rect" id="node4" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="187,244,325,285"/>
+<area shape="rect" id="node8" href="$mctrl_8cpp.html" title="gaisler/mctrl/mctrl.cpp" alt="" coords="349,162,499,189"/>
+<area shape="rect" id="node10" href="$gpcounter_8cpp.html" title="gaisler/gptimer/gpcounter.cpp" alt="" coords="910,162,1103,189"/>
+<area shape="rect" id="node11" href="$gptimer_8cpp.html" title="gaisler/gptimer/gptimer.cpp" alt="" coords="707,162,885,189"/>
+<area shape="rect" id="node13" href="$apbuart_8cpp.html" title="gaisler/apbuart/apbuart.cpp" alt="" coords="1128,162,1307,189"/>
+</map>

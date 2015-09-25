@@ -1,5 +1,5 @@
 <map id="main" name="main">
-<area shape="rect" id="node3" href="$crc_8c.html#ad9212c0c4d94849a33a471c1d8bb2a24" title="icrc" alt="" coords="104,32,147,61"/>
-<area shape="rect" id="node5" href="$crc_8c.html#a1f30fa7af5b92b0a78c222327f85c467" title="icrc1" alt="" coords="231,5,281,35"/>
-<area shape="rect" id="node7" href="$namespacecore_1_1waf_1_1repo.html#a8af0f74e665f974e57c9548092f6315f" title="core.waf.repo.init" alt="" coords="195,59,317,88"/>
+<area shape="rect" id="node2" href="$crc_8c.html#ad9212c0c4d94849a33a471c1d8bb2a24" title="icrc" alt="" coords="104,31,147,57"/>
+<area shape="rect" id="node3" href="$crc_8c.html#a1f30fa7af5b92b0a78c222327f85c467" title="icrc1" alt="" coords="257,5,307,32"/>
+<area shape="rect" id="node4" href="$namespacecore_1_1waf_1_1subcommand.html#a8e18be536636aed83619d2d95cb3c27d" title="core.waf.subcommand.init" alt="" coords="195,56,369,83"/>
 </map>

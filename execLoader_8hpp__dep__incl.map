@@ -1,5 +1,4 @@
 <map id="core/common/trapgen/elfloader/execLoader.hpp" name="core/common/trapgen/elfloader/execLoader.hpp">
-<area shape="rect" id="node3" href="$execLoader_8cpp.html" title="core/common/trapgen\l/elfloader/execLoader.cpp" alt="" coords="5,110,176,157"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="200,101,373,165"/>
-<area shape="rect" id="node7" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="397,110,555,157"/>
+<area shape="rect" id="node2" href="$execLoader_8cpp.html" title="core/common/trapgen\l/elfloader/execLoader.cpp" alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="201,95,335,136"/>
 </map>

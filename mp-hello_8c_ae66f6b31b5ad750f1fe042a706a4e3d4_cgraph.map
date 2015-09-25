@@ -1,3 +1,4 @@
 <map id="main" name="main">
-<area shape="rect" id="node3" href="$mp-hello_8c.html#a5ce880f3bdb1b87f486e0801d78f64cc" title="get_cpu_id" alt="" coords="104,5,189,35"/>
+<area shape="rect" id="node2" href="$mp-hello_8c.html#a5ce880f3bdb1b87f486e0801d78f64cc" title="get_cpu_id" alt="" coords="104,5,189,32"/>
+<area shape="rect" id="node3" href="$radix4__input__gen_8c.html#a5dc6b8d5e3252e85ea0a1843b6364f8a" title="init_irqmp" alt="" coords="107,56,186,83"/>
 </map>

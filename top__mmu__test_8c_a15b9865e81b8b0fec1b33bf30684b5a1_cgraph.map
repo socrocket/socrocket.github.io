@@ -1,8 +1,8 @@
 <map id="mmu_test" name="mmu_test">
-<area shape="rect" id="node3" href="$mmu_8c.html#af3ff021b8f39f1fcd7687308d6f8dcd7" title="leon_flush_cache_all" alt="" coords="305,12,447,42"/>
-<area shape="rect" id="node5" href="$mmu_8c.html#ac8caa4c1c0f968f0d65b3a433b1f1974" title="leon_flush_tlb_all" alt="" coords="133,38,256,67"/>
-<area shape="rect" id="node8" href="$mmu_8c.html#ac5367531b04dc0db14c0261fe346f52f" title="mmu_func1" alt="" coords="149,91,240,120"/>
-<area shape="rect" id="node10" href="$mmu_8c.html#a32a78819ac7a5750b5bed9d046ff32c8" title="mmugetpagesize" alt="" coords="135,144,255,174"/>
-<area shape="rect" id="node12" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="143,198,247,227"/>
-<area shape="rect" id="node14" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="163,251,227,280"/>
+<area shape="rect" id="node2" href="$mmu_8c.html#af3ff021b8f39f1fcd7687308d6f8dcd7" title="leon_flush_cache_all" alt="" coords="304,12,447,39"/>
+<area shape="rect" id="node3" href="$mmu_8c.html#ac8caa4c1c0f968f0d65b3a433b1f1974" title="leon_flush_tlb_all" alt="" coords="133,38,256,64"/>
+<area shape="rect" id="node4" href="$mmu_8c.html#ac5367531b04dc0db14c0261fe346f52f" title="mmu_func1" alt="" coords="149,88,240,115"/>
+<area shape="rect" id="node5" href="$mmu_8c.html#a32a78819ac7a5750b5bed9d046ff32c8" title="mmugetpagesize" alt="" coords="134,139,255,166"/>
+<area shape="rect" id="node6" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="142,190,247,216"/>
+<area shape="rect" id="node7" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="162,240,227,267"/>
 </map>

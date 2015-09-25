@@ -1,5 +1,5 @@
 <map id="core/software/grlib_tests/top_irqmp_test.c" name="core/software/grlib_tests/top_irqmp_test.c">
-<area shape="rect" id="node3" href="$standalone_8h.html" title="standalone.h" alt="" coords="5,101,101,131"/>
-<area shape="rect" id="node5" href="$cache_8h.html" title="cache.h" alt="" coords="125,101,192,131"/>
-<area shape="rect" id="node7" href="$software_2grlib__tests_2irqmp_8h.html" title="irqmp.h" alt="" coords="216,101,280,131"/>
+<area shape="rect" id="node2" href="$standalone_8h.html" title="standalone.h" alt="" coords="5,95,101,121"/>
+<area shape="rect" id="node3" href="$cache_8h.html" title="cache.h" alt="" coords="126,95,194,121"/>
+<area shape="rect" id="node4" href="$core_2software_2grlib__tests_2irqmp_8h.html" title="irqmp.h" alt="" coords="218,95,283,121"/>
 </map>

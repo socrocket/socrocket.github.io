@@ -1,10 +1,10 @@
 <map id="pci_test" name="pci_test">
-<area shape="rect" id="node3" href="$pcitest_8c.html#ac1163b8d93711c6fa01dfbffd2b4f0bf" title="init_pci" alt="" coords="143,71,204,100"/>
-<area shape="rect" id="node22" href="$report__device_8c.html#a19b399e21d163c2a92510871f1a807de" title="report_device" alt="" coords="124,124,223,153"/>
-<area shape="rect" id="node5" href="$pcitest_8c.html#a2cab4f12aa62e04c71eb4f62a3fdacbe" title="init_grpci" alt="" coords="511,5,585,35"/>
-<area shape="rect" id="node11" href="$pcitest_8c.html#aebf92f40c64d6477423f9831f5884a5f" title="pci_allocate_resources" alt="" coords="272,109,427,139"/>
-<area shape="rect" id="node7" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="672,136,827,165"/>
-<area shape="rect" id="node9" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="671,57,828,87"/>
-<area shape="rect" id="node13" href="$pcitest_8c.html#ad3eace233c2510da9c32a1c57a2f42f6" title="pci_mem_enable" alt="" coords="488,109,608,139"/>
-<area shape="rect" id="node17" href="$pcitest_8c.html#a74212783d4ee813833618da5a586746a" title="pci_read_config_byte" alt="" coords="476,163,620,192"/>
+<area shape="rect" id="node2" href="$pcitest_8c.html#ac1163b8d93711c6fa01dfbffd2b4f0bf" title="init_pci" alt="" coords="140,68,203,95"/>
+<area shape="rect" id="node9" href="$report__device_8c.html#a19b399e21d163c2a92510871f1a807de" title="report_device" alt="" coords="121,119,221,145"/>
+<area shape="rect" id="node3" href="$pcitest_8c.html#a2cab4f12aa62e04c71eb4f62a3fdacbe" title="init_grpci" alt="" coords="507,5,582,32"/>
+<area shape="rect" id="node6" href="$pcitest_8c.html#aebf92f40c64d6477423f9831f5884a5f" title="pci_allocate_resources" alt="" coords="269,107,424,133"/>
+<area shape="rect" id="node4" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="667,132,822,159"/>
+<area shape="rect" id="node5" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="665,56,824,83"/>
+<area shape="rect" id="node7" href="$pcitest_8c.html#ad3eace233c2510da9c32a1c57a2f42f6" title="pci_mem_enable" alt="" coords="485,107,605,133"/>
+<area shape="rect" id="node8" href="$pcitest_8c.html#a74212783d4ee813833618da5a586746a" title="pci_read_config_byte" alt="" coords="472,157,617,184"/>
 </map>

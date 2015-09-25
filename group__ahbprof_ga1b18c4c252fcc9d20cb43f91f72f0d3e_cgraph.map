@@ -1,4 +1,4 @@
 <map id="AHBProf::AHBProf" name="AHBProf::AHBProf">
-<area shape="rect" id="node3" href="$classAHBDevice.html#a5b806175b7f9a4977acfeada16ab3e8a" title="AHBDevice::get_ahb\l_base_addr" alt="" coords="205,5,349,51"/>
-<area shape="rect" id="node5" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="189,75,365,104"/>
+<area shape="rect" id="node2" href="$classAHBDevice.html#a5b806175b7f9a4977acfeada16ab3e8a" title="AHBDevice::get_ahb\l_base_addr" alt="" coords="203,5,349,47"/>
+<area shape="rect" id="node3" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="188,71,364,98"/>
 </map>

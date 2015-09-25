@@ -1,4 +1,5 @@
 <map id="trap::MemoryAT::MemoryAT" name="trap::MemoryAT::MemoryAT">
-<area shape="rect" id="node3" href="$classtrap_1_1MemoryAT.html#a7eacc7d0b4ea266280eacfdd64f07add" title="trap::MemoryAT::nb\l_transport_fw" alt="" coords="275,5,413,51"/>
-<area shape="rect" id="node5" href="$classtrap_1_1MemoryAT.html#a01affb0c38bf6f60ddde17e1d357c886" title="trap::MemoryAT::transport_dbg" alt="" coords="243,75,445,104"/>
+<area shape="rect" id="node2" href="$classtrap_1_1MemoryAT.html#a7eacc7d0b4ea266280eacfdd64f07add" title="trap::MemoryAT::nb\l_transport_fw" alt="" coords="273,5,412,47"/>
+<area shape="rect" id="node4" href="$classtrap_1_1MemoryAT.html#a01affb0c38bf6f60ddde17e1d357c886" title="trap::MemoryAT::transport_dbg" alt="" coords="241,71,444,98"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="492,5,625,47"/>
 </map>

@@ -1,0 +1,11 @@
+<map id="sr_signal::signal_if&lt; TYPE &gt;" name="sr_signal::signal_if&lt; TYPE &gt;">
+<area shape="rect" id="node2" href="$singletonsr__signal_1_1signal__in__if.html" title="{sr_signal::signal_in\l_if\&lt; TYPE \&gt;\n||+ ~signal_in_if()\l+ bind()\l+ update()\l}" alt="" coords="175,211,308,333"/>
+<area shape="rect" id="node6" href="$classsr__signal_1_1signal__out__if.html" title="{sr_signal::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="345,204,487,340"/>
+<area shape="rect" id="node10" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; bool \&gt;\n|# m_value\l|+ ~signal_if()\l+ read()\l+ operator bool()\l+ operator==()\l}" alt="" coords="511,204,641,340"/>
+<area shape="rect" id="node3" href="$classsr__signal_1_1signal__in.html" title="{sr_signal::signal_in\l\&lt; TYPE \&gt;\n||+ signal_in()\l+ signal_in()\l+ ~signal_in()\l+ bind()\l+ update()\l+ operator TYPE()\l+ operator()()\l}" alt="" coords="5,417,139,597"/>
+<area shape="rect" id="node5" href="$classsr__signal_1_1signal__infield.html" title="{sr_signal::signal_infield\l\&lt; TYPE \&gt;\n||+ signal_infield()\l+ signal_infield()\l+ ~signal_infield()\l+ bind()\l+ update()\l+ read()\l+ read()\l+ operator[]()\l+ operator()()\l}" alt="" coords="163,403,320,612"/>
+<area shape="rect" id="node4" href="$classsr__signal_1_1signal__inout.html" title="{sr_signal::signal_inout\l\&lt; TYPE, MODULE \&gt;\n||+ signal_inout()\l+ signal_inout()\l+ ~signal_inout()\l}" alt="" coords="246,704,397,825"/>
+<area shape="rect" id="node7" href="$classsr__signal_1_1signal__out.html" title="{sr_signal::signal_out\l\&lt; TYPE \&gt;\n|# m_receiver\l|+ signal_out()\l+ ~signal_out()\l+ bind()\l+ write()\l+ operator()()\l+ operator=()\l+ operator=()\l}" alt="" coords="344,417,485,597"/>
+<area shape="rect" id="node9" href="$classsr__signal_1_1signal__out__if.html" title="{sr_signal::signal_out\l_if\&lt; bool \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="509,439,651,575"/>
+<area shape="rect" id="node8" href="$classsr__signal_1_1signal__out.html" title="{sr_signal::signal_out\l\&lt; bool, Irqmp \&gt;\n|# m_receiver\l|+ signal_out()\l+ ~signal_out()\l+ bind()\l+ write()\l+ operator()()\l+ operator=()\l+ operator=()\l}" alt="" coords="459,675,600,855"/>
+</map>

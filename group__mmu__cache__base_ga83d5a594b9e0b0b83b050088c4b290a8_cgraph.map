@@ -1,9 +1,10 @@
 <map id="mmu_cache_base::mmu_cache_base" name="mmu_cache_base::mmu_cache_base">
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga717317f634e308b22000e89a53a2933e" title="Return pointer to tlb data interface. " alt="" coords="243,5,360,35"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#gaceec7aa8e9da0891caf0936b7540a667" title="Return pointer to tlb instruction interface. " alt="" coords="244,59,359,88"/>
-<area shape="rect" id="node7" href="$group__mmu__cache__base.html#ga90ece1f7e46db3660fe534f6dc7b692e" title="Dynamic/Internal power callback. " alt="" coords="227,111,376,158"/>
-<area shape="rect" id="node9" href="$group__mmu__cache__base.html#gafdd483a589f5812e4feb6f53774dbdab" title="mmu_cache_base::mem\l_access" alt="" coords="219,181,384,227"/>
-<area shape="rect" id="node13" href="$group__mmu__cache__base.html#ga0758ff64a57207edb0aea3963537609e" title="Static power callback. " alt="" coords="224,250,379,297"/>
-<area shape="rect" id="node15" href="$group__mmu__cache__base.html#ga749d383dc04c8c2ef762e1f9ab85e06e" title="Dynamic/Switching power callback. " alt="" coords="224,319,379,366"/>
-<area shape="rect" id="node11" href="$classAHBMaster.html#aeeab73b80ddc8351609ce6d698351e96" title="Generic AHB access function (blocking and non&#45;blocking) " alt="" coords="433,189,609,219"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga717317f634e308b22000e89a53a2933e" title="Return pointer to tlb data interface. " alt="" coords="242,5,361,32"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#gaceec7aa8e9da0891caf0936b7540a667" title="Return pointer to tlb instruction interface. " alt="" coords="244,56,359,83"/>
+<area shape="rect" id="node4" href="$group__mmu__cache__base.html#ga90ece1f7e46db3660fe534f6dc7b692e" title="Dynamic/Internal power callback. " alt="" coords="226,107,377,149"/>
+<area shape="rect" id="node5" href="$group__mmu__cache__base.html#gafdd483a589f5812e4feb6f53774dbdab" title="mmu_cache_base::mem\l_access" alt="" coords="219,173,384,214"/>
+<area shape="rect" id="node8" href="$group__mmu__cache__base.html#ga0758ff64a57207edb0aea3963537609e" title="Static power callback. " alt="" coords="224,238,379,279"/>
+<area shape="rect" id="node9" href="$group__mmu__cache__base.html#ga749d383dc04c8c2ef762e1f9ab85e06e" title="Dynamic/Switching power callback. " alt="" coords="223,303,379,345"/>
+<area shape="rect" id="node6" href="$classAHBMaster.html#aeeab73b80ddc8351609ce6d698351e96" title="Generic AHB access function (blocking and non&#45;blocking) " alt="" coords="432,151,609,177"/>
+<area shape="rect" id="node7" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="454,202,587,243"/>
 </map>

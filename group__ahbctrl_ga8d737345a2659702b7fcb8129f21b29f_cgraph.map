@@ -1,4 +1,5 @@
 <map id="AHBCtrl::b_transport" name="AHBCtrl::b_transport">
-<area shape="rect" id="node3" href="$classmsclogger.html#addbebe5cf3889d6b484f7e7bceae80c5" title="msclogger::return_backward" alt="" coords="197,5,384,35"/>
-<area shape="rect" id="node5" href="$group__ahbctrl.html#ga2174150c4b184a5ceae2243123ffc537" title="Collect common transport statistics. " alt="" coords="225,58,356,105"/>
+<area shape="rect" id="node2" href="$classmsclogger.html#addbebe5cf3889d6b484f7e7bceae80c5" title="msclogger::return_backward" alt="" coords="197,5,384,32"/>
+<area shape="rect" id="node3" href="$group__ahbctrl.html#ga2174150c4b184a5ceae2243123ffc537" title="Collect common transport statistics. " alt="" coords="225,57,356,98"/>
+<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="224,122,357,163"/>
 </map>

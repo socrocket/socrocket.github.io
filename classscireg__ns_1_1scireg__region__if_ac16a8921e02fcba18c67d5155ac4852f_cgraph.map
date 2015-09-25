@@ -1,5 +1,5 @@
 <map id="scireg_ns::scireg_region_if::scireg_region_if" name="scireg_ns::scireg_region_if::scireg_region_if">
-<area shape="rect" id="node3" href="$group__common.html#ga68aa9e0f80d212a0e2a95087868790d4" title="scireg_ns::scireg_tool\l_registry::add_region" alt="" coords="216,5,365,51"/>
-<area shape="rect" id="node5" href="$group__common.html#gaab21758d99c1a0ee378b2406277f67a8" title="scireg_ns::scireg_tool\l_registry::check_allocation" alt="" coords="415,5,591,51"/>
-<area shape="rect" id="node7" href="$group__common.html#ga2e5651fa4057ce8a4e82b7e49ba9dcae" title="scireg_ns::scireg_tool\l_registry::destroy" alt="" coords="640,5,789,51"/>
+<area shape="rect" id="node2" href="$group__sr__register.html#ga68aa9e0f80d212a0e2a95087868790d4" title="scireg_ns::scireg_tool\l_registry::add_region" alt="" coords="216,5,365,47"/>
+<area shape="rect" id="node3" href="$group__sr__register.html#gaab21758d99c1a0ee378b2406277f67a8" title="scireg_ns::scireg_tool\l_registry::check_allocation" alt="" coords="413,5,591,47"/>
+<area shape="rect" id="node4" href="$group__sr__register.html#ga2e5651fa4057ce8a4e82b7e49ba9dcae" title="scireg_ns::scireg_tool\l_registry::destroy" alt="" coords="639,5,788,47"/>
 </map>

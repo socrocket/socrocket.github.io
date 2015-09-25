@@ -1,0 +1,6 @@
+<map id="ReportIO" name="ReportIO">
+<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n|# m_api\l# m_generics\l# m_counters\l# m_power\l|+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="5,389,196,584"/>
+<area shape="rect" id="node4" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n|# m_api\l# m_generics\l# m_counters\l# m_power\l|+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="151,132,306,327"/>
+<area shape="rect" id="node5" href="$classBASE.html" title="{BASE\n||}" alt="" coords="199,5,258,83"/>
+<area shape="rect" id="node6" href="$classio__if.html" title="{io_if\n||+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l}" alt="" coords="220,433,363,540"/>
+</map>

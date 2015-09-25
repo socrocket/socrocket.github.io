@@ -1,0 +1,8 @@
+<map id="core/common/sr_iss/intrinsics/platformintrinsic.h" name="core/common/sr_iss/intrinsics/platformintrinsic.h">
+<area shape="rect" id="node2" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="225,102,392,129"/>
+<area shape="rect" id="node7" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="869,95,1017,136"/>
+<area shape="rect" id="node21" href="$intrinsicbase_8h.html" title="core/common/sr_iss\l/intrinsics/intrinsicbase.h" alt="" coords="1153,95,1320,136"/>
+<area shape="rect" id="node10" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="960,184,1108,225"/>
+<area shape="rect" id="node15" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="597,184,745,225"/>
+<area shape="rect" id="node19" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="498,273,685,315"/>
+</map>

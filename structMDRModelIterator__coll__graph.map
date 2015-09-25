@@ -1,8 +1,6 @@
 <map id="MDRModelIterator" name="MDRModelIterator">
-<area shape="rect" id="node2" href="$structMDRModel.html" title="{MDRModel\n||}" alt="" coords="284,344,372,429"/>
-<area shape="rect" id="node4" href="$structMDRMultiIndex.html" title="{MDRMultiIndex\n||}" alt="" coords="37,192,149,277"/>
-<area shape="rect" id="node8" href="$classunsigned_01char.html" title="{unsigned char\n||}" alt="" coords="173,192,275,277"/>
-<area shape="rect" id="node10" href="$classchar.html" title="{char\n||}" alt="" coords="303,192,348,277"/>
-<area shape="rect" id="node14" href="$classint.html" title="{int\n||}" alt="" coords="512,192,549,277"/>
-<area shape="rect" id="node16" href="$classunsigned_01int.html" title="{unsigned int\n||}" alt="" coords="573,192,664,277"/>
+<area shape="rect" id="node2" href="$structMDRModel.html" title="{MDRModel\n||}" alt="" coords="246,329,334,407"/>
+<area shape="rect" id="node3" href="$structMDRMultiIndex.html" title="{MDRMultiIndex\n||}" alt="" coords="37,175,151,252"/>
+<area shape="rect" id="node5" href="$classunsigned_01char.html" title="{unsigned char\n||}" alt="" coords="175,175,277,252"/>
+<area shape="rect" id="node7" href="$classunsigned_01int.html" title="{unsigned int\n||}" alt="" coords="433,175,525,252"/>
 </map>

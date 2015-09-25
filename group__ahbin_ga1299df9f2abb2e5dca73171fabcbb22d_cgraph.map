@@ -1,3 +1,4 @@
 <map id="AHBIn::gen_frame" name="AHBIn::gen_frame">
-<area shape="rect" id="node3" href="$classAHBMaster.html#a3ea461ba0161c12ee8282176275de23d" title="Write data to AHB (SC_ZERO_TIME version) " alt="" coords="185,5,359,51"/>
+<area shape="rect" id="node2" href="$classAHBMaster.html#a3ea461ba0161c12ee8282176275de23d" title="Write data to AHB (SC_ZERO_TIME version) " alt="" coords="184,5,347,32"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="199,57,332,98"/>
 </map>

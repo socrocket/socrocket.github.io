@@ -1,8 +1,3 @@
 <map id="core/common/trapgen/osEmulator/osEmulator.hpp" name="core/common/trapgen/osEmulator/osEmulator.hpp">
-<area shape="rect" id="node3" href="$main_8cpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/main.cpp" alt="" coords="51,101,224,165"/>
-<area shape="rect" id="node5" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="248,110,416,157"/>
-<area shape="rect" id="node9" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="411,214,568,261"/>
-<area shape="rect" id="node7" href="$leon3__mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.cpp" alt="" coords="5,214,181,261"/>
-<area shape="rect" id="node11" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="205,214,387,261"/>
-<area shape="rect" id="node13" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="205,310,387,357"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="31,95,166,136"/>
 </map>

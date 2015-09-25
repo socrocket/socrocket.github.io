@@ -1,0 +1,11 @@
+<map id="isattyIntrinsic&lt; wordSize &gt;" name="isattyIntrinsic&lt; wordSize &gt;">
+<area shape="rect" id="node2" href="$classPlatformIntrinsic.html" title="{PlatformIntrinsic\&lt;\l wordSize \&gt;\n||+ PlatformIntrinsic()\l+ ~PlatformIntrinsic()\l+ setProcessor()\l+ setManager()\l+ operator()()\l+ setLatency()\l}" alt="" coords="189,888,335,1053"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html" title="{trap::ABIIf\&lt; wordSize \&gt;\n||+ matchEndian()\l+ preCall()\l+ postCall()\l+ returnFromCall()\l+ getProcessorID()\l+ isInstrExecuting()\l+ waitInstrEnd()\l+ isLittleEndian()\l+ readLR()\l+ setLR()\land 25 more...\l}" alt="" coords="109,601,269,825"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html" title="{trap::ABIIf\&lt; regWidth \&gt;\n||+ matchEndian()\l+ preCall()\l+ postCall()\l+ returnFromCall()\l+ getProcessorID()\l+ isInstrExecuting()\l+ waitInstrEnd()\l+ isLittleEndian()\l+ readLR()\l+ setLR()\land 25 more...\l}" alt="" coords="36,315,195,539"/>
+<area shape="rect" id="node7" href="$classIntrinsicBase.html" title="{IntrinsicBase\n||+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="483,645,630,781"/>
+<area shape="rect" id="node9" href="$classint.html" title="{int\n||}" alt="" coords="1147,160,1185,237"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="958,160,1038,237"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="935,5,1061,97"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="594,160,717,237"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="429,160,545,237"/>
+</map>

@@ -1,4 +1,4 @@
 <map id="Storage" name="Storage">
-<area shape="rect" id="node3" href="$classArrayStorage.html" title="{ArrayStorage\n||+ ArrayStorage()\l+ ~ArrayStorage()\l+ write()\l+ read()\l+ write_block()\l+ read_block()\l+ erase()\l}" alt="" coords="5,208,131,397"/>
-<area shape="rect" id="node5" href="$classMapStorage.html" title="{MapStorage\n||+ MapStorage()\l+ ~MapStorage()\l+ write()\l+ read()\l+ write_block()\l+ read_block()\l+ erase()\l}" alt="" coords="155,208,275,397"/>
+<area shape="rect" id="node3" href="$classArrayStorage.html" title="{ArrayStorage\n||+ ArrayStorage()\l+ ~ArrayStorage()\l+ set_size()\l+ write()\l+ read()\l+ write_block()\l+ read_block()\l+ erase()\l+ get_dmi_ptr()\l+ allow_dmi_rw()\l}" alt="" coords="5,388,132,597"/>
+<area shape="rect" id="node4" href="$classMapStorage.html" title="{MapStorage\n||+ MapStorage()\l+ ~MapStorage()\l+ set_size()\l+ write()\l+ read()\l+ write_block()\l+ read_block()\l+ erase()\l}" alt="" coords="157,403,277,583"/>
 </map>

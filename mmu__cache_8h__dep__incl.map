@@ -1,6 +1,4 @@
-<map id="core/models/mmu_cache/lib/mmu_cache.h" name="core/models/mmu_cache/lib/mmu_cache.h">
-<area shape="rect" id="node3" href="$mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/mmu_cache.cpp" alt="" coords="5,102,173,149"/>
-<area shape="rect" id="node5" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="197,102,333,149"/>
-<area shape="rect" id="node7" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="357,102,539,149"/>
-<area shape="rect" id="node9" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="357,198,539,245"/>
+<map id="gaisler/leon3/mmucache/mmu_cache.h" name="gaisler/leon3/mmucache/mmu_cache.h">
+<area shape="rect" id="node2" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,95,143,136"/>
+<area shape="rect" id="node3" href="$mmu__cache_8cpp.html" title="gaisler/leon3/mmucache\l/mmu_cache.cpp" alt="" coords="167,95,330,136"/>
 </map>

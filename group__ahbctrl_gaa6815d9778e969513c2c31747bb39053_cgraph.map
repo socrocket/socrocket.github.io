@@ -1,4 +1,4 @@
 <map id="AHBCtrl::nb_transport_fw" name="AHBCtrl::nb_transport_fw">
-<area shape="rect" id="node3" href="$classmsclogger.html#addbebe5cf3889d6b484f7e7bceae80c5" title="msclogger::return_backward" alt="" coords="227,5,413,35"/>
-<area shape="rect" id="node5" href="$group__ahbctrl.html#ga2174150c4b184a5ceae2243123ffc537" title="Collect common transport statistics. " alt="" coords="255,58,385,105"/>
+<area shape="rect" id="node2" href="$classmsclogger.html#addbebe5cf3889d6b484f7e7bceae80c5" title="msclogger::return_backward" alt="" coords="225,5,412,32"/>
+<area shape="rect" id="node3" href="$group__ahbctrl.html#ga2174150c4b184a5ceae2243123ffc537" title="Collect common transport statistics. " alt="" coords="253,57,384,98"/>
 </map>

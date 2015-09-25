@@ -1,23 +1,24 @@
-<map id="core/models/mmu_cache/lib/localram.cpp" name="core/models/mmu_cache/lib/localram.cpp">
-<area shape="rect" id="node3" href="$localram_8h.html" title="core/models/mmu_cache\l/lib/localram.h" alt="" coords="2381,102,2549,149"/>
-<area shape="rect" id="node45" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1636,591,1799,620"/>
-<area shape="rect" id="node7" href="$base_8h.html" title="core/common/base.h" alt="" coords="2484,207,2628,236"/>
-<area shape="rect" id="node20" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1372,303,1543,332"/>
-<area shape="rect" id="node100" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="2292,198,2460,245"/>
-<area shape="rect" id="node102" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="2912,582,3080,629"/>
-<area shape="rect" id="node9" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2659,677,2824,707"/>
-<area shape="rect" id="node71" href="$report_8h.html" title="core/common/report.h" alt="" coords="2481,303,2631,332"/>
-<area shape="rect" id="node81" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2263,294,2457,341"/>
-<area shape="rect" id="node24" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1377,390,1537,437"/>
-<area shape="rect" id="node30" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="844,390,1004,437"/>
-<area shape="rect" id="node39" href="$common_8h.html" title="core/common/common.h" alt="" coords="1605,495,1771,524"/>
-<area shape="rect" id="node58" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="347,486,507,533"/>
-<area shape="rect" id="node60" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="531,486,728,533"/>
-<area shape="rect" id="node62" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="752,486,912,533"/>
-<area shape="rect" id="node64" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="936,486,1096,533"/>
-<area shape="rect" id="node66" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="229,582,389,629"/>
-<area shape="rect" id="node69" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="1120,486,1283,533"/>
-<area shape="rect" id="node42" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1371,591,1531,620"/>
-<area shape="rect" id="node76" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="1768,399,1915,428"/>
-<area shape="rect" id="node84" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2145,390,2340,437"/>
+<map id="gaisler/leon3/mmucache/localram.cpp" name="gaisler/leon3/mmucache/localram.cpp">
+<area shape="rect" id="node2" href="$localram_8h.html" title="gaisler/leon3/mmucache\l/localram.h" alt="" coords="708,95,871,136"/>
+<area shape="rect" id="node31" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="201,616,364,643"/>
+<area shape="rect" id="node4" href="$base_8h.html" title="core/common/base.h" alt="" coords="473,191,617,218"/>
+<area shape="rect" id="node22" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="764,281,935,307"/>
+<area shape="rect" id="node40" href="$mem__if_8h.html" title="gaisler/leon3/mmucache\l/mem_if.h" alt="" coords="649,184,812,225"/>
+<area shape="rect" id="node41" href="$gaisler_2leon3_2mmucache_2defines_8h.html" title="gaisler/leon3/mmucache\l/defines.h" alt="" coords="2179,273,2341,315"/>
+<area shape="rect" id="node5" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="282,691,449,717"/>
+<area shape="rect" id="node10" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="321,281,487,307"/>
+<area shape="rect" id="node19" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="453,370,630,397"/>
+<area shape="rect" id="node11" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="274,452,430,493"/>
+<area shape="rect" id="node20" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="454,452,621,493"/>
+<area shape="rect" id="node23" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="785,363,943,404"/>
+<area shape="rect" id="node25" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="645,459,768,486"/>
+<area shape="rect" id="node26" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="1245,459,1371,486"/>
+<area shape="rect" id="node29" href="$common_8h.html" title="core/common/common.h" alt="" coords="983,541,1150,568"/>
+<area shape="rect" id="node34" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="1175,541,1273,568"/>
+<area shape="rect" id="node35" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="1298,541,1489,568"/>
+<area shape="rect" id="node36" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="1513,541,1655,568"/>
+<area shape="rect" id="node37" href="$sr__param__native_8h.html" title="sr_param_native.h" alt="" coords="1679,541,1809,568"/>
+<area shape="rect" id="node38" href="$sr__param__stdint_8h.html" title="sr_param_stdint.h" alt="" coords="1977,616,2103,643"/>
+<area shape="rect" id="node39" href="$sr__param__systemc_8h.html" title="sr_param_systemc.h" alt="" coords="1884,541,2028,568"/>
+<area shape="rect" id="node30" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1791,616,1953,643"/>
 </map>

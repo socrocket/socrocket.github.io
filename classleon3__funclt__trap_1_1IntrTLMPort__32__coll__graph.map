@@ -1,5 +1,4 @@
 <map id="leon3_funclt_trap::IntrTLMPort_32" name="leon3_funclt_trap::IntrTLMPort_32">
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; IntrTLMPort_32 \&gt;\n||}" alt="" coords="5,177,165,279"/>
-<area shape="rect" id="node4" href="$classsignalkit_1_1signal__module.html" title="{signalkit::signal_module\l\&lt; MODULE \&gt;\n||}" alt="" coords="5,6,165,109"/>
-<area shape="rect" id="node8" href="$classint.html" title="{int\n||}" alt="" coords="299,185,336,271"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; IntrTLMPort_32 \&gt;\n||}" alt="" coords="5,160,191,252"/>
+<area shape="rect" id="node3" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; MODULE \&gt;\n||}" alt="" coords="22,5,174,97"/>
 </map>

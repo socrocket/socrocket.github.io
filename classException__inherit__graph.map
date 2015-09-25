@@ -1,8 +1,6 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classwaflib_1_1Errors_1_1WafError.html" title="{waflib::Errors::WafError\n|+ msg\l+ stack\l+ verbose_msg\l|+ __init__()\l+ __str__()\l}" alt="" coords="445,139,603,277"/>
-<area shape="rect" id="node5" href="$classwaflib_1_1Errors_1_1BuildError.html" title="{waflib::Errors::BuildError\n|+ tasks\l|+ __init__()\l+ format_error()\l}" alt="" coords="5,334,168,437"/>
-<area shape="rect" id="node7" href="$classwaflib_1_1Errors_1_1ConfigurationError.html" title="{waflib::Errors::ConfigurationError\n||}" alt="" coords="192,343,403,428"/>
-<area shape="rect" id="node9" href="$classwaflib_1_1Errors_1_1TaskNotReady.html" title="{waflib::Errors::TaskNotReady\n||}" alt="" coords="427,343,621,428"/>
-<area shape="rect" id="node11" href="$classwaflib_1_1Errors_1_1TaskRescan.html" title="{waflib::Errors::TaskRescan\n||}" alt="" coords="645,343,827,428"/>
-<area shape="rect" id="node13" href="$classwaflib_1_1Tools_1_1c__preproc_1_1PreprocError.html" title="{waflib::Tools::c_preproc::PreprocError\n|+ POPFILE\l+ recursion_limit\l+ go_absolute\l|}" alt="" coords="851,325,1093,445"/>
+<map id="Exception" name="Exception">
+<area shape="rect" id="node2" href="$classusi_1_1cci_1_1parameter_1_1GSParamNonExistent.html" title="{usi.cci.parameter.GSParam\lNonExistent\n||}" alt="" coords="5,131,188,223"/>
+<area shape="rect" id="node3" href="$classusi_1_1DuplicateThreadHandle.html" title="{usi.DuplicateThreadHandle\n||}" alt="" coords="213,138,391,215"/>
+<area shape="rect" id="node4" href="$classusi_1_1ThreadKill.html" title="{usi.ThreadKill\n||}" alt="" coords="415,138,517,215"/>
+<area shape="rect" id="node5" href="$classusi_1_1ThreadReset.html" title="{usi.ThreadReset\n||}" alt="" coords="541,138,660,215"/>
 </map>

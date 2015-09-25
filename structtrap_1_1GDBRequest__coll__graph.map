@@ -1,7 +1,7 @@
 <map id="trap::GDBRequest" name="trap::GDBRequest">
-<area shape="rect" id="node2" href="$classint.html" title="{int\n||}" alt="" coords="5,337,43,423"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="149,337,229,423"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="127,158,252,261"/>
-<area shape="rect" id="node12" href="$classchar.html" title="{char\n||}" alt="" coords="289,167,335,252"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="359,167,473,252"/>
+<area shape="rect" id="node2" href="$classint.html" title="{int\n||}" alt="" coords="5,307,44,385"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="151,307,231,385"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="128,145,255,237"/>
+<area shape="rect" id="node7" href="$classchar.html" title="{char\n||}" alt="" coords="292,153,339,230"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="363,153,479,230"/>
 </map>

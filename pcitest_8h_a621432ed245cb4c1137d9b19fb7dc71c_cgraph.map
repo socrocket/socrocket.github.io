@@ -1,4 +1,4 @@
 <map id="pci_master_enable" name="pci_master_enable">
-<area shape="rect" id="node3" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="187,5,341,35"/>
-<area shape="rect" id="node5" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="185,59,343,88"/>
+<area shape="rect" id="node2" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="186,5,341,32"/>
+<area shape="rect" id="node3" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="184,56,343,83"/>
 </map>

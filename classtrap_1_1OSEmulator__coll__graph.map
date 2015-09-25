@@ -1,9 +1,9 @@
 <map id="trap::OSEmulator&lt; issueWidth &gt;" name="trap::OSEmulator&lt; issueWidth &gt;">
-<area shape="rect" id="node2" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="86,541,267,661"/>
-<area shape="rect" id="node4" href="$classtrap_1_1OSEmulatorBase.html" title="{trap::OSEmulatorBase\n||+ getRegisteredFunctions()\l+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="291,515,470,687"/>
-<area shape="rect" id="node8" href="$classint.html" title="{int\n||}" alt="" coords="40,176,78,261"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="802,176,882,261"/>
-<area shape="rect" id="node12" title="STL class. " alt="" coords="779,6,904,109"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="515,176,638,261"/>
-<area shape="rect" id="node28" title="STL class. " alt="" coords="328,176,443,261"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="334,491,515,598"/>
+<area shape="rect" id="node3" href="$classtrap_1_1OSEmulatorBase.html" title="{trap::OSEmulatorBase\n||+ getRegisteredFunctions()\l+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="540,469,720,620"/>
+<area shape="rect" id="node5" href="$classint.html" title="{int\n||}" alt="" coords="5,160,44,237"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="429,160,509,237"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="416,5,543,97"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="265,160,387,237"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="599,160,715,237"/>
 </map>

@@ -1,17 +1,15 @@
-<map id="core/models/mmu_cache/lib/vectorcache.h" name="core/models/mmu_cache/lib/vectorcache.h">
-<area shape="rect" id="node3" href="$dvectorcache_8h.html" title="core/models/mmu_cache\l/lib/dvectorcache.h" alt="" coords="396,102,564,149"/>
-<area shape="rect" id="node28" href="$ivectorcache_8h.html" title="core/models/mmu_cache\l/lib/ivectorcache.h" alt="" coords="588,102,756,149"/>
-<area shape="rect" id="node33" href="$vectorcache_8cpp.html" title="core/models/mmu_cache\l/lib/vectorcache.cpp" alt="" coords="780,102,948,149"/>
-<area shape="rect" id="node5" href="$dvectorcache_8cpp.html" title="core/models/mmu_cache\l/lib/dvectorcache.cpp" alt="" coords="300,198,468,245"/>
-<area shape="rect" id="node7" href="$mmu__cache__base_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_base.h" alt="" coords="492,198,660,245"/>
-<area shape="rect" id="node9" href="$leon3__mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.h" alt="" coords="200,294,368,341"/>
-<area shape="rect" id="node19" href="$mmu__cache_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache.h" alt="" coords="492,294,660,341"/>
-<area shape="rect" id="node26" href="$mmu__cache__base_8cpp.html" title="core/models/mmu_cache\l/lib/mmu_cache_base.cpp" alt="" coords="684,294,857,341"/>
-<area shape="rect" id="node11" href="$leon3__mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/leon3_mmu_cache.cpp" alt="" coords="5,390,181,437"/>
-<area shape="rect" id="node13" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="205,390,363,437"/>
-<area shape="rect" id="node15" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="387,390,568,437"/>
-<area shape="rect" id="node17" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="387,486,568,533"/>
-<area shape="rect" id="node21" href="$mmu__cache_8cpp.html" title="core/models/mmu_cache\l/lib/mmu_cache.cpp" alt="" coords="592,390,760,437"/>
-<area shape="rect" id="node23" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="784,390,920,437"/>
-<area shape="rect" id="node30" href="$ivectorcache_8cpp.html" title="core/models/mmu_cache\l/lib/ivectorcache.cpp" alt="" coords="684,198,852,245"/>
+<map id="gaisler/leon3/mmucache/vectorcache.h" name="gaisler/leon3/mmucache/vectorcache.h">
+<area shape="rect" id="node2" href="$ivectorcache_8h.html" title="gaisler/leon3/mmucache\l/ivectorcache.h" alt="" coords="259,95,422,136"/>
+<area shape="rect" id="node12" href="$dvectorcache_8h.html" title="gaisler/leon3/mmucache\l/dvectorcache.h" alt="" coords="446,95,609,136"/>
+<area shape="rect" id="node14" href="$vectorcache_8cpp.html" title="gaisler/leon3/mmucache\l/vectorcache.cpp" alt="" coords="633,95,795,136"/>
+<area shape="rect" id="node3" href="$mmu__cache__base_8h.html" title="gaisler/leon3/mmucache\l/mmu_cache_base.h" alt="" coords="353,184,515,225"/>
+<area shape="rect" id="node11" href="$ivectorcache_8cpp.html" title="gaisler/leon3/mmucache\l/ivectorcache.cpp" alt="" coords="166,184,329,225"/>
+<area shape="rect" id="node4" href="$mmu__cache_8h.html" title="gaisler/leon3/mmucache\l/mmu_cache.h" alt="" coords="167,273,330,315"/>
+<area shape="rect" id="node7" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="363,281,505,307"/>
+<area shape="rect" id="node10" href="$mmu__cache__base_8cpp.html" title="gaisler/leon3/mmucache\l/mmu_cache_base.cpp" alt="" coords="529,273,691,315"/>
+<area shape="rect" id="node5" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,363,143,404"/>
+<area shape="rect" id="node6" href="$mmu__cache_8cpp.html" title="gaisler/leon3/mmucache\l/mmu_cache.cpp" alt="" coords="167,363,330,404"/>
+<area shape="rect" id="node8" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="355,363,513,404"/>
+<area shape="rect" id="node9" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="538,370,693,397"/>
+<area shape="rect" id="node13" href="$dvectorcache_8cpp.html" title="gaisler/leon3/mmucache\l/dvectorcache.cpp" alt="" coords="539,184,702,225"/>
 </map>

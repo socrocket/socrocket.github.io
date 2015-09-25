@@ -1,28 +1,29 @@
-<map id="core/models/mmu_cache/lib/ivectorcache.h" name="core/models/mmu_cache/lib/ivectorcache.h">
-<area shape="rect" id="node3" href="$vectorcache_8h.html" title="core/models/mmu_cache\l/lib/vectorcache.h" alt="" coords="2173,102,2341,149"/>
-<area shape="rect" id="node103" href="$models_2mmu__cache_2lib_2defines_8h.html" title="core/models/mmu_cache\l/lib/defines.h" alt="" coords="172,467,340,514"/>
-<area shape="rect" id="node7" href="$base_8h.html" title="core/common/base.h" alt="" coords="2295,197,2439,227"/>
-<area shape="rect" id="node9" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="3247,659,3412,688"/>
-<area shape="rect" id="node20" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="2049,284,2220,313"/>
-<area shape="rect" id="node42" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2244,572,2404,601"/>
-<area shape="rect" id="node46" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="503,572,665,601"/>
-<area shape="rect" id="node106" href="$cache__if_8h.html" title="core/models/mmu_cache\l/lib/cache_if.h" alt="" coords="3559,371,3727,418"/>
-<area shape="rect" id="node111" href="$mem__if_8h.html" title="core/models/mmu_cache\l/lib/mem_if.h" alt="" coords="3417,467,3585,514"/>
-<area shape="rect" id="node113" href="$mmu__cache__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_cache_if.h" alt="" coords="2705,371,2873,418"/>
-<area shape="rect" id="node117" href="$tlb__adaptor_8h.html" title="core/models/mmu_cache\l/lib/tlb_adaptor.h" alt="" coords="371,275,539,322"/>
-<area shape="rect" id="node72" href="$report_8h.html" title="core/common/report.h" alt="" coords="2603,284,2752,313"/>
-<area shape="rect" id="node82" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="2384,275,2579,322"/>
-<area shape="rect" id="node24" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="581,371,741,418"/>
-<area shape="rect" id="node30" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1277,371,1437,418"/>
-<area shape="rect" id="node39" href="$common_8h.html" title="core/common/common.h" alt="" coords="1953,476,2119,505"/>
-<area shape="rect" id="node59" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="1364,467,1524,514"/>
-<area shape="rect" id="node61" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="1548,467,1745,514"/>
-<area shape="rect" id="node63" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="1769,467,1929,514"/>
-<area shape="rect" id="node65" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="740,467,900,514"/>
-<area shape="rect" id="node67" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="2009,563,2169,610"/>
-<area shape="rect" id="node70" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="924,467,1087,514"/>
-<area shape="rect" id="node77" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="995,380,1141,409"/>
-<area shape="rect" id="node85" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="2436,371,2631,418"/>
-<area shape="rect" id="node109" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="3609,476,3783,505"/>
-<area shape="rect" id="node121" href="$mmu__if_8h.html" title="core/models/mmu_cache\l/lib/mmu_if.h" alt="" coords="288,371,456,418"/>
+<map id="gaisler/leon3/mmucache/ivectorcache.h" name="gaisler/leon3/mmucache/ivectorcache.h">
+<area shape="rect" id="node2" href="$vectorcache_8h.html" title="gaisler/leon3/mmucache\l/vectorcache.h" alt="" coords="799,95,961,136"/>
+<area shape="rect" id="node42" href="$gaisler_2leon3_2mmucache_2defines_8h.html" title="gaisler/leon3/mmucache\l/defines.h" alt="" coords="56,512,219,553"/>
+<area shape="rect" id="node4" href="$base_8h.html" title="core/common/base.h" alt="" coords="2507,184,2651,211"/>
+<area shape="rect" id="node5" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="2745,676,2911,703"/>
+<area shape="rect" id="node22" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="2264,259,2435,285"/>
+<area shape="rect" id="node30" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="429,601,590,628"/>
+<area shape="rect" id="node32" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2413,601,2576,628"/>
+<area shape="rect" id="node43" href="$cache__if_8h.html" title="gaisler/leon3/mmucache\l/cache_if.h" alt="" coords="953,423,1116,464"/>
+<area shape="rect" id="node45" href="$mem__if_8h.html" title="gaisler/leon3/mmucache\l/mem_if.h" alt="" coords="665,512,828,553"/>
+<area shape="rect" id="node46" href="$mmu__cache__if_8h.html" title="gaisler/leon3/mmucache\l/mmu_cache_if.h" alt="" coords="665,423,828,464"/>
+<area shape="rect" id="node47" href="$tlb__adaptor_8h.html" title="gaisler/leon3/mmucache\l/tlb_adaptor.h" alt="" coords="377,333,540,375"/>
+<area shape="rect" id="node10" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="2767,259,2934,285"/>
+<area shape="rect" id="node19" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="2562,259,2739,285"/>
+<area shape="rect" id="node11" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="2790,423,2946,464"/>
+<area shape="rect" id="node20" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="2599,423,2766,464"/>
+<area shape="rect" id="node23" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="2270,333,2429,375"/>
+<area shape="rect" id="node25" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="2452,430,2575,457"/>
+<area shape="rect" id="node26" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="1757,430,1883,457"/>
+<area shape="rect" id="node29" href="$common_8h.html" title="core/common/common.h" alt="" coords="2333,519,2499,546"/>
+<area shape="rect" id="node35" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="1505,519,1604,546"/>
+<area shape="rect" id="node36" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="1629,519,1819,546"/>
+<area shape="rect" id="node37" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="1843,519,1986,546"/>
+<area shape="rect" id="node38" href="$sr__param__native_8h.html" title="sr_param_native.h" alt="" coords="2010,519,2139,546"/>
+<area shape="rect" id="node39" href="$sr__param__stdint_8h.html" title="sr_param_stdint.h" alt="" coords="858,601,985,628"/>
+<area shape="rect" id="node40" href="$sr__param__systemc_8h.html" title="sr_param_systemc.h" alt="" coords="2164,519,2308,546"/>
+<area shape="rect" id="node44" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="903,519,1076,546"/>
+<area shape="rect" id="node48" href="$mmu__if_8h.html" title="gaisler/leon3/mmucache\l/mmu_if.h" alt="" coords="276,423,439,464"/>
 </map>

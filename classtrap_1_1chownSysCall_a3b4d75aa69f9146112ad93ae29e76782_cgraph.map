@@ -1,8 +1,9 @@
 <map id="trap::chownSysCall::operator()" name="trap::chownSysCall::operator()">
-<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="208,5,347,35"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="212,59,343,88"/>
-<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="207,112,348,141"/>
-<area shape="rect" id="node9" href="$classtrap_1_1ABIIf.html#a60fa8913c98701581368cdd84bb34ca6" title="trap::ABIIf::readCharMem" alt="" coords="192,165,363,195"/>
-<area shape="rect" id="node11" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="189,219,365,248"/>
-<area shape="rect" id="node13" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="204,272,351,301"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#a09009b16205964fa8feecd9cb5efdc2b" title="trap::ABIIf::postCall" alt="" coords="208,5,347,32"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="212,56,343,83"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="206,107,349,133"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ABIIf.html#a60fa8913c98701581368cdd84bb34ca6" title="trap::ABIIf::readCharMem" alt="" coords="191,157,363,184"/>
+<area shape="rect" id="node6" href="$classtrap_1_1ABIIf.html#a5c0112912c658eb7be33283f1141a726" title="trap::ABIIf::returnFromCall" alt="" coords="189,208,365,235"/>
+<area shape="rect" id="node7" href="$classtrap_1_1ABIIf.html#a0c2cec804e41cd95ffe4fc073268a10f" title="trap::ABIIf::setRetVal" alt="" coords="203,259,351,285"/>
+<area shape="rect" id="node8" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="211,310,344,351"/>
 </map>

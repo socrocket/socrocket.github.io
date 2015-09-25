@@ -1,7 +1,8 @@
 <map id="Mctrl::start_of_simulation" name="Mctrl::start_of_simulation">
-<area shape="rect" id="node3" href="$group__utils.html#ga7e856074311997120e2f1135f175feb2" title="MEMDevice::get_bits" alt="" coords="231,5,377,35"/>
-<area shape="rect" id="node5" href="$group__utils.html#ga79067301649b98a6c4572d308c5344f1" title="MEMDevice::get_bsize" alt="" coords="225,59,383,88"/>
-<area shape="rect" id="node7" href="$group__utils.html#ga1520596a2337061699ccad6ab100201e" title="Returns the column size of the memory (sdram) " alt="" coords="229,112,379,141"/>
-<area shape="rect" id="node9" href="$group__utils.html#ga3f54c0327d1941b458cf40b3e0038c6a" title="Returns the device type. " alt="" coords="228,165,380,195"/>
-<area shape="rect" id="node11" href="$group__mctrl.html#ga6a1f83df5676520c8bc7947fa2fb0f79" title="Calculate power/energy values from normalized input data. " alt="" coords="236,219,372,248"/>
+<area shape="rect" id="node2" href="$classAHBDevice.html#ad14d81f6bf16834857581de7c61c65d6" title="AHBDevice\&lt; APBSlave\l \&gt;::get_ahb_bar_addr" alt="" coords="223,5,385,47"/>
+<area shape="rect" id="node3" href="$group__utils.html#ga7e856074311997120e2f1135f175feb2" title="MEMDevice::get_bits" alt="" coords="230,71,378,98"/>
+<area shape="rect" id="node4" href="$group__utils.html#ga79067301649b98a6c4572d308c5344f1" title="MEMDevice::get_bsize" alt="" coords="225,122,383,149"/>
+<area shape="rect" id="node5" href="$group__utils.html#ga1520596a2337061699ccad6ab100201e" title="Returns the column size of the memory (sdram) " alt="" coords="229,173,379,199"/>
+<area shape="rect" id="node6" href="$group__utils.html#ga3f54c0327d1941b458cf40b3e0038c6a" title="Returns the device type. " alt="" coords="228,223,380,250"/>
+<area shape="rect" id="node7" href="$group__mctrl.html#ga6a1f83df5676520c8bc7947fa2fb0f79" title="Calculate power/energy values from normalized input data. " alt="" coords="236,274,372,301"/>
 </map>

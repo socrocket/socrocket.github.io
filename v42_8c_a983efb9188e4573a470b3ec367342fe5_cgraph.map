@@ -1,8 +1,8 @@
 <map id="encode" name="encode">
-<area shape="rect" id="node3" href="$v42_8c.html#a805f63ed41b815cfa3ffab86d1f43fb7" title="add_dict" alt="" coords="137,5,207,35"/>
-<area shape="rect" id="node5" href="$v42_8c.html#aa79117870a1d953f9c109485cb1b6be9" title="checksize_dict" alt="" coords="117,59,227,88"/>
-<area shape="rect" id="node7" href="$v42_8c.html#a9f7816f814159472317c312d02d480fd" title="putcode" alt="" coords="276,85,343,115"/>
-<area shape="rect" id="node9" href="$v42_8c.html#ade6cb0a481589cced84a39dda479dac1" title="getdata" alt="" coords="140,163,204,192"/>
-<area shape="rect" id="node11" href="$v42_8c.html#a1b2d50ec193ce7ff7845ada02ab46266" title="init_dict" alt="" coords="139,216,205,245"/>
-<area shape="rect" id="node14" href="$v42_8c.html#a350ca94e220fae5e97883616af097bf0" title="search_dict" alt="" coords="128,269,216,299"/>
+<area shape="rect" id="node2" href="$v42_8c.html#a805f63ed41b815cfa3ffab86d1f43fb7" title="add_dict" alt="" coords="137,5,207,32"/>
+<area shape="rect" id="node3" href="$v42_8c.html#aa79117870a1d953f9c109485cb1b6be9" title="checksize_dict" alt="" coords="117,56,227,83"/>
+<area shape="rect" id="node4" href="$v42_8c.html#a9f7816f814159472317c312d02d480fd" title="putcode" alt="" coords="275,81,343,108"/>
+<area shape="rect" id="node5" href="$v42_8c.html#ade6cb0a481589cced84a39dda479dac1" title="getdata" alt="" coords="139,157,205,184"/>
+<area shape="rect" id="node6" href="$v42_8c.html#a1b2d50ec193ce7ff7845ada02ab46266" title="init_dict" alt="" coords="139,208,205,235"/>
+<area shape="rect" id="node7" href="$v42_8c.html#a350ca94e220fae5e97883616af097bf0" title="search_dict" alt="" coords="127,259,217,285"/>
 </map>

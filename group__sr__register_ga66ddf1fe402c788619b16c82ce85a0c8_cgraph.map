@@ -1,0 +1,7 @@
+<map id="sc_register_base::scireg_get_child_regions" name="sc_register_base::scireg_get_child_regions">
+<area shape="rect" id="node2" href="$group__sr__register.html#ga8c0ae2ef39c94128e6896c9adb3dfdec" title="sc_register_base::get\l_all_fields" alt="" coords="225,5,372,47"/>
+<area shape="rect" id="node3" href="$classscireg__ns_1_1scireg__region__if.html#ac16a8921e02fcba18c67d5155ac4852f" title="scireg_ns::scireg_region\l_if::scireg_region_if" alt="" coords="217,71,380,112"/>
+<area shape="rect" id="node4" href="$group__sr__register.html#ga68aa9e0f80d212a0e2a95087868790d4" title="scireg_ns::scireg_tool\l_registry::add_region" alt="" coords="428,71,577,112"/>
+<area shape="rect" id="node5" href="$group__sr__register.html#gaab21758d99c1a0ee378b2406277f67a8" title="scireg_ns::scireg_tool\l_registry::check_allocation" alt="" coords="625,71,803,112"/>
+<area shape="rect" id="node6" href="$group__sr__register.html#ga2e5651fa4057ce8a4e82b7e49ba9dcae" title="scireg_ns::scireg_tool\l_registry::destroy" alt="" coords="851,71,1000,112"/>
+</map>

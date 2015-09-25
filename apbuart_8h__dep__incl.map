@@ -1,6 +1,4 @@
-<map id="core/models/apbuart/apbuart.h" name="core/models/apbuart/apbuart.h">
-<area shape="rect" id="node3" href="$apbuart_8cpp.html" title="core/models/apbuart\l/apbuart.cpp" alt="" coords="5,102,144,149"/>
-<area shape="rect" id="node5" href="$leon3mp_2sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="168,102,325,149"/>
-<area shape="rect" id="node7" href="$leon3mp_8h.html" title="core/platforms/newleon3mp\l/leon3mp.h" alt="" coords="349,102,531,149"/>
-<area shape="rect" id="node9" href="$newleon3mp_2sc__main_8cpp.html" title="core/platforms/newleon3mp\l/sc_main.cpp" alt="" coords="349,198,531,245"/>
+<map id="gaisler/apbuart/apbuart.h" name="gaisler/apbuart/apbuart.h">
+<area shape="rect" id="node2" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,80,164,121"/>
+<area shape="rect" id="node3" href="$apbuart_8cpp.html" title="gaisler/apbuart/apbuart.cpp" alt="" coords="189,87,367,114"/>
 </map>

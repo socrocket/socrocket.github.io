@@ -1,27 +1,28 @@
-<map id="core/models/extern/LEON3/simulatorSources/leon3.funclt/processor.cpp" name="core/models/extern/LEON3/simulatorSources/leon3.funclt/processor.cpp">
-<area shape="rect" id="node3" href="$processor_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/processor.hpp" alt="" coords="1579,117,1757,181"/>
-<area shape="rect" id="node26" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2340,687,2505,716"/>
-<area shape="rect" id="node39" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2813,583,2976,612"/>
-<area shape="rect" id="node52" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="120,774,307,821"/>
-<area shape="rect" id="node62" href="$instructions_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/instructions.hpp" alt="" coords="448,341,637,405"/>
-<area shape="rect" id="node64" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="409,678,556,725"/>
-<area shape="rect" id="node82" href="$registers_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/registers.hpp" alt="" coords="833,565,1007,629"/>
-<area shape="rect" id="node86" href="$alias_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/alias.hpp" alt="" coords="848,453,1021,517"/>
-<area shape="rect" id="node92" href="$memory_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/memory.hpp" alt="" coords="651,453,824,517"/>
-<area shape="rect" id="node94" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="144,574,291,621"/>
-<area shape="rect" id="node100" href="$externalPins_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/externalPins.hpp" alt="" coords="2445,453,2640,517"/>
-<area shape="rect" id="node115" href="$decoder_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/decoder.hpp" alt="" coords="799,229,972,293"/>
-<area shape="rect" id="node118" href="$interface_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/interface.hpp" alt="" coords="1300,341,1473,405"/>
-<area shape="rect" id="node149" href="$irqPorts_8hpp.html" title="core/models/extern\l/LEON3/simulatorSources\l/leon3.funclt/irqPorts.hpp" alt="" coords="2715,453,2888,517"/>
-<area shape="rect" id="node5" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1868,247,2039,276"/>
-<area shape="rect" id="node9" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="2137,350,2297,397"/>
-<area shape="rect" id="node15" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1953,350,2113,397"/>
-<area shape="rect" id="node24" href="$common_8h.html" title="core/common/common.h" alt="" coords="2187,471,2352,500"/>
-<area shape="rect" id="node37" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2189,583,2349,612"/>
-<area shape="rect" id="node74" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="847,678,993,725"/>
-<area shape="rect" id="node104" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="3000,583,3163,612"/>
-<area shape="rect" id="node106" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="2964,678,3116,725"/>
-<area shape="rect" id="node108" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="3109,774,3261,821"/>
-<area shape="rect" id="node110" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="3191,678,3343,725"/>
-<area shape="rect" id="node120" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="1299,462,1445,509"/>
+<map id="gaisler/leon3/intunit/processor.cpp" name="gaisler/leon3/intunit/processor.cpp">
+<area shape="rect" id="node2" href="$processor_8hpp.html" title="gaisler/leon3/intunit\l/processor.hpp" alt="" coords="1250,95,1385,136"/>
+<area shape="rect" id="node9" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1173,631,1360,672"/>
+<area shape="rect" id="node14" href="$instructions_8hpp.html" title="gaisler/leon3/intunit\l/instructions.hpp" alt="" coords="911,273,1046,315"/>
+<area shape="rect" id="node15" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="662,541,810,583"/>
+<area shape="rect" id="node20" href="$registers_8hpp.html" title="gaisler/leon3/intunit\l/registers.hpp" alt="" coords="1173,452,1307,493"/>
+<area shape="rect" id="node24" href="$alias_8hpp.html" title="gaisler/leon3/intunit\l/alias.hpp" alt="" coords="1278,363,1413,404"/>
+<area shape="rect" id="node26" href="$memory_8hpp.html" title="gaisler/leon3/intunit\l/memory.hpp" alt="" coords="1017,363,1151,404"/>
+<area shape="rect" id="node27" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="337,452,485,493"/>
+<area shape="rect" id="node28" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="2270,459,2437,486"/>
+<area shape="rect" id="node33" href="$externalPins_8hpp.html" title="gaisler/leon3/intunit\l/externalPins.hpp" alt="" coords="2067,363,2202,404"/>
+<area shape="rect" id="node36" href="$decoder_8hpp.html" title="gaisler/leon3/intunit\l/decoder.hpp" alt="" coords="915,184,1050,225"/>
+<area shape="rect" id="node37" href="$interface_8hpp.html" title="gaisler/leon3/intunit\l/interface.hpp" alt="" coords="1647,273,1782,315"/>
+<area shape="rect" id="node43" href="$irqPorts_8hpp.html" title="gaisler/leon3/intunit\l/irqPorts.hpp" alt="" coords="2278,363,2413,404"/>
+<area shape="rect" id="node44" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="2829,281,2992,307"/>
+<area shape="rect" id="node3" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="340,281,511,307"/>
+<area shape="rect" id="node42" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="250,191,398,218"/>
+<area shape="rect" id="node4" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="267,541,426,583"/>
+<area shape="rect" id="node7" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="93,638,216,665"/>
+<area shape="rect" id="node19" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1497,541,1645,583"/>
+<area shape="rect" id="node21" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="1094,549,1274,575"/>
+<area shape="rect" id="node22" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="982,631,1149,672"/>
+<area shape="rect" id="node34" href="$sr__signal_8h.html" title="core/common/sr_signal.h" alt="" coords="2027,459,2195,486"/>
+<area shape="rect" id="node35" href="$sr__signal_2sr__signal_8h.html" title="core/common/sr_signal\l/sr_signal.h" alt="" coords="1816,541,1973,583"/>
+<area shape="rect" id="node38" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="1641,363,1789,404"/>
+<area shape="rect" id="node49" href="$common_8h.html" title="core/common/common.h" alt="" coords="2691,370,2858,397"/>
+<area shape="rect" id="node50" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2694,459,2855,486"/>
 </map>

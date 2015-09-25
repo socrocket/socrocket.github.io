@@ -1,4 +1,4 @@
 <map id="trap::Watchpoint&lt; AddressType &gt;" name="trap::Watchpoint&lt; AddressType &gt;">
-<area shape="rect" id="node3" href="$structtrap_1_1Watchpoint.html" title="{trap::Watchpoint\&lt; issueWidth \&gt;\n|+ address\l+ length\l+ type\l|}" alt="" coords="5,220,211,340"/>
-<area shape="rect" id="node5" href="$structtrap_1_1Watchpoint.html" title="{trap::Watchpoint\&lt; unsigned\l int \&gt;\n|+ address\l+ length\l+ type\l|}" alt="" coords="235,211,416,349"/>
+<area shape="rect" id="node2" href="$structtrap_1_1Watchpoint.html" title="{trap::Watchpoint\&lt; issueWidth \&gt;\n|+ address\l+ length\l+ type\l|}" alt="" coords="5,197,212,303"/>
+<area shape="rect" id="node3" href="$structtrap_1_1Watchpoint.html" title="{trap::Watchpoint\&lt; unsigned\l int \&gt;\n|+ address\l+ length\l+ type\l|}" alt="" coords="236,189,419,311"/>
 </map>

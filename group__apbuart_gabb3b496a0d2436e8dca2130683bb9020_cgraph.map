@@ -1,0 +1,20 @@
+<map id="APBUART::APBUART" name="APBUART::APBUART">
+<area shape="rect" id="node2" href="$classAPBSlaveSocket.html#aca2eb85bcea7574c8c1117dd9d6b2786" title="APBSlaveSocket::get\l_base_addr" alt="" coords="227,107,377,148"/>
+<area shape="rect" id="node3" href="$classAPBSlaveSocket.html#af45dd03d46abe3139a7951d2fc910b76" title="APBSlaveSocket::get_size" alt="" coords="212,173,392,199"/>
+<area shape="rect" id="node4" href="$group__apbuart.html#gad46187e1c31d321005e2747a58c3fa81" title="APBUART::init_registers" alt="" coords="218,223,386,250"/>
+<area shape="rect" id="node15" href="$group__apbuart.html#gac7167626ccc36ac8a80ec41915b2037c" title="APBUART::send_irq" alt="" coords="231,557,373,583"/>
+<area shape="rect" id="node17" href="$group__apbuart.html#gab0d00d718255795390474631ba9987de" title="APBUART::uart_ticks" alt="" coords="227,451,377,478"/>
+<area shape="rect" id="node5" href="$classsr__register__bank.html#a4653224684ca13165b003b66a283a972" title="sr_register_bank::create\l_register" alt="" coords="443,5,605,47"/>
+<area shape="rect" id="node6" href="$classsr__register.html#aaeac716c8e8024b831fb2a3f08791ed7" title="sr_register::callback" alt="" coords="455,71,593,98"/>
+<area shape="rect" id="node7" href="$group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7" title="APBUART::data_read" alt="" coords="449,325,599,351"/>
+<area shape="rect" id="node9" href="$group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9" title="APBUART::data_write" alt="" coords="447,122,601,149"/>
+<area shape="rect" id="node12" href="$group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625" title="APBUART::status_read" alt="" coords="443,173,605,199"/>
+<area shape="rect" id="node13" href="$group__apbuart.html#gab5537a792321c49c7f0632423fa4b704" title="APBUART::control_read" alt="" coords="441,223,607,250"/>
+<area shape="rect" id="node14" href="$group__apbuart.html#ga7cbf76c31dae47db776cbfb0c4a5e704" title="APBUART::control_write" alt="" coords="440,274,608,301"/>
+<area shape="rect" id="node8" href="$group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f" title="APBUART::inc_fifo_level" alt="" coords="665,375,835,402"/>
+<area shape="rect" id="node10" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="695,122,805,149"/>
+<area shape="rect" id="node11" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="656,223,844,250"/>
+<area shape="rect" id="node16" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="457,579,591,620"/>
+<area shape="rect" id="node18" href="$classio__if.html#a7fd3aec1ed837174b2a5fbd508649c5e" title="io_if::receivedChars" alt="" coords="455,527,593,554"/>
+<area shape="rect" id="node19" href="$classio__if.html#ab770abbc278117d4ff246166d3a0f38a" title="io_if::getReceivedChar" alt="" coords="447,477,601,503"/>
+</map>

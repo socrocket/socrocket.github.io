@@ -1,0 +1,11 @@
+<map id="Irqmp::init_registers" name="Irqmp::init_registers">
+<area shape="rect" id="node2" href="$classsr__register.html#aaeac716c8e8024b831fb2a3f08791ed7" title="sr_register::callback" alt="" coords="203,5,341,32"/>
+<area shape="rect" id="node3" href="$group__irqmp.html#gae65688b220e70ab25c8dbe65061bdab9" title="Irqmp::clear_write" alt="" coords="209,56,335,83"/>
+<area shape="rect" id="node5" href="$classsr__register__bank.html#a4653224684ca13165b003b66a283a972" title="sr_register_bank::create\l_register" alt="" coords="191,107,353,149"/>
+<area shape="rect" id="node6" href="$group__irqmp.html#gaf176d36908bcfd7e37ef6755eed1b8bc" title="Irqmp::force_write" alt="" coords="209,173,335,200"/>
+<area shape="rect" id="node8" href="$group__irqmp.html#ga29c5c6cc6b5d6c692c57452807fc5d9a" title="Prepare reading of the MP status register. " alt="" coords="205,224,339,251"/>
+<area shape="rect" id="node9" href="$group__irqmp.html#gae2cd1bb458cfb3511efdac65c826ccc6" title="Write to MP status register. " alt="" coords="203,275,341,301"/>
+<area shape="rect" id="node10" href="$group__irqmp.html#ga7ef4227d7e8c4f909e184f5e268949ad" title="Irqmp::pending_write" alt="" coords="201,325,343,352"/>
+<area shape="rect" id="node4" href="$classIrqmp.html#a3c8cff7597f05713d6264409e35b3bb9" title="Irqmp::PROC_EXTIR_ID" alt="" coords="405,89,575,116"/>
+<area shape="rect" id="node7" href="$classIrqmp.html#ad006143a3ddef1eb7f1ff51f04b357e2" title="Irqmp::PROC_IR_FORCE" alt="" coords="401,173,579,200"/>
+</map>

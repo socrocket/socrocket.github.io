@@ -1,5 +1,5 @@
 <map id="trap::MemoryLT::MemoryLT" name="trap::MemoryLT::MemoryLT">
-<area shape="rect" id="node3" href="$classtrap_1_1MemoryLT.html#a27e52c71db98f6e6cd892cab93847b32" title="trap::MemoryLT::b_transport" alt="" coords="245,5,432,35"/>
-<area shape="rect" id="node5" href="$classtrap_1_1MemoryLT.html#a20af9cc66b9bae16a931a249dc462ec2" title="trap::MemoryLT::get\l_direct_mem_ptr" alt="" coords="269,58,408,105"/>
-<area shape="rect" id="node7" href="$classtrap_1_1MemoryLT.html#a0fbc865e5b0dd68805df8c80b5d300e0" title="trap::MemoryLT::transport_dbg" alt="" coords="239,128,439,157"/>
+<area shape="rect" id="node2" href="$classtrap_1_1MemoryLT.html#a27e52c71db98f6e6cd892cab93847b32" title="trap::MemoryLT::b_transport" alt="" coords="245,5,431,32"/>
+<area shape="rect" id="node3" href="$classtrap_1_1MemoryLT.html#a20af9cc66b9bae16a931a249dc462ec2" title="trap::MemoryLT::get\l_direct_mem_ptr" alt="" coords="268,57,408,98"/>
+<area shape="rect" id="node4" href="$classtrap_1_1MemoryLT.html#a0fbc865e5b0dd68805df8c80b5d300e0" title="trap::MemoryLT::transport_dbg" alt="" coords="237,123,439,149"/>
 </map>

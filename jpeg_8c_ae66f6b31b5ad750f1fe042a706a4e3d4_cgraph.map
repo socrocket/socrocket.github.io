@@ -1,8 +1,8 @@
 <map id="main" name="main">
-<area shape="rect" id="node3" href="$jpeg_8c.html#ab89113f9aa8d6cdb476d0b7fb22e4ab8" title="dquantz_lum" alt="" coords="104,5,200,35"/>
-<area shape="rect" id="node5" href="$jpeg_8c.html#a16022970ab9b197bd3f90bda43c604c4" title="huff_ac_dec" alt="" coords="105,59,199,88"/>
-<area shape="rect" id="node9" href="$jpeg_8c.html#af6d92f2e35d59478884afb34b4ee4499" title="huff_dc_dec" alt="" coords="105,112,199,141"/>
-<area shape="rect" id="node12" href="$jpeg_8c.html#a5cede2d38d15b54f86ab1721ad0a7cd7" title="j_rev_dct" alt="" coords="115,165,189,195"/>
-<area shape="rect" id="node7" href="$jpeg_8c.html#a22a5ce9f932044856244f1127113630b" title="getbit" alt="" coords="265,85,319,115"/>
-<area shape="rect" id="node14" href="$jpeg_8c.html#a75eee1d639471f5ab8a07dc0648d5546" title="fast_idct_8" alt="" coords="249,165,335,195"/>
+<area shape="rect" id="node2" href="$jpeg_8c.html#ab89113f9aa8d6cdb476d0b7fb22e4ab8" title="dquantz_lum" alt="" coords="104,5,200,32"/>
+<area shape="rect" id="node3" href="$jpeg_8c.html#a16022970ab9b197bd3f90bda43c604c4" title="huff_ac_dec" alt="" coords="105,56,199,83"/>
+<area shape="rect" id="node5" href="$jpeg_8c.html#af6d92f2e35d59478884afb34b4ee4499" title="huff_dc_dec" alt="" coords="105,107,199,133"/>
+<area shape="rect" id="node6" href="$jpeg_8c.html#a5cede2d38d15b54f86ab1721ad0a7cd7" title="j_rev_dct" alt="" coords="115,157,189,184"/>
+<area shape="rect" id="node4" href="$jpeg_8c.html#a22a5ce9f932044856244f1127113630b" title="getbit" alt="" coords="264,81,319,108"/>
+<area shape="rect" id="node7" href="$jpeg_8c.html#a75eee1d639471f5ab8a07dc0648d5546" title="fast_idct_8" alt="" coords="248,157,335,184"/>
 </map>

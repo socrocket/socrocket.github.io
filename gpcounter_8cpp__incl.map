@@ -1,31 +1,32 @@
-<map id="core/models/gptimer/gpcounter.cpp" name="core/models/gptimer/gpcounter.cpp">
-<area shape="rect" id="node3" href="$gpcounter_8h.html" title="core/models/gptimer\l/gpcounter.h" alt="" coords="1139,275,1277,322"/>
-<area shape="rect" id="node39" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="140,736,303,765"/>
-<area shape="rect" id="node101" href="$models_2gptimer_2gptimer_8h.html" title="core/models/gptimer\l/gptimer.h" alt="" coords="1745,102,1884,149"/>
-<area shape="rect" id="node5" href="$gs__config_8h.html" title="core/common/gs_config.h" alt="" coords="1211,457,1381,487"/>
-<area shape="rect" id="node26" href="$systemc_8h.html" title="core/common/systemc.h" alt="" coords="2193,813,2359,843"/>
-<area shape="rect" id="node66" href="$base_8h.html" title="core/common/base.h" alt="" coords="1431,371,1575,400"/>
-<area shape="rect" id="node88" href="$signalkit_8h.html" title="core/common/signalkit.h" alt="" coords="2472,371,2635,400"/>
-<area shape="rect" id="node9" href="$gs__config_2gs__config_8h.html" title="core/common/gs_config\l/gs_config.h" alt="" coords="1729,545,1889,591"/>
-<area shape="rect" id="node15" href="$gs__config__class_8h.html" title="core/common/gs_config\l/gs_config_class.h" alt="" coords="1257,545,1417,591"/>
-<area shape="rect" id="node24" href="$common_8h.html" title="core/common/common.h" alt="" coords="428,649,593,679"/>
-<area shape="rect" id="node52" href="$gs__config__t_8h.html" title="core/common/gs_config\l/gs_config_t.h" alt="" coords="668,641,828,687"/>
-<area shape="rect" id="node54" href="$gs__config__operator__macros_8h.html" title="core/common/gs_config\l/gs_config_operator_macros.h" alt="" coords="852,641,1049,687"/>
-<area shape="rect" id="node56" href="$gs__config__delegate_8h.html" title="core/common/gs_config\l/gs_config_delegate.h" alt="" coords="1073,641,1233,687"/>
-<area shape="rect" id="node58" href="$gs__config__native_8hpp.html" title="core/common/gs_config\l/gs_config_native.hpp" alt="" coords="1257,641,1417,687"/>
-<area shape="rect" id="node60" href="$gs__config__stdint_8hpp.html" title="core/common/gs_config\l/gs_config_stdint.hpp" alt="" coords="1441,641,1601,687"/>
-<area shape="rect" id="node62" href="$gs__config__systemc_8hpp.html" title="core/common/gs_config\l/gs_config_systemc.hpp" alt="" coords="1625,641,1788,687"/>
-<area shape="rect" id="node37" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="404,736,564,765"/>
-<area shape="rect" id="node70" href="$report_8h.html" title="core/common/report.h" alt="" coords="1935,457,2084,487"/>
-<area shape="rect" id="node79" href="$greenreg__ambasockets_8h.html" title="core/common/grambasockets\l/greenreg_ambasockets.h" alt="" coords="272,449,467,495"/>
-<area shape="rect" id="node75" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="2041,553,2188,583"/>
-<area shape="rect" id="node82" href="$gr__ambasockets_8h.html" title="core/common/grambasockets\l/gr_ambasockets.h" alt="" coords="373,545,568,591"/>
-<area shape="rect" id="node90" href="$module_8h.html" title="core/common/signalkit\l_h/module.h" alt="" coords="2477,449,2629,495"/>
-<area shape="rect" id="node96" href="$adapter_8h.html" title="core/common/signalkit\l_h/adapter.h" alt="" coords="2817,545,2969,591"/>
-<area shape="rect" id="node98" href="$connect_8h.html" title="core/common/signalkit\l_h/connect.h" alt="" coords="2679,449,2831,495"/>
-<area shape="rect" id="node92" href="$in_8h.html" title="core/common/signalkit\l_h/in.h" alt="" coords="2465,545,2617,591"/>
-<area shape="rect" id="node94" href="$out_8h.html" title="core/common/signalkit\l_h/out.h" alt="" coords="2641,545,2793,591"/>
-<area shape="rect" id="node114" href="$apbdevice_8h.html" title="core/models/utils/apbdevice.h" alt="" coords="1544,197,1739,227"/>
-<area shape="rect" id="node121" href="$clkdevice_8h.html" title="core/models/utils/clkdevice.h" alt="" coords="2327,284,2516,313"/>
-<area shape="rect" id="node116" href="$apbdevicebase_8h.html" title="core/models/utils/apbdevicebase.h" alt="" coords="1531,284,1752,313"/>
+<map id="gaisler/gptimer/gpcounter.cpp" name="gaisler/gptimer/gpcounter.cpp">
+<area shape="rect" id="node2" href="$gpcounter_8h.html" title="gaisler/gptimer/gpcounter.h" alt="" coords="1832,155,2011,181"/>
+<area shape="rect" id="node28" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="132,543,295,569"/>
+<area shape="rect" id="node39" href="$gaisler_2gptimer_2gptimer_8h.html" title="gaisler/gptimer/gptimer.h" alt="" coords="1645,80,1811,107"/>
+<area shape="rect" id="node3" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="1387,229,1557,256"/>
+<area shape="rect" id="node9" href="$base_8h.html" title="core/common/base.h" alt="" coords="1835,468,1979,495"/>
+<area shape="rect" id="node10" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="2130,625,2297,651"/>
+<area shape="rect" id="node34" href="$sr__signal_8h.html" title="core/common/sr_signal.h" alt="" coords="1587,229,1755,256"/>
+<area shape="rect" id="node4" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="1045,304,1203,345"/>
+<area shape="rect" id="node7" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="1433,393,1556,420"/>
+<area shape="rect" id="node22" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="625,393,751,420"/>
+<area shape="rect" id="node15" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="1953,543,2119,569"/>
+<area shape="rect" id="node20" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="1646,543,1823,569"/>
+<area shape="rect" id="node16" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="758,617,914,659"/>
+<area shape="rect" id="node21" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="1610,617,1777,659"/>
+<area shape="rect" id="node25" href="$common_8h.html" title="core/common/common.h" alt="" coords="903,468,1070,495"/>
+<area shape="rect" id="node31" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="780,468,879,495"/>
+<area shape="rect" id="node32" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="145,468,335,495"/>
+<area shape="rect" id="node33" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="359,468,502,495"/>
+<area shape="rect" id="node26" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="907,543,1069,569"/>
+<area shape="rect" id="node35" href="$sr__signal_2sr__signal_8h.html" title="core/common/sr_signal\l/sr_signal.h" alt="" coords="1400,304,1557,345"/>
+<area shape="rect" id="node36" href="$sr__signal__module_8h.html" title="sr_signal_module.h" alt="" coords="1581,393,1715,420"/>
+<area shape="rect" id="node37" href="$sr__signal__adapter_8h.html" title="sr_signal_adapter.h" alt="" coords="1247,468,1382,495"/>
+<area shape="rect" id="node38" href="$sr__signal__connect_8h.html" title="sr_signal_connect.h" alt="" coords="1271,393,1409,420"/>
+<area shape="rect" id="node42" href="$apbslave_8h.html" title="core/common/apbslave.h" alt="" coords="2229,155,2397,181"/>
+<area shape="rect" id="node50" href="$clkdevice_8h.html" title="core/common/clkdevice.h" alt="" coords="2035,155,2205,181"/>
+<area shape="rect" id="node43" href="$sr__register_8h.html" title="core/common/sr_register.h" alt="" coords="2251,393,2429,420"/>
+<area shape="rect" id="node45" href="$apbdevicebase_8h.html" title="core/common/apbdevicebase.h" alt="" coords="1883,311,2085,338"/>
+<area shape="rect" id="node47" href="$apbdevice_8h.html" title="core/common/apbdevice.h" alt="" coords="2170,229,2345,256"/>
+<area shape="rect" id="node44" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="2302,468,2482,495"/>
+<area shape="rect" id="node46" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="1994,393,2142,420"/>
 </map>
