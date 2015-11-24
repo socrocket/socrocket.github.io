@@ -1,8 +1,6 @@
 <map id="main" name="main">
 <area shape="rect" id="node2" href="$hpi__functions_8c.html#a97e683cb0a1bff1b3efc3e73a7c9271b" title="lcd_hpi_read_word" alt="" coords="105,5,236,32"/>
 <area shape="rect" id="node5" href="$hpi__functions_8c.html#a3fff916dc334fc88ccde9ba4228bb146" title="lcd_hpi_write_word" alt="" coords="104,56,237,83"/>
-<area shape="rect" id="node6" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="147,107,195,133"/>
-<area shape="rect" id="node3" href="$hpi__functions_8c.html#ad6a8869713ba7464a682a80cc29ab973" title="inw" alt="" coords="302,5,345,32"/>
-<area shape="rect" id="node4" href="$hpi__functions_8c.html#afffec2ee4bfb249f9cd3ec3a12685959" title="outw" alt="" coords="298,56,349,83"/>
-<area shape="rect" id="node7" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="285,107,361,133"/>
+<area shape="rect" id="node3" href="$hpi__functions_8c.html#ad6a8869713ba7464a682a80cc29ab973" title="inw" alt="" coords="289,5,332,32"/>
+<area shape="rect" id="node4" href="$hpi__functions_8c.html#afffec2ee4bfb249f9cd3ec3a12685959" title="outw" alt="" coords="285,56,336,83"/>
 </map>

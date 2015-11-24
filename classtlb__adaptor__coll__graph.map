@@ -1,9 +1,9 @@
 <map id="tlb_adaptor" name="tlb_adaptor">
-<area shape="rect" id="node3" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="113,175,219,281"/>
-<area shape="rect" id="node13" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="175,425,317,561"/>
-<area shape="rect" id="node5" href="$classint.html" title="{int\n||}" alt="" coords="408,189,447,267"/>
-<area shape="rect" id="node6" href="$structt__PTE__context.html" title="{t_PTE_context\n||}" alt="" coords="471,189,581,267"/>
-<area shape="rect" id="node7" href="$classuint64__t.html" title="{uint64_t\n||}" alt="" coords="492,5,560,83"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="605,189,727,267"/>
-<area shape="rect" id="node12" href="$classmmu__if.html" title="{mmu_if\n||+ tlb_lookup()\l+ read_mcr()\l+ read_mctpr()\l+ read_mctxr()\l+ read_mfsr()\l+ read_mfar()\l+ write_mcr()\l+ write_mctpr()\l+ write_mctxr()\l+ diag_read_itlb()\l+ diag_write_itlb()\l+ diag_read_dctlb()\l+ diag_write_dctlb()\l+ ~mmu_if()\l}" alt="" coords="562,359,698,627"/>
+<area shape="rect" id="node3" href="$classmem__if.html" title="{mem_if\n||+ mem_write()\l+ mem_read()\l+ ~mem_if()\l}" alt="" coords="112,176,219,283"/>
+<area shape="rect" id="node13" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="175,427,315,563"/>
+<area shape="rect" id="node5" href="$classint.html" title="{int\n||}" alt="" coords="407,191,445,268"/>
+<area shape="rect" id="node6" href="$structt__PTE__context.html" title="{t_PTE_context\n||}" alt="" coords="471,191,580,268"/>
+<area shape="rect" id="node7" href="$classuint64__t.html" title="{uint64_t\n||}" alt="" coords="491,5,559,83"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="604,191,727,268"/>
+<area shape="rect" id="node12" href="$classmmu__if.html" title="{mmu_if\n||+ tlb_lookup()\l+ read_mcr()\l+ read_mctpr()\l+ read_mctxr()\l+ read_mfsr()\l+ read_mfar()\l+ write_mcr()\l+ write_mctpr()\l+ write_mctxr()\l+ diag_read_itlb()\l+ diag_write_itlb()\l+ diag_read_dctlb()\l+ diag_write_dctlb()\l+ ~mmu_if()\l}" alt="" coords="561,361,696,629"/>
 </map>

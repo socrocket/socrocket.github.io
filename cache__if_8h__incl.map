@@ -1,5 +1,5 @@
 <map id="gaisler/leon3/mmucache/cache_if.h" name="gaisler/leon3/mmucache/cache_if.h">
-<area shape="rect" id="node2" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="165,102,331,129"/>
-<area shape="rect" id="node7" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="380,102,553,129"/>
-<area shape="rect" id="node8" href="$mem__if_8h.html" title="gaisler/leon3/mmucache\l/mem_if.h" alt="" coords="577,95,740,136"/>
+<area shape="rect" id="node2" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="165,104,331,131"/>
+<area shape="rect" id="node7" href="$socrocket_8h.html" title="core/common/socrocket.h" alt="" coords="380,104,553,131"/>
+<area shape="rect" id="node8" href="$mem__if_8h.html" title="gaisler/leon3/mmucache\l/mem_if.h" alt="" coords="577,97,740,138"/>
 </map>

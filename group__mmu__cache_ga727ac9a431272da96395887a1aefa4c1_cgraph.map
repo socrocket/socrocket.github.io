@@ -1,0 +1,6 @@
+<map id="vectorcache::update_line" name="vectorcache::update_line">
+<area shape="rect" id="node2" href="$classvectorcache.html#a827b3080bda9e542b473d95b693e3129" title="vectorcache::lookup_line" alt="" coords="438,25,605,51"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga5e8f7c21bebbc24e9fe386e3d5adaaaa" title="Updates the lrr bits for every line replacement. " alt="" coords="226,25,385,51"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#gaea849da687b231662e87071d1243b43a" title="Updates the lru counters for every cache hit. " alt="" coords="225,75,386,102"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="221,126,389,153"/>
+</map>

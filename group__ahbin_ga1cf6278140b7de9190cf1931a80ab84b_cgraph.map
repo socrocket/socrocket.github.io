@@ -1,6 +1,6 @@
 <map id="AHBIn::AHBIn" name="AHBIn::AHBIn">
-<area shape="rect" id="node2" href="$group__ahbin.html#ga44dd8f1bce3c1e681ce258c0fd8e1ff3" title="Thread for triggering gen_frame (generates new_frame event) " alt="" coords="161,13,307,39"/>
-<area shape="rect" id="node4" href="$group__ahbin.html#ga1299df9f2abb2e5dca73171fabcbb22d" title="Thread for generating the data frame. " alt="" coords="169,63,299,90"/>
-<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="369,5,503,47"/>
-<area shape="rect" id="node5" href="$classAHBMaster.html#a3ea461ba0161c12ee8282176275de23d" title="Write data to AHB (SC_ZERO_TIME version) " alt="" coords="355,71,517,98"/>
+<area shape="rect" id="node2" href="$group__ahbin.html#ga44dd8f1bce3c1e681ce258c0fd8e1ff3" title="Thread for triggering gen_frame (generates new_frame event) " alt="" coords="163,12,309,39"/>
+<area shape="rect" id="node4" href="$group__ahbin.html#ga1299df9f2abb2e5dca73171fabcbb22d" title="Thread for generating the data frame. " alt="" coords="171,63,301,89"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="372,5,505,46"/>
+<area shape="rect" id="node5" href="$classAHBMaster.html#a3ea461ba0161c12ee8282176275de23d" title="Write data to AHB (SC_ZERO_TIME version) " alt="" coords="357,71,520,97"/>
 </map>

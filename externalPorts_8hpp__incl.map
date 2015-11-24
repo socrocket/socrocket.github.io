@@ -1,13 +1,13 @@
 <map id="gaisler/leon3/intunit/externalPorts.hpp" name="gaisler/leon3/intunit/externalPorts.hpp">
-<area shape="rect" id="node2" href="$memory_8hpp.html" title="gaisler/leon3/intunit\l/memory.hpp" alt="" coords="801,95,935,136"/>
-<area shape="rect" id="node3" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="405,184,553,225"/>
-<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="626,184,774,225"/>
-<area shape="rect" id="node15" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1350,281,1517,307"/>
-<area shape="rect" id="node21" href="$icio__payload__extension_8h.html" title="gaisler/leon3/mmucache\l/icio_payload_extension.h" alt="" coords="1677,273,1849,315"/>
-<area shape="rect" id="node22" href="$dcio__payload__extension_8h.html" title="gaisler/leon3/mmucache\l/dcio_payload_extension.h" alt="" coords="1727,95,1903,136"/>
-<area shape="rect" id="node23" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1143,102,1305,129"/>
-<area shape="rect" id="node4" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="142,273,290,315"/>
-<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="467,273,653,315"/>
-<area shape="rect" id="node28" href="$common_8h.html" title="core/common/common.h" alt="" coords="921,191,1087,218"/>
-<area shape="rect" id="node29" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="923,281,1085,307"/>
+<area shape="rect" id="node2" href="$memory_8hpp.html" title="gaisler/leon3/intunit\l/memory.hpp" alt="" coords="801,97,935,138"/>
+<area shape="rect" id="node3" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="405,187,552,229"/>
+<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="626,187,773,229"/>
+<area shape="rect" id="node15" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1350,285,1516,312"/>
+<area shape="rect" id="node21" href="$icio__payload__extension_8h.html" title="gaisler/leon3/mmucache\l/icio_payload_extension.h" alt="" coords="1677,278,1848,319"/>
+<area shape="rect" id="node22" href="$dcio__payload__extension_8h.html" title="gaisler/leon3/mmucache\l/dcio_payload_extension.h" alt="" coords="1727,97,1903,138"/>
+<area shape="rect" id="node23" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1143,104,1305,131"/>
+<area shape="rect" id="node4" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="142,278,289,319"/>
+<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="467,278,653,319"/>
+<area shape="rect" id="node28" href="$common_8h.html" title="core/common/common.h" alt="" coords="921,195,1087,221"/>
+<area shape="rect" id="node29" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="923,285,1084,312"/>
 </map>

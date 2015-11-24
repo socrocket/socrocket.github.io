@@ -1,5 +1,5 @@
 <map id="trap::_exitSysCall::operator()" name="trap::_exitSysCall::operator()">
-<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="186,5,317,32"/>
-<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="180,56,323,83"/>
-<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="185,107,318,149"/>
+<area shape="rect" id="node2" href="$classtrap_1_1ABIIf.html#ab078dd4f7d791c2bd95148c3cd568600" title="trap::ABIIf::preCall" alt="" coords="188,5,319,32"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ABIIf.html#a15542f4ec43296551f50c35ceb6da94a" title="trap::ABIIf::readArgs" alt="" coords="182,56,325,83"/>
+<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="187,107,320,149"/>
 </map>

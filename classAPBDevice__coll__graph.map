@@ -1,24 +1,24 @@
 <map id="APBDevice&lt; BASE &gt;" name="APBDevice&lt; BASE &gt;">
-<area shape="rect" id="node2" href="$classBASE.html" title="{BASE\n||}" alt="" coords="375,1168,433,1245"/>
-<area shape="rect" id="node3" href="$classAPBDeviceBase.html" title="{APBDeviceBase\n||+ ~APBDeviceBase()\l+ get_apb_device_id()\l+ get_apb_vendor_id()\l+ get_apb_device_info()\l+ get_apb_type()\l+ get_apb_base()\l+ get_apb_mask()\l+ get_apb_base_addr()\l+ get_apb_base_addr_()\l+ get_apb_size()\l+ get_apb_size_()\l+ get_apb_relative_addr()\l+ get_apb_pindex()\l+ print_apb_device_info()\l}" alt="" coords="458,1073,627,1341"/>
-<area shape="rect" id="node4" href="$classsr__param.html" title="{sr_param\&lt; uint16_t \&gt;\n|+ SR_PARAM_HEAD\l|+ convertValueToString()\l+ static_deserialize()\l}" alt="" coords="651,1161,818,1253"/>
-<area shape="rect" id="node5" href="$classsr__param__t.html" title="{sr_param_t\&lt; uint16_t \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="262,727,429,981"/>
-<area shape="rect" id="node6" href="$classsr__param__base.html" title="{sr_param_base\n||+ sr_param_base()\l+ setProperty()\l+ getProperty()\l+ getProperties()\l+ deleteProperty()\l+ exists()\l+ add_properties()\l}" alt="" coords="821,147,952,312"/>
-<area shape="rect" id="node11" href="$classsr__param__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="803,389,970,643"/>
-<area shape="rect" id="node16" href="$classsr__param__t.html" title="{sr_param_t\&lt; unsigned\l int \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="582,720,749,988"/>
-<area shape="rect" id="node20" href="$classsr__param__t.html" title="{sr_param_t\&lt; bool \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="1093,727,1259,981"/>
-<area shape="rect" id="node23" href="$classsr__param__t.html" title="{sr_param_t\&lt; unsigned\l char \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="1413,720,1579,988"/>
-<area shape="rect" id="node8" href="$classuint16__t.html" title="{uint16_t\n||}" alt="" coords="233,477,301,555"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="1212,191,1292,268"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="1189,5,1315,97"/>
-<area shape="rect" id="node14" href="$classsr__param.html" title="The parameters, sr_param class, templated. " alt="" coords="902,808,1069,900"/>
-<area shape="rect" id="node15" href="$classsr__param_3_01unsigned_01int_01_4.html" title="Template specialization for sr_param&lt;unsigned int&gt;. " alt="" coords="842,1051,1049,1363"/>
-<area shape="rect" id="node17" href="$classunsigned_01int_01_5.html" title="{unsigned int *\n||}" alt="" coords="508,477,609,555"/>
-<area shape="rect" id="node18" href="$classunsigned_01int.html" title="{unsigned int\n||}" alt="" coords="634,477,726,555"/>
-<area shape="rect" id="node19" href="$classsr__param_3_01bool_01_4.html" title="Template specialization for sr_param&lt;bool&gt;. " alt="" coords="1073,1117,1279,1297"/>
-<area shape="rect" id="node21" href="$classbool.html" title="{bool\n||}" alt="" coords="1190,477,1237,555"/>
-<area shape="rect" id="node22" href="$classsr__param_3_01unsigned_01char_01_4.html" title="Template specialization for sr_param&lt;unsigned char&gt;. " alt="" coords="1303,1058,1510,1355"/>
-<area shape="rect" id="node24" href="$classunsigned_01char.html" title="{unsigned char\n||}" alt="" coords="1445,477,1547,555"/>
-<area shape="rect" id="node25" href="$classunsigned_01char_01_5.html" title="{unsigned char *\n||}" alt="" coords="1704,477,1816,555"/>
-<area shape="rect" id="node26" href="$classint.html" title="{int\n||}" alt="" coords="1534,1168,1573,1245"/>
+<area shape="rect" id="node2" href="$classBASE.html" title="{BASE\n||}" alt="" coords="375,1173,432,1251"/>
+<area shape="rect" id="node3" href="$classAPBDeviceBase.html" title="{APBDeviceBase\n||+ ~APBDeviceBase()\l+ get_apb_device_id()\l+ get_apb_vendor_id()\l+ get_apb_device_info()\l+ get_apb_type()\l+ get_apb_base()\l+ get_apb_mask()\l+ get_apb_base_addr()\l+ get_apb_base_addr_()\l+ get_apb_size()\l+ get_apb_size_()\l+ get_apb_relative_addr()\l+ get_apb_pindex()\l+ print_apb_device_info()\l}" alt="" coords="458,1078,627,1346"/>
+<area shape="rect" id="node4" href="$classsr__param.html" title="{sr_param\&lt; uint16_t \&gt;\n|+ SR_PARAM_HEAD\l|+ convertValueToString()\l+ static_deserialize()\l}" alt="" coords="651,1166,817,1258"/>
+<area shape="rect" id="node5" href="$classsr__param__t.html" title="{sr_param_t\&lt; uint16_t \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="262,731,428,984"/>
+<area shape="rect" id="node6" href="$classsr__param__base.html" title="{sr_param_base\n||+ sr_param_base()\l+ setProperty()\l+ getProperty()\l+ getProperties()\l+ deleteProperty()\l+ exists()\l+ add_properties()\l}" alt="" coords="821,149,951,315"/>
+<area shape="rect" id="node11" href="$classsr__param__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="803,392,969,645"/>
+<area shape="rect" id="node16" href="$classsr__param__t.html" title="{sr_param_t\&lt; unsigned\l int \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="582,723,748,991"/>
+<area shape="rect" id="node20" href="$classsr__param__t.html" title="{sr_param_t\&lt; bool \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="1093,731,1259,984"/>
+<area shape="rect" id="node23" href="$classsr__param__t.html" title="{sr_param_t\&lt; unsigned\l char \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="1413,723,1579,991"/>
+<area shape="rect" id="node8" href="$classuint16__t.html" title="{uint16_t\n||}" alt="" coords="233,480,300,557"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="1212,193,1291,271"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="1189,6,1315,98"/>
+<area shape="rect" id="node14" href="$classsr__param.html" title="The parameters, sr_param class, templated. " alt="" coords="902,811,1068,903"/>
+<area shape="rect" id="node15" href="$classsr__param_3_01unsigned_01int_01_4.html" title="Template specialization for sr_param&lt;unsigned int&gt;. " alt="" coords="842,1056,1048,1368"/>
+<area shape="rect" id="node17" href="$classunsigned_01int_01_5.html" title="{unsigned int *\n||}" alt="" coords="508,480,609,557"/>
+<area shape="rect" id="node18" href="$classunsigned_01int.html" title="{unsigned int\n||}" alt="" coords="634,480,725,557"/>
+<area shape="rect" id="node19" href="$classsr__param_3_01bool_01_4.html" title="Template specialization for sr_param&lt;bool&gt;. " alt="" coords="1073,1122,1279,1302"/>
+<area shape="rect" id="node21" href="$classbool.html" title="{bool\n||}" alt="" coords="1190,480,1236,557"/>
+<area shape="rect" id="node22" href="$classsr__param_3_01unsigned_01char_01_4.html" title="Template specialization for sr_param&lt;unsigned char&gt;. " alt="" coords="1303,1063,1509,1361"/>
+<area shape="rect" id="node24" href="$classunsigned_01char.html" title="{unsigned char\n||}" alt="" coords="1445,480,1547,557"/>
+<area shape="rect" id="node25" href="$classunsigned_01char_01_5.html" title="{unsigned char *\n||}" alt="" coords="1704,480,1815,557"/>
+<area shape="rect" id="node26" href="$classint.html" title="{int\n||}" alt="" coords="1534,1173,1572,1251"/>
 </map>

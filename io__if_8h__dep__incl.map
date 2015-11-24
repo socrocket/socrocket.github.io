@@ -1,9 +1,9 @@
 <map id="gaisler/apbuart/io_if.h" name="gaisler/apbuart/io_if.h">
-<area shape="rect" id="node2" href="$apbuart_8h.html" title="gaisler/apbuart/apbuart.h" alt="" coords="470,80,635,107"/>
-<area shape="rect" id="node5" href="$tcpio_8h.html" title="gaisler/apbuart/tcpio.h" alt="" coords="105,80,256,107"/>
-<area shape="rect" id="node7" href="$reportio_8h.html" title="gaisler/apbuart/reportio.h" alt="" coords="281,80,446,107"/>
-<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="193,155,352,196"/>
-<area shape="rect" id="node4" href="$apbuart_8cpp.html" title="gaisler/apbuart/apbuart.cpp" alt="" coords="579,162,758,189"/>
-<area shape="rect" id="node6" href="$tcpio_8cpp.html" title="gaisler/apbuart/tcpio.cpp" alt="" coords="5,162,169,189"/>
-<area shape="rect" id="node8" href="$reportio_8cpp.html" title="gaisler/apbuart/reportio.cpp" alt="" coords="377,162,555,189"/>
+<area shape="rect" id="node2" href="$apbuart_8h.html" title="gaisler/apbuart/apbuart.h" alt="" coords="469,80,633,107"/>
+<area shape="rect" id="node5" href="$tcpio_8h.html" title="gaisler/apbuart/tcpio.h" alt="" coords="105,80,255,107"/>
+<area shape="rect" id="node7" href="$reportio_8h.html" title="gaisler/apbuart/reportio.h" alt="" coords="280,80,444,107"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="193,155,351,197"/>
+<area shape="rect" id="node4" href="$apbuart_8cpp.html" title="gaisler/apbuart/apbuart.cpp" alt="" coords="579,163,757,189"/>
+<area shape="rect" id="node6" href="$tcpio_8cpp.html" title="gaisler/apbuart/tcpio.cpp" alt="" coords="5,163,168,189"/>
+<area shape="rect" id="node8" href="$reportio_8cpp.html" title="gaisler/apbuart/reportio.cpp" alt="" coords="376,163,555,189"/>
 </map>

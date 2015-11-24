@@ -1,4 +1,4 @@
 <map id="sr_signal::signal_selector&lt; TYPE, MODULE &gt;" name="sr_signal::signal_selector&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node2" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,131,156,252"/>
-<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="181,138,335,245"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,131,155,253"/>
+<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="180,139,333,245"/>
 </map>

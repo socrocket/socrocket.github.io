@@ -1,5 +1,5 @@
 <map id="USIDelegate::USIDelegate" name="USIDelegate::USIDelegate">
-<area shape="rect" id="node2" href="$group__pysc.html#ga1d2859a6b4de16663e69b73ee8eecae3" title="PyScObjectGenerator\l::find_object_by_name" alt="" coords="233,5,387,47"/>
-<area shape="rect" id="node4" href="$group__pysc.html#gae068892dca644e4698d4d26047837a56" title="PyScObjectGenerator\l::find_object_by_ptr" alt="" coords="235,71,385,112"/>
-<area shape="rect" id="node3" href="$group__common.html#gafc379a8c4d1298ababe67771c089ab19" title="sc_find_by_name" alt="" coords="435,13,559,39"/>
+<area shape="rect" id="node2" href="$group__pysc.html#ga1d2859a6b4de16663e69b73ee8eecae3" title="PyScObjectGenerator\l::find_object_by_name" alt="" coords="235,5,389,46"/>
+<area shape="rect" id="node4" href="$group__pysc.html#gae068892dca644e4698d4d26047837a56" title="PyScObjectGenerator\l::find_object_by_ptr" alt="" coords="237,70,387,111"/>
+<area shape="rect" id="node3" href="$group__common.html#gafc379a8c4d1298ababe67771c089ab19" title="sc_find_by_name" alt="" coords="438,12,562,39"/>
 </map>

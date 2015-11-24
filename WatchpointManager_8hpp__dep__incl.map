@@ -1,7 +1,7 @@
 <map id="core/common/trapgen/debugger/WatchpointManager.hpp" name="core/common/trapgen/debugger/WatchpointManager.hpp">
-<area shape="rect" id="node2" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="111,95,275,136"/>
-<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,273,164,315"/>
-<area shape="rect" id="node4" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="122,191,263,218"/>
-<area shape="rect" id="node6" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="288,184,423,225"/>
-<area shape="rect" id="node5" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="189,281,343,307"/>
+<area shape="rect" id="node2" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="110,97,273,138"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,278,163,319"/>
+<area shape="rect" id="node4" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="121,195,261,221"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="287,187,421,229"/>
+<area shape="rect" id="node5" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="188,285,341,312"/>
 </map>

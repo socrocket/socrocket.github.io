@@ -1,10 +1,10 @@
 <map id="AHBMaster&lt; BASE &gt;" name="AHBMaster&lt; BASE &gt;">
-<area shape="rect" id="node5" href="$classAHBMaster.html" title="{AHBMaster\&lt;\&gt;\n|+ ahb\l# m_ResponsePEQ\l# m_EndRequestEvent\l# m_ambaLayer\l# m_reads\l# m_writes\l# response_error\l|+ SC_HAS_PROCESS()\l+ AHBMaster()\l+ ~AHBMaster()\l+ ahbread()\l+ ahbread()\l+ ahbread()\l+ ahbwrite()\l+ ahbwrite()\l+ ahbwrite()\l+ ahbaccess()\land 10 more...\l}" alt="" coords="21,1073,191,1385"/>
-<area shape="rect" id="node2" href="$classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations..." alt="" coords="25,279,187,649"/>
-<area shape="rect" id="node3" href="$classBASE.html" title="{BASE\n||}" alt="" coords="10,79,69,156"/>
-<area shape="rect" id="node4" href="$classAHBDeviceBase.html" title="{AHBDeviceBase\n||+ ~AHBDeviceBase()\l+ get_ahb_device_id()\l+ get_ahb_vendor_id()\l+ get_ahb_device_info()\l+ get_ahb_base_addr_()\l+ get_ahb_base_addr()\l+ get_ahb_size_()\l+ get_ahb_size()\l+ get_ahb_bar_type()\l+ get_ahb_bar_base()\land 7 more...\l}" alt="" coords="93,5,255,229"/>
-<area shape="rect" id="node6" href="$classAHBIn.html" title="Definition of class AHBIn. " alt="" coords="5,1589,175,1769"/>
-<area shape="rect" id="node7" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="199,1435,389,1923"/>
-<area shape="rect" id="node8" href="$classLeon3.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="100,1972,283,2343"/>
-<area shape="rect" id="node9" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="307,2009,489,2306"/>
+<area shape="rect" id="node5" href="$classAHBMaster.html" title="{AHBMaster\&lt;\&gt;\n|+ ahb\l# m_ResponsePEQ\l# m_EndRequestEvent\l# m_ambaLayer\l# m_reads\l# m_writes\l# response_error\l|+ SC_HAS_PROCESS()\l+ AHBMaster()\l+ ~AHBMaster()\l+ ahbread()\l+ ahbread()\l+ ahbread()\l+ ahbwrite()\l+ ahbwrite()\l+ ahbwrite()\l+ ahbaccess()\land 10 more...\l}" alt="" coords="21,1077,189,1389"/>
+<area shape="rect" id="node2" href="$classAHBDevice.html" title="This class is a base class for grlib models. It implements the device plug and play informations..." alt="" coords="24,280,187,651"/>
+<area shape="rect" id="node3" href="$classBASE.html" title="{BASE\n||}" alt="" coords="9,79,67,156"/>
+<area shape="rect" id="node4" href="$classAHBDeviceBase.html" title="{AHBDeviceBase\n||+ ~AHBDeviceBase()\l+ get_ahb_device_id()\l+ get_ahb_vendor_id()\l+ get_ahb_device_info()\l+ get_ahb_base_addr_()\l+ get_ahb_base_addr()\l+ get_ahb_size_()\l+ get_ahb_size()\l+ get_ahb_bar_type()\l+ get_ahb_bar_base()\land 7 more...\l}" alt="" coords="92,5,255,229"/>
+<area shape="rect" id="node6" href="$classAHBIn.html" title="Definition of class AHBIn. " alt="" coords="5,1594,173,1774"/>
+<area shape="rect" id="node7" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="199,1440,388,1928"/>
+<area shape="rect" id="node8" href="$classLeon3.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="99,1979,281,2349"/>
+<area shape="rect" id="node9" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="306,2015,488,2313"/>
 </map>

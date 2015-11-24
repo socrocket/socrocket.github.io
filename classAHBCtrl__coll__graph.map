@@ -1,6 +1,6 @@
 <map id="AHBCtrl" name="AHBCtrl">
-<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="219,417,409,568"/>
-<area shape="rect" id="node6" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="237,175,391,325"/>
-<area shape="rect" id="node7" href="$classBASE.html" title="{BASE\n||}" alt="" coords="285,5,343,83"/>
-<area shape="rect" id="node8" href="$classCLKDevice.html" title="{CLKDevice\n||+ SR_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="449,388,611,597"/>
+<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="219,422,409,573"/>
+<area shape="rect" id="node6" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="237,177,390,327"/>
+<area shape="rect" id="node7" href="$classBASE.html" title="{BASE\n||}" alt="" coords="285,5,342,83"/>
+<area shape="rect" id="node8" href="$classCLKDevice.html" title="{CLKDevice\n||+ SR_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="449,393,610,602"/>
 </map>

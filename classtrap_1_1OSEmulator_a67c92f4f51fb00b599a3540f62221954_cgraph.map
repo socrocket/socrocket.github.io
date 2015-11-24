@@ -1,6 +1,6 @@
 <map id="trap::OSEmulator::initSysCalls" name="trap::OSEmulator::initSysCalls">
-<area shape="rect" id="node2" href="$namespacecore_1_1waf_1_1cmake.html#a2cc9c2d5713380ebb07751a69eeb9bc6" title="core.waf.cmake.f" alt="" coords="246,5,369,32"/>
-<area shape="rect" id="node3" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="439,111,481,137"/>
-<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a9e6e897cdc68a8a5fb9cf5e87f793e26" title="trap::ABIIf::getCodeLimit" alt="" coords="224,107,391,133"/>
-<area shape="rect" id="node5" href="$classtrap_1_1ELFFrontend.html#a200f11fbad5e2a1625ab3275f54fa5c2" title="trap::ELFFrontend::\lgetInstance" alt="" coords="240,158,375,199"/>
+<area shape="rect" id="node2" href="$namespacecore_1_1waf_1_1cmake.html#a2cc9c2d5713380ebb07751a69eeb9bc6" title="core.waf.cmake.f" alt="" coords="247,5,369,32"/>
+<area shape="rect" id="node3" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="440,111,483,137"/>
+<area shape="rect" id="node4" href="$classtrap_1_1ABIIf.html#a9e6e897cdc68a8a5fb9cf5e87f793e26" title="trap::ABIIf::getCodeLimit" alt="" coords="225,107,391,133"/>
+<area shape="rect" id="node5" href="$classtrap_1_1ELFFrontend.html#a200f11fbad5e2a1625ab3275f54fa5c2" title="trap::ELFFrontend::\lgetInstance" alt="" coords="241,158,375,199"/>
 </map>

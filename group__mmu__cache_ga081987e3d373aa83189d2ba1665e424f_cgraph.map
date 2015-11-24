@@ -1,9 +1,9 @@
 <map id="mmu_cache::icio_service_thread" name="mmu_cache::icio_service_thread">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="224,61,385,88"/>
-<area shape="rect" id="node8" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="238,113,371,154"/>
-<area shape="rect" id="node3" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="433,54,597,95"/>
-<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="690,5,741,32"/>
-<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="462,120,569,147"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="645,60,785,87"/>
-<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="648,111,783,137"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="225,61,386,88"/>
+<area shape="rect" id="node8" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="239,113,372,154"/>
+<area shape="rect" id="node3" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="435,54,599,95"/>
+<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="693,5,744,32"/>
+<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="464,120,571,147"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="649,60,789,87"/>
+<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="651,111,786,137"/>
 </map>

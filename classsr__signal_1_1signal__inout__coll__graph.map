@@ -1,10 +1,10 @@
 <map id="sr_signal::signal_inout&lt; TYPE, MODULE &gt;" name="sr_signal::signal_inout&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node2" href="$classsr__signal_1_1signal__out.html" title="{sr_signal::signal_out\l\&lt; TYPE, MODULE \&gt;\n||+ signal_out()\l+ ~signal_out()\l+ bind()\l+ write()\l+ operator()()\l+ operator=()\l+ operator=()\l}" alt="" coords="335,557,482,737"/>
-<area shape="rect" id="node3" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,366,156,487"/>
-<area shape="rect" id="node13" href="$classsr__signal_1_1signal__in.html" title="{sr_signal::signal_in\l\&lt; TYPE, MODULE \&gt;\n||+ signal_in()\l+ signal_in()\l+ ~signal_in()\l+ bind()\l+ update()\l+ operator TYPE()\l+ operator()()\l}" alt="" coords="165,557,311,737"/>
-<area shape="rect" id="node5" href="$classsr__signal_1_1signal__out__if.html" title="{sr_signal::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="338,359,479,495"/>
-<area shape="rect" id="node6" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="179,145,310,281"/>
-<area shape="rect" id="node14" href="$singletonsr__signal_1_1signal__in__if.html" title="{sr_signal::signal_in\l_if\&lt; TYPE \&gt;\n||+ ~signal_in_if()\l+ bind()\l+ update()\l}" alt="" coords="181,366,314,487"/>
-<area shape="rect" id="node8" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="334,160,489,267"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="692,175,808,252"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__out.html" title="{sr_signal::signal_out\l\&lt; TYPE, MODULE \&gt;\n||+ signal_out()\l+ ~signal_out()\l+ bind()\l+ write()\l+ operator()()\l+ operator=()\l+ operator=()\l}" alt="" coords="335,561,481,741"/>
+<area shape="rect" id="node3" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,367,155,489"/>
+<area shape="rect" id="node13" href="$classsr__signal_1_1signal__in.html" title="{sr_signal::signal_in\l\&lt; TYPE, MODULE \&gt;\n||+ signal_in()\l+ signal_in()\l+ ~signal_in()\l+ bind()\l+ update()\l+ operator TYPE()\l+ operator()()\l}" alt="" coords="164,561,311,741"/>
+<area shape="rect" id="node5" href="$classsr__signal_1_1signal__out__if.html" title="{sr_signal::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="337,360,477,496"/>
+<area shape="rect" id="node6" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="179,147,308,283"/>
+<area shape="rect" id="node14" href="$classsr__signal_1_1signal__in__if.html" title="{sr_signal::signal_in\l_if\&lt; TYPE \&gt;\n||+ ~signal_in_if()\l+ bind()\l+ update()\l}" alt="" coords="180,367,313,489"/>
+<area shape="rect" id="node8" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="333,161,487,268"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="691,176,807,253"/>
 </map>

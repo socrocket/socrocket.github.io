@@ -1,10 +1,10 @@
 <map id="msg_proc" name="msg_proc">
-<area shape="rect" id="node2" href="$io__less_2pocsag_8c.html#a01a32924476998e9b6a10ddf3a50fa42" title="addr_corr" alt="" coords="137,31,213,57"/>
-<area shape="rect" id="node3" href="$io__less_2pocsag_8c.html#ad21ab99f7a249c90392ed6d167b80aa5" title="comp32" alt="" coords="265,5,333,32"/>
-<area shape="rect" id="node4" href="$io__less_2pocsag_8c.html#a6854b8a07f261ba1d11e709f483085aa" title="err_corr" alt="" coords="266,68,333,95"/>
-<area shape="rect" id="node8" href="$io__less_2pocsag_8c.html#a76fedc651f84dedf577641c81281127b" title="alpha_proc" alt="" coords="132,132,217,159"/>
-<area shape="rect" id="node9" href="$io__less_2pocsag_8c.html#a8cb3e868ecbc2138140aebbdfc21dfa0" title="num_proc" alt="" coords="135,183,214,209"/>
-<area shape="rect" id="node5" href="$io__less_2pocsag_8c.html#ad0b66e231d83701f9bd215fb56d8f7f5" title="find_syndromes" alt="" coords="389,17,504,44"/>
-<area shape="rect" id="node6" href="$io__less_2pocsag_8c.html#af31e993cacb29c95b6c1a3933214dd86" title="fix_bit" alt="" coords="418,68,475,95"/>
-<area shape="rect" id="node7" href="$io__less_2pocsag_8c.html#a0c23a5e53618fc0f25a3972103a250d1" title="normalized_locator" alt="" coords="381,119,512,145"/>
+<area shape="rect" id="node2" href="$io__less_2pocsag_8c.html#a01a32924476998e9b6a10ddf3a50fa42" title="addr_corr" alt="" coords="138,31,214,57"/>
+<area shape="rect" id="node3" href="$io__less_2pocsag_8c.html#ad21ab99f7a249c90392ed6d167b80aa5" title="comp32" alt="" coords="267,5,335,32"/>
+<area shape="rect" id="node4" href="$io__less_2pocsag_8c.html#a6854b8a07f261ba1d11e709f483085aa" title="err_corr" alt="" coords="268,68,335,95"/>
+<area shape="rect" id="node8" href="$io__less_2pocsag_8c.html#a76fedc651f84dedf577641c81281127b" title="alpha_proc" alt="" coords="133,132,219,159"/>
+<area shape="rect" id="node9" href="$io__less_2pocsag_8c.html#a8cb3e868ecbc2138140aebbdfc21dfa0" title="num_proc" alt="" coords="137,183,215,209"/>
+<area shape="rect" id="node5" href="$io__less_2pocsag_8c.html#ad0b66e231d83701f9bd215fb56d8f7f5" title="find_syndromes" alt="" coords="392,17,507,44"/>
+<area shape="rect" id="node6" href="$io__less_2pocsag_8c.html#af31e993cacb29c95b6c1a3933214dd86" title="fix_bit" alt="" coords="421,68,478,95"/>
+<area shape="rect" id="node7" href="$io__less_2pocsag_8c.html#a0c23a5e53618fc0f25a3972103a250d1" title="normalized_locator" alt="" coords="384,119,515,145"/>
 </map>

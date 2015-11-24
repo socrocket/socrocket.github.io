@@ -1,5 +1,6 @@
 <map id="core/software/grlib_tests/leon3.h" name="core/software/grlib_tests/leon3.h">
-<area shape="rect" id="node2" href="$cache_8c.html" title="core/software/grlib\l_tests/cache.c" alt="" coords="5,95,135,136"/>
-<area shape="rect" id="node3" href="$fpu_8c.html" title="core/software/grlib\l_tests/fpu.c" alt="" coords="159,95,288,136"/>
-<area shape="rect" id="node4" href="$mmu_8c.html" title="core/software/grlib\l_tests/mmu.c" alt="" coords="312,95,441,136"/>
+<area shape="rect" id="node2" href="$cache_8c.html" title="core/software/grlib\l_tests/cache.c" alt="" coords="5,97,133,138"/>
+<area shape="rect" id="node3" href="$fpu_8c.html" title="core/software/grlib\l_tests/fpu.c" alt="" coords="158,97,287,138"/>
+<area shape="rect" id="node4" href="$mmu_8c.html" title="core/software/grlib\l_tests/mmu.c" alt="" coords="311,97,440,138"/>
+<area shape="rect" id="node5" href="$mmu__asm_8S.html" title="core/software/grlib\l_tests/mmu_asm.S" alt="" coords="464,97,599,138"/>
 </map>

@@ -1,4 +1,6 @@
 <map id="vectorcache::write_cache_tag" name="vectorcache::write_cache_tag">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="183,5,321,32"/>
-<area shape="rect" id="node3" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="191,56,313,83"/>
+<area shape="rect" id="node2" href="$classvectorcache.html#a0f8408c83f6d5d40e668a563aa488491" title="vectorcache::get_idx" alt="" coords="197,5,339,32"/>
+<area shape="rect" id="node3" href="$classvectorcache.html#a8e9512157d817a5e027abca1a6a02332" title="Address parsing one&#45;liners. " alt="" coords="196,56,340,83"/>
+<area shape="rect" id="node4" href="$classvectorcache.html#a827b3080bda9e542b473d95b693e3129" title="vectorcache::lookup_line" alt="" coords="185,107,351,133"/>
+<area shape="rect" id="node5" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="207,157,329,184"/>
 </map>

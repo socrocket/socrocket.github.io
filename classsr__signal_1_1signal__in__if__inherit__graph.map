@@ -1,0 +1,6 @@
+<map id="sr_signal::signal_in_if&lt; TYPE &gt;" name="sr_signal::signal_in_if&lt; TYPE &gt;">
+<area shape="rect" id="node3" href="$classsr__signal_1_1signal__in.html" title="{sr_signal::signal_in\l\&lt; TYPE \&gt;\n||+ signal_in()\l+ signal_in()\l+ ~signal_in()\l+ bind()\l+ update()\l+ operator TYPE()\l+ operator()()\l}" alt="" coords="13,375,147,555"/>
+<area shape="rect" id="node5" href="$classsr__signal_1_1signal__infield.html" title="{sr_signal::signal_infield\l\&lt; TYPE \&gt;\n||+ signal_infield()\l+ signal_infield()\l+ ~signal_infield()\l+ bind()\l+ update()\l+ read()\l+ read()\l+ operator[]()\l+ operator()()\l}" alt="" coords="171,361,328,570"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n|# m_value\l|+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="99,5,228,141"/>
+<area shape="rect" id="node4" href="$classsr__signal_1_1signal__inout.html" title="{sr_signal::signal_inout\l\&lt; TYPE, MODULE \&gt;\n||+ signal_inout()\l+ signal_inout()\l+ ~signal_inout()\l}" alt="" coords="5,619,155,741"/>
+</map>

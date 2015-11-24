@@ -1,11 +1,11 @@
 <map id="gaisler/memory/basememory.h" name="gaisler/memory/basememory.h">
-<area shape="rect" id="node2" href="$arraystorage_8h.html" title="gaisler/memory/arraystorage.h" alt="" coords="451,80,650,107"/>
-<area shape="rect" id="node3" href="$storage_8h.html" title="gaisler/memory/storage.h" alt="" coords="562,162,731,189"/>
+<area shape="rect" id="node2" href="$arraystorage_8h.html" title="gaisler/memory/arraystorage.h" alt="" coords="451,80,649,107"/>
+<area shape="rect" id="node3" href="$storage_8h.html" title="gaisler/memory/storage.h" alt="" coords="562,163,731,189"/>
 <area shape="rect" id="node15" href="$mapstorage_8h.html" title="gaisler/memory/mapstorage.h" alt="" coords="724,80,919,107"/>
-<area shape="rect" id="node17" href="$scireg_8h.html" title="core/common/scireg.h" alt="" coords="943,80,1094,107"/>
-<area shape="rect" id="node4" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="257,244,423,271"/>
-<area shape="rect" id="node9" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="587,244,765,271"/>
-<area shape="rect" id="node10" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="597,319,763,360"/>
-<area shape="rect" id="node16" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="755,162,903,189"/>
-<area shape="rect" id="node18" href="$sr__register_2scireg_8h.html" title="core/common/sr_register\l/scireg.h" alt="" coords="935,155,1102,196"/>
+<area shape="rect" id="node17" href="$scireg_8h.html" title="core/common/scireg.h" alt="" coords="943,80,1093,107"/>
+<area shape="rect" id="node4" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="257,245,423,272"/>
+<area shape="rect" id="node9" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="587,245,764,272"/>
+<area shape="rect" id="node10" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="597,321,763,362"/>
+<area shape="rect" id="node16" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="755,163,903,189"/>
+<area shape="rect" id="node18" href="$sr__register_2scireg_8h.html" title="core/common/sr_register\l/scireg.h" alt="" coords="935,155,1101,197"/>
 </map>

@@ -1,28 +1,28 @@
 <map id="core/common/apbslave.h" name="core/common/apbslave.h">
-<area shape="rect" id="node2" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="430,781,597,808"/>
-<area shape="rect" id="node7" href="$sr__register_8h.html" title="core/common/sr_register.h" alt="" coords="461,229,638,256"/>
+<area shape="rect" id="node2" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="430,784,596,811"/>
+<area shape="rect" id="node7" href="$sr__register_8h.html" title="core/common/sr_register.h" alt="" coords="461,229,637,256"/>
 <area shape="rect" id="node46" href="$apbdevicebase_8h.html" title="core/common/apbdevicebase.h" alt="" coords="587,155,789,181"/>
-<area shape="rect" id="node48" href="$apbdevice_8h.html" title="core/common/apbdevice.h" alt="" coords="750,80,925,107"/>
+<area shape="rect" id="node48" href="$apbdevice_8h.html" title="core/common/apbdevice.h" alt="" coords="750,80,924,107"/>
 <area shape="rect" id="node8" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="211,304,391,331"/>
 <area shape="rect" id="node18" href="$base_8h.html" title="core/common/base.h" alt="" coords="629,304,773,331"/>
-<area shape="rect" id="node19" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="1047,379,1214,405"/>
-<area shape="rect" id="node9" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="213,543,379,584"/>
-<area shape="rect" id="node16" href="$sr__register_2scireg_8h.html" title="scireg.h" alt="" coords="187,632,255,659"/>
+<area shape="rect" id="node19" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="1047,379,1213,405"/>
+<area shape="rect" id="node9" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="213,545,379,586"/>
+<area shape="rect" id="node16" href="$sr__register_2scireg_8h.html" title="scireg.h" alt="" coords="187,635,255,661"/>
 <area shape="rect" id="node26" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="846,379,1023,405"/>
 <area shape="rect" id="node29" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="651,379,821,405"/>
-<area shape="rect" id="node20" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="1133,543,1289,584"/>
-<area shape="rect" id="node27" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="942,543,1109,584"/>
-<area shape="rect" id="node30" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="715,453,874,495"/>
-<area shape="rect" id="node32" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="576,550,699,577"/>
-<area shape="rect" id="node33" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="1796,550,1921,577"/>
-<area shape="rect" id="node36" href="$common_8h.html" title="core/common/common.h" alt="" coords="1230,632,1397,659"/>
-<area shape="rect" id="node40" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="1725,632,1824,659"/>
-<area shape="rect" id="node41" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="1849,632,2039,659"/>
-<area shape="rect" id="node42" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="2063,632,2206,659"/>
-<area shape="rect" id="node43" href="$sr__param__native_8h.html" title="sr_param_native.h" alt="" coords="2230,632,2359,659"/>
-<area shape="rect" id="node44" href="$sr__param__stdint_8h.html" title="sr_param_stdint.h" alt="" coords="2891,707,3018,733"/>
-<area shape="rect" id="node45" href="$sr__param__systemc_8h.html" title="sr_param_systemc.h" alt="" coords="2384,632,2528,659"/>
-<area shape="rect" id="node37" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2654,707,2815,733"/>
-<area shape="rect" id="node39" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1232,707,1395,733"/>
+<area shape="rect" id="node20" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="1133,545,1288,586"/>
+<area shape="rect" id="node27" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="942,545,1108,586"/>
+<area shape="rect" id="node30" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="715,454,873,495"/>
+<area shape="rect" id="node32" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="576,552,699,579"/>
+<area shape="rect" id="node33" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="1796,552,1921,579"/>
+<area shape="rect" id="node36" href="$common_8h.html" title="core/common/common.h" alt="" coords="1230,635,1396,661"/>
+<area shape="rect" id="node40" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="1725,635,1824,661"/>
+<area shape="rect" id="node41" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="1849,635,2039,661"/>
+<area shape="rect" id="node42" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="2063,635,2205,661"/>
+<area shape="rect" id="node43" href="$sr__param__native_8h.html" title="sr_param_native.h" alt="" coords="2230,635,2359,661"/>
+<area shape="rect" id="node44" href="$sr__param__stdint_8h.html" title="sr_param_stdint.h" alt="" coords="2891,709,3017,736"/>
+<area shape="rect" id="node45" href="$sr__param__systemc_8h.html" title="sr_param_systemc.h" alt="" coords="2384,635,2528,661"/>
+<area shape="rect" id="node37" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="2654,709,2815,736"/>
+<area shape="rect" id="node39" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="1232,709,1395,736"/>
 <area shape="rect" id="node47" href="$common_2amba_8h.html" title="core/common/amba.h" alt="" coords="719,229,867,256"/>
 </map>
