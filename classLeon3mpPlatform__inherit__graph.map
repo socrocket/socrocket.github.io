@@ -1,4 +1,0 @@
-<map id="Leon3mpPlatform" name="Leon3mpPlatform">
-<area shape="rect" id="node2" href="$classAMBABasePlatform.html" title="{AMBABasePlatform\n|+ ahbctrl\l+ apbctrl\l+ irqmp\l|+ AMBABasePlatform()\l+ clkcng()\l+ dorst()\l}" alt="" coords="43,331,200,485"/>
-<area shape="rect" id="node6" href="$classCLKDevice.html" title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SK_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="115,6,275,282"/>
-</map>

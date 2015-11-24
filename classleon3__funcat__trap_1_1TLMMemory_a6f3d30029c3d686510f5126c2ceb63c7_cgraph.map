@@ -1,6 +1,0 @@
-<map id="leon3_funcat_trap::TLMMemory::write_word" name="leon3_funcat_trap::TLMMemory::write_word">
-<area shape="rect" id="node3" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="307,5,357,35"/>
-<area shape="rect" id="node5" href="$classleon3__funcat__trap_1_1TLMMemory.html#a54ebf8c05d729fc52e3711571070e75e" title="leon3_funcat_trap::\lTLMMemory::lock" alt="" coords="265,58,399,105"/>
-<area shape="rect" id="node7" href="$classtrap_1_1MemoryToolsIf.html#a686fcfbf1ff7862779713aa04f1d5fe9" title="trap::MemoryToolsIf\l::notifyAddress" alt="" coords="263,127,401,174"/>
-<area shape="rect" id="node9" href="$classleon3__funcat__trap_1_1MemoryInterface.html#a9155a44a476d438e254ddcb8a736f9e2" title="leon3_funcat_trap::\lMemoryInterface::swapEndianess" alt="" coords="223,197,441,243"/>
-</map>

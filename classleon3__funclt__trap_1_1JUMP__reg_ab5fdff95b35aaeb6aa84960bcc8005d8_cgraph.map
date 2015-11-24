@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Instruction.html#a19f263db8eee412f30e897fc056464b3" title="leon3_funclt_trap::Instruction::RaiseException" alt="" coords="301,112,592,141"/>
-<area shape="rect" id="node15" href="$classleon3__funclt__trap_1_1Instruction.html#a8da17aa5e7e63f314ff48488f93f848f" title="leon3_funclt_trap::Instruction::stall" alt="" coords="336,165,557,195"/>
-<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1Instruction.html#ab55ea98ccf6e44847d25a3ed84c72cd9" title="leon3_funclt_trap::Instruction::annull" alt="" coords="677,5,909,35"/>
-<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Instruction.html#a74c6fb574a1dab4f2105c426f0047067" title="leon3_funclt_trap::Instruction::flush" alt="" coords="680,59,907,88"/>
-<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Instruction.html#a91f3cb16378baf674ffc4c8e9adca731" title="leon3_funclt_trap::Instruction::getMnemonic" alt="" coords="656,112,931,141"/>
-<area shape="rect" id="node11" href="$classleon3__funclt__trap_1_1PinTLM__out__32.html#ac64b937a36196e1c2da03f3ebe70bdb4" title="leon3_funclt_trap::PinTLM_out_32::send_pin_req" alt="" coords="641,165,945,195"/>
-<area shape="rect" id="node13" href="$classleon3__funclt__trap_1_1Alias.html#ae2d59e78e59aa01755d057a02e78fe3c" title="leon3_funclt_trap::Alias::updateAlias" alt="" coords="676,219,911,248"/>
-</map>

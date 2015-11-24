@@ -1,7 +1,0 @@
-<map id="object" name="object">
-<area shape="rect" id="node3" href="$classcore_1_1tools_1_1cpplint_1_1CleansedLines.html" title="{core.tools.cpplint.Cleansed\lLines\n|+ elided\l+ lines\l+ raw_lines\l+ num_lines\l+ lines_without_raw_strings\l|+ __init__()\l+ NumLines()\l}" alt="" coords="5,252,189,441"/>
-<area shape="rect" id="node5" href="$classcore_1_1tools_1_1generator_1_1item_1_1item_1_1Item.html" title="{core.tools.generator.item.item.Item\n|+ parentItem\l+ childItems\l+ model\l+ name\l+ var\l+ value\l+ type\l+ range\l+ default\l+ description\l|+ __init__()\l+ appendChild()\l+ child()\l+ childCount()\l+ columnCount()\l+ data()\l+ parent()\l+ row()\l+ getWidget()\l+ getValue()\land 15 more...\l}" alt="" coords="213,139,437,554"/>
-<area shape="rect" id="node7" href="$classcore_1_1waf_1_1cpplint_1_1cpplint__wrapper.html" title="{core.waf.cpplint.cpplint\l_wrapper\n|+ logger\l+ threshold\l+ error_count\l+ fmt\l+ stream\l+ tasks_count\l+ lock\l|+ __init__()\l+ __enter__()\l+ __exit__()\l+ isatty()\l+ write()\l}" alt="" coords="461,209,616,485"/>
-<area shape="rect" id="node9" href="$classcore_1_1waf_1_1logger_1_1Logger.html" title="{core.waf.logger.Logger\n|+ terminal\l+ log\l|+ __init__()\l+ write()\l+ flush()\l}" alt="" coords="640,278,795,415"/>
-<area shape="rect" id="node11" href="$classstatemachine_1_1Enumerate.html" title="{statemachine.Enumerate\n||+ __init__()\l}" alt="" coords="819,304,984,389"/>
-</map>

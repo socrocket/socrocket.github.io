@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Instruction.html#a82356bb5a1fe5c627193907e44cde342" title="leon3_funclt_trap::Instruction::IncrementPC" alt="" coords="316,5,591,35"/>
-<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1MemoryInterface.html#ae0427602b02901ba5529ddd8be214968" title="leon3_funclt_trap::MemoryInterface::read_byte" alt="" coords="308,59,599,88"/>
-<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Instruction.html#a5eed5516e955372095e7c339804f6443" title="leon3_funclt_trap::Instruction::SignExtend" alt="" coords="321,112,585,141"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Reg32__3.html#ac724d23b3c6d429b63b72bc4fc540a55" title="leon3_funclt_trap::Reg32_3::readNewValue" alt="" coords="320,5,595,35"/>
-<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1Reg32__2.html#ac37213b8f39834b199c80f13d968b81f" title="leon3_funclt_trap::Reg32_2::readNewValue" alt="" coords="320,59,595,88"/>
-<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Reg32__1.html#ae5824c07b900a5b17f611b00ce355ba2" title="leon3_funclt_trap::Reg32_1::readNewValue" alt="" coords="320,112,595,141"/>
-<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Reg32__0.html#a168f5f3b971eb441a579e1500c0f5aaf" title="leon3_funclt_trap::Reg32_0::readNewValue" alt="" coords="320,165,595,195"/>
-</map>

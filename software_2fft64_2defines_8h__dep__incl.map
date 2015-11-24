@@ -1,6 +1,0 @@
-<map id="core/software/fft64/defines.h" name="core/software/fft64/defines.h">
-<area shape="rect" id="node3" href="$radix4_8c.html" title="core/software/fft64\l/radix4.c" alt="" coords="5,102,136,149"/>
-<area shape="rect" id="node5" href="$radix4__input__gen_8c.html" title="core/software/fft64\l/radix4_input_gen.c" alt="" coords="160,102,293,149"/>
-<area shape="rect" id="node7" href="$radix4__nofile_8c.html" title="core/software/fft64\l/radix4_nofile.c" alt="" coords="317,102,448,149"/>
-<area shape="rect" id="node9" href="$radix4__nostdlib_8c.html" title="core/software/fft64\l/radix4_nostdlib.c" alt="" coords="472,102,603,149"/>
-</map>

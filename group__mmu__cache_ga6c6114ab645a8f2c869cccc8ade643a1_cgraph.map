@@ -1,4 +1,0 @@
-<map id="mmu_cache_base::exec_instr" name="mmu_cache_base::exec_instr">
-<area shape="rect" id="node3" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="223,5,356,35"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="220,59,359,88"/>
-</map>

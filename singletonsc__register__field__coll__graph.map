@@ -1,9 +1,0 @@
-<map id="sc_register_field&lt; T, highpos, lowpos &gt;" name="sc_register_field&lt; T, highpos, lowpos &gt;">
-<area shape="rect" id="node2" href="$singletonsc__register__field__b.html" title="T is the data type of the register that contains this field. " alt="" coords="221,963,387,1289"/>
-<area shape="rect" id="node3" href="$classsc__register__field__base.html" title="{sc_register_field_base\n||+ sc_register_field_base()\l+ sc_register_field_base()\l+ ~sc_register_field_base()\l+ name()\l+ desc()\l+ low_pos()\l+ high_pos()\l+ bit_width()\l+ get_value_mnemonic()\l+ get_value_desc()\l+ print()\l# scireg_get_low_pos()\l# scireg_get_high_pos()\l# scireg_get_bit_width()\l# scireg_get_region_type()\l# scireg_get_string_attribute()\l}" alt="" coords="453,448,648,745"/>
-<area shape="rect" id="node4" href="$classscireg__ns_1_1scireg__region__if.html" title="{scireg_ns::scireg_region_if\n||+ scireg_region_if()\l+ ~scireg_region_if()\l+ scireg_get_region_type()\l+ scireg_read()\l+ scireg_write()\l+ scireg_get_bit_attributes()\l+ scireg_get_string_attribute()\l+ scireg_get_bit_width()\l+ scireg_get_byte_width()\l+ scireg_get_low_pos()\land 9 more...\l}" alt="" coords="456,147,651,371"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="333,220,413,297"/>
-<area shape="rect" id="node9" href="$classsc__rf__valuecode.html" title="{sc_rf_valuecode\n||+ sc_rf_valuecode()\l+ sc_rf_valuecode()\l+ ~sc_rf_valuecode()\l+ mnemonic()\l+ desc()\l}" alt="" coords="283,529,429,665"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="310,5,437,97"/>
-<area shape="rect" id="node11" title="STL class. " alt="" coords="45,558,168,635"/>
-</map>

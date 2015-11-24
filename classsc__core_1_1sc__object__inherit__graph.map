@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classsignalkit_1_1signal__base.html" title="{signalkit::signal_base\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="433,139,703,259"/>
-<area shape="rect" id="node5" href="$classsignalkit_1_1signal__in.html" title="{signalkit::signal_in\&lt; TYPE, MODULE \&gt;\n|&#45; m_callback\l|+ signal_in()\l+ signal_in()\l+ ~signal_in()\l+ bind()\l+ update()\l+ operator TYPE()\l+ operator()()\l}" alt="" coords="5,341,259,531"/>
-<area shape="rect" id="node9" href="$classsignalkit_1_1signal__infield.html" title="{signalkit::signal_infield\&lt; TYPE, MODULE \&gt;\n|&#45; m_channel\l&#45; m_value\l&#45; m_callback\l|+ signal_infield()\l+ signal_infield()\l+ ~signal_infield()\l+ bind()\l+ update()\l+ read()\l+ read()\l+ operator[]()\l+ operator()()\l}" alt="" coords="283,307,560,565"/>
-<area shape="rect" id="node11" href="$classsignalkit_1_1signal__out.html" title="{signalkit::signal_out\&lt; TYPE, MODULE \&gt;\n|# m_receiver\l|+ signal_out()\l+ ~signal_out()\l+ bind()\l+ write()\l+ operator()()\l+ operator=()\l+ operator=()\l}" alt="" coords="584,341,845,531"/>
-<area shape="rect" id="node14" href="$classsignalkit_1_1signal__selector.html" title="{signalkit::signal_selector\&lt; TYPE, MODULE \&gt;\n|&#45; outs\l|+ signal_selector()\l+ ~signal_selector()\l+ bind()\l+ write()\l+ read()\l+ operator()()\l}" alt="" coords="869,350,1157,522"/>
-<area shape="rect" id="node7" href="$classsignalkit_1_1signal__inout.html" title="{signalkit::signal_inout\&lt; TYPE, MODULE \&gt;\n||+ signal_inout()\l+ signal_inout()\l+ ~signal_inout()\l}" alt="" coords="288,613,557,733"/>
-</map>

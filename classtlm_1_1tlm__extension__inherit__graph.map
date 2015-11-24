@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classdcio__payload__extension.html" title="Payload extensions for TLM data cache target socket." alt="" coords="5,139,328,363"/>
-<area shape="rect" id="node5" href="$structext__erase.html" title="{ext_erase\&lt; ext_erase \&gt;\n||+ clone()\l+ copy_from()\l}" alt="" coords="352,199,512,302"/>
-<area shape="rect" id="node7" href="$classicio__payload__extension.html" title="Payload extensions for TLM instruction cache target socket." alt="" coords="536,147,851,354"/>
-</map>

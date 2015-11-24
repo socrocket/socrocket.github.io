@@ -1,7 +1,0 @@
-<map id="signalkit::signal_out&lt; TYPE, MODULE &gt;" name="signalkit::signal_out&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html" title="{signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="36,403,183,541"/>
-<area shape="rect" id="node6" href="$classsignalkit_1_1signal__out__if.html" title="{signalkit::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="245,395,381,549"/>
-<area shape="rect" id="node8" href="$classsignalkit_1_1signal__if.html" title="{signalkit::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="160,157,288,312"/>
-<area shape="rect" id="node12" href="$classsignalkit_1_1signal__out__bind__if.html" title="{signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="312,175,467,295"/>
-<area shape="rect" id="node18" title="STL class. " alt="" coords="669,192,784,277"/>
-</map>

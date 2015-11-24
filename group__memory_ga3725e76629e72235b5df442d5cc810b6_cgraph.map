@@ -1,6 +1,0 @@
-<map id="Memory::transport_dbg" name="Memory::transport_dbg">
-<area shape="rect" id="node3" href="$group__memory.html#gaec8a7bc833a9f12928070debebcd0fa2" title="BaseMemory::read_block_dbg" alt="" coords="213,5,411,35"/>
-<area shape="rect" id="node7" href="$group__memory.html#gaaad89f44b8b6ac930940d241ff31737d" title="BaseMemory::write_block_dbg" alt="" coords="212,59,412,88"/>
-<area shape="rect" id="node5" href="$classStorage.html#a01af1f194e1844bfcf5a4a4a26d3e5f8" title="Storage::read_block" alt="" coords="463,5,601,35"/>
-<area shape="rect" id="node9" href="$classStorage.html#a7d5d005b4c3d8fb1944c7e9cb1557a46" title="Storage::write_block" alt="" coords="461,59,603,88"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="mmu::tlb_lookup" name="mmu::tlb_lookup">
-<area shape="rect" id="node3" href="$group__mmu__cache.html#gad8638c82f6fda49258cc7df7d938eb1c" title="LRU replacement history updater. " alt="" coords="191,5,308,35"/>
-<area shape="rect" id="node5" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="183,59,316,88"/>
-<area shape="rect" id="node7" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="189,112,309,141"/>
-<area shape="rect" id="node9" href="$group__mmu__cache.html#gab14541cb4307d8de3c2e2052ca3b7a5d" title="mmu::tlb_remove" alt="" coords="188,165,311,195"/>
-<area shape="rect" id="node11" href="$classmmu__cache__if.html#a0501f4246cc46e29a47005463678f587" title="mmu_cache_if::trigger\l_exception" alt="" coords="175,218,324,265"/>
-</map>

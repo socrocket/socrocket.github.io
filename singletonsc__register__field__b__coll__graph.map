@@ -1,8 +1,0 @@
-<map id="sc_register_field_b&lt; T &gt;" name="sc_register_field_b&lt; T &gt;">
-<area shape="rect" id="node2" href="$classsc__register__field__base.html" title="{sc_register_field_base\n||+ sc_register_field_base()\l+ sc_register_field_base()\l+ ~sc_register_field_base()\l+ name()\l+ desc()\l+ low_pos()\l+ high_pos()\l+ bit_width()\l+ get_value_mnemonic()\l+ get_value_desc()\l+ print()\l# scireg_get_low_pos()\l# scireg_get_high_pos()\l# scireg_get_bit_width()\l# scireg_get_region_type()\l# scireg_get_string_attribute()\l}" alt="" coords="5,448,200,745"/>
-<area shape="rect" id="node3" href="$classscireg__ns_1_1scireg__region__if.html" title="{scireg_ns::scireg_region_if\n||+ scireg_region_if()\l+ ~scireg_region_if()\l+ scireg_get_region_type()\l+ scireg_read()\l+ scireg_write()\l+ scireg_get_bit_attributes()\l+ scireg_get_string_attribute()\l+ scireg_get_bit_width()\l+ scireg_get_byte_width()\l+ scireg_get_low_pos()\land 9 more...\l}" alt="" coords="5,147,200,371"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="231,220,311,297"/>
-<area shape="rect" id="node8" href="$classsc__rf__valuecode.html" title="{sc_rf_valuecode\n||+ sc_rf_valuecode()\l+ sc_rf_valuecode()\l+ ~sc_rf_valuecode()\l+ mnemonic()\l+ desc()\l}" alt="" coords="225,529,370,665"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="207,5,334,97"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="395,558,517,635"/>
-</map>

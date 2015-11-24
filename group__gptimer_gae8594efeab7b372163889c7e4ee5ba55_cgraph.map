@@ -1,7 +1,0 @@
-<map id="GPTimer::end_of_elaboration" name="GPTimer::end_of_elaboration">
-<area shape="rect" id="node3" href="$group__gptimer.html#ga00aa2f6a063f7accf76900d571f0bd0f" title="Register callback executed before the prescaler config register gets read, to calculate the current v..." alt="" coords="260,5,399,35"/>
-<area shape="rect" id="node5" href="$group__gptimer.html#gaeb4e415f1ba497721d041ea2cf945fb2" title="Register callback executed before the prescaler value register gets read, to calculate the current va..." alt="" coords="255,59,404,88"/>
-<area shape="rect" id="node9" href="$group__gptimer.html#gac159200f9188081ae2d281e344cb22e5" title="Register callback executed after the presacler value is written, to recalculate the counter and ticki..." alt="" coords="461,137,613,167"/>
-<area shape="rect" id="node11" href="$group__gptimer.html#ga431dafd950d305476b86f38db3b3f527" title="Register callback executed after the presacler reset is written, to recalculate the counter and ticki..." alt="" coords="247,163,412,192"/>
-<area shape="rect" id="node7" href="$group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" title="GPTimer::valueof" alt="" coords="476,59,599,88"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="leon3_mmu_cache::clkcng" name="leon3_mmu_cache::clkcng">
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga0529f163c0826f9f5013c4849f6d4acb" title="Deal with clock changes. " alt="" coords="233,59,407,88"/>
-<area shape="rect" id="node5" href="$classcache__if.html#a39b686462607a6468ddd18a893361dee" title="cache_if::clkcng" alt="" coords="456,5,573,35"/>
-<area shape="rect" id="node7" href="$group__mmu__cache.html#gaab41cf77c3c8576f07510e3702a3f460" title="Helper functions for definition of clock cycle. " alt="" coords="467,59,563,88"/>
-<area shape="rect" id="node9" href="$group__mmu__cache.html#gab92ff71175ea466d7c1fde9311d0d905" title="Helper functions for definition of clock cycle. " alt="" coords="456,112,573,141"/>
-</map>

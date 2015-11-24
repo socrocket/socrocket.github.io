@@ -1,8 +1,0 @@
-<map id="core/software/fft64" name="core/software/fft64">
-<area shape="rect" id="node4" href="dir_e469e31cd3cb2ee2820b74e9d6e27846.html" title="input" alt="" coords="37,161,109,209"/>
-<area shape="rect" id="edge4" href="dir_000040_000046.html" title="4" alt="" coords="78,134,86,151"/>
-<area shape="rect" id="node5" href="dir_acf21c7c4586c8dabfbde697e9410be9.html" title="grlib_tests" alt="" coords="141,161,224,209"/>
-<area shape="rect" id="edge6" href="dir_000040_000008.html" title="1" alt="" coords="143,134,151,151"/>
-<area shape="rect" id="graph3" href="dir_65aed5c8f597d372d5a541d8f4dbac6f.html" alt="" coords="27,55,120,220"/>
-<area shape="rect" id="graph2" href="dir_37b063e5053086ce86cb60ba95c43de7.html" title="software" alt="" coords="16,16,131,231"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="gs::amba::amba_slave&lt; BUSWIDTH &gt;" name="gs::amba::amba_slave&lt; BUSWIDTH &gt;">
-<area shape="rect" id="node2" href="$classgs_1_1amba_1_1generic__slave__base.html" title="{gs::amba::generic_slave_base\n||+ generic_slave_base()\l+ ~generic_slave_base()\l+ get_decode_size()\l+ disable_delay()\l+ enable_delay()\l+ delay_enabled()\l# write_to_module()\l# read_from_module()\l}" alt="" coords="103,193,300,399"/>
-<area shape="rect" id="node8" href="$classbool.html" title="{bool\n||}" alt="" coords="312,15,357,100"/>
-</map>

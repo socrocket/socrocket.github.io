@@ -1,4 +1,0 @@
-<map id="core/models/extern/LEON3/trapSources/irqTester/asm.h" name="core/models/extern/LEON3/trapSources/irqTester/asm.h">
-<area shape="rect" id="node3" href="$exceptionTrap-irq_8S.html" title="core/models/extern\l/LEON3/trapSources/irqTester\l/exceptionTrap&#45;irq.S" alt="" coords="5,101,203,165"/>
-<area shape="rect" id="node5" href="$osemu-irq-crt0_8S.html" title="core/models/extern\l/LEON3/trapSources/irqTester\l/osemu&#45;irq&#45;crt0.S" alt="" coords="227,101,424,165"/>
-</map>

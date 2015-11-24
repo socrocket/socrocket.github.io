@@ -1,4 +1,0 @@
-<map id="signalkit::signal_selector&lt; TYPE, MODULE &gt;" name="signalkit::signal_selector&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html" title="{signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,139,152,277"/>
-<area shape="rect" id="node6" href="$classsignalkit_1_1signal__out__bind__if.html" title="{signalkit::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="176,148,331,268"/>
-</map>

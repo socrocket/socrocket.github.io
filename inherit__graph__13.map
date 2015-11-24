@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$classBuild_1_1BuildContext.html" title="BuildContext" alt="" coords="7,59,103,88"/>
-<area shape="rect" id="node3" href="$classcore_1_1waf_1_1common_1_1Macclean.html" title="core::waf::common::Macclean" alt="" coords="153,5,351,35"/>
-<area shape="rect" id="node5" href="$classcore_1_1waf_1_1cpplint_1_1CPPLint.html" title="core::waf::cpplint::CPPLint" alt="" coords="163,59,341,88"/>
-<area shape="rect" id="node7" href="$classcore_1_1waf_1_1oclint_1_1OCLint.html" title="core::waf::oclint::OCLint" alt="" coords="171,112,333,141"/>
-</map>

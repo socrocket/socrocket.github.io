@@ -1,5 +1,0 @@
-<map id="Leon3mpPlatform::Leon3mpPlatform" name="Leon3mpPlatform::Leon3mpPlatform">
-<area shape="rect" id="node3" href="$namespacesignalkit.html#a490da5f4853929ced113fca1504716e7" title="Connects an input signal with an output signal. " alt="" coords="241,48,364,77"/>
-<area shape="rect" id="node5" href="$classsignalkit_1_1signal__in__if.html#a26f44dc63400a8ec804095e2b428988e" title="signalkit::signal_in\l_if::bind" alt="" coords="419,5,547,51"/>
-<area shape="rect" id="node7" href="$classsignalkit_1_1signal__out__bind__if.html#a392ba399d74861253067d2bf0ee06cd5" title="signalkit::signal_out\l_bind_if::bind" alt="" coords="415,74,551,121"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="signalkit::signal_in&lt; TYPE, MODULE &gt;" name="signalkit::signal_in&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node11" href="$classsignalkit_1_1signal__inout.html" title="{signalkit::signal_inout\l\&lt; TYPE, MODULE \&gt;\n||+ signal_inout()\l+ signal_inout()\l+ ~signal_inout()\l}" alt="" coords="85,651,232,789"/>
-<area shape="rect" id="node2" href="$classsignalkit_1_1signal__base.html" title="{signalkit::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,209,152,346"/>
-<area shape="rect" id="node6" href="$classsignalkit_1_1signal__in__if.html" title="{signalkit::signal_in\l_if\&lt; TYPE \&gt;\n||+ ~signal_in_if()\l+ bind()\l+ update()\l}" alt="" coords="176,209,304,346"/>
-<area shape="rect" id="node8" href="$classsignalkit_1_1signal__if.html" title="{signalkit::signal_if\l\&lt; TYPE \&gt;\n|# m_value\l|+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="176,5,304,160"/>
-</map>

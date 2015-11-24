@@ -1,8 +1,0 @@
-<map id="gs_param_t" name="gs_param_t">
-<area shape="rect" id="node3" href="$classgs__param_3_01char_01_4.html" title="Template specialization for gs_param&lt;char&gt;. " alt="" coords="5,147,211,458"/>
-<area shape="rect" id="node5" href="$classgs__param_3_01long_01long_01_4.html" title="Template specialization for gs_param&lt;long long int&gt;. " alt="" coords="235,139,440,467"/>
-<area shape="rect" id="node7" href="$classgs__param_3_01signed_01char_01_4.html" title="Template specialization for gs_param&lt;signed char&gt;. " alt="" coords="464,147,669,458"/>
-<area shape="rect" id="node9" href="$classgs__param_3_01unsigned_01char_01_4.html" title="Template specialization for gs_param&lt;unsigned char&gt;. " alt="" coords="693,139,899,467"/>
-<area shape="rect" id="node11" href="$classgs__param_3_01unsigned_01long_01long_01_4.html" title="Template specialization for gs_param&lt;unsigned long long int&gt;. " alt="" coords="923,147,1128,458"/>
-<area shape="rect" id="node13" href="$classgs__param_3_01unsigned_01short_01_4.html" title="Template specialization for gs_param&lt;unsigned short&gt;. " alt="" coords="1152,147,1357,458"/>
-</map>

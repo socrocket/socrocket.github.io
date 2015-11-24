@@ -1,9 +1,0 @@
-<map id="core.waf.repo.repo.work" name="core.waf.repo.repo.work">
-<area shape="rect" id="node3" href="$classcore_1_1waf_1_1repo_1_1repo.html#aa06459a48fab0b7973a46f1c8877dd19" title="core.waf.repo.repo.add_repo" alt="" coords="221,5,408,35"/>
-<area shape="rect" id="node7" href="$classcore_1_1waf_1_1repo_1_1repo.html#a05d13b84c5387f6478d3736d269e03fb" title="core.waf.repo.repo.del_repo" alt="" coords="224,59,405,88"/>
-<area shape="rect" id="node9" href="$classcore_1_1waf_1_1repo_1_1repo.html#a437bcae5519d30dd5c8697e431b00187" title="core.waf.repo.repo.git_cmd" alt="" coords="465,219,644,248"/>
-<area shape="rect" id="node11" href="$classcore_1_1waf_1_1repo_1_1repo.html#a9e6826cc3c7c3769ce685451f6272e9d" title="core.waf.repo.repo.mv_cmd" alt="" coords="223,165,407,195"/>
-<area shape="rect" id="node14" href="$classcore_1_1waf_1_1repo_1_1repo.html#abfc599d97b2fe5676c8a50ee2f567056" title="core.waf.repo.repo.show_help" alt="" coords="217,219,412,248"/>
-<area shape="rect" id="node16" href="$classcore_1_1waf_1_1repo_1_1repo.html#a864b3114a727f410a95365c813f2f5b0" title="core.waf.repo.repo.show_repo" alt="" coords="216,112,413,141"/>
-<area shape="rect" id="node5" href="$namespacecore_1_1waf_1_1repo.html#aba8dac6e9a55ff63b780cf4316afdfd5" title="core.waf.repo.get_repo_vals" alt="" coords="461,59,648,88"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="sc_register_b&lt; T &gt;" name="sc_register_b&lt; T &gt;">
-<area shape="rect" id="node2" href="$classsc__register__base.html" title="Register. " alt="" coords="85,463,285,731"/>
-<area shape="rect" id="node4" href="$classscireg__ns_1_1scireg__region__if.html" title="{scireg_ns::scireg_region_if\n||+ scireg_region_if()\l+ ~scireg_region_if()\l+ scireg_get_region_type()\l+ scireg_read()\l+ scireg_write()\l+ scireg_get_bit_attributes()\l+ scireg_get_string_attribute()\l+ scireg_get_bit_width()\l+ scireg_get_byte_width()\l+ scireg_get_low_pos()\land 9 more...\l}" alt="" coords="309,147,503,371"/>
-<area shape="rect" id="node8" href="$classsc__register__field__base.html" title="{sc_register_field_base\n||+ sc_register_field_base()\l+ sc_register_field_base()\l+ ~sc_register_field_base()\l+ name()\l+ desc()\l+ low_pos()\l+ high_pos()\l+ bit_width()\l+ get_value_mnemonic()\l+ get_value_desc()\l+ print()\l# scireg_get_low_pos()\l# scireg_get_high_pos()\l# scireg_get_bit_width()\l# scireg_get_region_type()\l# scireg_get_string_attribute()\l}" alt="" coords="309,448,503,745"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="205,220,285,297"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="181,5,308,97"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="557,558,673,635"/>
-<area shape="rect" id="node13" href="$classscireg__ns_1_1scireg__callback.html" title="The scireg_callback is an abstract base class that is used to implement callbacks to tools..." alt="" coords="827,551,1003,643"/>
-</map>
