@@ -1,7 +1,7 @@
 <map id="sr_signal::signal_out&lt; TYPE, MODULE &gt;" name="sr_signal::signal_out&lt; TYPE, MODULE &gt;">
-<area shape="rect" id="node2" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,367,155,489"/>
-<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__if.html" title="{sr_signal::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="211,360,351,496"/>
-<area shape="rect" id="node5" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="112,147,241,283"/>
-<area shape="rect" id="node7" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="267,161,420,268"/>
-<area shape="rect" id="node10" title="STL class. " alt="" coords="625,176,740,253"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__base.html" title="{sr_signal::signal_base\l\&lt; TYPE, MODULE \&gt;\n||+ signal_base()\l+ ~signal_base()\l# get_module()\l}" alt="" coords="5,366,156,487"/>
+<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__if.html" title="{sr_signal::signal_out\l_if\&lt; TYPE \&gt;\n||+ ~signal_out_if()\l+ write()\l+ operator=()\l+ operator=()\l}" alt="" coords="211,359,353,495"/>
+<area shape="rect" id="node5" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="113,145,243,281"/>
+<area shape="rect" id="node7" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="267,160,422,267"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="625,175,741,252"/>
 </map>

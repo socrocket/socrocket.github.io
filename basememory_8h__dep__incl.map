@@ -1,10 +1,10 @@
 <map id="gaisler/memory/basememory.h" name="gaisler/memory/basememory.h">
 <area shape="rect" id="node2" href="$memorypower_8h.html" title="gaisler/memory/memorypower.h" alt="" coords="183,80,391,107"/>
 <area shape="rect" id="node7" href="$ahbmem_8h.html" title="gaisler/ahbmem/ahbmem.h" alt="" coords="415,80,593,107"/>
-<area shape="rect" id="node9" href="$basememory_8cpp.html" title="gaisler/memory/basememory.cpp" alt="" coords="618,80,832,107"/>
+<area shape="rect" id="node9" href="$basememory_8cpp.html" title="gaisler/memory/basememory.cpp" alt="" coords="618,80,833,107"/>
 <area shape="rect" id="node3" href="$memory_8h.html" title="gaisler/memory/memory.h" alt="" coords="12,155,185,181"/>
-<area shape="rect" id="node6" href="$memorypower_8cpp.html" title="gaisler/memory/memorypower.cpp" alt="" coords="210,155,432,181"/>
-<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="303,230,461,271"/>
-<area shape="rect" id="node5" href="$memory_2memory_8cpp.html" title="gaisler/memory/memory.cpp" alt="" coords="5,237,192,264"/>
-<area shape="rect" id="node8" href="$ahbmem_8cpp.html" title="gaisler/ahbmem/ahbmem.cpp" alt="" coords="507,155,700,181"/>
+<area shape="rect" id="node6" href="$memorypower_8cpp.html" title="gaisler/memory/memorypower.cpp" alt="" coords="210,155,433,181"/>
+<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="303,229,462,271"/>
+<area shape="rect" id="node5" href="$memory_2memory_8cpp.html" title="gaisler/memory/memory.cpp" alt="" coords="5,237,192,263"/>
+<area shape="rect" id="node8" href="$ahbmem_8cpp.html" title="gaisler/ahbmem/ahbmem.cpp" alt="" coords="507,155,701,181"/>
 </map>

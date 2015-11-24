@@ -1,5 +1,5 @@
 <map id="IntrinsicManager&lt; issueWidth &gt;" name="IntrinsicManager&lt; issueWidth &gt;">
-<area shape="rect" id="node5" href="$classIntrinsicManager.html" title="{IntrinsicManager\&lt; unsigned\l int \&gt;\n|+ processorInstance\l|+ IntrinsicManager()\l+ register_intrinsic()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~IntrinsicManager()\l}" alt="" coords="107,496,289,661"/>
-<area shape="rect" id="node3" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="108,64,289,171"/>
-<area shape="rect" id="node4" href="$classIntrinsicBase.html" title="{IntrinsicBase\n|+ env\l+ sysconfmap\l+ programArgs\l+ heapPointer\l+ exitValue\l+ groupIDs\l+ programsCount\l|+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="313,5,460,229"/>
+<area shape="rect" id="node5" href="$classIntrinsicManager.html" title="{IntrinsicManager\&lt; unsigned\l int \&gt;\n|+ processorInstance\l|+ IntrinsicManager()\l+ register_intrinsic()\l+ newIssue()\l+ emptyPipeline()\l+ reset()\l+ ~IntrinsicManager()\l}" alt="" coords="108,492,291,657"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="109,64,290,171"/>
+<area shape="rect" id="node4" href="$classIntrinsicBase.html" title="{IntrinsicBase\n|+ env\l+ sysconfmap\l+ programArgs\l+ heapPointer\l+ exitValue\l+ groupIDs\l+ programsCount\l|+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="314,5,461,229"/>
 </map>

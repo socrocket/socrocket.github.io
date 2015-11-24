@@ -1,8 +1,8 @@
 <map id="mmu_cache::icio_transport_dbg" name="mmu_cache::icio_transport_dbg">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="262,61,423,88"/>
-<area shape="rect" id="node3" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="473,54,637,95"/>
-<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="731,5,781,32"/>
-<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="501,120,608,147"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="686,60,826,87"/>
-<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="689,111,823,137"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="260,61,421,88"/>
+<area shape="rect" id="node3" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="469,54,633,95"/>
+<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="726,5,777,32"/>
+<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="498,120,605,147"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="681,60,821,87"/>
+<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="684,111,819,137"/>
 </map>

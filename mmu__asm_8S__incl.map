@@ -1,5 +1,5 @@
 <map id="core/software/grlib_tests/mmu_asm.S" name="core/software/grlib_tests/mmu_asm.S">
-<area shape="rect" id="node2" href="$core_2software_2grlib__tests_2leon3_8h.html" title="leon3.h" alt="" coords="5,96,69,123"/>
-<area shape="rect" id="node3" href="$testmod_8h.html" title="testmod.h" alt="" coords="93,96,172,123"/>
-<area shape="rect" id="node4" href="$core_2software_2grlib__tests_2mmu_8h.html" title="mmu.h" alt="" coords="198,96,260,123"/>
+<area shape="rect" id="node3" href="$leon3_8h.html" title="leon3.h" alt="" coords="5,101,69,131"/>
+<area shape="rect" id="node5" href="$testmod_8h.html" title="testmod.h" alt="" coords="93,101,173,131"/>
+<area shape="rect" id="node7" href="$software_2grlib__tests_2mmu_8h.html" title="mmu.h" alt="" coords="197,101,259,131"/>
 </map>

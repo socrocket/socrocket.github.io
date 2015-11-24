@@ -1,4 +1,4 @@
 <map id="APBSlaveSocket&lt; BUSWIDTH, ADDR_TYPE, DATA_TYPE &gt;" name="APBSlaveSocket&lt; BUSWIDTH, ADDR_TYPE, DATA_TYPE &gt;">
-<area shape="rect" id="node5" href="$classAPBSlaveSocket.html" title="{APBSlaveSocket\&lt; 32,\l unsigned int, unsigned int \&gt;\n||+ APBSlaveSocket()\l+ get_base_addr()\l+ get_size()\l}" alt="" coords="89,582,276,703"/>
-<area shape="rect" id="node2" href="$classsr__register__amba__socket.html" title="{sr_register_amba_socket\l\&lt; BUSWIDTH, ADDR_TYPE,\l DATA_TYPE \&gt;\n|+ m_register\l|+ sr_register_amba_socket()\l+ ~sr_register_amba_socket()\l+ transport_dbg()\l+ b_transport()\l+ get_base_addr()\l+ get_size()\l}" alt="" coords="83,150,281,330"/>
+<area shape="rect" id="node5" href="$classAPBSlaveSocket.html" title="{APBSlaveSocket\&lt; 32,\l unsigned int, unsigned int \&gt;\n||+ APBSlaveSocket()\l+ get_base_addr()\l+ get_size()\l}" alt="" coords="89,575,276,696"/>
+<area shape="rect" id="node2" href="$classsr__register__amba__socket.html" title="{sr_register_amba_socket\l\&lt; BUSWIDTH, ADDR_TYPE,\l DATA_TYPE \&gt;\n|+ m_register\l|+ sr_register_amba_socket()\l+ ~sr_register_amba_socket()\l+ transport_dbg()\l+ b_transport()\l+ get_base_addr()\l+ get_size()\l}" alt="" coords="83,147,283,327"/>
 </map>

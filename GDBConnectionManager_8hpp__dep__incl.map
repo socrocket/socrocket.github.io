@@ -1,8 +1,8 @@
 <map id="core/common/trapgen/debugger/GDBConnectionManager.hpp" name="core/common/trapgen/debugger/GDBConnectionManager.hpp">
-<area shape="rect" id="node2" href="$GDBConnectionManager_8cpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.cpp" alt="" coords="5,97,259,138"/>
-<area shape="rect" id="node3" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="283,97,447,138"/>
-<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="178,278,336,319"/>
-<area shape="rect" id="node5" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="295,195,435,221"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="461,187,595,229"/>
-<area shape="rect" id="node6" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="361,285,515,312"/>
+<area shape="rect" id="node2" href="$GDBConnectionManager_8cpp.html" title="core/common/trapgen\l/debugger/GDBConnectionManager.cpp" alt="" coords="5,95,259,136"/>
+<area shape="rect" id="node3" href="$GDBStub_8hpp.html" title="core/common/trapgen\l/debugger/GDBStub.hpp" alt="" coords="283,95,447,136"/>
+<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="178,273,337,315"/>
+<area shape="rect" id="node5" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="295,191,436,218"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="461,184,595,225"/>
+<area shape="rect" id="node6" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="361,281,516,307"/>
 </map>

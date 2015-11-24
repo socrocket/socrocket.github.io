@@ -1,6 +1,8 @@
 <map id="ramfill" name="ramfill">
-<area shape="rect" id="node2" href="$ramfill_8c.html#af8da62d251048a6a57365ef1541338c4" title="cache_disable" alt="" coords="113,5,218,32"/>
-<area shape="rect" id="node3" href="$ramfill_8c.html#a8c56c4c4a9e578ad50002d8d751b94e1" title="cache_enable" alt="" coords="114,56,217,83"/>
-<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="140,107,191,133"/>
-<area shape="rect" id="node5" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="133,157,198,184"/>
+<area shape="rect" id="node2" href="$ramfill_8c.html#af8da62d251048a6a57365ef1541338c4" title="cache_disable" alt="" coords="111,5,216,32"/>
+<area shape="rect" id="node3" href="$ramfill_8c.html#a8c56c4c4a9e578ad50002d8d751b94e1" title="cache_enable" alt="" coords="112,56,215,83"/>
+<area shape="rect" id="node4" href="$cache_8h.html#a36a92ef3bc91c345d0c1da0f031ce17c" title="dfill" alt="" coords="142,107,185,133"/>
+<area shape="rect" id="node5" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="138,157,189,184"/>
+<area shape="rect" id="node6" href="$cache_8h.html#a94d9b92915c7a6c5493168f8b09dc584" title="ifill" alt="" coords="144,208,183,235"/>
+<area shape="rect" id="node7" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="131,259,196,285"/>
 </map>

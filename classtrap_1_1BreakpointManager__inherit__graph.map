@@ -1,4 +1,4 @@
 <map id="trap::BreakpointManager&lt; AddressType &gt;" name="trap::BreakpointManager&lt; AddressType &gt;">
-<area shape="rect" id="node2" href="$classtrap_1_1BreakpointManager.html" title="{trap::BreakpointManager\l\&lt; issueWidth \&gt;\n||+ BreakpointManager()\l+ clearAllBreaks()\l+ addBreakpoint()\l+ removeBreakpoint()\l+ hasBreakpoint()\l+ getBreakPoint()\l+ getBreakpoints()\l}" alt="" coords="5,251,168,431"/>
-<area shape="rect" id="node3" href="$classtrap_1_1BreakpointManager.html" title="{trap::BreakpointManager\l\&lt; unsigned int \&gt;\n||+ BreakpointManager()\l+ clearAllBreaks()\l+ addBreakpoint()\l+ removeBreakpoint()\l+ hasBreakpoint()\l+ getBreakPoint()\l+ getBreakpoints()\l}" alt="" coords="193,251,356,431"/>
+<area shape="rect" id="node2" href="$classtrap_1_1BreakpointManager.html" title="{trap::BreakpointManager\l\&lt; issueWidth \&gt;\n||+ BreakpointManager()\l+ clearAllBreaks()\l+ addBreakpoint()\l+ removeBreakpoint()\l+ hasBreakpoint()\l+ getBreakPoint()\l+ getBreakpoints()\l}" alt="" coords="5,248,169,428"/>
+<area shape="rect" id="node3" href="$classtrap_1_1BreakpointManager.html" title="{trap::BreakpointManager\l\&lt; unsigned int \&gt;\n||+ BreakpointManager()\l+ clearAllBreaks()\l+ addBreakpoint()\l+ removeBreakpoint()\l+ hasBreakpoint()\l+ getBreakPoint()\l+ getBreakpoints()\l}" alt="" coords="193,248,357,428"/>
 </map>

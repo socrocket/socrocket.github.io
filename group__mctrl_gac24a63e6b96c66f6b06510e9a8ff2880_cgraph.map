@@ -1,18 +1,20 @@
 <map id="Mctrl::Mctrl" name="Mctrl::Mctrl">
-<area shape="rect" id="node2" href="$classAPBSlaveSocket.html#aca2eb85bcea7574c8c1117dd9d6b2786" title="APBSlaveSocket::get\l_base_addr" alt="" coords="159,5,308,46"/>
-<area shape="rect" id="node3" href="$group__mctrl.html#gab49a9feb5f405a8a6518a4f4f84b14ea" title="Mctrl::get_direct_mem_ptr" alt="" coords="146,71,321,97"/>
-<area shape="rect" id="node4" href="$classAPBSlaveSocket.html#af45dd03d46abe3139a7951d2fc910b76" title="APBSlaveSocket::get_size" alt="" coords="143,121,323,148"/>
-<area shape="rect" id="node5" href="$classAPBDevice.html#a72e0a96bc8a877662440910e5084f98f" title="APBDevice\&lt; BaseModule\l\&lt; DefaultBase \&gt; \&gt;::init_apb" alt="" coords="142,173,325,214"/>
-<area shape="rect" id="node6" href="$group__mctrl.html#gaa9d3e76f000eb67271e0a623f4ca11b7" title="Initialize generics. " alt="" coords="167,239,299,265"/>
-<area shape="rect" id="node8" href="$group__mctrl.html#gac431f0cb1e3c682b8c3b74e3b38d438e" title="Initialize registers. " alt="" coords="167,289,300,316"/>
-<area shape="rect" id="node17" href="$group__mctrl.html#gad057cd7d98322fb29df7116ef4a05b49" title="Mctrl::invalidate_direct\l_mem_ptr" alt="" coords="157,341,310,382"/>
-<area shape="rect" id="node7" href="$classsr__param__base.html#ad7c5b28a15c30bb579ff36c8ae356829" title="sr_param_base::add\l_properties" alt="" coords="393,66,533,107"/>
-<area shape="rect" id="node9" href="$classsr__register.html#aaeac716c8e8024b831fb2a3f08791ed7" title="sr_register::callback" alt="" coords="393,132,532,159"/>
-<area shape="rect" id="node10" href="$classsr__register.html#aaddf7cddd47ab160a27ff252392b163e" title="sr_register::create\l_field" alt="" coords="399,183,526,225"/>
-<area shape="rect" id="node11" href="$classsr__register__bank.html#a4653224684ca13165b003b66a283a972" title="sr_register_bank::create\l_register" alt="" coords="381,249,544,290"/>
-<area shape="rect" id="node12" href="$group__mctrl.html#ga0d33a4fe6e2ba2dda9b5e9acf39897d4" title="Mctrl::launch_sdram\l_command" alt="" coords="393,314,533,355"/>
-<area shape="rect" id="node13" href="$group__mctrl.html#ga22b0f61cecbbaa04a6203ee279cc86e3" title="Mctrl::mcfg1_write" alt="" coords="397,380,528,407"/>
-<area shape="rect" id="node14" href="$group__mctrl.html#gae239bb2ea0c869c8304ee836a7e0d94c" title="Mctrl::mcfg2_write" alt="" coords="397,431,528,457"/>
-<area shape="rect" id="node15" href="$group__mctrl.html#ga95d3d19f6439cab3ede4b434fb9f2353" title="Mctrl::switch_power_mode" alt="" coords="373,481,552,508"/>
-<area shape="rect" id="node16" href="$classsr__param__t.html#a8e719d658675c441551981a331a8bd61" title="Returns the value of this parameter. " alt="" coords="600,481,747,508"/>
+<area shape="rect" id="node2" href="$classAPBSlaveSocket.html#aca2eb85bcea7574c8c1117dd9d6b2786" title="APBSlaveSocket::get\l_base_addr" alt="" coords="158,5,307,47"/>
+<area shape="rect" id="node3" href="$group__mctrl.html#gab49a9feb5f405a8a6518a4f4f84b14ea" title="Mctrl::get_direct_mem_ptr" alt="" coords="145,71,320,98"/>
+<area shape="rect" id="node6" href="$classAPBSlaveSocket.html#af45dd03d46abe3139a7951d2fc910b76" title="APBSlaveSocket::get_size" alt="" coords="143,122,323,149"/>
+<area shape="rect" id="node7" href="$classAPBDevice.html#a72e0a96bc8a877662440910e5084f98f" title="APBDevice\&lt; BaseModule\l\&lt; DefaultBase \&gt; \&gt;::init_apb" alt="" coords="141,173,324,215"/>
+<area shape="rect" id="node8" href="$group__mctrl.html#gaa9d3e76f000eb67271e0a623f4ca11b7" title="Initialize generics. " alt="" coords="167,239,299,266"/>
+<area shape="rect" id="node10" href="$group__mctrl.html#gac431f0cb1e3c682b8c3b74e3b38d438e" title="Initialize registers. " alt="" coords="166,301,299,327"/>
+<area shape="rect" id="node19" href="$group__mctrl.html#gad057cd7d98322fb29df7116ef4a05b49" title="Mctrl::invalidate_direct\l_mem_ptr" alt="" coords="156,352,309,393"/>
+<area shape="rect" id="node4" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="648,267,696,294"/>
+<area shape="rect" id="node5" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="793,267,869,294"/>
+<area shape="rect" id="node9" href="$classsr__param__base.html#ad7c5b28a15c30bb579ff36c8ae356829" title="sr_param_base::add\l_properties" alt="" coords="391,111,531,152"/>
+<area shape="rect" id="node11" href="$classsr__register.html#aaeac716c8e8024b831fb2a3f08791ed7" title="sr_register::callback" alt="" coords="392,177,531,203"/>
+<area shape="rect" id="node12" href="$classsr__register.html#aaddf7cddd47ab160a27ff252392b163e" title="sr_register::create\l_field" alt="" coords="398,228,525,269"/>
+<area shape="rect" id="node13" href="$classsr__register__bank.html#a4653224684ca13165b003b66a283a972" title="sr_register_bank::create\l_register" alt="" coords="380,293,543,335"/>
+<area shape="rect" id="node14" href="$group__mctrl.html#ga0d33a4fe6e2ba2dda9b5e9acf39897d4" title="Mctrl::launch_sdram\l_command" alt="" coords="391,359,531,400"/>
+<area shape="rect" id="node15" href="$group__mctrl.html#ga22b0f61cecbbaa04a6203ee279cc86e3" title="Mctrl::mcfg1_write" alt="" coords="396,425,527,451"/>
+<area shape="rect" id="node16" href="$group__mctrl.html#gae239bb2ea0c869c8304ee836a7e0d94c" title="Mctrl::mcfg2_write" alt="" coords="396,475,527,502"/>
+<area shape="rect" id="node17" href="$group__mctrl.html#ga95d3d19f6439cab3ede4b434fb9f2353" title="Mctrl::switch_power_mode" alt="" coords="372,526,551,553"/>
+<area shape="rect" id="node18" href="$classsr__param__t.html#a8e719d658675c441551981a331a8bd61" title="Returns the value of this parameter. " alt="" coords="599,526,745,553"/>
 </map>

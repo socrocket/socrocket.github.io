@@ -1,9 +1,9 @@
 <map id="pysc/usi/core/registry.h" name="pysc/usi/core/registry.h">
 <area shape="rect" id="node2" href="$module_8cpp.html" title="pysc/usi/core/module.cpp" alt="" coords="5,80,176,107"/>
-<area shape="rect" id="node3" href="$registry_8cpp.html" title="pysc/usi/core/registry.cpp" alt="" coords="201,80,372,107"/>
-<area shape="rect" id="node4" href="$usi_8h.html" title="pysc/usi.h" alt="" coords="397,80,479,107"/>
-<area shape="rect" id="node5" href="$tlm2__getting__started__1_8cpp.html" title="pysc/tests/questasim\l/tlm2_getting_started_1.cpp" alt="" coords="73,155,255,197"/>
-<area shape="rect" id="node6" href="$cci_8cpp.html" title="pysc/usi/api/cci.cpp" alt="" coords="280,163,419,189"/>
-<area shape="rect" id="node7" href="$systemc_8cpp.html" title="pysc/usi/api/systemc.cpp" alt="" coords="443,163,613,189"/>
-<area shape="rect" id="node8" href="$delegate_8h.html" title="pysc/usi/core/delegate.h" alt="" coords="638,163,801,189"/>
+<area shape="rect" id="node3" href="$registry_8cpp.html" title="pysc/usi/core/registry.cpp" alt="" coords="201,80,373,107"/>
+<area shape="rect" id="node4" href="$usi_8h.html" title="pysc/usi.h" alt="" coords="397,80,480,107"/>
+<area shape="rect" id="node5" href="$tlm2__getting__started__1_8cpp.html" title="pysc/tests/questasim\l/tlm2_getting_started_1.cpp" alt="" coords="73,155,255,196"/>
+<area shape="rect" id="node6" href="$cci_8cpp.html" title="pysc/usi/api/cci.cpp" alt="" coords="280,162,419,189"/>
+<area shape="rect" id="node7" href="$systemc_8cpp.html" title="pysc/usi/api/systemc.cpp" alt="" coords="443,162,613,189"/>
+<area shape="rect" id="node8" href="$delegate_8h.html" title="pysc/usi/core/delegate.h" alt="" coords="638,162,802,189"/>
 </map>

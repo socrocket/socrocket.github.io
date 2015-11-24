@@ -1,14 +1,14 @@
 <map id="gaisler/leon3/intunit/interface.hpp" name="gaisler/leon3/intunit/interface.hpp">
-<area shape="rect" id="node2" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="603,187,751,229"/>
-<area shape="rect" id="node5" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="518,278,665,319"/>
-<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="294,278,441,319"/>
-<area shape="rect" id="node16" href="$memory_8hpp.html" title="gaisler/leon3/intunit\l/memory.hpp" alt="" coords="471,97,605,138"/>
-<area shape="rect" id="node18" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="965,195,1131,221"/>
-<area shape="rect" id="node23" href="$registers_8hpp.html" title="gaisler/leon3/intunit\l/registers.hpp" alt="" coords="1535,187,1669,229"/>
-<area shape="rect" id="node32" href="$alias_8hpp.html" title="gaisler/leon3/intunit\l/alias.hpp" alt="" coords="1634,97,1768,138"/>
-<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="195,369,381,410"/>
-<area shape="rect" id="node17" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="431,187,579,229"/>
-<area shape="rect" id="node24" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="1523,285,1703,312"/>
-<area shape="rect" id="node25" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="1519,369,1685,410"/>
-<area shape="rect" id="node30" href="$sr__register_2scireg_8h.html" title="scireg.h" alt="" coords="1615,459,1683,485"/>
+<area shape="rect" id="node2" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="603,184,751,225"/>
+<area shape="rect" id="node5" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="518,273,666,315"/>
+<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="294,273,442,315"/>
+<area shape="rect" id="node16" href="$memory_8hpp.html" title="gaisler/leon3/intunit\l/memory.hpp" alt="" coords="471,95,606,136"/>
+<area shape="rect" id="node18" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="965,191,1131,218"/>
+<area shape="rect" id="node23" href="$registers_8hpp.html" title="gaisler/leon3/intunit\l/registers.hpp" alt="" coords="1535,184,1670,225"/>
+<area shape="rect" id="node32" href="$alias_8hpp.html" title="gaisler/leon3/intunit\l/alias.hpp" alt="" coords="1634,95,1769,136"/>
+<area shape="rect" id="node14" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="195,363,381,404"/>
+<area shape="rect" id="node17" href="$ToolsIf_8hpp.html" title="core/common/trapgen\l/ToolsIf.hpp" alt="" coords="431,184,579,225"/>
+<area shape="rect" id="node24" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="1523,281,1703,307"/>
+<area shape="rect" id="node25" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="1519,363,1686,404"/>
+<area shape="rect" id="node30" href="$sr__register_2scireg_8h.html" title="scireg.h" alt="" coords="1615,452,1683,479"/>
 </map>

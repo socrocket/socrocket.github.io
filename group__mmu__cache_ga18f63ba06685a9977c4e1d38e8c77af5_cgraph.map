@@ -1,8 +1,8 @@
 <map id="mmu_cache::icio_b_transport" name="mmu_cache::icio_b_transport">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="249,61,410,88"/>
-<area shape="rect" id="node3" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="459,54,623,95"/>
-<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="717,5,768,32"/>
-<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="488,120,595,147"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="673,60,813,87"/>
-<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="675,111,810,137"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="247,61,408,88"/>
+<area shape="rect" id="node3" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="456,54,620,95"/>
+<area shape="rect" id="node4" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="713,5,763,32"/>
+<area shape="rect" id="node7" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="485,120,591,147"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="668,60,808,87"/>
+<area shape="rect" id="node6" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="671,111,805,137"/>
 </map>

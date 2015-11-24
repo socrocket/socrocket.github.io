@@ -1,8 +1,8 @@
 <map id="register.RegisterHandler" name="register.RegisterHandler">
-<area shape="rect" id="node2" href="$namespacedoxycomment.html#ab278ae1802f96613f914f3f823da5839" title="doxycomment.BlockHandler" alt="" coords="216,73,403,100"/>
-<area shape="rect" id="node3" href="$namespacedoxygen__preprocessor.html#a7deaf38424a3580d894297d6acd5de4c" title="doxygen_preprocessor.Command\lLineHandler" alt="" coords="451,5,669,46"/>
-<area shape="rect" id="node7" href="$namespacefilterprocessor.html#a23f478f7f6c6f79c80746c0729bd219e" title="filterprocessor.FilterFiles" alt="" coords="227,124,392,151"/>
-<area shape="rect" id="node4" href="$namespacedoxycomment.html#a577aeea0319393b27b7e196133a5669b" title="doxycomment.ExtractComment\lBlocks" alt="" coords="457,70,663,111"/>
-<area shape="rect" id="node6" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="539,136,581,163"/>
-<area shape="rect" id="node5" href="$namespacedoxycomment.html#abbf439c4e45c5daa6dee4b9594db3d9c" title="doxycomment.FindDoxygenComments" alt="" coords="718,77,967,104"/>
+<area shape="rect" id="node2" href="$namespacedoxycomment.html#ab278ae1802f96613f914f3f823da5839" title="doxycomment.BlockHandler" alt="" coords="216,74,403,101"/>
+<area shape="rect" id="node3" href="$namespacedoxygen__preprocessor.html#a7deaf38424a3580d894297d6acd5de4c" title="doxygen_preprocessor.Command\lLineHandler" alt="" coords="451,5,668,47"/>
+<area shape="rect" id="node7" href="$namespacefilterprocessor.html#a23f478f7f6c6f79c80746c0729bd219e" title="filterprocessor.FilterFiles" alt="" coords="227,125,392,151"/>
+<area shape="rect" id="node4" href="$namespacedoxycomment.html#a577aeea0319393b27b7e196133a5669b" title="doxycomment.ExtractComment\lBlocks" alt="" coords="456,71,663,112"/>
+<area shape="rect" id="node6" href="$io__less_2queens_8c.html#a7f56768641bb4ced349493752655eb74" title="find" alt="" coords="538,137,581,163"/>
+<area shape="rect" id="node5" href="$namespacedoxycomment.html#abbf439c4e45c5daa6dee4b9594db3d9c" title="doxycomment.FindDoxygenComments" alt="" coords="716,78,965,105"/>
 </map>

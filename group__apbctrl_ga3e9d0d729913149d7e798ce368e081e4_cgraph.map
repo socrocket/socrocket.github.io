@@ -1,5 +1,5 @@
 <map id="APBCtrl::end_of_elaboration" name="APBCtrl::end_of_elaboration">
-<area shape="rect" id="node2" href="$group__apbctrl.html#ga196388a40db201813f3a6c23ffa30f51" title="Dynamic/Internal power callback. " alt="" coords="244,5,399,32"/>
-<area shape="rect" id="node3" href="$group__apbctrl.html#ga0163eee0bc7a3b1df22f47d7acf5dac4" title="Static power callback. " alt="" coords="242,56,401,83"/>
-<area shape="rect" id="node4" href="$group__apbctrl.html#ga9092ec534ce6572e8241f18fcdbdb7fe" title="Dynamic/Switching power callback. " alt="" coords="241,107,402,133"/>
+<area shape="rect" id="node2" href="$group__apbctrl.html#ga196388a40db201813f3a6c23ffa30f51" title="Dynamic/Internal power callback. " alt="" coords="243,5,398,32"/>
+<area shape="rect" id="node3" href="$group__apbctrl.html#ga0163eee0bc7a3b1df22f47d7acf5dac4" title="Static power callback. " alt="" coords="241,56,400,83"/>
+<area shape="rect" id="node4" href="$group__apbctrl.html#ga9092ec534ce6572e8241f18fcdbdb7fe" title="Dynamic/Switching power callback. " alt="" coords="240,107,401,133"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="usi.SCCommand.register" name="usi.SCCommand.register">
-<area shape="rect" id="node2" href="$namespaceusi.html#a5e5a2b0581a6427230520c68367af971" title="usi.interpreter_name" alt="" coords="238,5,378,32"/>
-<area shape="rect" id="node4" href="$classUSIBaseDelegate.html#a2d97646341e747312d4e7febd50a422e" title="Returns the full name of the corresponding sc_object or gs_param. " alt="" coords="225,56,391,83"/>
-<area shape="rect" id="node5" href="$group__sr__register.html#ga30d13ecbe7237b2d92bc1f1c248ba8a1" title="sc_register_field_base\l::name" alt="" coords="232,107,384,149"/>
-<area shape="rect" id="node3" href="$namespaceusi.html#aaac8bfda977e51ad6363be747eff7073" title="usi.get_current_callback" alt="" coords="440,5,603,32"/>
+<area shape="rect" id="node2" href="$namespaceusi.html#a5e5a2b0581a6427230520c68367af971" title="usi.interpreter_name" alt="" coords="236,5,376,32"/>
+<area shape="rect" id="node4" href="$classUSIBaseDelegate.html#a2d97646341e747312d4e7febd50a422e" title="Returns the full name of the corresponding sc_object or gs_param. " alt="" coords="223,56,389,83"/>
+<area shape="rect" id="node5" href="$group__sr__register.html#ga30d13ecbe7237b2d92bc1f1c248ba8a1" title="sc_register_field_base\l::name" alt="" coords="230,107,382,149"/>
+<area shape="rect" id="node3" href="$namespaceusi.html#aaac8bfda977e51ad6363be747eff7073" title="usi.get_current_callback" alt="" coords="437,5,600,32"/>
 </map>

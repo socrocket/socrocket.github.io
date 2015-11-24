@@ -1,5 +1,5 @@
 <map id="core/common/trapgen/osEmulator/syscCallB.hpp" name="core/common/trapgen/osEmulator/syscCallB.hpp">
-<area shape="rect" id="node2" href="$osEmulator_8hpp.html" title="core/common/trapgen\l/osEmulator/osEmulator.hpp" alt="" coords="5,97,192,138"/>
-<area shape="rect" id="node4" href="$syscCallB_8cpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.cpp" alt="" coords="216,97,397,138"/>
-<area shape="rect" id="node3" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="31,187,165,229"/>
+<area shape="rect" id="node2" href="$osEmulator_8hpp.html" title="core/common/trapgen\l/osEmulator/osEmulator.hpp" alt="" coords="5,95,192,136"/>
+<area shape="rect" id="node4" href="$syscCallB_8cpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.cpp" alt="" coords="216,95,397,136"/>
+<area shape="rect" id="node3" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="31,184,166,225"/>
 </map>

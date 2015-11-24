@@ -1,9 +1,9 @@
 <map id="core/common/trapgen/osEmulator/syscCallB.hpp" name="core/common/trapgen/osEmulator/syscCallB.hpp">
-<area shape="rect" id="node2" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="187,187,335,229"/>
-<area shape="rect" id="node10" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="601,97,748,138"/>
-<area shape="rect" id="node16" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1425,104,1591,131"/>
-<area shape="rect" id="node33" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="970,97,1139,138"/>
-<area shape="rect" id="node8" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="129,278,316,319"/>
-<area shape="rect" id="node13" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="601,187,748,229"/>
-<area shape="rect" id="node35" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="1150,195,1297,221"/>
+<area shape="rect" id="node2" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="187,184,335,225"/>
+<area shape="rect" id="node10" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="601,95,749,136"/>
+<area shape="rect" id="node16" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1425,102,1591,129"/>
+<area shape="rect" id="node33" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="970,95,1139,136"/>
+<area shape="rect" id="node8" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="129,273,316,315"/>
+<area shape="rect" id="node13" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="601,184,749,225"/>
+<area shape="rect" id="node35" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="1150,191,1298,218"/>
 </map>

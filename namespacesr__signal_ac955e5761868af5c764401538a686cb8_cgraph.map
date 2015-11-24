@@ -1,4 +1,4 @@
 <map id="sr_signal::connect" name="sr_signal::connect">
-<area shape="rect" id="node2" href="$classsr__signal_1_1signal__out__bind__if.html#ac7c60ef8cd575cdeef5e68461f178f45" title="sr_signal::signal_out\l_bind_if::bind" alt="" coords="181,5,323,46"/>
-<area shape="rect" id="node3" href="$classsr__signal_1_1signal__in__if.html#ab7024ab7dd1860565d3c098d894666a6" title="sr_signal::signal_in\l_if::bind" alt="" coords="185,70,319,111"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__out__bind__if.html#ac7c60ef8cd575cdeef5e68461f178f45" title="sr_signal::signal_out\l_bind_if::bind" alt="" coords="181,5,323,47"/>
+<area shape="rect" id="node3" href="$singletonsr__signal_1_1signal__in__if.html#ab7024ab7dd1860565d3c098d894666a6" title="sr_signal::signal_in\l_if::bind" alt="" coords="185,71,319,112"/>
 </map>

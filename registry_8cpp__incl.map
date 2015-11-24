@@ -1,24 +1,24 @@
 <map id="pysc/usi/core/registry.cpp" name="pysc/usi/core/registry.cpp">
-<area shape="rect" id="node2" href="$registry_8h.html" title="usi/core/registry.h" alt="" coords="38,80,164,107"/>
-<area shape="rect" id="node5" href="$sc__find_8h.html" title="core/common/sc_find.h" alt="" coords="143,163,301,189"/>
-<area shape="rect" id="node9" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="413,80,584,107"/>
-<area shape="rect" id="node7" href="$sc__api_8h.html" title="core/common/sc_api.h" alt="" coords="98,245,252,272"/>
-<area shape="rect" id="node10" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="616,155,774,197"/>
-<area shape="rect" id="node13" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="536,245,658,272"/>
-<area shape="rect" id="node30" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="1349,320,1474,347"/>
-<area shape="rect" id="node15" href="$base_8h.html" title="core/common/base.h" alt="" coords="452,320,596,347"/>
-<area shape="rect" id="node16" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1120,560,1286,587"/>
-<area shape="rect" id="node21" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="440,395,606,421"/>
-<area shape="rect" id="node27" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="239,395,416,421"/>
-<area shape="rect" id="node22" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="448,470,604,511"/>
-<area shape="rect" id="node28" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="44,470,210,511"/>
-<area shape="rect" id="node33" href="$common_8h.html" title="core/common/common.h" alt="" coords="1590,395,1756,421"/>
-<area shape="rect" id="node39" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="2085,395,2184,421"/>
-<area shape="rect" id="node40" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="886,395,1076,421"/>
-<area shape="rect" id="node41" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="1100,395,1242,421"/>
-<area shape="rect" id="node42" href="$sr__param__native_8h.html" title="sr_param_native.h" alt="" coords="1267,395,1396,421"/>
-<area shape="rect" id="node43" href="$sr__param__stdint_8h.html" title="sr_param_stdint.h" alt="" coords="1754,477,1880,504"/>
-<area shape="rect" id="node44" href="$sr__param__systemc_8h.html" title="sr_param_systemc.h" alt="" coords="1421,395,1565,421"/>
-<area shape="rect" id="node34" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1568,477,1729,504"/>
-<area shape="rect" id="node36" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="885,477,1048,504"/>
+<area shape="rect" id="node2" href="$registry_8h.html" title="usi/core/registry.h" alt="" coords="37,80,164,107"/>
+<area shape="rect" id="node5" href="$sc__find_8h.html" title="core/common/sc_find.h" alt="" coords="143,162,301,189"/>
+<area shape="rect" id="node9" href="$sr__param_8h.html" title="core/common/sr_param.h" alt="" coords="413,80,583,107"/>
+<area shape="rect" id="node7" href="$sc__api_8h.html" title="core/common/sc_api.h" alt="" coords="98,244,253,271"/>
+<area shape="rect" id="node10" href="$sr__param_2sr__param_8h.html" title="core/common/sr_param\l/sr_param.h" alt="" coords="616,155,775,196"/>
+<area shape="rect" id="node13" href="$sr__param__base_8h.html" title="sr_param_base.h" alt="" coords="535,244,658,271"/>
+<area shape="rect" id="node30" href="$sr__param__class_8h.html" title="sr_param_class.h" alt="" coords="1349,319,1474,345"/>
+<area shape="rect" id="node15" href="$base_8h.html" title="core/common/base.h" alt="" coords="451,319,595,345"/>
+<area shape="rect" id="node16" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1120,557,1287,584"/>
+<area shape="rect" id="node21" href="$sr__report_8h.html" title="core/common/sr_report.h" alt="" coords="440,393,607,420"/>
+<area shape="rect" id="node27" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="239,393,416,420"/>
+<area shape="rect" id="node22" href="$sr__report_2sr__report_8h.html" title="core/common/sr_report\l/sr_report.h" alt="" coords="448,468,604,509"/>
+<area shape="rect" id="node28" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="44,468,211,509"/>
+<area shape="rect" id="node33" href="$common_8h.html" title="core/common/common.h" alt="" coords="1589,393,1756,420"/>
+<area shape="rect" id="node39" href="$sr__param__t_8h.html" title="sr_param_t.h" alt="" coords="2085,393,2183,420"/>
+<area shape="rect" id="node40" href="$sr__param__operator__macros_8h.html" title="sr_param_operator_macros.h" alt="" coords="885,393,1076,420"/>
+<area shape="rect" id="node41" href="$sr__param__delegate_8h.html" title="sr_param_delegate.h" alt="" coords="1100,393,1243,420"/>
+<area shape="rect" id="node42" href="$sr__param__native_8h.html" title="sr_param_native.h" alt="" coords="1267,393,1396,420"/>
+<area shape="rect" id="node43" href="$sr__param__stdint_8h.html" title="sr_param_stdint.h" alt="" coords="1753,475,1880,502"/>
+<area shape="rect" id="node44" href="$sr__param__systemc_8h.html" title="sr_param_systemc.h" alt="" coords="1421,393,1565,420"/>
+<area shape="rect" id="node34" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="1568,475,1729,502"/>
+<area shape="rect" id="node36" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="885,475,1047,502"/>
 </map>

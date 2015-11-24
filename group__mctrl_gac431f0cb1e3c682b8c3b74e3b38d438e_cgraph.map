@@ -6,5 +6,7 @@
 <area shape="rect" id="node6" href="$group__mctrl.html#ga22b0f61cecbbaa04a6203ee279cc86e3" title="Mctrl::mcfg1_write" alt="" coords="211,253,341,280"/>
 <area shape="rect" id="node7" href="$group__mctrl.html#gae239bb2ea0c869c8304ee836a7e0d94c" title="Mctrl::mcfg2_write" alt="" coords="211,304,341,331"/>
 <area shape="rect" id="node8" href="$group__mctrl.html#ga95d3d19f6439cab3ede4b434fb9f2353" title="Mctrl::switch_power_mode" alt="" coords="187,355,365,381"/>
-<area shape="rect" id="node9" href="$classsr__param__t.html#a8e719d658675c441551981a331a8bd61" title="Returns the value of this parameter. " alt="" coords="413,355,560,381"/>
+<area shape="rect" id="node9" href="$classsr__param__t.html#a8e719d658675c441551981a331a8bd61" title="Returns the value of this parameter. " alt="" coords="413,329,560,356"/>
+<area shape="rect" id="node10" href="$radix4__nostdlib_8c.html#ac92d3b835636641550b12b0f93daf21d" title="start" alt="" coords="463,380,511,407"/>
+<area shape="rect" id="node11" href="$radix4__nostdlib_8c.html#aaa5c3b1e8d12a898d655253a2bbb55fd" title="fft_radix4" alt="" coords="608,380,684,407"/>
 </map>

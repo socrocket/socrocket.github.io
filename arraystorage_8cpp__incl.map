@@ -1,7 +1,7 @@
 <map id="gaisler/memory/arraystorage.cpp" name="gaisler/memory/arraystorage.cpp">
 <area shape="rect" id="node2" href="$arraystorage_8h.html" title="gaisler/memory/arraystorage.h" alt="" coords="381,80,579,107"/>
-<area shape="rect" id="node3" href="$storage_8h.html" title="gaisler/memory/storage.h" alt="" coords="395,155,564,181"/>
+<area shape="rect" id="node3" href="$storage_8h.html" title="gaisler/memory/storage.h" alt="" coords="395,155,565,181"/>
 <area shape="rect" id="node4" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="257,229,423,256"/>
-<area shape="rect" id="node9" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="531,229,708,256"/>
-<area shape="rect" id="node10" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="597,305,763,346"/>
+<area shape="rect" id="node9" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="531,229,709,256"/>
+<area shape="rect" id="node10" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="597,304,763,345"/>
 </map>

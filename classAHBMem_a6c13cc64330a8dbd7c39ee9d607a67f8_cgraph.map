@@ -1,6 +1,6 @@
 <map id="AHBMem::clear_mem" name="AHBMem::clear_mem">
-<area shape="rect" id="node2" href="$group__memory.html#ga12a3f33c6f6a387750ac84bc67e22be6" title="BaseMemory::erase" alt="" coords="224,5,363,32"/>
-<area shape="rect" id="node5" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice\&lt; BaseModule\l\&lt; DefaultBase \&gt; \&gt;::get\l_ahb_size" alt="" coords="206,56,381,112"/>
-<area shape="rect" id="node3" href="$group__memory.html#ga3d4a38e8448bfa1e3b62ba2ef84d1c84" title="BaseMemory::erase_dbg" alt="" coords="430,5,597,32"/>
-<area shape="rect" id="node4" href="$classStorage.html#ae55c16cb093438b9e40111c25f30a2e8" title="Storage::erase" alt="" coords="645,5,752,32"/>
+<area shape="rect" id="node2" href="$group__memory.html#ga12a3f33c6f6a387750ac84bc67e22be6" title="BaseMemory::erase" alt="" coords="223,5,361,32"/>
+<area shape="rect" id="node5" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="204,56,380,83"/>
+<area shape="rect" id="node3" href="$group__memory.html#ga3d4a38e8448bfa1e3b62ba2ef84d1c84" title="BaseMemory::erase_dbg" alt="" coords="428,5,595,32"/>
+<area shape="rect" id="node4" href="$classStorage.html#ae55c16cb093438b9e40111c25f30a2e8" title="Storage::erase" alt="" coords="643,5,749,32"/>
 </map>

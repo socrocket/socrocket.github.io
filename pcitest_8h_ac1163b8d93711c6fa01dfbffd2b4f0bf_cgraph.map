@@ -1,8 +1,8 @@
 <map id="init_pci" name="init_pci">
-<area shape="rect" id="node2" href="$pcitest_8c.html#a2cab4f12aa62e04c71eb4f62a3fdacbe" title="init_grpci" alt="" coords="356,5,431,32"/>
-<area shape="rect" id="node5" href="$pcitest_8c.html#aebf92f40c64d6477423f9831f5884a5f" title="pci_allocate_resources" alt="" coords="117,107,272,133"/>
-<area shape="rect" id="node3" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="517,132,672,159"/>
-<area shape="rect" id="node4" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="515,56,674,83"/>
-<area shape="rect" id="node6" href="$pcitest_8c.html#ad3eace233c2510da9c32a1c57a2f42f6" title="pci_mem_enable" alt="" coords="333,107,453,133"/>
-<area shape="rect" id="node7" href="$pcitest_8c.html#a74212783d4ee813833618da5a586746a" title="pci_read_config_byte" alt="" coords="321,157,466,184"/>
+<area shape="rect" id="node2" href="$pcitest_8c.html#a2cab4f12aa62e04c71eb4f62a3fdacbe" title="init_grpci" alt="" coords="354,5,429,32"/>
+<area shape="rect" id="node5" href="$pcitest_8c.html#aebf92f40c64d6477423f9831f5884a5f" title="pci_allocate_resources" alt="" coords="116,107,271,133"/>
+<area shape="rect" id="node3" href="$pcitest_8c.html#a16516c650fc120097859b5acf4df43e2" title="pci_read_config_dword" alt="" coords="514,132,669,159"/>
+<area shape="rect" id="node4" href="$pcitest_8c.html#a93bb4fb504978f74f9311aa2879e9384" title="pci_write_config_dword" alt="" coords="512,56,671,83"/>
+<area shape="rect" id="node6" href="$pcitest_8c.html#ad3eace233c2510da9c32a1c57a2f42f6" title="pci_mem_enable" alt="" coords="331,107,451,133"/>
+<area shape="rect" id="node7" href="$pcitest_8c.html#a74212783d4ee813833618da5a586746a" title="pci_read_config_byte" alt="" coords="319,157,464,184"/>
 </map>

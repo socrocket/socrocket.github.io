@@ -1,5 +1,5 @@
 <map id="trap::MemAccessType" name="trap::MemAccessType">
-<area shape="rect" id="node2" href="$classdouble.html" title="{double\n||}" alt="" coords="5,5,64,83"/>
-<area shape="rect" id="node3" href="$classchar.html" title="{char\n||}" alt="" coords="143,5,189,83"/>
-<area shape="rect" id="node4" href="$classint.html" title="{int\n||}" alt="" coords="214,5,252,83"/>
+<area shape="rect" id="node2" href="$classdouble.html" title="{double\n||}" alt="" coords="5,5,65,83"/>
+<area shape="rect" id="node3" href="$classchar.html" title="{char\n||}" alt="" coords="144,5,191,83"/>
+<area shape="rect" id="node4" href="$classint.html" title="{int\n||}" alt="" coords="215,5,253,83"/>
 </map>

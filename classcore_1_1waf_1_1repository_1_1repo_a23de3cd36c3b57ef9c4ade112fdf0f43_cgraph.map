@@ -1,12 +1,12 @@
 <map id="core.waf.repository.repo.work" name="core.waf.repository.repo.work">
-<area shape="rect" id="node2" href="$classcore_1_1waf_1_1repository_1_1repo.html#a92b5d45ceb982fbe4ebff1ba58f7fd0c" title="core.waf.repository.repo.add_repo" alt="" coords="531,229,749,256"/>
-<area shape="rect" id="node4" href="$classcore_1_1waf_1_1repository_1_1repo.html#ab5c181742264476a45268d1058461bdf" title="core.waf.repository.repo.del_repo" alt="" coords="255,48,470,74"/>
-<area shape="rect" id="node5" href="$classcore_1_1waf_1_1repository_1_1repo.html#a8b7251dc0051059761ac74fa72e850bc" title="core.waf.repository.repo.git_cmd" alt="" coords="534,124,746,150"/>
-<area shape="rect" id="node6" href="$classcore_1_1waf_1_1repository_1_1repo.html#a09f71997c8493cdaf19e5a2d1501ae2f" title="core.waf.repository.repo.init_repo" alt="" coords="255,368,470,394"/>
-<area shape="rect" id="node7" href="$classcore_1_1waf_1_1repository_1_1repo.html#a2f50f956a0be84f7d1230fd21357c189" title="core.waf.repository.repo.mv_cmd" alt="" coords="255,149,471,176"/>
-<area shape="rect" id="node8" href="$namespacecore_1_1waf_1_1repository.html#ac805eccca255405d65a06b13a1096376" title="core.waf.repository.read\l_repos" alt="" coords="281,251,444,292"/>
-<area shape="rect" id="node9" href="$classcore_1_1waf_1_1repository_1_1repo.html#a79e3f470c69cbc1ade6e32aee12d48ee" title="core.waf.repository.repo.show_help" alt="" coords="249,317,477,344"/>
-<area shape="rect" id="node10" href="$classcore_1_1waf_1_1repository_1_1repo.html#ad36b267a8f52e02840f643f6cdbda7ba" title="core.waf.repository.repo.show_repo" alt="" coords="525,36,755,62"/>
-<area shape="rect" id="node11" href="$namespacecore_1_1waf_1_1repository.html#a24355acd457efbb423d443600e98c545" title="core.waf.repository.write\l_repos" alt="" coords="280,419,445,460"/>
-<area shape="rect" id="node3" href="$namespacecore_1_1waf_1_1repository.html#a6e712f477f972cf6f13fb6812d56c2af" title="core.waf.repository.get\l_repo_vals" alt="" coords="803,222,957,263"/>
+<area shape="rect" id="node2" href="$classcore_1_1waf_1_1repository_1_1repo.html#a92b5d45ceb982fbe4ebff1ba58f7fd0c" title="core.waf.repository.repo.add_repo" alt="" coords="529,229,748,256"/>
+<area shape="rect" id="node4" href="$classcore_1_1waf_1_1repository_1_1repo.html#ab5c181742264476a45268d1058461bdf" title="core.waf.repository.repo.del_repo" alt="" coords="255,48,469,74"/>
+<area shape="rect" id="node5" href="$classcore_1_1waf_1_1repository_1_1repo.html#a8b7251dc0051059761ac74fa72e850bc" title="core.waf.repository.repo.git_cmd" alt="" coords="533,124,745,150"/>
+<area shape="rect" id="node6" href="$classcore_1_1waf_1_1repository_1_1repo.html#a09f71997c8493cdaf19e5a2d1501ae2f" title="core.waf.repository.repo.init_repo" alt="" coords="255,368,469,394"/>
+<area shape="rect" id="node7" href="$classcore_1_1waf_1_1repository_1_1repo.html#a2f50f956a0be84f7d1230fd21357c189" title="core.waf.repository.repo.mv_cmd" alt="" coords="254,149,470,176"/>
+<area shape="rect" id="node8" href="$namespacecore_1_1waf_1_1repository.html#ac805eccca255405d65a06b13a1096376" title="core.waf.repository.read\l_repos" alt="" coords="281,251,443,292"/>
+<area shape="rect" id="node9" href="$classcore_1_1waf_1_1repository_1_1repo.html#a79e3f470c69cbc1ade6e32aee12d48ee" title="core.waf.repository.repo.show_help" alt="" coords="248,317,476,344"/>
+<area shape="rect" id="node10" href="$classcore_1_1waf_1_1repository_1_1repo.html#ad36b267a8f52e02840f643f6cdbda7ba" title="core.waf.repository.repo.show_repo" alt="" coords="524,36,753,62"/>
+<area shape="rect" id="node11" href="$namespacecore_1_1waf_1_1repository.html#a24355acd457efbb423d443600e98c545" title="core.waf.repository.write\l_repos" alt="" coords="279,419,445,460"/>
+<area shape="rect" id="node3" href="$namespacecore_1_1waf_1_1repository.html#a6e712f477f972cf6f13fb6812d56c2af" title="core.waf.repository.get\l_repo_vals" alt="" coords="801,222,956,263"/>
 </map>

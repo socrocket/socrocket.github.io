@@ -1,24 +1,24 @@
 <map id="gaisler/leon3/intunit/externalPins.cpp" name="gaisler/leon3/intunit/externalPins.cpp">
-<area shape="rect" id="node2" href="$externalPins_8hpp.html" title="gaisler/leon3/intunit\l/externalPins.hpp" alt="" coords="442,97,576,138"/>
-<area shape="rect" id="node3" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="253,187,400,229"/>
-<area shape="rect" id="node34" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="860,104,1023,131"/>
-<area shape="rect" id="node11" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1079,285,1245,312"/>
-<area shape="rect" id="node16" href="$sr__signal_8h.html" title="core/common/sr_signal.h" alt="" coords="425,195,593,221"/>
-<area shape="rect" id="node9" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="207,278,393,319"/>
-<area shape="rect" id="node17" href="$sr__signal_2sr__signal_8h.html" title="core/common/sr_signal\l/sr_signal.h" alt="" coords="668,278,825,319"/>
-<area shape="rect" id="node18" href="$sr__signal__module_8h.html" title="sr_signal_module.h" alt="" coords="455,608,589,635"/>
-<area shape="rect" id="node29" href="$sr__signal__adapter_8h.html" title="sr_signal_adapter.h" alt="" coords="463,459,597,485"/>
-<area shape="rect" id="node33" href="$sr__signal__connect_8h.html" title="sr_signal_connect.h" alt="" coords="689,376,828,403"/>
-<area shape="rect" id="node19" href="$sr__signal__in_8h.html" title="sr_signal_in.h" alt="" coords="634,757,736,784"/>
-<area shape="rect" id="node24" href="$sr__signal__out_8h.html" title="sr_signal_out.h" alt="" coords="499,757,609,784"/>
-<area shape="rect" id="node25" href="$sr__signal__inout_8h.html" title="sr_signal_inout.h" alt="" coords="560,683,680,709"/>
-<area shape="rect" id="node26" href="$sr__signal__selector_8h.html" title="sr_signal_selector.h" alt="" coords="347,683,485,709"/>
-<area shape="rect" id="node28" href="$sr__signal__infield_8h.html" title="sr_signal_infield.h" alt="" coords="246,757,372,784"/>
-<area shape="rect" id="node21" href="$sr__signal__base_8h.html" title="sr_signal_base.h" alt="" coords="351,832,471,859"/>
-<area shape="rect" id="node23" href="$sr__signal__ifs_8h.html" title="sr_signal_ifs.h" alt="" coords="568,832,675,859"/>
-<area shape="rect" id="node30" href="$tlmin__scout__adapter_8h.html" title="tlmin_scout_adapter.h" alt="" coords="106,533,256,560"/>
-<area shape="rect" id="node31" href="$scin__tlmout__adapter_8h.html" title="scin_tlmout_adapter.h" alt="" coords="281,533,431,560"/>
-<area shape="rect" id="node32" href="$tlmsc__inout__adapter_8h.html" title="tlmsc_inout_adapter.h" alt="" coords="455,533,605,560"/>
-<area shape="rect" id="node39" href="$common_8h.html" title="core/common/common.h" alt="" coords="719,195,885,221"/>
-<area shape="rect" id="node40" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="914,459,1075,485"/>
+<area shape="rect" id="node2" href="$externalPins_8hpp.html" title="gaisler/leon3/intunit\l/externalPins.hpp" alt="" coords="442,95,577,136"/>
+<area shape="rect" id="node3" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="253,184,401,225"/>
+<area shape="rect" id="node34" href="$verbose_8h.html" title="Implements a unified output system for messages and debunging. " alt="" coords="860,102,1023,129"/>
+<area shape="rect" id="node11" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1079,281,1246,307"/>
+<area shape="rect" id="node16" href="$sr__signal_8h.html" title="core/common/sr_signal.h" alt="" coords="425,191,593,218"/>
+<area shape="rect" id="node9" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="207,273,393,315"/>
+<area shape="rect" id="node17" href="$sr__signal_2sr__signal_8h.html" title="core/common/sr_signal\l/sr_signal.h" alt="" coords="668,273,825,315"/>
+<area shape="rect" id="node18" href="$sr__signal__module_8h.html" title="sr_signal_module.h" alt="" coords="455,601,590,628"/>
+<area shape="rect" id="node29" href="$sr__signal__adapter_8h.html" title="sr_signal_adapter.h" alt="" coords="463,452,598,479"/>
+<area shape="rect" id="node33" href="$sr__signal__connect_8h.html" title="sr_signal_connect.h" alt="" coords="689,370,828,397"/>
+<area shape="rect" id="node19" href="$sr__signal__in_8h.html" title="sr_signal_in.h" alt="" coords="634,751,737,777"/>
+<area shape="rect" id="node24" href="$sr__signal__out_8h.html" title="sr_signal_out.h" alt="" coords="499,751,610,777"/>
+<area shape="rect" id="node25" href="$sr__signal__inout_8h.html" title="sr_signal_inout.h" alt="" coords="560,676,680,703"/>
+<area shape="rect" id="node26" href="$sr__signal__selector_8h.html" title="sr_signal_selector.h" alt="" coords="347,676,485,703"/>
+<area shape="rect" id="node28" href="$sr__signal__infield_8h.html" title="sr_signal_infield.h" alt="" coords="246,751,373,777"/>
+<area shape="rect" id="node21" href="$sr__signal__base_8h.html" title="sr_signal_base.h" alt="" coords="351,825,471,852"/>
+<area shape="rect" id="node23" href="$sr__signal__ifs_8h.html" title="sr_signal_ifs.h" alt="" coords="568,825,675,852"/>
+<area shape="rect" id="node30" href="$tlmin__scout__adapter_8h.html" title="tlmin_scout_adapter.h" alt="" coords="106,527,257,553"/>
+<area shape="rect" id="node31" href="$scin__tlmout__adapter_8h.html" title="scin_tlmout_adapter.h" alt="" coords="281,527,431,553"/>
+<area shape="rect" id="node32" href="$tlmsc__inout__adapter_8h.html" title="tlmsc_inout_adapter.h" alt="" coords="455,527,606,553"/>
+<area shape="rect" id="node39" href="$common_8h.html" title="core/common/common.h" alt="" coords="719,191,886,218"/>
+<area shape="rect" id="node40" href="$vendian_8h.html" title="core/common/vendian.h" alt="" coords="914,452,1075,479"/>
 </map>

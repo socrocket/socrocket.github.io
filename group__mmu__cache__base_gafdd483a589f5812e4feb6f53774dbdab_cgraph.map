@@ -1,4 +1,4 @@
 <map id="mmu_cache_base::mem_access" name="mmu_cache_base::mem_access">
-<area shape="rect" id="node2" href="$classAHBMaster.html#aeeab73b80ddc8351609ce6d698351e96" title="Generic AHB access function (blocking and non&#45;blocking) " alt="" coords="219,5,397,32"/>
-<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="241,57,375,98"/>
+<area shape="rect" id="node2" href="$classAHBMaster.html#aeeab73b80ddc8351609ce6d698351e96" title="Generic AHB access function (blocking and non&#45;blocking) " alt="" coords="219,5,396,32"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="241,57,374,98"/>
 </map>

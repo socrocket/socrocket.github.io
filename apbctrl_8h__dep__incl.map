@@ -1,6 +1,6 @@
 <map id="gaisler/apbctrl/apbctrl.h" name="gaisler/apbctrl/apbctrl.h">
-<area shape="rect" id="node2" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="5,81,141,122"/>
-<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="166,81,324,122"/>
-<area shape="rect" id="node5" href="$apbctrl_8cpp.html" title="gaisler/apbctrl/apbctrl.cpp" alt="" coords="349,88,520,115"/>
-<area shape="rect" id="node3" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,171,141,213"/>
+<area shape="rect" id="node2" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="5,80,143,121"/>
+<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="167,80,325,121"/>
+<area shape="rect" id="node5" href="$apbctrl_8cpp.html" title="gaisler/apbctrl/apbctrl.cpp" alt="" coords="350,87,521,114"/>
+<area shape="rect" id="node3" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,169,143,211"/>
 </map>

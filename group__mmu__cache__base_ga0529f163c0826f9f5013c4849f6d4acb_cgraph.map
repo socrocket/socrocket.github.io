@@ -1,5 +1,5 @@
 <map id="mmu_cache_base::clkcng" name="mmu_cache_base::clkcng">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#gab92ff71175ea466d7c1fde9311d0d905" title="Helper functions for definition of clock cycle. " alt="" coords="229,5,347,32"/>
-<area shape="rect" id="node3" href="$classcache__if.html#a39b686462607a6468ddd18a893361dee" title="cache_if::clkcng" alt="" coords="229,56,347,83"/>
-<area shape="rect" id="node4" href="$group__mmu__cache.html#gaab41cf77c3c8576f07510e3702a3f460" title="Helper functions for definition of clock cycle. " alt="" coords="239,107,337,133"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#gab92ff71175ea466d7c1fde9311d0d905" title="Helper functions for definition of clock cycle. " alt="" coords="228,5,345,32"/>
+<area shape="rect" id="node3" href="$classcache__if.html#a39b686462607a6468ddd18a893361dee" title="cache_if::clkcng" alt="" coords="228,56,345,83"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#gaab41cf77c3c8576f07510e3702a3f460" title="Helper functions for definition of clock cycle. " alt="" coords="238,107,335,133"/>
 </map>

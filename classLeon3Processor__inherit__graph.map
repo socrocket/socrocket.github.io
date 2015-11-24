@@ -1,3 +1,3 @@
 <map id="Leon3Processor" name="Leon3Processor">
-<area shape="rect" id="node3" href="$classCLKDevice.html" title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SR_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="115,6,276,245"/>
+<area shape="rect" id="node3" href="$classCLKDevice.html" title="{CLKDevice\n|+ rst\l+ clk\l# clock_cycle\l|+ SR_HAS_SIGNALS()\l+ CLKDevice()\l+ ~CLKDevice()\l+ onrst()\l+ onclk()\l+ set_clk()\l+ set_clk()\l+ set_clk()\l+ dorst()\l+ clkcng()\l}" alt="" coords="115,5,277,244"/>
 </map>

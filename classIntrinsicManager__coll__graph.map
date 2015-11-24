@@ -1,11 +1,11 @@
 <map id="IntrinsicManager&lt; issueWidth &gt;" name="IntrinsicManager&lt; issueWidth &gt;">
-<area shape="rect" id="node3" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="219,664,401,771"/>
-<area shape="rect" id="node4" href="$classIntrinsicBase.html" title="{IntrinsicBase\n||+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="425,649,571,785"/>
-<area shape="rect" id="node6" href="$classint.html" title="{int\n||}" alt="" coords="937,163,975,240"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="749,163,827,240"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="725,6,851,98"/>
-<area shape="rect" id="node9" title="STL class. " alt="" coords="385,163,507,240"/>
-<area shape="rect" id="node15" title="STL class. " alt="" coords="220,163,335,240"/>
-<area shape="rect" id="node17" href="$classtrap_1_1ABIIf.html" title="{trap::ABIIf\&lt; issueWidth \&gt;\n||+ matchEndian()\l+ preCall()\l+ postCall()\l+ returnFromCall()\l+ getProcessorID()\l+ isInstrExecuting()\l+ waitInstrEnd()\l+ isLittleEndian()\l+ readLR()\l+ setLR()\land 25 more...\l}" alt="" coords="774,605,945,829"/>
-<area shape="rect" id="node18" href="$classtrap_1_1ABIIf.html" title="{trap::ABIIf\&lt; regWidth \&gt;\n||+ matchEndian()\l+ preCall()\l+ postCall()\l+ returnFromCall()\l+ getProcessorID()\l+ isInstrExecuting()\l+ waitInstrEnd()\l+ isLittleEndian()\l+ readLR()\l+ setLR()\land 25 more...\l}" alt="" coords="881,317,1039,541"/>
+<area shape="rect" id="node3" href="$classtrap_1_1ToolsIf.html" title="Base class for all the tools (profilers, debugger, etc...) " alt="" coords="220,660,401,767"/>
+<area shape="rect" id="node4" href="$classIntrinsicBase.html" title="{IntrinsicBase\n||+ set_program_args()\l+ correct_flags()\l+ set_environ()\l+ set_sysconf()\l+ reset()\l}" alt="" coords="425,645,572,781"/>
+<area shape="rect" id="node6" href="$classint.html" title="{int\n||}" alt="" coords="938,160,976,237"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="749,160,829,237"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="726,5,852,97"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="385,160,508,237"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="220,160,336,237"/>
+<area shape="rect" id="node17" href="$classtrap_1_1ABIIf.html" title="{trap::ABIIf\&lt; issueWidth \&gt;\n||+ matchEndian()\l+ preCall()\l+ postCall()\l+ returnFromCall()\l+ getProcessorID()\l+ isInstrExecuting()\l+ waitInstrEnd()\l+ isLittleEndian()\l+ readLR()\l+ setLR()\land 25 more...\l}" alt="" coords="774,601,945,825"/>
+<area shape="rect" id="node18" href="$classtrap_1_1ABIIf.html" title="{trap::ABIIf\&lt; regWidth \&gt;\n||+ matchEndian()\l+ preCall()\l+ postCall()\l+ returnFromCall()\l+ getProcessorID()\l+ isInstrExecuting()\l+ waitInstrEnd()\l+ isLittleEndian()\l+ readLR()\l+ setLR()\land 25 more...\l}" alt="" coords="882,315,1040,539"/>
 </map>

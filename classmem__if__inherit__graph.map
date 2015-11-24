@@ -1,13 +1,13 @@
 <map id="mem_if" name="mem_if">
-<area shape="rect" id="node2" href="$classcache__if.html" title="{cache_if\n||+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ ~cache_if()\l}" alt="" coords="173,234,320,473"/>
-<area shape="rect" id="node7" href="$classlocalram.html" title="Local Scratchpad RAM. " alt="" coords="345,161,527,546"/>
-<area shape="rect" id="node8" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="552,285,692,421"/>
-<area shape="rect" id="node12" href="$classtlb__adaptor.html" title="{tlb_adaptor\n|+ m_mmu_cache\l+ m_mmu\l+ m_tlb\l+ m_tlbnum\l|+ tlb_adaptor()\l+ ~tlb_adaptor()\l+ mem_read()\l+ mem_write()\l}" alt="" coords="717,271,840,436"/>
-<area shape="rect" id="node3" href="$classnocache.html" title="{nocache\n||+ mem_read()\l+ mem_write()\l+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ nocache()\l+ ~nocache()\l}" alt="" coords="5,1395,152,1677"/>
-<area shape="rect" id="node4" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="177,595,356,2477"/>
-<area shape="rect" id="node5" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="7,2533,216,2889"/>
-<area shape="rect" id="node6" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="242,2525,448,2896"/>
-<area shape="rect" id="node9" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="528,1292,717,1780"/>
-<area shape="rect" id="node10" href="$classLeon3.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="511,2525,693,2896"/>
-<area shape="rect" id="node11" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="718,2562,900,2859"/>
+<area shape="rect" id="node2" href="$classcache__if.html" title="{cache_if\n||+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ ~cache_if()\l}" alt="" coords="172,233,320,472"/>
+<area shape="rect" id="node7" href="$classlocalram.html" title="Local Scratchpad RAM. " alt="" coords="344,160,527,545"/>
+<area shape="rect" id="node8" href="$classmmu__cache__if.html" title="{mmu_cache_if\n||+ set_irq()\l+ trigger_exception()\l+ read_ccr()\l+ write_ccr()\l+ ~mmu_cache_if()\l}" alt="" coords="551,285,693,421"/>
+<area shape="rect" id="node12" href="$classtlb__adaptor.html" title="{tlb_adaptor\n|+ m_mmu_cache\l+ m_mmu\l+ m_tlb\l+ m_tlbnum\l|+ tlb_adaptor()\l+ ~tlb_adaptor()\l+ mem_read()\l+ mem_write()\l}" alt="" coords="717,270,839,435"/>
+<area shape="rect" id="node3" href="$classnocache.html" title="{nocache\n||+ mem_read()\l+ mem_write()\l+ flush()\l+ read_cache_tag()\l+ write_cache_tag()\l+ read_cache_entry()\l+ write_cache_entry()\l+ read_config_reg()\l+ check_mode()\l+ get_cache_type()\l+ snoop_invalidate()\l+ clkcng()\l+ dbg_out()\l+ nocache()\l+ ~nocache()\l}" alt="" coords="5,711,153,993"/>
+<area shape="rect" id="node4" href="$classvectorcache.html" title="virtual cache model, contain common functionality of instruction and data cache " alt="" coords="178,593,354,1111"/>
+<area shape="rect" id="node5" href="$classdvectorcache.html" title="Data cache implementation for TrapGen LEON3 simulator. " alt="" coords="6,1166,217,1522"/>
+<area shape="rect" id="node6" href="$classivectorcache.html" title="Instruction cache implementation for TrapGen LEON3 simulator. " alt="" coords="241,1159,448,1529"/>
+<area shape="rect" id="node9" href="$classmmu__cache__base.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="527,608,717,1096"/>
+<area shape="rect" id="node10" href="$classLeon3.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="511,1159,693,1529"/>
+<area shape="rect" id="node11" href="$classmmu__cache.html" title="Top&#45;level class of the memory sub&#45;system for the TrapGen LEON3 simulator. " alt="" coords="717,1195,900,1493"/>
 </map>

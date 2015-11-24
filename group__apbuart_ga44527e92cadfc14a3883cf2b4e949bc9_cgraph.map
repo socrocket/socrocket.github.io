@@ -1,4 +1,4 @@
 <map id="APBUART::data_write" name="APBUART::data_write">
-<area shape="rect" id="node2" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="247,5,358,32"/>
-<area shape="rect" id="node3" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="209,56,397,83"/>
+<area shape="rect" id="node2" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="247,5,357,32"/>
+<area shape="rect" id="node3" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="208,56,396,83"/>
 </map>

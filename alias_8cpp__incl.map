@@ -1,9 +1,9 @@
 <map id="gaisler/leon3/intunit/alias.cpp" name="gaisler/leon3/intunit/alias.cpp">
-<area shape="rect" id="node2" href="$alias_8hpp.html" title="gaisler/leon3/intunit\l/alias.hpp" alt="" coords="579,97,713,138"/>
-<area shape="rect" id="node3" href="$registers_8hpp.html" title="gaisler/leon3/intunit\l/registers.hpp" alt="" coords="479,187,613,229"/>
-<area shape="rect" id="node5" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="219,278,367,319"/>
-<area shape="rect" id="node13" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="457,285,636,312"/>
-<area shape="rect" id="node11" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="200,369,387,410"/>
-<area shape="rect" id="node14" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="563,369,729,410"/>
-<area shape="rect" id="node20" href="$sr__register_2scireg_8h.html" title="scireg.h" alt="" coords="577,459,644,485"/>
+<area shape="rect" id="node2" href="$alias_8hpp.html" title="gaisler/leon3/intunit\l/alias.hpp" alt="" coords="579,95,714,136"/>
+<area shape="rect" id="node3" href="$registers_8hpp.html" title="gaisler/leon3/intunit\l/registers.hpp" alt="" coords="479,184,614,225"/>
+<area shape="rect" id="node5" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="219,273,367,315"/>
+<area shape="rect" id="node13" href="$sc__register_8h.html" title="core/common/sc_register.h" alt="" coords="457,281,637,307"/>
+<area shape="rect" id="node11" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="200,363,387,404"/>
+<area shape="rect" id="node14" href="$sr__register_2sc__register_8h.html" title="core/common/sr_register\l/sc_register.h" alt="" coords="563,363,730,404"/>
+<area shape="rect" id="node20" href="$sr__register_2scireg_8h.html" title="scireg.h" alt="" coords="577,452,645,479"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="GPCounter::value_read" name="GPCounter::value_read">
-<area shape="rect" id="node2" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="261,5,379,32"/>
-<area shape="rect" id="node3" href="$group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b" title="GPTimer::numberofticksbetween" alt="" coords="213,56,427,83"/>
-<area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="251,107,389,133"/>
-<area shape="rect" id="node6" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="257,157,383,184"/>
-<area shape="rect" id="node4" href="$group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" title="GPTimer::valueof" alt="" coords="475,56,599,83"/>
+<area shape="rect" id="node2" href="$classGPTimer.html#acd08cab2bf630c02afcdcf43f36ff9ea" title="GPTimer::CTRL" alt="" coords="260,5,377,32"/>
+<area shape="rect" id="node3" href="$group__gptimer.html#ga83ad64bbb55a67affae7f13a38c6556b" title="GPTimer::numberofticksbetween" alt="" coords="212,56,425,83"/>
+<area shape="rect" id="node5" href="$classGPTimer.html#a0179a669fe101f29a3a3d016f1635fd3" title="GPTimer::RELOAD" alt="" coords="250,107,387,133"/>
+<area shape="rect" id="node6" href="$classGPTimer.html#ae2761a766718f3e31b1c805c0e5c40fd" title="GPTimer::VALUE" alt="" coords="255,157,382,184"/>
+<area shape="rect" id="node4" href="$group__gptimer.html#gafbf232826b8b6c54207ec9b9c1534b4a" title="GPTimer::valueof" alt="" coords="473,56,597,83"/>
 </map>

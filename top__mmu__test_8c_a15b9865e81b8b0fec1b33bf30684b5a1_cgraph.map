@@ -1,5 +1,5 @@
 <map id="mmu_test" name="mmu_test">
-<area shape="rect" id="node2" href="$mmu_8c.html#af3ff021b8f39f1fcd7687308d6f8dcd7" title="leon_flush_cache_all" alt="" coords="305,12,447,39"/>
+<area shape="rect" id="node2" href="$mmu_8c.html#af3ff021b8f39f1fcd7687308d6f8dcd7" title="leon_flush_cache_all" alt="" coords="304,12,447,39"/>
 <area shape="rect" id="node3" href="$mmu_8c.html#ac8caa4c1c0f968f0d65b3a433b1f1974" title="leon_flush_tlb_all" alt="" coords="133,38,256,64"/>
 <area shape="rect" id="node4" href="$mmu_8c.html#ac5367531b04dc0db14c0261fe346f52f" title="mmu_func1" alt="" coords="149,88,240,115"/>
 <area shape="rect" id="node5" href="$mmu_8c.html#a32a78819ac7a5750b5bed9d046ff32c8" title="mmugetpagesize" alt="" coords="134,139,255,166"/>

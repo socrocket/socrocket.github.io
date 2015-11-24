@@ -1,11 +1,11 @@
 <map id="core/software/grlib_tests/standalone.h" name="core/software/grlib_tests/standalone.h">
-<area shape="rect" id="node2" href="$gptimer_8c.html" title="core/software/grlib\l_tests/gptimer.c" alt="" coords="5,97,133,138"/>
-<area shape="rect" id="node3" href="$irqmp_8c.html" title="core/software/grlib\l_tests/irqmp.c" alt="" coords="158,97,287,138"/>
-<area shape="rect" id="node4" href="$standalone_8c.html" title="core/software/grlib\l_tests/standalone.c" alt="" coords="311,97,445,138"/>
-<area shape="rect" id="node5" href="$top__cache__test_8c.html" title="core/software/grlib\l_tests/top_cache_test.c" alt="" coords="471,97,633,138"/>
-<area shape="rect" id="node6" href="$top__gptimer__test_8c.html" title="core/software/grlib\l_tests/top_gptimer_test.c" alt="" coords="657,97,828,138"/>
-<area shape="rect" id="node7" href="$top__irqmp__test_8c.html" title="core/software/grlib\l_tests/top_irqmp_test.c" alt="" coords="853,97,1011,138"/>
-<area shape="rect" id="node8" href="$top__mmu__test_8c.html" title="core/software/grlib\l_tests/top_mmu_test.c" alt="" coords="1035,97,1191,138"/>
-<area shape="rect" id="node9" href="$top__ram__test_8c.html" title="core/software/grlib\l_tests/top_ram_test.c" alt="" coords="1216,97,1364,138"/>
-<area shape="rect" id="node10" href="$top__reg__test_8c.html" title="core/software/grlib\l_tests/top_reg_test.c" alt="" coords="1390,97,1535,138"/>
+<area shape="rect" id="node2" href="$gptimer_8c.html" title="core/software/grlib\l_tests/gptimer.c" alt="" coords="5,95,135,136"/>
+<area shape="rect" id="node3" href="$irqmp_8c.html" title="core/software/grlib\l_tests/irqmp.c" alt="" coords="159,95,288,136"/>
+<area shape="rect" id="node4" href="$standalone_8c.html" title="core/software/grlib\l_tests/standalone.c" alt="" coords="311,95,447,136"/>
+<area shape="rect" id="node5" href="$top__cache__test_8c.html" title="core/software/grlib\l_tests/top_cache_test.c" alt="" coords="471,95,634,136"/>
+<area shape="rect" id="node6" href="$top__gptimer__test_8c.html" title="core/software/grlib\l_tests/top_gptimer_test.c" alt="" coords="658,95,829,136"/>
+<area shape="rect" id="node7" href="$top__irqmp__test_8c.html" title="core/software/grlib\l_tests/top_irqmp_test.c" alt="" coords="853,95,1012,136"/>
+<area shape="rect" id="node8" href="$top__mmu__test_8c.html" title="core/software/grlib\l_tests/top_mmu_test.c" alt="" coords="1036,95,1192,136"/>
+<area shape="rect" id="node9" href="$top__ram__test_8c.html" title="core/software/grlib\l_tests/top_ram_test.c" alt="" coords="1217,95,1366,136"/>
+<area shape="rect" id="node10" href="$top__reg__test_8c.html" title="core/software/grlib\l_tests/top_reg_test.c" alt="" coords="1391,95,1536,136"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="powermonitor::report_trigger" name="powermonitor::report_trigger">
-<area shape="rect" id="node2" href="$group__common.html#ga87a86bac1d4abffcdd50384f6f4dcc48" title="powermonitor::gen_report" alt="" coords="195,41,365,68"/>
-<area shape="rect" id="node5" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="213,93,347,134"/>
-<area shape="rect" id="node3" href="$group__common.html#gafc1025d722f6f9f5c1d902cef3876355" title="powermonitor::get_IP\l_params" alt="" coords="413,5,560,46"/>
-<area shape="rect" id="node4" href="$group__common.html#ga1168f792f1d4f38b51e49067e56b467d" title="powermonitor::get_model_name" alt="" coords="609,41,815,68"/>
+<area shape="rect" id="node2" href="$group__common.html#ga87a86bac1d4abffcdd50384f6f4dcc48" title="powermonitor::gen_report" alt="" coords="195,42,364,69"/>
+<area shape="rect" id="node5" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="213,93,346,135"/>
+<area shape="rect" id="node3" href="$group__common.html#gafc1025d722f6f9f5c1d902cef3876355" title="powermonitor::get_IP\l_params" alt="" coords="412,5,559,47"/>
+<area shape="rect" id="node4" href="$group__common.html#ga1168f792f1d4f38b51e49067e56b467d" title="powermonitor::get_model_name" alt="" coords="607,42,813,69"/>
 </map>

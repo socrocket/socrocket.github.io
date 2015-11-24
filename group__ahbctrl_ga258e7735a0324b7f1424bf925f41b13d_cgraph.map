@@ -1,21 +1,21 @@
 <map id="AHBCtrl::AHBCtrl" name="AHBCtrl::AHBCtrl">
-<area shape="rect" id="node2" href="$group__ahbctrl.html#ga9033b567068ed33acc84ded9bdc6830b" title="AHBCtrl::AcceptThread" alt="" coords="203,107,363,133"/>
-<area shape="rect" id="node4" href="$group__ahbctrl.html#gad06689151a032adc3373bf5f334d27a9" title="The arbiter thread. Responsible for arbitrating transactions in AT mode. " alt="" coords="219,5,346,32"/>
-<area shape="rect" id="node6" href="$group__ahbctrl.html#ga8d737345a2659702b7fcb8129f21b29f" title="TLM blocking transport method. " alt="" coords="211,259,355,285"/>
-<area shape="rect" id="node9" href="$group__ahbctrl.html#ga618f0e6aa978f1c673b1d2a5ac5a5d43" title="AHBCtrl::EndResponseThread" alt="" coords="182,56,383,83"/>
-<area shape="rect" id="node10" href="$group__ahbctrl.html#gafe0c9f22c8a0b9ee5033add1d5cf72f0" title="DMI Pathes. " alt="" coords="215,361,351,402"/>
-<area shape="rect" id="node11" href="$group__ahbctrl.html#gac62a85f287f1b1c02dd324520cf9c4aa" title="Initialisation function for model generics. " alt="" coords="207,427,359,453"/>
-<area shape="rect" id="node13" href="$group__ahbctrl.html#ga5b1bb17fa7c852bc8ef677126d0dbe14" title="AHBCtrl::invalidate\l_direct_mem_ptr" alt="" coords="215,478,350,519"/>
-<area shape="rect" id="node14" href="$group__ahbctrl.html#gaba76f71a93c550e9ba201ff37d3951c7" title="TLM non&#45;blocking transport backward (for AHB master multi&#45;sock) " alt="" coords="195,544,370,571"/>
-<area shape="rect" id="node16" href="$group__ahbctrl.html#gaa6815d9778e969513c2c31747bb39053" title="TLM non&#45;blocking transport forward (for AHB slave multi&#45;sock) " alt="" coords="197,309,369,336"/>
-<area shape="rect" id="node17" href="$group__ahbctrl.html#gaf3ac446096f23517f00db6a72cf23de7" title="AHBCtrl::RequestThread" alt="" coords="199,157,367,184"/>
-<area shape="rect" id="node19" href="$group__ahbctrl.html#ga01091237e4a301556f96585e12725f64" title="AHBCtrl::ResponseThread" alt="" coords="193,208,372,235"/>
-<area shape="rect" id="node20" href="$group__ahbctrl.html#ga3b431b47fa5133f98dae8bd98e332bed" title="TLM debug interface. " alt="" coords="203,595,362,621"/>
-<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="459,107,592,149"/>
-<area shape="rect" id="node5" href="$classmsclogger.html#a2012d43937a56d34b8f913c2d099a230" title="msclogger::forward" alt="" coords="459,49,592,76"/>
-<area shape="rect" id="node7" href="$group__ahbctrl.html#ga2174150c4b184a5ceae2243123ffc537" title="Collect common transport statistics. " alt="" coords="460,247,591,289"/>
-<area shape="rect" id="node8" href="$classmsclogger.html#addbebe5cf3889d6b484f7e7bceae80c5" title="msclogger::return_backward" alt="" coords="432,313,619,340"/>
-<area shape="rect" id="node12" href="$classsr__param__base.html#ad7c5b28a15c30bb579ff36c8ae356829" title="sr_param_base::add\l_properties" alt="" coords="455,419,595,461"/>
-<area shape="rect" id="node15" href="$classmsclogger.html#aa1746b080fbfe3d234f6426e219c12fb" title="msclogger::return_forward" alt="" coords="439,544,612,571"/>
-<area shape="rect" id="node18" href="$classmsclogger.html#adcaf965f7cef10a5060719d46921214d" title="msclogger::backward" alt="" coords="452,187,599,213"/>
+<area shape="rect" id="node2" href="$group__ahbctrl.html#ga9033b567068ed33acc84ded9bdc6830b" title="AHBCtrl::AcceptThread" alt="" coords="202,107,362,133"/>
+<area shape="rect" id="node4" href="$group__ahbctrl.html#gad06689151a032adc3373bf5f334d27a9" title="The arbiter thread. Responsible for arbitrating transactions in AT mode. " alt="" coords="219,5,345,32"/>
+<area shape="rect" id="node6" href="$group__ahbctrl.html#ga8d737345a2659702b7fcb8129f21b29f" title="TLM blocking transport method. " alt="" coords="210,259,354,285"/>
+<area shape="rect" id="node9" href="$group__ahbctrl.html#ga618f0e6aa978f1c673b1d2a5ac5a5d43" title="AHBCtrl::EndResponseThread" alt="" coords="181,56,383,83"/>
+<area shape="rect" id="node10" href="$group__ahbctrl.html#gafe0c9f22c8a0b9ee5033add1d5cf72f0" title="DMI Pathes. " alt="" coords="214,361,350,402"/>
+<area shape="rect" id="node11" href="$group__ahbctrl.html#gac62a85f287f1b1c02dd324520cf9c4aa" title="Initialisation function for model generics. " alt="" coords="206,427,358,453"/>
+<area shape="rect" id="node13" href="$group__ahbctrl.html#ga5b1bb17fa7c852bc8ef677126d0dbe14" title="AHBCtrl::invalidate\l_direct_mem_ptr" alt="" coords="215,478,349,519"/>
+<area shape="rect" id="node14" href="$group__ahbctrl.html#gaba76f71a93c550e9ba201ff37d3951c7" title="TLM non&#45;blocking transport backward (for AHB master multi&#45;sock) " alt="" coords="195,544,369,571"/>
+<area shape="rect" id="node16" href="$group__ahbctrl.html#gaa6815d9778e969513c2c31747bb39053" title="TLM non&#45;blocking transport forward (for AHB slave multi&#45;sock) " alt="" coords="196,309,368,336"/>
+<area shape="rect" id="node17" href="$group__ahbctrl.html#gaf3ac446096f23517f00db6a72cf23de7" title="AHBCtrl::RequestThread" alt="" coords="198,157,366,184"/>
+<area shape="rect" id="node19" href="$group__ahbctrl.html#ga01091237e4a301556f96585e12725f64" title="AHBCtrl::ResponseThread" alt="" coords="193,208,371,235"/>
+<area shape="rect" id="node20" href="$group__ahbctrl.html#ga3b431b47fa5133f98dae8bd98e332bed" title="TLM debug interface. " alt="" coords="203,595,361,621"/>
+<area shape="rect" id="node3" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="457,107,591,149"/>
+<area shape="rect" id="node5" href="$classmsclogger.html#a2012d43937a56d34b8f913c2d099a230" title="msclogger::forward" alt="" coords="457,49,591,76"/>
+<area shape="rect" id="node7" href="$group__ahbctrl.html#ga2174150c4b184a5ceae2243123ffc537" title="Collect common transport statistics. " alt="" coords="459,247,589,289"/>
+<area shape="rect" id="node8" href="$classmsclogger.html#addbebe5cf3889d6b484f7e7bceae80c5" title="msclogger::return_backward" alt="" coords="431,313,617,340"/>
+<area shape="rect" id="node12" href="$classsr__param__base.html#ad7c5b28a15c30bb579ff36c8ae356829" title="sr_param_base::add\l_properties" alt="" coords="454,419,594,461"/>
+<area shape="rect" id="node15" href="$classmsclogger.html#aa1746b080fbfe3d234f6426e219c12fb" title="msclogger::return_forward" alt="" coords="437,544,611,571"/>
+<area shape="rect" id="node18" href="$classmsclogger.html#adcaf965f7cef10a5060719d46921214d" title="msclogger::backward" alt="" coords="451,187,597,213"/>
 </map>

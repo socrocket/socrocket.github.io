@@ -1,46 +1,46 @@
 <map id="mmu_cache::mmu_cache" name="mmu_cache::mmu_cache">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#gafbc150cc7b26c370a878245cd09043b5" title="TLM blocking forward transport function for dcio socket. " alt="" coords="233,1182,431,1208"/>
-<area shape="rect" id="node37" href="$group__mmu__cache.html#gab300fbccb17bcbdbb63c20ba2f24dac9" title="TLM non&#45;blocking forward transport function for dcio socket. " alt="" coords="259,1349,405,1390"/>
-<area shape="rect" id="node38" href="$group__mmu__cache.html#gaec92189beb3daae68c486a92b51b395f" title="Data service thread for AT. " alt="" coords="245,1284,419,1325"/>
-<area shape="rect" id="node39" href="$group__mmu__cache.html#ga87210b03099a503266e09719000ababa" title="TLM data debug transport. " alt="" coords="227,1232,437,1259"/>
-<area shape="rect" id="node40" href="$group__mmu__cache.html#ga18f63ba06685a9977c4e1d38e8c77af5" title="TLM blocking forward transport function for icio socket. " alt="" coords="235,587,429,614"/>
-<area shape="rect" id="node43" href="$group__mmu__cache.html#gad072ba30027f3a5ec2a76cefc147cfcd" title="TLM non&#45;blocking forward transport function for icio socket. " alt="" coords="261,1414,403,1456"/>
-<area shape="rect" id="node44" href="$group__mmu__cache.html#ga081987e3d373aa83189d2ba1665e424f" title="Instruction service thread for AT. " alt="" coords="247,1116,417,1157"/>
-<area shape="rect" id="node45" href="$group__mmu__cache.html#ga0d903b6a6623ae513f540e785cea502a" title="TLM instruction debug transport. " alt="" coords="229,780,435,807"/>
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga5b09db16bcd1fd6eaa235b4733fa9a92" title="Data interface to functional part of the model. " alt="" coords="486,1262,647,1288"/>
-<area shape="rect" id="node4" href="$group__mmu__cache__base.html#gabad31e2ea98c32b528bbbad11ecc38e2" title="Data interface to functional part of the model. " alt="" coords="697,874,893,900"/>
-<area shape="rect" id="node36" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="1015,82,1065,108"/>
-<area shape="rect" id="node5" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="1236,234,1343,260"/>
-<area shape="rect" id="node6" href="$group__mmu__cache__base.html#gae13fd6b248d3f36f8856ef641e05fa6f" title="Read the cache control register. " alt="" coords="947,1026,1133,1052"/>
-<area shape="rect" id="node8" href="$classcache__if.html#a267dea4fdc804f27b0b057530a76a6b1" title="read cache configuration register (ASI 0x2) " alt="" coords="955,1548,1125,1575"/>
-<area shape="rect" id="node9" href="$group__mmu__cache.html#ga75c5ce5d2ba541b139c01ac7aea84b9e" title="Diagnostic read of instruction PDC (ASI 0x5) " alt="" coords="971,1076,1109,1103"/>
-<area shape="rect" id="node10" href="$group__mmu__cache.html#gab273d60128c964526c598cdac37881b3" title="Diagnostic read of data PDC or shared instruction and data PDC (ASI 0x6) " alt="" coords="965,1127,1115,1154"/>
-<area shape="rect" id="node11" href="$classcache__if.html#ae6a15968ff1639737014417a1e716838" title="read data cache tags (ASI 0xe) " alt="" coords="955,284,1125,311"/>
-<area shape="rect" id="node12" href="$classcache__if.html#a716766377b7b9f0fde5fdc3959e6054a" title="read data cache entries/data (ASI 0xf) " alt="" coords="967,336,1113,377"/>
-<area shape="rect" id="node13" href="$group__mmu__cache.html#gad7e00bd8627bf65374b3411f77ef5d07" title="Read mmu control register (ASI 0x19) " alt="" coords="983,1178,1097,1204"/>
-<area shape="rect" id="node14" href="$group__mmu__cache.html#ga9e77f15d7259cc80e26347e1dc3b0c52" title="Read mmu context pointer register (ASI 0x19) " alt="" coords="978,1228,1102,1255"/>
-<area shape="rect" id="node15" href="$group__mmu__cache.html#ga03e13ff343682aa047a7ae5b95cdcf98" title="Read mmu context register (ASI 0x19) " alt="" coords="978,1279,1102,1306"/>
-<area shape="rect" id="node16" href="$group__mmu__cache.html#gafe4d3dcfc5d31fd829f30a2cca620a85" title="Read mmu fault status register (ASI 0x19) " alt="" coords="981,1330,1099,1356"/>
-<area shape="rect" id="node17" href="$group__mmu__cache.html#ga6bba88aa3db5d553d62cdc621ca99240" title="Read mmu fault address register (ASI 0x19) " alt="" coords="981,1380,1099,1407"/>
-<area shape="rect" id="node18" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="970,183,1110,210"/>
-<area shape="rect" id="node19" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="973,132,1107,159"/>
-<area shape="rect" id="node20" href="$group__mmu__cache__base.html#gaeb388f4679b45fd4d56ed45dad9dd21e" title="MemIF implementation &#45; reads data from AHB master. " alt="" coords="941,1498,1139,1524"/>
-<area shape="rect" id="node23" href="$group__mmu__cache__base.html#gae5572d125b9fe148dbd117ffc98ede8f" title="Writes the cache control register. " alt="" coords="945,503,1135,530"/>
-<area shape="rect" id="node24" href="$classcache__if.html#a6df0437d63d7c5a938841faadceda9ab" title="display of cache lines for debug " alt="" coords="977,402,1103,428"/>
-<area shape="rect" id="node25" href="$group__mmu__cache.html#ga42e5093cd28dbe96abaeb81a8c54c89e" title="Diagnostic write of instruction PDC (ASI 0x5) " alt="" coords="969,452,1111,479"/>
-<area shape="rect" id="node26" href="$group__mmu__cache.html#gacc044d80e3722c74d89ee7ae3ad07485" title="Diagnostic write of data PDC or shared instruction and data PDC (ASI 0x6) " alt="" coords="963,554,1117,580"/>
-<area shape="rect" id="node27" href="$classcache__if.html#a1e7ce247b9df117d6c13368bae870bb9" title="write data cache tags (ASI 0xe) " alt="" coords="953,604,1127,631"/>
-<area shape="rect" id="node28" href="$classcache__if.html#a0b1de9ad69bad01deba0ee7c21bd8d50" title="write data cache entries/data (ASI 0xf) " alt="" coords="965,656,1115,697"/>
-<area shape="rect" id="node29" href="$group__mmu__cache.html#ga0f1e78dd250c1b7791a8e5bca5051fcf" title="TLB flush complete. " alt="" coords="986,722,1094,748"/>
-<area shape="rect" id="node30" href="$group__mmu__cache.html#ga6dfa5b1862b7cc9e557bc001882b4a1d" title="Write mmu control register (ASI 0x19) " alt="" coords="982,874,1098,900"/>
-<area shape="rect" id="node31" href="$group__mmu__cache.html#ga5295604a4cae87e2f90332e25858e188" title="Write mmu context pointer register (ASI 0x19) " alt="" coords="977,924,1103,951"/>
-<area shape="rect" id="node32" href="$group__mmu__cache.html#gae396da592bf30563c3c391d8169e9d7c" title="Write mmu context register (ASI 0x19) " alt="" coords="977,975,1103,1002"/>
-<area shape="rect" id="node33" href="$group__mmu__cache.html#gab78bf99c0844981f0f237097c265e93d" title="Write to scratchpad. " alt="" coords="969,772,1111,799"/>
-<area shape="rect" id="node34" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="971,823,1109,850"/>
-<area shape="rect" id="node35" href="$group__mmu__cache__base.html#gad5a97e4279ca84676521be3b6828ccc6" title="MemIF implementation &#45; writes data to AHB master. " alt="" coords="957,1432,1123,1473"/>
-<area shape="rect" id="node7" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="1229,1102,1350,1128"/>
-<area shape="rect" id="node21" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="1223,1556,1356,1597"/>
-<area shape="rect" id="node22" href="$classAHBMaster.html#ac1a28c85f3f099e6c356f621a574ac27" title="Generic AHB debug access function. " alt="" coords="1187,1468,1392,1495"/>
-<area shape="rect" id="node41" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="486,334,647,360"/>
-<area shape="rect" id="node42" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="713,184,877,225"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#gafbc150cc7b26c370a878245cd09043b5" title="TLM blocking forward transport function for dcio socket. " alt="" coords="232,1182,429,1208"/>
+<area shape="rect" id="node37" href="$group__mmu__cache.html#gab300fbccb17bcbdbb63c20ba2f24dac9" title="TLM non&#45;blocking forward transport function for dcio socket. " alt="" coords="257,1349,404,1390"/>
+<area shape="rect" id="node38" href="$group__mmu__cache.html#gaec92189beb3daae68c486a92b51b395f" title="Data service thread for AT. " alt="" coords="243,1284,418,1325"/>
+<area shape="rect" id="node39" href="$group__mmu__cache.html#ga87210b03099a503266e09719000ababa" title="TLM data debug transport. " alt="" coords="225,1232,436,1259"/>
+<area shape="rect" id="node40" href="$group__mmu__cache.html#ga18f63ba06685a9977c4e1d38e8c77af5" title="TLM blocking forward transport function for icio socket. " alt="" coords="234,587,427,614"/>
+<area shape="rect" id="node43" href="$group__mmu__cache.html#gad072ba30027f3a5ec2a76cefc147cfcd" title="TLM non&#45;blocking forward transport function for icio socket. " alt="" coords="259,1414,402,1456"/>
+<area shape="rect" id="node44" href="$group__mmu__cache.html#ga081987e3d373aa83189d2ba1665e424f" title="Instruction service thread for AT. " alt="" coords="245,1116,416,1157"/>
+<area shape="rect" id="node45" href="$group__mmu__cache.html#ga0d903b6a6623ae513f540e785cea502a" title="TLM instruction debug transport. " alt="" coords="227,780,434,807"/>
+<area shape="rect" id="node3" href="$group__mmu__cache.html#ga5b09db16bcd1fd6eaa235b4733fa9a92" title="Data interface to functional part of the model. " alt="" coords="484,1262,645,1288"/>
+<area shape="rect" id="node4" href="$group__mmu__cache__base.html#gabad31e2ea98c32b528bbbad11ecc38e2" title="Data interface to functional part of the model. " alt="" coords="693,874,889,900"/>
+<area shape="rect" id="node36" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="1011,82,1061,108"/>
+<area shape="rect" id="node5" href="$classcache__if.html#aed3a97268b017872594d189cd621c5c9" title="flush cache " alt="" coords="1232,234,1339,260"/>
+<area shape="rect" id="node6" href="$group__mmu__cache__base.html#gae13fd6b248d3f36f8856ef641e05fa6f" title="Read the cache control register. " alt="" coords="943,1026,1129,1052"/>
+<area shape="rect" id="node8" href="$classcache__if.html#a267dea4fdc804f27b0b057530a76a6b1" title="read cache configuration register (ASI 0x2) " alt="" coords="951,1548,1121,1575"/>
+<area shape="rect" id="node9" href="$group__mmu__cache.html#ga75c5ce5d2ba541b139c01ac7aea84b9e" title="Diagnostic read of instruction PDC (ASI 0x5) " alt="" coords="967,1076,1105,1103"/>
+<area shape="rect" id="node10" href="$group__mmu__cache.html#gab273d60128c964526c598cdac37881b3" title="Diagnostic read of data PDC or shared instruction and data PDC (ASI 0x6) " alt="" coords="961,1127,1111,1154"/>
+<area shape="rect" id="node11" href="$classcache__if.html#ae6a15968ff1639737014417a1e716838" title="read data cache tags (ASI 0xe) " alt="" coords="951,284,1121,311"/>
+<area shape="rect" id="node12" href="$classcache__if.html#a716766377b7b9f0fde5fdc3959e6054a" title="read data cache entries/data (ASI 0xf) " alt="" coords="963,336,1109,377"/>
+<area shape="rect" id="node13" href="$group__mmu__cache.html#gad7e00bd8627bf65374b3411f77ef5d07" title="Read mmu control register (ASI 0x19) " alt="" coords="979,1178,1093,1204"/>
+<area shape="rect" id="node14" href="$group__mmu__cache.html#ga9e77f15d7259cc80e26347e1dc3b0c52" title="Read mmu context pointer register (ASI 0x19) " alt="" coords="974,1228,1098,1255"/>
+<area shape="rect" id="node15" href="$group__mmu__cache.html#ga03e13ff343682aa047a7ae5b95cdcf98" title="Read mmu context register (ASI 0x19) " alt="" coords="974,1279,1098,1306"/>
+<area shape="rect" id="node16" href="$group__mmu__cache.html#gafe4d3dcfc5d31fd829f30a2cca620a85" title="Read mmu fault status register (ASI 0x19) " alt="" coords="977,1330,1095,1356"/>
+<area shape="rect" id="node17" href="$group__mmu__cache.html#ga6bba88aa3db5d553d62cdc621ca99240" title="Read mmu fault address register (ASI 0x19) " alt="" coords="977,1380,1095,1407"/>
+<area shape="rect" id="node18" href="$group__mmu__cache.html#gab3016821c0179ce6b85559aa2cc074d3" title="Read from scratchpad. " alt="" coords="966,183,1106,210"/>
+<area shape="rect" id="node19" href="$classmem__if.html#aa4c431846b1d11708be4128f84295c6c" title="mem_if::mem_read" alt="" coords="969,132,1103,159"/>
+<area shape="rect" id="node20" href="$group__mmu__cache__base.html#gaeb388f4679b45fd4d56ed45dad9dd21e" title="MemIF implementation &#45; reads data from AHB master. " alt="" coords="937,1498,1135,1524"/>
+<area shape="rect" id="node23" href="$group__mmu__cache__base.html#gae5572d125b9fe148dbd117ffc98ede8f" title="Writes the cache control register. " alt="" coords="941,503,1131,530"/>
+<area shape="rect" id="node24" href="$classcache__if.html#a6df0437d63d7c5a938841faadceda9ab" title="display of cache lines for debug " alt="" coords="973,402,1099,428"/>
+<area shape="rect" id="node25" href="$group__mmu__cache.html#ga42e5093cd28dbe96abaeb81a8c54c89e" title="Diagnostic write of instruction PDC (ASI 0x5) " alt="" coords="965,452,1107,479"/>
+<area shape="rect" id="node26" href="$group__mmu__cache.html#gacc044d80e3722c74d89ee7ae3ad07485" title="Diagnostic write of data PDC or shared instruction and data PDC (ASI 0x6) " alt="" coords="959,554,1113,580"/>
+<area shape="rect" id="node27" href="$classcache__if.html#a1e7ce247b9df117d6c13368bae870bb9" title="write data cache tags (ASI 0xe) " alt="" coords="949,604,1123,631"/>
+<area shape="rect" id="node28" href="$classcache__if.html#a0b1de9ad69bad01deba0ee7c21bd8d50" title="write data cache entries/data (ASI 0xf) " alt="" coords="961,656,1111,697"/>
+<area shape="rect" id="node29" href="$group__mmu__cache.html#ga0f1e78dd250c1b7791a8e5bca5051fcf" title="TLB flush complete. " alt="" coords="982,722,1090,748"/>
+<area shape="rect" id="node30" href="$group__mmu__cache.html#ga6dfa5b1862b7cc9e557bc001882b4a1d" title="Write mmu control register (ASI 0x19) " alt="" coords="978,874,1094,900"/>
+<area shape="rect" id="node31" href="$group__mmu__cache.html#ga5295604a4cae87e2f90332e25858e188" title="Write mmu context pointer register (ASI 0x19) " alt="" coords="973,924,1099,951"/>
+<area shape="rect" id="node32" href="$group__mmu__cache.html#gae396da592bf30563c3c391d8169e9d7c" title="Write mmu context register (ASI 0x19) " alt="" coords="973,975,1099,1002"/>
+<area shape="rect" id="node33" href="$group__mmu__cache.html#gab78bf99c0844981f0f237097c265e93d" title="Write to scratchpad. " alt="" coords="965,772,1107,799"/>
+<area shape="rect" id="node34" href="$classmem__if.html#a18817b6b8bfff9aeb10b1f6aaecf80fd" title="mem_if::mem_write" alt="" coords="967,823,1105,850"/>
+<area shape="rect" id="node35" href="$group__mmu__cache__base.html#gad5a97e4279ca84676521be3b6828ccc6" title="MemIF implementation &#45; writes data to AHB master. " alt="" coords="953,1432,1119,1473"/>
+<area shape="rect" id="node7" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="1225,1102,1346,1128"/>
+<area shape="rect" id="node21" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="1219,1556,1352,1597"/>
+<area shape="rect" id="node22" href="$classAHBMaster.html#ac1a28c85f3f099e6c356f621a574ac27" title="Generic AHB debug access function. " alt="" coords="1183,1468,1388,1495"/>
+<area shape="rect" id="node41" href="$group__mmu__cache.html#ga95e1fb7554801153de0221044bdb5113" title="Instruction interface to functional part of the model. " alt="" coords="484,334,645,360"/>
+<area shape="rect" id="node42" href="$group__mmu__cache__base.html#gabbbf06dab9607e4469eeda34e3ea8a9c" title="Instruction interface to functional part of the model. " alt="" coords="709,184,873,225"/>
 </map>

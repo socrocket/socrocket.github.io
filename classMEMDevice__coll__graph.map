@@ -1,5 +1,5 @@
 <map id="MEMDevice" name="MEMDevice">
-<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="109,393,299,543"/>
-<area shape="rect" id="node6" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="251,177,404,327"/>
-<area shape="rect" id="node7" href="$classBASE.html" title="{BASE\n||}" alt="" coords="299,5,356,83"/>
+<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="109,388,300,539"/>
+<area shape="rect" id="node6" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="251,175,406,325"/>
+<area shape="rect" id="node7" href="$classBASE.html" title="{BASE\n||}" alt="" coords="299,5,358,83"/>
 </map>

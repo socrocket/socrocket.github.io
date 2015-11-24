@@ -1,4 +1,4 @@
 <map id="sr_signal::signal_out_if&lt; TYPE &gt;" name="sr_signal::signal_out_if&lt; TYPE &gt;">
-<area shape="rect" id="node2" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="5,147,135,283"/>
-<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="160,161,313,268"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1signal__if.html" title="{sr_signal::signal_if\l\&lt; TYPE \&gt;\n||+ ~signal_if()\l+ read()\l+ operator TYPE()\l+ operator==()\l}" alt="" coords="5,145,136,281"/>
+<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__bind__if.html" title="{sr_signal::signal_out\l_bind_if\&lt; TYPE \&gt;\n||+ ~signal_out_bind_if()\l+ bind()\l}" alt="" coords="160,160,315,267"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="core/common/sr_iss/intrinsics/intrinsicbase.h" name="core/common/sr_iss/intrinsics/intrinsicbase.h">
-<area shape="rect" id="node2" href="$platformintrinsic_8h.html" title="core/common/sr_iss\l/intrinsics/platformintrinsic.h" alt="" coords="190,97,375,138"/>
-<area shape="rect" id="node3" href="$intrinsicmanager_8h.html" title="core/common/sr_iss\l/intrinsics/intrinsicmanager.h" alt="" coords="81,187,268,229"/>
-<area shape="rect" id="node7" href="$platformintrinsic_8cpp.html" title="core/common/sr_iss\l/intrinsics/platformintrinsic.cpp" alt="" coords="293,187,491,229"/>
-<area shape="rect" id="node4" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="104,277,244,304"/>
-<area shape="rect" id="node5" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,353,163,394"/>
-<area shape="rect" id="node6" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="188,360,341,387"/>
+<area shape="rect" id="node2" href="$platformintrinsic_8h.html" title="core/common/sr_iss\l/intrinsics/platformintrinsic.h" alt="" coords="191,95,376,136"/>
+<area shape="rect" id="node3" href="$intrinsicmanager_8h.html" title="core/common/sr_iss\l/intrinsics/intrinsicmanager.h" alt="" coords="81,184,269,225"/>
+<area shape="rect" id="node7" href="$platformintrinsic_8cpp.html" title="core/common/sr_iss\l/intrinsics/platformintrinsic.cpp" alt="" coords="293,184,492,225"/>
+<area shape="rect" id="node4" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="105,273,246,300"/>
+<area shape="rect" id="node5" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,348,164,389"/>
+<area shape="rect" id="node6" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="189,355,343,382"/>
 </map>

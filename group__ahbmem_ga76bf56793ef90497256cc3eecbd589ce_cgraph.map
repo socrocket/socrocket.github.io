@@ -1,4 +1,4 @@
 <map id="AHBMem::start_of_simulation" name="AHBMem::start_of_simulation">
-<area shape="rect" id="node2" href="$group__ahbmem.html#gac68b201bbc84b4770d4950eb3803a87f" title="Calculate power/energy values from normalized input data. " alt="" coords="251,19,415,45"/>
-<area shape="rect" id="node3" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice\&lt; BaseModule\l\&lt; DefaultBase \&gt; \&gt;::get\l_ahb_size" alt="" coords="465,4,639,60"/>
+<area shape="rect" id="node2" href="$group__ahbmem.html#gac68b201bbc84b4770d4950eb3803a87f" title="Calculate power/energy values from normalized input data. " alt="" coords="251,5,415,32"/>
+<area shape="rect" id="node3" href="$classAHBDevice.html#a32c2b495a467fc30e15edfff517a0fca" title="AHBDevice::get_ahb_size" alt="" coords="463,5,639,32"/>
 </map>

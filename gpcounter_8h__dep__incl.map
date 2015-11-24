@@ -1,6 +1,6 @@
 <map id="gaisler/gptimer/gpcounter.h" name="gaisler/gptimer/gpcounter.h">
-<area shape="rect" id="node2" href="$gaisler_2gptimer_2gptimer_8h.html" title="gaisler/gptimer/gptimer.h" alt="" coords="217,80,381,107"/>
-<area shape="rect" id="node4" href="$gpcounter_8cpp.html" title="gaisler/gptimer/gpcounter.cpp" alt="" coords="391,163,584,189"/>
-<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,155,163,197"/>
-<area shape="rect" id="node5" href="$gptimer_8cpp.html" title="gaisler/gptimer/gptimer.cpp" alt="" coords="188,163,367,189"/>
+<area shape="rect" id="node2" href="$gaisler_2gptimer_2gptimer_8h.html" title="gaisler/gptimer/gptimer.h" alt="" coords="218,80,383,107"/>
+<area shape="rect" id="node4" href="$gpcounter_8cpp.html" title="gaisler/gptimer/gpcounter.cpp" alt="" coords="392,162,585,189"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,155,164,196"/>
+<area shape="rect" id="node5" href="$gptimer_8cpp.html" title="gaisler/gptimer/gptimer.cpp" alt="" coords="189,162,367,189"/>
 </map>
