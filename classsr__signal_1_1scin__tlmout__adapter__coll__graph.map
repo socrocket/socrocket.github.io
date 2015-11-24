@@ -1,5 +1,5 @@
 <map id="sr_signal::scin_tlmout_adapter&lt; INTYPE, OUTTYPE &gt;" name="sr_signal::scin_tlmout_adapter&lt; INTYPE, OUTTYPE &gt;">
-<area shape="rect" id="node2" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; scin_tlmout\l_adapter\&lt; INTYPE, OUTTYPE \&gt; \&gt;\n||}" alt="" coords="5,182,233,289"/>
-<area shape="rect" id="node3" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; MODULE \&gt;\n||}" alt="" coords="162,5,314,97"/>
-<area shape="rect" id="node5" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; sr_signal::scin\l_tlmout_adapter\&lt; INTYPE,\l OUTTYPE \&gt; \&gt;\n||}" alt="" coords="257,175,437,296"/>
+<area shape="rect" id="node2" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; scin_tlmout\l_adapter\&lt; INTYPE, OUTTYPE \&gt; \&gt;\n||}" alt="" coords="5,184,232,291"/>
+<area shape="rect" id="node3" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; MODULE \&gt;\n||}" alt="" coords="161,6,313,98"/>
+<area shape="rect" id="node5" href="$classsr__signal_1_1sr__signal__module.html" title="{sr_signal::sr_signal\l_module\&lt; sr_signal::scin\l_tlmout_adapter\&lt; INTYPE,\l OUTTYPE \&gt; \&gt;\n||}" alt="" coords="257,177,436,298"/>
 </map>

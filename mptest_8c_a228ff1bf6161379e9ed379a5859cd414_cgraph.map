@@ -1,7 +1,3 @@
 <map id="mptest" name="mptest">
-<area shape="rect" id="node2" href="$standalone_8h.html#a891302dfc8c13e17a3af43ba5693ec9e" title="get_pid" alt="" coords="137,5,201,32"/>
-<area shape="rect" id="node3" href="$standalone_8h.html#ab0318e4582d718afe64ef6ed3393f24f" title="get_sem" alt="" coords="133,56,205,83"/>
-<area shape="rect" id="node4" href="$standalone_8h.html#ad0c84c1a4504f812973b739e6d5407a7" title="getccfg" alt="" coords="136,107,201,133"/>
-<area shape="rect" id="node5" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="116,157,221,184"/>
-<area shape="rect" id="node6" href="$standalone_8h.html#a93c0e43e899130cb2138c7862ce18104" title="ret_sem" alt="" coords="134,208,203,235"/>
+<area shape="rect" id="node2" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="118,5,223,32"/>
 </map>

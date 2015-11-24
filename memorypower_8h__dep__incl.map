@@ -1,6 +1,6 @@
 <map id="gaisler/memory/memorypower.h" name="gaisler/memory/memorypower.h">
-<area shape="rect" id="node2" href="$memory_8h.html" title="gaisler/memory/memory.h" alt="" coords="97,80,270,107"/>
-<area shape="rect" id="node5" href="$memorypower_8cpp.html" title="gaisler/memory/memorypower.cpp" alt="" coords="295,80,517,107"/>
-<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,155,164,196"/>
-<area shape="rect" id="node4" href="$memory_2memory_8cpp.html" title="gaisler/memory/memory.cpp" alt="" coords="189,162,375,189"/>
+<area shape="rect" id="node2" href="$memory_8h.html" title="gaisler/memory/memory.h" alt="" coords="96,80,269,107"/>
+<area shape="rect" id="node5" href="$memorypower_8cpp.html" title="gaisler/memory/memorypower.cpp" alt="" coords="294,80,516,107"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="5,155,163,197"/>
+<area shape="rect" id="node4" href="$memory_2memory_8cpp.html" title="gaisler/memory/memory.cpp" alt="" coords="188,163,375,189"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="io_if" name="io_if">
-<area shape="rect" id="node2" href="$classReportIO.html" title="{ReportIO\n|+ g_lines\l|+ ReportIO()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="5,167,148,303"/>
-<area shape="rect" id="node3" href="$classTcpIO.html" title="{TcpIO\n||+ TcpIO()\l+ ~TcpIO()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="172,160,315,311"/>
+<area shape="rect" id="node2" href="$classReportIO.html" title="{ReportIO\n|+ g_lines\l|+ ReportIO()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="5,168,147,304"/>
+<area shape="rect" id="node3" href="$classTcpIO.html" title="{TcpIO\n||+ TcpIO()\l+ ~TcpIO()\l+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l+ makeConnection()\l}" alt="" coords="171,161,313,311"/>
 </map>

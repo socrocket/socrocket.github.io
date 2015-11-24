@@ -1,5 +1,5 @@
 <map id="powermonitor::end_of_simulation" name="powermonitor::end_of_simulation">
-<area shape="rect" id="node2" href="$group__common.html#ga87a86bac1d4abffcdd50384f6f4dcc48" title="powermonitor::gen_report" alt="" coords="200,42,369,69"/>
-<area shape="rect" id="node3" href="$group__common.html#gafc1025d722f6f9f5c1d902cef3876355" title="powermonitor::get_IP\l_params" alt="" coords="417,5,564,47"/>
-<area shape="rect" id="node4" href="$group__common.html#ga1168f792f1d4f38b51e49067e56b467d" title="powermonitor::get_model_name" alt="" coords="612,42,819,69"/>
+<area shape="rect" id="node2" href="$group__common.html#ga87a86bac1d4abffcdd50384f6f4dcc48" title="powermonitor::gen_report" alt="" coords="201,41,370,68"/>
+<area shape="rect" id="node3" href="$group__common.html#gafc1025d722f6f9f5c1d902cef3876355" title="powermonitor::get_IP\l_params" alt="" coords="419,5,565,46"/>
+<area shape="rect" id="node4" href="$group__common.html#ga1168f792f1d4f38b51e49067e56b467d" title="powermonitor::get_model_name" alt="" coords="614,41,821,68"/>
 </map>

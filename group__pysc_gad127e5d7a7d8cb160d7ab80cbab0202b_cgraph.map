@@ -1,5 +1,5 @@
 <map id="pysc_load" name="pysc_load">
-<area shape="rect" id="node2" href="$group__pysc.html#ga0a551d74e128826ca1fbe5100ca93cbb" title="PythonModule::load" alt="" coords="135,46,272,73"/>
-<area shape="rect" id="node3" href="$group__pysc.html#ga658e9d4b7a220eefb2c9cfa744b3451a" title="PythonModule::block\l_threads" alt="" coords="327,5,471,47"/>
-<area shape="rect" id="node4" href="$group__pysc.html#gaa90e2ceae31dc619f83e9d0f91986219" title="Unblock our singleton thread. " alt="" coords="320,71,479,112"/>
+<area shape="rect" id="node2" href="$group__pysc.html#ga0a551d74e128826ca1fbe5100ca93cbb" title="PythonModule::load" alt="" coords="137,45,274,72"/>
+<area shape="rect" id="node3" href="$group__pysc.html#ga658e9d4b7a220eefb2c9cfa744b3451a" title="PythonModule::block\l_threads" alt="" coords="331,5,475,46"/>
+<area shape="rect" id="node4" href="$group__pysc.html#gaa90e2ceae31dc619f83e9d0f91986219" title="Unblock our singleton thread. " alt="" coords="323,70,482,111"/>
 </map>

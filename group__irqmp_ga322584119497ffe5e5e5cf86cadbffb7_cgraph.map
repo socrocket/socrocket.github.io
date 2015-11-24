@@ -1,5 +1,5 @@
 <map id="Irqmp::launch_irq" name="Irqmp::launch_irq">
-<area shape="rect" id="node2" href="$classIrqmp.html#ad006143a3ddef1eb7f1ff51f04b357e2" title="Irqmp::PROC_IR_FORCE" alt="" coords="176,5,353,32"/>
+<area shape="rect" id="node2" href="$classIrqmp.html#ad006143a3ddef1eb7f1ff51f04b357e2" title="Irqmp::PROC_IR_FORCE" alt="" coords="177,5,354,32"/>
 <area shape="rect" id="node3" href="$classIrqmp.html#a59a8bb294d893b691abe9db0c0a37cfd" title="Irqmp::PROC_IR_MASK" alt="" coords="181,56,349,83"/>
-<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="198,107,331,149"/>
+<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="199,107,332,149"/>
 </map>

@@ -1,12 +1,12 @@
 <map id="gaisler/leon3/intunit/instructions.hpp" name="gaisler/leon3/intunit/instructions.hpp">
-<area shape="rect" id="node2" href="$processor_8hpp.html" title="gaisler/leon3/intunit\l/processor.hpp" alt="" coords="153,184,288,225"/>
-<area shape="rect" id="node6" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="5,273,140,315"/>
-<area shape="rect" id="node7" href="$processor_8cpp.html" title="gaisler/leon3/intunit\l/processor.cpp" alt="" coords="331,273,465,315"/>
-<area shape="rect" id="node8" href="$decoder_8hpp.html" title="gaisler/leon3/intunit\l/decoder.hpp" alt="" coords="259,95,393,136"/>
-<area shape="rect" id="node9" href="$decoder_8cpp.html" title="gaisler/leon3/intunit\l/decoder.cpp" alt="" coords="364,184,499,225"/>
-<area shape="rect" id="node10" href="$instructions_8cpp.html" title="gaisler/leon3/intunit\l/instructions.cpp" alt="" coords="575,95,709,136"/>
-<area shape="rect" id="node11" href="$mmu_8cpp.html" title="gaisler/leon3/mmucache\l/mmu.cpp" alt="" coords="734,95,897,136"/>
-<area shape="rect" id="node3" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="165,281,306,307"/>
-<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="65,363,224,404"/>
-<area shape="rect" id="node5" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="249,370,403,397"/>
+<area shape="rect" id="node2" href="$processor_8hpp.html" title="gaisler/leon3/intunit\l/processor.hpp" alt="" coords="153,187,287,229"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="gaisler/leon3/intunit\l/main.cpp" alt="" coords="5,278,139,319"/>
+<area shape="rect" id="node7" href="$processor_8cpp.html" title="gaisler/leon3/intunit\l/processor.cpp" alt="" coords="330,278,464,319"/>
+<area shape="rect" id="node8" href="$decoder_8hpp.html" title="gaisler/leon3/intunit\l/decoder.hpp" alt="" coords="258,97,392,138"/>
+<area shape="rect" id="node9" href="$decoder_8cpp.html" title="gaisler/leon3/intunit\l/decoder.cpp" alt="" coords="363,187,497,229"/>
+<area shape="rect" id="node10" href="$instructions_8cpp.html" title="gaisler/leon3/intunit\l/instructions.cpp" alt="" coords="574,97,708,138"/>
+<area shape="rect" id="node11" href="$mmu_8cpp.html" title="gaisler/leon3/mmucache\l/mmu.cpp" alt="" coords="733,97,896,138"/>
+<area shape="rect" id="node3" href="$gaisler_2leon3_2leon3_8h.html" title="gaisler/leon3/leon3.h" alt="" coords="164,285,304,312"/>
+<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="65,369,223,410"/>
+<area shape="rect" id="node5" href="$leon3_8cpp.html" title="gaisler/leon3/leon3.cpp" alt="" coords="248,376,401,403"/>
 </map>

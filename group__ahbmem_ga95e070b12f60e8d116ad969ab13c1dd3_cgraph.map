@@ -1,5 +1,5 @@
 <map id="AHBMem::get_direct_mem_ptr" name="AHBMem::get_direct_mem_ptr">
-<area shape="rect" id="node2" href="$classStorage.html#a40c97ccf49c1404c7063917e1ababb1e" title="Storage::allow_dmi_rw" alt="" coords="197,5,352,32"/>
-<area shape="rect" id="node3" href="$classAHBDevice.html#a8a0b10f997394f7d2cfd7fdf754a6b4b" title="AHBDevice::get_ahb\l_bar_size" alt="" coords="202,57,347,98"/>
-<area shape="rect" id="node4" href="$classStorage.html#a9884d7e287bba91bc6bfe1171626e626" title="Storage::get_dmi_ptr" alt="" coords="203,123,346,149"/>
+<area shape="rect" id="node2" href="$classStorage.html#a40c97ccf49c1404c7063917e1ababb1e" title="Storage::allow_dmi_rw" alt="" coords="208,5,363,32"/>
+<area shape="rect" id="node3" href="$classAHBDevice.html#a8a0b10f997394f7d2cfd7fdf754a6b4b" title="AHBDevice\&lt; BaseModule\l\&lt; DefaultBase \&gt; \&gt;::get\l_ahb_bar_size" alt="" coords="198,56,373,112"/>
+<area shape="rect" id="node4" href="$classStorage.html#a9884d7e287bba91bc6bfe1171626e626" title="Storage::get_dmi_ptr" alt="" coords="214,136,357,163"/>
 </map>

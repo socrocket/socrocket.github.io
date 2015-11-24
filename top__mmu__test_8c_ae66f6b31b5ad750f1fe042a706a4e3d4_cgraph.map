@@ -1,17 +1,15 @@
 <map id="main" name="main">
 <area shape="rect" id="node2" href="$top__mmu__test_8c.html#a15b9865e81b8b0fec1b33bf30684b5a1" title="mmu_test" alt="" coords="108,157,188,184"/>
-<area shape="rect" id="node9" href="$top__mmu__test_8c.html#ad7b942561ee9322a1d38cc7fb8ce6503" title="ramfill" alt="" coords="119,360,177,387"/>
-<area shape="rect" id="node15" href="$report__device_8c.html#a122d6552956d9e5eb0ffebe09a357ea6" title="report_end" alt="" coords="107,411,189,437"/>
-<area shape="rect" id="node16" href="$report__device_8c.html#a218f63ab98f4b41547a5fde2d4d512e7" title="report_start" alt="" coords="104,461,192,488"/>
+<area shape="rect" id="node9" href="$top__mmu__test_8c.html#ad7b942561ee9322a1d38cc7fb8ce6503" title="ramfill" alt="" coords="119,309,177,336"/>
+<area shape="rect" id="node13" href="$report__device_8c.html#a122d6552956d9e5eb0ffebe09a357ea6" title="report_end" alt="" coords="107,360,189,387"/>
+<area shape="rect" id="node14" href="$report__device_8c.html#a218f63ab98f4b41547a5fde2d4d512e7" title="report_start" alt="" coords="104,411,192,437"/>
 <area shape="rect" id="node3" href="$mmu_8c.html#ac5367531b04dc0db14c0261fe346f52f" title="mmu_func1" alt="" coords="256,5,347,32"/>
 <area shape="rect" id="node4" href="$cache_8c.html#a447e1dd7e74d16c07cf37d566cb5f5c7" title="rsysreg" alt="" coords="269,259,334,285"/>
 <area shape="rect" id="node5" href="$report__device_8c.html#aa1e4c0543aa65e7b4c320fbb86c81f3c" title="report_subtest" alt="" coords="249,56,354,83"/>
 <area shape="rect" id="node6" href="$mmu_8c.html#a32a78819ac7a5750b5bed9d046ff32c8" title="mmugetpagesize" alt="" coords="241,107,362,133"/>
-<area shape="rect" id="node7" href="$mmu_8c.html#af3ff021b8f39f1fcd7687308d6f8dcd7" title="leon_flush_cache_all" alt="" coords="411,183,553,209"/>
+<area shape="rect" id="node7" href="$mmu_8c.html#af3ff021b8f39f1fcd7687308d6f8dcd7" title="leon_flush_cache_all" alt="" coords="411,183,554,209"/>
 <area shape="rect" id="node8" href="$mmu_8c.html#ac8caa4c1c0f968f0d65b3a433b1f1974" title="leon_flush_tlb_all" alt="" coords="240,208,363,235"/>
 <area shape="rect" id="node10" href="$ramfill_8c.html#af8da62d251048a6a57365ef1541338c4" title="cache_disable" alt="" coords="249,309,354,336"/>
-<area shape="rect" id="node11" href="$cache_8h.html#a94d9b92915c7a6c5493168f8b09dc584" title="ifill" alt="" coords="282,360,321,387"/>
-<area shape="rect" id="node12" href="$cache_8h.html#a36a92ef3bc91c345d0c1da0f031ce17c" title="dfill" alt="" coords="280,411,323,437"/>
-<area shape="rect" id="node13" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="276,461,327,488"/>
-<area shape="rect" id="node14" href="$ramfill_8c.html#a8c56c4c4a9e578ad50002d8d751b94e1" title="cache_enable" alt="" coords="250,512,353,539"/>
+<area shape="rect" id="node11" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="276,360,327,387"/>
+<area shape="rect" id="node12" href="$ramfill_8c.html#a8c56c4c4a9e578ad50002d8d751b94e1" title="cache_enable" alt="" coords="250,411,353,437"/>
 </map>

@@ -1,15 +1,14 @@
 <map id="sc_main" name="sc_main">
-<area shape="rect" id="node2" href="$namespacesr__signal.html#a1abd745bc2565a6e3a662ad1083bc1b8" title="Connects an input signal with an output signal. " alt="" coords="152,78,280,105"/>
-<area shape="rect" id="node5" href="$group__common.html#gad4248d00f950442171fdcc8779adc786" title="sr_report_handler::\ldefault_handler" alt="" coords="151,129,281,171"/>
-<area shape="rect" id="node7" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="191,195,241,222"/>
-<area shape="rect" id="node8" href="$classleon3__funclt__trap_1_1LEON3__ABIIf.html#afc2b9e5f2c86f8efaa4ba058965fffca" title="leon3_funclt_trap::\lLEON3_ABIIf::getExitValue" alt="" coords="124,247,308,288"/>
-<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a3878d5a0a50ec902ad3147dbb9e279bc" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::getInterface" alt="" coords="137,311,295,367"/>
-<area shape="rect" id="node10" href="$group__platform.html#ga49ae68e893fd9f5b18dd39d808512460" title="grethVPHYHook" alt="" coords="157,391,275,418"/>
-<area shape="rect" id="node11" href="$group__utils.html#ga1e502b9a84a32054d08a28935f19283b" title="CLKDevice::set_clk" alt="" coords="147,442,285,469"/>
-<area shape="rect" id="node13" href="$group__platform.html#gafecf8898523472cb5a02914ba07a2be2" title="stopSimFunction" alt="" coords="156,494,276,521"/>
-<area shape="rect" id="node3" href="$singletonsr__signal_1_1signal__in__if.html#ab7024ab7dd1860565d3c098d894666a6" title="sr_signal::signal_in\l_if::bind" alt="" coords="360,5,493,47"/>
-<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__bind__if.html#ac7c60ef8cd575cdeef5e68461f178f45" title="sr_signal::signal_out\l_bind_if::bind" alt="" coords="356,71,497,112"/>
-<area shape="rect" id="node6" href="$classsr__report.html#a5998c35779d5dc1cb507531ada5be38e" title="sr_report::set_msg" alt="" coords="361,137,492,163"/>
-<area shape="rect" id="node12" href="$classCLKDevice.html#a2ab7f95e762c85bc1e77b8145ffae92a" title="CLKDevice::clkcng" alt="" coords="359,439,494,466"/>
-<area shape="rect" id="node14" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="360,491,493,532"/>
+<area shape="rect" id="node2" href="$namespacesr__signal.html#a1abd745bc2565a6e3a662ad1083bc1b8" title="Connects an input signal with an output signal. " alt="" coords="153,77,281,104"/>
+<area shape="rect" id="node5" href="$group__common.html#gad4248d00f950442171fdcc8779adc786" title="sr_report_handler::\ldefault_handler" alt="" coords="152,129,283,170"/>
+<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1LEON3__ABIIf.html#afc2b9e5f2c86f8efaa4ba058965fffca" title="leon3_funclt_trap::\lLEON3_ABIIf::getExitValue" alt="" coords="125,194,309,235"/>
+<area shape="rect" id="node8" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a3878d5a0a50ec902ad3147dbb9e279bc" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::getInterface" alt="" coords="138,259,297,315"/>
+<area shape="rect" id="node9" href="$group__platform.html#ga49ae68e893fd9f5b18dd39d808512460" title="grethVPHYHook" alt="" coords="158,339,277,365"/>
+<area shape="rect" id="node10" href="$group__utils.html#ga1e502b9a84a32054d08a28935f19283b" title="CLKDevice::set_clk" alt="" coords="148,389,287,416"/>
+<area shape="rect" id="node12" href="$group__platform.html#gafecf8898523472cb5a02914ba07a2be2" title="stopSimFunction" alt="" coords="157,441,277,468"/>
+<area shape="rect" id="node3" href="$classsr__signal_1_1signal__in__if.html#ab7024ab7dd1860565d3c098d894666a6" title="sr_signal::signal_in\l_if::bind" alt="" coords="361,5,495,46"/>
+<area shape="rect" id="node4" href="$classsr__signal_1_1signal__out__bind__if.html#ac7c60ef8cd575cdeef5e68461f178f45" title="sr_signal::signal_out\l_bind_if::bind" alt="" coords="357,70,499,111"/>
+<area shape="rect" id="node6" href="$classsr__report.html#a5998c35779d5dc1cb507531ada5be38e" title="sr_report::set_msg" alt="" coords="363,136,493,163"/>
+<area shape="rect" id="node11" href="$classCLKDevice.html#a2ab7f95e762c85bc1e77b8145ffae92a" title="CLKDevice::clkcng" alt="" coords="361,387,495,413"/>
+<area shape="rect" id="node13" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="361,438,495,479"/>
 </map>

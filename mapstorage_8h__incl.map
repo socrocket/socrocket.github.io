@@ -1,7 +1,7 @@
 <map id="gaisler/memory/mapstorage.h" name="gaisler/memory/mapstorage.h">
-<area shape="rect" id="node2" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="5,80,153,107"/>
-<area shape="rect" id="node4" href="$storage_8h.html" title="gaisler/memory/storage.h" alt="" coords="180,80,349,107"/>
-<area shape="rect" id="node5" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="181,155,348,181"/>
-<area shape="rect" id="node10" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="547,155,724,181"/>
-<area shape="rect" id="node11" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="628,229,795,271"/>
+<area shape="rect" id="node2" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node4" href="$storage_8h.html" title="gaisler/memory/storage.h" alt="" coords="179,80,348,107"/>
+<area shape="rect" id="node5" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="181,155,347,181"/>
+<area shape="rect" id="node10" href="$sr__registry_8h.html" title="core/common/sr_registry.h" alt="" coords="546,155,723,181"/>
+<area shape="rect" id="node11" href="$sr__registry_2sr__registry_8h.html" title="core/common/sr_registry\l/sr_registry.h" alt="" coords="627,230,793,271"/>
 </map>

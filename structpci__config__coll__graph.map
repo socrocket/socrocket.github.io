@@ -1,5 +1,5 @@
 <map id="pci_config" name="pci_config">
-<area shape="rect" id="node2" href="$classchar.html" title="{char\n||}" alt="" coords="5,219,52,296"/>
-<area shape="rect" id="node3" href="$structpci__config__access__functions.html" title="{pci_config_access_functions\n||}" alt="" coords="76,219,267,296"/>
-<area shape="rect" id="node4" href="$classint.html" title="{int\n||}" alt="" coords="152,5,191,83"/>
+<area shape="rect" id="node2" href="$classchar.html" title="{char\n||}" alt="" coords="5,219,51,296"/>
+<area shape="rect" id="node3" href="$structpci__config__access__functions.html" title="{pci_config_access_functions\n||}" alt="" coords="75,219,265,296"/>
+<area shape="rect" id="node4" href="$classint.html" title="{int\n||}" alt="" coords="151,5,189,83"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="APBCtrl::getPNPReg" name="APBCtrl::getPNPReg">
-<area shape="rect" id="node2" href="$classAHBDevice.html#ad14d81f6bf16834857581de7c61c65d6" title="AHBDevice::get_ahb\l_bar_addr" alt="" coords="201,5,347,47"/>
-<area shape="rect" id="node3" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="213,71,335,98"/>
+<area shape="rect" id="node2" href="$classAHBDevice.html#ad14d81f6bf16834857581de7c61c65d6" title="AHBDevice\&lt; BaseModule\l\&lt; DefaultBase \&gt; \&gt;::get\l_ahb_bar_addr" alt="" coords="203,5,378,61"/>
+<area shape="rect" id="node3" href="$group__common.html#ga2e70f90e04ee467d36debee5245ead91" title="swap_Endianess" alt="" coords="230,85,351,112"/>
 </map>

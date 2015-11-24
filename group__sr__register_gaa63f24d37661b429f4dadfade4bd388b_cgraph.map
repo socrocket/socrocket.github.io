@@ -1,4 +1,4 @@
 <map id="sc_register_field_base::scireg_get_bit_width" name="sc_register_field_base::scireg_get_bit_width">
-<area shape="rect" id="node2" href="$group__sr__register.html#ga94ca62925c27ba39cbd807593656ea4e" title="sc_register_field_base\l::high_pos" alt="" coords="205,5,357,47"/>
-<area shape="rect" id="node3" href="$group__sr__register.html#ga854b20074d217466c5bf4f10653cff5e" title="sc_register_field_base\l::low_pos" alt="" coords="205,71,357,112"/>
+<area shape="rect" id="node2" href="$group__sr__register.html#ga94ca62925c27ba39cbd807593656ea4e" title="sc_register_field_base\l::high_pos" alt="" coords="205,5,357,46"/>
+<area shape="rect" id="node3" href="$group__sr__register.html#ga854b20074d217466c5bf4f10653cff5e" title="sc_register_field_base\l::low_pos" alt="" coords="205,70,357,111"/>
 </map>

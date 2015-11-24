@@ -1,9 +1,9 @@
 <map id="statemachine.ProcessStateMachine" name="statemachine.ProcessStateMachine">
-<area shape="rect" id="node2" href="$namespacestatemachine.html#a458045d4e5a5f966ec3ae671152ad031" title="statemachine.EscapeForRegExp" alt="" coords="245,5,459,32"/>
-<area shape="rect" id="node3" href="$namespacedoxycomment.html#aa992154c13347ffaaa8f72b9e92e4aba" title="doxycomment.IsCommentBlockEnd" alt="" coords="236,56,468,83"/>
-<area shape="rect" id="node4" href="$namespacedoxycomment.html#ac425cccc22952c82e3468471d4561486" title="doxycomment.IsCommentBlock\lStart" alt="" coords="247,107,457,149"/>
-<area shape="rect" id="node5" href="$namespacestatemachine.html#acb405b53a837adb5f881b69d28931e51" title="statemachine.ProcessState\lCases" alt="" coords="261,173,443,214"/>
-<area shape="rect" id="node6" href="$namespacepysc_1_1api_1_1cci.html#aa7cca9d71501549a754abc67a861a11a" title="pysc::api::cci::list" alt="" coords="760,180,885,207"/>
-<area shape="rect" id="node7" href="$namespaceerror__handler.html#ad4d4414f2a7559fb918e3c000c003bd5" title="error_handler.ReportError" alt="" coords="530,180,698,207"/>
-<area shape="rect" id="node8" href="$namespacestatemachine.html#a565ef0d80f48a2e82bf1c66488e76060" title="statemachine.SanitiseDotLink" alt="" coords="516,231,712,257"/>
+<area shape="rect" id="node2" href="$namespacestatemachine.html#a458045d4e5a5f966ec3ae671152ad031" title="statemachine.EscapeForRegExp" alt="" coords="246,5,461,32"/>
+<area shape="rect" id="node3" href="$namespacedoxycomment.html#aa992154c13347ffaaa8f72b9e92e4aba" title="doxycomment.IsCommentBlockEnd" alt="" coords="237,56,469,83"/>
+<area shape="rect" id="node4" href="$namespacedoxycomment.html#ac425cccc22952c82e3468471d4561486" title="doxycomment.IsCommentBlock\lStart" alt="" coords="249,107,458,149"/>
+<area shape="rect" id="node5" href="$namespacestatemachine.html#acb405b53a837adb5f881b69d28931e51" title="statemachine.ProcessState\lCases" alt="" coords="262,173,445,214"/>
+<area shape="rect" id="node6" href="$namespacepysc_1_1api_1_1cci.html#aa7cca9d71501549a754abc67a861a11a" title="pysc::api::cci::list" alt="" coords="763,180,888,207"/>
+<area shape="rect" id="node7" href="$namespaceerror__handler.html#ad4d4414f2a7559fb918e3c000c003bd5" title="error_handler.ReportError" alt="" coords="532,180,700,207"/>
+<area shape="rect" id="node8" href="$namespacestatemachine.html#a565ef0d80f48a2e82bf1c66488e76060" title="statemachine.SanitiseDotLink" alt="" coords="518,231,714,257"/>
 </map>

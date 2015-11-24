@@ -6,7 +6,7 @@
 <area shape="rect" id="node6" href="$group__apbuart.html#ga20e8a621a3575973375dc87cd75199e7" title="APBUART::data_read" alt="" coords="230,224,381,251"/>
 <area shape="rect" id="node8" href="$group__apbuart.html#ga44527e92cadfc14a3883cf2b4e949bc9" title="APBUART::data_write" alt="" coords="228,275,383,301"/>
 <area shape="rect" id="node11" href="$group__apbuart.html#gaa1b072eeb4c00569c5cf7087ba358625" title="APBUART::status_read" alt="" coords="224,325,387,352"/>
-<area shape="rect" id="node7" href="$group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f" title="APBUART::inc_fifo_level" alt="" coords="446,224,617,251"/>
-<area shape="rect" id="node9" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="476,275,587,301"/>
-<area shape="rect" id="node10" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="437,325,625,352"/>
+<area shape="rect" id="node7" href="$group__apbuart.html#ga18301b0a93cd13031daf7197977ace0f" title="APBUART::inc_fifo_level" alt="" coords="447,224,617,251"/>
+<area shape="rect" id="node9" href="$classio__if.html#a60c18cc48202db53e135fa3be9ad50cc" title="io_if::sendChar" alt="" coords="477,275,587,301"/>
+<area shape="rect" id="node10" href="$group__apbuart.html#ga18a29f378f7399981bfd202bf1df8653" title="APBUART::update_level_int" alt="" coords="438,325,626,352"/>
 </map>

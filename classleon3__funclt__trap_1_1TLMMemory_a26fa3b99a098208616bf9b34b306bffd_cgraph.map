@@ -1,5 +1,5 @@
 <map id="leon3_funclt_trap::TLMMemory::read_word" name="leon3_funclt_trap::TLMMemory::read_word">
-<area shape="rect" id="node2" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="301,5,351,32"/>
-<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1TLMMemory.html#acc974a665650a26ac9e52c14a6013d18" title="leon3_funclt_trap::\lTLMMemory::lock" alt="" coords="261,57,391,98"/>
-<area shape="rect" id="node4" href="$classleon3__funclt__trap_1_1MemoryInterface.html#a331dedb90db99300354429f8b89ab695" title="leon3_funclt_trap::\lMemoryInterface::swapEndianess" alt="" coords="216,122,436,163"/>
+<area shape="rect" id="node2" href="$cache_8c.html#a0a9e9396972b76c5947592479860020d" title="flush" alt="" coords="301,5,352,32"/>
+<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1TLMMemory.html#acc974a665650a26ac9e52c14a6013d18" title="leon3_funclt_trap::\lTLMMemory::lock" alt="" coords="262,57,391,98"/>
+<area shape="rect" id="node4" href="$classleon3__funclt__trap_1_1MemoryInterface.html#a331dedb90db99300354429f8b89ab695" title="leon3_funclt_trap::\lMemoryInterface::swapEndianess" alt="" coords="217,122,437,163"/>
 </map>

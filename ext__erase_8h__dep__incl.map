@@ -1,7 +1,7 @@
 <map id="gaisler/memory/ext_erase.h" name="gaisler/memory/ext_erase.h">
-<area shape="rect" id="node2" href="$memory_8h.html" title="gaisler/memory/memory.h" alt="" coords="119,95,292,121"/>
-<area shape="rect" id="node5" href="$mctrl_8h.html" title="gaisler/mctrl/mctrl.h" alt="" coords="317,95,454,121"/>
-<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="217,169,375,211"/>
-<area shape="rect" id="node4" href="$memory_2memory_8cpp.html" title="gaisler/memory/memory.cpp" alt="" coords="5,177,192,203"/>
-<area shape="rect" id="node6" href="$mctrl_8cpp.html" title="gaisler/mctrl/mctrl.cpp" alt="" coords="399,177,550,203"/>
+<area shape="rect" id="node2" href="$memory_8h.html" title="gaisler/memory/memory.h" alt="" coords="119,96,292,123"/>
+<area shape="rect" id="node5" href="$mctrl_8h.html" title="gaisler/mctrl/mctrl.h" alt="" coords="317,96,453,123"/>
+<area shape="rect" id="node3" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="217,171,375,213"/>
+<area shape="rect" id="node4" href="$memory_2memory_8cpp.html" title="gaisler/memory/memory.cpp" alt="" coords="5,179,192,205"/>
+<area shape="rect" id="node6" href="$mctrl_8cpp.html" title="gaisler/mctrl/mctrl.cpp" alt="" coords="399,179,549,205"/>
 </map>

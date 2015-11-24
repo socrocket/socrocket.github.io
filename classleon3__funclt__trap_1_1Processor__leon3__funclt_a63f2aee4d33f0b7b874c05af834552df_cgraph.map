@@ -1,10 +1,10 @@
 <map id="leon3_funclt_trap::Processor_leon3_funclt::Processor_leon3_funclt" name="leon3_funclt_trap::Processor_leon3_funclt::Processor_leon3_funclt">
-<area shape="rect" id="node2" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#aae188e80bf6392a32fab0258029cb60e" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::int_power_cb" alt="" coords="259,5,418,61"/>
-<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#aa236872038d2d898e9a685e61800b644" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::mainLoop" alt="" coords="259,85,418,141"/>
-<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1RegisterBankClass.html#a8a96bdf3398d825906e3bd028b74af42" title="leon3_funclt_trap::\lRegisterBankClass::setNewRegister" alt="" coords="220,165,457,206"/>
-<area shape="rect" id="node6" href="$classleon3__funclt__trap_1_1RegisterBankClass.html#a020ea3ce4e960feb499199807a909f6b" title="leon3_funclt_trap::\lRegisterBankClass::setSize" alt="" coords="245,230,432,271"/>
-<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a5d464ae38e3c788b7f1c5b8dd1751129" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::sta_power_cb" alt="" coords="259,295,418,351"/>
-<area shape="rect" id="node8" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a04bd340d9e3267014abc48705d7c2afc" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::swi_power_cb" alt="" coords="259,375,418,431"/>
-<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Alias.html#ae2d59e78e59aa01755d057a02e78fe3c" title="leon3_funclt_trap::\lAlias::updateAlias" alt="" coords="274,454,403,495"/>
-<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="505,93,639,134"/>
+<area shape="rect" id="node2" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#aae188e80bf6392a32fab0258029cb60e" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::int_power_cb" alt="" coords="261,5,419,61"/>
+<area shape="rect" id="node3" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#aa236872038d2d898e9a685e61800b644" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::mainLoop" alt="" coords="261,85,419,141"/>
+<area shape="rect" id="node5" href="$classleon3__funclt__trap_1_1RegisterBankClass.html#a8a96bdf3398d825906e3bd028b74af42" title="leon3_funclt_trap::\lRegisterBankClass::setNewRegister" alt="" coords="221,165,459,206"/>
+<area shape="rect" id="node6" href="$classleon3__funclt__trap_1_1RegisterBankClass.html#a020ea3ce4e960feb499199807a909f6b" title="leon3_funclt_trap::\lRegisterBankClass::setSize" alt="" coords="247,230,433,271"/>
+<area shape="rect" id="node7" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a5d464ae38e3c788b7f1c5b8dd1751129" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::sta_power_cb" alt="" coords="261,295,419,351"/>
+<area shape="rect" id="node8" href="$classleon3__funclt__trap_1_1Processor__leon3__funclt.html#a04bd340d9e3267014abc48705d7c2afc" title="leon3_funclt_trap::\lProcessor_leon3_funclt\l::swi_power_cb" alt="" coords="261,375,419,431"/>
+<area shape="rect" id="node9" href="$classleon3__funclt__trap_1_1Alias.html#ae2d59e78e59aa01755d057a02e78fe3c" title="leon3_funclt_trap::\lAlias::updateAlias" alt="" coords="275,454,405,495"/>
+<area shape="rect" id="node4" href="$namespacepysc_1_1api_1_1systemc.html#a0f19169551bf6f5170fb3be515ce4365" title="pysc::api::systemc\l::wait" alt="" coords="507,93,640,134"/>
 </map>

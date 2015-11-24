@@ -1,13 +1,13 @@
 <map id="ReportIO" name="ReportIO">
-<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="175,1065,366,1216"/>
-<area shape="rect" id="node6" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="132,786,286,937"/>
-<area shape="rect" id="node7" href="$classBASE.html" title="{BASE\n||}" alt="" coords="180,477,238,555"/>
-<area shape="rect" id="node8" href="$classio__if.html" title="{io_if\n||+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l}" alt="" coords="390,1087,532,1194"/>
-<area shape="rect" id="node9" href="$classsr__param_3_01bool_01_4.html" title="Template specialization for sr_param&lt;bool&gt;. " alt="" coords="556,1051,763,1231"/>
-<area shape="rect" id="node10" href="$classsr__param__t.html" title="{sr_param_t\&lt; bool \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="576,735,743,988"/>
-<area shape="rect" id="node11" href="$classsr__param__base.html" title="{sr_param_base\n||+ sr_param_base()\l+ setProperty()\l+ getProperty()\l+ getProperties()\l+ deleteProperty()\l+ exists()\l+ add_properties()\l}" alt="" coords="817,147,948,312"/>
-<area shape="rect" id="node16" href="$classsr__param__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="659,389,826,643"/>
-<area shape="rect" id="node13" title="STL class. " alt="" coords="440,191,520,268"/>
-<area shape="rect" id="node14" title="STL class. " alt="" coords="416,5,543,97"/>
-<area shape="rect" id="node15" href="$classbool.html" title="{bool\n||}" alt="" coords="588,477,635,555"/>
+<area shape="rect" id="node2" href="$classBaseModule.html" title="{BaseModule\&lt; DefaultBase \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="175,1071,365,1222"/>
+<area shape="rect" id="node6" href="$classBaseModule.html" title="{BaseModule\&lt; BASE \&gt;\n||+ BaseModule()\l+ ~BaseModule()\l+ init_generics()\l+ init_registers()\l+ init_counters()\l+ init_power()\l}" alt="" coords="132,790,285,941"/>
+<area shape="rect" id="node7" href="$classBASE.html" title="{BASE\n||}" alt="" coords="180,480,237,557"/>
+<area shape="rect" id="node8" href="$classio__if.html" title="{io_if\n||+ receivedChars()\l+ getReceivedChar()\l+ sendChar()\l}" alt="" coords="390,1093,532,1200"/>
+<area shape="rect" id="node9" href="$classsr__param_3_01bool_01_4.html" title="Template specialization for sr_param&lt;bool&gt;. " alt="" coords="556,1057,762,1237"/>
+<area shape="rect" id="node10" href="$classsr__param__t.html" title="{sr_param_t\&lt; bool \&gt;\n||+ operator+=()\l+ operator&#45;=()\l+ operator/=()\l+ operator*=()\l+ operator+()\l+ operator&#45;()\l+ operator/()\l+ operator*()\l+ operator%=()\l+ operator^=()\land 27 more...\l# mirror_callback()\l# convertStringToValue()\l}" alt="" coords="576,739,742,992"/>
+<area shape="rect" id="node11" href="$classsr__param__base.html" title="{sr_param_base\n||+ sr_param_base()\l+ setProperty()\l+ getProperty()\l+ getProperties()\l+ deleteProperty()\l+ exists()\l+ add_properties()\l}" alt="" coords="817,149,946,315"/>
+<area shape="rect" id="node16" href="$classsr__param__t.html" title="Template specialized base class for configuration parameters. " alt="" coords="659,392,825,645"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="440,193,518,271"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="416,6,542,98"/>
+<area shape="rect" id="node15" href="$classbool.html" title="{bool\n||}" alt="" coords="588,480,634,557"/>
 </map>

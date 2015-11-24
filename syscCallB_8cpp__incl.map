@@ -1,10 +1,10 @@
 <map id="core/common/trapgen/osEmulator/syscCallB.cpp" name="core/common/trapgen/osEmulator/syscCallB.cpp">
-<area shape="rect" id="node2" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="168,184,337,225"/>
-<area shape="rect" id="node9" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="1299,95,1481,136"/>
-<area shape="rect" id="node4" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="140,281,288,307"/>
-<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1749,273,1897,315"/>
-<area shape="rect" id="node17" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="757,184,905,225"/>
-<area shape="rect" id="node22" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1995,191,2161,218"/>
-<area shape="rect" id="node15" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1795,363,1982,404"/>
-<area shape="rect" id="node19" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="576,273,724,315"/>
+<area shape="rect" id="node2" href="$elfFrontend_8hpp.html" title="core/common/trapgen\l/elfloader/elfFrontend.hpp" alt="" coords="168,187,337,229"/>
+<area shape="rect" id="node9" href="$syscCallB_8hpp.html" title="core/common/trapgen\l/osEmulator/syscCallB.hpp" alt="" coords="1299,97,1481,138"/>
+<area shape="rect" id="node4" href="$vmap_8h.html" title="core/common/vmap.h" alt="" coords="140,285,287,312"/>
+<area shape="rect" id="node10" href="$trap__utils_8hpp.html" title="core/common/trapgen\l/utils/trap_utils.hpp" alt="" coords="1749,278,1897,319"/>
+<area shape="rect" id="node17" href="$ABIIf_8hpp.html" title="core/common/trapgen\l/ABIIf.hpp" alt="" coords="757,187,905,229"/>
+<area shape="rect" id="node22" href="$core_2common_2systemc_8h.html" title="core/common/systemc.h" alt="" coords="1995,195,2161,221"/>
+<area shape="rect" id="node15" href="$customExceptions_8hpp.html" title="core/common/trapgen\l/utils/customExceptions.hpp" alt="" coords="1795,369,1982,410"/>
+<area shape="rect" id="node19" href="$instructionBase_8hpp.html" title="core/common/trapgen\l/instructionBase.hpp" alt="" coords="576,278,723,319"/>
 </map>

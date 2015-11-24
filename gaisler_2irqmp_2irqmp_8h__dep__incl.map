@@ -1,6 +1,6 @@
 <map id="gaisler/irqmp/irqmp.h" name="gaisler/irqmp/irqmp.h">
-<area shape="rect" id="node2" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="5,80,143,121"/>
-<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="167,80,325,121"/>
-<area shape="rect" id="node5" href="$irqmp_8cpp.html" title="gaisler/irqmp/irqmp.cpp" alt="" coords="350,87,507,114"/>
-<area shape="rect" id="node3" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,169,143,211"/>
+<area shape="rect" id="node2" href="$ambabase_8h.html" title="core/platforms/base\l/ambabase.h" alt="" coords="5,81,141,122"/>
+<area shape="rect" id="node4" href="$sc__main_8cpp.html" title="core/platforms/leon3mp\l/sc_main.cpp" alt="" coords="166,81,324,122"/>
+<area shape="rect" id="node5" href="$irqmp_8cpp.html" title="gaisler/irqmp/irqmp.cpp" alt="" coords="349,88,507,115"/>
+<area shape="rect" id="node3" href="$leon3processor_8h.html" title="core/platforms/base\l/leon3processor.h" alt="" coords="5,171,141,213"/>
 </map>

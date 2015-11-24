@@ -1,4 +1,4 @@
 <map id="mmu::tlb_lookup" name="mmu::tlb_lookup">
-<area shape="rect" id="node2" href="$group__mmu__cache.html#gab14541cb4307d8de3c2e2052ca3b7a5d" title="mmu::tlb_remove" alt="" coords="186,5,309,32"/>
-<area shape="rect" id="node3" href="$classmmu__cache__if.html#a0501f4246cc46e29a47005463678f587" title="mmu_cache_if::trigger\l_exception" alt="" coords="172,57,323,98"/>
+<area shape="rect" id="node2" href="$group__mmu__cache.html#gab14541cb4307d8de3c2e2052ca3b7a5d" title="mmu::tlb_remove" alt="" coords="188,5,311,32"/>
+<area shape="rect" id="node3" href="$classmmu__cache__if.html#a0501f4246cc46e29a47005463678f587" title="mmu_cache_if::trigger\l_exception" alt="" coords="174,57,325,98"/>
 </map>

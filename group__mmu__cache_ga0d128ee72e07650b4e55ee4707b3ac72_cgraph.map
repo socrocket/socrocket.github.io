@@ -1,6 +1,6 @@
 <map id="Leon3::clkcng" name="Leon3::clkcng">
-<area shape="rect" id="node2" href="$group__mmu__cache__base.html#ga0529f163c0826f9f5013c4849f6d4acb" title="Deal with clock changes. " alt="" coords="156,56,331,83"/>
-<area shape="rect" id="node3" href="$classcache__if.html#a39b686462607a6468ddd18a893361dee" title="cache_if::clkcng" alt="" coords="379,5,496,32"/>
-<area shape="rect" id="node4" href="$group__mmu__cache.html#gaab41cf77c3c8576f07510e3702a3f460" title="Helper functions for definition of clock cycle. " alt="" coords="389,56,486,83"/>
-<area shape="rect" id="node5" href="$group__mmu__cache.html#gab92ff71175ea466d7c1fde9311d0d905" title="Helper functions for definition of clock cycle. " alt="" coords="379,107,496,133"/>
+<area shape="rect" id="node2" href="$group__mmu__cache__base.html#ga0529f163c0826f9f5013c4849f6d4acb" title="Deal with clock changes. " alt="" coords="158,56,333,83"/>
+<area shape="rect" id="node3" href="$classcache__if.html#a39b686462607a6468ddd18a893361dee" title="cache_if::clkcng" alt="" coords="381,5,499,32"/>
+<area shape="rect" id="node4" href="$group__mmu__cache.html#gaab41cf77c3c8576f07510e3702a3f460" title="Helper functions for definition of clock cycle. " alt="" coords="391,56,489,83"/>
+<area shape="rect" id="node5" href="$group__mmu__cache.html#gab92ff71175ea466d7c1fde9311d0d905" title="Helper functions for definition of clock cycle. " alt="" coords="381,107,499,133"/>
 </map>

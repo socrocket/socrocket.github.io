@@ -1,5 +1,8 @@
 <map id="vectorcache::snoop_invalidate" name="vectorcache::snoop_invalidate">
-<area shape="rect" id="node2" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="189,5,364,32"/>
-<area shape="rect" id="node3" href="$group__mmu__cache.html#ga30cfa4945963b178a797f31288515ff8" title="reads a cache line from a cache set " alt="" coords="207,56,346,83"/>
-<area shape="rect" id="node4" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="193,107,361,133"/>
+<area shape="rect" id="node2" href="$classvectorcache.html#a355702396c8483272345a7cce77ff3aa" title="Returns the mode bits of the cache. " alt="" coords="190,5,365,32"/>
+<area shape="rect" id="node3" href="$classvectorcache.html#a0f8408c83f6d5d40e668a563aa488491" title="vectorcache::get_idx" alt="" coords="206,56,349,83"/>
+<area shape="rect" id="node4" href="$classvectorcache.html#af89554cdbd5690a2e74f1ba6328ad519" title="vectorcache::get_offset" alt="" coords="198,107,357,133"/>
+<area shape="rect" id="node5" href="$classvectorcache.html#a8e9512157d817a5e027abca1a6a02332" title="Address parsing one&#45;liners. " alt="" coords="205,157,349,184"/>
+<area shape="rect" id="node6" href="$classvectorcache.html#a827b3080bda9e542b473d95b693e3129" title="vectorcache::lookup_line" alt="" coords="194,208,361,235"/>
+<area shape="rect" id="node7" href="$group__mmu__cache.html#ga78e27913668aee0364241d782f754461" title="Transforms a cache&#45;line offset into a valid mask. " alt="" coords="193,259,361,285"/>
 </map>
